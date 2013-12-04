@@ -1,0 +1,35 @@
+
+
+/* Internet Explorer 6 and 5.5 bug fixes */
+
+body{ text-align: center; }  /* center main div in IE 5.5 */
+#page{ text-align: left; }
+
+blockquote{ background: none; }
+
+#tabs a, #tabs a span, #tabs a span span,
+.secondary-tabs li a, .secondary-tabs  li a span, .secondary-tabs  li a span span {
+ float:left;
+ display: block;
+}
+
+#tabs a { margin-right:1px; }
+
+#sidebar ul.nav a.rss{ visibility: hidden; }
+#sidebar ul.nav li{ position: static; }
+
+#sidebar-wrap1{ background: transparent url(images/side-start-ie6.png) no-repeat left top; }
+#sidebar-wrap2{ background: transparent url(images/side-bg-ie6.png) no-repeat right top; }
+
+span.quote a:hover, span.reply a:hover, span.submit a:hover { background: transparent url(images/button-bg.png) no-repeat right bottom; }
+
+/* WORDPRESS SPECIFIC STYLES */
+
+#commentnavi{
+  display: block;
+  margin: 40px 0 20px 0;
+}
+
+li.comment{
+  display: inline-block;
+}

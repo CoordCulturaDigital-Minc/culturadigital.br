@@ -1,0 +1,1 @@
+(function(){var a=function(h,d,b,c,g,f){if(d!=="youtube"){return}window.location="http://www.youtube.com/watch?v="+g};TubePress.Beacon.subscribe("tubepress.playerlocation.invoke",a)}());

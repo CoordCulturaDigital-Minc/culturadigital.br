@@ -1,0 +1,15 @@
+#content-body{width:548px;}
+#header{background:transparent url(images/wider/two-sidebars/content_top.png) no-repeat;}
+#content{background: #FFF url(images/wider/two-sidebars/content_middle.png) repeat-y;}
+#footer{background:transparent url(images/wider/two-sidebars/content_bottom.png) no-repeat;}
+.content-sidebar-2{ padding-left:12px;margin:7px 13px 0 -23px;width:164px;display:inline-block;overflow:hidden;vertical-align:top; }
+.content-sidebar-2{*margin:7px 9px 0 -23px;_margin:7px 9px 0 -19px;*float:left;}
+.content-sidebar-2 h3{ font-size:11px; background-color:#EEE;padding:8px 10px;border-top:1px solid #DCDCDB;border-bottom:1px solid #DCDCDB;}
+.content-sidebar-2 ul{list-style:none;}
+.content-sidebar-2 ul li{ padding-left:10px; padding-right:10px; width:145px;}
+.content-sidebar-2 .textwidget{ padding:5px 10px; }
+.hentry{width:547px;}
+.cat_tags{background:#FFF url(images/tags_category.png) no-repeat;width:540px;}
+.cat_tags_close{background:#FFF url(images/tags_category.png) 0 -81px no-repeat;width:548px;}
+.cat_tags .category{width:300px;}
+.cat_tags .continue{padding-right:10px;}

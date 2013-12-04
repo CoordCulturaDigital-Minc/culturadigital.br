@@ -1,0 +1,13 @@
+
+
+/* green color scheme (default) */
+
+.block h3.title,.block h3.title span,.block .block-div,.block .block-div-arrow{background-image:url(images/green/block-title.png)}
+.search-form #searchfield,.search-form input.submit{background-image:url(images/green/search.png);}
+li.comment .comment-head{background-image:url(images/green/comment-head.png);}
+li.comment .comment-head.comment-author-admin,li.comment .comment-head.bypostauthor{background-color:#abd91d;}
+.tabs-wrap{background-image:url(images/green/tabs-bg.png);}
+.tabs li{background-image:url(images/green/tabs-c.png);}
+.tabs li a{background-image:url(images/green/tabs.png);}
+#site-title p.headline{color:#c2dc15;}
+.altText{color:#a0c207;}

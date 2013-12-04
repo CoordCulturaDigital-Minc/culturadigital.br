@@ -1,0 +1,400 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: monochrome\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-04 15:00+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mono-lab.net <support@mono-lab.net>\n"
+"Language-Team: monolab <mail@monolab.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\Program Files\\xampp\\htdocs\\testblog15\n"
+"X-Poedit-SearchPath-0: wp-content\\themes\\monochrome\n"
+
+#: wp-content\themes\monochrome/archive.php:12
+#, php-format
+msgid "Archive for the &#8216; %s &#8217; Category"
+msgstr "&#8216;<span id=\"keyword\"> %s </span>&#8217; 分類的彙整"
+
+#: wp-content\themes\monochrome/archive.php:15
+#, php-format
+msgid "Posts Tagged &#8216; %s &#8217;"
+msgstr "有 &#8216;<span id=\"keyword\"> %s </span>&#8217; 標籤的文章"
+
+#: wp-content\themes\monochrome/archive.php:18
+#: wp-content\themes\monochrome/archive.php:21
+#: wp-content\themes\monochrome/archive.php:24
+#, php-format
+msgid "Archive for %s"
+msgstr "<span id=\"keyword\"> %s </span>的彙整"
+
+#: wp-content\themes\monochrome/archive.php:18
+#: wp-content\themes\monochrome/archive.php:39
+#: wp-content\themes\monochrome/comments.php:116
+#: wp-content\themes\monochrome/functions.php:245
+#: wp-content\themes\monochrome/search.php:18
+msgid "F jS, Y"
+msgstr "Y 年 n 月 j 日"
+
+#: wp-content\themes\monochrome/archive.php:21
+msgid "F, Y"
+msgstr "Y 年 n 月"
+
+#: wp-content\themes\monochrome/archive.php:24
+msgid "Y"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:27
+msgid "Author Archive"
+msgstr "作者彙整"
+
+#: wp-content\themes\monochrome/archive.php:30
+msgid "Blog Archives"
+msgstr "部落格彙整"
+
+#: wp-content\themes\monochrome/archive.php:40
+#: wp-content\themes\monochrome/search.php:19
+msgid "Posted in "
+msgstr "張貼於"
+
+#: wp-content\themes\monochrome/archive.php:41
+#: wp-content\themes\monochrome/search.php:20
+msgid "By "
+msgstr "由&nbsp;"
+
+#: wp-content\themes\monochrome/archive.php:42
+#: wp-content\themes\monochrome/comments.php:117
+#: wp-content\themes\monochrome/index.php:30
+#: wp-content\themes\monochrome/page-nocomment.php:28
+#: wp-content\themes\monochrome/page.php:24
+#: wp-content\themes\monochrome/search.php:21
+#: wp-content\themes\monochrome/single.php:29
+msgid "[ EDIT ]"
+msgstr "[ 編輯 ]"
+
+#: wp-content\themes\monochrome/archive.php:44
+#: wp-content\themes\monochrome/search.php:23
+msgid "[ READ MORE ]"
+msgstr "[ 繼續閱讀 ]"
+
+#: wp-content\themes\monochrome/archive.php:49
+#: wp-content\themes\monochrome/index.php:40
+#: wp-content\themes\monochrome/page-nocomment-noinfo.php:27
+#: wp-content\themes\monochrome/page-nocomment.php:36
+#: wp-content\themes\monochrome/page-noside-nocomment.php:22
+#: wp-content\themes\monochrome/page-noside.php:21
+#: wp-content\themes\monochrome/page.php:32
+#: wp-content\themes\monochrome/search.php:28
+#: wp-content\themes\monochrome/single.php:37
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "對不起, 你尋找的東西不存在."
+
+#: wp-content\themes\monochrome/comments.php:10
+#: wp-content\themes\monochrome/comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "這篇有密碼保護. 請輸入密碼看回應."
+
+#: wp-content\themes\monochrome/comments.php:39
+#: wp-content\themes\monochrome/index.php:29
+#: wp-content\themes\monochrome/page.php:23
+#: wp-content\themes\monochrome/single.php:28
+msgid "Write comment"
+msgstr "撰寫回應"
+
+#: wp-content\themes\monochrome/comments.php:41
+msgid "Comments RSS"
+msgstr "回應 RSS"
+
+#: wp-content\themes\monochrome/comments.php:46
+msgid "Trackback"
+msgstr "引用"
+
+#: wp-content\themes\monochrome/comments.php:47
+#: wp-content\themes\monochrome/comments.php:50
+msgid "Comments"
+msgstr "回應"
+
+#: wp-content\themes\monochrome/comments.php:49
+msgid "Trackback are closed"
+msgstr "引用已關閉"
+
+#: wp-content\themes\monochrome/comments.php:78
+msgid "No comments yet."
+msgstr "尚無回應."
+
+#: wp-content\themes\monochrome/comments.php:105
+msgid "TrackBack URL"
+msgstr "引用網址"
+
+#: wp-content\themes\monochrome/comments.php:120
+msgid "Trackback from : "
+msgstr "引用來源 :"
+
+#: wp-content\themes\monochrome/comments.php:126
+msgid "No trackbacks yet."
+msgstr "尚無引用."
+
+#: wp-content\themes\monochrome/comments.php:141
+msgid "Comment are closed."
+msgstr "回應已關閉."
+
+#: wp-content\themes\monochrome/comments.php:156
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "你必須 <a href=\"%s\">登入</a> 才可以貼回應."
+
+#: wp-content\themes\monochrome/comments.php:175
+#: wp-content\themes\monochrome/comments.php:177
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "以 <a href=\"%1$s\">%2$s</a> 登入."
+
+#: wp-content\themes\monochrome/comments.php:175
+#: wp-content\themes\monochrome/comments.php:177
+msgid "Log out of this account"
+msgstr "登出這個帳號"
+
+#: wp-content\themes\monochrome/comments.php:175
+msgid "[ Log out ]"
+msgstr "[ 登出 ]"
+
+#: wp-content\themes\monochrome/comments.php:177
+msgid "Log out"
+msgstr "登出"
+
+#: wp-content\themes\monochrome/comments.php:182
+msgid "NAME"
+msgstr "名稱"
+
+#: wp-content\themes\monochrome/comments.php:182
+#: wp-content\themes\monochrome/comments.php:183
+msgid "( required )"
+msgstr "( 必須 )"
+
+#: wp-content\themes\monochrome/comments.php:183
+msgid "E-MAIL"
+msgstr "電子郵件"
+
+#: wp-content\themes\monochrome/comments.php:183
+msgid "- will not be published -"
+msgstr "- 不會被公開 -"
+
+#: wp-content\themes\monochrome/comments.php:184
+msgid "URL"
+msgstr "網址"
+
+#: wp-content\themes\monochrome/comments.php:193
+msgid "Submit Comment"
+msgstr "送出回應"
+
+#: wp-content\themes\monochrome/footer.php:10
+msgid "Copyright &copy;&nbsp; "
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:89
+msgid "Theme Options"
+msgstr "佈景選項"
+
+#: wp-content\themes\monochrome/functions.php:98
+msgid "Monochrome option"
+msgstr "Monochrome 選項"
+
+#: wp-content\themes\monochrome/functions.php:102
+msgid "Show Information on sidebar."
+msgstr "在側邊顯示資訊."
+
+#: wp-content\themes\monochrome/functions.php:104
+#: wp-content\themes\monochrome/functions.php:118
+#: wp-content\themes\monochrome/functions.php:131
+#: wp-content\themes\monochrome/functions.php:152
+#: wp-content\themes\monochrome/functions.php:158
+#: wp-content\themes\monochrome/functions.php:163
+msgid "Yes"
+msgstr "是的"
+
+#: wp-content\themes\monochrome/functions.php:108
+msgid "Information title."
+msgstr "資訊標題."
+
+#: wp-content\themes\monochrome/functions.php:112
+msgid "Information contents. ( HTML tag is available. )"
+msgstr "資訊內容. ( HTML 標籤可用. )"
+
+#: wp-content\themes\monochrome/functions.php:116
+msgid "Show rss feed on sidebar."
+msgstr "在側邊顯示 RSS Feed."
+
+#: wp-content\themes\monochrome/functions.php:122
+msgid "Position of search area on sidebar."
+msgstr "搜尋區域在側邊的位置."
+
+#: wp-content\themes\monochrome/functions.php:124
+msgid "Top"
+msgstr "上方"
+
+#: wp-content\themes\monochrome/functions.php:125
+msgid "Bottom"
+msgstr "下方"
+
+#: wp-content\themes\monochrome/functions.php:129
+msgid "Show tag list under search area."
+msgstr "在搜尋區域下方顯示標籤."
+
+#: wp-content\themes\monochrome/functions.php:135
+msgid "Header menu."
+msgstr "頁首選單."
+
+#: wp-content\themes\monochrome/functions.php:137
+msgid "Use pages for header menu."
+msgstr "使用分頁在頁首選單."
+
+#: wp-content\themes\monochrome/functions.php:138
+msgid "Use categories for header menu."
+msgstr "使用分類在頁首選單."
+
+#: wp-content\themes\monochrome/functions.php:142
+msgid "Exclude Pages (Page ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr "除外分頁 (在頁首不要顯示的分頁編號. 使用逗號分隔列出, 譬如 1,2,3)"
+
+#: wp-content\themes\monochrome/functions.php:146
+msgid "Exclude Categories (Category ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr "除外分類 (在頁首不要顯示的分類編號. 使用逗號分隔列出, 譬如 1,2,3)"
+
+#: wp-content\themes\monochrome/functions.php:150
+msgid "Show author name."
+msgstr "顯示作者名稱."
+
+#: wp-content\themes\monochrome/functions.php:156
+msgid "Show tag."
+msgstr "顯示標籤."
+
+#: wp-content\themes\monochrome/functions.php:162
+msgid "Check if you want to show Return top link.<br />( NOTICE : Return top link does not work on IE6. )"
+msgstr "若要顯示 Return top 的連結請打勾.<br />( 注意 : Return top 連結無法用於 IE6. )"
+
+#: wp-content\themes\monochrome/functions.php:167
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: wp-content\themes\monochrome/functions.php:252
+#: wp-content\themes\monochrome/functions.php:254
+#: wp-content\themes\monochrome/functions.php:257
+msgid "REPLY"
+msgstr "回覆"
+
+#: wp-content\themes\monochrome/functions.php:259
+msgid "QUOTE"
+msgstr "引述"
+
+#: wp-content\themes\monochrome/functions.php:260
+msgid "EDIT"
+msgstr "編輯"
+
+#: wp-content\themes\monochrome/functions.php:266
+msgid "Your comment is awaiting moderation."
+msgstr "你的回應正在審核中."
+
+#: wp-content\themes\monochrome/header.php:13
+msgid " | "
+msgstr ""
+
+#: wp-content\themes\monochrome/header.php:50
+msgid "HOME"
+msgstr "首頁"
+
+#: wp-content\themes\monochrome/index.php:14
+#: wp-content\themes\monochrome/page-nocomment-noinfo.php:18
+#: wp-content\themes\monochrome/page-nocomment.php:18
+#: wp-content\themes\monochrome/page-noside-nocomment.php:15
+#: wp-content\themes\monochrome/page-noside.php:15
+#: wp-content\themes\monochrome/page.php:13
+#: wp-content\themes\monochrome/single.php:13
+msgid "Read more"
+msgstr "繼續閱讀"
+
+#: wp-content\themes\monochrome/index.php:21
+#: wp-content\themes\monochrome/page-nocomment.php:25
+#: wp-content\themes\monochrome/page.php:20
+#: wp-content\themes\monochrome/single.php:20
+msgid "POSTED BY"
+msgstr "張貼者"
+
+#: wp-content\themes\monochrome/index.php:24
+#: wp-content\themes\monochrome/single.php:23
+msgid "CATEGORY"
+msgstr "分類"
+
+#: wp-content\themes\monochrome/index.php:27
+#: wp-content\themes\monochrome/single.php:26
+msgid "<dt>TAGS</dt><dd>"
+msgstr "<dt>標籤</dt><dd>"
+
+#: wp-content\themes\monochrome/index.php:29
+msgid "1 comment"
+msgstr "1 個回應"
+
+#: wp-content\themes\monochrome/index.php:29
+#, php-format
+msgid "% comments"
+msgstr "% 個回應"
+
+#: wp-content\themes\monochrome/search.php:10
+msgid "Search results for "
+msgstr "搜尋結果"
+
+#: wp-content\themes\monochrome/search.php:10
+msgid " hit"
+msgstr "符合"
+
+#: wp-content\themes\monochrome/sidebar.php:7
+msgid "Information"
+msgstr "訊息"
+
+#: wp-content\themes\monochrome/sidebar.php:8
+msgid "Change this sentence and title from admin Theme option page."
+msgstr "在管理佈景選項頁面改變標題和內容."
+
+#: wp-content\themes\monochrome/sidebar.php:12
+msgid "Entries RSS"
+msgstr "完整 RSS"
+
+#: wp-content\themes\monochrome/sidebar.php:12
+msgid "RSS FEED"
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:22
+#: wp-content\themes\monochrome/sidebar.php:68
+msgid "Search"
+msgstr "搜尋"
+
+#: wp-content\themes\monochrome/sidebar.php:23
+#: wp-content\themes\monochrome/sidebar.php:69
+msgid "Search from this blog."
+msgstr "在這部落格裡搜尋"
+
+#: wp-content\themes\monochrome/sidebar.php:28
+#: wp-content\themes\monochrome/sidebar.php:74
+msgid "TAG LIST"
+msgstr "標籤列表"
+
+#: wp-content\themes\monochrome/sidebar.php:38
+msgid "Recent entry"
+msgstr "近期文章"
+
+#: wp-content\themes\monochrome/sidebar.php:48
+msgid "Archive"
+msgstr "彙整"
+
+#: wp-content\themes\monochrome/sidebar.php:55
+msgid "Category"
+msgstr "分類"
+
+#: wp-content\themes\monochrome/sidebar.php:65
+msgid "SEARCH"
+msgstr "搜尋"
+

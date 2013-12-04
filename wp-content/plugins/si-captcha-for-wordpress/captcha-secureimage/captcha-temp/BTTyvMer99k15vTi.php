@@ -1,0 +1,1 @@
+<?php $captcha_word = 'AN5P'; ?>

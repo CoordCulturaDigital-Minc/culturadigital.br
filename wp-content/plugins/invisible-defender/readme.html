@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>	
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>Invisible Defender 1.8.1 Readme</title>
+</head>
+<body>
+<h1>Invisible Defender 1.8.1 Readme</h1>
+<p>This plugin protects your registration, login and comment forms against spambots.</p>
+<p><b>Plugin Homepage:</b> <a href="http://www.poradnik-webmastera.com/projekty/invisible_defender/">Invisible Defender</a></p>
+<p><b>Plugin Homepage on WordPress.org:</b> <a href="http://wordpress.org/extend/plugins/invisible-defender/">Invisible Defender</a></p>
+<p><b>Author Homepage:</b> <a href="http://www.poradnik-webmastera.com/">Poradnik Webmastera</a></p>
+<p><b>Author:</b> Daniel Frużyński</p>
+
+<h2>Description</h2>
+<p>This plugin protects registration, login and comment forms from spambots by adding two extra fields hidden by CSS. This approach gave me 100% anti-spam protection on one of my sites.</p>
+<p>The idea behind this plugin is simple: SPAMBOTs either fill every form field they find (generic spambots) or fill WordPress-specific fields only (spambots which will recognise WP or are targeting WP only). Therefore it is sufficient to add two extra text fields to form (one empty and one with predefined value), and check theirs values after form is submitted. 1st field (empty one) will be filled by generic spambots, and 2nd one will not be filled by spambots targeting WP only. With these two simple checks probably all spambots can be easily detected, so WP can return error "403 Forbidden" for them.</p>
+<p>These two extra fields are hidden with CSS rule, so they will not be visible for most users. Only users with text-based browsers (and very old ones which not support CSS) will see them, but don't be afraid - plugin has special message for them.</p>
+<p>Not surprisingly, some spammers found Invisible Defender too and updated their spamming software to detect and bypass this plugin. Therefore I started adding new protection methods. First one is blacklist for heavy spammers; more will be added soon.</p>
+<p>Invisible Defender also shows number of blocked spammers in Dashboard, so you can see that it really works.</p>
+<p>Available translations:</p>
+<ul>
+<li>English</li>
+<li>Polish (pl_PL) - done by me</li>
+<li>Russian (ru_RU) - thanks Fat Cow</li>
+<li>French (fr_FR) - thanks Lise</li>
+<li>Italian (it_IT) - thanks Gianni</li>
+<li>Hungarian (hu_HU) - thanks Péter</li>
+<li>German (de_DE) - thanks pixeltunes</li>
+<li>Dutch  (nl_NL) - thanks Rene</li>
+<li>Hindi (hi_IN) - thanks Ashish J.</li>
+<li>Czech (cs_CZ) - thanks Lelkoun</li>
+</ul>
+
+<h2>Installation</h2>
+<ol>
+<li>Upload <code>invisible-defender</code> directory to the <code>/wp-content/plugins/</code> directory</li>
+<li>Activate the plugin through the 'Plugins' menu in WordPress</li>
+<li>Configure and enjoy :)</li>
+</ol>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>I can not login and I am getting 'Bye Bye, SPAMBOT!' error message. Help!</h3>
+<p>You have installed plugin which replaces default login form (not Invisible Defender). Please use FTP to login to your server, go to <code>wp-content/plugins/</code> directory and find directory (or file) of that plugin. Next change its name to something else (or just remove it). When you do this, standard login form will be restored, so you should be able to login now. Login and go to the Invisible Defender options page, and disable protection for Login Form. Then you can restore name of plugin directory, which you changed earlier (or upload it again if you have removed it). You may also need to enable that plugin again (WordPress may deactivate it) and configure it. After you do this, please contact author of that conflicting plugin and tell him/her about this plugin conflict.</p>
+
+<h3>Why I am getting 'Bye Bye, SPAMBOT!' error message when I try to login and/or register?</h3>
+<p>Some plugins allows to replace default registration and/or login forms. This can cause problems, when new registration and/or login forms doesn't calls appropriate hooks, which are used by Invisible Defender to add its hidden fields to the form. Invisible Defender uses following two hooks to add its hidden fields to registration and login forms:</p>
+<pre>&lt;?php do_action('register_form'); ?&gt;</pre>
+<pre>&lt;?php do_action('login_form'); ?&gt;</pre>
+
+<h3>Why I am getting 'Bye Bye, SPAMBOT!' error message when I try to add newcomment?</h3>
+<p>Invisible defender uses `comment_form` hook to add its hidden fields to the comment form. This hook is called from template, so most probably your template does not do this. Check if your template has <code>comments.php</code> file (it should be in <code>wp-content/themes/your-template/</code> directory). If you have it, check if somewhere inside <form> element is following line:</p>
+<pre>&lt;?php do_action('comment_form', $post-&gt;ID); ?&gt;</pre>
+<p>If this line is missing, add it. You can also contact with template author and ask him/her for help.</p>
+<p>You can also disable comments form protection on Invisible Defender options page.</p>
+
+<h3>How to remove link added by Invisible Defender under forms?</h3>
+<p>This plugin is provided for free, so this link is the only way I can get credit from happy users. Of course you can disable it - just go to the plugin Options page, scroll to the bottom, uncheck 'Show &quot;Protected by&quot; link:' and save options.</p>
+
+<h2>Changelog</h2>
+<p>1.8.1</p>
+<ul>
+<li>Added Dutch translation (thanks Rene);</li>
+<li>Added Hindi translation (thanks Ashish J.);</li>
+<li>Added Czech translation (thanks Lelkoun);</li>
+<li>Code cleanup</li>
+</ul>
+<p>1.8</p>
+<ul>
+<li>Blacklisted Business Communication Agency, Ltd. (92.242.64.0 - 92.242.95.255) and netdirekt e.K. (89.149.241.0 - 89.149.244.255);</li>
+<li>Fixed incorrect HTML code generated by plugin;</li>
+<li>Code cleanup</li>
+</ul>
+<p>1.7</p>
+<ul>
+<li>Blacklisted AD TECHNOLOGY SIA IPs (188.92.72.0 - 188.92.79.255)</li>
+<li>Marked as compatible with WP 2.9.x</li>
+</ul>
+<p>1.6</p>
+<ul>
+<li>Blacklisted AD TECHNOLOGY SIA IPs (188.92.72.0 - 188.92.79.255)</li>
+</ul>
+<p>1.5.1</p>
+<ul>
+<li>Marked as compatible with WP 2.8.5</li>
+</ul>
+<p>1.5</p>
+<ul>
+<li>Fix: skip hidden field check for XML-RPC, Trackbacks and Pingback requests</li>
+</ul>
+<p>1.4.7</p>
+<ul>
+<li>Added German translation (thanks pixeltunes)</li>
+</ul>
+<p>1.4.6</p>
+<ul>
+<li>Added Hungarian translation (thanks Péter)</li>
+</ul>
+<p>1.4.5</p>
+<ul>
+<li>Added Italian translation (thanks Gianni)</li>
+</ul>
+<p>1.4.4</p>
+<ul>
+<li>Added French translation (thanks Lise)</li>
+</ul>
+<p>1.4.3</p>
+<ul>
+<li>Added Russian translation (thanks Fat Cow)</li>
+</ul>
+<p>1.4.2</p>
+<ul>
+<li>Calculate stats for blocked requests from blacklisted IPs too</li>
+</ul>
+<p>1.4.1</p>
+<ul>
+<li>Removed debug code left by mistake</li>
+</ul>
+<p>1.4</p>
+<ul>
+<li>Count number of times bots are blocked and show stats in Dashboard;</li>
+<li>Added option to show 'Protected by' link</li>
+</ul>
+<p>1.3.1</p>
+<ul>
+<li>Mark plugin as tested with WP 2.8</li>
+</ul>
+<p>1.3</p>
+<ul>
+<li>Blacklisted AltusHost Inc. IPs (89.248.160.191 - 89.248.160.254);</li>
+<li>Added options page and options to disable protection for registration, login and/or comments forms</li>
+</ul>
+<p>1.2</p>
+<ul>
+<li>Fix: skip hidden field check for AJAX requests</li>
+</ul>
+<p>1.1</p>
+<ul>
+<li>Blacklisted Dragonara Alliance Ltd IPs (194.8.74.0 - 194.8.75.255)</li>
+</ul>
+<p>1.0</p>
+<ul>
+<li>Initial version</li>
+</ul>
+</body>
+</html>

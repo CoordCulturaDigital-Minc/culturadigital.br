@@ -1,0 +1,109 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#fff;
+	background:#e7faff;
+}
+
+a{
+	outline:none;
+	color:#000;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#000;
+}
+
+.centralizar{
+	width:915px;
+	margin:auto;
+}
+
+#header{
+	width:980px;
+	height:88px;
+}
+
+#header h1{
+	width:429px;
+	height:100px;
+	float:left;
+}
+
+#header h1 a{
+	width:455px;
+	height:98px;
+	text-indent:-5000px;
+	float:left;
+	background:url(../img/aovivo.png) no-repeat;
+}
+
+
+
+.infos{
+	width:915px;
+	height:68px;
+	background:#558491;
+	border:#7e9fb0 1px solid;
+	float:left;
+	opacity:0.65;
+	filter: alpha(opacity=65);
+	
+}
+
+.infos h1{
+	margin:17px 0 0 15px;
+}
+
+.boxGeral{
+	clear:both;
+	margin:5px 0 17px 0 ;
+	width:915px;
+	background:#fff;
+	float:left;
+	border:#a2abcc 1px solid;
+}
+
+.boxGeral div.video{
+	width:400px;
+	float:left;
+	margin:10px 0 15px 15px;
+}
+.boxGeral div.chat{
+	width:470px;
+	float:left;
+	margin:10px 0 15px 15px;
+}
+
+.boxGeral div h1{
+	font-size:24px;
+	letter-spacing:-1px;
+	color:#688c9f;
+	margin:0 0 10px 0;
+}
+
+#footer{
+	clear:both;
+	margin:15px 0 0 0 !important;
+	width:980px;
+	height:45px;
+	color:#688c9f;
+	font-size:13px;
+	font-weight:bold;
+}
+
+#footer a{
+	color:#476a77;
+}
+
+#footer a:hover{
+	color:#688c9f;
+}

@@ -1,0 +1,55 @@
+
+
+#form_box {
+	float: left;
+	width: 290px;
+	background: #f8f8f8;
+	border: 1px solid #d6d6d6;
+	border-left-color: #e4e4e4;
+	border-top-color: #e4e4e4;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0.5em;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+ 
+#form_box div {
+	height: 25px;
+	padding: 0.2em 0.5em;
+}
+ 
+#form_box div.hr {
+	border-bottom: 2px solid #e2e2e1;
+	height: 0px;
+	margin-top: 0pt;
+	margin-bottom: 7px;
+}
+ 
+#form_box p {
+	float: left;
+	margin: 4px 0pt;
+	width: 120px;
+}
+ 
+ 
+#log {
+	float: left;
+	padding: 0.5em;
+	margin-left: 10px;
+	width: 290px;
+	border: 1px solid #d6d6d6;
+	border-left-color: #e4e4e4;
+	border-top-color: #e4e4e4;
+	margin-top: 10px;
+}
+ 
+#log_res {
+	overflow: auto;
+}
+ 
+#log_res.ajax-loading {
+	padding: 20px 0;
+	background: url(http://demos.mootools.net/demos/Group/spinner.gif) no-repeat center;
+}
+

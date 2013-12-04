@@ -1,0 +1,53 @@
+
+.ptadmin { padding:0; margin:20px 0 0 10px }
+.ptadmin .fl { float: left }
+.ptadmin .fr { float: right }
+.ptadmin .clear { clear: both }
+.ptadmin h2 { position:relative; background: #000; color:#ffffff; margin:0 60px 0 0 !important; font:21px Georgia; padding:5px 10px }
+  .ptadmin h2 span{ position:absolute; right:15px; top:8px; font:normal 14px Georgia; color:#cccccc }
+    .ptadmin h2 span a{ color:#cccccc }
+.ptadmin a{ color:#476b34; text-decoration:none; border-bottom:1px dotted }
+
+.updated{ margin:0 60px 0 0 } 
+
+.ptadmin .introduction{ background: #c6e1a7; padding:15px; margin:0 60px 10px 0; text-align:left }
+  .ptadmin .introduction a{ font:normal 14px Verdana; color:#476b34; background:transparent; border:1px solid #476b34; padding:0 8px 1px 5px; margin:0 }
+    .ptadmin .introduction a.switch-link { margin:0 }
+	.ptadmin .introduction a.switch-link span{ background:none; padding:0 }
+	.ptadmin .introduction a:hover{ color:#ffffff; background:#476b34; border:1px solid #476b34 }
+    .ptadmin .introduction a.active{ color:#ffffff; background:#476b34; border:1px solid #476b34; padding:0 8px 1px 7px }
+	.ptadmin .introduction a.normal-link { border:none; padding:0; margin:0 0 0 10px; border-bottom:1px dotted }
+	  .ptadmin .introduction a.normal-link:hover { color:#476b34; background:none; border:0; border-bottom:1px dotted }
+  .ptadmin .introduction span.open-new-window { background:url(neww.png) no-repeat 0 bottom; padding: 0 10px; margin:0 -10px 0 0 }
+.ptadmin .box-title { margin:4px 0 0 0 !important; background: #000; color:#fff; padding: 10px 1em 10px 1em; font:normal 16px Georgia; letter-spacing: 1px }
+  .ptadmin .box-title em.widgetsurl a { color:#ffffff }
+
+.ptadmin .maintable { font-family:Georgia; padding: 0; border: 0; width: 500px; margin:5px 20px 0 0; float: left; }
+  .ptadmin .maintable .subheading { background: #c6e1a7; color:#000000; padding: 10px 13px; border-top:1px solid #e5ffd7; font-size: 16px; font-weight: normal !important }
+    .ptadmin .maintable .subheading a{ font:normal 10px Verdana; color:#476b34; background:transparent; border:1px solid #476b34; padding:0 3px 1px 2px; margin:0 }
+	  .ptadmin .maintable .subheading a.active{ color:#ffffff; background:#476b34; border:1px solid #476b34; padding:0 3px 1px 3px }
+	  .ptadmin .maintable .subheading a:hover{ color:#ffffff; background:#476b34; border:1px solid #476b34 }
+  .ptadmin .maintable .options-box { background: #c6e1a7 url(../../images/border-bg.png) repeat-x 0 bottom; padding: 0 0 5px 0; margin:0 }
+    .ptadmin .table-row { color: #000; margin: 0; padding: 0 15px }
+      .ptadmin .table-row .top-container{ color: #696969; font:bold 11px Verdana; border: none; padding:10px 0 0 0; margin: 0 }
+      .ptadmin .table-row .bottom-container { border: none; margin: 0; padding:10px 0 0 0 }
+	    .ptadmin .table-row .bottom-container p { font:normal 13px Georgia; line-height: 160% }
+        .ptadmin .table-row .bottom-container .description { margin:0; padding:0 }
+.ptadmin .space-line { clear: both; margin: 0; padding: 0; width: auto }
+.ptadmin .wrap-dropdown { text-align:left; width: 30em; height: 80px; overflow: auto; border: 1px solid #7F9DB9; background: #ffffff; margin:0 0 15px 0 }
+.ptadmin .wrap-dropdown .table-row{ background: none; margin:0 }
+  .ptadmin .wrap-dropdown .top-container { width:0% }
+  .ptadmin .wrap-dropdown .bottom-container { width:100%; border:0; padding:0; margin:0; background:none }
+    .ptadmin .wrap-dropdown .bottom-container .text { padding: 4px 0 5px 5px; margin: -10px 0 0 0 }
+    .ptadmin .wrap-dropdown .bottom-container .text:hover { background:#DDE4DE; }
+.ptadmin .maintable .table-row input, .maintable .table-row textarea { font: normal 0.923em/1.667em Consolas, "Andale Mono", "Courier New", Courier; width: 38.5em; padding: 0.333em; color: #3C3D35; background: #fff; border: 0.083em solid #BFBFBF; border-top-color: #A5A5A5; border-left-color: #A5A5A5; }
+.ptadmin .maintable .table-row input:focus, .maintable .table-row textarea:focus { background: #DDE4DE; }
+.ptadmin .maintable .table-row select { width: 35.5em; padding: 5px; color: #3C3D35; background: #fff; border: 0.083em solid #BFBFBF; border-top-color: #A5A5A5; border-left-color: #A5A5A5; }
+.ptadmin .maintable .table-row input.input_checkbox { width: 20px; border: 0; background: transparent; }
+.ptadmin .submit-title { margin: -31px 0 0 0; padding:0 10px 0 0 }
+  .ptadmin .submit-title input { width: 95px }
+.ptadmin .reset_save { display:inline; float:left; padding:10px 0 20px 0; margin:0 }
+.ptadmin .reset { margin:0 0 0 30px }
+  .ptadmin .reset input { border:1px solid #ED0000 }
+
+

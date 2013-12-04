@@ -1,0 +1,490 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Twenty Ten Weaver Theme Snippets</title>
+<style type="text/css">
+<!--
+body {
+	background: #eeeeee;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	text-align: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	background-color: #F5F5DC;
+}
+#container {
+	background-color: #00CC00;
+}
+#mainContent {
+	background-color: #FFFFCD;
+}
+
+.oneColFixCtr #container {
+	width: 750px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFCD;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColFixCtr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	font-size:12px;
+}
+h3 {
+	font-size: medium;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: underline;
+}
+h2 {
+	font-size: large;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: underline;
+	margin-top: 40pt;
+}
+h1 {
+	font-size: x-large;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: underline;
+}
+.attrs {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color:#000000;
+	text-decoration: none;
+}
+.css {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 9pt;
+	font-style: normal;
+}
+.box {
+	color: #000000;
+	text-decoration: none;
+	margin: 15px;
+	padding: 5px;
+	border: thin solid #000000;
+	display: block;
+	background-color: #e8e8e8;
+	width: 600px;
+}
+.nospace {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.pre { border: thin }
+-->
+</style>
+</head>
+
+<body class="oneColFixCtr">
+
+<div id="container">
+  <div id="mainContent">
+    <h2>
+      <!-- end #mainContent -->
+    CSS Snippets for Twenty Ten Weaver</h2>
+    <p>There are many styling options than can be implemented using CSS. In fact, the vast majority of Twenty Ten Weaver's options are simply CSS style rules that override the defaults used by the parent Twenty Ten theme. Now it would be possible to provide many more options for styling your theme, but at some point, that would begin to make the control interface huge and confusing (What? - you say it already is huge and confusing!). </p>
+    <p>Instead of adding more and more options, this document will instead contain CSS snippets that you can <strong>cut and paste into the &lt;HEAD&gt; section of the Advanced Options tab.</strong> (Unless otherwise noted, you should paste these snippets between the &lt;style&gt; and &lt;/style&gt; lines in the &lt;HEAD&gt; Section box.)</p>
+    <p>Note - although these snippets were designed specifically for Twenty Ten Weaver, almost all of them will work
+    just as well just with Twenty Ten - so if you are familiar with editing Twenty Ten's style.css file, you will find
+    these snippets useful, too.</p>
+    <p>Many times, these snippets will work without any additional modification - you can simply cut and paste. Sometimes they might call for a path or image name, in which case you will have to change from the example file name to one of your own. Please change these file names. The examples provided (mostly images) are hosted on our google account, and it would be more polite to use your own resources. You can copy any of the images to your own host, but please, don't use our examples.</p>
+    <p>And this is not a CSS tutorial. We will try to explain just enough for you to use these snippets without really understanding exactly how they work. You can easily go Google and search for more information about specific CSS properties we use. For example, searching for &quot;CSS font-weight&quot; will lead you all the information you might need to understand what values &quot;font-weight&quot; can take. But mostly the idea is to cut and paste, and then perhaps play a bit with sizes or other values provided.</p>
+    <p>And this is an on-going effort. We will add more snippets as they are "discovered". We appreciate contributions if you've found a useful snippet!</p>
+    <h2>The Snippets</h2>
+<h3>Header</h3>
+    <ol>
+	<li><strong>Make site title big</strong><br />
+	 Sometimes you might want your site title to be big. Try different %'s to vary the size.
+	   <pre class="box">#site-title a {font-size:150%}</pre>
+
+      </li>
+      <li><strong>Make menu bar have all corners rounded</strong><br />
+	 Because it usually looks better, the default style when rounded borders are selected rounds only the bottom of the menu bar. You can
+	 change it to all rounded borders using this snippet.
+	   <pre class="box">#access {-moz-border-radius: 7px; border-radius: 7px;
+         -webkit-border-radius: 7px;}</pre>
+
+      </li>
+      <li><strong>Border above and below Header image</strong><br />
+      The parent Twenty Ten theme puts a black bar above and below the header image. In order to avoid problems when picking various background colors, Twenty Ten Weaver removes those bars. You can restore them back to the original with this snippet. The # value is a color, as usual, and you can change it.
+          <br />
+          <pre class="box">
+#branding img {
+  clear: both; display: block;
+  border-top: 4px solid #000; border-bottom: 1px solid #000;}
+</pre>
+      </li>
+
+      <li><strong>Styling Secondary Menu Bar</strong><br />
+	All the Main Options menu options apply to both the Primary and Secondary menus. The Primary menu bar is
+	controlled by the #access tag, and the Secondary by the #access2 tag. Any of the snippets that use #access
+	will apply to the Secondary Menu by using #access2 instead.
+      </li>
+
+
+      <li><strong>Move Menu to the Right</strong><br />
+	If you want the menu items on the right of the bar, you can use this snippet. But be warned: this will reverse the
+	order of the menu items! To get the order you really want, you'll have to use the Appearance->Menus panel to create
+	the order you want - but in reverse!
+      <br />
+      <pre class="box">
+div.menu li { float:right }</pre>
+      </li>
+
+      <li><strong>Center Items On Menu</strong><br />
+	 This snippet will center the items in the menu bar. If you have too many sub-menus, they might not display
+	 properly on the right. You can change the center to right to move the menu to the right, but then there
+	 will be serious issues with sub-menus.
+	   <pre class="box"> #access { text-align:center; }
+ #access ul{display:inline-block;}</pre>
+
+      </li>
+
+
+ <li><strong>General styling of menu bar</strong><br />
+	If you want to change the font or almost anything else about the menu bar, try adding your own styling to
+	these CSS rules. We've included some simple attributes like color, but you could change decoration, font, or other
+	attributes. <em>Don't forget about #access2 if you have a secondary menu bar.</em>
+      <br />
+      <pre class="box">#access {font-variant:small-caps;
+    background-color:#222222;} /* all menu text - small-caps */
+#access a {color: #dddddd;}   /* menu links */
+#access ul ul a, #access li:hover > a,
+    #access ul ul :hover > a {background: #666666; } /* hover bg for all */
+#access li:hover > a, #access ul ul :hover > a { color:#FFFFFF; }
+    /* hover text color for all */
+#access ul li.current_page_item > a,
+    #access ul li.current-menu-ancestor > a,
+    #access ul li.current-menu-item > a,
+    #access ul li.current-menu-parent > a {color:#FFFFFF; font-style:italic;}
+    /* menu item for current page */</pre>
+      </li>
+
+      <li><strong>Add a Logo before Site Title</strong><br />
+	If you'd like a logo in front of your Site title, you can use the following snippet. We've added
+	a &lt;div&gt; with the id '#ttw-site-logo' just for this purpose. Fiddle with the padding and width
+	settings to get the logo to show where you want. (<strong>Note: </strong>If you use '#ttw-site-logo-link'
+	instead, the logo will display as an active link back to the site's home page.)<br />
+      <pre class="box">#ttw-site-logo {background-image: url(http://whatever.png); background-repeat:no-repeat;
+  background-position: top center; padding-top:125px; width: 940px;}</pre>
+      </li>
+
+      <li><strong>Hide Site Title/Description via CSS</strong><br />
+	The Main Options tab has a checkbox to remove the site title and description - they are not included
+	in the output page. Some people want the title text for search engines yet not displayed, and using this snippet
+	will hide your title and/or image (you can remove one of the tags if desired) while leaving the
+	text there for search engines.<br />
+      <pre class="box">#site-title, #site-description {display:none;}</pre>
+      </li>
+
+      <li><strong>Move Site Title and Site Description</strong><br />
+	The CSS tags for the Site Title and Site Description, normally found in the heading at the top of the page,
+	are controlled by the <code>#site-title</code> and <code>#site-description</code> tags. By manipulating these
+	tags you can move the title to the right, or put the site description under the title, change their fonts,
+	or even move them over the site header image. Here are few examples of some of the things you could do.
+	Experiment to get your title and site description exactly where you want. <br />
+	<br />
+	Put the site description under the title<br />
+	<pre class="box">#site-description {
+    clear: both; float: left;
+    margin-top: -10px; margin-left: 50px; /* adjust as needed */
+}</pre><br />
+	Put the site title on right, description on left<br />
+	<pre class="box">#site-title {
+    text-align:right; float: right; /* put on right side */
+}
+#site-description {
+    clear: right; float: left;
+    margin-top: -40px;   /* adjust as needed */
+}</pre><br />
+Put Title and Description over the Header image<br />
+	<pre class="box">#site-title {
+    position: absolute;
+    top: 100px; margin-left: 40px; /* adjust as needed */
+}
+#site-description {
+    position:absolute; clear: both; float: left;
+    top: 150px;		/* adjust and coordinate with #site-title */
+    margin-left: 50px;  /* adjust as needed */
+}</pre><br /><br />
+      </li>
+    </ol>
+<h3>Post and Page Content</h3>
+<ol>
+	<li><strong>Adding boxes to post information</strong><br />
+	As demonstrated in the Simple Silver theme, these snippets will put a bordered box of a specified
+	color around the post information at the top and bottom of each post entry.
+	<br />
+          <pre class="box">.entry-meta {padding:4px 0 4px 20px;background-color:#F8F8F8;
+   border: solid 1px #A0A0A0;}
+.entry-utility {padding:4px 0 4px 20px;background-color:#C0C0C0;
+   border: solid 1px #A0A0A0;}</pre><br />
+	</li>
+	<li><strong>Adding Background Color to Page Titles</strong><br />
+	This snippet will add a background color on page and post titles.
+	<br />
+          <pre class="box">.entry-title {background-color:#DDDDDD;}</pre>
+	</li>
+	<li><strong>Adding Shadows to Site, Page, Post, and Widget titles</strong><br />
+	These style rules will add a shadow effect on all the major titles. You should be able to figure out which
+	rules affect which titles. You can search the web for "CSS text-shadow" to learn about options.
+	<br />
+          <pre class="box">#site-title a {text-shadow:1px 1px 1px #999;}
+#content .entry-title {text-shadow:1px 1px 1px #999;}
+.entry-title a:link {text-shadow:1px 1px 1px #999;}
+.entry-title a:visited {text-shadow:1px 1px 1px #999;}
+.entry-title a:active, .entry-title a:hover {text-shadow:1px 1px 1px #999;}
+.widget-title {text-shadow:1px 1px 1px #999; }</pre>
+	</li>
+	<li><strong>Control Font Size and Line Spacing of Content Text</strong><br />
+	While the main options give you some rough control over the size and line spacing of the main content text,
+	you can get fine control by overriding the "body, input, textarea" CSS tag. Search the web for options
+	on using "font-size" and "line-height". This example will make the text smaller.
+	<br />
+          <pre class="box">body,input,textarea {font-size: 10px;line-height: 14px;}</pre>
+	</li>
+
+	</li>
+	<li><strong>Hide Page and/or Post Titles</strong><br />
+	If you don't want your page titles to show, you can use the following snippet:
+	<br />
+          <pre class="box">.page .entry-title{display:none;}</pre><br />
+	You can do the same for posts with:<br />
+	<pre class="box">.post .entry-title{display:none;}</pre><br />
+	If you want to hide the title of a specific page, you use the WP ID of the page (both posts and pages
+	have ids - you can get the page id from the Edit Page/Post address bar - it will show as ?post=id). To
+	hide a specific post or page, use this (this example will hide the title of page with id=3, you have
+	to determine the id of the post/page whose title you want to hide):<br />
+	<pre class="box">#post-3 .entry-title{display:none;}</pre><br />
+	</li>
+
+    <li><strong>Hiding Comments</strong><br />
+	The normal mechanism for getting rid of comments on a Wordpress post or page is to disable comments using the
+	option on the post/page editor page. But sometimes, you will still get something related to comments showing
+	on your pages. This snippet will stop comments from showing. (It does not, however, do anything about the post
+	information shown above and below posts, which can still include references to comments. A possible fix for
+	that is in the feature queue.)<br />
+          <pre class="box">#comments {display:none;}</pre>
+	</li>
+    </li>
+
+
+	<li><strong>Making the site Background Color or Image Show behind everything</strong><br />
+	While the Main Options tab has settings for all the major areas of your site's pages, each
+	areas will have some color by default. However, you might want to use the main background color
+	or image set using the Appearance->Background menu to appear behind everything (or selected areas).
+	Use this snippet to make the background show through everything, or selectively remove areas
+	from the rule as needed (you may have to play a bit - some areas are behind others). Used with
+	a background gradient and a shadow border can lead to very handsome sites.<br />
+	<pre class="box">#wrapper, #main, #container, #content, #primary,
+  #secondary, #ttw-top-widget, #ttw-bot-widget,#footer
+  {background-color:transparent;}</pre><br />
+	</li>
+
+<li><strong>Putting Posts and Pages in boxes</strong><br />
+	You can get get some very appealing effects by styling individual posts with borders or background colors.
+	You can apply same efffects to the just the content area of pages. Use these snippets, which add a background
+	color and a border, as a sarting point. Note that margins may need to be adjusted to match the sidebar
+	scheme you are using.<br />
+          <pre class="box">#content .page {background-color:#fafafa; padding:15px;
+    border: 1px solid #218c64; margin: -5px 0px 10px -20px;}
+.post {background-color:#fafafa; padding:15px;
+    border: 1px solid #218c64; margin: -5px 0px 10px -20px;}</pre>
+	</li>
+
+    <li><strong>Hiding Post Meta Information</strong><br />
+	You can hide the meta information for posts (the Posted on __ by __ and Posted in __ lines) with the following snippets.
+	<br />
+          <pre class="box">.entry-meta {display:none;}
+.entry-utility {display:none;}</pre><br />
+	</li>
+
+<li><strong>Changing Twenty Ten Table Styling</strong><br />
+	The default styling for Twenty Ten tables may be one of the weak points of the theme. Here's a complete list
+	of the Twenty Ten table styling for the #content area. You can tweak these as you need to get your tables
+	looking the way you like.
+	<br />
+          <pre class="box">#content table {
+	border: 1px solid #e7e7e7;
+	text-align: left;
+	margin: 0 -1px 24px 0;
+	width: 100%;
+}
+#content tr th,
+#content thead th {
+	color: #888;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 9px 24px;
+}
+#content tr td {
+	border-top: 1px solid #e7e7e7;
+	padding: 6px 24px;
+}
+#content tr.odd td {
+	background: #f2f7fc;
+}</pre><br />
+	</li>
+
+    <li><strong>Sticky Posts and Author Information</strong><br />
+	Sticky posts and author information blocks are styled in Weaver using the following CSS.
+	This styling has proven to be attractive for themes with both dark and light text. You
+	can vary the background color and borders by modifying these values.<br />
+          <pre class="box">.home .sticky, #entry-author-info {
+	background-color: #888;
+	border-top: 2px dotted #444;
+	border-bottom: 2px dotted #444;
+	margin-right:4px; margin-left:1px;
+}</pre>
+	</li>
+    </li>
+
+</ol>
+
+<h3>Widget Areas</h3>
+    <ol>
+        <li><strong>Adding space below Sidebar widget titles</strong><br />
+        You may want to add some space between a sidebar widget's title and the content. This is fairly easy to do.
+	Add this snippet, which adds 10px (10 pixels, about what a line takes up). If you want more, simply change
+	the 10px to something bigger.
+          <br />
+          <pre class="box">.widget-title {margin-bottom:10px;}</pre>
+        <br />
+      </li>
+      <li><strong>Changing the font size of a widget title</strong><br />
+      You can also change the font size of a widget title. Our example uses 'px', but there are other options for
+      specifying font-size - you can use whatever you know. Font-weight can be any of: normal, bold, bolder, lighter,
+      or values 100 to 900. The line-height influences the layout, and is related to font-size. And again, we use the
+      margin-bottom to fix that up. You can play around with the values to get a look you like.
+        <pre class="box">.widget-title {font-size:30px;font-weight:normal;line-height:35px;margin-bottom:5px;}</pre><br />
+      </li>
+
+      <li><strong>Changing the font size of widget content</strong><br />
+        This snippet will change the font size of text in a widget area. Change the 120% to whatever you need.
+          <pre class="box">.widget-area {font-size:120%;}</pre>
+        <br />
+      </li>
+
+      <li>
+        <strong>A widget title with a dotted bar underneath</strong><br />
+       This example is taken from the Orange sub-theme. When you see a 6 numbers following a #, that is a color.
+       You can search the web for colors, or play with the Main Options tab to see the value for colors.
+
+           <pre class="box">.widget-title {font-size:130%;margin-bottom:8px;border-bottom: 1px dotted #C4BCB0;} </pre>
+           <br />
+      </li>
+      <li>
+        <strong>A widget with a gray bar and small-caps font</strong>
+         <br />
+        This example is from the Ivory Drive sub-theme. You can change the color of the under-bar and its height.
+	Small-caps is the only interesting font-variant currently supported by HTML.<br />
+        <pre class="box">.widget-title {border-bottom: 2px solid #737373; font-variant: small-caps;}</pre><br />
+      </li>
+        <li><strong>Sidebars</strong><br />
+	We worked long and hard to give you some good choices for sidebar arrangement. Here's the
+	CSS rules you have to fiddle to rearrange the sidebars (and the top/bottom widget areas).
+	This example is for the two sidebars, one on the left, one on the right. By changing
+	a combination of mainly float, width, and margins, you can get pretty much any
+	arrangement you want. But please don't ask for help on these - just play with the
+	various values until you get an arrangement you like.<br />
+	<pre class="box">#container { width:940px; float:left; margin:0 0 4px 0px; }
+#content { width: 460px; margin: 0px 0px 5px 220px; overflow:hidden;
+    padding: 5px 20px 4px 20px; }
+#primary { width:214px; float:left; margin: 0 0 4px -940px; }
+#secondary { width:214px; float:left; margin: 0 0 4px -226px;}
+#ttw-top-widget, #ttw-bot-widget {width: 400px; margin-left: 265px;}
+.one-column #content { margin: 0 0 0 0 px; padding: 0; width: 800px;}</pre><br />
+	And here's the code for the wide sidebar on the right:<br />
+	<pre class="box">#container { float: left; margin: 0 0px 4px 0; width: 628px; }
+#content {width: 590px; overflow:hidden; margin:0 0px 10px 0px;
+     padding: 5px 0px 0px 20px;}
+#primary, #secondary { float: right; overflow: hidden; width: 300px;
+     margin: 0 0 4px 0;}
+#ttw-top-widget, #ttw-bot-widget {width: 520px;}
+.one-column #content { margin: 0 0 0 80px; padding: 0; width: 800px;}</pre><br />
+      </li>
+	<li><strong>Centering Sidebar widget titles</strong><br />
+        This snippet will center your widget titles.
+          <pre class="box">.widget-title {text-align:center;}</pre>
+        <br />
+      </li>
+
+    <li><strong>Changing Top and Bottom Widget Area Size and Placement</strong><br />
+        You may want to change how wide the top and bottom widget areas are, as well as their
+	placement withing the content area. (And we've had it reported that the default placement
+	can be off for RTL languages.) You can fiddle with the width and margin. You might
+	need to use margin-right instead of margin-left, and sometimes a negative number can make it
+	work. All this is dependent on the sidebar arrangement you've set.
+          <pre class="box">#ttw-top-widget, #ttw-bot-widget {width: 420px; margin-left: 40px;}</pre>
+        <br />
+      </li>
+
+
+
+    </ol>
+<h3>Footer</h3>
+    <ol>
+      <li><strong>Hiding the Copyright and Powered by in the footer</strong><br />
+      Hey - we'd really appreciate it if you leave the Powered by text in the footer, but we know sometimes you really
+      don't want to have stuff like that in your footer. It is in a &lt;div&gt; with id '#site-generator'. If you also
+      want to eliminate the copyright notice, it is in a &lt;div&gt; with id '#site-info'. This snippet will hide both.
+      It should be fairly obvious which part to delete if you want to keep one.<br />
+      <pre class="box">#site-generator {display:none; }
+#site-info {display:none;}</pre>
+      <br />
+      </li>
+
+      <li><strong>Border around footer</strong><br />
+      It is fairly easy to add a border of the style, width, and color of your choice around the footer box. First, however, you need
+      to clear the 4px bar included above the footer by default. Following is a simple example, but you can look up the other options
+      available for borders by searching the web for "css border values".<br />
+          <pre class="box">
+#colophon {border-top:none;}
+#footer {border-style:double; border-width:4px; border-color:#222222;}
+</pre>
+          <br />
+        <br />
+      </li>
+      <li><strong>Change font size of everything in footer</strong><br />
+      If you want to change the font size of everything in the footer - widgets and other text you may add to the footer,
+      try this snippet. You can use any of the usual font-size values to specify size.<br />
+          <pre class="box">#footer {font-size:8px;}
+</pre>
+          <br />
+	  If you have widgets in the footer, and want to change the font size of <em>only</em> the widget areas, use:<br />
+<pre class="box">#footer-widget-area {font-size:8px;}
+</pre>
+          <br /></li>
+
+    </ol>
+    <h3>General Styling</h3>
+<ol>
+	      <li><strong>Make Everything Transparent</strong><br />
+      If you want the site to have a single background color for the whole displayed screen, you can use the
+      Appearance->Background to set the background color (or image), and then make all the major areas of
+      the page transparent. Note, this snippet is just for the major areas - some things like input areas will retain
+      their own background color. Also note that these rules style the major areas of any page, and you
+      can do other things besides setting the background color - e.g., use "background-image:url(address)" to
+      set an image.<br />
+<pre class="box">#wrapper, #main, #access,
+    #container, #content { background-color: transparent; }
+#primary, #secondary,#ttw-top-widget,
+    #ttw-bot-widget, #footer { background-color:transparent; }
+
+</pre>
+          <br /></li>
+</ol>
+
+    <p>&nbsp;</p>
+  </div>
+<!-- end #container --></div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+	background-color: #fff; 
+	padding: 0px;
+	margin: 0px;
+}
+img {
+	border: 0px;
+}
+a, a:link, a:visited, a:active {
+	color: #0099CC;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+h3 {
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px;
+}
+h2 {
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+	font-size: 16px;
+}
+h1 {
+	padding: 0px;
+	margin: 12px 0 12px 0;
+	font-size: 16px;
+}
+small {
+	font-size: 9px;
+}
+#container {
+	width: 100%;
+}
+#container p {
+	text-align: justify;
+	margin: 15px 0px;
+	padding:0px;
+}
+#left_col {
+	float: left;
+    margin-left: 15px;
+	margin-right: 25px;
+}
+#right_col {
+	float: left;
+	border: 1px solid #bbbbbb;
+	text-align:center;
+	padding: 15px;
+}
+#upload_area {
+
+}
+.clear {
+	clear: both;
+}
+#file_input {
+    width:300px; 
+}

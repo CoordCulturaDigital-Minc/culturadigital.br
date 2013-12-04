@@ -1,0 +1,23 @@
+Arthemia Premium Theme Changelog (Version 10 Jan 2009)
+1. Files affected: index.php, search.php, sidebar.php, single.php, archive.php, sidebar.php, header.php, footer.php
+   Fixes the date/time formatting.
+2. Files affected: readme.pdf
+   Readme.pdf file has been removed and online documentation is provided instead. http://colorlabsproject.com/documentations/
+
+
+Arthemia Premium Theme Changelog (Version 12 Dec 2008)
+1. Files affected: functions.php
+   Fixes excerpts issue (dirty tags displayed as excerpts when having photo gallery placed at the beginning of the post).
+   Change 2-column layout to 1-column in admin panel to make everything look better in WP 2.7
+
+
+2. Files affected: scripts/timthumb.php
+   Adds PNG support, fixes thumbnailing problem in some web host
+
+
+3. Files affected: archive.php, author.php, index.php, search.php, sidebar.php 
+   Delete $home line, fix First-Image thumbnailing method
+
+
+4. Files affected: functions.php, legacy.comments.php, comments.php, header.php, style.css  
+   New WP 2.7 commenting system (pagination, threading, replying, etc)

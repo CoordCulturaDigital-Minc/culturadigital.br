@@ -1,0 +1,574 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fusion 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-22 14:31+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: digitalnature <hello@digitalnature.ro>\n"
+"Language-Team: digitalnature.ro <hello@digitalnature.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Croatian\n"
+"X-Poedit-Country: CROATIA\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes\\fusion\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/404.php:7
+msgid "Page not found (404)"
+msgstr "Stranica nije pronađena (404)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:9
+msgid "Archive for category"
+msgstr "Arhiva za kategorije"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:11
+msgid "Posts Tagged"
+msgstr "Postovi tagirani"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:15
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:17
+msgid "Archive for"
+msgstr "Arhiva za"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:203
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:20
+msgid "F jS, Y"
+msgstr "j. F Y."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:15
+msgid "F, Y"
+msgstr "F Y."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:17
+msgid "Y"
+msgstr "Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:19
+msgid "Author Archive"
+msgstr "Autorova arhiva"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:21
+msgid "Blog Archives"
+msgstr "Blog arhiva"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:30
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:14
+msgid "Permanent Link to"
+msgstr "Permalink prema"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:20
+#, php-format
+msgid "Posted by %s in %s"
+msgstr "Napisao/la %s unutar %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:37
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:20
+#, php-format
+msgid "Posts by %s"
+msgstr "Napisao/la %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:20
+msgid "on"
+msgstr "u"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:16
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:28
+msgid "Read the rest of this entry &raquo;"
+msgstr "Pročitaj ostatak članka &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:40
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "No Comments"
+msgstr "Nema komentara"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:40
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "1 Comment"
+msgstr "1 komentar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:40
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "% Comments"
+msgstr "% komentara"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:65
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:53
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:52
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:12
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:33
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Stariji unosi"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:66
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:53
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:34
+msgid "Newer Entries &raquo;"
+msgstr "Noviji unosi &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:72
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Sorry, ali jos nema nikakvih postova u kategoriji %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:74
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Sorry, ali nema postova s tim datumom."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:77
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Sorry, ali još nema postova od %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:79
+msgid "No posts found."
+msgstr "Nijedan post nije pronađen."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archives.php:10
+msgid "Archives by Month:"
+msgstr "Arhive prema mjesecu:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archives.php:14
+msgid "Archives by Subject:"
+msgstr "Arhive prema temi:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:20
+msgid "This user hasn't shared any biographical information"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:25
+#, fuzzy
+msgid "Homepage:"
+msgstr "Naslovnica"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:26
+msgid "Yahoo Messenger:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:27
+msgid "Jabber/GTalk:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:28
+msgid "AIM:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:45
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:29
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:25
+msgid "l, F jS, Y"
+msgstr "l, j F Y."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "Tags: "
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+#, fuzzy
+msgid "Posted in"
+msgstr "Napisao/la %s unutar %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "Edit"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:59
+#, fuzzy
+msgid "No posts found by this author."
+msgstr "Nijedan post nije pronađen."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:5
+msgid "Enter your password to view comments"
+msgstr "Upišite lozinku za pregled komenara"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:21
+msgid "Comments"
+msgstr "Komentari"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:22
+msgid "Trackbacks"
+msgstr "Povratnice"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:41
+msgid "No comments yet."
+msgstr "Još nema komentara."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:62
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Moraš biti <a href=\"%s\">prijavljen</a> za komentiranje."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:69
+msgid "Cancel Reply"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:72
+msgid "Logged in as"
+msgstr "Prijavljen kao"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:72
+msgid "Log out of this account"
+msgstr "Odjavi se s ovog računa"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:72
+msgid "Logout &raquo;"
+msgstr "Odjava"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:75
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Dobro došli natrag <strong>%s</strong>."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:75
+msgid "Change &raquo;"
+msgstr "Promijeni &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:75
+msgid "Close &raquo;"
+msgstr "Zatvori &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:80
+msgid "Name"
+msgstr "Ime"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:80
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:84
+msgid "(required)"
+msgstr "(obavezno)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:84
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:84
+msgid "(will not be published)"
+msgstr "(neće biti objavljen)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:88
+msgid "Website"
+msgstr "Web stranica"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:106
+msgid "Submit Comment"
+msgstr "Pošalji komentar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:124
+msgid "No trackbacks yet."
+msgstr "Još nema povratnica."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:137
+msgid "Comments are closed."
+msgstr "Komentari su zatvoreni."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:7
+msgid "Fusion theme by"
+msgstr "Tema Fusion od"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:7
+msgid "powered by "
+msgstr "izrađeno od"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:8
+msgid "Entries (RSS)"
+msgstr "Unosi (RSS)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:8
+msgid "and"
+msgstr "i"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:8
+msgid "Comments (RSS)"
+msgstr "Komentari (RSS)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:15
+msgid "Increase/Decrease text size"
+msgstr "Povećaj/smanji veličinu fonta"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:16
+msgid "Switch between full and fixed width"
+msgstr "Prebaci između pune i fiksne širine"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:88
+msgid "Fusion Theme Options"
+msgstr "Opcije Fushion teme"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:91
+msgid "Meta keywords:"
+msgstr "Meta ključne riječi:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:92
+msgid "Separate with commas"
+msgstr "Odvoji zarezima"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:97
+msgid "Use custom logo image"
+msgstr "Koristi prilagođenu sliku kao logo"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:97
+msgid "Upload your logo as \"logo.png\" in the theme directory:"
+msgstr "Učitaj svoj logo kao \"logo.png\" u direktory teme:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:97
+msgid "You should export the logo image with transparency enabled"
+msgstr "Trebali biste izvesti logo sliku sa omogućenom prozirnošću"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:102
+msgid "Disable homepage tab"
+msgstr "Onemogući tab Naslovnica"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:102
+msgid "Check this if you are using a static page as the homepage"
+msgstr "Označite ovo ako koristite statičnu stranicu kao početnu stranicu"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:107
+msgid "Show the categories as header tabs"
+msgstr "Pokaži kategorije kao tabove u zaglavljima"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:107
+msgid "(instead of pages)"
+msgstr "(umjesto stranica)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:112
+msgid "Disable the default category block in the sidebar"
+msgstr "Onemogući zadani blok kategorije u margini (sidebar)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:112
+msgid "Check if you prefer the widgetized category display or just want to hide the categories"
+msgstr "Označite ako preferirate prikaz kategorija kao widget ili samo želite sakriti kategorije"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:117
+msgid "Disable the default search block in the sidebar"
+msgstr "Onemogući zadani blok za pretraživanje u margini (sidebar)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:117
+msgid "Check if you don't like the theme-default search look"
+msgstr "Označi ako vam ne odgovara izgled bloka za pretraživanje"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:122
+msgid "Disable layout controls (Aa/<>)"
+msgstr "Onemogući kontrole prikaza (Aa/<>)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:124
+msgid "Default page content width:"
+msgstr "Zadana širina stranice za sadržaj:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:127
+msgid "Fixed (960 pixels)"
+msgstr "Fiksno (960 piksela)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:131
+msgid "Fluid (95 percent of the visitor's screen width)"
+msgstr "Tekuće (95% korisnikove širine ekrana)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:132
+msgid "Note that if the layout controls are enabled, the visitor's javascript page width cookie setting will override this option"
+msgstr "Pripazite da ako su opcije prikaza omogućene, korisnikova javascript cookie postavka za širinu stranice će premostiti ovu opciju"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:136
+msgid "Sidebar position:"
+msgstr "Pozicija margine (sidebar):"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:139
+msgid "Right (default)"
+msgstr "Desno (zadano)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:143
+msgid "Left"
+msgstr "Lijevo"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:149
+msgid "Disable jQuery and the associated code"
+msgstr "Onemogući jQuery i povezani kod"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:149
+msgid "This will reduce the page load with ~70 KB, but will also disable some features and effects (layout controls, rss links inside category menu, comment tabs, trackbacks).<br />You shouldn't change this unless you have problems with your host regarding bandwidth"
+msgstr "Ovo će smanjtii sadržaj za ~70 KB, ali će onemogućiti neka svojstva i efekte (kontrole prikaza, rss linkove unutar kategorija, tabove za komentare, povratnice).<br />Ne biste smjeli ovo mijenjati osim ako imate problema sa hosting prometom."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:152
+msgid "Custom CSS code"
+msgstr "Prilafođeni CSS kod"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:152
+msgid "Here you can add or change anything related to design if you have some basic CSS knowledge. Check "
+msgstr "Ovdje možete dodati sve vezano uz dizajn ako imate neko osnovno CSS znanje. Označi"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:152
+msgid "to see existing styles, which you can redefine here."
+msgstr "da vidiš postojeće stilove, koje možeš redefinirati ovdje."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:152
+msgid "Don't modify style.css if you wish to preserve your changes after theme update! Use this option instead."
+msgstr "Nemojte uređivati style.css ako želite zadržati vaše promjene poslije nadogradnje teme. Korisite ovu opciju umjesto toga."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:155
+msgid "Save Changes"
+msgstr "Spremi promjene"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:203
+msgid "by"
+msgstr "od"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:203
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s u %2$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:203
+msgid "H:i"
+msgstr "H:i h"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:207
+msgid "Your comment is awaiting moderation."
+msgstr "Vaš komentar čeka na moderiranje."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:217
+msgid "Reply"
+msgstr "Odgovori"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:217
+msgid "Quote"
+msgstr "Citiraj"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:158
+msgid "You are Home"
+msgstr "Vi ste na Naslovnici"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:158
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:160
+msgid "Home"
+msgstr "Naslovnica"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:160
+msgid "Click for Home"
+msgstr "Klikni za naslovnicu"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:28
+msgid "This entry was posted on"
+msgstr "Ovaj unos je postan dana"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:30
+msgid "and is filed under"
+msgstr "te je smješten u"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:32
+msgid "You can follow any responses to this entry through"
+msgstr "Možete pratiti sve odgovore  preko ovog unosa"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:35
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Možete <a href=\"#respond\">ostaviti odgovor</a>, ili <a href=\"%s\" rel=\"trackback\">poveznicu</a> sa svoje osobne stranice."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:39
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Odgovori su trenutno zatvoreni, ali možete<a href=\"%s\" rel=\"trackback\">povezati</a> sa svojom stranicom."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:43
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Možete preskočiti na kraj i ostaviti odgovor. Pinganje trenutno nije dozvoljeno."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:47
+msgid "Both comments and pings are currently closed."
+msgstr "I komentari i pingovi su trenutno zatvoreni."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:49
+msgid "Edit this entry"
+msgstr "Uredi ovaj unos"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:54
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Sorry, nema privitaka koji odgovoraju vašem upitu."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:60
+msgid "Not Found"
+msgstr "Nije pronađeno"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:61
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Sorry, ali vi tražite nešto što nije ovdje."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/links.php:9
+msgid "Links:"
+msgstr "Linkovi:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page-3col.php:23
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page-hidecomments.php:23
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page-nosidebar.php:19
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page.php:16
+msgid "Read the rest of this page &raquo;"
+msgstr "Pročitajte ostatak ove stranice &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:7
+msgid "Search Results"
+msgstr "Rezultati pretraživanja"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:39
+msgid "No posts found. Try a different search?"
+msgstr "Nema pronađenih postova. Pokušajte drugačije pretraživanje."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/searchform.php:8
+msgid "Search"
+msgstr "Traži"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:27
+#, php-format
+msgid "You are currently browsing the archives for the %1$s category."
+msgstr "Trenutno pregledavate arhivu kategorije %1$s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:30
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:33
+#, php-format
+msgid "You are currently browsing the archives for %1$s"
+msgstr "Trenutno pregledavate arhivu za %1$s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:36
+#, php-format
+msgid "You are currently browsing the archives for the year %1$s"
+msgstr "Trenutno pregledavate arhivu za godinu %1$s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:39
+msgid "You have searched the archives for"
+msgstr "Pretražili ste arhive za"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:42
+msgid "You are currently browsing the archives."
+msgstr "Trenutno pregledavate arhive."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:66
+msgid "Archives"
+msgstr "Arhive"
+
+# Ovo je moj komentar
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:77
+msgid "Meta"
+msgstr "Meta"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/single.php:61
+msgid "Sorry, no posts matched your criteria."
+msgstr "Sorry, nema postova koji odgovaraju vašim kriterijima."
+
+#~ msgid "Subscribe to comments feed"
+#~ msgstr "Pretplati se kanal komentara"
+

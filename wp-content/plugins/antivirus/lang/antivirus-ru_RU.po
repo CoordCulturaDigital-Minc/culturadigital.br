@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Antivirus\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2009-05-27 20:55+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sergej Müller\n"
+"Language-Team: Elvis <presley_el@mail.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+msgid "Virus suspected"
+msgstr "Подозрение на вирус"
+
+msgid "AntiVirus for WordPress"
+msgstr "AntiVirus для WordPress"
+
+msgid "requires at least WordPress 2.7"
+msgstr "требуется по меньшей мере WordPress 2.7"
+
+msgid "Last check"
+msgstr "Последний"
+
+msgid "View line"
+msgstr "Посмотреть строку в редакторе"
+
+msgid "There is no virus"
+msgstr "Это не вирус"
+
+msgid "Scan finished"
+msgstr "Сканирование завершено"
+
+msgid "Enable the daily antivirus scan"
+msgstr "Включить ежедневное сканирование антивирусом"
+
+msgid "Alternate email address"
+msgstr "Ввести альтернативный email"
+
+msgid "Completed scan"
+msgstr "Завершено сканирование"
+
+msgid "Permalink back door check"
+msgstr "Проверка на Permalink back door"
+
+msgid "http://mashable.com/2009/09/05/wordpress-attack/"
+msgstr "http://blog.wordpress-deutschland.org/2009/09/05/aeltere-wordpress-versionen-ziel-von-angriffen.html"
+
+msgid "Manual scan"
+msgstr "Ручное сканирование"
+
+msgid "Scan the templates now"
+msgstr "Сканировать скины на вирусы"
+
+msgid "The daily antivirus scan of your blog suggests alarm."
+msgstr "Ежедневный осмотр AntiVirus в блоге бьет тревогу."
+
+msgid "All clear"
+msgstr "Все ясно"
+
+msgid "Danger"
+msgstr "Опасность"
+
+msgid "Learn about wpSEO"
+msgstr "Узнайте больше о wpSEO"
+
+msgid "Follow on Twitter"
+msgstr "Следуйте на Twitter"
+
+msgid "About"
+msgstr "О плагине"
+
+msgid "by"
+msgstr "от"
+

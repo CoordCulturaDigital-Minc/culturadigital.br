@@ -1,0 +1,14 @@
+
+
+/* blue color scheme */
+
+.block h3.title,.block h3.title span,.block .block-div,.block .block-div-arrow{background-image:url(images/blue/block-title.png)}
+.search-form #searchfield,.search-form input.submit{background-image:url(images/blue/search.png);}
+li.comment .comment-head{background-image:url(images/blue/comment-head.png);}
+li.comment .comment-head.comment-author-admin,li.comment .comment-head.bypostauthor{background-color:#3873bd;}
+.tabs-wrap{background-image:url(images/blue/tabs-bg.png);}
+.tabs li{background-image:url(images/blue/tabs-c.png);}
+.tabs li a{background-image:url(images/blue/tabs.png);}
+#site-title p.headline{color:#44a1fb;}
+.altText{color:#3873bd;}
+.tag-cloud a:hover,.block-widget_tag_cloud a:hover{background-color:#44a1fb;}

@@ -1,0 +1,412 @@
+/* admin_subTheme_page.css
+___________________________*/
+
+div.custom_theme{
+	min-width:800px;
+	position:relative;
+	width:97.5%;
+}
+
+div.custom_theme form{
+	background-color:#F1F1F1;
+	border:1px solid #dfdfdf;
+	margin-top:35px;
+	padding:15px;
+	position:relative;
+}
+
+div.preview{
+	clear:both;
+	margin-bottom:10px;
+	float:none;
+}
+div.preview h4{
+	color:#666;
+	margin:0;
+	margin-bottom:5px;
+	margin-top:15px;
+}
+div#preview{
+	border:1px solid #dfdfdf;
+	height:300px;
+}
+div#preview iframe{
+	height:100%;
+	width:100%;
+}
+
+div.upload h4{
+	margin:0;
+	margin-bottom:10px;
+}
+
+div.uploadFromHD{
+	margin-bottom:30px !important;
+}
+
+div.bgOpt
+, div.bgColor{
+	clear:both;
+	margin:10px 0 5px;
+	padding:15px 0;
+}
+
+div.boxOpt{
+	margin:25px 0 15px;
+}
+
+div.boxColor
+, div.textColor
+, div.pattern{
+	clear:both;
+	margin-top:10px;
+}
+
+ul.tabs{
+	left:-1px;
+	position:absolute;
+	top:-42px;
+}
+
+ul.tabs li
+, ul.design li{
+	display:inline;
+	float:left;
+	margin:10px 5px 5px 0;
+}
+ul.tabs li a{
+	background-color:#e1e1e1;
+	border:1px solid #dfdfdf;
+	color:#595959;
+	display:block;
+	font:bold 13px Verdana, Arial, Helvetica, sans-serif;
+	padding:7px 25px;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+ul.tabs li.ui-state-active a{
+	background-color:#F1F1F1;
+	border-bottom:1px solid #F1F1F1;
+}
+div.upload{
+	clear:both;
+	margin-left:15px;
+}
+div.upload label{
+	display:block;
+	margin-bottom:5px;
+}
+div.upload input#fileFromWeb
+, div.upload input#fileFromHd{
+	width:400px;
+}
+div.upload .bt_submit{
+	display:block;
+	margin:5px 0;
+}
+
+div#design{
+	background:#fff;
+	border:1px solid #dfdfdf;
+	margin-top:40px;
+}
+
+ul.design{
+	left:15px;
+	position:absolute;
+	top:323px;
+}
+ul.design li a{
+	background-color:#e5e5e5;
+	border:1px solid #dfdfdf;
+	color:#595959;
+	display:block;
+	font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+	padding:5px 10px;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+ul.design li.ui-state-active a{
+	background-color:#fff;
+	border-bottom:1px solid #fff;
+}
+
+
+div.bgPosition
+, div.bgRepeat
+, div.titlePosition ul{
+	display:inline;
+	float:left;
+	margin:0 15px 25px 15px;
+	width:350px;
+}
+div.bgPosition h4
+, div.bgRepeat h4{
+	color:#555;
+	font-size:0.9em;
+	margin:0;
+	margin-bottom:10px;
+}
+div.clear{
+	clear:both;
+}
+
+h4.tit_{
+	margin-left:15px;
+}
+
+div.color h4
+, div.pattern h4{
+	clear:both;
+	margin:0 0 -10px 15px;
+}
+div.color{
+	clear:both;
+	height:78px;
+}
+div.color input
+, div.pattern input{
+	display:none;
+}
+div.colorPicker input{
+	display:inline;
+}
+div.color ul
+, div#pattern ul{
+	margin-left:15px;
+	float:left;
+	padding-top:12px;
+}
+div#pattern ul{
+	height:75px;
+}
+div.color li
+, div.pattern li{
+	display:inline;
+	float:left;
+	margin-bottom:5px;
+	margin-right:5px;
+	text-align:center;
+}
+div.color label
+, div.pattern label{
+	background-color:#f1f0f0;
+	display:block;
+	height:25px;
+	margin-bottom:5px;
+	margin-top:12px;
+	padding:4px;
+	width:25px;
+}
+
+div.color label.active
+, div.pattern label.active{
+	background-color:#e6e6e6;
+	height:45px;
+	margin-top:0;
+	width:45px;
+}
+
+#linkColor{
+	margin-bottom:10px;
+}
+
+div.color label span
+, div.pattern label img{
+	display:block;
+	height:100%;
+	overflow:hidden;
+	text-indent:-999em;
+	width:100%;
+}
+
+label.none{
+	overflow:hidden;
+}
+
+label.none span{
+	color:black;
+	display:block;
+	font-size:18px;
+	font-weight:bold;
+	margin-top:4px;
+	text-align:center;
+	text-indent:0 !important;
+}
+
+label.active.none span{
+	font-size:25px;
+	margin-top:12px;
+}
+
+div.color button{
+	margin-top:16px;
+	margin-left:15px;
+}
+
+div.color li{
+	margin-bottom:0;
+}
+
+div.pattern li label img{
+	text-indent:0;
+}
+
+div.pattern div.patternImage{
+	margin-bottom:25px;
+	margin-left:15px;
+}
+
+div.pattern div.patternImage h4{
+	margin-left:0;
+}
+
+div.pattern div.patternImage label{
+	background-color:transparent;
+	margin:0;
+	margin-top:15px;
+	padding:0;
+	width:auto;
+}
+
+div.pattern div.patternImage input#patternImage
+, div.pattern div.patternImage input.bt_submit
+, div.pattern div.patternImage input#restorePattern{
+	display:block;
+}
+
+div#headerDesign div.upload{
+	margin:15px;
+	margin-bottom:25px;
+}
+
+div.titleDisplay{
+	margin-left:15px;
+	margin-bottom:15px;
+}
+
+div.titleDisplay h4
+, div.titlePosition h4{
+	margin:25px 0 10px;
+}
+
+div.titlePosition ul{
+	margin-left:0;
+}
+
+div.buttons{
+	display:inline;
+	float:left;
+	margin:25px -15px 50px 0;
+	text-align:right;
+	width:100%;
+}
+
+div.buttons .bt_restore{
+	float:left;
+}
+
+#general_ label{
+	display:block;
+	font-size:1em;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+#general_ select{
+	width:150px;
+}
+
+#skins ul.defaultThemes li
+, div.defaultThemes{
+	display:inline;
+	float:left;
+	margin-bottom:20px;
+	margin-right:20px;
+	overflow:hidden;
+}
+
+#skins ul.defaultThemes li a
+, div.defaultThemes a{
+	background-color:#c9c9c9;
+	display:block;
+	padding:1px;
+	text-decoration:none;
+	width:213px;
+}
+
+#skins ul.defaultThemes li a span
+, div.defaultThemes a span{
+	border:1px solid #dfdfdf;
+	color:#4e4e4e;
+	display:block;
+	font:normal 12px Verdana, Arial, Helvetica, sans-serif;
+	padding:3px;
+}
+
+#skins ul.defaultThemes li a span img
+, div.defaultThemes a span img{
+	display:block;
+	height:108px;
+	margin-bottom:5px;
+	width:205px;
+}
+
+div.defaultThemes{
+	display:block;
+	float:none;
+	margin-bottom:35px;
+}
+
+div#sc-content-1{
+	position:absolute;
+	border:1px solid #dfdfdf;
+	background-color:#c9c9c9;
+	padding:5px;
+	display:none;
+	color:#4e4e4e;
+}
+
+input#hlCategory{
+	margin-bottom:15px;
+}
+
+div.overlay{
+	background-color:#000000;
+	bottom:0;
+	display:none;
+	left:0;
+	opacity:0.6;
+	filter:alpha(opacity=60));
+	position:fixed;
+	right:0;
+	top:0;
+	z-index:4;
+}
+
+div.modal {
+	-moz-border-radius:10px;
+	-moz-box-shadow:0 5px 40px #000000;
+	background:#fff;
+	border:1px solid #ccc;
+	display:none;
+	height:100px;
+	left:50%;
+	margin:-65px 0 0 -115px;
+	position:fixed;
+	top:50%;
+	padding:15px;
+	text-align:center;
+	width:200px;
+	z-index:9999 !important;
+}
+
+div.modal .bt_close{
+	display:none;
+	margin-top:25px;
+}
+
+img.loading_{
+	display:none;
+	margin-top:45px;
+}

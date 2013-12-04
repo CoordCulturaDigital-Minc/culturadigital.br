@@ -1,0 +1,12 @@
+fieldset.utcw {
+  padding: 10px;
+  border: solid 1px #dfdfdf; 
+  border-radius: 4px; 
+  -moz-border-radius: 4px;  
+}
+.utcw-hidden {
+  display:none;
+}
+div.widget_utcw {
+  word-wrap: break-word;
+}

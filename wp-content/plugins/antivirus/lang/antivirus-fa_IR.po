@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AntiVirus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-02 00:46+0330\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sergej Müller\n"
+"Language-Team: Persian wordpress <mostafa.s1990@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgid "Virus suspected"
+msgstr "مظنون به یک ویروس"
+
+msgid "The daily antivirus scan of your blog suggests alarm."
+msgstr "روزانه آنتی ویروس بررسی میکند در وبلاگ شما و اشاره میکند اخطار"
+
+msgid "AntiVirus for WordPress"
+msgstr "آنتی ویروس برای وردپرس"
+
+msgid "requires at least WordPress 2.6"
+msgstr "به نسخه 2.6 وردپرس نياز دارد"
+
+msgid "Manual scan"
+msgstr "بررسی دستی"
+
+msgid "Plugin"
+msgstr "افزونه"
+
+msgid "Version"
+msgstr "نسخه"
+
+msgid "Author"
+msgstr "نویسنده"
+
+msgid "There is no virus"
+msgstr "بدون ویروس یافت شد"
+
+msgid "View line"
+msgstr "مشاهده خط"
+
+msgid "Scan finished"
+msgstr "پایان بررسی"
+
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شد."
+
+msgid "All clear"
+msgstr "پاك كردن همه"
+
+msgid "Danger"
+msgstr "خطر"
+
+msgid "Enable the daily antivirus scan and send the administrator an e-mail if suspicion on a virus"
+msgstr "فعال بودن آنتی ویروس, روزانه بررسی میکند و در صورت داشتن ویروس در قالب پیغامی به ایمیل شما ارسال میکند. "
+
+msgid "Last"
+msgstr "آخرین"
+
+msgid "Alternate e-mail address"
+msgstr "پست الکترونیک برای اطلاع"
+
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+msgid "Completed scan"
+msgstr "اسكن كامل شد"
+
+msgid "Permalink back door check"
+msgstr "چك كردن"
+
+msgid "http://mashable.com/2009/09/05/wordpress-attack/"
+msgstr "http://mashable.com/2009/09/05/wordpress-attack/"
+
+msgid "Scan the theme templates now"
+msgstr "بررسي در قالب"
+
+msgid "About"
+msgstr "درباره"
+

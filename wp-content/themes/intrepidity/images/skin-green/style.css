@@ -1,0 +1,77 @@
+body {background: #0a4310 url(back-body.jpg) repeat-x }
+
+h1 {color: #0f742b }
+
+h2 {color: #02bb16 }
+
+h3 {color: #429e3e }
+
+h4 {color: #3d3d3d }
+
+h5 {color: #212121 }
+
+h6 {color: #F3832B }
+	
+a:link {color: #076c05 }
+
+a:visited {color: #055204;}
+
+a:hover, a:active {color:#098507 }
+	
+#bg {background: url(back-bg.jpg) no-repeat center top}
+
+#sidebar h2 {background: url(back-sidebar-title.jpg) no-repeat scroll right top }
+
+#fcg-slides h2 {color:#0dd122 !important;}
+
+#globalnav {background:url(back-globalnav.png) no-repeat }
+
+#globalnav ul li {background:url(navi-divider.gif) no-repeat right center }
+
+#search_form #s {border:1px solid #02c117 }
+
+#search-submit {background:url(btn-search.png) no-repeat }
+
+.entry_header h1 a:link, .entry_header h1 a:visited, .entry_header h2.home a:link, .entry_header h2.home a:visited {color:#02bb16 }
+
+.categories a {background:#33972e; color: #fff}
+
+.post {background:url(back-entrydate.png) no-repeat 12px 0 }
+
+.entry-date {color:#a7ffa1 }
+
+.comment-bubble {background:#33972e }
+
+#footer {background:#05AB1B url(back-footer.jpg) no-repeat left bottom}
+
+#copyright {color:#60c25a }
+
+#footer-tag a:link, #footer-tag a:visited {color:#60c25a }
+
+.landingpage #container {background:#fff url(back-container-landing.jpg) no-repeat }
+
+#container-shoulder {background:url(back-container-shoulder.jpg) no-repeat }
+
+#optin-container #submit {background: url(back-optin-submit.png) no-repeat }
+
+#footer h2 a:link, #footer h2 a:visited, #footer h2 a:hover, #footer h2 a:active {color: #71c26d }
+
+#footer a:active, #footer a:hover {color: #71c26d }
+
+.button {background:url(../btn-comment-submit-gray.png) no-repeat right top }
+
+.button span {background:url(../btn-comment-submit-gray.png) no-repeat left top }
+
+#logo a:link, #logo a:visited, #logo a:hover, #logo a:active {color:#6df163 }
+
+.comment-author, .comment-author a:link, .comment-author a:visited, .comment-author a:hover, .fn {color:#22821b }
+
+#nav li li a:hover, #nav li li a:active {color: #6df163 }
+
+#optinbox {background: url(optin-container-bottom.png) no-repeat 0 bottom }
+
+#optin-container {background:url(optin-container-getthis.png) no-repeat }
+
+#optinbox .optin-nomsg {background: url(optin-container.png) no-repeat }
+
+#nav li a:hover, #nav li a:active, #nav .current_page_item a {background: url(navhov.png) repeat-x }

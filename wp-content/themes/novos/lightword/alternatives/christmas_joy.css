@@ -1,0 +1,12 @@
+body{
+  background-color:#1F1F30;
+}
+
+#top_bar{
+  background:url(../images/christmas_head.png) no-repeat;
+}
+#logo{
+  margin-left:85px;
+  height:55px;
+}
+

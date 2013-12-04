@@ -1,0 +1,389 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Monochrome 1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-24 14:15+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mono-lab.net <support@mono-lab.net>\n"
+"Language-Team: Team Blogos <wordpress@blogos.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_c;_e;__ngettext:1,2;__ngettext_noop:1,2;_n:1,2;_nc:1,2;_n_noop:1,2\n"
+"X-Poedit-Basepath: d:\\wordpress\\themes\\translated\\monochrome\n"
+"X-Poedit-SearchPath-0: d:\\wordpress\\themes\\translated\\monochrome\n"
+
+#: d:\wordpress\themes\translated\monochrome/archive.php:12
+#, php-format
+msgid "Archive for the &#8216; %s &#8217; Category"
+msgstr "Arkiv for kategorien &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+
+#: d:\wordpress\themes\translated\monochrome/archive.php:15
+#, php-format
+msgid "Posts Tagged &#8216; %s &#8217;"
+msgstr "Indlæg tagget &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+
+#: d:\wordpress\themes\translated\monochrome/archive.php:18
+#: d:\wordpress\themes\translated\monochrome/archive.php:21
+#: d:\wordpress\themes\translated\monochrome/archive.php:24
+#, php-format
+msgid "Archive for %s"
+msgstr "Arkiv for<span id=\"keyword\"> %s </span>"
+
+#: d:\wordpress\themes\translated\monochrome/archive.php:18
+#: d:\wordpress\themes\translated\monochrome/archive.php:39
+#: d:\wordpress\themes\translated\monochrome/comments.php:116
+#: d:\wordpress\themes\translated\monochrome/functions.php:229
+#: d:\wordpress\themes\translated\monochrome/search.php:18
+msgid "F jS, Y"
+msgstr "j. F Y"
+
+#: d:\wordpress\themes\translated\monochrome/archive.php:21
+msgid "F, Y"
+msgstr "F Y"
+
+#: d:\wordpress\themes\translated\monochrome/archive.php:24
+msgid "Y"
+msgstr "Y"
+
+#: d:\wordpress\themes\translated\monochrome/archive.php:27
+msgid "Author Archive"
+msgstr "Forfatterarkiv"
+
+#: d:\wordpress\themes\translated\monochrome/archive.php:30
+msgid "Blog Archives"
+msgstr "Blogarkiv"
+
+#: d:\wordpress\themes\translated\monochrome/archive.php:40
+#: d:\wordpress\themes\translated\monochrome/search.php:19
+msgid "Posted in "
+msgstr "Udgivet i "
+
+#: d:\wordpress\themes\translated\monochrome/archive.php:41
+#: d:\wordpress\themes\translated\monochrome/search.php:20
+msgid "By "
+msgstr "Af "
+
+#: d:\wordpress\themes\translated\monochrome/archive.php:42
+#: d:\wordpress\themes\translated\monochrome/comments.php:117
+#: d:\wordpress\themes\translated\monochrome/index.php:30
+#: d:\wordpress\themes\translated\monochrome/page-nocomment.php:28
+#: d:\wordpress\themes\translated\monochrome/page.php:24
+#: d:\wordpress\themes\translated\monochrome/search.php:21
+#: d:\wordpress\themes\translated\monochrome/single.php:29
+msgid "[ EDIT ]"
+msgstr "[ REDIGÉR ]"
+
+#: d:\wordpress\themes\translated\monochrome/archive.php:44
+#: d:\wordpress\themes\translated\monochrome/search.php:23
+msgid "[ READ MORE ]"
+msgstr "[ L&AElig;S MERE ]"
+
+#: d:\wordpress\themes\translated\monochrome/archive.php:49
+#: d:\wordpress\themes\translated\monochrome/index.php:40
+#: d:\wordpress\themes\translated\monochrome/page-nocomment-noinfo.php:27
+#: d:\wordpress\themes\translated\monochrome/page-nocomment.php:36
+#: d:\wordpress\themes\translated\monochrome/page-noside-nocomment.php:22
+#: d:\wordpress\themes\translated\monochrome/page-noside.php:21
+#: d:\wordpress\themes\translated\monochrome/page.php:32
+#: d:\wordpress\themes\translated\monochrome/search.php:28
+#: d:\wordpress\themes\translated\monochrome/single.php:37
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Beklager, men du leder efter noget, som ikke er her."
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:10
+#: d:\wordpress\themes\translated\monochrome/comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dette indlæg er kodeordsbeskyttet. Indtast kodeordet for at se kommentarer."
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:39
+#: d:\wordpress\themes\translated\monochrome/index.php:29
+#: d:\wordpress\themes\translated\monochrome/page.php:23
+#: d:\wordpress\themes\translated\monochrome/single.php:28
+msgid "Write comment"
+msgstr "Skriv kommentar"
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:41
+msgid "Comments RSS"
+msgstr "Kommentarfeed"
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:46
+msgid "Trackback"
+msgstr "Trackbacks"
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:47
+#: d:\wordpress\themes\translated\monochrome/comments.php:50
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:49
+msgid "Trackback are closed"
+msgstr "Der er lukket for kommentarer"
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:78
+msgid "No comments yet."
+msgstr "Endnu ingen kommentarer."
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:105
+msgid "TrackBack URL"
+msgstr "Trackback-URL"
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:120
+msgid "Trackback from : "
+msgstr "Trackback fra: "
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:126
+msgid "No trackbacks yet."
+msgstr "Endnu ingen trackbacks."
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:141
+msgid "Comment are closed."
+msgstr "Der er lukket for kommentarer."
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:156
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Du skal være <a href=\"%s\">logget ind</a> for at indsende en kommentar."
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:175
+#: d:\wordpress\themes\translated\monochrome/comments.php:177
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "Logget ind som <a href=\"%1$s\">%2$s</a>."
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:175
+#: d:\wordpress\themes\translated\monochrome/comments.php:177
+msgid "Log out of this account"
+msgstr "Log ud af denne konto"
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:175
+msgid "[ Log out ]"
+msgstr "[ Log ud ]"
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:177
+msgid "Log out"
+msgstr "Log ud"
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:182
+msgid "NAME"
+msgstr "NAVN"
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:182
+#: d:\wordpress\themes\translated\monochrome/comments.php:183
+msgid "( required )"
+msgstr "(skal udfyldes)"
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:183
+msgid "E-MAIL"
+msgstr "MAIL"
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:183
+msgid "- will not be published -"
+msgstr "&ndash; bliver ikke vist offentligt &ndash;"
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:184
+msgid "URL"
+msgstr "URL"
+
+#: d:\wordpress\themes\translated\monochrome/comments.php:193
+msgid "Submit Comment"
+msgstr "Indsend kommentar"
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:81
+msgid "Theme Options"
+msgstr "Tema-indstillinger"
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:90
+msgid "Monochrome option"
+msgstr "Indstillinger for Monochrome"
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:94
+msgid "Show Information on sidebar."
+msgstr "Vis informationsfelt i sidepanel."
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:96
+#: d:\wordpress\themes\translated\monochrome/functions.php:110
+#: d:\wordpress\themes\translated\monochrome/functions.php:123
+#: d:\wordpress\themes\translated\monochrome/functions.php:136
+#: d:\wordpress\themes\translated\monochrome/functions.php:142
+#: d:\wordpress\themes\translated\monochrome/functions.php:147
+msgid "Yes"
+msgstr "Ja"
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:100
+msgid "Information title."
+msgstr "Titel på informationsfelt."
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:104
+msgid "Information contents. ( HTML tag is available. )"
+msgstr "Indhold af informationsfelt på forsiden. (HTML-tags må bruges.)"
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:108
+msgid "Show rss feed on sidebar."
+msgstr "Vis RSS-feed i sidepanel."
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:114
+msgid "Position of search area on sidebar."
+msgstr "Placering af søgefelt i sidepanel."
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:116
+msgid "Top"
+msgstr "Top"
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:117
+msgid "Bottom"
+msgstr "Bund"
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:121
+msgid "Show tag list under search area."
+msgstr "Vis tag-liste under søgefeltet."
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:127
+msgid "Header menu."
+msgstr "Header-menu."
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:129
+msgid "Use pages for header menu."
+msgstr "Vis sider i menubjælken i headeren."
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:130
+msgid "Use categories for header menu."
+msgstr "Brug kategorier i menubjælken i headeren."
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:134
+msgid "Show author name."
+msgstr "Vis forfatternavn."
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:140
+msgid "Show tag."
+msgstr "Vis tags."
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:146
+msgid "Check if you want to show Return top link.<br />( NOTICE : Return top link does not work on IE6. )"
+msgstr "Markér, hvis du ønsker at vise Returnér til top-linket.<br />(<i>Bemærk</i>, at dette link ikke virker i IE6.)"
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:151
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:236
+#: d:\wordpress\themes\translated\monochrome/functions.php:238
+#: d:\wordpress\themes\translated\monochrome/functions.php:241
+msgid "REPLY"
+msgstr "BESVAR"
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:243
+msgid "QUOTE"
+msgstr "CITÉR"
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:244
+msgid "EDIT"
+msgstr "REDIGÉR"
+
+#: d:\wordpress\themes\translated\monochrome/functions.php:250
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer godkendelse."
+
+#: d:\wordpress\themes\translated\monochrome/header.php:13
+msgid " | "
+msgstr " | "
+
+#: d:\wordpress\themes\translated\monochrome/header.php:50
+msgid "HOME"
+msgstr "FORSIDE"
+
+#: d:\wordpress\themes\translated\monochrome/index.php:14
+#: d:\wordpress\themes\translated\monochrome/page-nocomment-noinfo.php:18
+#: d:\wordpress\themes\translated\monochrome/page-nocomment.php:18
+#: d:\wordpress\themes\translated\monochrome/page-noside-nocomment.php:15
+#: d:\wordpress\themes\translated\monochrome/page-noside.php:15
+#: d:\wordpress\themes\translated\monochrome/page.php:13
+#: d:\wordpress\themes\translated\monochrome/single.php:13
+msgid "Read more"
+msgstr "L&aelig;s mere"
+
+#: d:\wordpress\themes\translated\monochrome/index.php:21
+#: d:\wordpress\themes\translated\monochrome/page-nocomment.php:25
+#: d:\wordpress\themes\translated\monochrome/page.php:20
+#: d:\wordpress\themes\translated\monochrome/single.php:20
+msgid "POSTED BY"
+msgstr "UDGIVET AF"
+
+#: d:\wordpress\themes\translated\monochrome/index.php:24
+#: d:\wordpress\themes\translated\monochrome/single.php:23
+msgid "CATEGORY"
+msgstr "KATEGORI"
+
+#: d:\wordpress\themes\translated\monochrome/index.php:27
+#: d:\wordpress\themes\translated\monochrome/single.php:26
+msgid "<dt>TAGS</dt><dd>"
+msgstr "<dt>TAGS</dt><dd>"
+
+#: d:\wordpress\themes\translated\monochrome/index.php:29
+msgid "1 comment"
+msgstr "&Eacute;n kommentar"
+
+#: d:\wordpress\themes\translated\monochrome/index.php:29
+#, php-format
+msgid "% comments"
+msgstr "% kommentarer"
+
+#: d:\wordpress\themes\translated\monochrome/search.php:10
+msgid "Search results for "
+msgstr "Søgeresultater for "
+
+#: d:\wordpress\themes\translated\monochrome/search.php:10
+msgid " hit"
+msgstr " hit"
+
+#: d:\wordpress\themes\translated\monochrome/sidebar.php:7
+msgid "Information"
+msgstr "Information"
+
+#: d:\wordpress\themes\translated\monochrome/sidebar.php:8
+msgid "Change this sentence and title from admin Theme option page."
+msgstr "Du kan ændre denne sætning og titlen fra Temaets indstillingsside i kontrolpanelet."
+
+#: d:\wordpress\themes\translated\monochrome/sidebar.php:12
+msgid "Entries RSS"
+msgstr "Indlægs-RSS"
+
+#: d:\wordpress\themes\translated\monochrome/sidebar.php:12
+msgid "RSS FEED"
+msgstr "RSS-FEED"
+
+#: d:\wordpress\themes\translated\monochrome/sidebar.php:22
+#: d:\wordpress\themes\translated\monochrome/sidebar.php:68
+msgid "Search"
+msgstr "Søg"
+
+#: d:\wordpress\themes\translated\monochrome/sidebar.php:23
+#: d:\wordpress\themes\translated\monochrome/sidebar.php:69
+msgid "Search from this blog."
+msgstr "Søg på denne blog."
+
+#: d:\wordpress\themes\translated\monochrome/sidebar.php:28
+#: d:\wordpress\themes\translated\monochrome/sidebar.php:74
+msgid "TAG LIST"
+msgstr "TAG-LISTE"
+
+#: d:\wordpress\themes\translated\monochrome/sidebar.php:38
+msgid "Recent entry"
+msgstr "Nyt indlæg"
+
+#: d:\wordpress\themes\translated\monochrome/sidebar.php:48
+msgid "Archive"
+msgstr "Arkiv"
+
+#: d:\wordpress\themes\translated\monochrome/sidebar.php:55
+msgid "Category"
+msgstr "Kategori"
+
+#: d:\wordpress\themes\translated\monochrome/sidebar.php:65
+msgid "SEARCH"
+msgstr "SØG"
+

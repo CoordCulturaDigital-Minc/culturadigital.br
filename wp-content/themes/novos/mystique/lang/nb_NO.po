@@ -1,0 +1,1532 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mystique 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-18 18:39+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Kenneth Kvalvik <kenneth.kvalvik@gmail.com>\n"
+"Language-Team: digitalnature.ro <hello@digitalnature.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: C:\\Users\\Jonasson\\Desktop\\mystique\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: C:\Users\Jonasson\Desktop\mystique/404.php:13
+msgid "The requested page was not found"
+msgstr "Siden du lette etter finnes ikke. "
+
+#: C:\Users\Jonasson\Desktop\mystique/archive.php:23
+#, php-format
+msgid "Posts tagged %s"
+msgstr "Innlegg tagget med %s"
+
+#: C:\Users\Jonasson\Desktop\mystique/archive.php:25
+#: C:\Users\Jonasson\Desktop\mystique/archive.php:27
+#, php-format
+msgid "Archive for %s"
+msgstr "Arkiv for %s"
+
+#: C:\Users\Jonasson\Desktop\mystique/archive.php:27
+msgid "F, Y"
+msgstr "F Y"
+
+#: C:\Users\Jonasson\Desktop\mystique/archive.php:29
+#, php-format
+msgid "Archive for year %s"
+msgstr "Arkiv for år %s"
+
+#: C:\Users\Jonasson\Desktop\mystique/archive.php:29
+msgid "Y"
+msgstr "Y"
+
+#: C:\Users\Jonasson\Desktop\mystique/archive.php:31
+msgid "Author archive"
+msgstr "Forfatterarkiv"
+
+#: C:\Users\Jonasson\Desktop\mystique/archive.php:33
+msgid "Blog Archives"
+msgstr "Bloggarkiv"
+
+#: C:\Users\Jonasson\Desktop\mystique/archive.php:47
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Beklager, men det finnes ingen innlegg i kategorien %s enda."
+
+#: C:\Users\Jonasson\Desktop\mystique/archive.php:48
+msgid "Sorry, but there aren't any posts within this date."
+msgstr "Beklager, men det finnes ingen innlegg på denne datoen."
+
+#: C:\Users\Jonasson\Desktop\mystique/archive.php:51
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Beklager, men det finnes ingen innlegg av %s enda."
+
+#: C:\Users\Jonasson\Desktop\mystique/archive.php:52
+msgid "No posts found."
+msgstr "Fant ingen innlegg."
+
+#: C:\Users\Jonasson\Desktop\mystique/author.php:23
+msgid "This user hasn't shared any biographical information"
+msgstr "Denne brukeren deler ikke sin biografi"
+
+#: C:\Users\Jonasson\Desktop\mystique/author.php:28
+msgid "Homepage:"
+msgstr "Hjemmeside:"
+
+#: C:\Users\Jonasson\Desktop\mystique/author.php:29
+msgid "Yahoo Messenger:"
+msgstr "Yahoo Messenger:"
+
+#: C:\Users\Jonasson\Desktop\mystique/author.php:30
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: C:\Users\Jonasson\Desktop\mystique/author.php:31
+msgid "AIM:"
+msgstr "AIM:"
+
+#: C:\Users\Jonasson\Desktop\mystique/author.php:38
+#, php-format
+msgid "Posts by %s"
+msgstr "Innlegg av %s"
+
+#: C:\Users\Jonasson\Desktop\mystique/author.php:48
+msgid "No posts found by this author."
+msgstr "Fant ingen innlegg av denne forfatteren."
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Skriv inn ditt passord for å se kommentarer."
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:42
+msgid "Related Posts"
+msgstr "Relaterte innlegg"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:43
+#, php-format
+msgid "Trackbacks (%s)"
+msgstr "Trackbacks (%s)"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:44
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:50
+#, php-format
+msgid "Comments (%s)"
+msgstr "Kommentarer (%s)"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:82
+msgid "No comments yet."
+msgstr "Ingen kommentarer enda."
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:91
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Du må være <a href=\"%s\">innlogget</a> for å legge igjen en kommentar."
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:102
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:128
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:129
+msgid "Name (required)"
+msgstr "Navn (påkrevd)"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:103
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:132
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:133
+msgid "E-mail (required, will not be published)"
+msgstr "E-post (påkrevd, blir ikke publisert)"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:104
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:136
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:137
+msgid "Website"
+msgstr "Hjemmeside"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:115
+#, php-format
+msgid "Logged in as %s."
+msgstr "Innlogget som %s."
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:117
+msgid "Log out of this account"
+msgstr "Logg ut fra denne kontoen"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:117
+msgid "Logout &raquo;"
+msgstr "Logg ut &raquo;"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:122
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Velkommen tilbake <strong>%s</strong>."
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:123
+msgid "Change &raquo;"
+msgstr "Endre &raquo;"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:144
+msgid "Type your comment"
+msgstr "Skriv din kommentar"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:153
+#, php-format
+msgid "Spam protection: Sum of %1$s + %2$s = ?"
+msgstr "Spambeskyttelse: Summen av %1$s + %2$s = ?"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:162
+msgid "Submit Comment"
+msgstr "Send kommentar"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:164
+msgid "Cancel Reply"
+msgstr "Avbryt svar"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:188
+msgid "No trackbacks yet."
+msgstr "Ingen trackbacks enda."
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:206
+msgid "No comments"
+msgstr "Ingen kommentarer"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:206
+msgid "1 comment"
+msgstr "1 kommentar"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:206
+#, php-format
+msgid "% comments"
+msgstr "% kommentarer"
+
+#: C:\Users\Jonasson\Desktop\mystique/comments.php:224
+msgid "Comments are closed."
+msgstr "Kommentarfunksjonen er stengt."
+
+#: C:\Users\Jonasson\Desktop\mystique/functions.php:10
+#, php-format
+msgid "Your site is running on %1$s. Mystique requires at least %2$s."
+msgstr "Din side kjører med %1$s. Mystique krever minst %2$s."
+
+#: C:\Users\Jonasson\Desktop\mystique/functions.php:76
+msgid "Default sidebar"
+msgstr "Standard sidefelt"
+
+#: C:\Users\Jonasson\Desktop\mystique/functions.php:78
+msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
+msgstr "Dette er standard sidefelt, vises både i 2- og 3-kolonnes layout. Om ingen widgets er aktive, blir det satt opp standard-widgets i stedet."
+
+#: C:\Users\Jonasson\Desktop\mystique/functions.php:86
+msgid "Secondary sidebar"
+msgstr "Sekundært sidefelt"
+
+#: C:\Users\Jonasson\Desktop\mystique/functions.php:88
+msgid "This sidebar is active only on a 3 column setup. "
+msgstr "Dette sidepanelet er bare aktivt om du har valgt å bruke layout med 3 kolonner."
+
+#: C:\Users\Jonasson\Desktop\mystique/functions.php:96
+msgid "Footer"
+msgstr "Footer"
+
+#: C:\Users\Jonasson\Desktop\mystique/functions.php:98
+msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
+msgstr "Du kan legge til mellom 1 og 6 widgets her (3 eller 4 er optimalt). Størrelsen blir tilpasset antall widgets."
+
+#: C:\Users\Jonasson\Desktop\mystique/functions.php:106
+msgid "Footer (slide 2)"
+msgstr "Footer (slide 2)"
+
+#: C:\Users\Jonasson\Desktop\mystique/functions.php:108
+#: C:\Users\Jonasson\Desktop\mystique/functions.php:118
+#: C:\Users\Jonasson\Desktop\mystique/functions.php:128
+msgid "Only visible if jQuery is enabled. "
+msgstr "Vises bare om jQuery er aktivert."
+
+#: C:\Users\Jonasson\Desktop\mystique/functions.php:116
+msgid "Footer (slide 3)"
+msgstr "Footer (slide 3)"
+
+#: C:\Users\Jonasson\Desktop\mystique/functions.php:126
+msgid "Footer (slide 4)"
+msgstr "Footer (slide 4)"
+
+#: C:\Users\Jonasson\Desktop\mystique/index.php:23
+msgid "No posts found"
+msgstr "Fant ingen innlegg"
+
+#: C:\Users\Jonasson\Desktop\mystique/index.php:24
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Beklager, men du leter etter noe som ikke finnes her."
+
+#: C:\Users\Jonasson\Desktop\mystique/search.php:13
+#: C:\Users\Jonasson\Desktop\mystique/searchform.php:5
+#: C:\Users\Jonasson\Desktop\mystique/searchform.php:10
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:356
+msgid "Search"
+msgstr "Søk"
+
+#: C:\Users\Jonasson\Desktop\mystique/search.php:15
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:237
+#, php-format
+msgid "Search results for %s"
+msgstr "Søkeresultat for %s"
+
+#: C:\Users\Jonasson\Desktop\mystique/search.php:31
+msgid "Nothing found."
+msgstr "Fant ingenting."
+
+#: C:\Users\Jonasson\Desktop\mystique/search.php:31
+msgid "Try a different search?"
+msgstr "Vil du prøve et nytt søk?"
+
+#: C:\Users\Jonasson\Desktop\mystique/search.php:35
+msgid "What do you wish to search for?"
+msgstr "Hva vil du søke etter?"
+
+#: C:\Users\Jonasson\Desktop\mystique/searchform.php:11
+#, php-format
+msgid "You have searched the archives for %s"
+msgstr "Du har søkt i arkivet etter %s"
+
+#: C:\Users\Jonasson\Desktop\mystique/searchform.php:13
+msgid "Type a valid search term..."
+msgstr "Skriv et gyldig søkeord..."
+
+#: C:\Users\Jonasson\Desktop\mystique/sidebar.php:26
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:422
+msgid "My latest tweets"
+msgstr "Mine siste kvitringer"
+
+#: C:\Users\Jonasson\Desktop\mystique/sidebar.php:34
+msgid "Blogroll"
+msgstr "Blogroll"
+
+#: C:\Users\Jonasson\Desktop\mystique/sidebar2.php:7
+msgid "You activated the 2nd sidebar. Add widgets here from the Dashboard to remove this message"
+msgstr "Du har aktivert det andre sidepanelet. Legg widgets til denne fra Panelene for å ta bort denne meldingen."
+
+#: C:\Users\Jonasson\Desktop\mystique/single.php:25
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:542
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:555
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:623
+msgid "More &gt;"
+msgstr "Mer &gt;"
+
+#: C:\Users\Jonasson\Desktop\mystique/single.php:28
+msgid "Pages:"
+msgstr "Sider:"
+
+#: C:\Users\Jonasson\Desktop\mystique/single.php:39
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:567
+#, php-format
+msgid "%1$s (%2$s topics)"
+msgstr "%1$s (%2$s emner)"
+
+#: C:\Users\Jonasson\Desktop\mystique/single.php:52
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:580
+msgid "About the author"
+msgstr "Om forfatteren"
+
+#: C:\Users\Jonasson\Desktop\mystique/single.php:64
+msgid "Print article"
+msgstr "Skriv ut artikellen"
+
+#: C:\Users\Jonasson\Desktop\mystique/single.php:68
+#, php-format
+msgid "This entry was posted by %1$s on %2$s at %3$s, and is filed under %4$s. Follow any responses to this post through %5$s."
+msgstr "Dette innlegget ble postet av %1$s den %2$s klokken %3$s, og ligger i kategorien %4$s. Du kan følge alle svar på dette innlegget via %5$s."
+
+#: C:\Users\Jonasson\Desktop\mystique/single.php:71
+#, php-format
+msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
+msgstr "Du kan <a%1$s>legge inn en kommentar</a> eller <a%2$s>lage en trackback</a> fra din egen side."
+
+#: C:\Users\Jonasson\Desktop\mystique/single.php:73
+#, php-format
+msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
+msgstr "Svarfunksjonen er for øyeblikket stengt, men du kan <a%1$s>lage en trackback</a> fra din egen side."
+
+#: C:\Users\Jonasson\Desktop\mystique/single.php:75
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Du kan hoppe til slutten og legge et svar. Pingbacks er for øyeblikket ikke tillatt. "
+
+#: C:\Users\Jonasson\Desktop\mystique/single.php:77
+msgid "Both comments and pings are currently closed."
+msgstr "Både kommentarer og pingbacks er for øyeblikket stengt."
+
+#: C:\Users\Jonasson\Desktop\mystique/single.php:80
+msgid "Edit this entry"
+msgstr "Rediger dette innlegget"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:285
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:349
+msgid "You are not authorised to perform this operation."
+msgstr "Du har ikke tillatelse til å utføre denne operasjonen. "
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:336
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a>."
+msgstr "Det er tilgjengelig en ny versjon av %1$s. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Se detaljer for versjon %3$s</a>."
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:337
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a> or <a href=\"%4$s\" >upgrade automatically</a>."
+msgstr "Det er tilgjengelig en ny versjon av %1$s. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Se detaljer for versjon %3$s</a> eller <a href=\"%4$s\" >oppgradere automatisk</a>."
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:355
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:866
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:867
+msgid "Mystique settings"
+msgstr "Mystique innstillinger"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:356
+msgid "Save Changes"
+msgstr "Lagre endringer"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:356
+msgid "Reset to Defaults"
+msgstr "Tilbakestill til standard"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:356
+msgid "Reset all theme settings to the default values? Are you sure?"
+msgstr "Tilbakestill alle innstillingene for temaet til standardverdier? Er du sikker?"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:365
+#, php-format
+msgid "Settings saved. %s"
+msgstr "Lagret innstillingene. %s"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:365
+msgid "View site"
+msgstr "Vis siden"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:369
+msgid "Please upload a valid image file!"
+msgstr "Vennligst last opp en gyldig bildefil!"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:370
+msgid "The file you uploaded doesn't seem to be a valid JPEG, PNG or GIF image"
+msgstr "Filen du lastet opp er visst ikke et gyldig JPEG, PNG eller GIF-bilde"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:371
+msgid "The image could not be saved on your server"
+msgstr "Bildet kunne ikke lagres på din server"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:376
+#, php-format
+msgid "Error: %s"
+msgstr "Feil: %s"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:385
+msgid "Design"
+msgstr "Design"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:386
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:604
+msgid "Content"
+msgstr "Innhold"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:387
+msgid "Navigation"
+msgstr "Navigasjon"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:388
+msgid "SEO"
+msgstr "SEO"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:389
+msgid "Ads"
+msgstr "Annonser"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:390
+msgid "Advanced"
+msgstr "Avansert"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:391
+msgid "User CSS"
+msgstr "Bruker-CSS"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:392
+msgid "More themes by digitalnature"
+msgstr "Flere temaer av digitalnature"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:402
+msgid "The design settings panel is not yet supported by Internet Explorer. Sorry :("
+msgstr "Designpanelet støtter enn så lenge ikke Internet Explorer. Sorry :("
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:405
+msgid "Loading site preview..."
+msgstr "Laster forhåndsvisning av siden..."
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:410
+msgid "Layout style"
+msgstr "Layout"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:410
+msgid "Use page templates if you want to apply these only to specific pages"
+msgstr "Bruk sidemaler for å bruke disse på spesifikke sider"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:446
+msgid "Color scheme"
+msgstr "Fargetema"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:450
+msgid "Not available with <em>imageless</em> setting"
+msgstr "Ikke tilgjengelig med <em>bildeløs</em> innstilling"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:477
+msgid "Page (content) width"
+msgstr "Side (innhold) bredde"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:477
+msgid "Note that fluid pages can be hard to read on large resolutions."
+msgstr "Merk at sider med flytende sidebredd kan være vanskelig å lese ved høy oppløsning."
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:480
+#, php-format
+msgid "Fixed (%s)"
+msgstr "Fast (%s)"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:481
+msgid "Fluid (100%)"
+msgstr "Flytende (100%)"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:487
+msgid "Column sizes"
+msgstr "Kolonnebredde"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:487
+msgid "(With 10 pixel padding between them)"
+msgstr "(Med 10 pikslers mellomrom)"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:500
+msgid "Font style"
+msgstr "Font"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:513
+msgid "Background color"
+msgstr "Bakgrunnsfarge"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:513
+msgid "Leave Black (#000000) to keep the default background"
+msgstr "La stå som svart (#000000) for å beholde standardbakgrunn"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:526
+msgid "Custom logo image"
+msgstr "Tilpass logobilde"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:526
+msgid "Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr "Vis et logobilde i stedet for tekst. Last opp bildefilen fra din pc"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:531
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:549
+msgid "Remove current image"
+msgstr "Fjern valgte bilde"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:537
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:555
+#, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr "Katalog %s har ikke skriverettigheter - kan ikke laste opp!"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:537
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:555
+msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
+msgstr "Kontroller opplastingsbane i Innstillinger/Annet eller CHMOD denne katalogen til 755/777.<br />Kontakt ditt webhotell om du ikke vet hvordan du skal gjøre det"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:544
+msgid "Custom background image"
+msgstr "Tilpasset bakgrunnsbilde"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:544
+msgid "Upload a new background/header image to replace the default one"
+msgstr "Last opp et nytt bakgrunnsbilde for å erstatte standardbildet."
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:568
+msgid "Posts (single)"
+msgstr "Innlegg (Enkelt)"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:568
+msgid "How much information do you want to show on the single post page?"
+msgstr "Hvor mye informasjon vil du vise på en innleggsside?"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:571
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:601
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:121
+msgid "Tags"
+msgstr "Etiketter"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:574
+msgid "Meta"
+msgstr "Meta"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:577
+msgid "Share"
+msgstr "Del"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:583
+msgid "Print link"
+msgstr "Utskriftslenke"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:586
+msgid "Related posts"
+msgstr "Relaterte innlegg"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:592
+msgid "Post previews"
+msgstr "Visning av innlegg"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:592
+msgid "How much info do you want to show on blog/category/archive/search pages?"
+msgstr "Hvor mye informasjon vil du vise på blogg/kategori/arkiv/søkesider?"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:595
+msgid "Title"
+msgstr "Tittel"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:598
+msgid "Info bar"
+msgstr "Informasjonsliste"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:606
+msgid "max. 50 words, filtered"
+msgstr "max 50 ord, filtrert"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:607
+msgid "max. 100 words, filtered"
+msgstr "max 100 ord, filtrert"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:608
+msgid "max. 200 words, filtered"
+msgstr "max 200 ord, filtrert"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:609
+msgid "full"
+msgstr "hele innlegget"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:610
+msgid "full, filtered"
+msgstr "komplett, filtrerert"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:611
+msgid "excerpt"
+msgstr "utdrag"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:618
+msgid "Post thumbnail size"
+msgstr "Størrelse på thumbnailbilde for innlegg"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:618
+#, php-format
+msgid "Note that this only works for images you upload from now on, older images will be browser-resized. You should use the %s plugin to create missing image sizes"
+msgstr "Dette fungerer bare på bilder som du laster opp fra og med nå. De eldre bildene kommer nettleseren til å endre bildene på. Du bør bruke innstikksprogrammet  %s for å lage manglende bildestørrelser."
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:622
+msgid "Very small: 48 x 48"
+msgstr "Veldig lite: 48 x 48"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:623
+msgid "Small: 64 x 64"
+msgstr "Lite: 64 x 64"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:624
+msgid "Medium: 80 x 80"
+msgstr "Mellomstort: 80 x 80"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:625
+msgid "Larger: 100 x 100"
+msgstr "Større: 100 x 100"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:626
+#, php-format
+msgid "WP's Media setting: %s"
+msgstr "WordPress medieinnstillinger: %s"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:634
+msgid "Footer content"
+msgstr "Innhold i footer"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:634
+msgid "You can post HTML code"
+msgstr "Du kan legge inn HTML-kode her"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:634
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:749
+msgid "Only some HTML tags and attributes are allowed"
+msgstr "Bare noen HTML-tagger og attributter er tillatte"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:638
+#, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr "Bruk følgende kortkoder for tilpasninger: <br />%s"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:648
+msgid "Top navigation shows"
+msgstr "Toppmenyen viser"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:651
+msgid "Nothing (disabled)"
+msgstr "Ingenting (inaktivert)"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:652
+msgid "Pages"
+msgstr "Sider"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:653
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:122
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:298
+msgid "Categories"
+msgstr "Kategorier"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:654
+msgid "Links"
+msgstr "Lenker"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:662
+msgid "from category"
+msgstr "fra kategori"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:667
+#, php-format
+msgid "%s links"
+msgstr "%s lenker"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:674
+msgid "No links found"
+msgstr "Fant ingen lenker"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:683
+msgid "Exclude from navigation"
+msgstr "Ekskluder fra naviasjon"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:683
+msgid "Check the items you wish to hide from the main menu"
+msgstr "Marker de objektene du vil skjule fra hovedmenyen"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:688
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:167
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:169
+msgid "Home"
+msgstr "Hjem"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:693
+msgid "(Use the private property to hide other links)"
+msgstr "(Marker en lenke som privat for å skjule den)"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:723
+msgid "Additional site optimization for search engines"
+msgstr "Ytterligere sideoptimering for søkemotorer"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:723
+msgid "Uncheck if you are using a SEO plugin!"
+msgstr "Fjern markering for dette valget om du bruker et SEO innstikksprogram!"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:730
+msgid "What does this do?"
+msgstr "Hva gjør denne funksjonen?"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:732
+msgid "enables canonical URLs for comments (duplicate content fix, only needed on wp < 2.9)"
+msgstr "aktiverer kanoniske webadresser for kommentarer (innholdsfiks for dubletter, trengs bare i WordPress <2.9)"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:733
+msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
+msgstr "skaper unike titler for innlegg med flere kommentarsider (forhindrer tittel-dubletter)"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:734
+#, php-format
+msgid "generates a unique meta description tag for each page (no meta keywords; why? -<a %s>useless</a>)"
+msgstr "genererer en unik metatag for beskrivelse for hver side (ikke noe meta nøkkelord; hvorfor? -<a %s>verdiløse</a>)"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:749
+msgid "Advertisment blocks"
+msgstr "Annonseblokk"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:749
+#, php-format
+msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
+msgstr "Bruk %s kortkoder for å legge disse annonsene i innlegg, textwidgets eller i footer"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:750
+msgid "Example:"
+msgstr "Eksempel:"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:756
+#, php-format
+msgid "Ad code #%s:"
+msgstr "Annonsekode #%s:"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:772
+msgid "Use jQuery"
+msgstr "Bruk jQuery"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:772
+msgid "For testing purposes only. Only uncheck if you know what you're doing!"
+msgstr "Bare for testing. Fjern markering bare om du vet hva du gjør!"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:777
+msgid "Enable AJAX on comment pagination"
+msgstr "Aktiver AJAX for kommentarvisning"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:777
+msgid "Navigate trough comment pages without refreshing (faster load, but may be incompatible with some plugins)"
+msgstr "Naviger blant kommentarene uten å laste siden på nytt (laster raskere, men kan være inkompatibelt med enkelte plugings)"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:782
+msgid "Enable theme built-in lightbox on all image links"
+msgstr "Aktiver den innebygde Lightbox-funksjonen på alle bildelenker"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:782
+msgid "Uncheck if you prefer a lightbox plugin"
+msgstr "Fjern markeringen hvis du foretrekker et annet Lightbox-program"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:787
+msgid "Remove Mystique settings from the database after theme switch"
+msgstr "Fjern innstillingene for Mystique fra databasen etter at du har byttet tema"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:787
+msgid "Only check if you're planning to remove and change the theme"
+msgstr "Marker bare om du tenker å ta bort eller endre temaet"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:802
+msgid "User functions"
+msgstr "Brukerfunksjoner"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:802
+msgid "PHP code to add to the theme functions. Useful if you have plugins that require you to change the theme's functions.php file"
+msgstr "PHP-kode for å legge til temafunksjonene. Brukes om du har innstikksprogrammer som krever at du endrer temafilen functions.php"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:817
+msgid "CSS to add, or modify theme styles"
+msgstr "CSS-kode for å legge til eller endre temastiler"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:817
+#, php-format
+msgid "Check %s to see existing theme classes and properties"
+msgstr "Marker %s for å se eksisterende CCS-klasser og egenskaper"
+
+#: C:\Users\Jonasson\Desktop\mystique/admin/theme-settings.php:880
+msgid "Active shortcodes you can use in your posts or widgets"
+msgstr "Aktive kortkoder som du kan bruke i innlegg eller widgets"
+
+#: C:\Users\Jonasson\Desktop\mystique/extensions/auto-thumb/auto-thumb.php:5
+msgid "Auto generate thumbnails"
+msgstr "Autogenerere thumbnails"
+
+#: C:\Users\Jonasson\Desktop\mystique/extensions/auto-thumb/auto-thumb.php:5
+msgid "Create thumbnail from the 1st image found in a post, if no thumbnail is set"
+msgstr "Lag en thumbnail fra det første bildet i innlegget, dersom det ikke spesifiseres en egen thumbnail"
+
+#: C:\Users\Jonasson\Desktop\mystique/extensions/ip2country/ip2country.php:48
+msgid "Show comment author's country flag"
+msgstr "Vise flagget til forfatteren av kommentar"
+
+#: C:\Users\Jonasson\Desktop\mystique/extensions/ip2country/ip2country.php:48
+msgid "May slow down page loading"
+msgstr "Kan føre til at siden lastes tregere"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:40
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:280
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s innlegg"
+msgstr[1] "%s innlegg"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:119
+msgid "View page"
+msgstr "Vis side"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:155
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:263
+msgid "RSS Feeds"
+msgstr "RSS Feeds"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:158
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:406
+msgid "Follow me on Twitter!"
+msgstr "Følg meg på Twitter!"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:167
+msgid "You are Home"
+msgstr "Hjem"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:169
+msgid "Click for Home"
+msgstr "Klikk for å komme Hjem"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:227
+#, fuzzy
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:229
+#, php-format
+msgid "Archive for week %1$s of %2$s"
+msgstr "Arkiv for uke %1$s av %2$s"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:229
+#, fuzzy
+msgid "W"
+msgstr "W"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:240
+msgid "404 Not Found"
+msgstr "404 Fant ikke"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:246
+#, php-format
+msgid "Page %s"
+msgstr "Side %s"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:250
+#, php-format
+msgid "Comment Page %s"
+msgstr "Kommentarside %s"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:272
+#, php-format
+msgid "View all posts in %s"
+msgstr "Vis alle innlegg i %s"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:332
+msgid "Share this post!"
+msgstr "Del dette innlegget!"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:517
+msgid "Permanent Link:"
+msgstr "Permanent lenke:"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:522
+msgid "M jS"
+msgstr "j M y"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:526
+#, php-format
+msgid "Posted by %1$s in %2$s"
+msgstr "Postet av %1$s i %2$s"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:529
+msgid "Edit"
+msgstr "Rediger"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:609
+msgid "Pages: "
+msgstr "Sider:"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:611
+msgid "Edit this page"
+msgstr "Rediger denne siden"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:680
+msgid "Go to the first page"
+msgstr "Gå til første side"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:680
+msgid "&laquo; First"
+msgstr "&laquo; Første"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:686
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:692
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:698
+#, php-format
+msgid "Go to page %s"
+msgstr "Gå til side %s"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:702
+msgid "Go to the last page"
+msgstr "Gå siste side"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:702
+msgid "Last &raquo;"
+msgstr "Siste &raquo;"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:736
+#, php-format
+msgid "about %s year ago"
+msgid_plural "about %s years ago"
+msgstr[0] "omtrent %s år siden"
+msgstr[1] "omtrent %s år siden"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:737
+#, php-format
+msgid "about %s month ago"
+msgid_plural "about %s months ago"
+msgstr[0] "omtrent %s måned siden"
+msgstr[1] "omtrent %s måneder siden"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:738
+#, php-format
+msgid "about %s week ago"
+msgid_plural "about %s weeks ago"
+msgstr[0] "omtrent %s uke siden"
+msgstr[1] "omtrent %s uker siden"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:739
+#, php-format
+msgid "about %s day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "omtrent %s dag siden"
+msgstr[1] "omtrent %s dager siden"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:740
+#, php-format
+msgid "about %s hour ago"
+msgid_plural "about %s hours ago"
+msgstr[0] "omtrent %s time siden"
+msgstr[1] "omtrent %s timer siden"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:741
+#, php-format
+msgid "about %s minute ago"
+msgid_plural "about %s minutes ago"
+msgstr[0] "omtrent %s minutt siden"
+msgstr[1] "omtrent %s minutter siden"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:742
+#, php-format
+msgid "about %s second ago"
+msgid_plural "about %s seconds ago"
+msgstr[0] "omtrent %s sekund siden"
+msgstr[1] "omtrent %s sekunder siden"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:1036
+#, php-format
+msgid "%1$s written by %2$s"
+msgstr "%1$s skrevet av %2$s"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:1044
+msgid "Reply"
+msgstr "Svar"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:1045
+msgid "Quote"
+msgstr "Sitér"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/core.php:1052
+msgid "Your comment is awaiting moderation."
+msgstr "Kommentaren din avventer moderasjon."
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/editor.php:22
+msgid "Divider"
+msgstr "Avdeler"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/editor.php:23
+msgid "Error text color"
+msgstr "Farge på feiltekst"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/editor.php:24
+msgid "Error box"
+msgstr "Feilboks"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/settings.php:73
+#, php-format
+msgid "You can configure Mystique from the <a%s>theme settings</a> page."
+msgstr "Du kan konfigurere Mystique fra <a%s>innstillings-siden</a>."
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/settings.php:355
+msgid "There are one or more PHP parse errors in your custom functions."
+msgstr "Det er en eller flere feil i PHP-koden i dine tilpassede funksjoner."
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:17
+#, php-format
+msgid "%s: Widget class not found. Make sure this widget exists and the class name is correct"
+msgstr "%s: Fant ikke widget class. Forsikre deg om denne widgeten finnes og at class er riktig."
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:52
+msgid "User name (required)"
+msgstr "Brukernavn (påkrevd)"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:54
+msgid "Password (required)"
+msgstr "Passord (påkrevd)"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:55
+msgid "Verify password (required)"
+msgstr "Verifisér passord (påkrevd)"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:56
+msgid "E-mail (required)"
+msgstr "E-post (påkrevd)"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:57
+msgid "First name"
+msgstr "Fornavn"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:58
+msgid "Last name"
+msgstr "Etternavn"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:59
+msgid "Profile info"
+msgstr "Etternavn"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:80
+msgid "Please type a user name"
+msgstr "Vennligst skriv et brukernavn"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:81
+msgid "User name already exists"
+msgstr "Brukernavnet finnes allerede"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:82
+msgid "E-mail address is required."
+msgstr "E-postadresse er påkrevd."
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:83
+msgid "E-mail address already in use"
+msgstr "E-postadressen er allerede i bruk"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:84
+msgid "You must enter a password."
+msgstr "Du må angi passord."
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:85
+msgid "Please verify the password"
+msgstr "Vennligst bekreft passordet"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:86
+msgid "Passwords do not match"
+msgstr "Passordene er ikke like"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:87
+msgid "User registration failed.  Please try again."
+msgstr "Registreringen av bruker mislyktes. Vennligst prøv igjen."
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:96
+#, php-format
+msgid "You are logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. You don't need another account :)"
+msgstr "Du er innlogget som <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. Du trenger ikke ny konto :)"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:101
+#, php-format
+msgid "A user account for %1$s has been created."
+msgstr "Det er laget en brukerkonto for %1$s ."
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:102
+#, php-format
+msgid "Thank you for registering, %1$s."
+msgstr "Takk for at du registrerte deg, %1$s."
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:154
+msgid "Add User"
+msgstr "Legg til bruker"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:154
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:615
+msgid "Register"
+msgstr "Registrer deg"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:289
+#, php-format
+msgid "Empty ad slot (#%s)!"
+msgstr "Tom annonseflate (#%s)!"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:294
+msgid "Top"
+msgstr "Til toppen"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:302
+#, php-format
+msgid "%1$s theme by %2$s | Powered by %3$s"
+msgstr "%1$s tema av %2$s | Kjører på %3$s"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:307
+msgid "Copyright &copy;"
+msgstr "Copyright &copy;"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:320
+msgid "Site Admin"
+msgstr "Administrator"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/shortcodes.php:321
+msgid "Log in"
+msgstr "Logg inn"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:55
+#, php-format
+msgid "%s followers"
+msgstr "%s følgere"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:79
+msgid "Error while retrieving tweets (Twitter down?)"
+msgstr "Feil ved henting av kvitringer (er Twitter nede?)"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:92
+msgid "Displays links to different sections grouped in tabs"
+msgstr "Viser lenker til ulike seksjoner gruppert i faner"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:94
+msgid "Mystique | Sidebar tabs"
+msgstr "Mystique | Sidepanelsfaner"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:118
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:314
+msgid "Recent comments"
+msgstr "Siste kommentarer"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:119
+msgid "Popular posts"
+msgstr "Populære innlegg"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:120
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:306
+msgid "Archives"
+msgstr "Arkiv"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:215
+msgid "Didn't find any posts popular enough :("
+msgstr "Fant ingen innlegg som var populære nok :("
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:258
+msgid "Sidebar tabs"
+msgstr "Sidepanelsfaner"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:259
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:402
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:501
+msgid "jQuery is disabled and this widget needs it"
+msgstr "jQuery er inaktivert. Denne widgeten krever det"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:294
+msgid "Tabs to show"
+msgstr "Faner som skal vises"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:302
+msgid "Tags "
+msgstr "Etiketter"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:310
+msgid "Popular posts (most commented)"
+msgstr "Populære innlegg (mest kommenterte)"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:320
+msgid "Sort categories"
+msgstr "Sorter kategorier"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:322
+msgid "by name (alphabetically)"
+msgstr "etter navn (i alfabetisk rekkefølge)"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:323
+msgid "by category ID"
+msgstr "etter kategori-ID"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:324
+msgid "by category slug"
+msgstr "etter kategori"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:325
+msgid "by post count"
+msgstr "Etter antall innlegg"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:330
+msgid "Show post count (categories and archives)"
+msgstr "Vis antall innlegg (kategorier og arkiv)"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:336
+msgid "How many popular posts to show?"
+msgstr "Hvor mange 'populære innlegg' skal vises?"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:343
+msgid "How many recent comments to show?"
+msgstr "Hvor mange 'siste kommentarer' skal vises?"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:359
+msgid "Shows your latest Twitter updates"
+msgstr "Viser dine siste Twitter-oppdateringer"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:360
+msgid "Mystique | Twitter"
+msgstr "Mystique | Twitter"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:399
+msgid "Loading tweets..."
+msgstr "Laster kvitringer..."
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:429
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:535
+msgid "Title:"
+msgstr "Tittel:"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:434
+msgid "Twitter user name:"
+msgstr "Twitter brukernavn:"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:439
+msgid "Number of tweets to show:"
+msgstr "Antall kvitringer som skal vises:"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:453
+msgid "Displays Flickr galleries (needs API key)"
+msgstr "Vise Flickr gallerier (krever API-nøkkel)"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:455
+msgid "Mystique | Flickr Gallery"
+msgstr "Mystique | Flickr galleri"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:526
+msgid "Flickr Gallery"
+msgstr "Flickr galleri"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:540
+msgid "API key:"
+msgstr "API-nøckel:"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:545
+msgid "Number of photos to show:"
+msgstr "Antall bilder som skal vises:"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:550
+msgid "Gallery source:"
+msgstr "Gallerikilde:"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:552
+msgid "Photoset"
+msgstr "Photoset"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:553
+msgid "User photostream"
+msgstr "Brukerens fotostrøm"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:558
+msgid "Photoset ID:"
+msgstr "Photoset ID:"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:563
+#, php-format
+msgid "User ID (use %s to find it):"
+msgstr "Bruker-ID (bruk %s for å finne den):"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:578
+msgid "Login form"
+msgstr "Innloggingsskjema"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:579
+msgid "Mystique | Login"
+msgstr "Mystique | logge in"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:589
+#, php-format
+msgid "Logged in: %s"
+msgstr "Innlogget: %s"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:594
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:596
+msgid "Write"
+msgstr "Skriv"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:597
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:599
+msgid "Log out"
+msgstr "Logg ut"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:603
+msgid "User Login"
+msgstr "Brukerinnlogging"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:607
+msgid "User"
+msgstr "Brukernavn"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:608
+msgid "Password"
+msgstr "Passord"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:609
+msgid "Login"
+msgstr "Logg inn"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:610
+msgid "Remember me"
+msgstr "Husk meg"
+
+#: C:\Users\Jonasson\Desktop\mystique/lib/widgets.php:616
+msgid "Lost your password?"
+msgstr "Mistet passordet?"
+
+#~ msgid "&laquo; Older Entries"
+#~ msgstr "&laquo; Äldre innlegg"
+
+#~ msgid "Newer Entries &raquo;"
+#~ msgstr "Nyare innlegg &raquo;"
+
+#~ msgid "Read more"
+#~ msgstr "Läs mer"
+
+#~ msgid "Page %s &laquo;"
+#~ msgstr "side %s &laquo;"
+
+#~ msgid "Sorry, no attachments matched your criteria."
+#~ msgstr "Beklagar, ingen bilagor matchade dina kriterier."
+
+#~ msgid "Tags:"
+#~ msgstr "Etiketter:"
+
+#~ msgid "General"
+#~ msgstr "Allmänt"
+
+#~ msgid "Posts"
+#~ msgstr "innlegg"
+
+#~ msgid "Imageless layout"
+#~ msgstr "Bildlös layout"
+
+#~ msgid ""
+#~ "No background images; reduces page load downto just a few KB, with the "
+#~ "cost of less graphic details"
+#~ msgstr ""
+#~ "ingen bakgrundsbilder; reducerar sidladdningen ner till några få KB, på "
+#~ "bekostnad av färre grafiska detaljer"
+
+#~ msgid "HTML code is disallowed"
+#~ msgstr "HTML kod er inte tillåtet"
+
+#~ msgid "Sidebar(s) vs Main Content ratio"
+#~ msgstr "Ratio för sinpanel(er) vs huvudinnehåll"
+
+#~ msgid "Preferred font style"
+#~ msgstr "Föredraget typsnitt"
+
+#~ msgid "Font priority and their availability"
+#~ msgstr "Typsnittsprioritet och tillgänglighet"
+
+#~ msgid "The way posts are displayed on blog homepage and archive pages"
+#~ msgstr "Sättet innlegg visas på bloggens hemsida och arkivsidor"
+
+#~ msgid "Titles only"
+#~ msgstr "Bara rubriker"
+
+#~ msgid "Enable \"Share This Post\" feature"
+#~ msgstr "Aktivera \"ShareThis\"-funktionen"
+
+#~ msgid "Uncheck this if you're using a social bookmaring plugin"
+#~ msgstr ""
+#~ "Avmarkera detta alternativ om du använder ett annat insticksprogram för "
+#~ "social bokmärkning."
+
+#~ msgid "Featured content source"
+#~ msgstr "Källa för utvalda innlegg"
+
+#~ msgid ""
+#~ "The last 5 posts from this category will be shown in the featured content "
+#~ "area (in random order)"
+#~ msgstr ""
+#~ "De senaste 5 innleggen fra denna kategori kommer att visas som utvalda i "
+#~ "fältet för detta (i slumpmässig ordning)"
+
+#~ msgid "- All categories"
+#~ msgstr "- Alla kategorier"
+
+#~ msgid "Where to display the featured posts?"
+#~ msgstr "Var skall utvalda innlegg visas?"
+
+#~ msgid "On pages that use the Featured Posts template"
+#~ msgstr "På sidor som använder mallen Featured Posts"
+
+#~ msgid "On the home page"
+#~ msgstr "På förstasidan"
+
+#~ msgid "On all pages, including home"
+#~ msgstr "På alla sidor, inklusive förstasidan"
+
+#~ msgid "On all pages and posts"
+#~ msgstr "På alla sidor och innleggssidor"
+
+#~ msgid "Maximum number of featured posts"
+#~ msgstr "Högsta antal utvalda innlegg"
+
+#~ msgid "Expand the &laquo;read more&raquo; button with more content"
+#~ msgstr "Expandera &laquo;läs mer&raquo;-knappen med mer innehåll"
+
+#~ msgid "Show related posts next to comments"
+#~ msgstr "Visa relaterte innlegg intill kommentarer"
+
+#~ msgid "no keywords are generated because they are <a %s>useless</a>"
+#~ msgstr "ingen nyckelord genereras eftersom de er <a %s>värdelösa</a>"
+
+#~ msgid "Uncheck this if you plan to keep Mystique as your default theme!"
+#~ msgstr ""
+#~ "Avmarkera denna om du planerar att behålla Mystique som ditt föredragna "
+#~ "tema!"
+
+#~ msgid "Document head code"
+#~ msgstr "Kod för dokumenthuvud"
+
+#~ msgid "To output HTML only, close the PHP tag first."
+#~ msgstr "För att skriva ut enbart HTML, stäng PHP-taggen först."
+
+#~ msgid "Examples and helpers:"
+#~ msgstr "Exempel och hjälp:"
+
+#~ msgid "Modify anything related to design using CSS code"
+#~ msgstr "Modifiera allt som er relaterat till design med hjälp av CSS-kod"
+
+#~ msgid ""
+#~ "Avoid modifying theme files directly; use this option instead to preserve "
+#~ "your changes after update"
+#~ msgstr ""
+#~ "Undvik att modifera temafiler direkt; använd detta val istället, för att "
+#~ "bevara dina ändringar efter uppdatering"
+
+#~ msgid "Insert Ad slot #1 in every post and page"
+#~ msgstr "Infoga Annonskod #1 i alla innlegg och sidor"
+
+#~ msgid "Insert Ad slot #2 at every 5 comments"
+#~ msgstr "Infoga Annonskod #2 mellan var femte kommentar"
+
+#~ msgid "Replace blog description text with Ad #4"
+#~ msgstr "Ersätt bloggbeskrivning med Annonsblock #4"
+
+#~ msgid "Black navigation style"
+#~ msgstr "Svart navigationslist"
+
+#~ msgid "Alternate header image"
+#~ msgstr "Alternativ huvudbild"
+
+#~ msgid "Hide RSS button"
+#~ msgstr "Dölj RSS-knapp"
+
+#~ msgid "Hide Twitter button"
+#~ msgstr "Dölj Twitter-knapp"
+
+#~ msgid "Set a fluid page width"
+#~ msgstr "Sätt flytande sidbredd"
+
+#~ msgid "Decrease site title text size"
+#~ msgstr "Förminstka sidtitelns teckenstorlek"
+
+#~ msgid "Hide post information bar"
+#~ msgstr "Dölj informationslist för innlegg"
+
+#~ msgid "Change footer background color to light gray"
+#~ msgstr "endre sidfotens bakgrundsfärg till ljusgrå"
+
+#~ msgid "Dark background footer"
+#~ msgstr "endre sidfotens bakgrundsfärg till mörkgrå"
+
+#~ msgid "Join navigation with main content"
+#~ msgstr "Bind ihop navigationslisten med innehåll"
+
+#~ msgid "Hide navigation"
+#~ msgstr "Dölj navigationslist"
+
+#~ msgid "Remove styling from tables"
+#~ msgstr "Ta bort utseende fra tabeller"
+
+#~ msgid "Text-Justify post and page content"
+#~ msgstr "Marginaljustera text i innlegg och på sidor"
+
+#~ msgid "Fixed custom background image"
+#~ msgstr "Fast anpassad bakgrundsbild"

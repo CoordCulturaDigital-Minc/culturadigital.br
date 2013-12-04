@@ -1,0 +1,1461 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mystique 2.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-15 19:08+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jose Antonio Ramirez <geekrmx@ngeeks.com>\n"
+"Language-Team: nGeeks.com <contacto@ngeeks.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes\\mystique\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: widgets.php:55
+#, php-format
+msgid "%s followers"
+msgstr "%s followers"
+
+#: widgets.php:79
+msgid "Error while retrieving tweets (Twitter down?)"
+msgstr "Error recuperando tweets (¿Twitter está caído?)"
+
+#: widgets.php:92
+msgid "Displays links to different sections grouped in tabs"
+msgstr "Muestra enlaces a diferentes secciones agrupados en pestañas"
+
+#: widgets.php:94
+msgid "Mystique | Sidebar tabs"
+msgstr "Mystique | Pestañas de barra lateral"
+
+#: widgets.php:121
+#: widgets.php:308
+msgid "Recent comments"
+msgstr "Comentarios recientes"
+
+#: widgets.php:122
+msgid "Popular posts"
+msgstr "Entradas populares"
+
+#: widgets.php:123
+#: widgets.php:298
+msgid "Archives"
+msgstr "Archivos"
+
+#: widgets.php:124
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: widgets.php:125
+#: widgets.php:290
+msgid "Categories"
+msgstr "Categorías"
+
+#: widgets.php:206
+msgid "Didn't find any posts popular enough :("
+msgstr "No se ha encontrado ninguna entrada suficientemente popular :("
+
+#: widgets.php:233
+#, php-format
+msgid "Posted in: %s"
+msgstr "Publicado en: %s"
+
+#: widgets.php:250
+msgid "Sidebar tabs"
+msgstr "Pestañas de barra lateral"
+
+#: widgets.php:251
+#: widgets.php:397
+#: widgets.php:496
+msgid "jQuery is disabled and this widget needs it"
+msgstr "jQuery está deshabilitado y este widget lo necesta"
+
+#: widgets.php:286
+msgid "Tabs to show"
+msgstr "Pestañas a mostrar"
+
+#: widgets.php:294
+msgid "Tags "
+msgstr "Etiquetas"
+
+#: widgets.php:302
+msgid "Popular posts (most commented)"
+msgstr "Entradas populares (más comentadas)"
+
+#: widgets.php:315
+msgid "Sort categories"
+msgstr "Ordenar categorías"
+
+#: widgets.php:317
+msgid "by name (alphabetically)"
+msgstr "por nombre (alfabéticamente)"
+
+#: widgets.php:318
+msgid "by category ID"
+msgstr "por ID de categoría"
+
+#: widgets.php:319
+msgid "by category slug"
+msgstr "por URL de categoría"
+
+#: widgets.php:320
+msgid "by post count"
+msgstr "por número de entradas"
+
+#: widgets.php:325
+msgid "Show post count (categories and archives)"
+msgstr "Mostrar número de entradas (categorías y archivos)"
+
+#: widgets.php:331
+msgid "How many popular posts to show?"
+msgstr "¿Cuántas entradas populares mostrar?"
+
+#: widgets.php:338
+msgid "How many recent comments to show?"
+msgstr "¿Cuántos comentarios recientes mostrar?"
+
+#: widgets.php:354
+msgid "Shows your latest Twitter updates"
+msgstr "Muestra tus últimas actualizaciones de Twitter"
+
+#: widgets.php:355
+msgid "Mystique | Twitter"
+msgstr "Mystique | Twitter"
+
+#: widgets.php:394
+msgid "Loading tweets..."
+msgstr "Cargando tweets..."
+
+#: widgets.php:401
+msgid "Follow me on Twitter!"
+msgstr "¡Sígueme en Twitter!"
+
+#: widgets.php:417
+msgid "My latest tweets"
+msgstr "Mis últimos tweets"
+
+#: widgets.php:424
+#: widgets.php:530
+msgid "Title:"
+msgstr "Título:"
+
+#: widgets.php:429
+msgid "Twitter user name:"
+msgstr "Usuario de Twitter:"
+
+#: widgets.php:434
+msgid "Number of tweets to show:"
+msgstr "Número de tweets a mostrar"
+
+#: widgets.php:448
+msgid "Displays Flickr galleries (needs API key)"
+msgstr "Muestra galerías de Flickr (necesita clave API)"
+
+#: widgets.php:450
+msgid "Mystique | Flickr Gallery"
+msgstr "Mystique | Galería Flickr"
+
+#: widgets.php:521
+msgid "Flickr Gallery"
+msgstr "Galería Flickr"
+
+#: widgets.php:535
+msgid "API key:"
+msgstr "Clave API:"
+
+#: widgets.php:540
+msgid "Number of photos to show:"
+msgstr "Número de fotos a mostrar:"
+
+#: widgets.php:545
+msgid "Gallery source:"
+msgstr "Fuente de la galería:"
+
+#: widgets.php:547
+msgid "Photoset"
+msgstr "Álbum de fotos"
+
+#: widgets.php:548
+msgid "User photostream"
+msgstr "Stream de fotos del usuario"
+
+#: widgets.php:553
+msgid "Photoset ID:"
+msgstr "ID del álbum de fotos:"
+
+#: widgets.php:558
+#, php-format
+msgid "User ID (use %s to find it):"
+msgstr "ID de usuario (utiliza %s para encontrarlo):"
+
+#: widgets.php:573
+msgid "Login form"
+msgstr "Formulario de inicio de sesión"
+
+#: widgets.php:574
+msgid "Mystique | Login"
+msgstr "Mystique | Iniciar sesión"
+
+#: widgets.php:584
+#, php-format
+msgid "Logged in: %s"
+msgstr "Conectado: %s"
+
+#: widgets.php:589
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: widgets.php:591
+msgid "Write"
+msgstr "Escribir"
+
+#: widgets.php:592
+msgid "Comments"
+msgstr "Comentarios"
+
+#: widgets.php:594
+msgid "Log out"
+msgstr "Cerrar sesión"
+
+#: widgets.php:598
+msgid "User Login"
+msgstr "Iniciar sesión"
+
+#: widgets.php:602
+msgid "User"
+msgstr "Usuario"
+
+#: widgets.php:603
+msgid "Password"
+msgstr "Contraseña"
+
+#: widgets.php:604
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: widgets.php:605
+msgid "Remember me"
+msgstr "Recordarme"
+
+#: widgets.php:610
+msgid "Register"
+msgstr "Registrarse"
+
+#: widgets.php:611
+msgid "Lost your password?"
+msgstr "¿Has perdido tu contraseña?"
+
+#: mystique 2.1.2/404.php:13
+msgid "The requested page was not found"
+msgstr "La página solicitada no se ha encontrado"
+
+#: mystique 2.1.2/archive.php:23
+#, php-format
+msgid "Posts tagged %s"
+msgstr "Entradas etiquetadas con %s"
+
+#: mystique 2.1.2/archive.php:25
+#: 2.1.2/archive.php:27
+#, php-format
+msgid "Archive for %s"
+msgstr "Archivo de %s"
+
+#: mystique 2.1.2/archive.php:27
+msgid "F, Y"
+msgstr "F, Y"
+
+#: mystique 2.1.2/archive.php:29
+#, php-format
+msgid "Archive for year %s"
+msgstr "Archivo del año %s"
+
+#: mystique 2.1.2/archive.php:29
+msgid "Y"
+msgstr "Y"
+
+#: mystique 2.1.2/archive.php:31
+msgid "Author archive"
+msgstr "Archivo por autor"
+
+#: mystique 2.1.2/archive.php:33
+msgid "Blog Archives"
+msgstr "Archivo del blog"
+
+#: mystique 2.1.2/archive.php:47
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Disculpa, aún no hay entradas en la categoría %s."
+
+#: mystique 2.1.2/archive.php:48
+msgid "Sorry, but there aren't any posts within this date."
+msgstr "Disculpa, no hay entradas con esa fecha."
+
+#: mystique 2.1.2/archive.php:51
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Disculpa, aún no hay entradas de %s."
+
+#: mystique 2.1.2/archive.php:52
+msgid "No posts found."
+msgstr "No se encontraron entradas."
+
+#: mystique 2.1.2/author.php:23
+msgid "This user hasn't shared any biographical information"
+msgstr "Este usuario no ha compartido ninguna información biográfica"
+
+#: mystique 2.1.2/author.php:28
+msgid "Homepage:"
+msgstr "Web:"
+
+#: mystique 2.1.2/author.php:29
+msgid "Yahoo Messenger:"
+msgstr "Yahoo! Messenger:"
+
+#: mystique 2.1.2/author.php:30
+msgid "Jabber/GTalk:"
+msgstr "Jabber / Google Talk:"
+
+#: mystique 2.1.2/author.php:31
+msgid "AIM:"
+msgstr "AIM:"
+
+#: mystique 2.1.2/author.php:38
+#, php-format
+msgid "Posts by %s"
+msgstr "Entradas de %s"
+
+#: mystique 2.1.2/author.php:48
+msgid "No posts found by this author."
+msgstr "No se encontraron entradas de este autor."
+
+#: mystique 2.1.2/comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Introduce tu contraseña para los comentarios"
+
+#: mystique 2.1.2/comments.php:42
+msgid "Related Posts"
+msgstr "Entradas relacionadas"
+
+#: mystique 2.1.2/comments.php:43
+#, php-format
+msgid "Trackbacks (%s)"
+msgstr "Trackbacks (%s)"
+
+#: mystique 2.1.2/comments.php:44
+#: 2.1.2/comments.php:50
+#, php-format
+msgid "Comments (%s)"
+msgstr "Comentarios (%s)"
+
+#: mystique 2.1.2/comments.php:82
+msgid "No comments yet."
+msgstr "Aún no hay comentarios."
+
+#: mystique 2.1.2/comments.php:91
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Tienes que <a href=\"%s\">iniciar sesión</a> para escribir un comentario."
+
+#: mystique 2.1.2/comments.php:102
+#: 2.1.2/comments.php:128
+#: 2.1.2/comments.php:129
+msgid "Name (required)"
+msgstr "Nombre (requerido)"
+
+#: mystique 2.1.2/comments.php:103
+#: 2.1.2/comments.php:132
+#: 2.1.2/comments.php:133
+msgid "E-mail (required, will not be published)"
+msgstr "E-mail (requerido, no será publicado)"
+
+#: mystique 2.1.2/comments.php:104
+#: 2.1.2/comments.php:136
+#: 2.1.2/comments.php:137
+msgid "Website"
+msgstr "Sitio Web"
+
+#: mystique 2.1.2/comments.php:115
+#, php-format
+msgid "Logged in as %s."
+msgstr "Identificado como %s."
+
+#: mystique 2.1.2/comments.php:117
+msgid "Log out of this account"
+msgstr "Cerrar sesión de este usuario"
+
+#: mystique 2.1.2/comments.php:117
+msgid "Logout &raquo;"
+msgstr "Cerrar sesión &raquo;"
+
+#: mystique 2.1.2/comments.php:122
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Bienvenido <strong>%s</strong>."
+
+#: mystique 2.1.2/comments.php:123
+msgid "Change &raquo;"
+msgstr "Cambiar &raquo;"
+
+#: mystique 2.1.2/comments.php:144
+msgid "Type your comment"
+msgstr "Escribe tu comentario"
+
+#: mystique 2.1.2/comments.php:153
+#, php-format
+msgid "Spam protection: Sum of %1$s + %2$s = ?"
+msgstr "Protección de Spam: Suma de %1$s + %2$s = ?"
+
+#: mystique 2.1.2/comments.php:162
+msgid "Submit Comment"
+msgstr "Enviar comentario"
+
+#: mystique 2.1.2/comments.php:164
+msgid "Cancel Reply"
+msgstr "Cancelar respuesta"
+
+#: mystique 2.1.2/comments.php:188
+msgid "No trackbacks yet."
+msgstr "Aún no hay trackbacks."
+
+#: mystique 2.1.2/comments.php:206
+msgid "No comments"
+msgstr "No hay comentarios"
+
+#: mystique 2.1.2/comments.php:206
+msgid "1 comment"
+msgstr "1 comentario"
+
+#: mystique 2.1.2/comments.php:206
+#, php-format
+msgid "% comments"
+msgstr "% comentarios"
+
+#: mystique 2.1.2/comments.php:224
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: mystique 2.1.2/functions.php:10
+#, php-format
+msgid "Your site is running on %1$s. Mystique requires at least %2$s."
+msgstr "Tu sitio está funcionando en %1$s. Mystique requiere al menos %2$s."
+
+#: mystique 2.1.2/functions.php:77
+msgid "Default sidebar"
+msgstr "Barra lateral por defecto"
+
+#: mystique 2.1.2/functions.php:79
+msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
+msgstr "Ésta es la barra lateral por defecto, visible en los diseños de 2 o 3 columnas. Si no hay widgets activos, se mostrarán los widgets por defecto del tema."
+
+#: mystique 2.1.2/functions.php:87
+msgid "Secondary sidebar"
+msgstr "Barra lateral secundaria"
+
+#: mystique 2.1.2/functions.php:89
+msgid "This sidebar is active only on a 3 column setup. "
+msgstr "Esta barra lateral solo está activa en el diseño de 3 columnas."
+
+#: mystique 2.1.2/functions.php:97
+msgid "Footer"
+msgstr "Pie de página"
+
+#: mystique 2.1.2/functions.php:99
+msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
+msgstr "Puedes agregar de 1 a 6 widgets aquí (3 o 4 es lo óptimo). El tamaño se ajustará dependiendo de la cantidad de widgets."
+
+#: mystique 2.1.2/functions.php:107
+msgid "Footer (slide 2)"
+msgstr "Pie de página (diapositiva 2)"
+
+#: mystique 2.1.2/functions.php:109
+#: 2.1.2/functions.php:119
+#: 2.1.2/functions.php:129
+msgid "Only visible if jQuery is enabled. "
+msgstr "Sólo visible si jQuery está activado."
+
+#: mystique 2.1.2/functions.php:117
+msgid "Footer (slide 3)"
+msgstr "Pie de página (diapositiva 3)"
+
+#: mystique 2.1.2/functions.php:127
+msgid "Footer (slide 4)"
+msgstr "Pie de página (diapositiva 4)"
+
+#: mystique 2.1.2/index.php:23
+msgid "No posts found"
+msgstr "No se encontraron entradas."
+
+#: mystique 2.1.2/index.php:24
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Disculpa, lo que estás buscando no está aquí."
+
+#: mystique 2.1.2/search.php:13
+#: 2.1.2/searchform.php:5
+#: 2.1.2/searchform.php:10
+#: 2.1.2/lib/core.php:349
+msgid "Search"
+msgstr "Buscar"
+
+#: mystique 2.1.2/search.php:15
+#: 2.1.2/lib/core.php:230
+#, php-format
+msgid "Search results for %s"
+msgstr "Resultados de la búsqueda para %s"
+
+#: mystique 2.1.2/search.php:31
+msgid "Nothing found."
+msgstr "No se han encontrado resultados."
+
+#: mystique 2.1.2/search.php:31
+msgid "Try a different search?"
+msgstr "¿Quieres probar con otra búsqueda?"
+
+#: mystique 2.1.2/search.php:35
+msgid "What do you wish to search for?"
+msgstr "¿Qué quieres buscar?"
+
+#: mystique 2.1.2/searchform.php:11
+#, php-format
+msgid "You have searched the archives for %s"
+msgstr "Has buscado el archivo de %s"
+
+#: mystique 2.1.2/searchform.php:13
+msgid "Type a valid search term..."
+msgstr "Escribe un término de búsqueda válido..."
+
+#: mystique 2.1.2/sidebar.php:34
+msgid "Blogroll"
+msgstr "Enlaces"
+
+#: mystique 2.1.2/sidebar2.php:7
+msgid "You activated the 2nd sidebar. Add widgets here from the Dashboard to remove this message"
+msgstr "La segunda barra lateral está activa. Agrega widgets aquí desde el Escritorio para borrar este mensaje."
+
+#: mystique 2.1.2/single.php:25
+#: 2.1.2/lib/core.php:537
+#: 2.1.2/lib/core.php:550
+#: 2.1.2/lib/core.php:618
+msgid "More &gt;"
+msgstr "Más &gt;"
+
+#: mystique 2.1.2/single.php:28
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: mystique 2.1.2/single.php:39
+#: 2.1.2/lib/core.php:562
+#, php-format
+msgid "%1$s (%2$s topics)"
+msgstr "%1$s (%2$s temas)"
+
+#: mystique 2.1.2/single.php:52
+#: 2.1.2/admin/theme-settings.php:576
+msgid "About the author"
+msgstr "Sobre el autor"
+
+#: mystique 2.1.2/single.php:64
+msgid "Print article"
+msgstr "Imprimir artículo"
+
+#: mystique 2.1.2/single.php:68
+#, php-format
+msgid "This entry was posted by %1$s on %2$s at %3$s, and is filed under %4$s. Follow any responses to this post through %5$s."
+msgstr "Este artículo fue publicado por %1$s el %2$s a las %3$s, y está archivado en %4$s. Sigue las respuestas a esta entrada a través de %5$s. "
+
+#: mystique 2.1.2/single.php:71
+#, php-format
+msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
+msgstr "Puedes <a%1$s>dejar un comentario</a> o <a%2$s>enviar un trackback</a> desde tu propio sitio."
+
+#: mystique 2.1.2/single.php:73
+#, php-format
+msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
+msgstr "En este momento no se permiten comentarios, pero puedes <a%1$s>enviar un trackback</a> desde tu propio sitio."
+
+#: mystique 2.1.2/single.php:75
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Puedes ir hasta abajo y dejar una respuesta. No se permiten pings."
+
+#: mystique 2.1.2/single.php:77
+msgid "Both comments and pings are currently closed."
+msgstr "Están cerrados tanto los comentarios como los pings."
+
+#: mystique 2.1.2/single.php:80
+msgid "Edit this entry"
+msgstr "Editar esta entrada"
+
+#: mystique 2.1.2/admin/theme-settings.php:285
+#: 2.1.2/admin/theme-settings.php:349
+msgid "You are not authorised to perform this operation."
+msgstr "No estás autorizado a realizar esta operación."
+
+#: mystique 2.1.2/admin/theme-settings.php:336
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a>."
+msgstr "Hay una nueva versión de %1$s disponible. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Ver detalles de la versión %3$s</a>."
+
+#: mystique 2.1.2/admin/theme-settings.php:337
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a> or <a href=\"%4$s\" >upgrade automatically</a>."
+msgstr "Hay una nueva versión de %1$s disponible. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Ver detalles de la versión %3$s</a> o <a href=\"%4$s\" >actualizar automáticamente</a>."
+
+#: mystique 2.1.2/admin/theme-settings.php:355
+#: 2.1.2/admin/theme-settings.php:864
+#: 2.1.2/admin/theme-settings.php:865
+msgid "Mystique settings"
+msgstr "Opciones de Mystique"
+
+#: mystique 2.1.2/admin/theme-settings.php:356
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: mystique 2.1.2/admin/theme-settings.php:356
+msgid "Reset to Defaults"
+msgstr "Volver a la configuración por defecto (Reset)"
+
+#: mystique 2.1.2/admin/theme-settings.php:356
+msgid "Reset all theme settings to the default values? Are you sure?"
+msgstr "¿Restablecer todas las opciones del tema a los valores por defecto? ¿Estás seguro?"
+
+#: mystique 2.1.2/admin/theme-settings.php:365
+#, php-format
+msgid "Settings saved. %s"
+msgstr "Configuración guardada. %s"
+
+#: mystique 2.1.2/admin/theme-settings.php:365
+msgid "View site"
+msgstr "Ver sitio"
+
+#: mystique 2.1.2/admin/theme-settings.php:369
+msgid "Please upload a valid image file!"
+msgstr "Por favor, ¡sube un archivo de imagen válido!"
+
+#: mystique 2.1.2/admin/theme-settings.php:370
+msgid "The file you uploaded doesn't seem to be a valid JPEG, PNG or GIF image"
+msgstr "El archivo que has subido no parece una imagen válida JPEG, PNG o GIF."
+
+#: mystique 2.1.2/admin/theme-settings.php:371
+msgid "The image could not be saved on your server"
+msgstr "La imagen no pudo ser guardada en tu servidor"
+
+#: mystique 2.1.2/admin/theme-settings.php:376
+#, php-format
+msgid "Error: %s"
+msgstr "Error: %s"
+
+#: mystique 2.1.2/admin/theme-settings.php:385
+msgid "Design"
+msgstr "Diseño"
+
+#: mystique 2.1.2/admin/theme-settings.php:386
+#: 2.1.2/admin/theme-settings.php:600
+msgid "Content"
+msgstr "Contenido"
+
+#: mystique 2.1.2/admin/theme-settings.php:387
+msgid "Navigation"
+msgstr "Navegación"
+
+#: mystique 2.1.2/admin/theme-settings.php:388
+msgid "SEO"
+msgstr "SEO"
+
+#: mystique 2.1.2/admin/theme-settings.php:389
+msgid "Ads"
+msgstr "Anuncios"
+
+#: mystique 2.1.2/admin/theme-settings.php:390
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: mystique 2.1.2/admin/theme-settings.php:391
+msgid "User CSS"
+msgstr "CSS del usuario"
+
+#: mystique 2.1.2/admin/theme-settings.php:392
+msgid "More themes by digitalnature"
+msgstr "Más temas de digitalnature"
+
+#: mystique 2.1.2/admin/theme-settings.php:402
+msgid "The design settings panel is not yet supported by Internet Explorer. Sorry :("
+msgstr "El panel de opciones de diseño todavía no es soportado por Internet Explorer. Lo sentimos :("
+
+#: mystique 2.1.2/admin/theme-settings.php:405
+msgid "Loading site preview..."
+msgstr "Cargando previsualización del sitio..."
+
+#: mystique 2.1.2/admin/theme-settings.php:410
+msgid "Layout style"
+msgstr "Estilo de diseño"
+
+#: mystique 2.1.2/admin/theme-settings.php:410
+msgid "Use page templates if you want to apply these only to specific pages"
+msgstr "Usa plantillas de página si quieres aplicarlo sólo a páginas específicas"
+
+#: mystique 2.1.2/admin/theme-settings.php:446
+msgid "Color scheme"
+msgstr "Esquema de color"
+
+#: mystique 2.1.2/admin/theme-settings.php:473
+msgid "Page (content) width"
+msgstr "Ancho de página (contenido)"
+
+#: mystique 2.1.2/admin/theme-settings.php:473
+msgid "Note that fluid pages can be hard to read on large resolutions."
+msgstr "Ten en cuenta que las páginas fluidas pueden ser difíciles de leer en resoluciones altas."
+
+#: mystique 2.1.2/admin/theme-settings.php:476
+#, php-format
+msgid "Fixed (%s)"
+msgstr "Fijo (%s)"
+
+#: mystique 2.1.2/admin/theme-settings.php:477
+msgid "Fluid (100%)"
+msgstr "Fluido (100%)"
+
+#: mystique 2.1.2/admin/theme-settings.php:483
+msgid "Column sizes"
+msgstr "Tamaños de columna"
+
+#: mystique 2.1.2/admin/theme-settings.php:483
+msgid "(With 10 pixel padding between them)"
+msgstr "(con relleno de 10 píxeles entre ellas)"
+
+#: mystique 2.1.2/admin/theme-settings.php:496
+msgid "Font style"
+msgstr "Estilo de fuente"
+
+#: mystique 2.1.2/admin/theme-settings.php:509
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: mystique 2.1.2/admin/theme-settings.php:509
+msgid "Leave Black (#000000) to keep the default background"
+msgstr "Dejar Negro (#000000) para mantener el fondo por defecto"
+
+#: mystique 2.1.2/admin/theme-settings.php:522
+msgid "Custom logo image"
+msgstr "Imagen de logo personalizada"
+
+#: mystique 2.1.2/admin/theme-settings.php:522
+msgid "Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr "Mostrar una imagen de logo en lugar de un texto. Sube el archivo de imagen desde tu ordenador."
+
+#: mystique 2.1.2/admin/theme-settings.php:527
+#: 2.1.2/admin/theme-settings.php:545
+msgid "Remove current image"
+msgstr "Borrar imagen actual"
+
+#: mystique 2.1.2/admin/theme-settings.php:533
+#: 2.1.2/admin/theme-settings.php:551
+#, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr "El directorio %s no tiene permisos de escritura - ¡no se puede subir!"
+
+#: mystique 2.1.2/admin/theme-settings.php:533
+#: 2.1.2/admin/theme-settings.php:551
+msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
+msgstr "Comprueba tu directorio de subida en Opciones/Misceláneas o haz CHMOD 775/777 al directorio. <br /> Contacta con tu hosting si no sabes cómo hacerlo."
+
+#: mystique 2.1.2/admin/theme-settings.php:540
+msgid "Custom background image"
+msgstr "Imagen de fondo personalizada"
+
+#: mystique 2.1.2/admin/theme-settings.php:540
+msgid "Upload a new background/header image to replace the default one"
+msgstr "Subir una nueva imagen de fondo/cabecera para reemplazar la imagen por defecto."
+
+#: mystique 2.1.2/admin/theme-settings.php:564
+msgid "Posts (single)"
+msgstr "Entradas (individuales)"
+
+#: mystique 2.1.2/admin/theme-settings.php:564
+msgid "How much information do you want to show on the single post page?"
+msgstr "¿Cuánta información quieres mostrar en la página de entrada individual?"
+
+#: mystique 2.1.2/admin/theme-settings.php:570
+msgid "Meta"
+msgstr "Meta"
+
+#: mystique 2.1.2/admin/theme-settings.php:573
+msgid "Share"
+msgstr "Compartir"
+
+#: mystique 2.1.2/admin/theme-settings.php:579
+msgid "Print link"
+msgstr "Enlace de impresión"
+
+#: mystique 2.1.2/admin/theme-settings.php:582
+msgid "Related posts"
+msgstr "Entradas relacionadas"
+
+#: mystique 2.1.2/admin/theme-settings.php:588
+msgid "Post previews"
+msgstr "Previsualizaciones de entradas"
+
+#: mystique 2.1.2/admin/theme-settings.php:588
+msgid "How much info do you want to show on blog/category/archive/search pages?"
+msgstr "¿Cuánta información quieres mostrar en las páginas de blog/categoría/etiqueta/archivo/búsqueda?"
+
+#: mystique 2.1.2/admin/theme-settings.php:591
+msgid "Title"
+msgstr "Título"
+
+#: mystique 2.1.2/admin/theme-settings.php:594
+msgid "Info bar"
+msgstr "Barra de información"
+
+#: mystique 2.1.2/admin/theme-settings.php:602
+msgid "max. 50 words, filtered"
+msgstr "Máximo 50 palabras, filtrado"
+
+#: mystique 2.1.2/admin/theme-settings.php:603
+msgid "max. 100 words, filtered"
+msgstr "Máximo 10 palabras, filtrado"
+
+#: mystique 2.1.2/admin/theme-settings.php:604
+msgid "max. 200 words, filtered"
+msgstr "Máximo 200 palabras, filtrado"
+
+#: mystique 2.1.2/admin/theme-settings.php:605
+msgid "full"
+msgstr "Completo"
+
+#: mystique 2.1.2/admin/theme-settings.php:606
+msgid "full, filtered"
+msgstr "Completo, filtrado"
+
+#: mystique 2.1.2/admin/theme-settings.php:607
+msgid "excerpt"
+msgstr "extracto"
+
+#: mystique 2.1.2/admin/theme-settings.php:614
+msgid "Post thumbnail size"
+msgstr "Tamaño de la imagen en miniatura"
+
+#: mystique 2.1.2/admin/theme-settings.php:614
+#, php-format
+msgid "Note that this only works for images you upload from now on, older images will be browser-resized. You should use the %s plugin to create missing image sizes"
+msgstr "Ten en cuenta que esto sólo sirve para imágenes que subas a partir de ahora, las imágenes antiguas serán redimensionadas por el navegador. Deberías usar el plugin %s para crear los tamaños de imagen que faltan."
+
+#: mystique 2.1.2/admin/theme-settings.php:618
+msgid "Very small: 48 x 48"
+msgstr "Muy pequeño: 48 x 48"
+
+#: mystique 2.1.2/admin/theme-settings.php:619
+msgid "Small: 64 x 64"
+msgstr "Pequeño: 64 x 64"
+
+#: mystique 2.1.2/admin/theme-settings.php:620
+msgid "Medium: 80 x 80"
+msgstr "Medio: 80 x 80"
+
+#: mystique 2.1.2/admin/theme-settings.php:621
+msgid "Larger: 100 x 100"
+msgstr "Grande: 100 x 100"
+
+#: mystique 2.1.2/admin/theme-settings.php:622
+#, php-format
+msgid "WP's Media setting: %s"
+msgstr "Configuración multimedia de WP: %s"
+
+#: mystique 2.1.2/admin/theme-settings.php:630
+msgid "Footer content"
+msgstr "Contenido del pie de página"
+
+#: mystique 2.1.2/admin/theme-settings.php:630
+msgid "You can post HTML code"
+msgstr "Puedes insertar código HTML"
+
+#: mystique 2.1.2/admin/theme-settings.php:630
+#: 2.1.2/admin/theme-settings.php:747
+msgid "Only some HTML tags and attributes are allowed"
+msgstr "Solo se permiten algunas etiquetas y atributos HTML"
+
+#: mystique 2.1.2/admin/theme-settings.php:634
+#, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr "Usa los siguientes Shortcodes para hacer los ajustes convenientes: <br />%s"
+
+#: mystique 2.1.2/admin/theme-settings.php:644
+msgid "Top navigation shows"
+msgstr "Mostrar en el menú de navegación superior:"
+
+#: mystique 2.1.2/admin/theme-settings.php:647
+msgid "Nothing (disabled)"
+msgstr "Nada (deshabilitado)"
+
+#: mystique 2.1.2/admin/theme-settings.php:648
+msgid "Pages"
+msgstr "Páginas"
+
+#: mystique 2.1.2/admin/theme-settings.php:650
+msgid "Links"
+msgstr "Enlaces"
+
+#: mystique 2.1.2/admin/theme-settings.php:658
+msgid "from category"
+msgstr "de la categoría"
+
+#: mystique 2.1.2/admin/theme-settings.php:663
+#, php-format
+msgid "%s links"
+msgstr "%s enlaces"
+
+#: mystique 2.1.2/admin/theme-settings.php:670
+msgid "No links found"
+msgstr "No se encontraron enlaces"
+
+#: mystique 2.1.2/admin/theme-settings.php:679
+msgid "Exclude from navigation"
+msgstr "Excluir de la navegación"
+
+#: mystique 2.1.2/admin/theme-settings.php:679
+msgid "Check the items you wish to hide from the main menu"
+msgstr "Selecciona los elementos que no quieres mostrar en el menú de navegación"
+
+#: mystique 2.1.2/admin/theme-settings.php:684
+#: 2.1.2/lib/core.php:160
+#: 2.1.2/lib/core.php:162
+msgid "Home"
+msgstr "Inicio"
+
+#: mystique 2.1.2/admin/theme-settings.php:689
+msgid "(Use the private property to hide other links)"
+msgstr "(Usa la propiedad 'privado' para ocultar otros enlaces)"
+
+#: mystique 2.1.2/admin/theme-settings.php:721
+msgid "Additional site optimization for search engines"
+msgstr "Optimización adicional del sitio para los motores de búsqueda"
+
+#: mystique 2.1.2/admin/theme-settings.php:721
+msgid "Uncheck if you are using a SEO plugin!"
+msgstr "¡Desmarca esta opción si estás usando un plugin SEO!"
+
+#: mystique 2.1.2/admin/theme-settings.php:728
+msgid "What does this do?"
+msgstr "¿Qué hace esto?"
+
+#: mystique 2.1.2/admin/theme-settings.php:730
+msgid "enables canonical URLs for comments (duplicate content fix, only needed on wp < 2.9)"
+msgstr "Habilita URLs canónicas para los comentarios (arreglo de contenido duplicado, solo necesario en WP < 2.9)"
+
+#: mystique 2.1.2/admin/theme-settings.php:731
+msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
+msgstr "Genera títulos únicos para las entradas con múltiples páginas de comentarios (previene títulos duplicados)"
+
+#: mystique 2.1.2/admin/theme-settings.php:732
+#, php-format
+msgid "generates a unique meta description tag for each page (no meta keywords; why? -<a %s>useless</a>)"
+msgstr "Genera una etiqueta meta 'description' única para cada página (no se generan 'keywords' porque son <a %s>inútiles</a>)"
+
+#: mystique 2.1.2/admin/theme-settings.php:747
+msgid "Advertisment blocks"
+msgstr "Bloques de anuncios"
+
+#: mystique 2.1.2/admin/theme-settings.php:747
+#, php-format
+msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
+msgstr "Usa el Shortcode %s para insertar estos anuncios en entradas, widgets de texto o en el pie de página"
+
+#: mystique 2.1.2/admin/theme-settings.php:748
+msgid "Example:"
+msgstr "Ejemplo:"
+
+#: mystique 2.1.2/admin/theme-settings.php:754
+#, php-format
+msgid "Ad code #%s:"
+msgstr "Código de anuncio #%s:"
+
+#: mystique 2.1.2/admin/theme-settings.php:770
+msgid "Use jQuery"
+msgstr "Usar jQuery"
+
+#: mystique 2.1.2/admin/theme-settings.php:770
+msgid "For testing purposes only. Only uncheck if you know what you're doing!"
+msgstr "Para hacer pruebas únicamente. ¡Desmárcalo sólo si sabes lo que estás haciendo!"
+
+#: mystique 2.1.2/admin/theme-settings.php:775
+msgid "Enable AJAX on comment pagination"
+msgstr "Activar AJAX en la paginación de comentarios"
+
+#: mystique 2.1.2/admin/theme-settings.php:775
+msgid "Navigate trough comment pages without refreshing (faster load, but may be incompatible with some plugins)"
+msgstr "Navegar a través de las páginas de comentarios sin actualizar la página (carga más rápida, pero puede ser incompatible con algunos plugins)"
+
+#: mystique 2.1.2/admin/theme-settings.php:780
+msgid "Enable theme built-in lightbox on all image links"
+msgstr "Activar Lightbox incorporado en el tema para todas las imágenes enlazadas"
+
+#: mystique 2.1.2/admin/theme-settings.php:780
+msgid "Uncheck if you prefer a lightbox plugin"
+msgstr "Desmarca esta opción si prefieres usar un plugin de Lightbox"
+
+#: mystique 2.1.2/admin/theme-settings.php:785
+msgid "Remove Mystique settings from the database after theme switch"
+msgstr "Borrar la configuración de Mystique de la base de datos al cambiar de tema"
+
+#: mystique 2.1.2/admin/theme-settings.php:785
+msgid "Only check if you're planning to remove and change the theme"
+msgstr "Márcalo sólo si piensas borrar y cambiar el tema"
+
+#: mystique 2.1.2/admin/theme-settings.php:800
+msgid "User functions"
+msgstr "Funciones del usuario"
+
+#: mystique 2.1.2/admin/theme-settings.php:800
+msgid "PHP code to add to the theme functions. Useful if you have plugins that require you to change the theme's functions.php file"
+msgstr "Código PHP para añadir a las funciones del tema. Útil si tienes plugins que requieren cambiar el archivo 'functions.php' del tema."
+
+#: mystique 2.1.2/admin/theme-settings.php:815
+msgid "CSS to add, or modify theme styles"
+msgstr "CSS para añadir o modificar estilos del tema"
+
+#: mystique 2.1.2/admin/theme-settings.php:815
+#, php-format
+msgid "Check %s to see existing theme classes and properties"
+msgstr "Revisa el archivo %s para ver clases y propiedades existentes en el tema"
+
+#: mystique 2.1.2/admin/theme-settings.php:878
+msgid "Active shortcodes you can use in your posts or widgets"
+msgstr "Activar Shortcodes que puedes usar en tus entradas o widgets"
+
+#: mystique 2.1.2/extensions/auto-thumb/auto-thumb.php:5
+msgid "Auto generate thumbnails"
+msgstr "Generar miniaturas automáticamente"
+
+#: mystique 2.1.2/extensions/auto-thumb/auto-thumb.php:5
+msgid "Create thumbnail from the 1st image found in a post, if no thumbnail is set"
+msgstr "Crea una miniatura con la primera imagen encontrada en una entrada, si no se ha establecido una miniatura"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:78
+msgid "No featured posts found."
+msgstr "No se han encontrado entradas destacadas."
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:101
+msgid "Featured"
+msgstr "Destacada"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:135
+msgid "Error while featuring posts"
+msgstr "Error al destacar entradas"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:206
+msgid "Featured posts"
+msgstr "Entradas destacadas"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:206
+#, php-format
+msgid "You can mark posts as featured on the %s page"
+msgstr "Puedes marcar entradas como destacadas en la página %s"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:212
+msgid "Show on"
+msgstr "Mostrar en"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:216
+msgid "Pages that use the Featured posts template"
+msgstr "Páginas que usan la plantilla de entradas destacadas"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:221
+msgid "Home page"
+msgstr "Página principal"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:226
+msgid "Single post pages"
+msgstr "Páginas de entradas individuales"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:231
+msgid "Archive pages (Category, Tags etc)"
+msgstr "Páginas de archivo (Categoría, Etiquetas, etc)"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:236
+msgid "404 pages"
+msgstr "Páginas 404"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:241
+msgid "Search page"
+msgstr "Página de búsqueda"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:246
+msgid "All other pages"
+msgstr "Todas las demás páginas"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:253
+msgid "Maximum number of posts to display"
+msgstr "Número máximo de entradas que se muestran"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:260
+msgid "Slide delay"
+msgstr "Retraso de diapositiva"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:263
+msgid "seconds"
+msgstr "segundos"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:268
+msgid "Don't show posts older than"
+msgstr "No mostrar entradas más antiguas de"
+
+#: mystique 2.1.2/extensions/featured-posts/featured-posts.php:271
+msgid "days"
+msgstr "días"
+
+#: mystique 2.1.2/extensions/ip2country/ip2country.php:48
+msgid "Show comment author's country flag"
+msgstr "Mostrar bandera del país del autor del comentario"
+
+#: mystique 2.1.2/extensions/ip2country/ip2country.php:48
+msgid "May slow down page loading"
+msgstr "Puede reducir la velocidad de carga de la página"
+
+#: mystique 2.1.2/extensions/xtra-nav/xtra-nav.php:14
+msgid "Extra navigation items"
+msgstr "Elementos de navegación extra"
+
+#: mystique 2.1.2/extensions/xtra-nav/xtra-nav.php:14
+msgid "(Leave blank to disable)"
+msgstr "(Dejar en blanco para deshabilitar)"
+
+#: mystique 2.1.2/extensions/xtra-nav/xtra-nav.php:18
+msgid "Twitter ID"
+msgstr "Twitter ID"
+
+#: mystique 2.1.2/extensions/xtra-nav/xtra-nav.php:23
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: mystique 2.1.2/extensions/xtra-nav/xtra-nav.php:44
+msgid "Follow me on Twitter"
+msgstr "Sígueme en Twitter"
+
+#: mystique 2.1.2/extensions/xtra-nav/xtra-nav.php:47
+msgid "RSS Feeds"
+msgstr "RSS Feeds"
+
+#: mystique 2.1.2/lib/core.php:40
+#: 2.1.2/lib/core.php:273
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s entrada"
+msgstr[1] "%s entradas"
+
+#: mystique 2.1.2/lib/core.php:119
+msgid "View page"
+msgstr "Ver página"
+
+#: mystique 2.1.2/lib/core.php:160
+msgid "You are Home"
+msgstr "Estás en la página principal"
+
+#: mystique 2.1.2/lib/core.php:162
+msgid "Click for Home"
+msgstr "Ir a Inicio"
+
+#: mystique 2.1.2/lib/core.php:220
+msgid "F jS, Y"
+msgstr "j F, Y"
+
+#: mystique 2.1.2/lib/core.php:222
+#, php-format
+msgid "Archive for week %1$s of %2$s"
+msgstr "Archivo de la semana %1$s de %2$s"
+
+#: mystique 2.1.2/lib/core.php:222
+msgid "W"
+msgstr "W"
+
+#: mystique 2.1.2/lib/core.php:233
+msgid "404 Not Found"
+msgstr "404 No encontrado"
+
+#: mystique 2.1.2/lib/core.php:239
+#, php-format
+msgid "Page %s"
+msgstr "Página %s"
+
+#: mystique 2.1.2/lib/core.php:243
+#, php-format
+msgid "Comment Page %s"
+msgstr "Página de comentarios %s"
+
+#: mystique 2.1.2/lib/core.php:265
+#, php-format
+msgid "View all posts in %s"
+msgstr "Ver todas las entradas en %s"
+
+#: mystique 2.1.2/lib/core.php:325
+msgid "Share this post!"
+msgstr "¡Compartir esta entrada!"
+
+#: mystique 2.1.2/lib/core.php:512
+msgid "Permanent Link:"
+msgstr "Enlace permanente:"
+
+#: mystique 2.1.2/lib/core.php:517
+msgid "M jS"
+msgstr "j M"
+
+#: mystique 2.1.2/lib/core.php:521
+#, php-format
+msgid "Posted by %1$s in %2$s"
+msgstr "Publicado por %1$s en %2$s"
+
+#: mystique 2.1.2/lib/core.php:524
+msgid "Edit"
+msgstr "Editar"
+
+#: mystique 2.1.2/lib/core.php:604
+msgid "Pages: "
+msgstr "Páginas:"
+
+#: mystique 2.1.2/lib/core.php:606
+msgid "Edit this page"
+msgstr "Editar esta página"
+
+#: mystique 2.1.2/lib/core.php:675
+msgid "Go to the first page"
+msgstr "Ir a la primera página"
+
+#: mystique 2.1.2/lib/core.php:675
+msgid "&laquo; First"
+msgstr "&laquo; Primera"
+
+#: mystique 2.1.2/lib/core.php:681
+#: 2.1.2/lib/core.php:687
+#: 2.1.2/lib/core.php:693
+#, php-format
+msgid "Go to page %s"
+msgstr "Ir a la página %s"
+
+#: mystique 2.1.2/lib/core.php:697
+msgid "Go to the last page"
+msgstr "Ir a la última página"
+
+#: mystique 2.1.2/lib/core.php:697
+msgid "Last &raquo;"
+msgstr "Última &raquo;"
+
+#: mystique 2.1.2/lib/core.php:731
+#, php-format
+msgid "about %s year ago"
+msgid_plural "about %s years ago"
+msgstr[0] "hace %s año"
+msgstr[1] "hace %s años"
+
+#: mystique 2.1.2/lib/core.php:732
+#, php-format
+msgid "about %s month ago"
+msgid_plural "about %s months ago"
+msgstr[0] "hace %s mes"
+msgstr[1] "hace %s meses"
+
+#: mystique 2.1.2/lib/core.php:733
+#, php-format
+msgid "about %s week ago"
+msgid_plural "about %s weeks ago"
+msgstr[0] "hace %s semana"
+msgstr[1] "hace %s semanas"
+
+#: mystique 2.1.2/lib/core.php:734
+#, php-format
+msgid "about %s day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "hace %s día"
+msgstr[1] "hace %s días"
+
+#: mystique 2.1.2/lib/core.php:735
+#, php-format
+msgid "about %s hour ago"
+msgid_plural "about %s hours ago"
+msgstr[0] "hace %s hora"
+msgstr[1] "hace %s horas"
+
+#: mystique 2.1.2/lib/core.php:736
+#, php-format
+msgid "about %s minute ago"
+msgid_plural "about %s minutes ago"
+msgstr[0] "hace %s minuto"
+msgstr[1] "hace %s minutos"
+
+#: mystique 2.1.2/lib/core.php:737
+#, php-format
+msgid "about %s second ago"
+msgid_plural "about %s seconds ago"
+msgstr[0] "hace %s segundos"
+msgstr[1] "hace %s segundos"
+
+#: mystique 2.1.2/lib/core.php:1050
+#, php-format
+msgid "%1$s written by %2$s"
+msgstr "%1$s escrito por %2$s"
+
+#: mystique 2.1.2/lib/core.php:1058
+msgid "Reply"
+msgstr "Responder"
+
+#: mystique 2.1.2/lib/core.php:1059
+msgid "Quote"
+msgstr "Citar"
+
+#: mystique 2.1.2/lib/core.php:1066
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está esperando ser aprobado."
+
+#: mystique 2.1.2/lib/editor.php:22
+msgid "Divider"
+msgstr "Separador"
+
+#: mystique 2.1.2/lib/editor.php:23
+msgid "Error text color"
+msgstr "Color de error"
+
+#: mystique 2.1.2/lib/editor.php:24
+msgid "Error box"
+msgstr "Cuadro de error"
+
+#: mystique 2.1.2/lib/settings.php:72
+#, php-format
+msgid "You can configure Mystique from the <a%s>theme settings</a> page."
+msgstr "Puedes configurar Mystique desde la página <a%s>Opciones de Mystique</a>."
+
+#: mystique 2.1.2/lib/settings.php:347
+msgid "There are one or more PHP parse errors in your custom functions."
+msgstr "Hay uno o más errores sintácticos de PHP en tus funciones personalizadas."
+
+#: mystique 2.1.2/lib/shortcodes.php:17
+#, php-format
+msgid "%s: Widget class not found. Make sure this widget exists and the class name is correct"
+msgstr "%s: clase de widget no encontrada. Asegúrate de que este widget existe y el nombre de la clase es correcto."
+
+#: mystique 2.1.2/lib/shortcodes.php:52
+msgid "User name (required)"
+msgstr "Nombre de usuario (requerido)"
+
+#: mystique 2.1.2/lib/shortcodes.php:54
+msgid "Password (required)"
+msgstr "Contraseña (requerido)"
+
+#: mystique 2.1.2/lib/shortcodes.php:55
+msgid "Verify password (required)"
+msgstr "Verificar contraseña (requerido)"
+
+#: mystique 2.1.2/lib/shortcodes.php:56
+msgid "E-mail (required)"
+msgstr "E-mail (requerido)"
+
+#: mystique 2.1.2/lib/shortcodes.php:57
+msgid "First name"
+msgstr "Nombre"
+
+#: mystique 2.1.2/lib/shortcodes.php:58
+msgid "Last name"
+msgstr "Apellidos"
+
+#: mystique 2.1.2/lib/shortcodes.php:59
+msgid "Profile info"
+msgstr "Información de perfil"
+
+#: mystique 2.1.2/lib/shortcodes.php:80
+msgid "Please type a user name"
+msgstr "Por favor, escribe un nombre de usuario"
+
+#: mystique 2.1.2/lib/shortcodes.php:81
+msgid "User name already exists"
+msgstr "El nombre de usuario ya existe"
+
+#: mystique 2.1.2/lib/shortcodes.php:82
+msgid "E-mail address is required."
+msgstr "La dirección de e-mail es obligatoria"
+
+#: mystique 2.1.2/lib/shortcodes.php:83
+msgid "E-mail address already in use"
+msgstr "La dirección de e-mail ya está en uso"
+
+#: mystique 2.1.2/lib/shortcodes.php:84
+msgid "You must enter a password."
+msgstr "Debes introducir una contraseña"
+
+#: mystique 2.1.2/lib/shortcodes.php:85
+msgid "Please verify the password"
+msgstr "Por favor, verifica la contraseña"
+
+#: mystique 2.1.2/lib/shortcodes.php:86
+msgid "Passwords do not match"
+msgstr "Las contraseñas no son iguales"
+
+#: mystique 2.1.2/lib/shortcodes.php:87
+msgid "User registration failed.  Please try again."
+msgstr "El registro de usuario falló. Por favor, inténtalo de nuevo."
+
+#: mystique 2.1.2/lib/shortcodes.php:96
+#, php-format
+msgid "You are logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. You don't need another account :)"
+msgstr "Has iniciado sesión como <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. No necesitas otra cuenta :)"
+
+#: mystique 2.1.2/lib/shortcodes.php:101
+#, php-format
+msgid "A user account for %1$s has been created."
+msgstr "Se ha creado una cuenta de usuario para %1$s."
+
+#: mystique 2.1.2/lib/shortcodes.php:102
+#, php-format
+msgid "Thank you for registering, %1$s."
+msgstr "Gracias por registrarte, %1$s."
+
+#: mystique 2.1.2/lib/shortcodes.php:154
+msgid "Add User"
+msgstr "Agregar usuario"
+
+#: mystique 2.1.2/lib/shortcodes.php:242
+msgid "No posts found matching the arguments"
+msgstr "No se han encontrado entradas que correspondan con los argumentos"
+
+#: mystique 2.1.2/lib/shortcodes.php:292
+#, php-format
+msgid "Empty ad slot (#%s)!"
+msgstr "Bloque de anuncio vacío (#%s)!"
+
+#: mystique 2.1.2/lib/shortcodes.php:297
+msgid "Top"
+msgstr "Arriba"
+
+#: mystique 2.1.2/lib/shortcodes.php:305
+#, php-format
+msgid "%1$s theme by %2$s | Powered by %3$s"
+msgstr "Tema \"%1$s\" de %2$s | Traducido por <a href=\"http://www.ngeeks.com\" title=\"nGeeks.com\">nGeeks.com</a> | Creado con %3$s"
+
+#: mystique 2.1.2/lib/shortcodes.php:310
+msgid "Copyright &copy;"
+msgstr "Copyright &copy;"
+
+#: mystique 2.1.2/lib/shortcodes.php:323
+msgid "Site Admin"
+msgstr "Administrador del sitio"
+
+#: mystique 2.1.2/lib/shortcodes.php:324
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+#: mystique 2.2/admin/theme-settings.php:615
+msgid "Get the 1st image attached to a post, if no thumbnail is set manually"
+msgstr "Se usa la primera imagen adjunta a una entrada, si no se ha establecido una miniatura manualmente"
+
+#: mystique 2.2/extensions/featured-posts/featured-posts.php:80
+#, php-format
+msgid "No featured posts found older than %s days."
+msgstr "No se han encontrado entradas destacadas en los últimos %s días."
+
+#~ msgid "Facebook ID"
+#~ msgstr "Facebook ID"
+
+#~ msgid "My Facebook"
+#~ msgstr "Mi Facebook"

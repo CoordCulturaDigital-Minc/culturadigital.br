@@ -1,0 +1,42 @@
+/* $Id: example.css,v 1.5 2006/03/27 02:44:36 pat Exp $ */
+
+div.yetii {
+	width: 95%;
+	margin: 0 0 20px 0;
+}
+
+ul.yetii {
+	list-style-type: none;
+	width: 100%;
+	float: left;
+        border-bottom: 2px solid #ccc;
+        margin-bottom: 8px;
+}
+
+ul.yetii li {
+	margin: 0 2px 0 0;
+	float: left;
+}
+
+ul.yetii a {
+	float: left;
+	display: block;
+	padding: 4px 8px;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	color: #666;
+	background: #eee;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+ul.yetii a:hover {
+	background: #fff;
+}
+
+ul.yetii a.active {
+	background: #fff;
+	padding-bottom: 5px;
+	cursor: default;
+	color: #00f;
+}

@@ -1,0 +1,218 @@
+/* Post Content.css
+_______________________*/
+.aligncenter
+, div.aligncenter
+, .align-center{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+img.alignright
+, img.align-right{
+	margin-left:10px;
+}
+.alignright
+, .align-right{
+	display:inline;
+	float:right;
+}
+img.alignleft
+, img.align-left{
+	margin-right:10px;
+}
+.alignleft
+, .align-left{
+	display:inline;
+	float:left;
+}
+.wp-caption{
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	background-color:#f3f3f3;
+	border:1px solid #ddd;
+	color:#535353;
+	font-size:10.5px;
+	line-height:17px;
+	margin-bottom:10px;
+	padding:4px 4px 0;
+	text-align:center;
+}
+.wp-caption.alignleft{
+	margin-right:10px;
+}
+.wp-caption.alignright{
+	margin-left:10px;
+}
+.wp-caption img{
+	border:0 none;
+	margin:0;
+	padding:0;
+}
+.wp-caption p.wp-caption-text{
+	font-size:11px;
+	margin:0;
+	padding:0 4px 5px;
+	text-align:left;
+}
+.post-tags{
+	font-style:italic;
+	line-height:22px;
+	padding-left:20px;
+}
+.postContent{
+	color:#333;
+}
+.postContent a{
+	color:#0076A4;
+	text-decoration:none;
+}
+.postContent a:hover{
+	text-decoration:underline;
+}
+.postContent p{
+	line-height:143%;
+	margin:0 0 0.8em;
+	padding:0;
+	text-align:justify;
+}
+.postContent h1{
+	font-size:270%;
+	font-weight:normal;
+	letter-spacing:-0.04em;
+	line-height:100%;
+	margin:0.8em 0 0.2em;
+}
+.postContent h2{
+	font-size:200%;
+	font-weight:normal;
+	letter-spacing:-0.04em;
+	line-height:110%;
+	margin:0.7em 0 0.2em;
+}
+.postContent h3{
+	font-size:160%;
+	font-weight:normal;
+	letter-spacing:-0.04em;
+	line-height:110%;
+	margin:0.7em 0 0.2em;
+	text-shadow:1px 1px 1px #fff;
+}
+.postContent h4{
+	font-size:140%;
+	font-weight:bold;
+	margin:0.7em 0 0.2em;
+}
+.postContent h5{
+	font-family:"Palatino Linotype",Georgia,Serif;
+	font-size:140%;
+	font-weight:bold;
+	letter-spacing:-0.02em;
+	margin:0.5em 0 0.2em;
+}
+.postContent h6{
+	font-size:120%;
+	font-weight:normal;
+	margin:0.5em 0 0.2em;
+	text-transform:uppercase;
+}
+.postContent hr{
+	background-color:#b4acA1;
+	border-bottom:1px solid #f6f4eb;
+	color:#b4aca1;
+}
+.postContent dl{
+	padding:0.3em 0 0.8em;
+}
+.postContent dt{
+	font-weight:bold;
+	text-decoration:underline;
+}
+.postContent ul
+, .postContent ol{
+	line-height:150%;
+	margin:0.4em 0 1em;
+}
+.postContent ul li
+, .postContent ol li{
+	margin-left:2.5em;
+}
+.postContent ul li{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:circle;
+}
+.postContent ol li{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:decimal;
+}
+.postContent fieldset{
+	background-color:#fff;
+	border:1px solid #ddd;
+	margin:1em 0;
+	padding:0.8em;
+}
+.postContent legend{
+	background-color:#fff;
+	border-top:1px solid #ddd;
+	font-size:115%;
+	font-style:italic;
+	padding:2px 15px 10px;
+	text-transform:uppercase;
+}
+.postContent input
+, .postContent textarea
+, .postContent select{
+	font-size:100%;
+	margin:0.2em 0;
+}
+.postContent input, .postContent textarea {
+	margin:0 2px 4px;
+	padding:0.2em 0.4em;
+}
+.postContent input.radio
+, .postContent input.checkbox{
+	background-color:#fff;
+	padding:2px;
+}
+.postContent table{
+	margin:0.5em 0 1em;
+}
+.postContent table td, .postContent table th{
+	border-right:1px solid #fff;
+	padding:0.4em 0.8em;
+	text-align:left;
+}
+.postContent table th{
+	background-color:#5e5e5e;
+	border-bottom:1px solid #e8e1c8;
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.postContent table td{
+	background-color:#eee;
+}
+.postContent table tr.even td{
+	background-color:#ddd;
+}
+.postContent pre{
+	background-color:#fff;
+	border:1px solid #ddd;
+	margin:1em 0;
+	overflow:hidden;
+	padding:0.8em;
+	width:80%;
+}
+.postContent a img{
+	border:none;
+}
+.postContent blockquote{
+	background:#fff url('../img/graph/graph_blockquote.png') no-repeat scroll 4px top;
+	color:#474747;
+	font-family:Genova, serif;
+	font-style:italic;
+	margin:1em 0;
+	min-height:40px;
+	padding:0.6em 1em;
+}

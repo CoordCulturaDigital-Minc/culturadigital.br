@@ -1,0 +1,14 @@
+
+
+/* red color scheme */
+
+.block h3.title,.block h3.title span,.block .block-div,.block .block-div-arrow{background-image:url(images/red/block-title.png)}
+.search-form #searchfield,.search-form input.submit{background-image:url(images/red/search.png);}
+li.comment .comment-head{background-image:url(images/red/comment-head.png);}
+li.comment .comment-head.comment-author-admin,li.comment .comment-head.bypostauthor{background-color:#d91d27;}
+.tabs-wrap{background-image:url(images/red/tabs-bg.png);}
+.tabs li{background-image:url(images/red/tabs-c.png);}
+.tabs li a{background-image:url(images/red/tabs.png);}
+#site-title p.headline{color:#fa2b31;}
+.altText{color:#d91d27;}
+.tag-cloud a:hover,.block-widget_tag_cloud a:hover{background-color:#fa2b31;}

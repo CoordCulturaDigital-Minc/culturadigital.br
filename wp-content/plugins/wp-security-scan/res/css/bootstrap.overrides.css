@@ -1,0 +1,18 @@
+.action-collapse-icon-12p {
+    background: url("../images/minus.gif") no-repeat scroll left bottom transparent;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+.action-expand-icon-12p {
+    background: url("../images/plus.gif") no-repeat scroll left bottom transparent;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.wsdplugin_content h3 { font-size: 17.5px; }
+.wsdplugin_content h1,
+.wsdplugin_content h2,
+.wsdplugin_content h3 { line-height: 22px; }
+

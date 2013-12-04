@@ -1,0 +1,255 @@
+/*
+Theme Name: Twenty Ten Weaver
+Theme URI: http://wpweaver.info/themes/twenty-ten-weaver
+Description: Totally customize your site look with this Twenty Ten based theme. Pick one of the many included predefined themes to use immediately, or use as a starting point for tweaking. Easily change colors, fonts, the header and footer, menus, sidebars, theme width, and more using a "check-box" interface. Add your own CSS rules, or totally customize the header with logos or WP slide show plugins. Save and Restore your theme to a file to share or transfer. It is all up to you. Supports all Twenty Ten user interface language translations. Works with WP Multisite. Who knew Twenty Ten could look so different?
+Author: Bruce Wampler
+Author URI: http://wpweaver.info
+Version: 1.4
+Tags: custom-header, custom-colors, custom-background, custom-menu, theme-options, left-sidebar, right-sidebar, fixed-width, three-columns, two-columns, black, blue, brown, green, orange, red, tan, dark, white, light, translation-ready, rtl-language-support, editor-style
+Template: twentyten
+
+This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+@import url('../twentyten/style.css');
+
+.aligncenter {		/* duplicate/useful - needed to clear theme autocheck */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+/* some tweaks to Twenty Ten to fit some of our needs */
+#content {padding-left: 45px; padding-right: 15px; margin-left: -20px; width: 670px; } /* IMPORTANT! need this to make the content bg color work right */
+#container {margin-bottom:4px;}
+.one-column #content {			/* more width in a one-column page! */
+	margin: 0 auto;
+	width: 800px;
+}
+.one-column #content img {max-width: 800px;}
+
+#branding {margin-top: -10px; }		/* ability to hide things required this one */
+#branding img {display: block; margin-left: auto;  margin-right: auto;}
+#branding img {border-bottom: none; border-top: none; margin-top: 4px; margin-bottom: 0px; } /* kill the img border */
+
+#ttw-top-widget, #ttw-bot-widget	/* default styling for our top/bottom widget areas */
+{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+	overflow: hidden;
+	width: 580px;
+}
+
+#ttw-head-widget {
+	height:36px;
+	margin-bottom:10px;
+	text-align: right;
+	padding:2px;
+	display:inline;
+}
+#ttw-head-widget .textwidget {
+	display:inline;
+	margin-left: 10px;
+}
+
+#nav-below {margin-top:4px;}	/* Twenty Ten didn't leave enough room if user adds any decorations. */
+
+.ttw-center {			/* generic utility center class - use in Heading Insert Code area maybe */
+	clear: both;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.home .sticky, #entry-author-info {
+	background-color: #888;
+	border-top: 2px dotted #444;
+	border-bottom: 2px dotted #444;
+	margin-right:4px; margin-left:1px;
+}
+
+/* add support for Secondary Menu Bar */
+/* =Fonts */
+#access2 .menu,
+#access2 div.menu ul {
+	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+/* =Structure */
+#access2 .menu-header {
+	margin: 0 auto;
+	width: 940px;
+}
+/* =Menu */
+#access2 {
+	background: #000;
+	display: block;
+	float: left;
+	margin: 0 auto;
+	width: 940px;
+}
+#access2 .menu-header,
+div.menu {
+	font-size: 13px;
+	margin-left: 12px;
+	width: 928px;
+}
+#access2 .menu-header ul,
+div.menu ul {
+	list-style: none;
+	margin: 0;
+}
+#access2 .menu-header li,
+div.menu li {
+	float: left;
+	position: relative;
+}
+#access2 a {
+	color: #aaa;
+	display: block;
+	line-height: 38px;
+	padding: 0 10px;
+	text-decoration: none;
+}
+#access2 ul ul {
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	display: none;
+	position: absolute;
+	top: 38px;
+	left: 0;
+	float: left;
+	width: 180px;
+	z-index: 99999;
+}
+#access2 ul ul li {
+	min-width: 180px;
+}
+#access2 ul ul ul {
+	left: 100%;
+	top: 0;
+}
+#access2 ul ul a {
+	background: #333;
+	line-height: 1em;
+	padding: 10px;
+	width: 160px;
+	height: auto;
+}
+#access2 li:hover > a,
+#access2 ul ul :hover > a {
+	background: #333;
+	color: #fff;
+}
+#access2 ul li:hover > ul {
+	display: block;
+}
+#access2 ul li.current_page_item > a,
+#access2 ul li.current-menu-ancestor > a,
+#access2 ul li.current-menu-item > a,
+#access2 ul li.current-menu-parent > a {
+	color: #fff;
+}
+* html #access2 ul li.current_page_item a,
+* html #access2 ul li.current-menu-ancestor a,
+* html #access2 ul li.current-menu-item a,
+* html #access2 ul li.current-menu-parent a,
+* html #access2 ul li a:hover {
+	color: #fff;
+}
+
+/* =Mobile */
+  #access2 {
+	-webkit-text-size-adjust: 120%;
+}
+@media print {
+	#access2 {
+		display: none !important;
+	}
+}
+/* Need this stuff to get our footer area to work right - have to override each and every previously set value explicitly */
+/* Structure the footer area */
+#ttw_ftable {border:0; width:98%; margin:0; padding:0;}
+#ttw_ftdl {text-align:left;}
+#ttw_ftdr {text-align:right;}
+#footer-widget-area {
+	overflow: hidden;
+}
+#footer-widget-area .widget-area {
+	margin-left: 10px;
+	float: left;
+	margin-right: 5px;
+	width: 220px;
+}
+#footer-widget-area #fourth {
+	margin-right: 0;
+}
+
+#site-info {
+	float: left;
+	width: 100%;
+	font-weight: normal;
+	font-size: inherit;
+        margin-left:10px;
+	padding-top: 4px;
+}
+#site-generator {
+	float: right;
+	width: 100%;
+}
+
+#footer {
+	margin-bottom: 5px;
+	margin-top:2px;
+}
+#colophon {
+	border-top: 4px solid #000000;
+	margin-top: -4px;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+#site-info a {
+	color: #888888;
+	text-decoration: none;
+}
+#site-generator {
+	position: relative;
+	font-style: italic;
+}
+#site-generator a {
+	color: #888888;
+	display:inline-block;
+	text-decoration: none;
+	background: url(images/wordpress.png) center left no-repeat;
+	padding-left: 19px;
+	line-height: 16px;
+	margin-left: 1px;
+}
+#site-generator a:hover {
+	text-decoration: underline;
+}
+img#wpstats {
+	display:block;
+	margin: 0 auto 10px;
+}
+
+/* Not much here - the magic is in the header */

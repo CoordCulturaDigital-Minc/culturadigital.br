@@ -1,0 +1,20 @@
+#headlines-loading {
+	float:left;
+	width:20px;
+	height:20px;
+	background:url(../../../../wp-admin/images/wpspin_light.gif) no-repeat center;
+}
+
+#headlines-sortable li {
+	margin:0 0 10px 0;
+	padding:10px 10px 10px 10px;
+	background:#eee;
+}
+
+.headlines-row-actions {
+	font-size:10px;
+}
+
+.headlines-row-actions a {
+	text-decoration:none;
+}

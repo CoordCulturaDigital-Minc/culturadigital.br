@@ -1,0 +1,778 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Graphene 1.0 theme for WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-18 22:51+1200\n"
+"PO-Revision-Date: 2010-09-18 22:54+1200\n"
+"Last-Translator: Syahir Hakim <syahir@khairul-syahir.com>\n"
+"Language-Team: Syahir Hakim <syahir@khairul-syahir.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: D:\\[[MyVault]]\\MyProjects\\[Websites]\\wordpress-theme-test\\site\\wp-content\\themes\\graphene\\\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: Malay\n"
+"X-Poedit-Country: MALAYSIA\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: author.php:33
+msgid "Author's posts listings"
+msgstr "Senarai artikel penulis"
+
+#: comments.php:18
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Artikel ini memerlukan kata laluan. Masukkan kata laluan untuk melihat komen."
+
+#: comments.php:38
+msgid "No comment yet"
+msgstr "Tiada komen"
+
+#: comments.php:38
+#: loop-author.php:57
+#: loop.php:92
+msgid "1 comment"
+msgstr "1 komen"
+
+#: comments.php:38
+#: loop-author.php:57
+#: loop.php:92
+#, php-format
+msgid "% comments"
+msgstr "% komen"
+
+#: comments.php:67
+msgid "Comments have been disabled."
+msgstr "Komen telah dinyahaktifkan."
+
+#: comments.php:80
+msgid "Your email address will not be published."
+msgstr "Alamat emel anda tidak akan dipaparkan."
+
+#: comments.php:81
+#, php-format
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "Anda boleh menggunakan tag dan attribute <abbr title=\"HyperText Markup Language\">HTML</abbr> yang berikut: %s"
+
+#: comments.php:83
+#: functions.php:719
+msgid "Submit Comment"
+msgstr "Hantar Komen"
+
+#: footer.php:27
+msgid "Except where otherwise noted, content on this site is licensed under a <a href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/\">Creative Commons Licence</a>."
+msgstr "Kecuali dinyatakan sebaliknya, kandungan laman web ini dilesenkan di bawah <a href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/\">Lesen Creative Commons</a>."
+
+#: footer.php:37
+msgid "Valid XHTML 1.0 Strict"
+msgstr "Menepati piawaian XHTML 1.0 Strict"
+
+#: footer.php:38
+msgid "Valid CSS"
+msgstr "Menepati piawaian CSS"
+
+#: footer.php:38
+msgid "Valid CSS Level 2.1"
+msgstr "Menepati piawaian CSS Level 2.1"
+
+#: footer.php:62
+#, php-format
+msgid "%1$s uses %2$s theme by %3$s."
+msgstr "%1$s menggunakan tema %2$s oleh %3$s."
+
+#: functions.php:100
+msgid "Header Menu"
+msgstr "Menu Kepala"
+
+#: functions.php:144
+msgid "Header image by Syahir Hakim"
+msgstr "Imej kepala oleh Syahir Hakim"
+
+#: functions.php:150
+msgid "This is the default Graphene theme header image, cropped from image by Quantin Houyoux at sxc.hu"
+msgstr "Ini adalah imej kepala asal bagi tema Graphene, dipotong daripada imej asal oleh Quantin Houyoux di sxc.hu"
+
+#: functions.php:156
+#: functions.php:162
+#: functions.php:168
+#: functions.php:174
+#: functions.php:180
+msgid "Header image cropped from image by Ilco at sxc.hu"
+msgstr "Imej kepala dipotong daripada imej asal oleh Ilco di sxc.hu"
+
+#: functions.php:373
+msgid "Home"
+msgstr "Muka Utama"
+
+#: functions.php:401
+msgid " says:"
+msgstr " berkata:"
+
+#: functions.php:407
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s pada %2$s"
+
+#: functions.php:409
+msgid "Edit comment"
+msgstr "Edit komen"
+
+#: functions.php:413
+msgid "Reply"
+msgstr "Balas"
+
+#: functions.php:424
+msgid "Your comment is awaiting moderation."
+msgstr "Komen anda sedang menunggu moderasi."
+
+#: functions.php:498
+msgid "Sidebar Widget Area"
+msgstr "Bahagian Widget Sidebar"
+
+#: functions.php:500
+msgid "The right sidebar widget area."
+msgstr "Bahagian widget sidebar sebelah kanan."
+
+#: functions.php:508
+msgid "Footer Widget Area"
+msgstr "Bahagian Widget Kekaki"
+
+#: functions.php:510
+msgid "The footer widget area. Leave empty to disable. Set the number of columns to display at the theme's Display Options page."
+msgstr "Bahagian widget kekaki. Tinggalkan kosong untuk batalkan paparan. Tetapkan bilangan lajur di muka Tetapan Paparan tema."
+
+#: functions.php:526
+msgid "Front Page Sidebar Widget Area"
+msgstr "Widget Sidebar Muka Hadapan"
+
+#: functions.php:528
+msgid "The right sidebar widget area that will only be displayed on the front page."
+msgstr "Bahagian widget sidebar sebelah kanan yang hanya akan dipaparkan di muka hadapan."
+
+#: functions.php:538
+msgid "Front Page Footer Widget Area"
+msgstr "Widget Kekaki Muka Hadapan"
+
+#: functions.php:540
+msgid "The footer widget area that will only be displayed on the front page. Leave empty to disable. Set the number of columns to display at the theme's Display Options page."
+msgstr "Bahagian widget kekaki yang hanya akan dipaparkan di muka hadapan. Tinggalkan kosong untuk batalkan paparan. Tetapkan bilangan lajur di muka Tetapan Paparan tema."
+
+#: functions.php:592
+msgid "Follow me on Twitter"
+msgstr "Ikuti saya di Twitter"
+
+#: functions.php:629
+msgid "Latest tweets"
+msgstr "Tweet terkini"
+
+#: functions.php:634
+msgid "Title:"
+msgstr "Tajuk:"
+
+#: functions.php:638
+msgid "Twitter Username:"
+msgstr "Nama pengguna Twitter:"
+
+#: functions.php:642
+msgid "Number of tweets to display:"
+msgstr "Bilangan tweet untuk dipaparkan:"
+
+#: functions.php:675
+msgid "Graphene Options"
+msgstr "Tetapan Graphene"
+
+#: functions.php:676
+msgid "Graphene Display"
+msgstr "Paparan Graphene"
+
+#: functions.php:700
+msgid "Name:"
+msgstr "Nama:"
+
+#: functions.php:701
+msgid "Email:"
+msgstr "Emel:"
+
+#: functions.php:702
+msgid "Website:"
+msgstr "Laman web:"
+
+#: functions.php:712
+msgid "Message:"
+msgstr "Mesej:"
+
+#: functions.php:739
+msgid "Continue reading &raquo;"
+msgstr "Teruskan membaca &raquo;"
+
+#: functions.php:769
+msgid "Older posts &laquo;"
+msgstr "Artikel terdahulu &laquo;"
+
+#: functions.php:770
+msgid "&raquo; Newer posts"
+msgstr "&raquo; Artikel terkini"
+
+#: header.php:63
+msgid "Subscribe to RSS feed"
+msgstr "Langgani capaian RSS"
+
+#: header.php:179
+msgid "View full post"
+msgstr "Lihat artikel penuh"
+
+#: loop-author.php:17
+msgid "Author's details"
+msgstr "Maklumat penulis"
+
+#: loop-author.php:19
+#, php-format
+msgid "<strong>Name:</strong> %1$s %2$s"
+msgstr "<strong>Nama:</strong> %1$s %2$s"
+
+#: loop-author.php:20
+#, php-format
+msgid "<strong>Date registered:</strong> %1$s"
+msgstr "<strong>Berdaftar sejak:</strong> %1$s"
+
+#: loop-author.php:29
+msgid "Biography"
+msgstr "Biografi"
+
+#: loop-author.php:37
+msgid "Latest posts"
+msgstr "Artikel-artikel terkini"
+
+#: loop-author.php:43
+#: loop-author.php:57
+#: loop.php:26
+#: search-404.php:24
+#, php-format
+msgid "Permalink Link to %s"
+msgstr "Capaian kekal kepada %s"
+
+#: loop-author.php:43
+#: loop-author.php:57
+#: loop.php:26
+msgid "(No title)"
+msgstr "Tiada tajuk"
+
+#: loop-author.php:49
+msgid "Most commented posts"
+msgstr "Artikel dengan komen terbanyak"
+
+#: loop-author.php:57
+#: loop.php:92
+msgid "Leave comment"
+msgstr "Tulis komen"
+
+#: loop.php:46
+msgid "by"
+msgstr "oleh"
+
+#: loop.php:48
+msgid "Edit post"
+msgstr "Edit artikel"
+
+#: loop.php:66
+msgid "Read the rest of this entry &raquo;"
+msgstr "Baca artikel penuh &raquo;"
+
+#: loop.php:70
+msgid "<p><strong>Pages:</strong> "
+msgstr "<p><strong>Halaman:</strong> "
+
+#: loop.php:80
+msgid "Tags:"
+msgstr "Tag:"
+
+#: loop.php:80
+msgid "This post has no tag"
+msgstr "Artikel ini tidak mempunyai tag"
+
+#: loop.php:122
+msgid "Not found"
+msgstr "Tidak dijumpai"
+
+#: loop.php:127
+msgid "Sorry, but you are looking for something that isn't here. Wanna try a search?"
+msgstr "Maaf, artikel yang anda pohon tidak dijumpai di laman ini. Hendak mencuba carian?"
+
+#: loop.php:129
+msgid "Sorry, but no results were found for that keyword. Wanna try an alternative keyword search?"
+msgstr "Maaf, tiada artikel dijumpai menggunakan kata kunci tersebut. Hendak mencuba carian menggunakan kata kunci alternatif?"
+
+#: search-404.php:3
+msgid "Error 404 - Page Not Found"
+msgstr "Ralat 404 - Halaman Tidak Dijumpai"
+
+#: search-404.php:5
+msgid "Sorry, I've looked everywhere but I can't find the page you're looking for."
+msgstr "Maaf, saya telah mencari di keseluruhan laman web ini, tetapi artikel yang anda pohon tidak dijumpai."
+
+#: search-404.php:6
+msgid "If you follow the link from another website, I may have removed or renamed the page some time ago. You may want to try searching for the page:"
+msgstr "Sekiranya anda mengikut capaian dari laman web lain, saya mungkin telah manghapuskan atau menukar nama artikel tersebut. Mungkin carian kata kunci dapat membantu anda mencari artikel tersebut:"
+
+#: search-404.php:14
+msgid "Suggested results"
+msgstr "Hasil carian automatik"
+
+#: search-404.php:18
+#, php-format
+msgid "I've done a courtesy search for the term %s for you. See if you can find what you're looking for in the list below:"
+msgstr "Saya telah melakukan carian automatik bagi kata kunci %s untuk anda. Mungkin artikel yang anda cari ada dalam senarai di bawah:"
+
+#: search-404.php:35
+msgid "<strong>Sorry, couldn't find anything.</strong> Try searching for alternative terms using the search form above."
+msgstr "<strong>Maaf, tiada artikel dijumpai.</strong> Cuba carian sekali dengan menggunakan kata kunci yang lain."
+
+#: searchform.php:3
+#: searchform.php:4
+msgid "Search"
+msgstr "Carian"
+
+#: sidebar.php:34
+msgid "Archives"
+msgstr "Arkib"
+
+#: sidebar.php:41
+msgid "Meta"
+msgstr "Meta"
+
+#: sidebar.php:46
+msgid "Posts RSS"
+msgstr "RSS Artikel"
+
+#: sidebar.php:47
+msgid "Comments RSS"
+msgstr "RSS Komen"
+
+#: sidebar.php:49
+#, php-format
+msgid "Powered by %s"
+msgstr "Laman menggunakan %s"
+
+#: sidebar.php:49
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Laman menggunakan WordPress, platform penerbitan peribadi yang semantik dan canggih."
+
+#: admin/display.php:51
+msgid "Please enter only numerical value for the footer widget column count."
+msgstr "Hanya input berbentuk nombor sahaja diterima untuk bilangan lajur bahagian widget kekaki."
+
+#: admin/display.php:60
+msgid "Please enter only numerical value for the front page footer widget column count."
+msgstr "Hanya input berbentuk nombor sahaja diterima untuk bilangan lajur bahagian widget kekaki muka hadapan."
+
+#: admin/display.php:70
+msgid "Please enter only numerical value for the navigation menu dropdown item width."
+msgstr "Hanya input berbentuk nombor sahaja diterima untuk lebar item menu."
+
+#: admin/display.php:116
+#: admin/options.php:111
+msgid "Settings updated."
+msgstr "Tetapan disimpan."
+
+#: admin/display.php:163
+msgid "Graphene Display Options"
+msgstr "Tetapan Paparan Graphene"
+
+#: admin/display.php:169
+#: admin/options.php:158
+msgid "ERROR:"
+msgstr "RALAT:"
+
+#: admin/display.php:191
+msgid "Header Display Options"
+msgstr "Tetapan Paparan Kepala"
+
+#: admin/display.php:195
+msgid "Use light-coloured header bars"
+msgstr "Gunakan bahagian kepala berwarna cerah"
+
+#: admin/display.php:203
+msgid "Posts Display Options"
+msgstr "Tetapan Paparan Artikel"
+
+#: admin/display.php:207
+msgid "Hide post author"
+msgstr "Jangan paparkan penulis"
+
+#: admin/display.php:213
+msgid "Hide post date"
+msgstr "Jangan paparkan tarikh"
+
+#: admin/display.php:219
+msgid "Hide post categories"
+msgstr "Jangan paparkan kategori"
+
+#: admin/display.php:225
+msgid "Hide post tags"
+msgstr "Jangan paparkan tag"
+
+#: admin/display.php:231
+msgid "Hide post comment count"
+msgstr "Jangan paparkan bilangan komen"
+
+#: admin/display.php:232
+msgid "Only affects posts listing (such as the front page) and not single post view."
+msgstr "Hanya mengubah halaman yang menyenaraikan artikel (seperti muka hadapan) dan bukan halaman yang memaparkan hanya satu artikel."
+
+#: admin/display.php:237
+msgid "Show post author's gravatar"
+msgstr "Paparkan gravatar penulis artikel"
+
+#: admin/display.php:243
+msgid "Text Style Options"
+msgstr "Tetapan Gaya Teks"
+
+#: admin/display.php:244
+msgid "Note that these are CSS properties, so any valid CSS values for each particular property can be used."
+msgstr "Ini merupakan tetapan CSS. Oleh sebab itu, sebarang nilai CSS yang sah untuk setiap tetapan boleh digunakan."
+
+#: admin/display.php:245
+msgid "Some example CSS properties values:"
+msgstr "Beberapa contoh nilai-nilai CSS:"
+
+#: admin/display.php:248
+msgid "Text font:"
+msgstr "Font teks:"
+
+#: admin/display.php:249
+msgid "<code>arial</code>, <code>tahoma</code>, <code>georgia</code>, <code>'Trebuchet MS'</code>"
+msgstr "<code>arial</code>, <code>tahoma</code>, <code>georgia</code>, <code>'Trebuchet MS'</code>"
+
+#: admin/display.php:252
+msgid "Text size and line height:"
+msgstr "Saiz teks dan tinggi baris:"
+
+#: admin/display.php:253
+msgid "<code>12px</code>, <code>12pt</code>, <code>12em</code>"
+msgstr "<code>12px</code>, <code>12pt</code>, <code>12em</code>"
+
+#: admin/display.php:256
+msgid "Text weight:"
+msgstr "Berat teks:"
+
+#: admin/display.php:257
+msgid "<code>normal</code>, <code>bold</code>, <code>100</code>, <code>700</code>"
+msgstr "<code>normal</code>, <code>bold</code>, <code>100</code>, <code>700</code>"
+
+#: admin/display.php:260
+msgid "Text style:"
+msgstr "Gaya teks:"
+
+#: admin/display.php:261
+msgid " <code>normal</code>, <code>italic</code>, <code>oblique</code>"
+msgstr " <code>normal</code>, <code>italic</code>, <code>oblique</code>"
+
+#: admin/display.php:264
+msgid "Text colour:"
+msgstr "Warna teks:"
+
+#: admin/display.php:265
+msgid "<code>blue</code>, <code>navy</code>, <code>red</code>, <code>#ff0000</code>"
+msgstr "<code>blue</code>, <code>navy</code>, <code>red</code>, <code>#ff0000</code>"
+
+#: admin/display.php:268
+#: admin/display.php:366
+#: admin/display.php:388
+msgid "Leave field empty to use the default value."
+msgstr "Tinggalkan ruangan kosong untuk menggunakan nilai asal."
+
+#: admin/display.php:269
+msgid "Header Text"
+msgstr "Teks Kepala"
+
+#: admin/display.php:273
+msgid "Title text font"
+msgstr "Font teks tajuk"
+
+#: admin/display.php:279
+msgid "Title text size"
+msgstr "Saiz teks tajuk"
+
+#: admin/display.php:285
+msgid "Title text weight"
+msgstr "Berat teks tajuk"
+
+#: admin/display.php:291
+msgid "Title text line height"
+msgstr "Tinggi baris teks tajuk"
+
+#: admin/display.php:297
+msgid "Title text style"
+msgstr "Gaya teks tajuk"
+
+#: admin/display.php:306
+msgid "Description text font"
+msgstr "Font teks deskripsi"
+
+#: admin/display.php:312
+msgid "Description text size"
+msgstr "Saiz teks deskripsi"
+
+#: admin/display.php:318
+msgid "Description text weight"
+msgstr "Berat teks deskripsi"
+
+#: admin/display.php:324
+msgid "Description text line height"
+msgstr "Tinggi baris tesk deskripsi"
+
+#: admin/display.php:330
+msgid "Description text style"
+msgstr "Gaya teks deskripsi"
+
+#: admin/display.php:335
+msgid "Content Text"
+msgstr "Teks Kandungan"
+
+#: admin/display.php:339
+msgid "Text font"
+msgstr "Font teks"
+
+#: admin/display.php:345
+msgid "Text size"
+msgstr "Saiz teks"
+
+#: admin/display.php:351
+msgid "Text line height"
+msgstr "Tinggi baris teks"
+
+#: admin/display.php:357
+msgid "Text colour"
+msgstr "Warna teks"
+
+#: admin/display.php:365
+msgid "Footer Widget Display Options"
+msgstr "Tetapan Paparan Widget Kekaki"
+
+#: admin/display.php:371
+msgid "Number of columns to display"
+msgstr "Bilangan lajur untuk dipaparkan"
+
+#: admin/display.php:378
+msgid "Number of columns to display for front page footer widget"
+msgstr "Bilangan lajur untuk dipaparkan pada bahagian widget kekaki di muka hadapan"
+
+#: admin/display.php:387
+msgid "Navigation Menu Display Options"
+msgstr "Tetapan Paparan Menu"
+
+#: admin/display.php:393
+msgid "Dropdown menu item width"
+msgstr "Lebar item menu dropdown"
+
+#: admin/display.php:402
+#: admin/options.php:304
+msgid "Update Settings"
+msgstr "Simpan Tetapan"
+
+#: admin/options.php:30
+msgid "You must enter your Adsense code to enable Adsense advertising"
+msgstr "And perlu memasukkan kod Adsense anda untuk menggunakan fungsi pengiklanan Adsense"
+
+#: admin/options.php:45
+msgid "You must enter your AddThis button code to enable the AddThis social sharing button"
+msgstr "And perlu memasukkan kod butang AddThis anda untuk menggunakan fungsi butang perkongsian sosial AddThis"
+
+#: admin/options.php:59
+msgid "You must enter your Google Analytics tracking code to enable Google Analytics tracking."
+msgstr "And perlu memasukkan kod penjejak Google Analytics anda untuk menggunakan fungsi penjejakan Google Analytics"
+
+#: admin/options.php:152
+msgid "Graphene Theme Options"
+msgstr "Tetapan Tema Graphene"
+
+#: admin/options.php:176
+msgid "Slider Options"
+msgstr "Tetapan Slider"
+
+#: admin/options.php:183
+msgid "Category to show in slider"
+msgstr "Kategori untuk dipaparkan dalam slider"
+
+#: admin/options.php:184
+msgid "All posts within the category selected here will be displayed on the slider. Usage example: create a new category \"Featured\" and assign all posts to be displayed on the slider to that category, and then select that category here."
+msgstr "Semua artikel dalam kategori yang dipilih di sini akan dipaparkan dalam slider. Contoh penggunaan: buat kategori baru \"Istimewa\" dan tetapkan semua artikel yang hendak dipaparkan dalam slider berada dalam kategori tersebut. Kemudian, pilih kategori tersebut di sini."
+
+#: admin/options.php:188
+msgid "Show latest posts"
+msgstr "Paparkan artikel terkini"
+
+#: admin/options.php:201
+msgid "Disable slider"
+msgstr "Nyahaktifkan slider"
+
+#: admin/options.php:209
+msgid "Adsense Options"
+msgstr "Tetapan AdSense"
+
+#: admin/options.php:213
+msgid "Show Adsense advertising"
+msgstr "Paparkan pengiklanan AdSense"
+
+#: admin/options.php:219
+msgid "Show ads on front page as well"
+msgstr "Paparkan iklan di muka hadapan juga"
+
+#: admin/options.php:225
+msgid "Your Adsense code"
+msgstr "Kod AdSense anda"
+
+#: admin/options.php:234
+msgid "AddThis Options"
+msgstr "Tetapan AddThis"
+
+#: admin/options.php:237
+msgid "Show AddThis social sharing button"
+msgstr "Paparkan butang perkongsian sosial AddThis"
+
+#: admin/options.php:242
+msgid "Your AddThis button code"
+msgstr "Kod butang AddThis anda"
+
+#: admin/options.php:243
+msgid "You can generate your button code from the <a href=\"http://www.addthis.com/\">AddThis website</a>."
+msgstr "Anda boleh dapatkan kod butang anda daripada <a href=\"http://www.addthis.com/\">laman web AddThis</a>."
+
+#: admin/options.php:251
+msgid "Google Analytics Options"
+msgstr "Tetapan Google Analytics"
+
+#: admin/options.php:254
+msgid "Enable Google Analytics tracking"
+msgstr "Aktifkan Google Analytics"
+
+#: admin/options.php:258
+msgid "Google Analytics tracking code"
+msgstr "Kod Google Analytics"
+
+#: admin/options.php:259
+msgid "Make sure you include the full tracking code (including the <code>&lt;script&gt;</code> and <code>&lt;/script&gt;</code> tags) and not just the <code>UA-#######-#</code> code."
+msgstr "Pastikan anda memasukkan kod penjejak yang penuh (termasuk tag <code>&lt;script&gt;</code> and <code>&lt;/script&gt;</code>) dan bukan hanya kod <code>UA-#######-#</code> sahaja."
+
+#: admin/options.php:267
+msgid "Widget Area Options"
+msgstr "Tetapan Bahagian Widget"
+
+#: admin/options.php:268
+msgid "Alternate Widgets"
+msgstr "Widget Alternatif"
+
+#: admin/options.php:269
+msgid "You can enable the theme to show different widget areas in the front page than the rest of the website. If you enable this option, additional widget areas that will only be displayed on the front page will be added to the Widget settings page."
+msgstr "Anda boleh tetapkan supaya tema ini memaparkan widget yang berlainan di muka hadapan berbanding muka-muka yang lain. Sekiranya anda mengaktifkan fungsi ini, bahagian widget tambahan yang hanya akan dipaparkan di muka hadapan akan ditambah di muka Tetapan Widget."
+
+#: admin/options.php:272
+msgid "Enable alternate front page sidebar widget area"
+msgstr "Aktifkan bahagian widget sidebar muka hadapan alternatif"
+
+#: admin/options.php:276
+msgid "Enable alternate front page footer widget area"
+msgstr "Aktifkan bahagian widget kekaki muka hadapan alternatif"
+
+#: admin/options.php:277
+msgid "You can also specify different column counts for the front page footer widget and the rest-of-site footer widget if you enable this option."
+msgstr "Anda juga boleh menetapkan bilangan lajur yang berlainan untuk dipaparkan di bahagian widget kekaki di muka hadapan berbanding muka-muka yang lain sekiranya anda mengaktifkan fungsi ini."
+
+#: admin/options.php:285
+msgid "Footer Options"
+msgstr "Tetapan Bahagian Kaki Tema"
+
+#: admin/options.php:288
+msgid "Show Creative Commons logo"
+msgstr "Paparkan logo Creative Commons"
+
+#: admin/options.php:293
+msgid "Copyright text (html allowed)"
+msgstr "Teks hakcipta (html boleh digunakan)"
+
+#: admin/options.php:294
+msgid "If this field is empty, the following default copyright text will be displayed:"
+msgstr "Sekiranya ruangan ini kosong, teks hakcipta di bawah akan digunakan:"
+
+#: admin/options.php:310
+msgid "Support the developer"
+msgstr "Sokong pembangun"
+
+#: admin/options.php:311
+msgid "Developing this awesome theme took a lot of effort and time, weeks and weeks of voluntary unpaid work. If you like this theme or if you are using it for commercial websites, please consider a donation to the developer to help support future updates and development."
+msgstr "Membangunkan tema ini memerlukan begitu banyak masa dan usaha, sehingga berminggu-minggu tanpa sebarang bayaran. Jika anda suka akan tema ini atau menggunakannya untuk laman yang bersifat perniagaan/perdagangan, sila pertimbangkan sedikit sumbangan kepada pembangunnya untuk membantu menyokong pembangunan dan pengemaskinian tema ini."
+
+#: admin/options.php:321
+msgid "Uninstall theme"
+msgstr "Tanggalkan Tema"
+
+#: admin/options.php:322
+msgid "<strong>Be careful!</strong> Uninstalling the theme will remove all of the theme's options from the database. Do this only if you decide not to use the theme anymore."
+msgstr "<strong>Berhati-hati!</strong> Menanggalkan tema ini akan menghapuskan semua tetapan tema ini daripada pengkalan data. Pastikan anda hanya melakukan langkah ini sekiranya anda telah memutuskan untuk tidak menggunakan tema ini lagi."
+
+#: admin/options.php:323
+msgid "If you just want to try another theme, there is no need to uninstall this theme. Simply activate the other theme in the Appearance > Themes admin page."
+msgstr "Jika anda hanya mahu mencuba tema yang lain, anda tidak perlu menanggalkan tema ini. Hanya aktifkan tema tersebut di halaman admin Reka Bentuk > Tema."
+
+#: admin/options.php:324
+msgid "Note that uninstalling this theme <strong>does not remove</strong> the theme's files. To delete the files after you have uninstalled this theme, go to Appearances > Themes and delete the theme from there."
+msgstr "Menanggalkan tema ini <strong>tidak menghapuskan</strong> fail-fail tema ini. Untuk menghapuskan fail-fail tema ini setelah anda menanggalkannya, pergi ke halaman Reka Bentuk > Tema and hapuskan tema ini di halaman tersebut."
+
+#: admin/options.php:327
+msgid "Uninstall Theme"
+msgstr "Tanggalkan Tema"
+
+#~ msgid "by %s"
+#~ msgstr "oleh %s"
+
+#~ msgid "% comment"
+#~ msgstr "% komen"
+
+#~ msgid "Categories:"
+#~ msgstr "Kategori:"
+
+#~ msgid "No comment"
+#~ msgstr "Tiada komen"
+
+#~ msgid "No post found"
+#~ msgstr "Tiada artikel dijumpai"
+
+#~ msgid "You might want to try another search using alternative terms."
+#~ msgstr ""
+#~ "Anda mungkin mahu mencuba carian sekali lagi menggunakan kata kunci "
+#~ "alternatif."
+
+#~ msgid "Leave a reply"
+#~ msgstr "Tulis komen"
+
+#~ msgid "Leave a reply to %s"
+#~ msgstr "Tulis komen kepada %s"
+
+#~ msgid "Click here to cancel reply"
+#~ msgstr "Klik di sini untuk batalkan komen"
+
+#~ msgid ""
+#~ "You must be <a href=\"%1$s/wp-login.php?redirect_to=%2$s\">logged in</a> "
+#~ "to post a comment"
+#~ msgstr ""
+#~ "Anda perlu <a href=\"%1$s/wp-login.php?redirect_to=%2$s\">log masuk</a> "
+#~ "untuk tulis komen"
+
+#~ msgid "Logged in as"
+#~ msgstr "Anda telah log masuk sebagai"
+
+#~ msgid "Log out of this account"
+#~ msgstr "Log keluar daripada akaun ini"
+
+#~ msgid "Logout &raquo;"
+#~ msgstr "Log keluar &raquo;"
+
+#~ msgid "Your name:"
+#~ msgstr "Nama:"
+
+#~ msgid "Your email:"
+#~ msgstr "E-mel:"
+
+#~ msgid "Your Adsense Publisher's ID"
+#~ msgstr "ID Penerbit (Publisher's ID) AdSense anda"

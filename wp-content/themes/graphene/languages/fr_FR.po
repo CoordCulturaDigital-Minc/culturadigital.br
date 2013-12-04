@@ -1,0 +1,697 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Graphene 1.0 theme for WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-01 00:26+1200\n"
+"PO-Revision-Date: 2010-09-05 04:42+0100\n"
+"Last-Translator: wolforg <contact@wolforg.eu>\n"
+"Language-Team: Wolforg <contact@wolforg.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n;esc_attr_e;esc_attr__\n"
+"X-Poedit-Basepath: D:\\[[MyVault]]\\MyProjects\\[Websites]\\wordpress-theme-test\\site\\wp-content\\themes\\graphene\\\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: author.php:32
+msgid "Author's posts listings"
+msgstr "Articles de cet auteur"
+
+#: comments.php:18
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Cet article est protégé par un mot de passe. Entrez le pour voir les commentaires."
+
+#: comments.php:36
+msgid "No comment yet"
+msgstr "Pas encore de commentaires"
+
+#: comments.php:36
+#: loop-author.php:54
+#: loop.php:82
+msgid "1 comment"
+msgstr "1 commentaire"
+
+#: comments.php:36
+#: loop-author.php:54
+#: loop.php:82
+#, php-format
+msgid "% comments"
+msgstr "% commentaires"
+
+#: comments.php:65
+msgid "Your email address will not be published."
+msgstr "Votre adresse ne sera pas publiée."
+
+#: comments.php:66
+#, php-format
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "Vous pouvez utiliser les balises <abbr title=\"HyperText Markup Language\">HTML</abbr> suivantes : %s"
+
+#: comments.php:68
+#: functions.php:670
+msgid "Submit Comment"
+msgstr "Envoyer Commentaire"
+
+#: footer.php:24
+msgid "Except where otherwise noted, content on this site is licensed under a <a href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/\">Creative Commons Licence</a>."
+msgstr "Sauf indication contraire, le contenu de ce site est sous licence <a href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/\">Creative Commons</a>."
+
+#: footer.php:30
+msgid "Valid XHTML 1.0 Strict"
+msgstr "XHTML Valide 1.0"
+
+#: footer.php:31
+msgid "Valid CSS"
+msgstr "CSS Valide"
+
+#: footer.php:31
+msgid "Valid CSS Level 2.1"
+msgstr "CSS Valide niveau 2.1"
+
+#: footer.php:52
+#, php-format
+msgid "%1$s uses %2$s theme by %3$s."
+msgstr "%1$s utilise le thème %2$s par %3$s. Traduction française : <a href=\"http://www.wolforg.eu\">Wolforg</a>"
+
+#: functions.php:100
+msgid "Header Menu"
+msgstr "Menu du Haut"
+
+#: functions.php:144
+msgid "Header image by Syahir Hakim"
+msgstr "Bannière par Syahir Hakim"
+
+#: functions.php:150
+msgid "This is the default Graphene theme header image, cropped from image by Quantin Houyoux at sxc.hu"
+msgstr "Ceci est la bannière par défaut du thème Gaphène, image redimensionnée par Quantin Houyoux at sxc.hu"
+
+#: functions.php:156
+#: functions.php:162
+#: functions.php:168
+#: functions.php:174
+#: functions.php:180
+msgid "Header image cropped from image by Ilco at sxc.hu"
+msgstr "Bannière redimensionnée par Ilco at sxc.hu"
+
+#: functions.php:365
+msgid "Home"
+msgstr "Accueil"
+
+#: functions.php:385
+msgid " says:"
+msgstr " a dit :"
+
+#: functions.php:389
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1s à %2s"
+
+#: functions.php:391
+msgid "Edit comment"
+msgstr "Modifier le commentaire"
+
+#: functions.php:392
+msgid "Reply"
+msgstr "Répondre"
+
+#: functions.php:396
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de validation."
+
+#: functions.php:459
+msgid "Sidebar Widget Area"
+msgstr "Zone latérale de widgets"
+
+#: functions.php:461
+msgid "The right sidebar widget area."
+msgstr "Zone de widgets de droite."
+
+#: functions.php:469
+msgid "Footer Widget Area"
+msgstr "Zone de widgets du bas"
+
+#: functions.php:471
+msgid "The footer widget area. Leave empty to disable. Set the number of columns to display at the theme's Display Options page."
+msgstr "La zone de widgets du bas. Laissez la vide pour la désactiver. Définissez le nombre de colonnes à afficher dans la page d'options du thème."
+
+#: functions.php:487
+msgid "Front Page Sidebar Widget Area"
+msgstr "Zone latérale de widgets pour l'accueil"
+
+#: functions.php:489
+msgid "The right sidebar widget area that will only be displayed on the front page."
+msgstr "Cette zone de widgets latérale sera affichée uniquement sur la page d'accueil."
+
+#: functions.php:499
+msgid "Front Page Footer Widget Area"
+msgstr "Zone de widgets du bas sur l'accueil."
+
+#: functions.php:501
+msgid "The footer widget area that will only be displayed on the front page. Leave empty to disable. Set the number of columns to display at the theme's Display Options page."
+msgstr "Cette zone de widgets sera affichée uniquement en bas de la page d'accueil. Laissez la vide pour la désactiver. Définissez le nombre de colonnes à afficher dans la page d'options du thème."
+
+#: functions.php:550
+msgid "Follow me on Twitter"
+msgstr "Suivez moi sur Twitter"
+
+#: functions.php:588
+msgid "Latest tweets"
+msgstr "Derniers Gazouillis"
+
+#: functions.php:593
+msgid "Title:"
+msgstr "Titre :"
+
+#: functions.php:597
+msgid "Twitter Username:"
+msgstr "Pseudo Twitter :"
+
+#: functions.php:601
+msgid "Number of tweets to display:"
+msgstr "Nombre de gazouillis à afficher :"
+
+#: functions.php:633
+msgid "Graphene Options"
+msgstr "Options de Graphène"
+
+#: functions.php:634
+msgid "Graphene Display"
+msgstr "Affichage de Graphène"
+
+#: functions.php:656
+msgid "Name:"
+msgstr "Nom :"
+
+#: functions.php:657
+msgid "Email:"
+msgstr "Email :"
+
+#: functions.php:658
+msgid "Website:"
+msgstr "Site Web :"
+
+#: functions.php:665
+msgid "Message:"
+msgstr "Message :"
+
+#: functions.php:688
+msgid "Continue reading &raquo;"
+msgstr "Lire la Suite &raquo;"
+
+#: header.php:52
+msgid "Subscribe to RSS feed"
+msgstr "Suivre le fil RSS"
+
+#: loop-author.php:15
+msgid "Author's details"
+msgstr "Détails de l'auteur"
+
+#: loop-author.php:17
+#, php-format
+msgid "<strong>Name:</strong> %1$s %2$s"
+msgstr "<strong>Nom :</strong> %1$s %2$s"
+
+#: loop-author.php:18
+#, php-format
+msgid "<strong>Date registered:</strong> %1$s"
+msgstr "<strong>Date d'enregistrement :</strong> %1$s"
+
+#: loop-author.php:26
+msgid "Biography"
+msgstr "Biographie"
+
+#: loop-author.php:35
+msgid "Latest posts"
+msgstr "Derniers articles"
+
+#: loop-author.php:41
+#: loop-author.php:54
+#: loop.php:23
+#: search-404.php:24
+#, php-format
+msgid "Permalink Link to %s"
+msgstr "Lien permanent pour %s"
+
+#: loop-author.php:41
+#: loop-author.php:54
+#: loop.php:23
+msgid "(No title)"
+msgstr "(pas de titre)"
+
+#: loop-author.php:46
+msgid "Most commented posts"
+msgstr "Articles les plus commentés"
+
+#: loop-author.php:54
+#: loop.php:82
+msgid "Leave comment"
+msgstr "Faire un commentaire"
+
+#: loop.php:42
+msgid "by"
+msgstr "par"
+
+#: loop.php:44
+msgid "Edit post"
+msgstr "Modifier"
+
+#: loop.php:59
+msgid "Read the rest of this entry &raquo;"
+msgstr "En savoir plus &raquo;"
+
+#: loop.php:63
+msgid "<p><strong>Pages:</strong> "
+msgstr "<p><strong>Pages :</strong> "
+
+#: loop.php:70
+msgid "Tags: "
+msgstr "Mots-Clés :"
+
+#: loop.php:70
+msgid "This post has no tag"
+msgstr "Cet article n'a pas de mots-clés"
+
+#: loop.php:104
+msgid "Older posts &laquo;"
+msgstr "Articles plus anciens &laquo;"
+
+#: loop.php:105
+msgid "&raquo; Newer posts"
+msgstr "&raquo; Articles plus récents"
+
+#: loop.php:112
+msgid "Not found"
+msgstr "Non trouvé"
+
+#: loop.php:117
+msgid "Sorry, but you are looking for something that isn't here. Wanna try a search?"
+msgstr "Désolé, mais ce que vous recherchez ne se trouve pas ici. Voulez vous essayer une recherche?"
+
+#: loop.php:119
+msgid "Sorry, but no results were found for that keyword. Wanna try an alternative keyword search?"
+msgstr "Désolé, mais il n'y a aucun résultat sur cette recherche. Voulez vous en essayer une autre?"
+
+#: search-404.php:3
+msgid "Error 404 - Page Not Found"
+msgstr "Erreur 404. Page Non Trouvée."
+
+#: search-404.php:5
+msgid "Sorry, I've looked everywhere but I can't find the page you're looking for."
+msgstr "Désolé, j'ai bien regardé partout sans trouver la page recherchée."
+
+#: search-404.php:6
+msgid "If you follow the link from another website, I may have removed or renamed the page some time ago. You may want to try searching for the page:"
+msgstr "Si vous suivez un lien d'un autre site, la page a peut-être été renommée ou déplacée. Vous devriez essayer une recherche sur la page désirée."
+
+#: search-404.php:14
+msgid "Suggested results"
+msgstr "Résultats proposés"
+
+#: search-404.php:18
+#, php-format
+msgid "I've done a courtesy search for the term %s for you. See if you can find what you're looking for in the list below:"
+msgstr "Une recherche sur le mot %s a été initiée. Voyez si vous trouvez ce que vous recherchez ci-dessous :"
+
+#: search-404.php:37
+msgid "<strong>Sorry, couldn't find anything.</strong> Try searching for alternative terms using the search form above."
+msgstr "<strong>Désolé, rien de trouvé</strong> Essayez une autre recherche avec le formulaire ci-dessous."
+
+#: searchform.php:3
+#: searchform.php:4
+msgid "Search"
+msgstr "Rechercher"
+
+#: sidebar.php:31
+msgid "Archives"
+msgstr "Archives"
+
+#: sidebar.php:38
+msgid "Meta"
+msgstr "Infos"
+
+#: sidebar.php:43
+msgid "Posts RSS"
+msgstr "RSS des articles"
+
+#: sidebar.php:44
+msgid "Comments RSS"
+msgstr "RSS des Commentaires"
+
+#: sidebar.php:46
+#, php-format
+msgid "Powered by %s"
+msgstr "Propulsé par %s"
+
+#: sidebar.php:46
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Propulsé par WordPress, plateforme sémantique de publication."
+
+#: admin/display.php:51
+msgid "Please enter only numerical value for the footer widget column count."
+msgstr "Entrez uniquement une valeur numérique pour le nombre de colonnes du widget du bas"
+
+#: admin/display.php:60
+msgid "Please enter only numerical value for the front page footer widget column count."
+msgstr "Entrez uniquement une valeur numérique pour le nombre de colonnes du widget du bas pour l'accueil"
+
+#: admin/display.php:70
+msgid "Please enter only numerical value for the navigation menu dropdown item width."
+msgstr "Entrez uniquement une valeur numérique pour le nombre d'éléments du menu de navigation."
+
+#: admin/display.php:116
+#: admin/options.php:101
+msgid "Settings updated."
+msgstr "Paramètres mis à jour."
+
+#: admin/display.php:163
+msgid "Graphene Display Options"
+msgstr "Options d'affichage de Graphène"
+
+#: admin/display.php:169
+#: admin/options.php:145
+msgid "ERROR:"
+msgstr "ERREUR :"
+
+#: admin/display.php:191
+msgid "Header Display Options"
+msgstr "Options d'affichage du haut"
+
+#: admin/display.php:195
+msgid "Use light-coloured header bars"
+msgstr "Utiliser des barres de couleurs claires"
+
+#: admin/display.php:203
+msgid "Posts Display Options"
+msgstr "Options d'affichage des articles"
+
+#: admin/display.php:207
+msgid "Hide post author"
+msgstr "Cacher l'auteur de l'article"
+
+#: admin/display.php:213
+msgid "Hide post date"
+msgstr "Cacher la date de l'article"
+
+#: admin/display.php:219
+msgid "Hide post categories"
+msgstr "Cacher les catégories"
+
+#: admin/display.php:225
+msgid "Hide post tags"
+msgstr "Cacher les mots-clés"
+
+#: admin/display.php:231
+msgid "Hide post comment count"
+msgstr "Cacher le compteur de commentaires"
+
+#: admin/display.php:232
+msgid "Only affects posts listing (such as the front page) and not single post view."
+msgstr "Ceci affectera uniquement les listes d'articles (accueil, catégories, etc..) et non les articles."
+
+#: admin/display.php:237
+msgid "Show post author's gravatar"
+msgstr "Afficher le Gravatar de l'auteur"
+
+#: admin/display.php:243
+msgid "Text Style Options"
+msgstr "Options des styles de texte"
+
+#: admin/display.php:244
+msgid "Note that these are CSS properties, so any valid CSS values for each particular property can be used."
+msgstr "Notez que celles-ci sont des propriétés CSS, donc toutes les valeurs valides CSS pour chaque propriété particulière peuvent être utilisées."
+
+#: admin/display.php:245
+msgid "Some example CSS properties values:"
+msgstr "Exemples de valeurs de propriétés CSS :"
+
+#: admin/display.php:248
+msgid "Text font:"
+msgstr "Police du texte :"
+
+#: admin/display.php:249
+msgid "<code>arial</code>, <code>tahoma</code>, <code>georgia</code>, <code>'Trebuchet MS'</code>"
+msgstr "<code>arial</code>, <code>tahoma</code>, <code>georgia</code>, <code>'Trebuchet MS'</code>"
+
+#: admin/display.php:252
+msgid "Text size and line height:"
+msgstr "Taille de texte et hauteur de ligne :"
+
+#: admin/display.php:253
+msgid "<code>12px</code>, <code>12pt</code>, <code>12em</code>"
+msgstr "<code>12px</code>, <code>12pt</code>, <code>12em</code>"
+
+#: admin/display.php:256
+msgid "Text weight:"
+msgstr "Poids du texte :"
+
+#: admin/display.php:257
+msgid "<code>normal</code>, <code>bold</code>, <code>100</code>, <code>700</code>"
+msgstr "<code>normal</code>, <code>bold</code>, <code>100</code>, <code>700</code>"
+
+#: admin/display.php:260
+msgid "Text style:"
+msgstr "Style de texte :"
+
+#: admin/display.php:261
+msgid " <code>normal</code>, <code>italic</code>, <code>oblique</code>"
+msgstr " <code>normal</code>, <code>italic</code>, <code>oblique</code>"
+
+#: admin/display.php:264
+msgid "Text colour:"
+msgstr "Couleur de texte :"
+
+#: admin/display.php:265
+msgid "<code>blue</code>, <code>navy</code>, <code>red</code>, <code>#ff0000</code>"
+msgstr "<code>blue</code>, <code>navy</code>, <code>red</code>, <code>#ff0000</code>"
+
+#: admin/display.php:268
+#: admin/display.php:366
+#: admin/display.php:388
+msgid "Leave field empty to use the default value."
+msgstr "Laissez le champ vide pour utiliser la valeur par défaut."
+
+#: admin/display.php:269
+msgid "Header Text"
+msgstr "Texte de titre"
+
+#: admin/display.php:273
+msgid "Title text font"
+msgstr "Police de texte du titre"
+
+#: admin/display.php:279
+msgid "Title text size"
+msgstr "Taille du texte de titre"
+
+#: admin/display.php:285
+msgid "Title text weight"
+msgstr "Poids de texte du titre"
+
+#: admin/display.php:291
+msgid "Title text line height"
+msgstr "Hauteur de ligne du texte de titre"
+
+#: admin/display.php:297
+msgid "Title text style"
+msgstr "Style du texte de titre"
+
+#: admin/display.php:306
+msgid "Description text font"
+msgstr "Police du texte de description"
+
+#: admin/display.php:312
+msgid "Description text size"
+msgstr "Taille du texte de description"
+
+#: admin/display.php:318
+msgid "Description text weight"
+msgstr "Poids du texte de description"
+
+#: admin/display.php:324
+msgid "Description text line height"
+msgstr "Hauteur de ligne du texte de description"
+
+#: admin/display.php:330
+msgid "Description text style"
+msgstr "Style du texte de description"
+
+#: admin/display.php:335
+msgid "Content Text"
+msgstr "Texte de contenu"
+
+#: admin/display.php:339
+msgid "Text font"
+msgstr "Police du texte"
+
+#: admin/display.php:345
+msgid "Text size"
+msgstr "Taille du texte"
+
+#: admin/display.php:351
+msgid "Text line height"
+msgstr "Hauteur de ligne du texte"
+
+#: admin/display.php:357
+msgid "Text colour"
+msgstr "Couleur du texte"
+
+#: admin/display.php:365
+msgid "Footer Widget Display Options"
+msgstr "Options d'affichage du widget du bas"
+
+#: admin/display.php:371
+msgid "Number of columns to display"
+msgstr "Nombre de colonnes à afficher"
+
+#: admin/display.php:378
+msgid "Number of columns to display for front page footer widget"
+msgstr "Nombre de colonnes à afficher pour le widget du bas sur la page d'accueil"
+
+#: admin/display.php:387
+msgid "Navigation Menu Display Options"
+msgstr "Options d'affichage du menu de navigation"
+
+#: admin/display.php:393
+msgid "Dropdown menu item width"
+msgstr "Largeur des éléments du menu déroulant"
+
+#: admin/display.php:402
+#: admin/options.php:262
+msgid "Update Settings"
+msgstr "Enregistrer les paramètres"
+
+#: admin/options.php:24
+msgid "You must enter your Adsense code to enable Adsense advertising"
+msgstr "Vous devez entrer votre code Adsense pour activer ce dernier."
+
+#: admin/options.php:39
+msgid "You must enter your AddThis button code to enable the AddThis social sharing button"
+msgstr "Vous devez entrer votre code de bouton Addthis pour activer ce dernier"
+
+#: admin/options.php:53
+msgid "You must enter your Google Analytics tracking code to enable Google Analytics tracking."
+msgstr "Vous devez entrer votre code Google Analytics pour activer le tracking"
+
+#: admin/options.php:139
+msgid "Graphene Theme Options"
+msgstr "Options du thème Graphene"
+
+#: admin/options.php:164
+msgid "Adsense Options"
+msgstr "Options Adsense"
+
+#: admin/options.php:171
+msgid "Show Adsense advertising"
+msgstr "Afficher les Adsenses"
+
+#: admin/options.php:177
+msgid "Show ads on front page as well"
+msgstr "Afficher les Adsenses sur l'accueil"
+
+#: admin/options.php:183
+msgid "Your Adsense code"
+msgstr "Votre code Adsense"
+
+#: admin/options.php:192
+msgid "AddThis Options"
+msgstr "Options Addthis"
+
+#: admin/options.php:195
+msgid "Show AddThis social sharing button"
+msgstr "Afficher le bouton Addthis"
+
+#: admin/options.php:200
+msgid "Your AddThis button code"
+msgstr "Votre code de bouton Addthis"
+
+#: admin/options.php:201
+msgid "You can generate your button code from the <a href=\"http://www.addthis.com/\">AddThis website</a>."
+msgstr "Vous pouvez générer votre code de bouton à partir du site <a href=\"http://www.addthis.com/\">AddThis</a>."
+
+#: admin/options.php:209
+msgid "Google Analytics Options"
+msgstr "Options Google Analytics"
+
+#: admin/options.php:212
+msgid "Enable Google Analytics tracking"
+msgstr "Activer le tracking Google analytics"
+
+#: admin/options.php:216
+msgid "Google Analytics tracking code"
+msgstr "Code de tracking Google analytics"
+
+#: admin/options.php:217
+msgid "Make sure you include the full tracking code (including the <code>&lt;script&gt;</code> and <code>&lt;/script&gt;</code> tags) and not just the <code>UA-#######-#</code> code."
+msgstr "Assurez vous d'inclure de code de tracking entier (y compris le <code>&lt;script&gt;</code> et <code>&lt;/script&gt;</code> mots-clés) et non pas uniquement le code <code>UA-#######-#</code>."
+
+#: admin/options.php:225
+msgid "Widget Area Options"
+msgstr "Options de la zone de widgets"
+
+#: admin/options.php:226
+msgid "Alternate Widgets"
+msgstr "Aletrner les widgets"
+
+#: admin/options.php:227
+msgid "You can enable the theme to show different widget areas in the front page than the rest of the website. If you enable this option, additional widget areas that will only be displayed on the front page will be added to the Widget settings page."
+msgstr "Vous pouvez activer pour le thème différentes zones de widgets pour la page d'accueil et pour le reste du site. Si vous activez cette option, des zones supplémentaires de widgets affichées uniquement sur la page d'accueil seront ajoutées dans la page de paramètres des widgets."
+
+#: admin/options.php:230
+msgid "Enable alternate front page sidebar widget area"
+msgstr "Activer la zone de widgets latérale de la page d'accueil"
+
+#: admin/options.php:234
+msgid "Enable alternate front page footer widget area"
+msgstr "Activer la zone de widgets de bas de la page d'accueil"
+
+#: admin/options.php:235
+msgid "You can also specify different column counts for the front page footer widget and the rest-of-site footer widget if you enable this option."
+msgstr "Vous pouvez également spécifier un nombre de colonnes différents pour la zone de widgets du bas pour l'accueil ou pour le reste du site."
+
+#: admin/options.php:243
+msgid "Footer Options"
+msgstr "Options du pied"
+
+#: admin/options.php:246
+msgid "Show Creative Commons logo"
+msgstr "Afficher le logo Creative Commons"
+
+#: admin/options.php:251
+msgid "Copyright text (html allowed)"
+msgstr "Texte de copyright (HTML autorisé)"
+
+#: admin/options.php:252
+msgid "If this field is empty, the following default copyright text will be displayed:"
+msgstr "Si ce champ est vide, le texte suivant sera affiché par défaut :"
+
+#: admin/options.php:268
+msgid "Support the developer"
+msgstr "Soutenir le développeur"
+
+#: admin/options.php:269
+msgid "Developing this awesome theme took a lot of effort and time, weeks and weeks of voluntary unpaid work. If you like this theme or if you are using it for commercial websites, please consider a donation to the developer to help support future updates and development."
+msgstr "Créer ce thème a nécessité un nombre conséquent d'efforts et de temps. Si vous appréciez ce thème ou si vous l'utilisez sur des sites commerciaux, merci de faire un don afin de contribuer aux développements futurs."
+
+#: admin/options.php:279
+msgid "Uninstall theme"
+msgstr "Désinstaller le thème"
+
+#: admin/options.php:280
+msgid "<strong>Be careful!</strong> Uninstalling the theme will remove all of the theme's options from the database. Do this only if you decide not to use the theme anymore."
+msgstr "<strong>Attention!</strong> La désinstallation du thème supprimera toutes les options de celui-ci dans la base de données. N'effectuez cette opération que si vous êtes sur de ne plus utiliser Graphene."
+
+#: admin/options.php:281
+msgid "If you just want to try another theme, there is no need to uninstall this theme. Simply activate the other theme in the Appearance > Themes admin page."
+msgstr "Si vous désirez simplement essayer un autre thème, il est inutile de désinstaller Graphene, activez simplement le nouveau thème."
+
+#: admin/options.php:282
+msgid "Note that uninstalling this theme <strong>does not remove</strong> the theme's files. To delete the files after you have uninstalled this theme, go to Appearances > Themes and delete the theme from there."
+msgstr "Notez que la désinstallation de ce thème <strong> ne supprimera pas</strong> les fichiers du thème sur votre serveur. Il vous faudra les supprimer manuellement par FTP ou via la page des gestion des thèmes."
+
+#: admin/options.php:285
+msgid "Uninstall Theme"
+msgstr "Désinstaller le thème"
+

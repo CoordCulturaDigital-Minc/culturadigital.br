@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Invisible Defender v1.4.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-09-23 10:17+0200\n"
+"Last-Translator: oli <oli.walther@googlemail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: invisible-defender.php:81
+#@ invisible-defender
+msgid "Please leave these two fields as-is:"
+msgstr "Bitte lass diese beiden Felder wie sie sind:"
+
+#: invisible-defender.php:87
+#, php-format
+#@ invisible-defender
+msgid "Protected by %s."
+msgstr "Protected by% s."
+
+#: invisible-defender.php:96
+#, php-format
+#@ invisible-defender
+msgid "Showed <strong>403</strong> to <strong>%s</strong> bad guys."
+msgstr "Bisher sahen <strong>%s</strong> \\\"Bad Guys\\\" die Fehlermeldung <strong>403</strong>"
+
+#: invisible-defender.php:163
+#, php-format
+#@ invisible-defender
+msgid "<strong>Invisible Defender</strong> showed <strong>403</strong> to <strong>%1$s</strong> bad guys (<strong>%2$s</strong> was blacklisted, <strong>%3$s</strong> on register form, <strong>%4$s</strong> on login form, <strong>%5$s</strong> on comments form)."
+msgstr "<strong>Invisible Defender</strong> zeigt <strong>Bots und anderen bösen Burschen</strong>, ausgehend von einer <strong>Blacklist</strong>, die <strong>Fehlermeldung 403</strong> wenn sich diese in das <strong>Kommentar Login Formular eintragen</strong>."
+
+#: invisible-defender.php:182
+#@ invisible-defender
+msgid "Configuration has been saved."
+msgstr "Konfiguration wurde gespeichert."
+
+#: invisible-defender.php:188
+#@ invisible-defender
+msgid "Invisible Defender - Options"
+msgstr "Invisible Defender - Optionen"
+
+#: invisible-defender.php:194
+#@ invisible-defender
+msgid "Forms protection:"
+msgstr "Formular Schutz:"
+
+#: invisible-defender.php:198
+#@ invisible-defender
+msgid "Protect registration form:"
+msgstr "Registrations Formular sch&uuml;tzen:"
+
+#: invisible-defender.php:207
+#@ invisible-defender
+msgid "Protect login form:"
+msgstr "Login Formular sch&uuml;tzen:"
+
+#: invisible-defender.php:216
+#@ invisible-defender
+msgid "Protect comments form:"
+msgstr "Kommentar Formular sch&uuml;tzen:"
+
+#: invisible-defender.php:223
+#@ invisible-defender
+msgid "Stats and \"Protected by\" link:"
+msgstr "Stats und \"Protected by\" Link zeigen:"
+
+#: invisible-defender.php:227
+#@ invisible-defender
+msgid "Show stats in Dashboard:"
+msgstr "Stats im Dashboard zeigen:"
+
+#: invisible-defender.php:236
+#@ invisible-defender
+msgid "Show \"Protected by\" link:"
+msgstr " \"Protected by\" Link zeigen:"
+
+#: invisible-defender.php:239
+#@ invisible-defender
+msgid "If you think that this plugin is great and want to tell others about it, please check this option. Invisible Defender will show small \"Protected by\" link under your forms. This way you can also credit me for my work."
+msgstr "Wenn Dir das Plugin gef&auml;llt w&auml;re es klasse wenn Du dies auch anderen Usern mitteilst. Invisible Defender zeigt dann den kleinen  Link \"Protected by\" unter den Formularen an. "
+
+#: invisible-defender.php:245
+#@ invisible-defender
+msgid "Show number of blocked bots under forms:"
+msgstr "Zeigt die Anzahl der geblockten Bots unter den Formularen an:"
+
+#: invisible-defender.php:248
+#@ invisible-defender
+msgid "Note: this will be shown only when \"Protected by\" link is enabled too."
+msgstr "Achtung: wird nur angezeigt wenn auch der Haken \"Protected by\" gesetzt ist."
+
+#: invisible-defender.php:256
+#@ invisible-defender
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+

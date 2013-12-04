@@ -1,0 +1,1492 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mystique 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-08 23:22+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: digitalnature.ro <hello@digitalnature.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes\\mystique\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/404.php:13
+msgid "The requested page was not found"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:23
+#, php-format
+msgid "Posts tagged %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:25
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:27
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:27
+msgid "F, Y"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:29
+#, php-format
+msgid "Archive for year %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:29
+msgid "Y"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:31
+msgid "Author archive"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:33
+msgid "Blog Archives"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:47
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:48
+msgid "Sorry, but there aren't any posts within this date."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:51
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:52
+msgid "No posts found."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:23
+msgid "This user hasn't shared any biographical information"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:28
+msgid "Homepage:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:29
+msgid "Yahoo Messenger:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:30
+msgid "Jabber/GTalk:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:31
+msgid "AIM:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:38
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:48
+msgid "No posts found by this author."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:3
+msgid "Enter your password to view comments"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:42
+msgid "Related Posts"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:43
+#, php-format
+msgid "Trackbacks (%s)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:44
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:50
+#, php-format
+msgid "Comments (%s)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:82
+msgid "No comments yet."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:91
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:102
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:128
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:129
+msgid "Name (required)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:103
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:132
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:133
+msgid "E-mail (required, will not be published)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:104
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:136
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:137
+msgid "Website"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:115
+#, php-format
+msgid "Logged in as %s."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:117
+msgid "Log out of this account"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:117
+msgid "Logout &raquo;"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:122
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:123
+msgid "Change &raquo;"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:144
+msgid "Type your comment"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:153
+#, php-format
+msgid "Spam protection: Sum of %1$s + %2$s = ?"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:162
+msgid "Submit Comment"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:164
+msgid "Cancel Reply"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:188
+msgid "No trackbacks yet."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:206
+msgid "No comments"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:206
+msgid "1 comment"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:206
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:224
+msgid "Comments are closed."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:12
+#, php-format
+msgid "Your site is running on %1$s. Mystique requires at least %2$s."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:12
+msgid "(Dashboard)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:86
+msgid "Default sidebar"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:88
+msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:96
+msgid "Secondary sidebar"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:98
+msgid "This sidebar is active only on a 3 column setup. "
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:106
+msgid "Footer"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:108
+msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:116
+msgid "Footer (slide 2)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:118
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:128
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:138
+msgid "Only visible if jQuery is enabled. "
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:126
+msgid "Footer (slide 3)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:136
+msgid "Footer (slide 4)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:23
+msgid "No posts found"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:24
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:5
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:10
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:418
+msgid "Search"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:15
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:299
+#, php-format
+msgid "Search results for %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:31
+msgid "Nothing found."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:31
+msgid "Try a different search?"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:35
+msgid "What do you wish to search for?"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:11
+#, php-format
+msgid "You have searched the archives for %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:13
+msgid "Type a valid search term..."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar.php:26
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:415
+msgid "My latest tweets"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar.php:34
+msgid "Blogroll"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar2.php:7
+msgid "You activated the 2nd sidebar. Add widgets here from the Dashboard to remove this message"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:25
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:614
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:627
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:690
+msgid "More &gt;"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:28
+msgid "Pages:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:39
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:639
+#, php-format
+msgid "%1$s (%2$s topics)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:52
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:577
+msgid "About the author"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:64
+msgid "Print article"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:68
+#, php-format
+msgid "This entry was posted by %1$s on %2$s at %3$s, and is filed under %4$s. Follow any responses to this post through %5$s."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:71
+#, php-format
+msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:73
+#, php-format
+msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:75
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:77
+msgid "Both comments and pings are currently closed."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:80
+msgid "Edit this entry"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:286
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:350
+msgid "You are not authorised to perform this operation."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:337
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a>."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:338
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a> or <a href=\"%4$s\" >upgrade automatically</a>."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:356
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:874
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:875
+msgid "Mystique settings"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:357
+msgid "Save Changes"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:357
+msgid "Reset to Defaults"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:357
+msgid "Reset all theme settings to the default values? Are you sure?"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:366
+#, php-format
+msgid "Settings saved. %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:366
+msgid "View site"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:370
+msgid "Please upload a valid image file!"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:371
+msgid "The file you uploaded doesn't seem to be a valid JPEG, PNG or GIF image"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:372
+msgid "The image could not be saved on your server"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:377
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:386
+msgid "Design"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:387
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:601
+msgid "Content"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:388
+msgid "Navigation"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:389
+msgid "SEO"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:390
+msgid "Ads"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:391
+msgid "Advanced"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:392
+msgid "User CSS"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:393
+msgid "More themes by digitalnature"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:403
+msgid "The design settings panel is not yet supported by Internet Explorer. Sorry :("
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:406
+msgid "Loading site preview..."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:411
+msgid "Layout style"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:411
+msgid "Use page templates if you want to apply these only to specific pages"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:447
+msgid "Color scheme"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:474
+msgid "Page (content) width"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:474
+msgid "Note that fluid pages can be hard to read on large resolutions."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:477
+#, php-format
+msgid "Fixed (%s)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:478
+msgid "Fluid (100%)/Custom"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:484
+msgid "Column sizes"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:484
+msgid "(With 10 pixel padding between them)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:497
+msgid "Font style"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:510
+msgid "Background color"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:510
+msgid "Leave Black (#000000) to keep the default background"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:523
+msgid "Custom logo image"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:523
+msgid "Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:528
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:546
+msgid "Remove current image"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:534
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:552
+#, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:534
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:552
+msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:541
+msgid "Custom background image"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:541
+msgid "Upload a new background/header image to replace the default one"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:565
+msgid "Posts (single)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:565
+msgid "How much information do you want to show on the single post page?"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:568
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:598
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:122
+msgid "Tags"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:571
+msgid "Meta"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:574
+msgid "Share"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:580
+msgid "Print link"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:583
+msgid "Related posts"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:589
+msgid "Post previews"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:589
+msgid "How much info do you want to show on blog/category/archive/search pages?"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:592
+msgid "Title"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:595
+msgid "Info bar"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:604
+msgid "max. 50 words, filtered"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:605
+msgid "max. 100 words, filtered"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:606
+msgid "max. 200 words, filtered"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:607
+msgid "full"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:608
+msgid "full, filtered"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:609
+msgid "excerpt"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:615
+msgid "Auto generate thumbnails"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:615
+msgid "Get the 1st image attached to a post, if no thumbnail is set manually"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:620
+msgid "Post thumbnail size"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:620
+#, php-format
+msgid "Note that this only works for images you upload from now on, older images will be browser-resized. You should use the %s plugin to create missing image sizes"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:624
+msgid "Very small: 48 x 48"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:625
+msgid "Small: 64 x 64"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:626
+msgid "Medium: 80 x 80"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:627
+msgid "Larger: 100 x 100"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:628
+#, php-format
+msgid "WP's Media setting: %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:636
+msgid "Footer content"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:636
+msgid "You can post HTML code"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:636
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:757
+msgid "Only some HTML tags and attributes are allowed"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:640
+#, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:650
+msgid "Top navigation shows"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:653
+msgid "Nothing (disabled)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:654
+msgid "Pages"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:655
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:123
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:288
+msgid "Categories"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:656
+msgid "Links"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:660
+msgid "Menu:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:670
+msgid "from category"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:675
+#, php-format
+msgid "%s links"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:682
+msgid "No links found"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:691
+msgid "Exclude from navigation"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:691
+msgid "Check the items you wish to hide from the main menu"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:696
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:227
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:229
+msgid "Home"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:731
+msgid "Additional site optimization for search engines"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:731
+msgid "Uncheck if you are using a SEO plugin!"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:738
+msgid "What does this do?"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:740
+msgid "enables canonical URLs for comments (duplicate content fix, only needed on wp < 2.9)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:741
+msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:742
+#, php-format
+msgid "generates a unique meta description tag for each page (no meta keywords; why? -<a %s>useless</a>)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:757
+msgid "Advertisment blocks"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:757
+#, php-format
+msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:758
+msgid "Example:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:764
+#, php-format
+msgid "Ad code #%s:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:780
+msgid "Use jQuery"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:780
+msgid "For testing purposes only. Only uncheck if you know what you're doing!"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:785
+msgid "Enable AJAX for comments"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:785
+msgid "Navigate trough comment pages and post comments without refreshing (faster load, but may be incompatible with some plugins)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:790
+msgid "Enable theme built-in lightbox on all image links"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:790
+msgid "Uncheck if you prefer a lightbox plugin"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:795
+msgid "Remove Mystique settings from the database after theme switch"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:795
+msgid "Only check if you're planning to remove and change the theme"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:810
+msgid "User functions"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:810
+msgid "PHP code to add to the theme functions. Useful if you have plugins that require you to change the theme's functions.php file"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:825
+msgid "CSS to add, or modify theme styles"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:825
+#, php-format
+msgid "Check %s to see existing theme classes and properties"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:888
+msgid "Active shortcodes you can use in your posts or widgets"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:925
+msgid "Display as Asides"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:62
+msgid "More"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:76
+#, php-format
+msgid "No featured posts found older than %s days."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:95
+msgid "Featured"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:129
+msgid "Error while featuring posts"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:200
+msgid "Featured posts"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:200
+#, php-format
+msgid "You can mark posts as featured on the %s page"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:206
+msgid "Show on"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:210
+msgid "Pages that use the Featured posts template"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:215
+msgid "Home page"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:220
+msgid "Single post pages"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:225
+msgid "Archive pages (Category, Tags etc)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:230
+msgid "404 pages"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:235
+msgid "Search page"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:240
+msgid "All other pages"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:247
+msgid "Maximum number of posts to display"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:254
+msgid "Slide delay"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:257
+msgid "seconds"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:262
+msgid "Don't show posts older than"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:265
+msgid "days"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/ip2country/ip2country.php:48
+msgid "Show comment author's country flag"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/ip2country/ip2country.php:48
+msgid "May slow down page loading"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:14
+msgid "Extra navigation items"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:14
+msgid "(Leave blank to disable)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:18
+msgid "Twitter ID"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:23
+msgid "RSS URL"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:44
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:266
+msgid "RSS Feeds"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:39
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:342
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:118
+msgid "View page"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:194
+#, php-format
+msgid "Empty menu (%s)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:227
+msgid "You are Home"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:229
+msgid "Click for Home"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:289
+msgid "F jS, Y"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:291
+#, php-format
+msgid "Archive for week %1$s of %2$s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:291
+msgid "W"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:302
+msgid "404 Not Found"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:308
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:312
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:334
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:394
+msgid "Share this post!"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:589
+msgid "Permanent Link:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:594
+msgid "M jS"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:598
+#, php-format
+msgid "Posted by %1$s in %2$s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:601
+msgid "Edit"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:677
+msgid "Pages: "
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:679
+msgid "Edit this page"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:746
+msgid "Go to the first page"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:746
+msgid "&laquo; First"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:752
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:758
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:764
+#, php-format
+msgid "Go to page %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:768
+msgid "Go to the last page"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:768
+msgid "Last &raquo;"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:844
+#, php-format
+msgid "about %s year ago"
+msgid_plural "about %s years ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:845
+#, php-format
+msgid "about %s month ago"
+msgid_plural "about %s months ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:846
+#, php-format
+msgid "about %s week ago"
+msgid_plural "about %s weeks ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:847
+#, php-format
+msgid "about %s day ago"
+msgid_plural "about %s days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:848
+#, php-format
+msgid "about %s hour ago"
+msgid_plural "about %s hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:849
+#, php-format
+msgid "about %s minute ago"
+msgid_plural "about %s minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:850
+#, php-format
+msgid "about %s second ago"
+msgid_plural "about %s seconds ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1167
+#, php-format
+msgid "%1$s written by %2$s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1175
+msgid "Reply"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1177
+msgid "Quote"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1183
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/editor.php:22
+msgid "Divider"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/editor.php:23
+msgid "Error text color"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/editor.php:24
+msgid "Error box"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:73
+#, php-format
+msgid "You can configure Mystique from the <a%s>theme settings</a> page."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:225
+msgid "Posting. Please wait..."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:226
+msgid "Your comment was added."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:227
+msgid "Post another comment"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:232
+msgid "You're using a old and buggy browser. Switch to a <a href='http://www.mozilla.com/firefox/'>normal browser</a> or consider <a href='http://www.microsoft.com/windows/internet-explorer'>upgrading your Internet Explorer</a> to the latest version"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:356
+msgid "There are one or more PHP parse errors in your custom functions."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:17
+#, php-format
+msgid "%s: Widget class not found. Make sure this widget exists and the class name is correct"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:52
+msgid "User name (required)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:54
+msgid "Password (required)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:55
+msgid "Verify password (required)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:56
+msgid "E-mail (required)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:57
+msgid "First name"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:58
+msgid "Last name"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:59
+msgid "Profile info"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:80
+msgid "Please type a user name"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:81
+msgid "User name already exists"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:82
+msgid "E-mail address is required."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:83
+msgid "E-mail address already in use"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:84
+msgid "You must enter a password."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:85
+msgid "Please verify the password"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:86
+msgid "Passwords do not match"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:87
+msgid "User registration failed.  Please try again."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:96
+#, php-format
+msgid "You are logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. You don't need another account :)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:101
+#, php-format
+msgid "A user account for %1$s has been created."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:102
+#, php-format
+msgid "Thank you for registering, %1$s."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:154
+msgid "Add User"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:154
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:608
+msgid "Register"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:242
+msgid "No posts found matching the arguments"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:292
+#, php-format
+msgid "Empty ad slot (#%s)!"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:297
+msgid "Top"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:305
+#, php-format
+msgid "%1$s theme by %2$s | Powered by %3$s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:310
+msgid "Copyright &copy;"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:323
+msgid "Site Admin"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:324
+msgid "Log in"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:427
+#, php-format
+msgid "PR %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:55
+#, php-format
+msgid "%s followers"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:79
+msgid "Error while retrieving tweets (Twitter down?)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:92
+msgid "Displays links to different sections grouped in tabs"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:94
+msgid "Mystique | Sidebar tabs"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:119
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:306
+msgid "Recent comments"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:120
+msgid "Popular posts"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:121
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:296
+msgid "Archives"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:204
+msgid "Didn't find any posts popular enough :("
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:231
+#, php-format
+msgid "Posted in: %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:248
+msgid "Sidebar tabs"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:249
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:395
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:494
+msgid "jQuery is disabled and this widget needs it"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:284
+msgid "Tabs to show"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:292
+msgid "Tags "
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:300
+msgid "Popular posts (most commented)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:313
+msgid "Sort categories"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:315
+msgid "by name (alphabetically)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:316
+msgid "by category ID"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:317
+msgid "by category slug"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:318
+msgid "by post count"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:323
+msgid "Show post count (categories and archives)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:329
+msgid "How many popular posts to show?"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:336
+msgid "How many recent comments to show?"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:352
+msgid "Shows your latest Twitter updates"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:353
+msgid "Mystique | Twitter"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:392
+msgid "Loading tweets..."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:399
+msgid "Follow me on Twitter!"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:422
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:528
+msgid "Title:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:427
+msgid "Twitter user name:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:432
+msgid "Number of tweets to show:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:446
+msgid "Displays Flickr galleries (needs API key)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:448
+msgid "Mystique | Flickr Gallery"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:519
+msgid "Flickr Gallery"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:533
+msgid "API key:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:538
+msgid "Number of photos to show:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:543
+msgid "Gallery source:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:545
+msgid "Photoset"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:546
+msgid "User photostream"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:551
+msgid "Photoset ID:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:556
+#, php-format
+msgid "User ID (use %s to find it):"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:571
+msgid "Login form"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:572
+msgid "Mystique | Login"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:582
+#, php-format
+msgid "Logged in: %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:587
+msgid "Dashboard"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:589
+msgid "Write"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:590
+msgid "Comments"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:592
+msgid "Log out"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:596
+msgid "User Login"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:600
+msgid "User"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:601
+msgid "Password"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:602
+msgid "Login"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:603
+msgid "Remember me"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:609
+msgid "Lost your password?"
+msgstr ""
+

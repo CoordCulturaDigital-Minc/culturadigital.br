@@ -1,0 +1,10 @@
+* html { background-image:url(about:blank); }
+
+#menu .current_page_item a, #menu .current_page_item a:visited,#menu .current-cat a, #menu .current-cat a:visited
+ { padding-bottom:0; background:none; }
+
+#return_top a { position:absolute; position:fixed; right:15px; bottom:15px; display:block; height:99px; width:18px; background:url(img/return_top2.png) no-repeat left top; }
+* html #return_top a { cursor:pointer; position:absolute; bottom:auto; top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||15)-(parseInt(this.currentStyle.marginBottom,10)||0)));}
+
+.post_content a.more-link, .post_content a.more-link:visited
+ { height:20px; padding:0 0 0 45px; }

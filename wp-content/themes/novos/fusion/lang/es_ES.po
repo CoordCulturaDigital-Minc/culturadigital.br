@@ -1,0 +1,578 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fusion 2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-17 23:38+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: digitalnature <hello@digitalnature.ro>\n"
+"Language-Team: digitalnature.ro <blog@almendron.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:6
+msgid "Page not found (404)"
+msgstr "Página no encontrada"
+
+#: archive.php:9
+#, php-format
+msgid "Archive for category %s"
+msgstr "Archivo categoría %s"
+
+#: archive.php:11
+#, php-format
+msgid "Posts Tagged %s"
+msgstr "Archivo etiqueta %s"
+
+#: archive.php:13
+#: archive.php:15
+#: archive.php:17
+#, php-format
+msgid "Archive for %s"
+msgstr "Archivo %s"
+
+#: archive.php:13
+#: archive.php:35
+#: functions.php:229
+#: index.php:20
+msgid "F jS, Y"
+msgstr "j/M/Y"
+
+#: archive.php:15
+msgid "F, Y"
+msgstr "F, Y"
+
+#: archive.php:17
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:19
+msgid "Author Archive"
+msgstr "Archivo Autor"
+
+#: archive.php:21
+msgid "Blog Archives"
+msgstr "Archivo Blog"
+
+#: archive.php:30
+#: index.php:15
+msgid "Permanent Link:"
+msgstr "Enlace Permanente: "
+
+#: archive.php:35
+#: index.php:20
+#, php-format
+msgid "Posted by %s in %s on %s"
+msgstr "Por %s - %s - %s"
+
+#: archive.php:35
+#: author.php:33
+#: index.php:20
+#, php-format
+msgid "Posts by %s"
+msgstr "Escrito por %s"
+
+#: archive.php:40
+#: image.php:17
+#: index.php:26
+msgid "Read the rest of this entry &raquo;"
+msgstr "Leer el resto de la entrada &raquo;"
+
+#: archive.php:52
+#: author.php:42
+#: index.php:38
+#: search.php:27
+msgid "No Comments"
+msgstr "No hay Comentarios"
+
+#: archive.php:52
+#: author.php:42
+#: index.php:38
+#: search.php:27
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#: archive.php:52
+#: author.php:42
+#: index.php:38
+#: search.php:27
+msgid "% Comments"
+msgstr "% Comentarios"
+
+#: archive.php:63
+#: author.php:49
+#: index.php:48
+#: search.php:13
+#: search.php:34
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Entradas más antiguas"
+
+#: archive.php:64
+#: author.php:50
+#: index.php:49
+#: search.php:14
+#: search.php:35
+msgid "Newer Entries &raquo;"
+msgstr "Entradas más recientes &raquo;"
+
+#: archive.php:70
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Lo sentimos, no hay entradas en la categoría %s."
+
+#: archive.php:72
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Lo sentimos, no hay entradas en la fecha seleccionada."
+
+#: archive.php:75
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Lo sentimos, no hay entradas escritas por %s."
+
+#: archive.php:77
+msgid "No posts found."
+msgstr "No se encontraron entradas."
+
+#: archives.php:10
+msgid "Archives by Month:"
+msgstr "Archivo por Mes:"
+
+#: archives.php:14
+msgid "Archives by Subject:"
+msgstr "Archivo por asunto:"
+
+#: author.php:16
+msgid "This user hasn't shared any biographical information"
+msgstr "Este usuario no ha comparido información biográfica"
+
+#: author.php:21
+msgid "Homepage:"
+msgstr "Homepage:"
+
+#: author.php:22
+msgid "Yahoo Messenger:"
+msgstr "Yahoo Messenger:"
+
+#: author.php:23
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: author.php:24
+msgid "AIM:"
+msgstr "AIM:"
+
+#: author.php:41
+#: image.php:31
+#: search.php:26
+msgid "l, F jS, Y"
+msgstr "l, j/M/Y"
+
+#: author.php:42
+#: search.php:27
+msgid "Tags: "
+msgstr "Etiquetas:"
+
+#: author.php:42
+#: search.php:27
+#, php-format
+msgid "Posted in %s"
+msgstr "Archivado en %s"
+
+#: author.php:42
+#: search.php:27
+msgid "Edit"
+msgstr "Editar"
+
+#: author.php:55
+msgid "No posts found by this author."
+msgstr "No se encontraron entradas de ese autor."
+
+#: comments.php:5
+msgid "Enter your password to view comments"
+msgstr "Entre su contrseña para ver el comentario"
+
+#: comments.php:21
+msgid "Comments"
+msgstr "Comentarios"
+
+#: comments.php:22
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: comments.php:41
+msgid "No comments yet."
+msgstr "No hay Comentarios"
+
+#: comments.php:62
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Debe estar <a href=\"%s\">registrado</a> para comentar en esta entrada."
+
+#: comments.php:69
+msgid "Cancel Reply"
+msgstr "Cancelar respuesta"
+
+#: comments.php:75
+#, php-format
+msgid "Logged in as %s."
+msgstr "Registrado como %s."
+
+#: comments.php:77
+msgid "Log out of this account"
+msgstr "Salir de esta cuenta"
+
+#: comments.php:77
+msgid "Logout &raquo;"
+msgstr "Salir &raquo;"
+
+#: comments.php:81
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Bienvenido de nuevo <strong>%s</strong>."
+
+#: comments.php:81
+msgid "Change &raquo;"
+msgstr "Cambiar &raquo;"
+
+#: comments.php:81
+msgid "Close &raquo;"
+msgstr "Cerrar &raquo;"
+
+#: comments.php:86
+msgid "Name"
+msgstr "Nombre"
+
+#: comments.php:86
+#: comments.php:90
+msgid "(required)"
+msgstr "(Requerido)"
+
+#: comments.php:90
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: comments.php:90
+msgid "(will not be published)"
+msgstr "(No será publicado)"
+
+#: comments.php:94
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:112
+msgid "Submit Comment"
+msgstr "Enviar Comentario"
+
+#: comments.php:129
+msgid "No trackbacks yet."
+msgstr "No hay trackbacks"
+
+#: comments.php:142
+msgid "Comments are closed."
+msgstr "Los Comentarios están cerrados"
+
+#: footer.php:21
+#, php-format
+msgid "Fusion theme by %s"
+msgstr "Fusion theme by %s"
+
+#: footer.php:23
+#, php-format
+msgid "powered by %s"
+msgstr "powered by %s"
+
+#: footer.php:26
+msgid "Entries (RSS)"
+msgstr "Entradas (RSS)"
+
+#: footer.php:26
+msgid "and"
+msgstr "y"
+
+#: footer.php:26
+msgid "Comments (RSS)"
+msgstr "Comentarios (RSS)"
+
+#: footer.php:33
+msgid "Increase/Decrease text size"
+msgstr "Aumentar/Dismunir tamaño texto"
+
+#: footer.php:34
+msgid "Switch between full and fixed width"
+msgstr "Cambiar entre fluido y anchura fija"
+
+#: functions.php:85
+#: functions.php:93
+msgid "Fusion Theme Options"
+msgstr "Opciones tema Fusion"
+
+#: functions.php:96
+msgid "Meta keywords:"
+msgstr "Palabras clave"
+
+#: functions.php:97
+msgid "Separate with commas"
+msgstr "Separar con comas"
+
+#: functions.php:102
+msgid "Use custom logo image"
+msgstr "Usar una imagen personalizada como logo"
+
+#: functions.php:102
+msgid "Upload your logo as \"logo.png\" in the theme directory:"
+msgstr "Subir su imagen (logo) como \"logo.png\" al directorio del tema: "
+
+#: functions.php:102
+msgid "You should export the logo image with transparency enabled"
+msgstr "Debe exportar su imagen con la transparencia activada"
+
+#: functions.php:107
+msgid "Disable homepage tab"
+msgstr "Desactivar pestaña \"home\" en la cabecera"
+
+#: functions.php:107
+msgid "Check this if you are using a static page as the homepage"
+msgstr "Marcar esta opción si usa una página estática como homepage"
+
+#: functions.php:112
+msgid "Show the categories as header tabs"
+msgstr "Mostrar las categorías como pestañas en la cabecera"
+
+#: functions.php:112
+msgid "(instead of pages)"
+msgstr "(en lugar de las páginas)"
+
+#: functions.php:117
+msgid "Disable the default category block in the sidebar"
+msgstr "Desactivar el bloque \"categorías\" en el sidebar"
+
+#: functions.php:117
+msgid "Check if you prefer the widgetized category display or just want to hide the categories"
+msgstr "Marque esta opción si desea usar un widget distinto para las categorías o si quiere tan solo ocultar las categorías en el sidebar"
+
+#: functions.php:122
+msgid "Disable the default search block in the sidebar"
+msgstr "Desactivar buscador en el sidebar"
+
+#: functions.php:122
+msgid "Check if you don't like the theme-default search look"
+msgstr "Marcar si no le gusta el aspecto por defecto del buscador"
+
+#: functions.php:127
+msgid "Disable layout controls (Aa/<>)"
+msgstr "Desactivar controles (Aa/<>)"
+
+#: functions.php:129
+msgid "Default page content width:"
+msgstr "Anchura por defecto:"
+
+#: functions.php:132
+msgid "Fixed (960 pixels)"
+msgstr "Fijo (960 pixeles)"
+
+#: functions.php:136
+msgid "Fluid (95 percent of the visitor's screen width)"
+msgstr "Fluido (95 por ciento de la anchura de la pantalla del visitante)"
+
+#: functions.php:137
+msgid "Note that if the layout controls are enabled, the visitor's javascript page width cookie setting will override this option"
+msgstr "Nota: la configuración del visitante (cookie) puede sobrescribir esta opción"
+
+#: functions.php:141
+msgid "Sidebar position:"
+msgstr "Posición del sidebar"
+
+#: functions.php:144
+msgid "Right (default)"
+msgstr "Derecha (por defecto)"
+
+#: functions.php:148
+msgid "Left"
+msgstr "Izquierda"
+
+#: functions.php:154
+msgid "Disable jQuery and the associated code"
+msgstr "Desactivar jQuery y código asociado"
+
+#: functions.php:154
+msgid "This will reduce the page load with ~70 KB, but will also disable some features and effects (layout controls, rss links inside category menu, comment tabs, trackbacks).<br />You shouldn't change this unless you have problems with your host regarding bandwidth"
+msgstr "Reducirá la carga de la página (~70 KB), pero también desactivará algunas características (control anchura, enlaces rss en el menú de categorías, pestañas en comentarios y trackbacks) y todos los efectos.<br />Salvo que tenga problemas de ancho de banda en su servidor, no debería desactivar esta caraterística."
+
+#: functions.php:157
+msgid "Custom CSS code"
+msgstr "Código CSS personalizado"
+
+#: functions.php:157
+#, php-format
+msgid "Here you can add or change anything related to design if you have some basic CSS knowledge. Check %s to see existing styles, which you can redefine here."
+msgstr "Aquí puede añadir o cambiar aspectos relacionados con el diseño si tiene conocimientos de CSS. Comprobar %s estilos existentes, que puede redefinir aquí."
+
+#: functions.php:157
+msgid "Don't modify style.css if you wish to preserve your changes after theme update! Use this option instead."
+msgstr "No modifique style.css si desea conservar los cambios después de actualizar tema. Utilice esta opción para no perder los cambios."
+
+#: functions.php:160
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: functions.php:229
+#, php-format
+msgid "%s by %s at %s"
+msgstr "%s por %s el %s"
+
+#: functions.php:229
+msgid "H:i"
+msgstr "H:i"
+
+#: functions.php:236
+msgid "Your comment is awaiting moderation."
+msgstr "Su comentario está pendiente de moderación"
+
+#: functions.php:246
+msgid "Reply"
+msgstr "Contestar"
+
+#: functions.php:246
+msgid "Quote"
+msgstr "Citar"
+
+#: header.php:152
+msgid "You are Home"
+msgstr "Inicio"
+
+#: header.php:152
+#: header.php:154
+msgid "Home"
+msgstr "Home"
+
+#: header.php:154
+msgid "Click for Home"
+msgstr "Click para ir al inicio"
+
+#: image.php:31
+#, php-format
+msgid "This entry was posted on %s and is filed under %s. You can follow any responses to this entry through %s."
+msgstr "Esta entrada fue escrita el %s y archivada en %s. Puedes seguir las respuestas en esta entrada a través de %s."
+
+#: image.php:35
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Puede <a href=\"#respond\">dejar una respuesta</a>, o hacer <a href=\"%s\" rel=\"trackback\">trackback</a> desde su propio sitio."
+
+#: image.php:39
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Los comentarios están actualmente cerrados, pero puede hacer <a href=\"%s\" rel=\"trackback\">trackback</a> desde su propio sitio."
+
+#: image.php:43
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Puede dejar una respuesta. Los Pings no están actualmente permitidos."
+
+#: image.php:47
+msgid "Both comments and pings are currently closed."
+msgstr "Tanto los comentarios como los pings están actualmente cerrados."
+
+#: image.php:49
+msgid "Edit this entry"
+msgstr "Editar esta entrada"
+
+#: image.php:54
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Lo sentimos, no se han encontrado términos que respondan a su criterio."
+
+#: index.php:54
+msgid "Not Found"
+msgstr "No encontrado"
+
+#: index.php:55
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Lo sentimos, pero está buscando algo que no está aquí."
+
+#: links.php:10
+msgid "Links:"
+msgstr "Enlaces:"
+
+#: page-3col.php:20
+#: page-nosidebar.php:21
+#: page.php:16
+msgid "Read the rest of this page &raquo;"
+msgstr "Leer el resto de la entrada &raquo;"
+
+#: search.php:8
+msgid "Search Results"
+msgstr "Resultados de la búsqueda"
+
+#: search.php:40
+msgid "No posts found. Try a different search?"
+msgstr "No se ha encontrado nada. Pruebe a realizar una búsqueda distinta."
+
+#: searchform.php:8
+msgid "Search"
+msgstr "Buscar"
+
+#: sidebar.php:20
+#, php-format
+msgid "You are currently browsing the archives for the %s category."
+msgstr "Estás navegando por los archivos de la categoría %s."
+
+#: sidebar.php:23
+#: sidebar.php:26
+#, php-format
+msgid "You are currently browsing the archives for %s"
+msgstr "Estás navegando por los archivos de %s"
+
+#: sidebar.php:29
+#, php-format
+msgid "You are currently browsing the archives for the year %s"
+msgstr "Estás navegando por los archivos del año %s"
+
+#: sidebar.php:32
+#, php-format
+msgid "You have searched the archives for %s."
+msgstr "Ha buscado en los archivos para %s"
+
+#: sidebar.php:35
+msgid "You are currently browsing the archives."
+msgstr "Está navegando por el archivo."
+
+#: sidebar.php:62
+msgid "Archives"
+msgstr "Archivo"
+
+#: sidebar.php:73
+msgid "Meta"
+msgstr "Meta"
+
+#: single.php:59
+msgid "Sorry, no posts matched your criteria."
+msgstr "Lo sentimos, no se han econtrado entradas que respondan a su criterio."
+
+#~ msgid "on"
+#~ msgstr "el"
+#~ msgid "to see existing styles, which you can redefine here."
+#~ msgstr "para ver los estilos existentes, los cuales puede redifinir aquí."
+#~ msgid "by"
+#~ msgstr "por"
+#~ msgid "%1$s at %2$s"
+#~ msgstr "%1$s a las %2$s"
+#~ msgid "This entry was posted on"
+#~ msgstr "Esta entrada fue escrita el "
+#~ msgid "and is filed under"
+#~ msgstr "y archivada en "
+#~ msgid "Subscribe to comments feed"
+#~ msgstr "Suscribirse a los comentarios (vía feed)"
+#~ msgid "Leave a comment"
+#~ msgstr "Deja tu comentario"
+#~ msgid "Sorry, the comment form is closed at this time."
+#~ msgstr "Lo siento, los comentarios están actualmente cerrados."
+#~ msgid "Close this window."
+#~ msgstr "Cerrar esta ventana."
+#~ msgid "Disable the \"<>\" layout-type switcher"
+#~ msgstr "Desactivar el interrptor \"<>\" (cambio de anchura)"
+

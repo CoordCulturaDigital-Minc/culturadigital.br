@@ -1,0 +1,118 @@
+/*
+	Plugin Name: Social Share Buttons
+	Plugin URI: http://sbuttons.ru
+	Description: The plugin implements the API function socials networks that adds the link share buttons.
+	Donate link: http://sbuttons.ru/donate-ru/ and http://sbuttons.ru/donate-en/
+	Author: Loskutnikov Artem
+	Version: 2.6.1
+	Author URI: http://artlosk.com/
+	License: GPL2
+*/
+
+/*
+	Copyright 2010 Loskutnikov Artem (artlosk) (email: artlosk at gmail.com)
+
+	This program is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+*/
+
+.buttons_share {
+	margin:0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+.buttons_share img {
+	border:0px;
+	margin:0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.buttons_share a img {
+	border:0px;
+	margin:0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.odkl-classic img, .vk-classic img, .mailru-classic img, .facebook-classic img, .twitter-classic img, .livejournal-classic img, .googlebuzz-classic img, .yandex-classic img, .googleplus-classic img  {
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+.odkl-classic a img, .vk-classic a img, .mailru-classic a img, .facebook-classic a img, .twitter-classic a img, .livejournal-classic a img, .googlebuzz-classic a img, .yandex-classic a img, .googleplus-classic a img  {
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+.odkl-classic, .vk-classic, .mailru-classic, .facebook-classic, .twitter-classic, .livejournal-classic, .googlebuzz-classic, .yandex-classic, .googleplus-classic  {
+	display:inline;
+	height:40px;
+	width:40px;
+	margin:0px 5px 0px 5px;
+}
+.odkl-mini img, .vk-mini img, .mailru-mini img, .fb-mini img, .twitter-mini img, .livejournal-mini img, .googlebuzz-mini img, .yandex-mini img, .googleplus-mini img  {
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+.odkl-mini a img, .vk-mini a img, .mailru-mini a img, .fb-mini a img, .twitter-mini a img, .livejournal-mini a img, .googlebuzz-mini a img, .yandex-mini a img, .googleplus-mini a img  {
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+
+.odkl-mini, .vk-mini, .mailru-mini, .fb-mini, .twitter-mini, .livejournal-mini, .googlebuzz-mini, .yandex-mini, .googleplus-mini  {
+	float:left;
+	height:26px;
+	width:22px;
+	margin:0px 5px 0px 5px;
+}
+
+.odkl-button, .vk-button, .mailru-button, .twitter-button, .facebook-button, .livejournal-button, .googlebuzz-button, .yandex-button, .googleplus-button {
+	display:-moz-inline-stack;/*Firefox 2*/
+	display:inline-block; /*Хорошие браузеры*/
+	_overflow:hidden;/*IE6, IE7*/
+	*zoom:1;/*включаем hasLayout для IE6, IE7*/
+	*display:inline;/*при hasLayout true display:inline в IE6, IE7 ведёт себя как display:inline-block*/
+	vertical-align:top;
+	padding:0px 5px 0px 5px;
+	height:24px;
+	line-height:0.5px;
+}
+
+.odkl-button a:hover {
+	text-decoration:none;
+}
+.googleplus-button {
+	width:59px;
+}
+.twitter-button {
+	width:95px;
+}
+.vkontakte_like {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.vkontakte_like, .mailru_like, .facebook_like {
+	padding:0px 5px 0px 5px;
+}
+
+
+.header_text h3 {
+/*	font-size:24px;*/
+}
+
+.vk-button td {
+	border: 0 none !important;
+	padding: 0 !important;
+}

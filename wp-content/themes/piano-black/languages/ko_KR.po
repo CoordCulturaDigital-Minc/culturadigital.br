@@ -1,0 +1,453 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Korean by Soul\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-21 23:14+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Jong-In Kim <Jong-In Kim(soulofpure@hotmail.com)>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Korean\n"
+"X-Poedit-Country: KOREA, REPUBLIC OF\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: D:\\xampplite\\htdocs\\pianoblack\n"
+"X-Poedit-SearchPath-0: wp-content\\themes\\pianoblack\n"
+
+#: wp-content\themes\pianoblack/archive.php:12
+#, php-format
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr "카테고리 보관 &#8216;%s&#8217;"
+
+#: wp-content\themes\pianoblack/archive.php:15
+#, php-format
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr "태그를 쓴 글: &#8216;%s&#8217;"
+
+#: wp-content\themes\pianoblack/archive.php:18
+#: wp-content\themes\pianoblack/archive.php:21
+#: wp-content\themes\pianoblack/archive.php:24
+#, php-format
+msgid "Archive for %s"
+msgstr "보관 %s"
+
+#: wp-content\themes\pianoblack/archive.php:18
+#: wp-content\themes\pianoblack/archive.php:39
+#: wp-content\themes\pianoblack/comments.php:117
+#: wp-content\themes\pianoblack/functions.php:315
+#: wp-content\themes\pianoblack/index.php:11
+#: wp-content\themes\pianoblack/page-noside.php:15
+#: wp-content\themes\pianoblack/page.php:13
+#: wp-content\themes\pianoblack/search.php:18
+#: wp-content\themes\pianoblack/single.php:13
+msgid "F jS, Y"
+msgstr "Y년 F j일"
+
+#: wp-content\themes\pianoblack/archive.php:21
+msgid "F, Y"
+msgstr "Y년 F"
+
+#: wp-content\themes\pianoblack/archive.php:24
+msgid "Y"
+msgstr "Y년"
+
+#: wp-content\themes\pianoblack/archive.php:27
+msgid "Author Archive"
+msgstr "글쓴이 보관"
+
+#: wp-content\themes\pianoblack/archive.php:30
+msgid "Blog Archives"
+msgstr "블로그 보관"
+
+#: wp-content\themes\pianoblack/archive.php:40
+#: wp-content\themes\pianoblack/index.php:12
+#: wp-content\themes\pianoblack/page-noside.php:16
+#: wp-content\themes\pianoblack/page.php:14
+#: wp-content\themes\pianoblack/search.php:20
+#: wp-content\themes\pianoblack/single.php:15
+msgid "By "
+msgstr ": "
+
+#: wp-content\themes\pianoblack/archive.php:41
+#: wp-content\themes\pianoblack/archive.php:56
+#: wp-content\themes\pianoblack/comments.php:51
+#: wp-content\themes\pianoblack/index.php:13
+#: wp-content\themes\pianoblack/index.php:28
+#: wp-content\themes\pianoblack/single.php:16
+msgid "Write comment"
+msgstr "댓글 작성"
+
+#: wp-content\themes\pianoblack/archive.php:42
+#: wp-content\themes\pianoblack/comments.php:118
+#: wp-content\themes\pianoblack/index.php:14
+#: wp-content\themes\pianoblack/page-noside.php:17
+#: wp-content\themes\pianoblack/page.php:15
+#: wp-content\themes\pianoblack/search.php:21
+#: wp-content\themes\pianoblack/single.php:17
+msgid "[ EDIT ]"
+msgstr "[ 편집 ]"
+
+#: wp-content\themes\pianoblack/archive.php:45
+#: wp-content\themes\pianoblack/index.php:17
+#: wp-content\themes\pianoblack/page-noinfo.php:16
+#: wp-content\themes\pianoblack/page-noside-noinfo.php:14
+#: wp-content\themes\pianoblack/page-noside.php:20
+#: wp-content\themes\pianoblack/page.php:18
+#: wp-content\themes\pianoblack/single.php:21
+msgid "Read more"
+msgstr "[ 더보기 ]"
+
+#: wp-content\themes\pianoblack/archive.php:56
+#: wp-content\themes\pianoblack/index.php:28
+msgid "1 comment"
+msgstr "1개의 댓글"
+
+#: wp-content\themes\pianoblack/archive.php:56
+#: wp-content\themes\pianoblack/index.php:28
+#, php-format
+msgid "% comments"
+msgstr "% 개의 댓글"
+
+#: wp-content\themes\pianoblack/archive.php:62
+#: wp-content\themes\pianoblack/index.php:40
+#: wp-content\themes\pianoblack/page-noinfo.php:23
+#: wp-content\themes\pianoblack/page-noside-noinfo.php:21
+#: wp-content\themes\pianoblack/page-noside.php:27
+#: wp-content\themes\pianoblack/page.php:25
+#: wp-content\themes\pianoblack/search.php:34
+#: wp-content\themes\pianoblack/single.php:29
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "죄송합니다, 여기에 없는 무언가를 찾으려 하시네요."
+
+#: wp-content\themes\pianoblack/archive.php:68
+#: wp-content\themes\pianoblack/comments.php:145
+#: wp-content\themes\pianoblack/comments.php:211
+#: wp-content\themes\pianoblack/index.php:36
+#: wp-content\themes\pianoblack/search.php:30
+msgid "Return top"
+msgstr "상단으로 가기"
+
+#: wp-content\themes\pianoblack/comments.php:10
+#: wp-content\themes\pianoblack/comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "이 글은 비밀글입니다. 댓글을 보려면 비밀번호를 입력하세요."
+
+#: wp-content\themes\pianoblack/comments.php:37
+msgid "Comments RSS"
+msgstr "댓글 RSS"
+
+#: wp-content\themes\pianoblack/comments.php:43
+#: wp-content\themes\pianoblack/comments.php:46
+msgid "Comments"
+msgstr "댓글"
+
+#: wp-content\themes\pianoblack/comments.php:44
+msgid "Trackbacks"
+msgstr "트랙백"
+
+#: wp-content\themes\pianoblack/comments.php:47
+msgid "Trackbacks are closed."
+msgstr "트랙백은 닫혔습니다."
+
+#: wp-content\themes\pianoblack/comments.php:79
+msgid "No comments yet."
+msgstr "댓글이 없습니다."
+
+#: wp-content\themes\pianoblack/comments.php:106
+msgid "TrackBack URL"
+msgstr "트랙백 URL"
+
+#: wp-content\themes\pianoblack/comments.php:121
+msgid "Trackback from : "
+msgstr "트랙백 : "
+
+#: wp-content\themes\pianoblack/comments.php:127
+msgid "No trackbacks yet."
+msgstr "트랙백이 없습니다."
+
+#: wp-content\themes\pianoblack/comments.php:142
+msgid "Comments are closed."
+msgstr "댓글은 닫혔습니다."
+
+#: wp-content\themes\pianoblack/comments.php:158
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "댓글을 달기 위해서는 <a href=\"%s\">로그인</a> 해야 합니다."
+
+#: wp-content\themes\pianoblack/comments.php:177
+#: wp-content\themes\pianoblack/comments.php:179
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "<a href=\"%1$s\">%2$s</a>으로 로그인함."
+
+#: wp-content\themes\pianoblack/comments.php:177
+#: wp-content\themes\pianoblack/comments.php:179
+msgid "Log out of this account"
+msgstr "이 계정에서 로그아웃"
+
+#: wp-content\themes\pianoblack/comments.php:177
+#: wp-content\themes\pianoblack/comments.php:179
+msgid "Log out"
+msgstr "로그아웃"
+
+#: wp-content\themes\pianoblack/comments.php:184
+msgid "NAME"
+msgstr "이름"
+
+#: wp-content\themes\pianoblack/comments.php:184
+#: wp-content\themes\pianoblack/comments.php:185
+msgid "( required )"
+msgstr "( 필수 )"
+
+#: wp-content\themes\pianoblack/comments.php:185
+msgid "E-MAIL"
+msgstr "이메일"
+
+#: wp-content\themes\pianoblack/comments.php:185
+msgid "- will not be published -"
+msgstr "- 공개되지 않음 -"
+
+#: wp-content\themes\pianoblack/comments.php:186
+msgid "URL"
+msgstr "URL"
+
+#: wp-content\themes\pianoblack/comments.php:195
+msgid "Submit Comment"
+msgstr "댓글 등록"
+
+#: wp-content\themes\pianoblack/functions.php:113
+msgid "Current Theme Options"
+msgstr "현재 테마 옵션"
+
+#: wp-content\themes\pianoblack/functions.php:122
+msgid "Piano Black Options"
+msgstr "피아노 블랙 옵션"
+
+#: wp-content\themes\pianoblack/functions.php:126
+msgid "Check if you would like to use image for logo.<br />Replace your original image with pianoblack / img / logo.gif<br />Adjust position in style.css line 54"
+msgstr "만약 이미지를 로고로 사용하고 싶다면 체크하세요.<br />pianoblack / img / logo.gif 를 교체하세요. <br />style.css의 54번째 줄에서 위치를 조정하세요."
+
+#: wp-content\themes\pianoblack/functions.php:128
+#: wp-content\themes\pianoblack/functions.php:134
+#: wp-content\themes\pianoblack/functions.php:163
+#: wp-content\themes\pianoblack/functions.php:169
+#: wp-content\themes\pianoblack/functions.php:174
+#: wp-content\themes\pianoblack/functions.php:185
+#: wp-content\themes\pianoblack/functions.php:198
+msgid "Yes"
+msgstr "예"
+
+#: wp-content\themes\pianoblack/functions.php:132
+msgid "Show Information on sidebar."
+msgstr "사이드바에 정보 표시."
+
+#: wp-content\themes\pianoblack/functions.php:138
+msgid "Information title."
+msgstr "정보 제목."
+
+#: wp-content\themes\pianoblack/functions.php:142
+msgid "Information contents. ( HTML tag is available. )"
+msgstr "정보 내용. (HTML 태그 사용가능.)"
+
+#: wp-content\themes\pianoblack/functions.php:146
+msgid "Header menu."
+msgstr "헤더 메뉴."
+
+#: wp-content\themes\pianoblack/functions.php:148
+msgid "Use pages for header menu."
+msgstr "헤더 메뉴에 페이지 사용."
+
+#: wp-content\themes\pianoblack/functions.php:149
+msgid "Use categories for header menu."
+msgstr "헤더 메뉴에 카테고리 사용."
+
+#: wp-content\themes\pianoblack/functions.php:153
+msgid "Exclude Pages<br />(Page ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr "제외 페이지들 (헤더 네비게이션에 표시를 원치 않는 페이지 ID.쉼표로 구분된 목록 사용, 예제. 1,2,3)"
+
+#: wp-content\themes\pianoblack/functions.php:157
+msgid "Exclude Categories<br />(Category ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr "제외 카테고리들 (헤더 네비게이션에 표시를 원치 않는 카테고리 ID. 쉼표로 구분된 목록 사용, 예제. 1,2,3)"
+
+#: wp-content\themes\pianoblack/functions.php:161
+msgid "Show rss on header."
+msgstr "헤더에 RSS 표시."
+
+#: wp-content\themes\pianoblack/functions.php:167
+msgid "Show search on header."
+msgstr "헤더에 검색 표시."
+
+#: wp-content\themes\pianoblack/functions.php:172
+msgid "Use <a href=\"http://www.google.com/cse/\">Google Custom Search</a><br />(If you check this option,don't forget to write your Google Custom Search ID below.)"
+msgstr "<a href=\"http://www.google.com/cse/\">구글 사용자정의 검색</a>사용<br />(만약 이 옵션을 체크했다면, 아래에 구글 사용자정의 검색 ID를 입력하는 것을 잊지마세요.)"
+
+#: wp-content\themes\pianoblack/functions.php:176
+msgid "Input your Google Custom Search ID."
+msgstr "당신의 구글 사용자정의 검색 ID를 입력하세요."
+
+#: wp-content\themes\pianoblack/functions.php:183
+msgid "Show author."
+msgstr "글쓴이 표시."
+
+#: wp-content\themes\pianoblack/functions.php:189
+msgid "Post meta."
+msgstr "글 메타."
+
+#: wp-content\themes\pianoblack/functions.php:191
+msgid "Show category."
+msgstr "카테고리 표시."
+
+#: wp-content\themes\pianoblack/functions.php:192
+msgid "Show tag."
+msgstr "태그 표시."
+
+#: wp-content\themes\pianoblack/functions.php:196
+msgid "Show time on comment."
+msgstr "댓글의 시간 보기."
+
+#: wp-content\themes\pianoblack/functions.php:202
+msgid "Page navi type."
+msgstr "페이지 네비 타입."
+
+#: wp-content\themes\pianoblack/functions.php:204
+msgid "Use Pager."
+msgstr "페이저 사용."
+
+#: wp-content\themes\pianoblack/functions.php:205
+msgid "Use normal style next-previous link."
+msgstr "다음-이전 링크의 기본 스타일 사용."
+
+#: wp-content\themes\pianoblack/functions.php:209
+msgid "Check if you want to show Return top link.<br />( NOTICE : Return top link does not work on IE6. )"
+msgstr "만약 상위 링크로 돌아가기를 표시하고 싶다면 체크하세요.<br />( 알림 : 익스플로어6에서는 상위 링크로 돌아가기가 동작하지 않습니다. )"
+
+#: wp-content\themes\pianoblack/functions.php:210
+msgid "Show Return top link."
+msgstr "상위 링크로 돌아가기 표시."
+
+#: wp-content\themes\pianoblack/functions.php:213
+msgid "Save Changes"
+msgstr "변경 저장"
+
+#: wp-content\themes\pianoblack/functions.php:315
+msgid " g:ia"
+msgstr " g:ia"
+
+#: wp-content\themes\pianoblack/functions.php:322
+#: wp-content\themes\pianoblack/functions.php:324
+#: wp-content\themes\pianoblack/functions.php:327
+msgid "REPLY"
+msgstr "응답"
+
+#: wp-content\themes\pianoblack/functions.php:329
+msgid "QUOTE"
+msgstr "인용"
+
+#: wp-content\themes\pianoblack/functions.php:330
+msgid "EDIT"
+msgstr "편집"
+
+#: wp-content\themes\pianoblack/functions.php:336
+msgid "Your comment is awaiting moderation."
+msgstr "댓글이 승인을 기다리고 있습니다."
+
+#: wp-content\themes\pianoblack/header.php:13
+msgid " | "
+msgstr " | "
+
+#: wp-content\themes\pianoblack/header.php:44
+msgid "HOME"
+msgstr "메인"
+
+#: wp-content\themes\pianoblack/header.php:69
+msgid "Entries RSS"
+msgstr "글목록 RSS"
+
+#: wp-content\themes\pianoblack/header.php:69
+msgid "RSS FEED"
+msgstr "RSS 피드"
+
+#: wp-content\themes\pianoblack/header.php:75
+msgid "Google Search"
+msgstr "구글 검색"
+
+#: wp-content\themes\pianoblack/header.php:76
+#: wp-content\themes\pianoblack/header.php:84
+msgid "Search from this blog."
+msgstr "이 블로그에서 검색."
+
+#: wp-content\themes\pianoblack/header.php:83
+msgid "Search"
+msgstr "검색"
+
+#: wp-content\themes\pianoblack/navigation.php:26
+msgid "&laquo; Previous"
+msgstr "&laquo; 이전"
+
+#: wp-content\themes\pianoblack/navigation.php:27
+msgid "Next &raquo;"
+msgstr "다음 &raquo;"
+
+#: wp-content\themes\pianoblack/navigation.php:33
+msgid "Newer Entries"
+msgstr "새로운 글"
+
+#: wp-content\themes\pianoblack/navigation.php:34
+msgid "Older Entries"
+msgstr "이전 글"
+
+#: wp-content\themes\pianoblack/search.php:10
+msgid "Search results for "
+msgstr "검색: "
+
+#: wp-content\themes\pianoblack/search.php:10
+msgid " hit"
+msgstr " 조회수"
+
+#: wp-content\themes\pianoblack/search.php:19
+#: wp-content\themes\pianoblack/single.php:14
+msgid "Posted in "
+msgstr "카테고리: "
+
+#: wp-content\themes\pianoblack/search.php:23
+msgid "[ READ MORE ]"
+msgstr "[ 더보기 ]"
+
+#: wp-content\themes\pianoblack/sidebar.php:5
+msgid "INFORMATION"
+msgstr "정보"
+
+#: wp-content\themes\pianoblack/sidebar.php:7
+msgid "Change this sentence and title from admin Theme option page."
+msgstr "관리자 테마 옵션 페이지에서 이 문장과 제목 변경."
+
+#: wp-content\themes\pianoblack/sidebar.php:14
+msgid "RECENT ENTRY"
+msgstr "최근 글목록"
+
+#: wp-content\themes\pianoblack/sidebar.php:24
+msgid "CATEGORY"
+msgstr "카테고리"
+
+#: wp-content\themes\pianoblack/sidebar.php:32
+msgid "ARCHIVES"
+msgstr "보관"
+
+#: wp-content\themes\pianoblack/sidebar.php:40
+msgid "LINKS"
+msgstr "링크"
+
+#: wp-content\themes\pianoblack/sidebar.php:72
+msgid "Copyright &copy;&nbsp; "
+msgstr "저작권 &copy;&nbsp; "
+
+#: wp-content\themes\pianoblack/sidebar.php:81
+msgid "Theme designed by <a href=\"http://www.mono-lab.net/\">mono-lab</a>"
+msgstr "Theme designed by <a href=\"http://www.mono-lab.net/\">mono-lab</a>"
+
+#: wp-content\themes\pianoblack/sidebar.php:82
+msgid "Powered by <a href=\"http://wordpress.org/\">WordPress</a>"
+msgstr "Powered by <a href=\"http://wordpress.org/\">WordPress</a>"
+

@@ -1,0 +1,1645 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mystique 2.2 Czech\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-17 16:14+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Středula Lukáš <stredula@gmail.com>\n"
+"Language-Team: ThatRocked.com <stredula@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: Czech Republic\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes\\mystique\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: ../404.php:13
+msgid "The requested page was not found"
+msgstr "Požadovaná stránka není dostupná"
+
+#: ../archive.php:23
+#, php-format
+msgid "Posts tagged %s"
+msgstr "Štítky %s"
+
+#: ../archive.php:25
+#: ../archive.php:27
+#, php-format
+msgid "Archive for %s"
+msgstr "Archiv pro %s"
+
+#: ../archive.php:27
+msgid "F, Y"
+msgstr "F, Y"
+
+#: ../archive.php:29
+#, php-format
+msgid "Archive for year %s"
+msgstr "Archiv pro rok %s"
+
+#: ../archive.php:29
+msgid "Y"
+msgstr "Y"
+
+#: ../archive.php:31
+msgid "Author archive"
+msgstr "Archiv autora"
+
+#: ../archive.php:33
+msgid "Blog Archives"
+msgstr "Archivy blogu"
+
+#: ../archive.php:47
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Promiňte, ale v rubrice %s zatím není žádný příspěvek."
+
+#: ../archive.php:48
+msgid "Sorry, but there aren't any posts within this date."
+msgstr "Promiňte, ale není zde žádný příspěvek s tímto datem."
+
+#: ../archive.php:51
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Promiňte, ale není zde žádný příspěvek (%s)."
+
+#: ../archive.php:52
+msgid "No posts found."
+msgstr "Nenalezeny žádné příspěvky."
+
+#: ../author.php:23
+msgid "This user hasn't shared any biographical information"
+msgstr "Tento uživatel doposud nenapsal žádné informace o sobě"
+
+#: ../author.php:28
+msgid "Homepage:"
+msgstr "Web:"
+
+#: ../author.php:29
+msgid "Yahoo Messenger:"
+msgstr "Yahoo:"
+
+#: ../author.php:30
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: ../author.php:31
+msgid "AIM:"
+msgstr "AIM/ICQ:"
+
+#: ../author.php:38
+#, php-format
+msgid "Posts by %s"
+msgstr "Příspěvky od %s"
+
+#: ../author.php:48
+msgid "No posts found by this author."
+msgstr "Nebyly nalezeny žádné příspěvky od tohoto autora."
+
+#: ../comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Zadejte Vaše heslo k prohlížení komentářů"
+
+#: ../comments.php:42
+msgid "Related Posts"
+msgstr "Podobné příspvěky"
+
+#: ../comments.php:43
+#, php-format
+msgid "Trackbacks (%s)"
+msgstr "Trackbacky (%s)"
+
+#: ../comments.php:44
+#: ../comments.php:50
+#, php-format
+msgid "Comments (%s)"
+msgstr "Komentáře (%s)"
+
+#: ../comments.php:82
+msgid "No comments yet."
+msgstr "Ještě žádný komentář."
+
+#: ../comments.php:91
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Musíte být <a href=\"%s\">přihlášený</a> k napsání komentáře."
+
+#: ../comments.php:102
+#: ../comments.php:128
+#: ../comments.php:129
+msgid "Name (required)"
+msgstr "Jméno (vyžadováno)"
+
+#: ../comments.php:103
+#: ../comments.php:132
+#: ../comments.php:133
+msgid "E-mail (required, will not be published)"
+msgstr "Mail (vyžadován, ale nebude zobrazen)"
+
+#: ../comments.php:104
+#: ../comments.php:136
+#: ../comments.php:137
+msgid "Website"
+msgstr "Web"
+
+#: ../comments.php:115
+#, php-format
+msgid "Logged in as %s."
+msgstr "Přihlášen jako %s."
+
+#: ../comments.php:117
+msgid "Log out of this account"
+msgstr "Odhlásit se z tohoto účtu"
+
+#: ../comments.php:117
+msgid "Logout &raquo;"
+msgstr "Odhlásit &raquo;"
+
+#: ../comments.php:122
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Vítejte zpět <strong>%s</strong>."
+
+#: ../comments.php:123
+msgid "Change &raquo;"
+msgstr "Změnit &raquo;"
+
+#: ../comments.php:144
+msgid "Type your comment"
+msgstr "Napište komentář"
+
+#: ../comments.php:153
+#, php-format
+msgid "Spam protection: Sum of %1$s + %2$s = ?"
+msgstr "Ochrana proti spamu: Kolik je %1$s + %2$s = ?"
+
+#: ../comments.php:162
+msgid "Submit Comment"
+msgstr "Poslat komentář"
+
+#: ../comments.php:164
+msgid "Cancel Reply"
+msgstr "Zrušit odpověď"
+
+#: ../comments.php:188
+msgid "No trackbacks yet."
+msgstr "Ještě žádné trackbacky."
+
+#: ../comments.php:206
+msgid "No comments"
+msgstr "Žádné komentáře"
+
+#: ../comments.php:206
+msgid "1 comment"
+msgstr "1 komentář"
+
+#: ../comments.php:206
+#, php-format
+msgid "% comments"
+msgstr "% komentářů"
+
+#: ../comments.php:224
+msgid "Comments are closed."
+msgstr "Komentáře uzavřeny."
+
+#: ../functions.php:10
+#, php-format
+msgid "Your site is running on %1$s. Mystique requires at least %2$s."
+msgstr "Vaše stránka běží na %1&s. Mystique ale potřebuje minimálně %2$s!"
+
+#: ../functions.php:76
+msgid "Default sidebar"
+msgstr "Základní postranní panel"
+
+#: ../functions.php:78
+msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
+msgstr "Toto je základní postranní panel, viditelný na 2 nebo 3 sloupcovém zobrazení. Pokud nejsou aktivní widgety, budou zobrazeny základní widgety nastavené v šabloně."
+
+#: ../functions.php:86
+msgid "Secondary sidebar"
+msgstr "Druhý postranní panel"
+
+#: ../functions.php:88
+msgid "This sidebar is active only on a 3 column setup. "
+msgstr "Tento postranní panel je aktivní pouze při 3 sloupcovém nastavení."
+
+#: ../functions.php:96
+msgid "Footer"
+msgstr "Zápatí"
+
+#: ../functions.php:98
+msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
+msgstr "Zde můžete přidat až 6 widget (optimálně 3 nebo 4). Velikost widgetů bude upravena na základě jejich počtu."
+
+#: ../functions.php:106
+msgid "Footer (slide 2)"
+msgstr "Zápatí (slide 2)"
+
+#: ../functions.php:108
+#: ../functions.php:118
+#: ../functions.php:128
+msgid "Only visible if jQuery is enabled. "
+msgstr "Viditelné pouze pokud je jQuery zapnuté."
+
+#: ../functions.php:116
+msgid "Footer (slide 3)"
+msgstr "Zápatí (slide 3)"
+
+#: ../functions.php:126
+msgid "Footer (slide 4)"
+msgstr "Zápatí (slide 4)"
+
+#: ../index.php:23
+msgid "No posts found"
+msgstr "Nenalezeny žádné příspěvky"
+
+#: ../index.php:24
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Promiňte, ale nic zde není."
+
+#: ../search.php:13
+#: ../searchform.php:5
+#: ../searchform.php:10
+#: ../lib/core.php:349
+msgid "Search"
+msgstr "Hledat"
+
+#: ../search.php:15
+#: ../lib/core.php:230
+#, php-format
+msgid "Search results for %s"
+msgstr "Výsledky vyhledávání pro %s"
+
+#: ../search.php:31
+msgid "Nothing found."
+msgstr "Nic nenalezeno."
+
+#: ../search.php:31
+msgid "Try a different search?"
+msgstr "Zkusíte to znovu?"
+
+#: ../search.php:35
+msgid "What do you wish to search for?"
+msgstr "Co si přejete najít?"
+
+#: ../searchform.php:11
+#, php-format
+msgid "You have searched the archives for %s"
+msgstr "Vyhledáváte %s"
+
+#: ../searchform.php:13
+msgid "Type a valid search term..."
+msgstr "Napište správně hledaný term..."
+
+#: ../sidebar.php:26
+#: ../lib/widgets.php:417
+msgid "My latest tweets"
+msgstr "Moje poslední tweety"
+
+#: ../sidebar.php:34
+msgid "Blogroll"
+msgstr "Odkazy"
+
+#: ../sidebar2.php:7
+msgid "You activated the 2nd sidebar. Add widgets here from the Dashboard to remove this message"
+msgstr "Aktivoval jste druhý postranní panel. Přidejte widgety z výběru pro odstranění tohoto textu"
+
+#: ../single.php:25
+#: ../lib/core.php:546
+#: ../lib/core.php:559
+#: ../lib/core.php:627
+msgid "More &gt;"
+msgstr "Více &gt;"
+
+#: ../single.php:28
+msgid "Pages:"
+msgstr "Strany:"
+
+#: ../single.php:39
+#: ../lib/core.php:571
+#, php-format
+msgid "%1$s (%2$s topics)"
+msgstr "%1$s (%2$s témat)"
+
+#: ../single.php:52
+#: ../admin/theme-settings.php:577
+msgid "About the author"
+msgstr "O autorovi"
+
+#: ../single.php:64
+msgid "Print article"
+msgstr "Vytisknout"
+
+#: ../single.php:68
+#, php-format
+msgid "This entry was posted by %1$s on %2$s at %3$s, and is filed under %4$s. Follow any responses to this post through %5$s."
+msgstr "Tento příspěvek napsal %1$s, %2$s v %3$s do rubriky %4$s. Můžete sledovat komentáře na tento článek pomocí %5$s."
+
+#: ../single.php:71
+#, php-format
+msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
+msgstr "Můžete taktéž <a%1$s>zanechat komentář</a> nebo <a%2$s>odkázat</a> z Vašeho vlastního webu."
+
+#: ../single.php:73
+#, php-format
+msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
+msgstr "Komentáře jsou uzavřené, ale můžete <a%1$s>odkázat</a> z Vašeho vlastního webu."
+
+#: ../single.php:75
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Můžete přeskočit až na konec a zanechat komentář. Oznamování momentálně není povolené."
+
+#: ../single.php:77
+msgid "Both comments and pings are currently closed."
+msgstr "Komentáře i oznamování momentálně jsou uzavřeny."
+
+#: ../single.php:80
+msgid "Edit this entry"
+msgstr "Upravit příspěvek"
+
+#: ../admin/theme-settings.php:286
+#: ../admin/theme-settings.php:350
+msgid "You are not authorised to perform this operation."
+msgstr "Nejste oprávněn k uskutečnění této operace."
+
+#: ../admin/theme-settings.php:337
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a>."
+msgstr "Je dostupná nová verze %1$s. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Prohlédnou detaily verze %3$s</a>."
+
+#: ../admin/theme-settings.php:338
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a> or <a href=\"%4$s\" >upgrade automatically</a>."
+msgstr "Je dostupná nová verze %1$s. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Prohlédnou detaily verze %3$s</a> nebo <a href=\"%4$s\" >automaticky aktualizovat</a>?"
+
+#: ../admin/theme-settings.php:356
+#: ../admin/theme-settings.php:870
+#: ../admin/theme-settings.php:871
+msgid "Mystique settings"
+msgstr "Nastavení Mystique"
+
+#: ../admin/theme-settings.php:357
+msgid "Save Changes"
+msgstr "Uložit změny"
+
+#: ../admin/theme-settings.php:357
+msgid "Reset to Defaults"
+msgstr "Vrátit k základnímu nastavení"
+
+#: ../admin/theme-settings.php:357
+msgid "Reset all theme settings to the default values? Are you sure?"
+msgstr "Vrátit všechna nastavení šablony na základní? Jste si jist?"
+
+#: ../admin/theme-settings.php:366
+#, php-format
+msgid "Settings saved. %s"
+msgstr "Nastavení uložena. %s"
+
+#: ../admin/theme-settings.php:366
+msgid "View site"
+msgstr "Zobrazit web"
+
+#: ../admin/theme-settings.php:370
+msgid "Please upload a valid image file!"
+msgstr "Prosím nahrajte správný soubor s obrázkem!"
+
+#: ../admin/theme-settings.php:371
+msgid "The file you uploaded doesn't seem to be a valid JPEG, PNG or GIF image"
+msgstr "Soubor, který jste nahrál, zřejmě není formát JPEG, PNG nebo GIF"
+
+#: ../admin/theme-settings.php:372
+msgid "The image could not be saved on your server"
+msgstr "Soubor s obrázkem nemůže být uložen na Váš server"
+
+#: ../admin/theme-settings.php:377
+#, php-format
+msgid "Error: %s"
+msgstr "Chyba: %s"
+
+#: ../admin/theme-settings.php:386
+msgid "Design"
+msgstr "Vzhled"
+
+#: ../admin/theme-settings.php:387
+#: ../admin/theme-settings.php:601
+msgid "Content"
+msgstr "Obsah"
+
+#: ../admin/theme-settings.php:388
+msgid "Navigation"
+msgstr "Horní panel"
+
+#: ../admin/theme-settings.php:389
+msgid "SEO"
+msgstr "SEO"
+
+#: ../admin/theme-settings.php:390
+msgid "Ads"
+msgstr "Reklamy"
+
+#: ../admin/theme-settings.php:391
+msgid "Advanced"
+msgstr "Pokročilé"
+
+#: ../admin/theme-settings.php:392
+msgid "User CSS"
+msgstr "Uživatelské CSS"
+
+#: ../admin/theme-settings.php:393
+msgid "More themes by digitalnature"
+msgstr "Více šablony od Digitalnature"
+
+#: ../admin/theme-settings.php:403
+msgid "The design settings panel is not yet supported by Internet Explorer. Sorry :("
+msgstr "Nastavení designu není podporováno pro Internet Explorer 6. Promiňte ;)"
+
+#: ../admin/theme-settings.php:406
+msgid "Loading site preview..."
+msgstr "Načítám ukázku webu..."
+
+#: ../admin/theme-settings.php:411
+msgid "Layout style"
+msgstr "Styly rozvržení"
+
+#: ../admin/theme-settings.php:411
+msgid "Use page templates if you want to apply these only to specific pages"
+msgstr "Použijte šablonu příspěvků, pokud chcete aplikovat tyto změny na specifické stránky"
+
+#: ../admin/theme-settings.php:447
+msgid "Color scheme"
+msgstr "Barevné schéma"
+
+#: ../admin/theme-settings.php:474
+msgid "Page (content) width"
+msgstr "Šíře stránky (obsahu)"
+
+#: ../admin/theme-settings.php:474
+msgid "Note that fluid pages can be hard to read on large resolutions."
+msgstr "Při vyšších rozlišeních může proměnlivá velikost stránky způsobit špatné zobrazení a obsah se bude špatně číst!"
+
+#: ../admin/theme-settings.php:477
+#, php-format
+msgid "Fixed (%s)"
+msgstr "Fixní (%s)"
+
+#: ../admin/theme-settings.php:478
+msgid "Fluid (100%)"
+msgstr "Proměnlivá (100%)"
+
+#: ../admin/theme-settings.php:484
+msgid "Column sizes"
+msgstr "Velikost polí"
+
+#: ../admin/theme-settings.php:484
+msgid "(With 10 pixel padding between them)"
+msgstr "(Rozdíl mezi stupni činí 10 pixelů)"
+
+#: ../admin/theme-settings.php:497
+msgid "Font style"
+msgstr "Styl písma"
+
+#: ../admin/theme-settings.php:510
+msgid "Background color"
+msgstr "Barva pozadí"
+
+#: ../admin/theme-settings.php:510
+msgid "Leave Black (#000000) to keep the default background"
+msgstr "Nechejte černou (#000000) k zachování základního pozadí"
+
+#: ../admin/theme-settings.php:523
+msgid "Custom logo image"
+msgstr "Vlastní logo"
+
+#: ../admin/theme-settings.php:523
+msgid "Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr "Můžete změnit základní logo a nahrát jej ze svého počítače"
+
+#: ../admin/theme-settings.php:528
+#: ../admin/theme-settings.php:546
+msgid "Remove current image"
+msgstr "Odstranit současný obrázek"
+
+#: ../admin/theme-settings.php:534
+#: ../admin/theme-settings.php:552
+#, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr "Složka %s nemá práva k zápisu - nelze nahrát!"
+
+#: ../admin/theme-settings.php:534
+#: ../admin/theme-settings.php:552
+msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
+msgstr "Zkontrolujte cestu k nahrávání v Nastavení/Ostatní nebo CHMOD (práva) k této složce a změňte je na 755/777. <br />Zkontaktujte Vašeho správce/hosting, pokud nevíte jak na to"
+
+#: ../admin/theme-settings.php:541
+msgid "Custom background image"
+msgstr "Vlastní obrázek na pozadí"
+
+#: ../admin/theme-settings.php:541
+msgid "Upload a new background/header image to replace the default one"
+msgstr "Nahrát nový obrázek na pozadí/záhlaví k nahrazení základního"
+
+#: ../admin/theme-settings.php:565
+msgid "Posts (single)"
+msgstr "Příspěvky (samostatné)"
+
+#: ../admin/theme-settings.php:565
+msgid "How much information do you want to show on the single post page?"
+msgstr "Kolik informací si přejete zobrazit na stránce s příspěvkem?"
+
+#: ../admin/theme-settings.php:568
+#: ../admin/theme-settings.php:598
+#: ../lib/widgets.php:124
+msgid "Tags"
+msgstr "Štítky"
+
+#: ../admin/theme-settings.php:571
+msgid "Meta"
+msgstr "Meta"
+
+#: ../admin/theme-settings.php:574
+msgid "Share"
+msgstr "Sdílení"
+
+#: ../admin/theme-settings.php:580
+msgid "Print link"
+msgstr "Odkaz k vytisknutí"
+
+#: ../admin/theme-settings.php:583
+msgid "Related posts"
+msgstr "Podobné příspěvky"
+
+#: ../admin/theme-settings.php:589
+msgid "Post previews"
+msgstr "Zobrazení příspěvků"
+
+#: ../admin/theme-settings.php:589
+msgid "How much info do you want to show on blog/category/archive/search pages?"
+msgstr "Kolik informací si přejete zobrazit v blogu/rubrikách/archivech/vyhledávání?"
+
+#: ../admin/theme-settings.php:592
+msgid "Title"
+msgstr "Název"
+
+#: ../admin/theme-settings.php:595
+msgid "Info bar"
+msgstr "Pruh s informacemi"
+
+#: ../admin/theme-settings.php:604
+msgid "max. 50 words, filtered"
+msgstr "max. 50 slov, filtrovány"
+
+#: ../admin/theme-settings.php:605
+msgid "max. 100 words, filtered"
+msgstr "max. 100 slov, filtrovány"
+
+#: ../admin/theme-settings.php:606
+msgid "max. 200 words, filtered"
+msgstr "max. 200 slov, filtrovány"
+
+#: ../admin/theme-settings.php:607
+msgid "full"
+msgstr "celé"
+
+#: ../admin/theme-settings.php:608
+msgid "full, filtered"
+msgstr "vše, filtrováno"
+
+#: ../admin/theme-settings.php:609
+msgid "excerpt"
+msgstr "perex"
+
+#: ../admin/theme-settings.php:615
+msgid "Auto generate thumbnails"
+msgstr "Automaticky generovat miniatury"
+
+#: ../admin/theme-settings.php:615
+msgid "Get the 1st image attached to a post, if no thumbnail is set manually"
+msgstr "Nastavit první přiřazený obrázek v příspěvku jako obrázek článku, pokud není ručně stanovený specifický obrázek"
+
+#: ../admin/theme-settings.php:620
+msgid "Post thumbnail size"
+msgstr "Velikost obrázku příspěvku"
+
+#: ../admin/theme-settings.php:620
+#, php-format
+msgid "Note that this only works for images you upload from now on, older images will be browser-resized. You should use the %s plugin to create missing image sizes"
+msgstr "Pozor, změna se projeví jen u obrázků, které nahrajete odteď! Starší obrázky budou upraveny prohlížečem, ale můžete použít plugin %s, který vytvoří chybějící velikosti"
+
+#: ../admin/theme-settings.php:624
+msgid "Very small: 48 x 48"
+msgstr "Velký malé: 64 x 64"
+
+#: ../admin/theme-settings.php:625
+msgid "Small: 64 x 64"
+msgstr "Malé: 64 x 64"
+
+#: ../admin/theme-settings.php:626
+#, fuzzy
+msgid "Medium: 80 x 80"
+msgstr "Střední: 100 x 100"
+
+#: ../admin/theme-settings.php:627
+msgid "Larger: 100 x 100"
+msgstr "Velké: 100 x 100"
+
+#: ../admin/theme-settings.php:628
+#, php-format
+msgid "WP's Media setting: %s"
+msgstr "Nastavení WP: %s"
+
+#: ../admin/theme-settings.php:636
+msgid "Footer content"
+msgstr "Obsah zápatí"
+
+#: ../admin/theme-settings.php:636
+msgid "You can post HTML code"
+msgstr "Můžete zde vložit HTML kód dle potřeby"
+
+#: ../admin/theme-settings.php:636
+#: ../admin/theme-settings.php:753
+msgid "Only some HTML tags and attributes are allowed"
+msgstr "Jsou povoleny pouze některé HTML tagy a atributy"
+
+#: ../admin/theme-settings.php:640
+#, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr "Můžete taktéž použít tyto krátké kódy pro pohodlnou úpravu textu: <br />%s"
+
+#: ../admin/theme-settings.php:650
+msgid "Top navigation shows"
+msgstr "Horní panel zobrazí"
+
+#: ../admin/theme-settings.php:653
+msgid "Nothing (disabled)"
+msgstr "Nic (vypnuto)"
+
+#: ../admin/theme-settings.php:654
+msgid "Pages"
+msgstr "Stránky"
+
+#: ../admin/theme-settings.php:655
+#: ../lib/widgets.php:125
+#: ../lib/widgets.php:290
+msgid "Categories"
+msgstr "Rubriky"
+
+#: ../admin/theme-settings.php:656
+msgid "Links"
+msgstr "Odkazy"
+
+#: ../admin/theme-settings.php:664
+msgid "from category"
+msgstr "z rubriky"
+
+#: ../admin/theme-settings.php:669
+#, php-format
+msgid "%s links"
+msgstr "%S odkazů"
+
+#: ../admin/theme-settings.php:676
+msgid "No links found"
+msgstr "Nenalezeny žádné odkazy"
+
+#: ../admin/theme-settings.php:685
+msgid "Exclude from navigation"
+msgstr "Vynechat z panelu"
+
+#: ../admin/theme-settings.php:685
+msgid "Check the items you wish to hide from the main menu"
+msgstr "Označte položky, které chcete skrýt"
+
+#: ../admin/theme-settings.php:690
+#: ../lib/core.php:160
+#: ../lib/core.php:162
+msgid "Home"
+msgstr "Úvod"
+
+#: ../admin/theme-settings.php:695
+msgid "(Use the private property to hide other links)"
+msgstr "(Použijte vlastní prostředky ke skrytí ostatních odkazů)"
+
+#: ../admin/theme-settings.php:727
+msgid "Additional site optimization for search engines"
+msgstr "Doplňková optimalizace pro vyhledávače"
+
+#: ../admin/theme-settings.php:727
+msgid "Uncheck if you are using a SEO plugin!"
+msgstr "Odznačte pokud používáte SEO plugin!"
+
+#: ../admin/theme-settings.php:734
+msgid "What does this do?"
+msgstr "Co to dělá?"
+
+#: ../admin/theme-settings.php:736
+msgid "enables canonical URLs for comments (duplicate content fix, only needed on wp < 2.9)"
+msgstr "povolit generované odkazy pro komentáře (opravení duplikovaného obsahu, nutné pouze na WP < 2.9)"
+
+#: ../admin/theme-settings.php:737
+msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
+msgstr "generování unikátních názvů pro příspěvky s komentáři na více stránkách (zabraňuje duplikování názvů)"
+
+#: ../admin/theme-settings.php:738
+#, php-format
+msgid "generates a unique meta description tag for each page (no meta keywords; why? -<a %s>useless</a>)"
+msgstr "generuje unikátní meta popis pro každou stránku (tedy žádné meta štítky, proč? - <a %s>zbytečnost</a>)"
+
+#: ../admin/theme-settings.php:753
+msgid "Advertisment blocks"
+msgstr "Bloky reklam"
+
+#: ../admin/theme-settings.php:753
+#, php-format
+msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
+msgstr "Použijte kód %s k vložení těchto reklam do příspěvků, textových widgetů nebo do zápatí"
+
+#: ../admin/theme-settings.php:754
+msgid "Example:"
+msgstr "Například:"
+
+#: ../admin/theme-settings.php:760
+#, php-format
+msgid "Ad code #%s:"
+msgstr "Reklama #%s:"
+
+#: ../admin/theme-settings.php:776
+msgid "Use jQuery"
+msgstr "Použít jQuery"
+
+#: ../admin/theme-settings.php:776
+msgid "For testing purposes only. Only uncheck if you know what you're doing!"
+msgstr "Pouze pro testovací účely. Odznačte pouze pokud víte, co děláte!"
+
+#: ../admin/theme-settings.php:781
+msgid "Enable AJAX on comment pagination"
+msgstr "Aktivovat AJAX u navigace mezi komentáři"
+
+#: ../admin/theme-settings.php:781
+msgid "Navigate trough comment pages without refreshing (faster load, but may be incompatible with some plugins)"
+msgstr "Procházet stránkami komentářů bez znovunačítání stránek (rychlejší načítání, ale může být nekompatibilní s některými pluginy)"
+
+#: ../admin/theme-settings.php:786
+msgid "Enable theme built-in lightbox on all image links"
+msgstr "Zapnout integrovaný lightbox pro všechny obrázky"
+
+#: ../admin/theme-settings.php:786
+msgid "Uncheck if you prefer a lightbox plugin"
+msgstr "Odznačte, pokud preferujete lightbox plugin"
+
+#: ../admin/theme-settings.php:791
+msgid "Remove Mystique settings from the database after theme switch"
+msgstr "Odstranit nastavení Mystique z databáze po změně šablony"
+
+#: ../admin/theme-settings.php:791
+msgid "Only check if you're planning to remove and change the theme"
+msgstr "Označte pouze pokud plánujete odebrat nebo změnit šablonu"
+
+#: ../admin/theme-settings.php:806
+msgid "User functions"
+msgstr "Uživatelské funkce"
+
+#: ../admin/theme-settings.php:806
+msgid "PHP code to add to the theme functions. Useful if you have plugins that require you to change the theme's functions.php file"
+msgstr "PHP kódy k přidání funkcí do šablony. Šikovné pokud máte pluginy vyžadující změny v functions.php šablony"
+
+#: ../admin/theme-settings.php:821
+msgid "CSS to add, or modify theme styles"
+msgstr "CSS k přidání nebo úpravě stylů šablony"
+
+#: ../admin/theme-settings.php:821
+#, php-format
+msgid "Check %s to see existing theme classes and properties"
+msgstr "Prohlídněte si %s, abyste věděli, co šablona stylů obsahuje a jaké má proporce"
+
+#: ../admin/theme-settings.php:884
+msgid "Active shortcodes you can use in your posts or widgets"
+msgstr "Aktivní krátké kódy, které můžete použít v příspěvcích nebo widgetách"
+
+#: ../extensions/featured-posts/featured-posts.php:80
+#, php-format
+msgid "No featured posts found older than %s days."
+msgstr "Nebyly nalezeny žádné zvýrazněné příspěvky starší než %s dnů."
+
+#: ../extensions/featured-posts/featured-posts.php:99
+msgid "Featured"
+msgstr "Zvýraznění"
+
+#: ../extensions/featured-posts/featured-posts.php:133
+msgid "Error while featuring posts"
+msgstr "Vyskytla se chyba při zvýrazňování příspěvků"
+
+#: ../extensions/featured-posts/featured-posts.php:204
+msgid "Featured posts"
+msgstr "Zvýrazněné příspěvky"
+
+#: ../extensions/featured-posts/featured-posts.php:204
+#, php-format
+msgid "You can mark posts as featured on the %s page"
+msgstr "Můžete označit příspěvky k zvýraznění na %s stránce"
+
+#: ../extensions/featured-posts/featured-posts.php:210
+msgid "Show on"
+msgstr "Zobrazit na"
+
+#: ../extensions/featured-posts/featured-posts.php:214
+msgid "Pages that use the Featured posts template"
+msgstr "Na stránkách, kde je použita šablona zvýrazněného obsahu"
+
+#: ../extensions/featured-posts/featured-posts.php:219
+msgid "Home page"
+msgstr "Webová stránka"
+
+#: ../extensions/featured-posts/featured-posts.php:224
+msgid "Single post pages"
+msgstr "Stránku se samotným příspěvkem"
+
+#: ../extensions/featured-posts/featured-posts.php:229
+msgid "Archive pages (Category, Tags etc)"
+msgstr "Stránky archivů (rubriky, štítky atd.)"
+
+#: ../extensions/featured-posts/featured-posts.php:234
+msgid "404 pages"
+msgstr "Stránka 404"
+
+#: ../extensions/featured-posts/featured-posts.php:239
+msgid "Search page"
+msgstr "Vyhledávání"
+
+#: ../extensions/featured-posts/featured-posts.php:244
+msgid "All other pages"
+msgstr "Všechny ostatní stránky"
+
+#: ../extensions/featured-posts/featured-posts.php:251
+msgid "Maximum number of posts to display"
+msgstr "Maximální počet příspěvků k zobrazení"
+
+#: ../extensions/featured-posts/featured-posts.php:258
+msgid "Slide delay"
+msgstr "Délka zobrazení"
+
+#: ../extensions/featured-posts/featured-posts.php:261
+msgid "seconds"
+msgstr "vteřin"
+
+#: ../extensions/featured-posts/featured-posts.php:266
+msgid "Don't show posts older than"
+msgstr "Nezobrazovat příspěvky starší než"
+
+#: ../extensions/featured-posts/featured-posts.php:269
+msgid "days"
+msgstr "dní"
+
+#: ../extensions/ip2country/ip2country.php:48
+msgid "Show comment author's country flag"
+msgstr "Zobrazit vlaječku u autorů komentářů"
+
+#: ../extensions/ip2country/ip2country.php:48
+msgid "May slow down page loading"
+msgstr "Může zpomalit načítání stránky"
+
+#: ../extensions/xtra-nav/xtra-nav.php:14
+msgid "Extra navigation items"
+msgstr "Extra položky navigace"
+
+#: ../extensions/xtra-nav/xtra-nav.php:14
+msgid "(Leave blank to disable)"
+msgstr "(Nechejte prázdné pro deaktivaci)"
+
+#: ../extensions/xtra-nav/xtra-nav.php:18
+msgid "Twitter ID"
+msgstr "Twitter ID"
+
+#: ../extensions/xtra-nav/xtra-nav.php:23
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: ../extensions/xtra-nav/xtra-nav.php:44
+msgid "Follow me on Twitter"
+msgstr "Sledujte mě na Twitteru!"
+
+#: ../extensions/xtra-nav/xtra-nav.php:47
+#: ../lib/shortcodes.php:266
+msgid "RSS Feeds"
+msgstr "Zdroje RSS"
+
+#: ../lib/core.php:40
+#: ../lib/core.php:273
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s příspěvek"
+msgstr[1] "%s příspěvků"
+
+#: ../lib/core.php:119
+msgid "View page"
+msgstr "Zobrazit web"
+
+#: ../lib/core.php:160
+msgid "You are Home"
+msgstr "Jste na úvodní stránce"
+
+#: ../lib/core.php:162
+msgid "Click for Home"
+msgstr "Klikněte pro návrat na úvodní stránku"
+
+#: ../lib/core.php:220
+msgid "F jS, Y"
+msgstr "F, Y"
+
+#: ../lib/core.php:222
+#, php-format
+msgid "Archive for week %1$s of %2$s"
+msgstr "Archiv pro týden %1$s z %2$s"
+
+#: ../lib/core.php:222
+msgid "W"
+msgstr "W"
+
+#: ../lib/core.php:233
+msgid "404 Not Found"
+msgstr "404 Nenalezeno"
+
+#: ../lib/core.php:239
+#, php-format
+msgid "Page %s"
+msgstr "Strana %s"
+
+#: ../lib/core.php:243
+#, php-format
+msgid "Comment Page %s"
+msgstr "Strana %s"
+
+#: ../lib/core.php:265
+#, php-format
+msgid "View all posts in %s"
+msgstr "Zobrazit všechny příspěvky v %s"
+
+#: ../lib/core.php:325
+msgid "Share this post!"
+msgstr "Sdílet článek!"
+
+#: ../lib/core.php:521
+msgid "Permanent Link:"
+msgstr "Trvalý odkaz:"
+
+#: ../lib/core.php:526
+msgid "M jS"
+msgstr "j. M"
+
+#: ../lib/core.php:530
+#, php-format
+msgid "Posted by %1$s in %2$s"
+msgstr "Napsal %1$s do %2$s"
+
+#: ../lib/core.php:533
+msgid "Edit"
+msgstr "Upravit"
+
+#: ../lib/core.php:613
+msgid "Pages: "
+msgstr "Strana:"
+
+#: ../lib/core.php:615
+msgid "Edit this page"
+msgstr "Upravit příspěvek"
+
+#: ../lib/core.php:684
+msgid "Go to the first page"
+msgstr "Přejít na první stránku"
+
+#: ../lib/core.php:684
+msgid "&laquo; First"
+msgstr "&laquo; První"
+
+#: ../lib/core.php:690
+#: ../lib/core.php:696
+#: ../lib/core.php:702
+#, php-format
+msgid "Go to page %s"
+msgstr "Přejít na stranu %s"
+
+#: ../lib/core.php:706
+msgid "Go to the last page"
+msgstr "Přejít na poslední stránku"
+
+#: ../lib/core.php:706
+msgid "Last &raquo;"
+msgstr "Poslední &raquo;"
+
+#: ../lib/core.php:740
+#, php-format
+msgid "about %s year ago"
+msgid_plural "about %s years ago"
+msgstr[0] "%s rok zpět"
+msgstr[1] "%s roků zpět"
+
+#: ../lib/core.php:741
+#, php-format
+msgid "about %s month ago"
+msgid_plural "about %s months ago"
+msgstr[0] "%s měsíc zpět"
+msgstr[1] "%s měsíců zpět"
+
+#: ../lib/core.php:742
+#, php-format
+msgid "about %s week ago"
+msgid_plural "about %s weeks ago"
+msgstr[0] "%s týden zpět"
+msgstr[1] "%s týdnů zpět"
+
+#: ../lib/core.php:743
+#, php-format
+msgid "about %s day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "%s den zpět"
+msgstr[1] "%s dnů zpět"
+
+#: ../lib/core.php:744
+#, php-format
+msgid "about %s hour ago"
+msgid_plural "about %s hours ago"
+msgstr[0] "%s hodinu zpět"
+msgstr[1] "%s hodin zpět"
+
+#: ../lib/core.php:745
+#, php-format
+msgid "about %s minute ago"
+msgid_plural "about %s minutes ago"
+msgstr[0] "%s minutu zpět"
+msgstr[1] "%s minut zpět"
+
+#: ../lib/core.php:746
+#, php-format
+msgid "about %s second ago"
+msgid_plural "about %s seconds ago"
+msgstr[0] "%s vteřinu zpět"
+msgstr[1] "%s vteřin zpět"
+
+#: ../lib/core.php:1059
+#, php-format
+msgid "%1$s written by %2$s"
+msgstr "%1$s napsal %2$s"
+
+#: ../lib/core.php:1067
+msgid "Reply"
+msgstr "Reagovat"
+
+#: ../lib/core.php:1068
+msgid "Quote"
+msgstr "Citovat"
+
+#: ../lib/core.php:1075
+msgid "Your comment is awaiting moderation."
+msgstr "Tvůj komentář čeká na schválení."
+
+#: ../lib/editor.php:22
+msgid "Divider"
+msgstr ""
+
+#: ../lib/editor.php:23
+msgid "Error text color"
+msgstr "Chyba textu barvy"
+
+#: ../lib/editor.php:24
+msgid "Error box"
+msgstr "Chybový box"
+
+#: ../lib/settings.php:73
+#, php-format
+msgid "You can configure Mystique from the <a%s>theme settings</a> page."
+msgstr "Šablonu Mystique můžete přizpůsobit k obrazu svému v <a%s>nastavení</a>."
+
+#: ../lib/settings.php:348
+msgid "There are one or more PHP parse errors in your custom functions."
+msgstr "Vyskytla se chyba nebo více chyb v PHP kódu ve vaší funkci."
+
+#: ../lib/shortcodes.php:17
+#, php-format
+msgid "%s: Widget class not found. Make sure this widget exists and the class name is correct"
+msgstr "%s: Třída widgetu nenalezena. Ujistěte se, že widget existuje a název třídy je správný."
+
+#: ../lib/shortcodes.php:52
+msgid "User name (required)"
+msgstr "Uživatelské jmén (vyžadováno)"
+
+#: ../lib/shortcodes.php:54
+msgid "Password (required)"
+msgstr "Heslo (vyžadováno)"
+
+#: ../lib/shortcodes.php:55
+msgid "Verify password (required)"
+msgstr "Ověřit heslo (vyžadováno)"
+
+#: ../lib/shortcodes.php:56
+msgid "E-mail (required)"
+msgstr "Mail (vyžadováno)"
+
+#: ../lib/shortcodes.php:57
+msgid "First name"
+msgstr "Jméno"
+
+#: ../lib/shortcodes.php:58
+msgid "Last name"
+msgstr "Příjmení"
+
+#: ../lib/shortcodes.php:59
+msgid "Profile info"
+msgstr "Profilové informace"
+
+#: ../lib/shortcodes.php:80
+msgid "Please type a user name"
+msgstr "Prosím napište uživatelské jméno"
+
+#: ../lib/shortcodes.php:81
+msgid "User name already exists"
+msgstr "Uživatelské jméno již existuje"
+
+#: ../lib/shortcodes.php:82
+msgid "E-mail address is required."
+msgstr "Mailové adresa je vyžadována"
+
+#: ../lib/shortcodes.php:83
+msgid "E-mail address already in use"
+msgstr "Mailová adresa se již používá"
+
+#: ../lib/shortcodes.php:84
+msgid "You must enter a password."
+msgstr "Musíte vložit heslo."
+
+#: ../lib/shortcodes.php:85
+msgid "Please verify the password"
+msgstr "Prosím ověřte heslo"
+
+#: ../lib/shortcodes.php:86
+msgid "Passwords do not match"
+msgstr "Heslo nesouhlasí"
+
+#: ../lib/shortcodes.php:87
+msgid "User registration failed.  Please try again."
+msgstr "Registrace selhala. Prosím, zkuste to znovu."
+
+#: ../lib/shortcodes.php:96
+#, php-format
+msgid "You are logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. You don't need another account :)"
+msgstr "Jste přihlášen jako <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. Nepotřebujete další účet :)"
+
+#: ../lib/shortcodes.php:101
+#, php-format
+msgid "A user account for %1$s has been created."
+msgstr "Účet pro %1$s byl vytvořen."
+
+#: ../lib/shortcodes.php:102
+#, php-format
+msgid "Thank you for registering, %1$s."
+msgstr "Děkujeme za registraci, %1$s."
+
+#: ../lib/shortcodes.php:154
+msgid "Add User"
+msgstr "Přidat uživatele"
+
+#: ../lib/shortcodes.php:154
+#: ../lib/widgets.php:610
+msgid "Register"
+msgstr "Registrovat"
+
+#: ../lib/shortcodes.php:242
+msgid "No posts found matching the arguments"
+msgstr "Nebyly nalezeny žádné příspěvky odpovídající kritériím"
+
+#: ../lib/shortcodes.php:292
+#, php-format
+msgid "Empty ad slot (#%s)!"
+msgstr "Prázdný slot reklamy (#%s)!"
+
+#: ../lib/shortcodes.php:297
+msgid "Top"
+msgstr "Nahoru"
+
+#: ../lib/shortcodes.php:305
+#, php-format
+msgid "%1$s theme by %2$s | Powered by %3$s"
+msgstr "Design %1$s | Vytvořil %2$s"
+
+#: ../lib/shortcodes.php:310
+msgid "Copyright &copy;"
+msgstr "Copyright &copy;"
+
+#: ../lib/shortcodes.php:323
+msgid "Site Admin"
+msgstr "Administrátor webu"
+
+#: ../lib/shortcodes.php:324
+msgid "Log in"
+msgstr "Přihlásit se"
+
+#: ../lib/widgets.php:55
+#, php-format
+msgid "%s followers"
+msgstr "%s sledujících"
+
+#: ../lib/widgets.php:79
+msgid "Error while retrieving tweets (Twitter down?)"
+msgstr "Nastal problém se získáním nových tweetů (že by byl Twitter mimo provoz?)"
+
+#: ../lib/widgets.php:92
+msgid "Displays links to different sections grouped in tabs"
+msgstr "Zobrazit odkazy na jiné sekce seskupené v záložkách"
+
+#: ../lib/widgets.php:94
+msgid "Mystique | Sidebar tabs"
+msgstr "Mystique | Záložky postranního panelu"
+
+#: ../lib/widgets.php:121
+#: ../lib/widgets.php:308
+msgid "Recent comments"
+msgstr "Poslední komentáře"
+
+#: ../lib/widgets.php:122
+msgid "Popular posts"
+msgstr "Oblíbené příspěvky"
+
+#: ../lib/widgets.php:123
+#: ../lib/widgets.php:298
+msgid "Archives"
+msgstr "Archivy"
+
+#: ../lib/widgets.php:206
+msgid "Didn't find any posts popular enough :("
+msgstr "Nenalezeny žádné populární příspěvky :("
+
+#: ../lib/widgets.php:233
+#, php-format
+msgid "Posted in: %s"
+msgstr "Napsáno do %s"
+
+#: ../lib/widgets.php:250
+msgid "Sidebar tabs"
+msgstr "Záložky postranního panelu"
+
+#: ../lib/widgets.php:251
+#: ../lib/widgets.php:397
+#: ../lib/widgets.php:496
+msgid "jQuery is disabled and this widget needs it"
+msgstr "jQuery je vypnuto a tento widget jej potřebuje"
+
+#: ../lib/widgets.php:286
+msgid "Tabs to show"
+msgstr "Štítky k zobrazení"
+
+#: ../lib/widgets.php:294
+msgid "Tags "
+msgstr "Štítky"
+
+#: ../lib/widgets.php:302
+msgid "Popular posts (most commented)"
+msgstr "Oblíbené příspěvky (nejvíc komentované)"
+
+#: ../lib/widgets.php:315
+msgid "Sort categories"
+msgstr "Řazení rubrik"
+
+#: ../lib/widgets.php:317
+msgid "by name (alphabetically)"
+msgstr "dle názvu (abecedně)"
+
+#: ../lib/widgets.php:318
+msgid "by category ID"
+msgstr "dle ID rubriky"
+
+#: ../lib/widgets.php:319
+msgid "by category slug"
+msgstr "dle seřazení rubrik"
+
+#: ../lib/widgets.php:320
+msgid "by post count"
+msgstr "dle počtu příspěvků"
+
+#: ../lib/widgets.php:325
+msgid "Show post count (categories and archives)"
+msgstr "Zobrazit počet příspěvků (rubriky a archivy)"
+
+#: ../lib/widgets.php:331
+msgid "How many popular posts to show?"
+msgstr "Jak moc populární příspěvky zobrazit?"
+
+#: ../lib/widgets.php:338
+msgid "How many recent comments to show?"
+msgstr "Jak moc posledních komentářů zobrazit?"
+
+#: ../lib/widgets.php:354
+msgid "Shows your latest Twitter updates"
+msgstr "Zobrazit Vaše poslední Twitter aktualizace"
+
+#: ../lib/widgets.php:355
+msgid "Mystique | Twitter"
+msgstr "Mystique | Twitter"
+
+#: ../lib/widgets.php:394
+msgid "Loading tweets..."
+msgstr "Načítám tweety..."
+
+#: ../lib/widgets.php:401
+msgid "Follow me on Twitter!"
+msgstr "Sledujte mě na Twitteru!"
+
+#: ../lib/widgets.php:424
+#: ../lib/widgets.php:530
+msgid "Title:"
+msgstr "Název:"
+
+#: ../lib/widgets.php:429
+msgid "Twitter user name:"
+msgstr "Uživ. jméno na Twitteru:"
+
+#: ../lib/widgets.php:434
+msgid "Number of tweets to show:"
+msgstr "Množství tweetů k zobrazení:"
+
+#: ../lib/widgets.php:448
+msgid "Displays Flickr galleries (needs API key)"
+msgstr "Zobrazit Flickr galerie (potřebuje API klíč)"
+
+#: ../lib/widgets.php:450
+msgid "Mystique | Flickr Gallery"
+msgstr "Mystique | Flickr Galerie"
+
+#: ../lib/widgets.php:521
+msgid "Flickr Gallery"
+msgstr "Flickr Galerie"
+
+#: ../lib/widgets.php:535
+msgid "API key:"
+msgstr "API klíč:"
+
+#: ../lib/widgets.php:540
+msgid "Number of photos to show:"
+msgstr "Počet fotek k zobrazení:"
+
+#: ../lib/widgets.php:545
+msgid "Gallery source:"
+msgstr "Zdroj galerie:"
+
+#: ../lib/widgets.php:547
+msgid "Photoset"
+msgstr "Fotoset"
+
+#: ../lib/widgets.php:548
+msgid "User photostream"
+msgstr "Uživ. stream"
+
+#: ../lib/widgets.php:553
+msgid "Photoset ID:"
+msgstr "ID fotosetu:"
+
+#: ../lib/widgets.php:558
+#, php-format
+msgid "User ID (use %s to find it):"
+msgstr "ID uživatele (použijte %s k nalezení):"
+
+#: ../lib/widgets.php:573
+msgid "Login form"
+msgstr "Přihlášení"
+
+#: ../lib/widgets.php:574
+msgid "Mystique | Login"
+msgstr "Mystique | Přihlašování"
+
+#: ../lib/widgets.php:584
+#, php-format
+msgid "Logged in: %s"
+msgstr "Přihlášen k: %s"
+
+#: ../lib/widgets.php:589
+msgid "Dashboard"
+msgstr "Nástěnka"
+
+#: ../lib/widgets.php:591
+msgid "Write"
+msgstr "Napsat"
+
+#: ../lib/widgets.php:592
+msgid "Comments"
+msgstr "Komentáře"
+
+#: ../lib/widgets.php:594
+msgid "Log out"
+msgstr "Odhlásit se"
+
+#: ../lib/widgets.php:598
+msgid "User Login"
+msgstr "Přihlášení"
+
+#: ../lib/widgets.php:602
+msgid "User"
+msgstr "Uživ. jméno"
+
+#: ../lib/widgets.php:603
+msgid "Password"
+msgstr "Heslo"
+
+#: ../lib/widgets.php:604
+msgid "Login"
+msgstr "Přihlásit"
+
+#: ../lib/widgets.php:605
+msgid "Remember me"
+msgstr "Pamatuj si mě"
+
+#: ../lib/widgets.php:611
+msgid "Lost your password?"
+msgstr "Zapomenuté heslo?"
+
+#~ msgid "&laquo; Older Entries"
+#~ msgstr "&laquo; Starší příspěvky"
+
+#~ msgid "Newer Entries &raquo;"
+#~ msgstr "Novější příspěvky &raquo;"
+
+#~ msgid "Read more"
+#~ msgstr "Více"
+
+#~ msgid "Sorry, no attachments matched your criteria."
+#~ msgstr "Promiňte, požadovaným kritériím nic neodpovídá."
+
+#~ msgid "Tags:"
+#~ msgstr "Štítky"
+
+#~ msgid "Insert Ad slot #1 in every post and page"
+#~ msgstr "Vložit reklamu #1 v každém příspěvku a stránce"
+
+#~ msgid "Insert Ad slot #2 at every 5 comments"
+#~ msgstr "Vložit reklamu #2 za každým pátým komentářem"
+
+#~ msgid "Replace blog description text with Ad #4"
+#~ msgstr "Nahradit popis blogu reklamou #4"
+
+#~ msgid "Alternate header image"
+#~ msgstr "Jiný obrázek záhlaví"
+
+#~ msgid "Hide RSS button"
+#~ msgstr "Skrýt RSS tlačítko"
+
+#~ msgid "Hide Twitter button"
+#~ msgstr "Skrýt Twitter tlačítko"
+
+#~ msgid "Set a fluid page width"
+#~ msgstr "Nastavit volnou šířku"
+
+#~ msgid "Decrease site title text size"
+#~ msgstr "Zmenšit název webu"
+
+#~ msgid "Hide post information bar"
+#~ msgstr "Skrýt informace o příspěvku"
+
+#~ msgid "Change footer background color to light gray"
+#~ msgstr "Světle šedé zápatí"
+
+#~ msgid "Dark background footer"
+#~ msgstr "Tmavé zápatí"
+
+#~ msgid "Join navigation with main content"
+#~ msgstr "Připojit navigaci k hlavnímu obsahu"
+
+#~ msgid "Hide navigation"
+#~ msgstr "Skrýt navigaci"
+
+#~ msgid "Remove styling from tables"
+#~ msgstr "Odstranit styl tabulek"
+
+#~ msgid "Text-Justify post and page content"
+#~ msgstr "Zarovnání obsahu článků a stránek na celé"
+
+#~ msgid "Fixed custom background image"
+#~ msgstr "Fixní vlastní obrázek pozadí"
+
+#~ msgid "General"
+#~ msgstr "Hlavní"
+
+#~ msgid "Posts"
+#~ msgstr "Příspěvky"
+
+#~ msgid "Imageless layout"
+#~ msgstr "Bezobrázkový režim"
+
+#~ msgid ""
+#~ "No background images; reduces page load downto just a few KB, with the "
+#~ "cost of less graphic details"
+#~ msgstr ""
+#~ "V tomto režimu bude redukována velikost webu při načítání na pár KB, na "
+#~ "úkor grafické kvality."
+
+#~ msgid "HTML code is disallowed"
+#~ msgstr "HTML kód není povolen"
+
+#~ msgid "Sidebar(s) vs Main Content ratio"
+#~ msgstr "Postranní panel(y) vs Poměr hlavního obsahu"
+
+#~ msgid "Preferred font style"
+#~ msgstr "Preferované písmo"
+
+#~ msgid "Font priority and their availability"
+#~ msgstr "Vybraný styl písma závisí na dostupnosti u návštěvníků webu"
+
+#~ msgid "Not available with <em>imageless</em> setting"
+#~ msgstr "Není dostupné v <em>bezobrázkovém</em> režimu"
+
+#~ msgid "The way posts are displayed on blog homepage and archive pages"
+#~ msgstr "Jak budou zobrazovány na úvodní stránce a v archivech"
+
+#~ msgid "Titles only"
+#~ msgstr "Pouze názvy"
+
+#~ msgid "Enable \"Share This Post\" feature"
+#~ msgstr "Povolit funkci \"Sdílet článek!\""
+
+#~ msgid "Uncheck this if you're using a social bookmaring plugin"
+#~ msgstr "Odznačte, pokud používáte plugin se záložkami sociálních webů"
+
+#~ msgid "Featured content source"
+#~ msgstr "Zdroj zvýrazněného obsahu"
+
+#~ msgid ""
+#~ "The last 5 posts from this category will be shown in the featured content "
+#~ "area (in random order)"
+#~ msgstr ""
+#~ "Posledních 5 příspěvků z této rubriky bude zobrazeno v oblasti se "
+#~ "zvýrazněnými příspěvky (v náhodném pořadí)"
+
+#~ msgid "- All categories"
+#~ msgstr "- Všechny rubriky"
+
+#~ msgid "On the home page"
+#~ msgstr "Na domovské stránce"
+
+#~ msgid "On all pages, including home"
+#~ msgstr "U všech stránek, včetně domovské"
+
+#~ msgid "On all pages and posts"
+#~ msgstr "U všech stránek a příspěvků"
+
+#~ msgid "Show related posts next to comments"
+#~ msgstr "Zobrazit podobné články před komentáři"
+
+#~ msgid "no keywords are generated because they are <a %s>useless</a>"
+#~ msgstr "negenerují se klíčová slova, protože jsou <a %s>k ničemu</a>"
+
+#~ msgid "Uncheck this if you plan to keep Mystique as your default theme!"
+#~ msgstr ""
+#~ "Neoznačujte, pokud plánujete ponechat Mystique jako Vaši hlavní šablonu!"
+
+#~ msgid "Document head code"
+#~ msgstr "Kód hlavičky"
+
+#~ msgid "To output HTML only, close the PHP tag first."
+#~ msgstr "PHP kód vždy uzavřete!"
+
+#~ msgid "Examples and helpers:"
+#~ msgstr "Příklady:"
+
+#~ msgid "Modify anything related to design using CSS code"
+#~ msgstr "Upravte zde cokoli ve spojitosti k designu pomocí CSS jazyka"
+
+#~ msgid ""
+#~ "Avoid modifying theme files directly; use this option instead to preserve "
+#~ "your changes after update"
+#~ msgstr ""
+#~ "Vyhněte se prosím přímé úpravě souborů šablony. Použijte tento editor, "
+#~ "budete mít možnost vrátit změny zpět!"
+
+#~ msgid "Display featured posts on blog/home page"
+#~ msgstr "Zobrazit zvýrazněné příspěvky na blogu"
+
+#~ msgid ""
+#~ "Use the \"Page with Featured Content\" template if you want it on "
+#~ "specific pages"
+#~ msgstr ""
+#~ "Pokud označíte, zvýrazněné příspěvky se zobrazí na hlavní stránce blogu"
+
+#~ msgid "Read the rest of this entry &raquo;"
+#~ msgstr "Celý příspěvek &raquo;"
+
+#~ msgid "Read the rest of this page &raquo;"
+#~ msgstr "Číst zbytek textu této stránky &raquo;"
+
+#~ msgid "%s comments"
+#~ msgstr "%s komentářů"
+
+#~ msgid "%s (%s topics)"
+#~ msgstr "%s (%s témat)"
+
+#~ msgid ""
+#~ "Type page, category or link IDs (depending on your selection above), "
+#~ "separated by commas"
+#~ msgstr ""
+#~ "Napište ID stránky, rubriky nebo odkazu (záleží co jste vybrali), "
+#~ "oddělujte čárkami"
+
+#~ msgid "Google Analytics sample code"
+#~ msgstr "Ukázkový kód Google Analytics"
+
+#~ msgid "Hide home button"
+#~ msgstr "Skrýt tlačítko úvod"

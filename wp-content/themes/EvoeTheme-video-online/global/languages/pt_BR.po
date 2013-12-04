@@ -1,0 +1,765 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: evoeTheme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-08 13:45-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme\n"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/404.php:10
+#: Trabalho/evoetheme/EvoeTheme/single.php:10
+#: Trabalho/evoetheme/EvoeTheme/search.php:10
+#: Trabalho/evoetheme/EvoeTheme/index.php:10
+#: Trabalho/evoetheme/EvoeTheme/archive.php:10
+#: Trabalho/evoetheme/EvoeTheme/page.php:10
+msgid "Homepage"
+msgstr "Página inicial"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/404.php:22
+msgid "404 error"
+msgstr "Erro 404"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/404.php:23
+msgid "Page not found."
+msgstr "Página não encontrada."
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/sidebar.php:9
+#: Trabalho/evoetheme/EvoeTheme/sidebar.php:20
+#: Trabalho/evoetheme/EvoeTheme/sidebar.php:31
+#: Trabalho/evoetheme/EvoeTheme/sidebar.php:42
+#: Trabalho/evoetheme/EvoeTheme/sidebar.php:53
+msgid "Search"
+msgstr "Busca"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/sidebar.php:10
+#: Trabalho/evoetheme/EvoeTheme/sidebar.php:21
+#: Trabalho/evoetheme/EvoeTheme/sidebar.php:32
+#: Trabalho/evoetheme/EvoeTheme/sidebar.php:43
+#: Trabalho/evoetheme/EvoeTheme/sidebar.php:54
+msgid "Categories"
+msgstr "Categorias"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/single.php:28
+#: Trabalho/evoetheme/EvoeTheme/search.php:29
+#: Trabalho/evoetheme/EvoeTheme/index.php:67
+#: Trabalho/evoetheme/EvoeTheme/archive.php:59
+#: Trabalho/evoetheme/EvoeTheme/page.php:29
+msgid "by"
+msgstr "por"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/single.php:28
+#: Trabalho/evoetheme/EvoeTheme/search.php:29
+#: Trabalho/evoetheme/EvoeTheme/index.php:67
+#: Trabalho/evoetheme/EvoeTheme/archive.php:59
+#: Trabalho/evoetheme/EvoeTheme/page.php:29
+msgid "in|category"
+msgstr "na categoria"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/single.php:28
+#: Trabalho/evoetheme/EvoeTheme/search.php:29
+#: Trabalho/evoetheme/EvoeTheme/index.php:67
+#: Trabalho/evoetheme/EvoeTheme/archive.php:59
+#: Trabalho/evoetheme/EvoeTheme/page.php:29
+msgid "on|date"
+msgstr "dia"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/single.php:28
+#: Trabalho/evoetheme/EvoeTheme/search.php:29
+#: Trabalho/evoetheme/EvoeTheme/index.php:67
+#: Trabalho/evoetheme/EvoeTheme/archive.php:59
+#: Trabalho/evoetheme/EvoeTheme/page.php:29
+msgid "d/m/Y"
+msgstr ""
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/single.php:28
+#: Trabalho/evoetheme/EvoeTheme/page.php:28
+msgid "Edit"
+msgstr "Editar"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/single.php:31
+#: Trabalho/evoetheme/EvoeTheme/search.php:33
+#: Trabalho/evoetheme/EvoeTheme/index.php:70
+#: Trabalho/evoetheme/EvoeTheme/archive.php:63
+#: Trabalho/evoetheme/EvoeTheme/page.php:32
+msgid "Tags: "
+msgstr ""
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/single.php:47
+#: Trabalho/evoetheme/EvoeTheme/search.php:49
+#: Trabalho/evoetheme/EvoeTheme/index.php:93
+#: Trabalho/evoetheme/EvoeTheme/archive.php:80
+#: Trabalho/evoetheme/EvoeTheme/page.php:48
+msgid "Not found"
+msgstr "Não encontrado"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/single.php:48
+msgid "Please, try again different keywords."
+msgstr "Por favor, tente novamente com palavras diferentes."
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/search.php:23
+msgid "Search results"
+msgstr "Resultado da busca"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/search.php:28
+#: Trabalho/evoetheme/EvoeTheme/comments.php:63
+#: Trabalho/evoetheme/EvoeTheme/index.php:66
+#: Trabalho/evoetheme/EvoeTheme/archive.php:58
+msgid "No comments"
+msgstr "Sem comentários"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/search.php:28
+#: Trabalho/evoetheme/EvoeTheme/index.php:66
+#: Trabalho/evoetheme/EvoeTheme/archive.php:58
+msgid "1 comment"
+msgstr "1 comentário"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/search.php:28
+#: Trabalho/evoetheme/EvoeTheme/index.php:66
+#: Trabalho/evoetheme/EvoeTheme/archive.php:58
+#, php-format
+msgid "% comments"
+msgstr "% commentários"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/search.php:28
+#: Trabalho/evoetheme/EvoeTheme/index.php:66
+#: Trabalho/evoetheme/EvoeTheme/archive.php:58
+msgid "comments"
+msgstr "comentários"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/search.php:28
+#: Trabalho/evoetheme/EvoeTheme/index.php:66
+#: Trabalho/evoetheme/EvoeTheme/archive.php:58
+msgid "comment"
+msgstr "comentário"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/search.php:34
+#: Trabalho/evoetheme/EvoeTheme/archive.php:64
+msgid "Continue reading"
+msgstr "Continue lendo"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/search.php:50
+#: Trabalho/evoetheme/EvoeTheme/archive.php:81
+#: Trabalho/evoetheme/EvoeTheme/page.php:49
+msgid "Please, try different keywords."
+msgstr "Por favor, tente com outras palavras."
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:3
+msgid "Please, don&#8217;t load this page directly. Thank you!"
+msgstr "Por favor, não acesse esta página diretamente. Obrigado!"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:6
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Este post está protegido. Entre com a senha para ver os comentários."
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:16
+msgid "Trackback/Pingback:"
+msgstr ""
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:26
+msgid "You need to be"
+msgstr "Você precisa estar"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:26
+msgid "logged in"
+msgstr "logado"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:26
+msgid "to post a comment."
+msgstr "para postar um comentário."
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:30
+msgid "Leave a comment"
+msgstr "Deixe um comentário"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:31
+msgid "Grab gravatar"
+msgstr "Adicione seu gravatar"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:39
+msgid "Your comment..."
+msgstr "Seu comentário..."
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:42
+msgid "Logged in as"
+msgstr "Logado como"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:45
+msgid "Your name"
+msgstr "Seu nome"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:46
+msgid "Your e-mail (it won&#8217;t be disclosed )"
+msgstr "Seu e-mail (não será divulgado)"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:47
+msgid "Your website (optional)"
+msgstr "Seu website (opcional)"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:51
+msgid "Comment|verb"
+msgstr "Comentário"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:53
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:63
+msgid "Comments (1)"
+msgstr "Comentários (1)"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:63
+msgid "Comments (%)"
+msgstr "Comentários (%)"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/comments.php:70
+msgid "Sorry, comments are closed."
+msgstr "Desculpe, os comentários estão fechados."
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/functions.php:166
+#: Trabalho/evoetheme/EvoeTheme/functions.php:178
+msgid "Your comment is waiting moderation."
+msgstr "Seu comentário está aguardando moderação."
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/functions.php:170
+#: Trabalho/evoetheme/EvoeTheme/functions.php:182
+msgid "Reply"
+msgstr "Responder"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/functions.php:184
+msgid "m, jS"
+msgstr ""
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/index.php:60
+msgid "Recent Posts"
+msgstr "Posts recentes"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/index.php:67
+msgid "Edit post"
+msgstr "Editar post"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/index.php:69
+msgid "Continue reading..."
+msgstr "Continue lendo..."
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/index.php:77
+msgid "&laquo; Previous"
+msgstr "&laquo; Anterior"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/index.php:80
+msgid "Next &raquo;"
+msgstr "Próximo &raquo;"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/index.php:94
+msgid "Sorry, please try again."
+msgstr "Desculpe, tente novamente."
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/footer.php:4
+msgid "Developed by"
+msgstr "Desenvolvido por"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/footer.php:4
+msgid "and"
+msgstr "e"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/footer.php:4
+#, php-format
+msgid "from the %s team"
+msgstr "da %s equipe"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/footer.php:4
+#, php-format
+msgid "members of the %s Community"
+msgstr "membros da %s Comunidade"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/footer.php:5
+msgid "Back to top"
+msgstr "Voltar ao topo"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/header.php:65
+msgid "Home"
+msgstr "Início"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/header.php:72
+msgid "Skip to content"
+msgstr "Ir para o conteúdo"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/archive.php:26
+#, php-format
+msgid "Category %s posts"
+msgstr "Posts da Categoria"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/archive.php:31
+#, php-format
+msgid "Posts tagged as %s"
+msgstr "Posts tagueados como"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/archive.php:36
+#: Trabalho/evoetheme/EvoeTheme/archive.php:41
+#: Trabalho/evoetheme/EvoeTheme/archive.php:46
+msgid "Posts from"
+msgstr "Posts de"
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/archive.php:36
+msgid "d, m, Y"
+msgstr ""
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/archive.php:41
+msgid "F, Y"
+msgstr ""
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/archive.php:46
+msgid "Y"
+msgstr ""
+
+#: /home/guilherme/Área de Trabalho/evoetheme/EvoeTheme/archive.php:51
+#, php-format
+msgid "%s&#8217;s posts"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/flickr_widget.php:33
+msgid "Flickr Photos"
+msgstr "Fotos do Flickr"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/flickr_widget.php:35
+msgid "http://flickr.com/services/feeds/photos_public.gne?id=78656712@N00&ampformat=rss_200"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/flickr_widget.php:85
+msgid "Title:"
+msgstr "Título:"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/flickr_widget.php:86
+msgid "Flickr RSS URL:"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/flickr_widget.php:87
+msgid "How many photos  would you like to display?"
+msgstr "Quantas fotos você gostaria de mostrar?"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_custom_theme.php:13
+msgid "Background image restored!"
+msgstr "Imagem de fundo restaurada!"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_custom_theme.php:21
+msgid "Logo image restored!"
+msgstr "Imagem da logo restaurada!"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_custom_theme.php:29
+msgid "Header image restored!"
+msgstr "Imagem do header restaurada!"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_custom_theme.php:37
+msgid "Pattern image restored!"
+msgstr "Imagem do pattern restaurada!"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_custom_theme.php:70
+msgid "Theme restored!"
+msgstr "Tema restaurado!"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_custom_theme.php:142
+msgid "Theme updated!"
+msgstr "Tema atualizado!"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:42
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:83
+msgid "Theme options"
+msgstr "Opções do tema"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:87
+msgid "Skins"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:88
+msgid "Design"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:89
+msgid "Global"
+msgstr "Geral"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:100
+msgid "Active theme"
+msgstr "Tema ativo"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:109
+msgid "Default themes"
+msgstr "Temas padrões"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:203
+msgid "Background"
+msgstr "Fundo"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:204
+msgid "Header"
+msgstr "Topo"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:205
+msgid "Content"
+msgstr "Conteúdo"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:210
+msgid "Choose the background color"
+msgstr "Escolha a cor de fundo"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:253
+msgid "Choose the background image"
+msgstr "Escolha a imagem de fundo"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:255
+msgid "Maximum file size is 800kb. Supported file types: png, jpg, gif."
+msgstr "Máximo de 800kb. Suporta: png, jpg, gif."
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:257
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:364
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:434
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:604
+msgid "Upload"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:260
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:367
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:437
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:607
+msgid "Restore image"
+msgstr "Restaurar imagem"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:261
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:368
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:438
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:608
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:672
+msgid "Restore"
+msgstr "Restaurar"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:266
+msgid "Background image options"
+msgstr "Opções de imagem de fundo"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:268
+msgid "Positioning"
+msgstr "Posicionamento"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:270
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:447
+msgid "center top"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:271
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:448
+msgid "center right"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:272
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:449
+msgid "center left"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:273
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:450
+msgid "center bottom"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:274
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:451
+msgid "left top"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:275
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:452
+msgid "left bottom"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:276
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:453
+msgid "right top"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:277
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:454
+msgid "right bottom"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:281
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:458
+msgid "Tile"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:283
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:460
+msgid "tile"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:284
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:461
+msgid "tile horizontally"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:285
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:462
+msgid "tile vertically"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:286
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:463
+msgid "no tile"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:290
+msgid "Attachment"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:292
+msgid "fixed"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:293
+msgid "scroll"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:302
+msgid "Choose the navigation bar opacity"
+msgstr "Mude a opacidade da barra de navegação"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:309
+msgid "Display blog title?"
+msgstr "Mostrar o título do blog?"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:311
+msgid "yes"
+msgstr "sim"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:312
+msgid "no"
+msgstr "não"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:317
+msgid "Choose title color"
+msgstr "Escolha a cor do título"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:360
+msgid "Choose logo image"
+msgstr "Escolha a imagem da logo"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:362
+msgid "Maximum file size is 800kb. Supported file types: png, jpg, gif. Maximum file dimensions: 960px x 125px"
+msgstr "Máximo de 800kb. Suporta: png, jpg, gif. Dimensão máxima: 960px x 125px"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:371
+msgid "Logo options"
+msgstr "Opções da logo"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:373
+msgid "Logo positioning"
+msgstr "Posicionamento da logo"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:375
+msgid "center"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:376
+msgid "left"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:377
+msgid "right"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:384
+msgid "Choose header color"
+msgstr "Escolha a cor topo"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:430
+msgid "Choose a header background image"
+msgstr "Escolha a imagem de fundo do topo"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:432
+msgid "Maximum file size is 800kb. Supported file types: png, jpg, gif. maximum file dimensions: 1920px x 125px"
+msgstr "Máximo de 800kb. Suporta: png, jpg, gif. Dimensão máxima: 1920px x 125px "
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:443
+msgid "Header background image options"
+msgstr "Opções da imagem de fundo do topo"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:445
+msgid "Posicioning"
+msgstr "Posicionamento"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:473
+msgid "Choose title box background color"
+msgstr "Escolha a cor do fundo da caixa de título"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:515
+msgid "Choose the title box text color"
+msgstr "Escolha a cor do texto da caixa de título"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:558
+msgid "Choose a pattern for the title box"
+msgstr "Escolha um pattern para a caixa de título"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:600
+msgid "Choose an image for the title box pattern"
+msgstr "Escolha uma imagem para o pattern da caixa de título"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:602
+msgid "Maximum file size is 150kb. Supported file types: png, jpg, gif. Maximum file dimensions: 630px x 36px"
+msgstr "Tamanho máximo de 150kb. Suporta: png, jpg, gif. Dimenssões: 630px x 36px"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:611
+msgid "Choose the title box pattern opacity"
+msgstr "Opacidade do pattern da caixa de título"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:619
+msgid "Choose blog links color"
+msgstr "Escolha a cor dos links"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:665
+msgid "Choose a featured category"
+msgstr "Escolha a categoria destaque"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.php:674
+msgid "Save"
+msgstr "Salvar"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.js.php:353
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.js.php:388
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.js.php:423
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.js.php:458
+msgid "Error: extensão do arquivo invalida."
+msgstr "Erro: extensão do arquivo inválida"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/inc/admin_subTheme_page.js.php:641
+msgid "Deseja restaurar?"
+msgstr "Deseja restaurar?"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/404.php:6
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/single.php:6
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/search.php:6
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/index.php:6
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/archive.php:6
+msgid "Menu"
+msgstr ""
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/single.php:39
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/search.php:40
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/archive.php:69
+msgid "No posts found!"
+msgstr "Nenhum post encontrado!"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/search.php:20
+msgid "Search result for"
+msgstr "Resultado da busca por"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/index.php:20
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/index.php:57
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/page.php:18
+msgid "Recent posts"
+msgstr "Posts recentes"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/index.php:21
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/index.php:58
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/page.php:19
+msgid "Popular posts"
+msgstr "Posts populares"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/index.php:41
+msgid "No posts found"
+msgstr "Nenhum post encontrado"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/index.php:74
+msgid "View|plural"
+msgstr "Ver plural"
+
+#: /home/guilherme/Área de
+#: Trabalho/evoetheme/EvoeTheme/global/mobile/footer.php:5
+msgid "Top"
+msgstr "Topo"
+

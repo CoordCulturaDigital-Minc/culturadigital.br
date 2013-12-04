@@ -1,0 +1,545 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: piano-black\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-19 18:11+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mono-lab <mail@mono-lab.net>\n"
+"Language-Team: monolab <mail@monolab.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: I:\\xampplite\\htdocs\\pianoblack\n"
+"X-Poedit-SearchPath-0: wp-content\\themes\\pianoblack\n"
+
+#: wp-content\themes\pianoblack/archive.php:12
+#, php-format
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr "カテゴリー : %s"
+
+#: wp-content\themes\pianoblack/archive.php:15
+#, php-format
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr "タグ : %s"
+
+#: wp-content\themes\pianoblack/archive.php:18
+#: wp-content\themes\pianoblack/archive.php:21
+#: wp-content\themes\pianoblack/archive.php:24
+#, php-format
+msgid "Archive for %s"
+msgstr "%s の記事"
+
+#: wp-content\themes\pianoblack/archive.php:18
+#: wp-content\themes\pianoblack/archive.php:39
+#: wp-content\themes\pianoblack/comments.php:117
+#: wp-content\themes\pianoblack/functions.php:401
+#: wp-content\themes\pianoblack/index.php:11
+#: wp-content\themes\pianoblack/page-nocomment.php:16
+#: wp-content\themes\pianoblack/page-noside.php:15
+#: wp-content\themes\pianoblack/page.php:13
+#: wp-content\themes\pianoblack/search.php:18
+msgid "F jS, Y"
+msgstr "Y年 n月 j日"
+
+#: wp-content\themes\pianoblack/archive.php:21
+msgid "F, Y"
+msgstr "Y年 n月"
+
+#: wp-content\themes\pianoblack/archive.php:24
+msgid "Y"
+msgstr "Y年"
+
+#: wp-content\themes\pianoblack/archive.php:27
+msgid "Author Archive"
+msgstr "投稿者のアーカイブ"
+
+#: wp-content\themes\pianoblack/archive.php:30
+msgid "Blog Archives"
+msgstr "ブログアーカイブ"
+
+#: wp-content\themes\pianoblack/archive.php:40
+#: wp-content\themes\pianoblack/index.php:12
+#: wp-content\themes\pianoblack/page-nocomment.php:17
+#: wp-content\themes\pianoblack/page-noside.php:16
+#: wp-content\themes\pianoblack/page.php:14
+#: wp-content\themes\pianoblack/search.php:20
+msgid "By "
+msgstr "投稿者 : "
+
+#: wp-content\themes\pianoblack/archive.php:41
+#: wp-content\themes\pianoblack/archive.php:56
+#: wp-content\themes\pianoblack/comments.php:51
+#: wp-content\themes\pianoblack/index.php:13
+#: wp-content\themes\pianoblack/index.php:28
+msgid "Write comment"
+msgstr "コメントを書く"
+
+#: wp-content\themes\pianoblack/archive.php:42
+#: wp-content\themes\pianoblack/comments.php:118
+#: wp-content\themes\pianoblack/index.php:14
+#: wp-content\themes\pianoblack/page-nocomment.php:18
+#: wp-content\themes\pianoblack/page-noside.php:17
+#: wp-content\themes\pianoblack/page.php:15
+#: wp-content\themes\pianoblack/search.php:21
+msgid "[ EDIT ]"
+msgstr "[ 編集 ]"
+
+#: wp-content\themes\pianoblack/archive.php:45
+#: wp-content\themes\pianoblack/index.php:17
+#: wp-content\themes\pianoblack/page-nocomment.php:21
+#: wp-content\themes\pianoblack/page-noinfo-nocomment.php:16
+#: wp-content\themes\pianoblack/page-noinfo.php:16
+#: wp-content\themes\pianoblack/page-noside-noinfo-nocomment.php:14
+#: wp-content\themes\pianoblack/page-noside-noinfo.php:14
+#: wp-content\themes\pianoblack/page-noside.php:20
+#: wp-content\themes\pianoblack/page.php:18
+msgid "Read more"
+msgstr "続きを読む"
+
+#: wp-content\themes\pianoblack/archive.php:56
+#: wp-content\themes\pianoblack/index.php:28
+msgid "1 comment"
+msgstr "コメント ( 1 )"
+
+#: wp-content\themes\pianoblack/archive.php:56
+#: wp-content\themes\pianoblack/index.php:28
+#, php-format
+msgid "% comments"
+msgstr "コメント ( % )"
+
+#: wp-content\themes\pianoblack/archive.php:62
+#: wp-content\themes\pianoblack/index.php:40
+#: wp-content\themes\pianoblack/page-nocomment.php:28
+#: wp-content\themes\pianoblack/page-noinfo-nocomment.php:23
+#: wp-content\themes\pianoblack/page-noinfo.php:23
+#: wp-content\themes\pianoblack/page-noside-noinfo-nocomment.php:21
+#: wp-content\themes\pianoblack/page-noside-noinfo.php:21
+#: wp-content\themes\pianoblack/page-noside.php:27
+#: wp-content\themes\pianoblack/page.php:25
+#: wp-content\themes\pianoblack/search.php:34
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "該当する記事は見つかりませんでした。"
+
+#: wp-content\themes\pianoblack/archive.php:68
+#: wp-content\themes\pianoblack/comments.php:145
+#: wp-content\themes\pianoblack/index.php:36
+#: wp-content\themes\pianoblack/search.php:30
+msgid "Return top"
+msgstr "TOP"
+
+#: wp-content\themes\pianoblack/comments.php:10
+#: wp-content\themes\pianoblack/comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "この投稿はパスワードで保護されています。コメントを閲覧するにはパスワードを入力してください。"
+
+#: wp-content\themes\pianoblack/comments.php:37
+msgid "Comments RSS"
+msgstr "コメントフィード"
+
+#: wp-content\themes\pianoblack/comments.php:43
+#: wp-content\themes\pianoblack/comments.php:46
+msgid "Comments"
+msgstr "コメント"
+
+#: wp-content\themes\pianoblack/comments.php:44
+msgid "Trackbacks"
+msgstr "トラックバック"
+
+#: wp-content\themes\pianoblack/comments.php:47
+msgid "Trackbacks are closed."
+msgstr "この記事へのトラックバックは閉じられています。"
+
+#: wp-content\themes\pianoblack/comments.php:79
+msgid "No comments yet."
+msgstr "コメントはまだありません。"
+
+#: wp-content\themes\pianoblack/comments.php:106
+msgid "TrackBack URL"
+msgstr "トラックバック URL"
+
+#: wp-content\themes\pianoblack/comments.php:121
+msgid "Trackback from : "
+msgstr "トラックバック先 :"
+
+#: wp-content\themes\pianoblack/comments.php:127
+msgid "No trackbacks yet."
+msgstr "トラックバックはまだありません。"
+
+#: wp-content\themes\pianoblack/comments.php:142
+msgid "Comments are closed."
+msgstr "この記事へのコメントは閉じられています。"
+
+#: wp-content\themes\pianoblack/comments.php:158
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "コメントするには、 <a href=\"%s\">[ ログイン ]</a> する必要があります。"
+
+#: wp-content\themes\pianoblack/comments.php:177
+#: wp-content\themes\pianoblack/comments.php:179
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "<a href=\"%1$s\">%2$s</a> としてログインしています。"
+
+#: wp-content\themes\pianoblack/comments.php:177
+#: wp-content\themes\pianoblack/comments.php:179
+msgid "Log out of this account"
+msgstr "このアカウントからログアウトする。"
+
+#: wp-content\themes\pianoblack/comments.php:177
+#: wp-content\themes\pianoblack/comments.php:179
+msgid "Log out"
+msgstr "ログアウト"
+
+#: wp-content\themes\pianoblack/comments.php:184
+msgid "NAME"
+msgstr "名前"
+
+#: wp-content\themes\pianoblack/comments.php:184
+#: wp-content\themes\pianoblack/comments.php:185
+msgid "( required )"
+msgstr "( 必須 )"
+
+#: wp-content\themes\pianoblack/comments.php:185
+msgid "E-MAIL"
+msgstr "メールアドレス"
+
+#: wp-content\themes\pianoblack/comments.php:185
+msgid "- will not be published -"
+msgstr "- 非公開 -"
+
+#: wp-content\themes\pianoblack/comments.php:186
+msgid "URL"
+msgstr "ウェブサイト"
+
+#: wp-content\themes\pianoblack/comments.php:195
+msgid "Submit Comment"
+msgstr "コメントを送信する"
+
+#: wp-content\themes\pianoblack/functions.php:168
+msgid "Theme Options"
+msgstr "Pianoblackオプション設定"
+
+#: wp-content\themes\pianoblack/functions.php:176
+msgid "Theme options have been saved."
+msgstr "オプションは更新されました。"
+
+#: wp-content\themes\pianoblack/functions.php:181
+msgid "Piano Black Options"
+msgstr "Piano black　オプション設定画面"
+
+#: wp-content\themes\pianoblack/functions.php:185
+#: wp-content\themes\pianoblack/functions.php:282
+msgid "Save Changes"
+msgstr "設定を保存する"
+
+#: wp-content\themes\pianoblack/functions.php:189
+msgid "Check if you would like to use original image for logo instead of using plain text.<br />( Don't forget to upload image to, wp-content/themes/pianoblack/img/ )"
+msgstr "ブログのタイトルに画像を使いたい場合は、下にチェックを入れてください。<br />注意：必ず画像を、wp-content/themes/pianoblack/img/ にアップロードし、下にアップロードした画像名をご記入ください。"
+
+#: wp-content\themes\pianoblack/functions.php:190
+#: wp-content\themes\pianoblack/functions.php:197
+#: wp-content\themes\pianoblack/functions.php:208
+#: wp-content\themes\pianoblack/functions.php:227
+#: wp-content\themes\pianoblack/functions.php:230
+#: wp-content\themes\pianoblack/functions.php:237
+#: wp-content\themes\pianoblack/functions.php:242
+#: wp-content\themes\pianoblack/functions.php:249
+#: wp-content\themes\pianoblack/functions.php:252
+#: wp-content\themes\pianoblack/functions.php:261
+#: wp-content\themes\pianoblack/functions.php:266
+msgid "Yes"
+msgstr " 表示する"
+
+#: wp-content\themes\pianoblack/functions.php:191
+msgid "Write your logo file name."
+msgstr "ロゴの名前を拡張子を含めてこちらに記入してください。　（例：logo.gif）"
+
+#: wp-content\themes\pianoblack/functions.php:196
+msgid "Show Information on sidebar."
+msgstr "サイドバーにインフォメーションを表示する　（表示しない場合はチェックをはずしてください。）"
+
+#: wp-content\themes\pianoblack/functions.php:199
+msgid "Information title."
+msgstr "インフォメーションのタイトル"
+
+#: wp-content\themes\pianoblack/functions.php:202
+msgid "Information contents. ( HTML tag is available. )"
+msgstr "インフォメーションの内容 ( 無記入の場合は、代替テキストが表示されます )<br />※ HTMLタグを使用することができます。"
+
+#: wp-content\themes\pianoblack/functions.php:207
+msgid "Check if you would like to use Custom Navigation Menus in WordPress 3.0."
+msgstr "WordPress3.0のカスタムメニューを使いたい場合は、下にチェックを入れてください。<br />カスタムメニューは外観項目から設定できます。"
+
+#: wp-content\themes\pianoblack/functions.php:211
+msgid "Header menu."
+msgstr "ページ上部のメニュー"
+
+#: wp-content\themes\pianoblack/functions.php:213
+msgid "Use pages for header menu."
+msgstr "ページを使用する"
+
+#: wp-content\themes\pianoblack/functions.php:214
+msgid "Use categories for header menu."
+msgstr "カテゴリーを使用する"
+
+#: wp-content\themes\pianoblack/functions.php:217
+msgid "Exclude Pages<br />(Page ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr "ヘッダーメニューから除外するページ<br />（除外するページのＩＤを半角数字で記入してください。複数有る場合は、半角カンマ「,」で区切ってください。記入例： 1,2,3 ）"
+
+#: wp-content\themes\pianoblack/functions.php:220
+msgid "Exclude Categories<br />(Category ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr "ヘッダーメニューから除外するカテゴリー<br />（除外するカテゴリーのＩＤを半角数字で記入してください。複数有る場合は、半角カンマ「,」で区切ってください。記入例： 1,2,3 ）"
+
+#: wp-content\themes\pianoblack/functions.php:226
+msgid "Show search on header."
+msgstr "検索欄をヘッダーに表示する"
+
+#: wp-content\themes\pianoblack/functions.php:229
+msgid "Use <a href=\"http://www.google.com/cse/\">Google Custom Search</a><br />(If you check this option,don't forget to write your Google Custom Search ID below.)"
+msgstr "<a href=\"http://www.google.com/cse/\">Google カスタム検索</a>を利用する<br />(もし利用する場合は、下のID欄にIDをご記入ください。)"
+
+#: wp-content\themes\pianoblack/functions.php:231
+msgid "Input your Google Custom Search ID."
+msgstr "Googleカスタム検索のIDをご記入ください。"
+
+#: wp-content\themes\pianoblack/functions.php:236
+msgid "Show rss on header."
+msgstr "RSSボタンをヘッダーに表示する"
+
+#: wp-content\themes\pianoblack/functions.php:241
+msgid "Show Twitter button on header."
+msgstr "Twitterボタンをヘッダーに表示する"
+
+#: wp-content\themes\pianoblack/functions.php:243
+msgid "Write your Twitter URL."
+msgstr "あなたのTwitter URL をこちらに記入してください。"
+
+#: wp-content\themes\pianoblack/functions.php:248
+msgid "Show author."
+msgstr "投稿者を表示する"
+
+#: wp-content\themes\pianoblack/functions.php:251
+msgid "Show border aroud image in post area."
+msgstr "投稿欄の画像に枠線を付ける。"
+
+#: wp-content\themes\pianoblack/functions.php:254
+msgid "Post meta."
+msgstr "投稿記事の下に表示する情報"
+
+#: wp-content\themes\pianoblack/functions.php:256
+msgid "Show category."
+msgstr "カテゴリーを表示する"
+
+#: wp-content\themes\pianoblack/functions.php:257
+msgid "Show tag."
+msgstr "タグを表示する"
+
+#: wp-content\themes\pianoblack/functions.php:260
+msgid "Show next preview post at the bottom of single post page."
+msgstr "次の記事、前の記事をシングルページの下部に表示する。"
+
+#: wp-content\themes\pianoblack/functions.php:265
+msgid "Show time on comment."
+msgstr "コメントに時間を表示する。"
+
+#: wp-content\themes\pianoblack/functions.php:270
+msgid "Page navi type."
+msgstr "ページナビゲーションの種類"
+
+#: wp-content\themes\pianoblack/functions.php:272
+msgid "Use Pager."
+msgstr "ページナビを使用する。"
+
+#: wp-content\themes\pianoblack/functions.php:273
+msgid "Use normal style next-previous link."
+msgstr "通常のリンク （ 次のページ ・ 前のページ ） を使用する。"
+
+#: wp-content\themes\pianoblack/functions.php:278
+msgid "Check if you want to show Return top link."
+msgstr "右下に「ページ上部へ移動する」を表示する。"
+
+#: wp-content\themes\pianoblack/functions.php:279
+msgid "Show Return top link."
+msgstr "表示する"
+
+#: wp-content\themes\pianoblack/functions.php:401
+msgid " g:ia"
+msgstr ""
+
+#: wp-content\themes\pianoblack/functions.php:408
+#: wp-content\themes\pianoblack/functions.php:410
+#: wp-content\themes\pianoblack/functions.php:413
+msgid "REPLY"
+msgstr "返信"
+
+#: wp-content\themes\pianoblack/functions.php:415
+msgid "QUOTE"
+msgstr "引用"
+
+#: wp-content\themes\pianoblack/functions.php:416
+msgid "EDIT"
+msgstr "編集"
+
+#: wp-content\themes\pianoblack/functions.php:422
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは管理人の承認待ちです。（ あなた以外の人には表示されていません。 ）"
+
+#: wp-content\themes\pianoblack/header.php:6
+msgid " | "
+msgstr ""
+
+#: wp-content\themes\pianoblack/header.php:50
+msgid "HOME"
+msgstr "ホーム"
+
+#: wp-content\themes\pianoblack/header.php:82
+msgid "Google Search"
+msgstr "Google検索"
+
+#: wp-content\themes\pianoblack/header.php:84
+#: wp-content\themes\pianoblack/header.php:92
+msgid "Search from this blog."
+msgstr "検索する"
+
+#: wp-content\themes\pianoblack/header.php:91
+msgid "Search"
+msgstr "サイト内検索"
+
+#: wp-content\themes\pianoblack/header.php:99
+msgid "Entries RSS"
+msgstr "投稿RSS"
+
+#: wp-content\themes\pianoblack/header.php:99
+msgid "RSS"
+msgstr ""
+
+#: wp-content\themes\pianoblack/header.php:102
+msgid "TWITTER"
+msgstr ""
+
+#: wp-content\themes\pianoblack/header.php:102
+msgid "Twitter"
+msgstr ""
+
+#: wp-content\themes\pianoblack/navigation.php:26
+msgid "&laquo; Previous"
+msgstr "&laquo; 前のページ"
+
+#: wp-content\themes\pianoblack/navigation.php:27
+msgid "Next &raquo;"
+msgstr "次のページ &raquo;"
+
+#: wp-content\themes\pianoblack/navigation.php:33
+msgid "Newer Entries"
+msgstr "新しい記事"
+
+#: wp-content\themes\pianoblack/navigation.php:34
+msgid "Older Entries"
+msgstr "以前の記事"
+
+#: wp-content\themes\pianoblack/search.php:10
+msgid "Search results for "
+msgstr "検索結果 "
+
+#: wp-content\themes\pianoblack/search.php:10
+msgid " hit"
+msgstr "件"
+
+#: wp-content\themes\pianoblack/search.php:19
+msgid "Posted in "
+msgstr "カテゴリー : "
+
+#: wp-content\themes\pianoblack/sidebar.php:5
+msgid "INFORMATION"
+msgstr ""
+
+#: wp-content\themes\pianoblack/sidebar.php:7
+msgid "Change this sentence and title from admin Theme option page."
+msgstr "ここの文章と上に表示されているタイトルは管理画面の、 「 Pianoblackオプション設定 」 から変更してください。"
+
+#: wp-content\themes\pianoblack/sidebar.php:32
+msgid "RECENT ENTRY"
+msgstr ""
+
+#: wp-content\themes\pianoblack/sidebar.php:43
+msgid "CATEGORY"
+msgstr ""
+
+#: wp-content\themes\pianoblack/sidebar.php:51
+msgid "ARCHIVES"
+msgstr ""
+
+#: wp-content\themes\pianoblack/sidebar.php:60
+msgid "LINKS"
+msgstr ""
+
+#: wp-content\themes\pianoblack/sidebar.php:79
+msgid "Copyright &copy;&nbsp; "
+msgstr ""
+
+#: wp-content\themes\pianoblack/sidebar.php:88
+msgid "Theme designed by <a href=\"http://www.mono-lab.net/\">mono-lab</a>"
+msgstr ""
+
+#: wp-content\themes\pianoblack/sidebar.php:89
+msgid "Powered by <a href=\"http://wordpress.org/\">WordPress</a>"
+msgstr ""
+
+#~ msgid ""
+#~ "Check if you would like to use image for logo.<br />Replace your original "
+#~ "image with pianoblack / img / logo.gif<br />Adjust position in style.css "
+#~ "line 54"
+#~ msgstr ""
+#~ "ロゴに画像を利用したい場合はチェックをしてください。<br />（pianoblackテー"
+#~ "マ内のimgフォルダにあるlogo.gifをご自身のロゴへと上書きしてください。<br /"
+#~ ">画像の位置の調整はstyle.cssの54行目付近にある#logo_imageのmarginを修正し"
+#~ "てください。）"
+
+#~ msgid ""
+#~ "Check if you want to show Return top link.<br />( NOTICE : Return top "
+#~ "link does not work on IE6. )"
+#~ msgstr ""
+#~ "RETURN TOP　リンクを画面右下に表示する。　（表示しない場合はチェックをはず"
+#~ "してください。）<br />（注意：IE6では表示されません。）"
+
+#~ msgid "[ READ MORE ]"
+#~ msgstr " - [ 続きを読む ]"
+
+#~ msgid "Page Top"
+#~ msgstr "ページ上部に移動"
+
+#~ msgid "Title for Information area"
+#~ msgstr ""
+#~ "インフォメーションのタイトル　( 無記入の場合は、INFORMATION と表示されま"
+#~ "す )"
+
+#~ msgid "Post title items."
+#~ msgstr "投稿記事のタイトルに表示する項目　（ 複数選択可能 ）"
+
+#~ msgid "Show breadcrumb."
+#~ msgstr "RSSフィードボタンをヘッダーに表示する"
+
+#~ msgid "Archive for %s|Daily archive page"
+#~ msgstr "%s の記事"
+
+#~ msgid "Archive for %s|Monthly archive page"
+#~ msgstr "%s の記事"
+
+#~ msgid "Archive for %s|Yearly archive page"
+#~ msgstr "%s の記事"
+
+#~ msgid "Select pages or categories for header menu."
+#~ msgstr "トップメニュー"
+
+#~ msgid "Check items to show on the post title."
+#~ msgstr "投稿記事のタイトル直下に表示する項目　（複数選択可能）"
+
+#~ msgid "Select pager or normal next-previous link for the page navigation."
+#~ msgstr "ページナビゲーション"
+
+#~ msgid "Posted by : "
+#~ msgstr "投稿者 : "

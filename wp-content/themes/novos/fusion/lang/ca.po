@@ -1,0 +1,624 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fusion 2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-17 22:16+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Enfasystem <helena@enfasystem.net>\n"
+"Language-Team: enfasystem.net <helena@enfasystem.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /home/hel/curro/wordpress/fusion\n"
+
+#: /home/hel/curro/wordpress/fusion/footer.php:39
+#, php-format
+msgid "Fusion theme by %s"
+msgstr "Tema Fusion de %s"
+
+#: /home/hel/curro/wordpress/fusion/footer.php:41
+#, php-format
+msgid "powered by %s"
+msgstr "Funcionant amb %s"
+
+#: /home/hel/curro/wordpress/fusion/footer.php:44
+msgid "Entries (RSS)"
+msgstr "Entrades (RSS)"
+
+#: /home/hel/curro/wordpress/fusion/footer.php:44
+msgid "and"
+msgstr "i"
+
+#: /home/hel/curro/wordpress/fusion/footer.php:44
+msgid "Comments (RSS)"
+msgstr "Comentaris (RSS)"
+
+#: /home/hel/curro/wordpress/fusion/footer.php:51
+msgid "Increase/Decrease text size"
+msgstr "Augmentar/Dismunir tamany text"
+
+#: /home/hel/curro/wordpress/fusion/footer.php:52
+msgid "Switch between full and fixed width"
+msgstr "Canviar entre fluit i amplada fixa"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Introdueixi la seva contrassenya per a veure el comentari"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:19
+msgid "Comments"
+msgstr "Comentaris"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:20
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:39
+msgid "No comments yet."
+msgstr "No hi ha Comentaris"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:60
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Ha d'estar <a href=\"%s\">registrat</a> per a comentar en aquesta entrada."
+
+#: /home/hel/curro/wordpress/fusion/comments.php:67
+msgid "Cancel Reply"
+msgstr "Cancelar resposta"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:73
+#, php-format
+msgid "Logged in as %s."
+msgstr "Registrat com a %s."
+
+#: /home/hel/curro/wordpress/fusion/comments.php:75
+msgid "Log out of this account"
+msgstr "Sortir d'aquest compte"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:75
+msgid "Logout &raquo;"
+msgstr "Sortir &raquo;"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:79
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Benvingut de nou, <strong>%s</strong>."
+
+#: /home/hel/curro/wordpress/fusion/comments.php:79
+msgid "Change &raquo;"
+msgstr "Canviar &raquo;"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:79
+msgid "Close &raquo;"
+msgstr "Tancar &raquo;"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:84
+msgid "Name"
+msgstr "Nom"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:84
+#: /home/hel/curro/wordpress/fusion/comments.php:88
+msgid "(required)"
+msgstr "(Requerit)"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:88
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:88
+msgid "(will not be published)"
+msgstr "(No serà publicat)"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:92
+msgid "Website"
+msgstr "Pàgina web"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:111
+#, php-format
+msgid "Spam protection: Sum of %s + %s = ?"
+msgstr "Protecció Anti-Spam: Suma de %s + %s = ?"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:121
+msgid "Submit Comment"
+msgstr "Enviar Comentari"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:138
+msgid "No trackbacks yet."
+msgstr "No hi ha trackbacks"
+
+#: /home/hel/curro/wordpress/fusion/comments.php:151
+msgid "Comments are closed."
+msgstr "Els Comentaris estan tancats"
+
+#: /home/hel/curro/wordpress/fusion/page-3col.php:16
+#: /home/hel/curro/wordpress/fusion/page-nosidebar.php:16
+msgid "Read the rest of this page &raquo;"
+msgstr "Llegir la resta de l'entrada &raquo;"
+
+#: /home/hel/curro/wordpress/fusion/header.php:171
+msgid "You are Home"
+msgstr "Està a l'Inici"
+
+#: /home/hel/curro/wordpress/fusion/header.php:171
+#: /home/hel/curro/wordpress/fusion/header.php:173
+msgid "Home"
+msgstr "Inici"
+
+#: /home/hel/curro/wordpress/fusion/header.php:173
+msgid "Click for Home"
+msgstr "Click per anar a l'inici"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:139
+msgid "Fusion settings"
+msgstr "Opcions del tema Fusion"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:146
+msgid "Fusion theme settings"
+msgstr "Opcions del tema Fusion"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:148
+msgid "Settings saved."
+msgstr "Les preferencies s'han guardat."
+
+#: /home/hel/curro/wordpress/fusion/functions.php:195
+msgid "General"
+msgstr "General"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:204
+msgid "Use jQuery"
+msgstr "Fer servir JQuery"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:204
+msgid "(Don't change this unless you know what you're doing)"
+msgstr "(No canvii això si no està segur del que fa)"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:206
+#: /home/hel/curro/wordpress/fusion/functions.php:239
+#: /home/hel/curro/wordpress/fusion/functions.php:309
+msgid "Yes"
+msgstr "Si"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:208
+#: /home/hel/curro/wordpress/fusion/functions.php:242
+#: /home/hel/curro/wordpress/fusion/functions.php:312
+msgid "No"
+msgstr "No"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:215
+msgid "Homepage meta keywords"
+msgstr "Paraules clau"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:215
+msgid "(Separate with commas. Tags are used as keywords on other pages. Leave empty if you are using a SEO plugin)"
+msgstr "(Separades per comes. Les etiquetes es fan servir com a paraules clau en altres pàgines. Deixi-ho buit si fa servir un plugin SEO)"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:226
+msgid "Index page/Archives show:"
+msgstr "L'index de pàgines/Arxius mostra:"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:228
+msgid "Full posts"
+msgstr "Entrades completes"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:230
+msgid "Excerpts only"
+msgstr "Només sumaris"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:237
+msgid "Show layout controls (Aa/<>)"
+msgstr "Desactivar controls (Aa/<>)"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:255
+msgid "Header"
+msgstr "Capçalera"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:263
+msgid "Top navigation shows"
+msgstr "La navegació superior mostra"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:265
+msgid "Pages"
+msgstr "Pàgines"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:267
+#: /home/hel/curro/wordpress/fusion/functions.php:472
+msgid "Categories"
+msgstr "Categories"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:275
+msgid "Header background"
+msgstr "Fons de la capçalera"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:279
+msgid "Theme default (gray noise)"
+msgstr "Tema per defecte (Gray noise)"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:280
+msgid "User defined image(s) (upload)"
+msgstr "Imatges definides per l'usuari (upload)"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:281
+msgid "User defined color"
+msgstr "Color definit per l'usuari"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:286
+msgid "Centered image (upload a 960x200 image for best fit):"
+msgstr "Imatge centrada (per a la màxima optimització, pugi una imatge de 960x200 pixels)"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:291
+msgid "Tiled image, repeats itself across the entire header (centered image will show on top of it, if specified):"
+msgstr "Imatge en mosaic, es repeteix a través de la capçalera (es mostrarà una imatge centrada sobre aquesta, si s'especifica)"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:297
+msgid "Pick a color"
+msgstr "Seleccioni un color"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:307
+msgid "Logo image"
+msgstr "Imatge de logo"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:315
+msgid "Upload a custom logo image"
+msgstr "Fer servir una imatge customitzada com a logo"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:331
+msgid "Sidebar"
+msgstr "Cercar"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:339
+msgid "Sidebar position"
+msgstr "Posició del sidebar"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:341
+msgid "Left"
+msgstr "Esquerra"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:344
+msgid "Right (default)"
+msgstr "Dreta (per defecte)"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:356
+msgid "Footer"
+msgstr "Peu"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:364
+msgid "Add content"
+msgstr "Afegir contingut"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:364
+msgid "(HTML allowed)"
+msgstr "(HTML permès)"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:380
+msgid "User CSS code"
+msgstr "Codi CSS personalizat"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:389
+msgid "Modify anything related to design using simple CSS"
+msgstr "Modifiqui qualsevol cosa relacionada amb el disseny fent servir CSS"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:389
+msgid "Avoid modifying theme files and use this option instead to preserve changes after update"
+msgstr "Eviti modificar els fitxers de tema, enlloc d'això faci servir aquesta opció per a preservar els canvis després d'actualitzar el tema"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:417
+msgid "Save changes"
+msgstr "Guardar Canvis"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:487
+#: /home/hel/curro/wordpress/fusion/functions.php:503
+#: /home/hel/curro/wordpress/fusion/functions.php:542
+#: /home/hel/curro/wordpress/fusion/functions.php:543
+#: /home/hel/curro/wordpress/fusion/sidebar.php:42
+#: /home/hel/curro/wordpress/fusion/searchform.php:7
+msgid "Search"
+msgstr "Cercar"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:531
+msgid "Search handled by:"
+msgstr "Cerca gestionada per:"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:536
+msgid "Find <code>name='cx'</code> in the <strong>Search box code</strong> of <a href='http://www.google.com/coop/cse/'>Google Custom Search Engine</a>, and type the <code>value</code> above.<br/>"
+msgstr "Busqui <code>name='cx'</code> al <strong>codi de la caixa de cerca</strong> del <a href='http://www.google.com/coop/cse/'>Google Custom Search Engine</a>, i escrigui'n el <code>value</code> aqui dalt.<br/>"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:596
+#, php-format
+msgid "%s by %s on %s"
+msgstr "%s per %s el %s"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:596
+#: /home/hel/curro/wordpress/fusion/archive.php:13
+#: /home/hel/curro/wordpress/fusion/archive.php:31
+msgid "F jS, Y"
+msgstr "j/M/Y"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:596
+msgid "H:i"
+msgstr "H:i"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:603
+msgid "Your comment is awaiting moderation."
+msgstr "El seu comentari està pendent de moderació"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:614
+msgid "Reply"
+msgstr "Respondre"
+
+#: /home/hel/curro/wordpress/fusion/functions.php:616
+msgid "Quote"
+msgstr "Citar"
+
+#: /home/hel/curro/wordpress/fusion/author.php:25
+msgid "This user hasn't shared any biographical information"
+msgstr "Aquest usuari no ha compartit cap informació biogràfica"
+
+#: /home/hel/curro/wordpress/fusion/author.php:30
+msgid "Homepage:"
+msgstr "Inici:"
+
+#: /home/hel/curro/wordpress/fusion/author.php:31
+msgid "Yahoo Messenger:"
+msgstr "Yahoo Messenger:"
+
+#: /home/hel/curro/wordpress/fusion/author.php:32
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: /home/hel/curro/wordpress/fusion/author.php:33
+msgid "AIM:"
+msgstr "AIM:"
+
+#: /home/hel/curro/wordpress/fusion/author.php:42
+#: /home/hel/curro/wordpress/fusion/archive.php:31
+#, php-format
+msgid "Posts by %s"
+msgstr "Escrit per %s"
+
+#: /home/hel/curro/wordpress/fusion/author.php:46
+#: /home/hel/curro/wordpress/fusion/sidebar.php:16
+#: /home/hel/curro/wordpress/fusion/image.php:27
+#: /home/hel/curro/wordpress/fusion/search.php:22
+#: /home/hel/curro/wordpress/fusion/single.php:30
+msgid "l, F jS, Y"
+msgstr "l, j/M/Y"
+
+#: /home/hel/curro/wordpress/fusion/author.php:47
+#: /home/hel/curro/wordpress/fusion/search.php:23
+msgid "Tags: "
+msgstr "Etiquetes:"
+
+#: /home/hel/curro/wordpress/fusion/author.php:47
+#: /home/hel/curro/wordpress/fusion/search.php:23
+#, php-format
+msgid "Posted in %s"
+msgstr "Arxivat en %s"
+
+#: /home/hel/curro/wordpress/fusion/author.php:47
+#: /home/hel/curro/wordpress/fusion/search.php:23
+msgid "Edit"
+msgstr "Editar"
+
+#: /home/hel/curro/wordpress/fusion/author.php:47
+#: /home/hel/curro/wordpress/fusion/search.php:23
+#: /home/hel/curro/wordpress/fusion/archive.php:48
+msgid "No Comments"
+msgstr "No hi ha Comentaris"
+
+#: /home/hel/curro/wordpress/fusion/author.php:47
+#: /home/hel/curro/wordpress/fusion/search.php:23
+#: /home/hel/curro/wordpress/fusion/archive.php:48
+msgid "1 Comment"
+msgstr "1 Comentari"
+
+#: /home/hel/curro/wordpress/fusion/author.php:47
+#: /home/hel/curro/wordpress/fusion/search.php:23
+#: /home/hel/curro/wordpress/fusion/archive.php:48
+msgid "% Comments"
+msgstr "% Comentaris"
+
+#: /home/hel/curro/wordpress/fusion/author.php:54
+#: /home/hel/curro/wordpress/fusion/search.php:13
+#: /home/hel/curro/wordpress/fusion/search.php:30
+#: /home/hel/curro/wordpress/fusion/archive.php:59
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Entrades més antigues"
+
+#: /home/hel/curro/wordpress/fusion/author.php:55
+#: /home/hel/curro/wordpress/fusion/search.php:14
+#: /home/hel/curro/wordpress/fusion/search.php:31
+#: /home/hel/curro/wordpress/fusion/archive.php:60
+msgid "Newer Entries &raquo;"
+msgstr "Entrades més recents &raquo;"
+
+#: /home/hel/curro/wordpress/fusion/author.php:60
+msgid "No posts found by this author."
+msgstr "No s'han trobat entrades d'aquest autor."
+
+#: /home/hel/curro/wordpress/fusion/sidebar.php:13
+#, php-format
+msgid "You are currently browsing the archives for the %s category."
+msgstr "Està navegant pels arxius de la categoria %s."
+
+#: /home/hel/curro/wordpress/fusion/sidebar.php:16
+#: /home/hel/curro/wordpress/fusion/sidebar.php:19
+#, php-format
+msgid "You are currently browsing the archives for %s"
+msgstr "Està navegant pels arxius de %s"
+
+#: /home/hel/curro/wordpress/fusion/sidebar.php:19
+#: /home/hel/curro/wordpress/fusion/archive.php:15
+msgid "F, Y"
+msgstr "F, Y"
+
+#: /home/hel/curro/wordpress/fusion/sidebar.php:22
+#, php-format
+msgid "You are currently browsing the archives for the year %s"
+msgstr "Està navegant pels arxius de l'any %s"
+
+#: /home/hel/curro/wordpress/fusion/sidebar.php:22
+#: /home/hel/curro/wordpress/fusion/archive.php:17
+msgid "Y"
+msgstr "Y"
+
+#: /home/hel/curro/wordpress/fusion/sidebar.php:25
+#, php-format
+msgid "You have searched the archives for %s."
+msgstr "Ha cercat els arxius per %s."
+
+#: /home/hel/curro/wordpress/fusion/sidebar.php:28
+msgid "You are currently browsing the archives."
+msgstr "Està navegant per l'arxiu."
+
+#: /home/hel/curro/wordpress/fusion/sidebar.php:68
+msgid "Archives"
+msgstr "Arxiu"
+
+#: /home/hel/curro/wordpress/fusion/sidebar.php:79
+msgid "Meta"
+msgstr "Meta"
+
+#: /home/hel/curro/wordpress/fusion/image.php:13
+#: /home/hel/curro/wordpress/fusion/single.php:18
+#: /home/hel/curro/wordpress/fusion/archive.php:36
+msgid "Read the rest of this entry &raquo;"
+msgstr "Llegir la resta de l'entrada &raquo;"
+
+#: /home/hel/curro/wordpress/fusion/image.php:27
+#: /home/hel/curro/wordpress/fusion/single.php:30
+#, php-format
+msgid "This entry was posted on %s and is filed under %s. You can follow any responses to this entry through %s."
+msgstr "Aquesta entrada fou escrita el %s i arxivada a %s. Pot seguir les respostes a aquesta entrada a través de %s."
+
+#: /home/hel/curro/wordpress/fusion/image.php:31
+#: /home/hel/curro/wordpress/fusion/single.php:34
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Pot <a href=\"#respond\">deixar una resposta</a>, o fer <a href=\"%s\" rel=\"trackback\">trackback</a> des del seu propi website."
+
+#: /home/hel/curro/wordpress/fusion/image.php:35
+#: /home/hel/curro/wordpress/fusion/single.php:38
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Els comentaris estan actualment tancats, però pot fer <a href=\"%s\" rel=\"trackback\">trackback</a> des del seu propi website."
+
+#: /home/hel/curro/wordpress/fusion/image.php:39
+#: /home/hel/curro/wordpress/fusion/single.php:42
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Pot baixar al final per deixar una resposta. Els Pings no estan permesos."
+
+#: /home/hel/curro/wordpress/fusion/image.php:43
+#: /home/hel/curro/wordpress/fusion/single.php:46
+msgid "Both comments and pings are currently closed."
+msgstr "Tant els comentaris com els pings estan actualment tancats."
+
+#: /home/hel/curro/wordpress/fusion/image.php:45
+#: /home/hel/curro/wordpress/fusion/single.php:48
+msgid "Edit this entry"
+msgstr "Editar aquesta entrada"
+
+#: /home/hel/curro/wordpress/fusion/image.php:50
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Ho sentim, no s'han trobat adjunts que responguin al seu criteri."
+
+#: /home/hel/curro/wordpress/fusion/search.php:8
+msgid "Search Results"
+msgstr "Resultats de la cerca"
+
+#: /home/hel/curro/wordpress/fusion/search.php:36
+msgid "No posts found. Try a different search?"
+msgstr "No s'ha trobat res. Pot provar a realitzar una cerca diferent."
+
+#: /home/hel/curro/wordpress/fusion/single.php:55
+msgid "Sorry, no posts matched your criteria."
+msgstr "Ho sentim, no s'han trobat entrades que corresponguin al seu criteri."
+
+#: /home/hel/curro/wordpress/fusion/archives.php:10
+msgid "Archives by Month:"
+msgstr "Arxiu per Mes:"
+
+#: /home/hel/curro/wordpress/fusion/archives.php:14
+msgid "Archives by Subject:"
+msgstr "Arxiu per assumpte:"
+
+#: /home/hel/curro/wordpress/fusion/archive.php:9
+#, php-format
+msgid "Archive for category %s"
+msgstr "Arxiu categoria %s"
+
+#: /home/hel/curro/wordpress/fusion/archive.php:11
+#, php-format
+msgid "Posts Tagged %s"
+msgstr "Arxiu etiqueta %s"
+
+#: /home/hel/curro/wordpress/fusion/archive.php:13
+#: /home/hel/curro/wordpress/fusion/archive.php:15
+#: /home/hel/curro/wordpress/fusion/archive.php:17
+#, php-format
+msgid "Archive for %s"
+msgstr "Arxiu %s"
+
+#: /home/hel/curro/wordpress/fusion/archive.php:19
+msgid "Author Archive"
+msgstr "Arxiu Autor"
+
+#: /home/hel/curro/wordpress/fusion/archive.php:21
+msgid "Blog Archives"
+msgstr "Arxiu Blog"
+
+#: /home/hel/curro/wordpress/fusion/archive.php:26
+msgid "Permanent Link:"
+msgstr "Enllaç Permanent: "
+
+#: /home/hel/curro/wordpress/fusion/archive.php:31
+#, php-format
+msgid "Posted by %s in %s on %s"
+msgstr "Per %s - %s - %s"
+
+#: /home/hel/curro/wordpress/fusion/archive.php:66
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Ho sentim, no hi ha entrades en la categoria %s."
+
+#: /home/hel/curro/wordpress/fusion/archive.php:68
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Ho sentim, no hi ha entrades en aquesta data"
+
+#: /home/hel/curro/wordpress/fusion/archive.php:71
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Ho sentim, no hi ha entrades de %s"
+
+#: /home/hel/curro/wordpress/fusion/archive.php:73
+msgid "No posts found."
+msgstr "No s'han trobat entrades"
+
+#: /home/hel/curro/wordpress/fusion/404.php:5
+msgid "Page not found (404)"
+msgstr "Pàgina no trobada"
+
+#: /home/hel/curro/wordpress/fusion/404.php:7
+msgid "Try one of these links:"
+msgstr "Provi amb un d'aquests links:"
+
+#: /home/hel/curro/wordpress/fusion/index.php:51
+msgid "Not Found"
+msgstr "No s'ha trobat"
+
+#: /home/hel/curro/wordpress/fusion/index.php:52
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Ho sentim, però està cercant quelcom que no és aqui."
+
+#: /home/hel/curro/wordpress/fusion/yarpp-template-fusion.php:5
+msgid "Related Posts"
+msgstr "Entrades relacionades"
+
+#: /home/hel/curro/wordpress/fusion/yarpp-template-fusion.php:13
+msgid "No related posts."
+msgstr "Cap entrada relacionada"
+

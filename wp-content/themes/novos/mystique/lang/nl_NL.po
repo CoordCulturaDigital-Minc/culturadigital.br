@@ -1,0 +1,1577 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mystique 2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-04 02:22+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: FrankB <frabri@gmail.com>\n"
+"Language-Team: FrankB <frabri@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: x:\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/404.php:13
+msgid "The requested page was not found"
+msgstr "De gevraagde pagina is niet gevonden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:23
+#, php-format
+msgid "Posts tagged %s"
+msgstr "Berichten tagged %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:25
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:27
+#, php-format
+msgid "Archive for %s"
+msgstr "Archief voor %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:27
+msgid "F, Y"
+msgstr "F Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:29
+#, php-format
+msgid "Archive for year %s"
+msgstr "Archief voor jaar %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:29
+msgid "Y"
+msgstr "Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:31
+msgid "Author archive"
+msgstr "Auteur archief"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:33
+msgid "Blog Archives"
+msgstr "Blog archief"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:47
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Sorry, maar er zijn (nog) geen berichten in de %s categorie."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:48
+msgid "Sorry, but there aren't any posts within this date."
+msgstr "Sorry, maar er zijn geen berichten op deze datum."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:51
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Sorry, maar er zijn (nog) geen berichten van %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:52
+msgid "No posts found."
+msgstr "Geen berichten gevonden."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:23
+msgid "This user hasn't shared any biographical information"
+msgstr "Deze gebruiker deelt geen profiel informatie "
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:28
+msgid "Homepage:"
+msgstr "Homepage:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:29
+msgid "Yahoo Messenger:"
+msgstr "Yahoo Messenger:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:30
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:31
+msgid "AIM:"
+msgstr "AIM:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:38
+#, php-format
+msgid "Posts by %s"
+msgstr "Berichten door %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:48
+msgid "No posts found by this author."
+msgstr "Geen berichten gevonden van deze auteur."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Voer je wachtwoord in om de commentaren te zien"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:42
+msgid "Related Posts"
+msgstr "Verwante berichten"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:43
+#, php-format
+msgid "Trackbacks (%s)"
+msgstr "Trackbacks (%s)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:44
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:50
+#, php-format
+msgid "Comments (%s)"
+msgstr "Reacties (%s)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:82
+msgid "No comments yet."
+msgstr "Nog geen reacties."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:91
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Je dient <a href=\"%s\">ingelogd</a> te zijn om commentaar te posten."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:102
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:128
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:129
+msgid "Name (required)"
+msgstr "Naam (verplicht)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:103
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:132
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:133
+msgid "E-mail (required, will not be published)"
+msgstr "E-mail (verplicht, wordt niet gepubliceerd)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:104
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:136
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:137
+msgid "Website"
+msgstr "Website"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:115
+#, php-format
+msgid "Logged in as %s."
+msgstr "Ingelogd als %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:117
+msgid "Log out of this account"
+msgstr "Afmelden van dit account"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:117
+msgid "Logout &raquo;"
+msgstr "Uitloggen &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:122
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Welkom terug <strong>%s</strong>."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:123
+msgid "Change &raquo;"
+msgstr "Wijzig &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:144
+msgid "Type your comment"
+msgstr "Schrijf je reactie"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:153
+#, php-format
+msgid "Spam protection: Sum of %1$s + %2$s = ?"
+msgstr "Spam beveiliging: de som van %1$s + %2$s = ?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:162
+msgid "Submit Comment"
+msgstr "Verstuur reactie"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:164
+msgid "Cancel Reply"
+msgstr "Annuleer reactie"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:188
+msgid "No trackbacks yet."
+msgstr "Nog geen trackbacks."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:206
+msgid "No comments"
+msgstr "Geen reacties"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:206
+msgid "1 comment"
+msgstr "1 reactie"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:206
+#, fuzzy, php-format
+msgid "% comments"
+msgstr "% reacties"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:224
+msgid "Comments are closed."
+msgstr "Commentaar is gesloten."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:10
+#, php-format
+msgid "Your site is running on %1$s. Mystique requires at least %2$s."
+msgstr "Je site draait op %1$s. Mystique benodigt minstens %2$s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:76
+msgid "Default sidebar"
+msgstr "Standaard sidebar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:78
+msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
+msgstr "Dit is de standaard sidebar, zichtbaar in 2 of 3 kolom layouts. Indien er geen widgets actief zijn, worden de standaard thema widgets getoond."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:86
+msgid "Secondary sidebar"
+msgstr "Tweede sidebar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:88
+msgid "This sidebar is active only on a 3 column setup. "
+msgstr "Deze sidebar is alleen zichtbaar in een 3 kolom layout."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:96
+msgid "Footer"
+msgstr "Footer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:98
+msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
+msgstr "Je kunt hier tussen 1 en 6 widgets toevoegen (3 of 4 geeft de beste resultaten). De grootte van de widgets wordt aangepast aan hun aantal."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:106
+msgid "Footer (slide 2)"
+msgstr "Footer (slide 2)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:108
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:118
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:128
+msgid "Only visible if jQuery is enabled. "
+msgstr "Alleen zichtbaar indien jQuery is ingeschakeld."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:116
+msgid "Footer (slide 3)"
+msgstr "Footer (slide 3)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:126
+msgid "Footer (slide 4)"
+msgstr "Footer (slide 4)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:23
+msgid "No posts found"
+msgstr "Geen berichten gevonden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:24
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Sorry, maar je zoekt naar iets dat niet te vinden is."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:5
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:10
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:354
+msgid "Search"
+msgstr "Zoek"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:15
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:235
+#, php-format
+msgid "Search results for %s"
+msgstr "Zoek resultaten voor %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:31
+msgid "Nothing found."
+msgstr "Niets gevonden."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:31
+msgid "Try a different search?"
+msgstr "Een andere zoekopdracht proberen?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:35
+msgid "What do you wish to search for?"
+msgstr "Waar wil je naar zoeken?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:11
+#, php-format
+msgid "You have searched the archives for %s"
+msgstr "Je hebt het archief doorzocht voor %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:13
+msgid "Type a valid search term..."
+msgstr "Type een geldige zoek term..."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar.php:26
+msgid "My latest tweets"
+msgstr "Mijn laatste tweets"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar.php:34
+msgid "Blogroll"
+msgstr "Blogroll"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar2.php:7
+msgid "You activated the 2nd sidebar. Add widgets here from the Dashboard to remove this message"
+msgstr "De 2<sup>e</sup> sidebar is actief. Voeg widgets toe vanuit het Dashboard om dit bericht te verwijderen."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:25
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:541
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:554
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:622
+msgid "More &gt;"
+msgstr "Meer &gt;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:28
+msgid "Pages:"
+msgstr "Pagina's:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:39
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:566
+#, php-format
+msgid "%1$s (%2$s topics)"
+msgstr "%1$s (%2$s onderwerpen)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:52
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:576
+msgid "About the author"
+msgstr "Over de auteur"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:64
+msgid "Print article"
+msgstr "Print artikel"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:68
+#, php-format
+msgid "This entry was posted by %1$s on %2$s at %3$s, and is filed under %4$s. Follow any responses to this post through %5$s."
+msgstr "Dit bericht is gepost door %1$s op %2$s om %3$s uur en is gearchiveerd onder %4$s. Volg reacties op dit bericht via %5$s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:71
+#, php-format
+msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
+msgstr "Je kunt een <a%1$s>reactie achterlaten</a> of <a%2$s>trackback</a> van je eigen site."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:73
+#, php-format
+msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
+msgstr "Reacties zijn momenteel uitgeschakeld, maar je kunt <a%1$s>trackback</a> van je eigen site."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:75
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Je kunt direct naar het einde van de pagina om een reactie achter te laten. Pinging is momenteel niet mogelijk."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:77
+msgid "Both comments and pings are currently closed."
+msgstr "Zowel reacties als pings zijn gesloten."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:80
+msgid "Edit this entry"
+msgstr "Wijzig dit bericht"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:285
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:349
+msgid "You are not authorised to perform this operation."
+msgstr "Je hebt geen rechten om deze handeling te verrichten."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:336
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a>."
+msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Bekijk details van versie %3$s</a>."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:337
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a> or <a href=\"%4$s\" >upgrade automatically</a>."
+msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Bekijk details van versie %3$s</a> of <a href=\"%4$s\" >upgrade automatisch</a>."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:355
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:862
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:863
+msgid "Mystique settings"
+msgstr "Mystique Instellingen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:356
+msgid "Save Changes"
+msgstr "Sla wijzigingen op"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:356
+msgid "Reset to Defaults"
+msgstr "Terug naar standaard instellingen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:356
+msgid "Reset all theme settings to the default values? Are you sure?"
+msgstr "Alle thema instellingen terugzetten naar standaard waarden? Weet je het zeker?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:365
+#, php-format
+msgid "Settings saved. %s"
+msgstr "Instellingen opgeslagen. %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:365
+msgid "View site"
+msgstr "Bekijk site"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:369
+msgid "Please upload a valid image file!"
+msgstr "Gaarne een geldig beeldbestand uploaden!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:370
+msgid "The file you uploaded doesn't seem to be a valid JPEG, PNG or GIF image"
+msgstr "Het verstuurde beeld lijkt geen geldig JPEG, PNG of GIF bestand te zijn."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:371
+msgid "The image could not be saved on your server"
+msgstr "Het beeld kon niet op de server opgeslagen worden."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:376
+#, php-format
+msgid "Error: %s"
+msgstr "Foutmelding: %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:385
+msgid "Design"
+msgstr "Ontwerp"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:386
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:600
+msgid "Content"
+msgstr "Inhoud"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:387
+msgid "Navigation"
+msgstr "Navigatie"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:388
+msgid "SEO"
+msgstr "SEO"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:389
+msgid "Ads"
+msgstr "Advertenties"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:390
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:391
+msgid "User CSS"
+msgstr "Gebruikers CSS"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:392
+msgid "More themes by digitalnature"
+msgstr "Meer thema's van digitalnature"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:402
+msgid "The design settings panel is not yet supported by Internet Explorer. Sorry :("
+msgstr "Het ontwerp instellingen paneel wordt nog niet ondersteund bij gebruik van Internet Explorer. Een goede reden om op een echte browser over te stappen!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:405
+msgid "Loading site preview..."
+msgstr "Site voorbeeld wordt geladen..."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:410
+msgid "Layout style"
+msgstr "Layout stijl"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:410
+msgid "Use page templates if you want to apply these only to specific pages"
+msgstr "Gebruik pagina sjablonen om deze aan specifieke pagina's toe te wijzen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:446
+msgid "Color scheme"
+msgstr "Kleur schema"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:473
+msgid "Page (content) width"
+msgstr "Pagina (content) breedte"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:473
+msgid "Note that fluid pages can be hard to read on large resolutions."
+msgstr "Let op dat fluid pagina's moeilijk te lezen kunnen zijn bij grote scherm resoluties!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:476
+#, php-format
+msgid "Fixed (%s)"
+msgstr "Fixed (%s)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:477
+msgid "Fluid (100%)"
+msgstr "Fluid (100%)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:483
+msgid "Column sizes"
+msgstr "Kolom grootte"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:483
+msgid "(With 10 pixel padding between them)"
+msgstr "(Met 10 pixels bladvulling ertussen)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:496
+msgid "Font style"
+msgstr "Lettertype"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:509
+msgid "Background color"
+msgstr "Achtergrond kleur"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:509
+msgid "Leave Black (#000000) to keep the default background"
+msgstr "Zwart (#000000) om de standaard achtergrond te behouden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:522
+msgid "Custom logo image"
+msgstr "Eigen logo"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:522
+msgid "Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr "Toon een logo in plaats van tekst; upload het beeld-bestand van je computer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:527
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:545
+msgid "Remove current image"
+msgstr "Verwijder huidig beeldbestand"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:533
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:551
+#, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr "Map %s heeft geen schrijfrechten - kan niet uploaden!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:533
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:551
+msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
+msgstr "Check het upload pad in \"Instellingen / Overige opties\" of CHMOD deze map naar 755/777.<br />Neem contact op met je hoster indien je niet weet hoe dit te doen."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:540
+msgid "Custom background image"
+msgstr "Eigen achtergrond beeld"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:540
+msgid "Upload a new background/header image to replace the default one"
+msgstr "Upload een nieuw achtergrond/header beeld om het standaard beeld te vervangen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:564
+msgid "Posts (single)"
+msgstr "Berichten (enkel)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:564
+msgid "How much information do you want to show on the single post page?"
+msgstr "Hoeveel informatie wil je tonen op een enkele berichten pagina?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:567
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:597
+msgid "Tags"
+msgstr "Tags"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:570
+msgid "Meta"
+msgstr "Meta"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:573
+msgid "Share"
+msgstr "Deel"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:579
+msgid "Print link"
+msgstr "Print Link"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:582
+msgid "Related posts"
+msgstr "Verwante berichten"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:588
+msgid "Post previews"
+msgstr "Bericht previews"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:588
+msgid "How much info do you want to show on blog/category/archive/search pages?"
+msgstr "Hoeveel info wil je tonen op de blog/categorie/archief/zoek pagina's?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:591
+msgid "Title"
+msgstr "Titel"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:594
+msgid "Info bar"
+msgstr "Info balk"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:602
+msgid "max. 50 words, filtered"
+msgstr "max. 50 woorden, gefilterd"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:603
+msgid "max. 100 words, filtered"
+msgstr "max. 100 woorden, gefilterd"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:604
+msgid "max. 200 words, filtered"
+msgstr "max. 200 woorden, gefilterd"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:605
+msgid "full"
+msgstr "volledig"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:606
+msgid "full, filtered"
+msgstr "volledig, gefilterd"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:607
+msgid "excerpt"
+msgstr "uittreksel"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:614
+msgid "Post thumbnail size"
+msgstr "Post thumbnail formaat"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:614
+#, php-format
+msgid "Note that this only works for images you upload from now on, older images will be browser-resized. You should use the %s plugin to create missing image sizes"
+msgstr "Let op: dit geldt enkel voor beeld bestanden die vanaf nu worden geupload. Oudere beeld bestanden worden door de browser van de gebruiker vergroot of verkleind. je kunt de %s plugin gebruiken om ontbrekende beeld-groottes te genereren"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:618
+msgid "Very small: 48 x 48"
+msgstr "Heel klein: 48 x 48"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:619
+msgid "Small: 64 x 64"
+msgstr "Klein: 64 x 64"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:620
+msgid "Medium: 80 x 80"
+msgstr "Medium: 80 x 80"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:621
+msgid "Larger: 100 x 100"
+msgstr "Groter: 100 x 100"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:622
+#, php-format
+msgid "WP's Media setting: %s"
+msgstr "WP's media instelling: %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:630
+msgid "Footer content"
+msgstr "Inhoud footer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:630
+msgid "You can post HTML code"
+msgstr "Het is toegestaan HTML code toe te passen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:630
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:745
+msgid "Only some HTML tags and attributes are allowed"
+msgstr "Er zijn slechts enkele HTML tags en attributen toegestaan"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:634
+#, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr "Gebruik de volgende short codes voor eenvoudige aanpassingen: <br />%s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:644
+msgid "Top navigation shows"
+msgstr "Navigatie balk toont"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:647
+msgid "Nothing (disabled)"
+msgstr "Niets (uitgeschakeld)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:648
+msgid "Pages"
+msgstr "Pagina's"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:649
+msgid "Categories"
+msgstr "Categorieën"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:650
+msgid "Links"
+msgstr "Links"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:658
+msgid "from category"
+msgstr "uit categorie"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:663
+#, php-format
+msgid "%s links"
+msgstr "%s links"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:670
+msgid "No links found"
+msgstr "Geen links gevonden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:679
+msgid "Exclude from navigation"
+msgstr "Verberg in navigatie"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:679
+msgid "Check the items you wish to hide from the main menu"
+msgstr "Vink de onderwerpen aan die <b>niet</b> in de navigatie balk getoond dienen te worden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:684
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:165
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:167
+msgid "Home"
+msgstr "Startpagina"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:689
+msgid "(Use the private property to hide other links)"
+msgstr "(Gebruik private property om andere links te verbergen)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:719
+msgid "Additional site optimization for search engines"
+msgstr "Additionele site optimalisatie voor robots"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:719
+msgid "Uncheck if you are using a SEO plugin!"
+msgstr "Uitvinken als je een SEO plugin geactiveerd hebt!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:726
+msgid "What does this do?"
+msgstr "Wat doet dit?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:728
+msgid "enables canonical URLs for comments (duplicate content fix, only needed on wp < 2.9)"
+msgstr "activeert canonical URLs bij reacties (voorkomt dubbele content, alleen benodigd bij WordPress < 2.9)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:729
+msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
+msgstr "genereert unieke titels voor berichten met meerdere reactie pagina's (voorkomt dubbele titels)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:730
+#, php-format
+msgid "generates a unique meta description tag for each page (no meta keywords; why? -<a %s>useless</a>)"
+msgstr "genereert een unieke meta description tag voor iedere pagina (geen meta keywords; waarom? -<a %s>nutteloos</a>)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:745
+msgid "Advertisment blocks"
+msgstr "Advertentie blokken"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:745
+#, php-format
+msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
+msgstr "Gebruik de %s short code om deze ads in te voegen in berichten, tekst widgets of footer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:746
+msgid "Example:"
+msgstr "Voorbeeld:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:752
+#, php-format
+msgid "Ad code #%s:"
+msgstr "Ad code #%s:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:768
+msgid "Use jQuery"
+msgstr "Gebruik jQuery"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:768
+msgid "For testing purposes only. Only uncheck if you know what you're doing!"
+msgstr "Enkel voor test-doeleinden. Alleen uitvinken indien je weet waar je mee bezig bent!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:773
+msgid "Enable AJAX on comment pagination"
+msgstr "Schakel AJAX in op reactie pagina's"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:773
+msgid "Navigate trough comment pages without refreshing (faster load, but may be incompatible with some plugins)"
+msgstr "Navigeer door reactie pagina's zonder te vernieuwen (snellere pagina opbouw, maar mogelijk niet compatible met sommige plugins)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:778
+msgid "Enable theme built-in lightbox on all image links"
+msgstr "Activeer de in dit thema ingebouwde \"lightbox\" naar alle beeld verwijzingen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:778
+msgid "Uncheck if you prefer a lightbox plugin"
+msgstr "Uitvinken als de voorkeur uitgaat naar een lightbox plugin"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:783
+msgid "Remove Mystique settings from the database after theme switch"
+msgstr "Verwijder Mystique instellingen uit de database na wisselen van thema"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:783
+msgid "Only check if you're planning to remove and change the theme"
+msgstr "Alleen aanvinken indien je van plan bent het thema te verwijderen of aan te passen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:798
+msgid "User functions"
+msgstr "Gebruikers functies"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:798
+msgid "PHP code to add to the theme functions. Useful if you have plugins that require you to change the theme's functions.php file"
+msgstr "PHP code om in te voegen in de thema functionaliteit. Te gebruiken indien je plugins vereisen dat je wijzigingen in het functions.php bestand van het thema maakt"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:813
+msgid "CSS to add, or modify theme styles"
+msgstr "CSS om thema stijlen toe te voegen of te wijzigen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:813
+#, php-format
+msgid "Check %s to see existing theme classes and properties"
+msgstr "Check %s om bestaande thema classes en eigenschappen te zien"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:876
+msgid "Active shortcodes you can use in your posts or widgets"
+msgstr "Actieve shortcodes die je kunt gebruiken in je berichten of widgets"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/auto-thumb/auto-thumb.php:5
+msgid "Auto generate thumbnails"
+msgstr "Genereer thumbnails automatisch"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/auto-thumb/auto-thumb.php:5
+msgid "Create thumbnail from the 1st image found in a post, if no thumbnail is set"
+msgstr "Genereer thumbnnail van het eerste beeldbestand in een bericht indien geen thumbnail is opgegeven"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:78
+msgid "No featured posts found."
+msgstr "Geen aanbevolen berichten gevonden."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:101
+msgid "Featured"
+msgstr "Aanbevolen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:135
+msgid "Error while featuring posts"
+msgstr "Fout bij aanbevelen van berichten"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:206
+msgid "Featured posts"
+msgstr "Aanbevolen berichten"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:206
+#, php-format
+msgid "You can mark posts as featured on the %s page"
+msgstr "Je kunt berichten markeren als \"aanbevolen\" op de %s pagina"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:212
+msgid "Show on"
+msgstr "Toon op"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:216
+msgid "Pages that use the Featured posts template"
+msgstr "Pagina's die de \"Aanbevolen berichten\" template gebruiken"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:221
+msgid "Home page"
+msgstr "Home pagina"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:226
+msgid "Single post pages"
+msgstr "Enkele berichten pagina's"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:231
+msgid "Archive pages (Category, Tags etc)"
+msgstr "Archief pagina's (categorie, tags, enz.)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:236
+msgid "404 pages"
+msgstr "404 pagina's"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:241
+msgid "Search page"
+msgstr "Zoek pagina"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:246
+msgid "All other pages"
+msgstr "Alle overige pagina's"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:253
+msgid "Maximum number of posts to display"
+msgstr "Maximum aantal te tonen berichten"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:260
+msgid "Slide delay"
+msgstr "Schuif vertraging"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:263
+msgid "seconds"
+msgstr "seconden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:268
+msgid "Don't show posts older than"
+msgstr "Toon geen berichten ouder dan"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:271
+msgid "days"
+msgstr "dagen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/ip2country/ip2country.php:48
+msgid "Show comment author's country flag"
+msgstr "Toon reaguurder's landen-vlag"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/ip2country/ip2country.php:48
+msgid "May slow down page loading"
+msgstr "Kan het inladen van de pagina vertragen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:15
+#, fuzzy
+msgid "Extra navigation items"
+msgstr "Extra navigatie"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:15
+msgid "(Leave blank to disable)"
+msgstr "(Leeg laten om uit te schakelen)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:19
+msgid "Twitter ID"
+msgstr "Twitter ID"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:24
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:29
+msgid "Facebook ID"
+msgstr "Facebook ID"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:53
+msgid "Follow me on Twitter"
+msgstr "Volg me op Twitter"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:56
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:153
+msgid "RSS Feeds"
+msgstr "RSS Feeds"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:59
+msgid "My Facebook"
+msgstr "Mijn Facebook"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:40
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:278
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s bericht"
+msgstr[1] "%s berichten"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:119
+msgid "View page"
+msgstr "Bekijk pagina"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:156
+msgid "Follow me on Twitter!"
+msgstr "Volg me op Twitter!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:165
+msgid "You are Home"
+msgstr "Je bent op de startpagina"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:167
+msgid "Click for Home"
+msgstr "Klik voor Startpagina"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:225
+msgid "F jS, Y"
+msgstr "j F Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:227
+#, php-format
+msgid "Archive for week %1$s of %2$s"
+msgstr "Archief voor week  %1$s van %2$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:227
+msgid "W"
+msgstr "W"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:238
+msgid "404 Not Found"
+msgstr "404 Niet gevonden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:244
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:248
+#, php-format
+msgid "Comment Page %s"
+msgstr "Reactie pagina %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:270
+#, php-format
+msgid "View all posts in %s"
+msgstr "Bekijk alle berichten in %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:330
+msgid "Share this post!"
+msgstr "Deel dit bericht!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:516
+msgid "Permanent Link:"
+msgstr "Permanente Link:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:521
+msgid "M jS"
+msgstr "d M"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:525
+#, php-format
+msgid "Posted by %1$s in %2$s"
+msgstr "Gepost door %1$s in %2$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:528
+msgid "Edit"
+msgstr "Bewerk"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:608
+msgid "Pages: "
+msgstr "Pagina's:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:610
+msgid "Edit this page"
+msgstr "Wijzig deze pagina"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:679
+msgid "Go to the first page"
+msgstr "Ga naar de eerste pagina"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:679
+msgid "&laquo; First"
+msgstr "&laquo; Eerste"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:685
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:691
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:697
+#, php-format
+msgid "Go to page %s"
+msgstr "Ga naar pagina %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:701
+msgid "Go to the last page"
+msgstr "Ga naar de laatste pagina"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:701
+msgid "Last &raquo;"
+msgstr "Laatste &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:735
+#, php-format
+msgid "about %s year ago"
+msgid_plural "about %s years ago"
+msgstr[0] "ongeveer %s jaar geleden"
+msgstr[1] "ongeveer %s jaar geleden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:736
+#, php-format
+msgid "about %s month ago"
+msgid_plural "about %s months ago"
+msgstr[0] "ongeveer %s maand geleden"
+msgstr[1] "ongeveer %s maanden geleden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:737
+#, php-format
+msgid "about %s week ago"
+msgid_plural "about %s weeks ago"
+msgstr[0] "ongeveer %s week geleden"
+msgstr[1] "ongeveer %s weken geleden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:738
+#, php-format
+msgid "about %s day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "ongeveer %s dag geleden"
+msgstr[1] "ongeveer %s dagen geleden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:739
+#, php-format
+msgid "about %s hour ago"
+msgid_plural "about %s hours ago"
+msgstr[0] "ongeveer %s uur geleden"
+msgstr[1] "ongeveer %s uur geleden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:740
+#, php-format
+msgid "about %s minute ago"
+msgid_plural "about %s minutes ago"
+msgstr[0] "ongeveer %s minuut geleden"
+msgstr[1] "ongeveer %s minuten geleden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:741
+#, php-format
+msgid "about %s second ago"
+msgid_plural "about %s seconds ago"
+msgstr[0] "ongeveer %s seconde geleden"
+msgstr[1] "ongeveer %s seconden geleden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1041
+#, php-format
+msgid "%1$s written by %2$s"
+msgstr "%1$s geschreven door %2$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1049
+msgid "Reply"
+msgstr "Beantwoord"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1050
+msgid "Quote"
+msgstr "Quote"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1057
+msgid "Your comment is awaiting moderation."
+msgstr "Je reactie wacht op moderatie."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/editor.php:22
+msgid "Divider"
+msgstr "Scheiding"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/editor.php:23
+msgid "Error text color"
+msgstr "Foutmelding tekst kleur"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/editor.php:24
+msgid "Error box"
+msgstr "Error box"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:72
+#, php-format
+msgid "You can configure Mystique from the <a%s>theme settings</a> page."
+msgstr "Je kunt Mystique configureren vanuit de <a%s>thema instellingen</a> pagina."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:347
+msgid "There are one or more PHP parse errors in your custom functions."
+msgstr "Er zijn &eacute;&eacute;n of meerdere PHP parse errors in je aangepaste functies."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:17
+#, php-format
+msgid "%s: Widget class not found. Make sure this widget exists and the class name is correct"
+msgstr "%s: Widget class niet gevonden. Controleer of de widget ge&iuml;nstalleerd is en of de class name correct is"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:52
+msgid "User name (required)"
+msgstr "Gebruikersnaam (verplicht)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:54
+msgid "Password (required)"
+msgstr "Wachtwoord (verplicht)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:55
+msgid "Verify password (required)"
+msgstr "Bevestig wachtwoord (verplicht)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:56
+msgid "E-mail (required)"
+msgstr "E-mail (verplicht)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:57
+msgid "First name"
+msgstr "Voornaam"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:58
+msgid "Last name"
+msgstr "Achternaam"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:59
+msgid "Profile info"
+msgstr "Profiel info"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:80
+msgid "Please type a user name"
+msgstr "Voer een gebruikersnaam in"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:81
+msgid "User name already exists"
+msgstr "Gebruikersnaam bestaat reeds"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:82
+msgid "E-mail address is required."
+msgstr "E-mail adres is verplicht"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:83
+msgid "E-mail address already in use"
+msgstr "E-mail adres is al in gebruik"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:84
+msgid "You must enter a password."
+msgstr "Voer een wachtwoord in"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:85
+msgid "Please verify the password"
+msgstr "Verifieer wachtwoord"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:86
+msgid "Passwords do not match"
+msgstr "Wachtwoorden komen niet overeen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:87
+msgid "User registration failed.  Please try again."
+msgstr "Registratie is mislukt. Probeer het opnieuw."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:96
+#, php-format
+msgid "You are logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. You don't need another account :)"
+msgstr "Je bent ingelogd als <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. Je hebt geen nieuw account nodig :)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:101
+#, php-format
+msgid "A user account for %1$s has been created."
+msgstr "Een gebruikers account voor %1$s is aangemaakt."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:102
+#, php-format
+msgid "Thank you for registering, %1$s."
+msgstr "Bedankt voor het registreren, %1$s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:154
+msgid "Add User"
+msgstr "Gebruiker toevoegen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:154
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:610
+msgid "Register"
+msgstr "Registreer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:242
+msgid "No posts found matching the arguments"
+msgstr "Geen berichten gevonden met deze criteria"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:292
+#, php-format
+msgid "Empty ad slot (#%s)!"
+msgstr "Leeg ad slot (#%s)!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:297
+msgid "Top"
+msgstr "Naar boven"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:305
+#, php-format
+msgid "%1$s theme by %2$s | Powered by %3$s"
+msgstr "%1$s thema door %2$s | Powered by %3$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:310
+msgid "Copyright &copy;"
+msgstr "Copyright &copy;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:323
+msgid "Site Admin"
+msgstr "Site Beheerder"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:324
+msgid "Log in"
+msgstr "Log in"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:55
+#, php-format
+msgid "%s followers"
+msgstr "%s volgers"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:79
+msgid "Error while retrieving tweets (Twitter down?)"
+msgstr "Er is een probleem om tweets op te halen (Twitter plat?)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:92
+msgid "Displays links to different sections grouped in tabs"
+msgstr "Toont verwijzingen naar verschillende secties gegroepeerd in tabs"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:94
+msgid "Mystique | Sidebar tabs"
+msgstr "Mystique | Sidebar tabs"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:121
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:308
+msgid "Recent comments"
+msgstr "Recente reacties"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:122
+msgid "Popular posts"
+msgstr "Populaire berichten"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:123
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:298
+msgid "Archives"
+msgstr "Archief"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:206
+msgid "Didn't find any posts popular enough :("
+msgstr "Helaas geen berichten kunnen vinden die populair genoeg zijn :("
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:233
+#, php-format
+msgid "Posted in: %s"
+msgstr "Gepost in: %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:250
+msgid "Sidebar tabs"
+msgstr "Sidebar tabs"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:251
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:397
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:496
+msgid "jQuery is disabled and this widget needs it"
+msgstr "jQuery is uitgeschakeld en is benodigd voor deze widget"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:286
+msgid "Tabs to show"
+msgstr "Te tonen tabs"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:294
+msgid "Tags "
+msgstr "Tags "
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:302
+msgid "Popular posts (most commented)"
+msgstr "Populaire berichten (meeste reacties)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:315
+msgid "Sort categories"
+msgstr "Sorteer categorie&euml;n"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:317
+msgid "by name (alphabetically)"
+msgstr "op naam (alfabetisch)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:318
+msgid "by category ID"
+msgstr "op categorie ID"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:319
+msgid "by category slug"
+msgstr "op categorie URL"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:320
+msgid "by post count"
+msgstr "op aantal berichten"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:325
+msgid "Show post count (categories and archives)"
+msgstr "Toon aantal berichten (categorie&euml;n en archief)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:331
+msgid "How many popular posts to show?"
+msgstr "Hoeveel populaire berichten tonen?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:338
+msgid "How many recent comments to show?"
+msgstr "Hoeveel recente reacties tonen?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:354
+msgid "Shows your latest Twitter updates"
+msgstr "Toont je recentste Twitter updates"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:355
+msgid "Mystique | Twitter"
+msgstr "Mystique | Twitter"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:394
+msgid "Loading tweets..."
+msgstr "Inladen tweets..."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:424
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:530
+msgid "Title:"
+msgstr "Titel:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:429
+msgid "Twitter user name:"
+msgstr "Twitter gebruikersnaam:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:434
+msgid "Number of tweets to show:"
+msgstr "Aantal te tonen tweets:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:448
+msgid "Displays Flickr galleries (needs API key)"
+msgstr "Toont Flickr galleri&euml;n (API key benodigd)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:450
+msgid "Mystique | Flickr Gallery"
+msgstr "Mystique | Flickr Gallery"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:521
+msgid "Flickr Gallery"
+msgstr "Flickr Gallery"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:535
+msgid "API key:"
+msgstr "API key:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:540
+msgid "Number of photos to show:"
+msgstr "Aantal te tonen foto's:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:545
+msgid "Gallery source:"
+msgstr "Gallery bron:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:547
+msgid "Photoset"
+msgstr "Photoset"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:548
+msgid "User photostream"
+msgstr "User photostream"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:553
+msgid "Photoset ID:"
+msgstr "Photoset ID:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:558
+#, php-format
+msgid "User ID (use %s to find it):"
+msgstr "Gebruikers ID (gebruik %s om deze te vinden):"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:573
+msgid "Login form"
+msgstr "Login formulier"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:574
+msgid "Mystique | Login"
+msgstr "Mystique | Login"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:584
+#, php-format
+msgid "Logged in: %s"
+msgstr "Ingelogd: %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:589
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:591
+msgid "Write"
+msgstr "Schrijf"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:592
+msgid "Comments"
+msgstr "Reacties"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:594
+msgid "Log out"
+msgstr "Afmelden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:598
+msgid "User Login"
+msgstr "Login gebruiker"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:602
+msgid "User"
+msgstr "Gebruiker"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:603
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:604
+msgid "Login"
+msgstr "Inloggen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:605
+msgid "Remember me"
+msgstr "Onthoud mij"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:611
+msgid "Lost your password?"
+msgstr "Wachtwoord vergeten?"
+
+#~ msgid "Not available with <em>imageless</em> setting"
+#~ msgstr "Niet beschikbaar met <em>beeldloze</em> instelling"
+#~ msgid "Read more..."
+#~ msgstr "Lees meer..."
+#~ msgid "Tags:"
+#~ msgstr "Tags:"
+#~ msgid "&laquo; Older Entries"
+#~ msgstr "&laquo; Oudere bijdragen"
+#~ msgid "Newer Entries &raquo;"
+#~ msgstr "Nieuwere bijdragen &raquo;"
+#~ msgid "Page %s &laquo;"
+#~ msgstr "Pagina %s &laquo;"
+#~ msgid "Sorry, no attachments matched your criteria."
+#~ msgstr "Sorry, bijlagen voldoen niet aan je criteria."
+#~ msgid "General"
+#~ msgstr "Algemeen"
+#~ msgid "Posts"
+#~ msgstr "Posts"
+#~ msgid "Imageless layout"
+#~ msgstr "Beeldloze layout"
+#~ msgid ""
+#~ "No background images; reduces page load downto just a few KB, with the "
+#~ "cost of less graphic details"
+#~ msgstr ""
+#~ "Geen achtergrond beelden; vermindert het laden van een pagina tot enkele "
+#~ "KB's ten koste van minder grafisch detail"
+#~ msgid "HTML code is disallowed"
+#~ msgstr "Het is niet toegestaan HTML code te posten"
+#~ msgid "Sidebar(s) vs Main Content ratio"
+#~ msgstr "Sidebar(s) vs hoofd inhoud ratio"
+#~ msgid "Preferred font style"
+#~ msgstr "Voorkeur lettertype"
+#~ msgid "Font priority and their availability"
+#~ msgstr "Lettertype prioriteit en beschikbaarheid"
+#~ msgid "The way posts are displayed on blog homepage and archive pages"
+#~ msgstr ""
+#~ "De manier waarop posts worden getoond op de blog startpagina en archief "
+#~ "pagina's"
+#~ msgid "Titles only"
+#~ msgstr "Alleen titels"
+#~ msgid "Enable \"Share This Post\" feature"
+#~ msgstr "Activeer \"Deel deze Post\""
+#~ msgid "Uncheck this if you're using a social bookmaring plugin"
+#~ msgstr "Uitvinken indien je een \"social bookmarking\" plugin gebruikt"
+#~ msgid "Featured content source"
+#~ msgstr "Bron van \"aanbevolen\" inhoud"
+#~ msgid ""
+#~ "The last 5 posts from this category will be shown in the featured content "
+#~ "area (in random order)"
+#~ msgstr ""
+#~ "De laatste 5 posts van deze categorie zullen worden getoond in "
+#~ "\"aanbevolen\" (in willekeurige volgorde).  "
+#~ msgid "- All categories"
+#~ msgstr "- Alle categorie&euml;n"
+#~ msgid "On the home page"
+#~ msgstr "Op de startpagina"
+#~ msgid "On all pages, including home"
+#~ msgstr "Op alle pagina's inclusief startpagina"
+#~ msgid "On all pages and posts"
+#~ msgstr "Op alle pagina's en posts"
+#~ msgid "Expand the &laquo;read more&raquo; button with more content"
+#~ msgstr "Vergroot de &laquo;lees meer&raquo; knop met meer content"
+#~ msgid "Show related posts next to comments"
+#~ msgstr "Toon verwante posts naast de reacties"
+#~ msgid "no keywords are generated because they are <a %s>useless</a>"
+#~ msgstr ""
+#~ "er worden geen keywords gegenereerd, omdat deze <a %s>onzinnig</a> zijn"
+#~ msgid "Uncheck this if you plan to keep Mystique as your default theme!"
+#~ msgstr ""
+#~ "Uitvinken indien je van plan bent om Mystique als standaard thema te "
+#~ "behouden!"
+#~ msgid "Document head code"
+#~ msgstr "Document head code"
+#~ msgid "To output HTML only, close the PHP tag first."
+#~ msgstr "Om enkel HTML output te genereren, sluit eerst de PHP tag."
+#~ msgid "Examples and helpers:"
+#~ msgstr "Voorbeelden en hulp:"
+#~ msgid "Modify anything related to design using CSS code"
+#~ msgstr "Maak wijzigingen in het ontwerp middels CSS code"
+#~ msgid ""
+#~ "Avoid modifying theme files directly; use this option instead to preserve "
+#~ "your changes after update"
+#~ msgstr ""
+#~ "Voorkom het direct aanpassen van thema bestanden; gebruik deze optie om "
+#~ "je wijzigingen te bewaren na installatie van een nieuwe versie van "
+#~ "Mystique"
+#~ msgid "Insert Ad slot #1 in every post and page"
+#~ msgstr "Voeg Ad slot #1 in in elke post en pagina"
+#~ msgid "Insert Ad slot #2 at every 5 comments"
+#~ msgstr "Voeg Ad slot #2 in na elke 5 reacties"
+#~ msgid "Replace blog description text with Ad #4"
+#~ msgstr "Vervang blog beschrijving door Ad #4"
+#~ msgid "Alternate header image"
+#~ msgstr "Alternatief header beeld"
+#~ msgid "Hide RSS button"
+#~ msgstr "Verberg RSS knop"
+#~ msgid "Hide Twitter button"
+#~ msgstr "Verberg Twitter knop"
+#~ msgid "Set a fluid page width"
+#~ msgstr "Dynamische site breedte toepassen"
+#~ msgid "Decrease site title text size"
+#~ msgstr "Verklein de grootte van de site titel tekst"
+#~ msgid "Hide post information bar"
+#~ msgstr "Verberg post informatie balk"
+#~ msgid "Change footer background color to light gray"
+#~ msgstr "Wijzig footer achtergrond naar licht grijs"
+#~ msgid "Dark background footer"
+#~ msgstr "Donkere achtergrond footer"
+#~ msgid "Join navigation with main content"
+#~ msgstr "Afstand tussen navigatebalk en pagina verwijderen"
+#~ msgid "Hide navigation"
+#~ msgstr "Verberg navigatie"
+#~ msgid "Remove styling from tables"
+#~ msgstr "Verwijder styling van tabellen"
+#~ msgid "Text-Justify post and page content"
+#~ msgstr "Uitlijnen van tekst in posts en pagina's"
+#~ msgid "Fixed custom background image"
+#~ msgstr "Achtergrond beeld met vaste positie"
+

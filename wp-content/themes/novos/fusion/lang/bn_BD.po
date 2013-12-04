@@ -1,0 +1,567 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fusion 2.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-22 14:32+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: digitalnature.ro <hello@digitalnature.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes\\fusion\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/404.php:7
+msgid "Page not found (404)"
+msgstr "পাওয়া যায় নি"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:9
+msgid "Archive for category"
+msgstr "শ্রেণীঅনুসারে আর্কাইভ: "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:11
+msgid "Posts Tagged"
+msgstr "পোস্ট টীকা:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:15
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:17
+msgid "Archive for"
+msgstr "আর্কাইভঃ "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:203
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:20
+msgid "F jS, Y"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:15
+msgid "F, Y"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:17
+msgid "Y"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:19
+msgid "Author Archive"
+msgstr "লেখক আর্কাইভ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:21
+msgid "Blog Archives"
+msgstr "ব্লগ আর্কাইভ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:30
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:14
+msgid "Permanent Link to"
+msgstr "স্থায়ী লিঙ্ক"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:20
+#, php-format
+msgid "Posted by %s in %s"
+msgstr "%s কর্তৃক %s এ প্রকাশিত"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:37
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:20
+#, php-format
+msgid "Posts by %s"
+msgstr "%s কর্তৃক পোস্ট"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:20
+msgid "on"
+msgstr " - "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:16
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:28
+msgid "Read the rest of this entry &raquo;"
+msgstr "লেখার বাকি অংশটুকু পড়ুন &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:40
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "No Comments"
+msgstr "মন্তব্য নেই"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:40
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "1 Comment"
+msgstr "১টি মন্তব্য"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:40
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "% Comments"
+msgstr "%টি মন্তব্য"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:65
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:53
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:52
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:12
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:33
+msgid "&laquo; Older Entries"
+msgstr "&laquo; পুরানো লেখা"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:66
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:53
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:34
+msgid "Newer Entries &raquo;"
+msgstr "নতুন লেখা &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:72
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "দুঃক্ষিত, %s শ্রেণীতে এখনও কোনও পোস্ট নেই"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:74
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "দুঃক্ষিত, এই তারিখে কোনও পোস্ট নেই"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:77
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "দুঃক্ষিত, %s এর এখনও কোনও পোস্ট নেই"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:79
+msgid "No posts found."
+msgstr "কোনও পোস্ট পাওয়া যায় নি"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archives.php:10
+msgid "Archives by Month:"
+msgstr "মাস ভিত্তিক আর্কাইভ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archives.php:14
+msgid "Archives by Subject:"
+msgstr "বিষয়ভিত্তিক আর্কাইভ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:20
+msgid "This user hasn't shared any biographical information"
+msgstr "এই ব্যবহারকারী কোনও আত্মজীবনীমূলক তথ্য সরবরাহ করেন নি"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:25
+msgid "Homepage:"
+msgstr "মূলপাতা"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:26
+msgid "Yahoo Messenger:"
+msgstr "ইয়াহু! ম্যাসেঞ্জার"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:27
+msgid "Jabber/GTalk:"
+msgstr "গুগল টক"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:28
+msgid "AIM:"
+msgstr "AIM:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:45
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:29
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:25
+msgid "l, F jS, Y"
+msgstr "l, F jS, Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "Tags: "
+msgstr "টীকাসমূহ:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "Posted in"
+msgstr "পোস্ট করা হয়েছে"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "Edit"
+msgstr "সম্পাদনা"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:59
+msgid "No posts found by this author."
+msgstr "এই লেখকের কোনও লেখা পাওয়া যায় নাই।"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:5
+msgid "Enter your password to view comments"
+msgstr "মতামত দেখতে আপনার পাসওয়ার্ড দিন"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:21
+msgid "Comments"
+msgstr "মতামত"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:22
+msgid "Trackbacks"
+msgstr "ট্র্যাক ব্যাক"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:41
+msgid "No comments yet."
+msgstr "কোন মতামত নেই"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:62
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "মতামত দিতে হলে আপনাকে <a href=\"%s\">লগ ইন</a> করতে হবে।"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:69
+msgid "Cancel Reply"
+msgstr "জবাব বাতিল"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:72
+msgid "Logged in as"
+msgstr "লগ করা হয়েছেঃ "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:72
+msgid "Log out of this account"
+msgstr "লগ আউট করুন"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:72
+msgid "Logout &raquo;"
+msgstr "লগ আউট &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:75
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "আবারো স্বাগতম, <strong>%s</strong>"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:75
+msgid "Change &raquo;"
+msgstr "পরিবর্তন করুন &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:75
+msgid "Close &raquo;"
+msgstr "বন্ধ করুন &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:80
+msgid "Name"
+msgstr "নাম"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:80
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:84
+msgid "(required)"
+msgstr "(আব্শ্যকীয়)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:84
+msgid "E-Mail"
+msgstr "ই-মেইল"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:84
+msgid "(will not be published)"
+msgstr "(প্রকাশিত হবে না)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:88
+msgid "Website"
+msgstr "ওয়েব সাইট"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:106
+msgid "Submit Comment"
+msgstr "মতামত প্রদান করুন"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:124
+msgid "No trackbacks yet."
+msgstr "এখনও কোনও ট্র্যাকব্যাক নেই।"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:137
+msgid "Comments are closed."
+msgstr "মতামত প্রদান বন্ধ আছে।"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:7
+msgid "Fusion theme by"
+msgstr "Fusion থীমটি "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:7
+msgid "powered by "
+msgstr "পাওয়ার্ড বাই"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:8
+msgid "Entries (RSS)"
+msgstr "নিবন্ধন (RSS)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:8
+msgid "and"
+msgstr "এবং"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:8
+msgid "Comments (RSS)"
+msgstr "মতামত (RSS)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:15
+msgid "Increase/Decrease text size"
+msgstr "লেখার আকার ছোট/বড় করুন"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:16
+msgid "Switch between full and fixed width"
+msgstr "স্থির ও পরিবর্তনশীল প্রস্থের মধ্যে নির্বাচন"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:88
+msgid "Fusion Theme Options"
+msgstr "Fusion থীম এর পরিবর্তন"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:91
+msgid "Meta keywords:"
+msgstr "মেটা শব্দ:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:92
+msgid "Separate with commas"
+msgstr "কমা দিয়ে আলাদা করুন"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:97
+msgid "Use custom logo image"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:97
+msgid "Upload your logo as \"logo.png\" in the theme directory:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:97
+msgid "You should export the logo image with transparency enabled"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:102
+msgid "Disable homepage tab"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:102
+msgid "Check this if you are using a static page as the homepage"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:107
+msgid "Show the categories as header tabs"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:107
+msgid "(instead of pages)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:112
+msgid "Disable the default category block in the sidebar"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:112
+msgid "Check if you prefer the widgetized category display or just want to hide the categories"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:117
+msgid "Disable the default search block in the sidebar"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:117
+msgid "Check if you don't like the theme-default search look"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:122
+msgid "Disable layout controls (Aa/<>)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:124
+msgid "Default page content width:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:127
+msgid "Fixed (960 pixels)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:131
+msgid "Fluid (95 percent of the visitor's screen width)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:132
+msgid "Note that if the layout controls are enabled, the visitor's javascript page width cookie setting will override this option"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:136
+msgid "Sidebar position:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:139
+msgid "Right (default)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:143
+msgid "Left"
+msgstr "বাম"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:149
+msgid "Disable jQuery and the associated code"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:149
+msgid "This will reduce the page load with ~70 KB, but will also disable some features and effects (layout controls, rss links inside category menu, comment tabs, trackbacks).<br />You shouldn't change this unless you have problems with your host regarding bandwidth"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:152
+msgid "Custom CSS code"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:152
+msgid "Here you can add or change anything related to design if you have some basic CSS knowledge. Check "
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:152
+msgid "to see existing styles, which you can redefine here."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:152
+msgid "Don't modify style.css if you wish to preserve your changes after theme update! Use this option instead."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:155
+msgid "Save Changes"
+msgstr "সংরক্ষণ করুন"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:203
+msgid "by"
+msgstr "->"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:203
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s এ %2$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:203
+msgid "H:i"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:207
+msgid "Your comment is awaiting moderation."
+msgstr "আপনার মতামত যাচাই বাছাই এর অপেক্ষায় রয়েছে।"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:217
+msgid "Reply"
+msgstr "জবাব"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:217
+msgid "Quote"
+msgstr "ঊধৃতি"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:158
+msgid "You are Home"
+msgstr "আপনি এখন মূল পাতায়"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:158
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:160
+msgid "Home"
+msgstr "মূলপাতা"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:160
+msgid "Click for Home"
+msgstr "মূল পাতায় যেতে ক্লিক করুন"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:28
+msgid "This entry was posted on"
+msgstr "পোস্টের তারিখ -"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:30
+msgid "and is filed under"
+msgstr "শ্রেণী - "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:32
+msgid "You can follow any responses to this entry through"
+msgstr "আপনি এই নিবন্ধের জবাব গুলো অনুসরান করতে পারেন: "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:35
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "আপনি <a href=\"#respond\">মতামত </a> রাখতে পারেন, বা আপনার নিজ সাইট থেকে <a href=\"%s\" rel=\"trackback\">ট্র্যাকব্যাক</a> করতে পারেন।"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:39
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "মতামত করা বন্ধ রয়েছে, কিন্তু আপনি আপনির নিজ সাইট থেকে <a href=\"%s\" rel=\"trackback\">ট্র্যাক ব্যাক</a> করতে পারেন।"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:43
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "আপনি শেষে গিয়ে মতামত রাখতে পারেন। পিঙ্গ বন্ধ আছে।"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:47
+msgid "Both comments and pings are currently closed."
+msgstr "মতামত ও পিঙ্গ - উভয়ই বন্ধ আছে।"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:49
+msgid "Edit this entry"
+msgstr "সম্পাদনা করুন"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:54
+msgid "Sorry, no attachments matched your criteria."
+msgstr "দুঃক্ষিত, আপনার চাহিদা মোতাবেক কোনও সংযোজনী নেই। "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:60
+msgid "Not Found"
+msgstr "পাওয়া যায় নি"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:61
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "দুঃক্ষিত, আপনি যা খুঁজছেন তা এখানে নেই। "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/links.php:9
+msgid "Links:"
+msgstr "লিঙ্কঃ "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page-3col.php:23
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page-hidecomments.php:23
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page-nosidebar.php:19
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page.php:16
+msgid "Read the rest of this page &raquo;"
+msgstr "এই পাতার বাকী অংশটুকু পড়ুন &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:7
+msgid "Search Results"
+msgstr "ফলাফল"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:39
+msgid "No posts found. Try a different search?"
+msgstr "কোনও পোস্ট পাওয়া যায় নি, অন্য কিছুর অনু্সন্ধান করবেন?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/searchform.php:8
+msgid "Search"
+msgstr "অনুসন্ধান"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:27
+#, php-format
+msgid "You are currently browsing the archives for the %1$s category."
+msgstr "আপনি এখন %1$s এর আর্কাইভ দেখছেন।"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:30
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:33
+#, php-format
+msgid "You are currently browsing the archives for %1$s"
+msgstr "আপনি এখন %1$s এর আর্কাইভ দেখছেন।"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:36
+#, php-format
+msgid "You are currently browsing the archives for the year %1$s"
+msgstr "আপনি এখন %1$s এর আর্কাইভ দেখছেন।"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:39
+msgid "You have searched the archives for"
+msgstr "আপনি আর্কাইভে অনুসন্ধান করেছেন: "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:42
+msgid "You are currently browsing the archives."
+msgstr "আপনি এখন আর্কাইভ দেখছেন।"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:66
+msgid "Archives"
+msgstr "আর্কাইভ সমূহ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:77
+msgid "Meta"
+msgstr "মেটা"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/single.php:61
+msgid "Sorry, no posts matched your criteria."
+msgstr "দুঃক্ষিত, আপনার চাহিদা মোতাবেক কোনও পোস্ট পাওয়া যায় নি"
+

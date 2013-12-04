@@ -1,0 +1,1791 @@
+/*
+Theme Name: Fusion
+Theme URI: http://digitalnature.ro/projects/fusion
+Description: Light and clean Wordpress theme from <a href="http://digitalnature.ro/">digitalnature</a>. <br />Localization support and theme options available
+Version: 3.1
+Author: digitalnature
+Author URI: http://digitalnature.ro
+Tags: light, two-columns, fixed-width, flexible-width, right-sidebar, theme-options, threaded-comments, white
+
+	Fusion Wordpress theme
+	  http://digitalnature.ro/projects/fusion
+
+	Theme designed by digitalnature. See the project page for more information and updates
+
+	The CSS, XHTML and design is released under GPL.
+    http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+
+/* global prop. */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+ height:100%;
+}
+
+html{
+  font-size: 100%;
+}
+
+body{
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Sans, FreeSans, Jamrul, Garuda, Kalimati;
+  font-size: 0.75em;
+  font-style: normal;
+  color: #000;
+  background: #fff url(images/main-bg.gif) repeat-x left 200px;
+  min-height:100%;
+  height:auto !important; /* ie6 ignores it */
+  height:100%; /* fix */
+  position: relative;
+}
+
+
+/* general elements */
+a{
+  color: #2d83d5;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: #fff;
+  background-color: #2d83d5;
+  text-decoration: none;
+}
+
+img{
+  border: 0;
+}
+
+table{
+  margin: .5em 0 1em;
+  border-bottom: 3px solid #d9d9d9;
+  border-left: 1px solid #d9d9d9;
+}
+
+table td, table th{
+  text-align: left;
+  padding: .2em .4em;
+  border-top: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+}
+
+table th{
+  background: #ebebeb;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+table tr.odd{
+  background: #ebebeb;
+}
+
+table tr:hover{
+  background: #d9d9d9;
+}
+
+p{
+  line-height: 140%;
+  margin: .4em 0 1em;
+}
+
+form p{
+  margin: 0;
+}
+
+input, textarea, select{
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Sans, FreeSans, Jamrul, Garuda, Kalimati;
+  font-size: 100%;
+  margin: .2em 0;
+  background: transparent url(images/input-bg.png) no-repeat left top;
+}
+
+input, textarea{
+  padding: .2em .4em;
+}
+
+input.radio, input.checkbox{
+  background: none;
+  padding: 2px;
+  margin: 2px;
+}
+
+form label{
+  font-weight: bold;
+}
+
+fieldset{
+  padding: .8em;
+  border: 1px solid #E7E8E6;
+}
+
+legend{
+  padding: 2px 15px 10px 15px;
+  color: #8b8b89;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 115%;
+}
+
+small{ font-size: 86%; }
+
+pre{
+  overflow: auto;
+  background: #eee;
+  padding: .4em;
+}
+
+/* lists */
+
+ul, ol{
+  margin: .4em 0 1em;
+  line-height: 150%;
+}
+
+
+ul li, ol li{
+ list-style-position:outside;
+ margin-left: 2em;
+}
+
+dl{
+  padding: .3em 0 .8em;
+}
+
+dt {
+  float: left;
+  clear: left;
+  width: 9em;
+  text-align: right;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+dd {
+  margin: 0 0 0 10em;
+  padding: 0 0 0.5em 0;
+}
+
+blockquote{
+  background: transparent url(images/blockquote.png) no-repeat left top;
+  margin: 10px 65px 10px 10px;
+  padding: 20px 20px 10px 10px;
+  font-style: italic;
+  color: #939494;
+}
+
+blockquote p{
+  padding: 8px;
+  margin: 2px;
+  border: 1px dotted #939494;
+}
+
+/* headings */
+
+h1{
+  font-size: 250%;
+  margin: .5em 0 .2em;
+  font-weight: bold;
+  letter-spacing:-0.06em;
+}
+
+h2{
+  font-family: "Palatino Linotype", Georgia, "Tahoma", "Century Schoolbook L", Arial, Helvetica;
+  font-size: 160%;
+  font-weight: bold;
+  margin: .5em 0 .2em;
+  letter-spacing: -0.04em;
+}
+
+h3{
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Sans, FreeSans, Jamrul, Garuda, Kalimati;
+  font-size: 150%;
+  font-weight: bold;
+  margin: .5em 0 .2em;
+  letter-spacing:-0.06em;
+}
+
+h4{
+  font-family: Arial Narrow, Arial, Helvetica, Geneva;
+  font-size: 140%;
+  font-weight: bold;
+  margin: .5em 0 .2em;
+}
+
+h5{
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Sans, FreeSans, Jamrul, Garuda, Kalimati;
+  font-size: 115%;
+  font-weight: normal;
+  margin: .5em 0 .2em;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h6{
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Sans, FreeSans, Jamrul, Garuda, Kalimati;
+  font-size: 110%;
+  font-weight: bold;
+  margin: .4em 0 .2em;
+}
+
+
+/*** BASIC LAYOUT ***/
+
+/* used only for the header background images (center & repeat) */
+#page-wrap1{ background: transparent url(images/header-bg.jpg) repeat-x left top; }
+#page-wrap2{
+  background: transparent url(images/header-center.jpg) no-repeat center top;
+  height: 200px;
+  width: 100%;
+  display:block;
+}
+
+/* actual layout width: default is fixed @ 960px; 100% = fluid width */
+#page{
+  width: 980px;
+  min-width: 780px;
+  margin:0 auto;
+}
+
+/* content area (sidebars + main) */
+#main-wrap {
+  position:relative;		/* IE7 overflow bugfix */
+  clear:both;
+  float:left;
+  width:100%;
+}
+
+#mid-wrap, #side-wrap {
+  float:left;
+  width:100%;
+  position:relative;
+}
+
+#mid, #sidebar, #sidebar2 {
+  float:left;
+  position:relative;
+  padding:0;
+  overflow: visible;
+}
+
+
+/* start ie 6/7 position relative + z-index bug-fix
+
+#side-wrap, #mid-wrap{
+  float: none;
+  position: static;
+}
+#sidebar, #sidebar2{
+  position: static;
+  float: right;
+}
+#mid{
+  position: static;
+  float: left;
+}
+
+end ie 6/7 position relative + z-index bug-fix */
+
+
+/* no sidebar? */
+
+#page #main-wrap #mid-wrap { right:100%; }
+#page #main-wrap #side-wrap { right:0; }
+
+#page #main-wrap #mid {
+  width:100%;			/* main column width */
+  left:100%;			/* same */
+}
+
+
+/* if sidebar exists... */
+
+#page.with-sidebar #main-wrap #mid-wrap { right:0%;   /* width of the 2nd column, 0 because it doesnt exist */ }
+#page.with-sidebar #main-wrap #side-wrap { right:66%; /* width of the main column */ }
+
+#page.with-sidebar #main-wrap #mid {
+  width:66%;			/* width of main column */
+  left:66%;				/* same */
+}
+
+#page.with-sidebar #main-wrap #sidebar {
+  width:34%;			/* width of the sidebar */
+  left:66%;
+}
+
+
+/* if 2nd sidebar exists... */
+
+#page.with-sidebar2 #main-wrap #mid-wrap { right:25%; }
+#page.with-sidebar2 #main-wrap #side-wrap { right:25%; }
+
+#page.with-sidebar2 #main-wrap #mid {
+  width:50%;			/* width of main column */
+  left:50%;
+}
+
+#page.with-sidebar2 #main-wrap #sidebar {
+  width:30%;			/* width of the sidebar (narrower than on 2 column pages)  */
+  left:50%;
+}
+
+#page.with-sidebar2 #main-wrap #sidebar2 {
+  width:20%;            /* width of 2nd sidebar */
+  left:50%;
+
+}
+
+#sidebar2-wrap{
+  margin-top: 230px;
+  padding-left: 8px;
+}
+
+#mid-content{
+  margin: 40px 0 10px;
+}
+
+#sidebar-wrap1{
+  background: transparent url(images/side-start.png) no-repeat left top;
+  padding-left: 28px;
+  margin-top: 36px;
+  height: 100%;
+}
+
+#sidebar-wrap2{
+  background: transparent url(images/side-bg.png) no-repeat right top;
+  padding-right: 30px;
+  padding-top: 40px;
+  height: 100%;
+  min-height: 400px;
+}
+
+
+/* clear sidebar/main sections, assuming sidebar is on the right */
+div.clearcontent{
+  clear: left;
+}
+
+
+
+/*** HEADER AREA ***/
+
+/* logo position */
+a#logo{
+  top: 80px;
+  position: absolute;
+}
+
+a#logo:hover{
+  background: none;
+}
+
+#header{
+  height: 200px;
+  z-index: 2; /* fix for stupid ie6/7 bug */
+  position:relative;
+}
+
+#header h1{
+  font-family: "Trajan Pro", "Lucida Sans Unicode", Arial, Helvetica, Sans, FreeSans, Jamrul, Garuda, Kalimati;
+  font-weight: bold;
+  position: absolute;
+  color: #fff;
+  top: 85px;
+  font-size: 3.4em;
+  letter-spacing:-0.06em;
+  margin: 0;
+  padding: 0;
+}
+
+#header h1 a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#header h1 a:hover{
+  background: none;
+  color: #2d83d5;
+}
+
+/* top navigation */
+#topnav{
+  color: #a2a3a6;
+  padding-top: 20px;
+}
+
+#topnav a{
+  font-size: 110%;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #afb0b3;
+  padding: 0 8px;
+}
+
+#topnav a:hover{
+  text-decoration: none;
+  background: none;
+  color: #fff;
+}
+
+
+/* header tabs */
+#tabs{
+  font-size:13px;
+  width: 100%;
+  line-height:normal;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#tabs ul{
+  list-style:none;
+}
+
+#tabs li{
+  display:inline;
+  float: left;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#tabs a {
+  float:left;
+  background:url(images/tab-left.png) no-repeat left top;
+  color:#0470a0;
+  padding-left:9px;
+  margin-right:3px;
+  text-decoration:none;
+  color:#cfcfcf;
+  cursor: pointer; /* IE 7 bug-fix */
+}
+
+#tabs a span{
+  float:left;
+  display:block;
+  background:url(images/tab-right.png) no-repeat right top;
+  height: 29px;
+  padding-right: 10px;
+}
+
+#tabs a span span{
+  display:block;
+  background:none;
+  height: auto;
+  padding: 4px 4px 0 4px;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+/* End IE5-Mac hack */
+#tabs a:hover span {
+  color:#cfcfcf;
+}
+
+#tabs a:hover, #tabs li:hover a{
+  background-position:0% -29px;
+  color:#fff;
+}
+#tabs a:hover span, #tabs li:hover a span{
+  background-position:100% -29px;
+  color:#fff;
+}
+
+#tabs a.active, #tabs a.active:hover,
+#tabs li.current_page_item a, #tabs li.current_page_item a:hover,
+#tabs li.current_page_ancestor a, #tabs li.current_page_ancestor a:hover,
+#tabs li.current-cat a, #tabs li.current-cat a:hover,
+#tabs li.current-cat-parent a, #tabs li.current-cat-parent a:hover{
+  background-position:0% -58px;
+}
+
+#tabs a.active span, #tabs a.active:hover span,
+#tabs li.current_page_item a span, #tabs li.current_page_item a:hover span,
+#tabs li.current_page_ancestor a span, #tabs li.current_page_ancestor a:hover span,
+#tabs li.current-cat a span, #tabs li.current-cat a:hover span,
+#tabs li.current-cat-parent a span, #tabs li.current-cat-parent a:hover span{
+  background-position:100% -58px;
+  color:#000;
+}
+
+/* sub-menus */
+
+#tabs ul ul {
+  background: #838383;
+  position: absolute;
+  display: none;
+  width:200px;
+  top: 29px;
+  left: 0;
+  margin: 0;
+  padding: 4px 0;
+  line-height: 100%;
+  z-index: 99;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  -moz-border-radius-bottomleft: 4px;
+  -moz-border-radius-bottomright: 4px;
+}
+
+#tabs ul ul ul{
+  border: 1px solid #fff;
+  -moz-border-radius: 4px;
+}
+
+#tabs ul a.active ul,
+#tabs ul li.current_page_item ul,
+#tabs ul li.current_page_ancestor ul,
+#tabs ul li.current-cat ul,
+#tabs ul li.current-cat-parent ul{
+  background: #fff;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+#tabs ul.active ul ul,
+#tabs ul li.current_page_item ul ul,
+#tabs ul li.current_page_ancestor ul ul,
+#tabs ul li.current-cat ul ul,
+#tabs ul li.current-cat-parent ul ul{
+  border: 1px solid #ddd !important;
+}
+
+#tabs ul li ul a{
+  width:180px;
+  height:auto;
+  float:left;
+  background: none;
+  margin: 0;
+  padding: 4px 10px;
+  color: #cfcfcf;
+  font-weight: normal;
+  font-size: 90%;
+  text-shadow: #656565 1px 1px 1px;
+  line-height: 125%;
+}
+
+#tabs ul a.active ul a,
+#tabs ul li.current_page_item ul a,
+#tabs ul li.current_page_ancestor ul a,
+#tabs ul li.current-cat ul a,
+#tabs ul li.current-cat-parent ul a{
+  color: #000;
+  text-shadow: none;
+}
+
+#tabs li:hover ul a span{ color: #cfcfcf; }
+
+#tabs ul a.active ul a span,
+#tabs ul li.current_page_item ul a span,
+#tabs ul li.current_page_ancestor ul a span,
+#tabs ul li.current-cat ul a span,
+#tabs ul li.current-cat-parent ul a span{
+  color: #666;
+}
+
+#tabs ul li ul a span, #tabs ul li ul a span span{
+  margin: 0;
+  padding: 0;
+  height: auto;
+  float: none;
+}
+
+#tabs ul ul a:hover, #tabs ul ul a:hover,
+#tabs ul a.active ul a:hover,
+#tabs ul li.current_page_item ul a:hover,
+#tabs ul li.current_page_ancestor ul a:hover,
+#tabs ul li.current-cat ul a:hover,
+#tabs ul li.current-cat-parent ul a:hover{
+  background:#09c6eb url(images/tab-subnav-active.gif) repeat-x left top;
+}
+
+#tabs ul ul a:hover, #tabs ul ul a:hover span,
+#tabs ul a.active ul a:hover span,
+#tabs ul li.current_page_item ul a:hover span,
+#tabs ul li.current_page_ancestor ul a:hover span,
+#tabs ul ul li.current_page_parent a:hover span,
+#tabs ul ul li.current_page_item a:hover span,
+#tabs ul ul li.current_page_parent li.current_page_item a:hover span,
+#tabs ul ul li.current-cat a:hover span,
+#tabs ul ul li.current-cat-parent li.current_page_item a:hover span{
+  color:#fff;
+}
+
+#tabs ul li ul a span, #tabs ul li ul a span{
+  background: none;
+}
+
+#tabs ul ul ul{
+  top:auto;
+}
+
+#tabs ul li ul ul {
+  left:195px;
+  top: 4px;
+}
+
+#tabs ul li:hover ul ul, #tabs ul li:hover ul ul ul, #tabs ul li:hover ul ul ul ul{
+  display:none;
+}
+#tabs ul li:hover ul, #tabs ul li li:hover ul, #tabs ul li li li:hover ul, #tabs ul li li li li:hover ul{
+  display:block;
+}
+
+/* active submenus */
+#tabs ul ul li.current_page_parent a span,
+#tabs ul ul li.current_page_item a span,
+#tabs ul ul li.current_page_parent li.current_page_item a span,
+#tabs ul ul li.current-cat a span,
+#tabs ul ul li.current-cat-parent li.current_page_item a span{
+  color: #2d83d5;
+}
+
+#tabs ul ul li.current_page_item li a span, #tabs ul ul li.current_page_parent li a span,
+#tabs ul ul li.current-cat li a span, #tabs ul ul li.current-cat-parent li a span{
+  color: #000;
+}
+
+/* IE 7 bug-fixes */
+#tabs ul li:hover { z-index: 100; }
+#tabs ul * li:hover { visibility: inherit; }
+
+
+/*** MAIN ***/
+
+/* sort news links (pligg) */
+#sortlinks{
+  display: block;
+  margin: 5px 0 20px;
+}
+
+
+/* secondary tabs */
+
+ul.secondary-tabs {
+  font-size:14px;
+  height:35px;
+  line-height:normal;
+  left: 0;
+  padding-left: 12px;
+  background:transparent url(images/mtab-bg.png) repeat-x left bottom;
+  margin: 10px 0 20px;
+  list-style:none;
+}
+
+ul.secondary-tabs li {
+  display:inline;
+  float:left;
+  margin: 0;
+  padding: 0;
+}
+
+ul.secondary-tabs a {
+  float:left;
+  background:url(images/mtab-left.png) no-repeat left -35px;
+  color:#0470a0;
+  padding-left:6px;
+  margin-right:3px;
+  text-decoration:none;
+  text-transform: uppercase;
+  color:#8c8b8b;
+  cursor: pointer; /* IE 7 bug-fix */
+}
+
+ul.secondary-tabs a span{
+  float:left;
+  display:block;
+  background:url(images/mtab-right.png) no-repeat right -35px;
+  height: 35px;
+  padding-right: 6px;
+}
+
+ul.secondary-tabs a span span{
+  display:block;
+  background:none;
+  height: auto;
+  padding: 7px 10px 0 10px;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+ul.secondary-tabs a span {float:none;}
+/* End IE5-Mac hack */
+ul.secondary-tabs a:hover span {
+  color:#cfcfcf;
+}
+
+ul.secondary-tabs a:hover{
+  background-position:0% -70px;
+  color:#fff;
+}
+ul.secondary-tabs a:hover span{
+  background-position:100% -70px;
+  color:#fff;
+}
+
+ul.secondary-tabs a.active, ul.secondary-tabs a.current{
+  background-position:0% 0px;
+  color:#ed2124;
+}
+ul.secondary-tabs a.active span, ul.secondary-tabs a.current span {
+  background-position:100% 0px;
+  color:#ed2124;
+}
+
+#tab-2, #tab-3, #tab-4, #tab-5, #tab-6, #tab-7, #tab-8, #tab-9{
+  display: none;
+}
+
+.post, .attachment{
+  background: transparent url(images/div-h2.gif) repeat-x left 8px;
+  padding-top: .6em;
+  margin: 0 0 2.8em;
+  display: block;
+  position: relative;
+  min-width: 0;  /* IE7 peakaboo fix */
+}
+
+.post-search{
+  background: transparent url(images/div-h2.gif) repeat-x left 8px;
+  padding-top: .6em;
+  display: block;
+  min-width: 0;  /* IE7 peakaboo fix */
+}
+
+
+/* titles */
+
+.post h2.title, .attachment h2.title,
+.page h2.title, .page h2.title{
+  font-family: "Palatino Linotype", Georgia, "Tahoma", "Century Schoolbook L", Arial, Helvetica;
+  font-size: 250%;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.04em;
+}
+
+.post h2.title a{
+  color: #000;
+  text-decoration: none;
+}
+
+.post h2.title a:hover{
+  background: none;
+  color: #ed1f24;
+}
+
+.post h3.title, .attachment h3.title{
+  font-family: "Palatino Linotype", Georgia, "Tahoma", "Century Schoolbook L", Arial, Helvetica;
+  font-size: 200%;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  letter-spacing: normal;
+}
+
+.post h3.title a{
+  color: #000;
+  text-decoration: none;
+}
+
+.post h3.title a:hover{
+  background: none;
+  color: #ed1f24;
+}
+
+/* post header */
+
+.post .postheader, .attachment .postheader{
+  display: block;
+  margin-left: 74px;
+  position: relative;
+}
+
+.post p.postcategory, .attachment p.postcategory{
+  color: #e5e5e5;
+}
+
+.post .postinfo, .attachment .postinfo{
+  background: #e2e3e3 url(images/postinfo-bg.gif) repeat-x left top;
+}
+
+.post .postinfo p, .attachment .postinfo p{
+  padding: .4em .8em;
+}
+
+/* post body */
+
+.post .postbody, .attachment .postbody{
+  clear: left;
+  display: block;
+}
+
+.post p.postcontrols, .attachment p.postcontrols{
+  color: #e5e5e5;
+  float: right;
+  margin: 0;
+}
+
+.post .tags, .attachment p.postcontrols{
+  float: left;
+  display: block;
+  padding-left: 19px;
+  margin: 0;
+  background:transparent url(images/post-icons.png) no-repeat 0 top;
+}
+
+.post p.postcontrols a, .post p.postcategory a,
+.attachment p.postcontrols a, .attachment p.postcategory a{
+  padding: 0 2px;
+}
+
+/* comments link */
+
+a.comments, .post p.postcontrols a.comments{
+  background:transparent url(images/post-icons.png) no-repeat 2px bottom;
+  padding-left: 19px;
+  color:#ed1f24;
+}
+
+a.comments:hover, .post p.postcontrols a.comments:hover{
+  background: #ed1f24;
+  color: #fff;
+}
+
+a.no.comments, .post p.postcontrols a.no.comments{
+  color: #2d83d5;
+}
+
+a.no.comments:hover, .post p.postcontrols a.no.comments:hover{
+  background-color: #2d83d5;
+  color: #fff;
+}
+
+
+/* comments */
+
+ol#comments, ol#comments li{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ol#comments ul.children{
+  margin: 0;
+  padding: 0;
+}
+
+li.comment{
+  background: transparent url(images/comment-div-bg.png) repeat-y left bottom;
+  list-style-position: outside; /* ie 7 bugfix */
+  display: block;
+  position: relative;
+  min-height: 110px;
+}
+
+li.comment .wrap{
+  background: transparent url(images/comment-div-start.png) no-repeat left top;
+  min-height:110px;
+  height:auto !important; /* ie6 ignores it */
+  height:110px; /* fix */
+}
+
+li.comment.with-avatars{ background-position: 96px bottom; }
+li.comment.with-avatars .wrap{ background-position: 96px top; }
+
+/* gravatar */
+li.comment .avatar{
+  float: left;
+  width: auto !important;
+  padding-top:6px;
+  padding-left: 8px;
+}
+
+li.comment .avatar img{
+  padding: 3px;
+  margin: 4px 10px;
+  border: 1px solid #E7E8E6;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
+li.comment .details{ display: block; margin-left: 12px; }
+li.comment.with-avatars .details{ margin-left: 108px;}
+
+li.comment .details .head{
+  background: #f7f8f8 url(images/postinfo-bg.gif) repeat-x left bottom;
+  padding: 2px 10px 6px 10px;
+  margin: 0;
+  display: block;
+  color: #8f9090;
+}
+
+li.comment .details.admincomment .head{
+  background: #59b2e4 url(images/postinfo-bg-admin.gif) repeat-x left bottom;
+  color: #fff;
+}
+
+li.comment .details.admincomment .head a{ color: #fff; }
+li.comment .details.admincomment .head a:hover{ background: none; color: #fcb722; }
+
+
+/* comment rate links, pligg only */
+
+span.rate{
+  right: 8px;
+  position: absolute;
+}
+
+span.rate a.karma{
+  font-family: "Arial Black", Helvetica, Sans, FreeSans, Jamrul, Garuda, Kalimati;
+  font-weight: bold;
+  font-size: 110%;
+  text-decoration: none;
+  padding: 0;
+}
+
+span.rate a.karma.negative{ color:#ed2124; }
+span.rate a.karma.positive{ color:#6fb23c; }
+
+span.rate a.karma:hover{
+  background: none;
+}
+
+span.rate a.ratelink{
+  padding: 4px;
+  text-decoration: none;
+}
+
+span.rate a.ratelink.up{ background: transparent url(images/thumb-up.gif) no-repeat left center;      }
+span.rate a.ratelink.down{ background: transparent url(images/thumb-down.gif) no-repeat left center;      }
+
+li.comment .details .text{
+  background: transparent url(images/comment-bg.png) repeat-x left top;
+  padding: .3em .8em;
+  margin-top: 3px;
+  min-height: 64px;
+  font-size: 90%;
+  color: #4e5359;
+}
+
+li.comment .details.admincomment .text{
+  background: #f0f0f0 url(images/comment-bg-admin.png) repeat-x left top;
+}
+
+div.act{
+  position: absolute;
+  display: none;
+  right: 0;
+  top: 0;
+  margin-top: 50px;
+  font-size: 110%;
+  text-transform: uppercase;
+}
+
+span.button a{
+  background: transparent url(images/button-bg.png) no-repeat right top;
+  display: block;
+  height: 31px;
+  float: left;
+  margin-right: 3px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+span.button a span{
+  float: left;
+  height: 31px;
+  display: block;
+  padding: 0 10px 0 25px;
+}
+
+span.quote a span{ background: transparent url(images/button-quote.png) no-repeat left top; }
+span.reply a span{ background: transparent url(images/button-reply.png) no-repeat left top; }
+span.submit a span{ background: transparent url(images/button-submit.png) no-repeat left top; }
+
+span.button a span span{
+  background: none;
+  display: block;
+  padding: 6px 10px 0px 10px;
+  height: auto;
+}
+
+span.button a:hover{ background-position: right bottom; }
+span.button a:hover span{ background-position: left bottom; }
+
+
+/* sidebars */
+
+#sidebar h2.title, #sidebar2 h2.title{
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Sans, FreeSans, Jamrul, Garuda, Kalimati;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 130%;
+}
+
+#sidebar ul, #sidebar2 ul{
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar ul li, #sidebar2 ul li{
+  list-style-type: none;
+  line-height: 140%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  list-style-position: outside; /* ie 7 bugfix */
+}
+
+/* sidebar menu */
+
+#sidebar ul.nav{
+  margin: 1em 0 2em;
+  padding: 0;
+}
+
+#sidebar ul.nav li{
+  list-style-type: none;
+  background: transparent url(images/div-h.gif) repeat-x left bottom;
+  padding: 2px 0 3px 0;
+  margin: 0;
+  position: relative;
+}
+
+/* no bg on the last menu item */
+#sidebar ul.nav li.last{
+  background: none
+}
+
+
+#sidebar ul.nav ul{
+  margin: 0px 0 12px;
+}
+
+#sidebar ul.nav ul ul{
+  margin: 0px 0 8px; /* lower bottom-padding for 2+ level menu */
+}
+
+/* 2nd level menu */
+#sidebar ul.nav li li{
+  background: none;
+  padding: 0;
+  margin-left: 25px;
+}
+
+/* 3rd ... n levels */
+#sidebar ul.nav li li li{
+  margin-left: 10px;
+}
+
+#sidebar ul.nav li a{
+  background: none;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 110%;
+  padding: 3px 27px 3px 8px;
+  color: #000;
+  cursor: pointer;
+}
+
+#sidebar ul.nav li a:hover{
+  background: #efefee url(images/side-nav-bg.png) repeat-y right top;
+  color: #ed2124;
+}
+
+#sidebar ul.nav li a span{
+  background: transparent url(images/b1.png) no-repeat left 3px;
+  padding-left: 17px;
+  display: block;
+}
+
+#sidebar ul.nav li a span em{
+  font-style: normal;
+  font-weight: normal;
+  color: #A9A9A9;
+  text-shadow: #fff 1px 1px 1px;
+  padding: 0 2px;
+}
+
+#sidebar ul.nav li a:hover span{
+  background-position: left -97px;
+  color: #ed2124;
+}
+
+#sidebar ul.nav li li a{
+  text-transform: none;
+  font-size: 100%;
+  padding: 0;
+}
+
+#sidebar ul.nav li li a:hover{
+  background: none
+}
+
+#sidebar ul.nav li li a span{
+  background: none;
+  padding: 0;
+}
+
+#sidebar ul.nav li a.rss{
+  background: transparent url(images/side-nav-rss.gif) no-repeat left top;
+  display: none;
+  width:26px;
+  position: absolute;
+  height: 13px;
+  right: 0;
+  padding: 0 4px 0 0;
+  margin-top: 2px;
+  top: 0;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 5;
+}
+
+#sidebar ul.nav li li a.rss{
+  visibility: hidden;
+}
+
+#sidebar ul.nav li a.rss:hover{
+  background-position: 0px -13px;
+}
+
+
+/* sidebar content box */
+
+#sidebar .box, #sidebar2 .box{
+  margin: 16px 0 2px;
+}
+
+#sidebar .box h2.title, #sidebar2 .box h2.title{
+  background: transparent url(images/side-box-top.png) no-repeat left bottom;
+  padding: 4px 0 4px 20px;
+  color: #8d8b8b;
+  margin: 20px 0 0 0;
+}
+
+#sidebar .box ul, #sidebar2 .box ul{
+  background: transparent url(images/side-box-bg.png) repeat-y left bottom;
+  padding: 10px 20px;
+  display: block;
+}
+
+#sidebar .box ul ul, #sidebar2 .box ul ul{ background: none; }
+#sidebar .box ul li, #sidebar2 .box ul li{ line-height: 150%; }
+
+#sidebar .box caption, #sidebar2 .box caption{
+  text-align: left;
+  font-weight: bold;
+}
+
+
+/* sidebar search */
+
+#searchtab{
+  background: transparent url(images/search-bg.png) no-repeat left top;
+  height: 40px;
+  position: relative;
+}
+
+#searchtab .inside{
+  background: transparent url(images/search-go.png) no-repeat right top;
+  height: 40px;
+}
+
+#searchtab fieldset{
+  padding: 0;
+  border: none;
+}
+
+#searchtab input{
+  border: 0;
+  background: none;
+  font-size: 12px;
+  padding: 0px;
+}
+
+#searchtab input.searchfield, #searchtab input#s{
+  position: absolute;
+  top: 6px;
+  left: 46px;
+  color: #949496;
+  padding: 0px;
+  margin: 0;
+  width: 50%;
+}
+
+#searchtab input.searchfield:focus, #searchtab input#s:focus{ color: #000; }
+
+#searchtab input.searchbutton, #searchtab input#searchsubmit{
+  position: absolute;
+  right: 37px;
+  top: 6px;
+  color: #e5e5e5;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 0;
+}
+
+#searchtab label{ display: none; }
+#searchtab input.searchbutton:hover{ color: #fff; }
+
+
+
+/*** FOOTER ***/
+
+#footer{
+  background: transparent url(images/div-h2.gif) repeat-x left top;
+  padding: 1em 0;
+  margin-top: 1em;
+  width: 100%;
+  text-align: center;
+}
+
+#footer a#toplink{
+  text-decoration: none;
+  padding: 0 .6em;
+}
+
+
+/*** top right page controls ***/
+
+#layoutcontrol{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: block;
+  width: 74px;
+  height: 16px;
+  z-index: 1000;
+}
+
+#layoutcontrol a{
+  float: left;
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-right: 3px;
+  background: transparent url(images/pagecontrols.png) no-repeat left top;
+}
+
+#layoutcontrol a.setLiquid{ background-position: -50px top; }
+#layoutcontrol a.setFont{ background-position: left top; width: 25px; }
+
+#layoutcontrol a.setLiquid:hover{ background-position: right top; }
+#layoutcontrol a.setFont:hover{ background-position: -25px top; }
+#layoutcontrol a span{ display: none; }
+
+
+/* misc... */
+
+.left{ float: left; }
+.right{ float: right; }
+div.clear{ clear: both;height:1px;  }
+
+/* clearfix */
+.clearfix:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix{
+  min-width: 0;		        /* trigger hasLayout for IE7 */
+  display: inline-block;
+  /* \*/ display: block;	/* Hide from IE Mac */
+}
+
+* html .clearfix{
+/* \*/  height: 1%;	    /* Hide from IE Mac */
+}
+
+.error, .red{ color:#ed1f24; }
+
+
+/*** WORDPRESS SPECIFIC STYLES ***/
+
+.widget{
+  margin: 1em .6em 1.8em .6em;
+  min-width: 0; /* IE7 peakaboo fix */
+  padding: 0;
+}
+
+.widget ul ul{
+  margin: 0 0 0 .8em;
+  padding: 0;
+}
+
+#sidebar .widget h2.title,
+#sidebar2 .widget h2.title{
+   background: transparent url(images/div-h2.gif) repeat-x left bottom;
+   color: #8b8b89;
+   padding-bottom: 2px;
+   font-size: 125%;
+   margin-bottom: .4em;
+}
+
+#sidebar li.linkcat h2.title,
+#sidebar2 li.linkcat h2.title{
+   background: transparent url(images/div-h2.gif) repeat-x left bottom;
+   color: #8b8b89;
+   padding-bottom: 2px;
+   text-align: right;
+   font-style: italic;
+   font-size: 115%;
+}
+
+/* lists with arrow bullets on some of the widgets */
+#sidebar li.linkcat li, #sidebar2 li.linkcat li,
+.widget.widget_links ul li, .widget.widget_meta ul li, .widget.widget_categories ul li, .widget.widget_archive ul li, .widget.widget_pages ul li, .widget.widget_recent_entries ul li{
+   background: transparent url(images/b3.gif) no-repeat left 6px;
+}
+
+#sidebar li.linkcat a, #sidebar2 li.linkcat a,
+.widget.widget_links ul li a, .widget.widget_meta ul li a, .widget.widget_categories ul li a, .widget.widget_archive ul li a, .widget.widget_pages ul li a, .widget.widget_recent_entries ul li a{
+   color: #8b8b89;
+   text-decoration: none;
+   margin-left: 10px;
+   display: inline-block;
+}
+
+.widget_tag_cloud a{
+  vertical-align: middle;
+  text-decoration: none;
+  padding: 0 0.2em;
+  letter-spacing: -0.04em;
+}
+
+
+#sidebar li.linkcat a:hover, #sidebar2 li.linkcat a:hover,
+.widget.widget_links ul li a:hover, .widget.widget_meta ul li a:hover, .widget.widget_categories ul li a:hover, .widget.widget_archive ul li a:hover, .widget.widget_pages ul li a:hover, .widget.widget_recent_entries ul li a:hover{
+   color:#ed1f24;
+   background: none;
+   text-decoration: underline;
+}
+
+/* recent comments widget */
+.widget ul#recentcomments li{
+  background: transparent url(images/post-icons.png) no-repeat left -141px;
+  padding-left: 18px;
+  display:block;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.widget ul#recentcomments li a.url{
+  border-bottom: 1px dotted #8b8b89;
+  color: #000;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.widget ul#recentcomments li a.url:hover{
+  border-bottom: 1px solid #8b8b89;
+  background: none;
+}
+
+.widget#tag_cloud{ text-align: justify; }
+.widget#tag_cloud a{ line-height: 125%; }
+
+
+/* calendar widget */
+.widget_calendar h2{
+  display: none;
+}
+
+.widget_calendar table#wp-calendar{
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.widget_calendar table#wp-calendar th, .widget_calendar table#wp-calendar td{
+  text-align: center;
+}
+
+.widget_calendar table#wp-calendar thead th{
+  font-weight: bold;
+  background: #ccc;
+  color: #fff;
+  border: 0;
+}
+
+.widget_calendar table#wp-calendar tbody td{
+  border: 0;
+  background: #eee;
+  color: #555;
+}
+
+.widget_calendar table#wp-calendar tbody td.pad{
+  background: #fff;
+}
+
+.widget_calendar table#wp-calendar tfoot td{
+  border: 0;
+  background: #fff;
+}
+
+.widget_calendar table#wp-calendar caption{
+  text-align: right;
+  font-style: italic;
+  color: #aaa;
+}
+
+
+.post .postheader{
+  display: block;
+  margin-left:0;
+}
+
+.entry img, .attachment img, .navigation .alignleft img, .navigation .alignright img{
+  padding: 3px;
+  margin: 4px 10px;
+  border: 1px solid #E7E8E6;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
+.entry img.alignleft, .attachment img.alignleft{ margin-left: 0; }
+.entry img.alignright, .attachment img.alignright{ margin-right: 0; }
+.entry img.aligncenter, .attachment img.aligncenter{ margin: 0 auto; text-align: center; }
+
+
+.attachment-entry{
+  text-align: center;
+}
+
+.attachment div.caption{
+  background:#F7F7F7;
+  border: 1px solid #E7E8E6;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  padding-top:5px;
+  margin:4px 10px;
+  text-align:center;
+  color: #8d8b8b;
+  min-width: 0; /* ie7 peakaboo fix */
+}
+
+/* no border on smilies */
+img.wp-smiley, .entry img.wp-smiley, .attachment img.wp-smiley{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.wp-caption {
+  background:#F7F7F7;
+  border: 1px solid #E7E8E6;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  padding-top:5px;
+  margin:4px 10px;
+  text-align:center;
+  color: #8d8b8b;
+}
+
+.wp-caption img, .entry .wp-caption img, .attachment .wp-caption img{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.wp-caption.alignleft{ margin-left: 0; }
+.wp-caption.alignright{ margin-right: 0; }
+
+
+.navigation{
+  font-size: 80%;
+  color: #c4c3c1;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation a{
+  text-decoration: none;
+  color: #d2d0cf;
+}
+
+.navigation a:hover{
+  background: none;
+  color:#ed1f24;
+}
+
+.postmetadata{
+  color: #c4c3c1;
+  margin: 1em 0;
+}
+
+.postmetadata a{
+  color: #929292;
+}
+
+.postmetadata a:hover{
+  background: none;
+  color:#ed1f24;
+}
+
+#footer a.rss, a.rsssubscribe{
+  background: transparent url(images/rss.png) no-repeat left 50%;
+  padding-left: 18px;
+}
+
+#footer a.rss:hover, a.rsssubscribe:hover{
+  background: #2d83d5 url(images/rss.png) no-repeat left 50%;
+}
+
+a.rsssubscribe{
+  margin: 6px 0 0 10px;
+  display: block;
+}
+
+
+#commentform{
+  display: block;
+  background: transparent url(images/div-h2.gif) repeat-x left 0px;
+  padding: 6px 0 0 0;
+  margin: 20px 0;
+}
+
+#commentform textarea{
+  margin-bottom: 6px;
+}
+
+#commentform #commentdata label{
+  background: #FFFF99;
+}
+
+
+/* pagination */
+
+.commentnavi{
+  margin: 10px 0;
+  display: block;
+}
+
+.commentnavi .page-numbers, .commentnavi a, #pagenavi a, #pagenavi span.pages, #pagenavi span.extend, p.postpages a{
+  padding: 2px 6px 2px 6px !important;
+  border: 1px solid #ccc !important;
+  background-color: #fff !important;
+  margin:0;
+  text-decoration: none;
+}
+
+.commentnavi a:hover, #pagenavi a:hover, p.postpages a:hover{
+  background-color: #2d83d5 !important;
+  color: #fff;
+}
+
+#pagenavi a, #pagenavi span.pages, #pagenavi span.extend{
+  margin: 0 2px;
+}
+
+#pagenavi span.current{
+  background: #ccc !important;
+  color: #fff !important;
+  padding: 2px 6px 2px 6px !important;
+  border: 1px solid #ccc !important;
+}
+
+#comment .page-numbers.current, #pagenavi span.pages{ color: #ccc !important; }
+
+#pagenavi{
+  display: block;
+  padding-bottom: 10px;
+  font-size: 100% !important;
+}
+
+/* threaded comments? */
+ol#comments li.comment.depth-2,
+ol#comments li.comment.depth-3,
+ol#comments li.comment.depth-4,
+ol#comments li.comment.depth-5,
+ol#comments li.comment.depth-6,
+ol#comments li.comment.depth-7,
+ol#comments li.comment.depth-8,
+ol#comments li.comment.depth-9{ margin-left: 14px; }
+
+/* threaded comments, with avatars */
+ol#comments li.comment.with-avatars.depth-2,
+ol#comments li.comment.with-avatars.depth-3,
+ol#comments li.comment.with-avatars.depth-4,
+ol#comments li.comment.with-avatars.depth-5,
+ol#comments li.comment.with-avatars.depth-6,
+ol#comments li.comment.with-avatars.depth-7,
+ol#comments li.comment.with-avatars.depth-8,
+ol#comments li.comment.with-avatars.depth-9{ margin-left: 96px; }
+
+
+
+/* footer links/widgets */
+ul#footer-widgets{
+  margin: 0;
+  padding: 1em 0 0 0;
+  background: transparent url(images/div-h2.gif) repeat-x left top;
+}
+
+ul#footer-widgets li.widget{
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 50%; /* default  */
+  list-style-type: none;
+}
+
+ul#footer-widgets.widgetcount-1 li.widget{ width: 50%; }
+ul#footer-widgets.widgetcount-2 li.widget{ width: 50%; }
+ul#footer-widgets.widgetcount-3 li.widget{ width: 33%; }
+ul#footer-widgets.widgetcount-4 li.widget{ width: 25%; }
+ul#footer-widgets.widgetcount-5 li.widget{ width: 20%; }
+ul#footer-widgets.widgetcount-6 li.widget{ width: 16%; }
+/* no point to add more than 6 widgets, unreadable */
+
+ul#footer-widgets h4.title{
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Sans, FreeSans, Jamrul, Garuda, Kalimati;
+  padding: .3em .6em;
+  margin: 0 0 .2em 0;
+  font-size: 140%;
+  letter-spacing: -0.04em;
+  background:#09c6eb url(images/tab-subnav-active.gif) repeat-x left top;
+  color: #fff;
+  text-shadow: #999 1px 1px 1px;
+}
+
+ul#footer-widgets h4.title a{
+  text-decoration: none;
+}
+
+ul#footer-widgets .the-content{
+  margin: 0 1em;
+  padding: .4em 0;
+}
+
+ul#footer-widgets li.widget ul{
+  padding: 0;
+}
+
+ul#footer-widgets li.widget li{
+  list-style-type: none;
+  margin: .1em 0;
+}
+
+ul#footer-widgets li.widget li li{
+  padding-left: 1em;
+  border: 0;
+}
+
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alignleft { float: left; }
+.alignright { float: right; }
+
+li.infotext{
+  text-align: center;
+  padding: 2px 12px 0 6px;
+}
+
+img.wp-smiley { vertical-align: -20%; }
+
+
+.profile .avatar img{
+  padding: 3px;
+  margin: 0 6px 6px 0;
+  border: 1px solid #E7E8E6;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
+.profile .info{
+  margin-left: 148px;
+}
+
+p.im{
+  margin: .1em 0 .2em;
+  padding: 1px 0;
+}
+
+
+/* twitter list */
+
+ul#twitterupdates{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul#twitterupdates li.entry{
+  list-style-type: none;
+  background: transparent url(images/div-h.gif) repeat-x left bottom;
+  margin: 1px 0;
+  padding: 3px 0 6px 0;
+  display: block;
+}
+
+
+ul#twitterupdates li.entry:hover{
+  background: #efefee url(images/side-nav-bg.png) repeat-y right top;
+}
+
+/* for comment reply plugin */
+#comment_mail_notify{
+  background: none;
+  padding: 2px;
+  margin-right: 4px;
+}
+
+#sidebar2 li div.warning{
+  background: #f9a417;
+  color: #fff;
+  text-align: center;
+  padding: .4em .8em;
+}
+
+p.edit-post a.post-edit-link{
+  border: 1px solid #ccc;
+  padding: 3px 6px;
+}
+
+
+/* flickr widget */
+#fusion-flickr-gallery .flickr {
+  overflow: hidden;
+}
+
+#fusion-flickr-gallery .thumb{
+  width: 48px;
+  height: 48px;
+  border: 3px solid #ddd;
+  margin: 2px 3px;
+}
+
+#fusion-flickr-gallery .thumb:hover{
+  border: 3px solid #2d83d5;
+
+}
+
+#fusion-flickr-gallery .flickr-thumb {
+  float: left;
+  overflow: hidden;
+}
+
+div.tooltip{
+  position: absolute;
+  left: -20000px;
+  background-color: #dedede;
+  padding: 5px;
+  border: 1px solid #fff;
+}

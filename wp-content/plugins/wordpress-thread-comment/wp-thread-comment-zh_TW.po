@@ -1,0 +1,349 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress Thread Comment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-05 13:26+0800\n"
+"PO-Revision-Date: 2008-12-05 13:27+0800\n"
+"Last-Translator: 偶爱偶家 <blog.2i2j.com@gmail.com>\n"
+"Language-Team: 偶愛偶家 <blog.2i2j.com@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese Traditional\n"
+"X-Poedit-Country: Republic of China\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: D:/SVN/wp-thread-comment/trunk\n"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:122
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:360
+msgid "Click to cancel reply"
+msgstr "點擊取消回應"
+
+# D:/SVN/wp-thread-comment/wp-thread-comment.php:401
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:362
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:555
+msgid "Reply"
+msgstr "回應"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:366
+msgid "<div class=\"comment-childs<?php echo $deep%2 ? ' chalt' : ''; ?>\" id=\"comment-[ID]\"><?php if(function_exists(\"get_avatar\")) echo get_avatar( $comment, 32 ); ?><p><cite>[author]</cite> Reply:[moderation]<br /><small class=\"commentmetadata\">[date] at [time]</small></p>[content]</div>"
+msgstr "<div class=\"comment-childs<?php echo $deep%2 ? ' chalt' : ''; ?>\" id=\"comment-[ID]\"><?php if(function_exists(\"get_avatar\")) echo get_avatar( $comment, 32 ); ?><p><cite>[author]</cite> 回應:[moderation]<br /><small class=\"commentmetadata\">[date] at [time]</small></p>[content]</div>"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:408
+msgid "Your comment at [[blogname]] has a new reply"
+msgstr "您在 [[blogname]] 上的留言有新的回應"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:410
+msgid ""
+"<p><strong>[blogname]</strong>: Your comment on the post <strong>[postname]</strong> has a new reply</p>\n"
+"<p>Here is your original comment:<br />\n"
+"[pc_content]</p>\n"
+"<p>Here is the new reply:<br />\n"
+"[cc_content]</p>\n"
+"<p>You can see more information for the comment on this post here:<br />\n"
+"<a href=\"[commentlink]\">[commentlink]</a></p>\n"
+"<p><strong>Thank you for your commenting on <a href=\"[blogurl]\">[blogname]</a></strong></p>\n"
+"<p><strong>This email was sent automatically. Please don't reply to this email.</strong></p>"
+msgstr ""
+"<p><strong>[blogname]</strong> 通知: 您之前在文章 <strong>[postname]</strong> 上的留言現在有了新的回應</p>\n"
+"<p>您之前的留言是:<br />[pc_content]</p><p>新的回應如下:<br />[cc_content]</p>\\<p>您可以點擊以下鏈結查看完整內容:<br />\n"
+"<a href=\"[commentlink]\">[commentlink]</a></p>\n"
+"<p><strong>感謝您對 <a href=\"[blogurl]\">[blogname]</a> 的關注</strong></p>\n"
+"<p><strong>此信件由系統自動發出, 請勿回覆, 謝謝.</strong></p>"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:565
+msgid "Nested Reply"
+msgstr "嵌套回應"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:210
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:566
+msgid "Post Comment"
+msgstr "送出"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:567
+msgid "Cancel"
+msgstr "取消"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:573
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:575
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:887
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:889
+msgid "Notify me of follow-up comments via e-mail"
+msgstr ""
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:234
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1004
+msgid "Do you really want to delete the comment?"
+msgstr "您真的要刪除留言嗎?"
+
+# D:/SVN/wp-thread-comment/wp-thread-comment.php:403
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1004
+msgid "Delete"
+msgstr "刪除"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:160
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1101
+msgid "WP Thread Comment Option"
+msgstr "WP Thread Comment Option"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:160
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1101
+msgid "WP Thread Comment"
+msgstr "WP Thread Comment"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:190
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1116
+msgid "Options saved"
+msgstr "選項已儲存"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1120
+msgid "Plugin confriguration has been reset back to default!"
+msgstr "所有的設定選項已重置成功"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1130
+#, php-format
+msgid "Thanks for using this plugin! If it works and you are satisfied with the results, isn't it worth at least one dollar? <a href=\"%s\" target=\"_blank\">Donations</a> help me to continue support and development of this <i>free</i> software! <a href=\"%s\" target=\"_blank\">Sure, no problem!</a> <a href=\"%s\" style=\"float:right; display:block; border:none;\"><small style=\"font-weight:normal;\">No thanks, please don't bug me anymore!</small></a>"
+msgstr "Thanks for using this plugin! If it works and you are satisfied with the results, isn't it worth at least one dollar? <a href=\"%s\" target=\"_blank\">Donations</a> help me to continue support and development of this <i>free</i> software! <a href=\"%s\" target=\"_blank\">Sure, no problem!</a> <a href=\"%s\" style=\"float:right; display:block; border:none;\"><small style=\"font-weight:normal;\">No thanks, please don't bug me anymore!</small></a>"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1148
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Donations for this plugins</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">給外掛捐贈</a>"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1152
+msgid "Memory Limit Set"
+msgstr "設定記憶體限制"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1154
+msgid "Memory limit(number only):"
+msgstr "記憶體限制(限數字)"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1157
+msgid "if you cannot run this plugin due to low memory, try to increase the memory limit so you can run the plugin. If leave this value null or 0, this plugin will use your system's default memory limit."
+msgstr "如果您在使用外掛的時候碰到記憶體不足的問題, 請在這裏增加記憶體."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1161
+msgid "Configuration Reply Rights"
+msgstr "設定AJAX"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1163
+msgid "Only Admin or Poster can reply in front:"
+msgstr ""
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1166
+msgid "Check this box if you wish to allow only the admin or original poster to reply in front"
+msgstr "如果您想要管理員或者文章作者可以在前臺文章頁直接管理留言(比如刪除、移動留言等), 請在上面的選項中打勾."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1170
+msgid "Configuration AJAX"
+msgstr "設定AJAX"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1172
+msgid "Enable Ajax Support:"
+msgstr "啟用AJAX"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:230
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1175
+msgid "Check this box if you wish to use AJAX when people reply to comments"
+msgstr "如果您想要回覆留言時使用 AJAX, 請在選項上打勾."
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:217
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1179
+msgid "Edit Comment Form ID"
+msgstr "編輯留言的Form ID"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1184
+msgid "Change the commentform ID in comments.php according to your theme. In most cases you will not need to do anything as this can be detected automatically."
+msgstr "根據您所正在使用的主題下的 comments.php 來改變commentform ID. 大部分的情況下, 您不需要對此做任何修改, 外掛能自動擷取."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1189
+msgid "Edit Reply Text & Cancel Reply Text"
+msgstr "編輯回應按鈕&取消回應按鈕的文字"
+
+# D:/SVN/wp-thread-comment/wp-thread-comment.php:401
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1191
+msgid "Reply Text"
+msgstr "回應的文字"
+
+# D:/SVN/wp-thread-comment/wp-thread-comment.php:401
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1194
+msgid "Cancel Reply Text"
+msgstr "按鈕回應的文字"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1197
+msgid "Edit Reply Button Text & Cancel Reply Text that you wish to show in the post comments."
+msgstr "編輯回應按鈕&取消回應按鈕的文字為您想要顯示在文章留言中的樣式."
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:203
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1202
+msgid "Edit Comment HTML"
+msgstr "編輯留言的 HTML 碼"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:207
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1206
+msgid "HTML and PHP both can be used. As a easier way, you may use the following tags: <strong>[ID]</strong> for comment ID, <strong>[author]</strong> for comment author, <strong>[date]</strong> for comment date, <strong>[time]</strong> for comment time, <strong>[content]</strong> for comment content and <strong>[moderation]</strong> for comment moderation."
+msgstr "允許建立 HTML 和  PHP. 您可以使用下列標籤: <strong>[ID]</strong> 表示留言的ID, <strong>[author]</strong> 表示留言的作者, <strong>[date]</strong> 表示留言的日期, <strong>[time]</strong> 表示留言的時間, <strong>[content]</strong> 表示留言的內容, <strong>[moderation]</strong> 表示留言審核狀況."
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:210
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1210
+msgid "Edit Comment CSS"
+msgstr "編輯留言的 CSS 樣式"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:214
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1214
+msgid "Use CSS only, HTML and PHP cannot be used."
+msgstr "只能使用 CSS, 不支援 HTML 和 PHP."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1217
+msgid "Include CSS in style.css"
+msgstr "在 style.css 中載入 CSS"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1220
+msgid "If you want to use css in style.css, please check this box, then copy above css style to style.css file.(nomally dont checked it)"
+msgstr "如果您想要在 style.css 中載入 CSS, 請選擇該選項, 然後將上面的 CSS 內容複製到 style.css 檔案中.(一般情況下請不要選擇該選項)"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1225
+msgid "Edit maximum nest level"
+msgstr "編輯最大的回應階層"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1227
+msgid "Thread Nest level(number only):"
+msgstr "回應階層(限數字)"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1230
+msgid "Comments cannot be nested more deeply than this level."
+msgstr "最大回應階層指大於該階層的留言無法被回應."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1234
+msgid "Email notify the parent commenter when his comment was replied"
+msgstr "郵件通知被回應留言的作者當留言被回應時"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1236
+msgid "Disabled"
+msgstr "停用"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1238
+msgid "Replied by the author of the post or administrator ONLY"
+msgstr "只有管理員或者文章作者回應時發送"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1240
+msgid "Anyone replies"
+msgstr "任何人回應都發送"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1242
+msgid "Commenter choose to do so(default checked)"
+msgstr ""
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1244
+msgid "Commenter choose to do so(default unchecked)"
+msgstr ""
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1249
+msgid "Edit the subject of notification email"
+msgstr "編輯通知郵件的主題"
+
+# D:/usr/Apache/www/w23/wp-content/plugins/wp-thread-comment/wp-thread-comment.php:354
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1253
+msgid "Use TEXT only. As a easier way, you may use the following tags: <strong>[blogname]</strong> for blog name and <strong>[postname]</strong> for comment post name"
+msgstr "只能使用文字, 您可以使用下列標籤: <strong>[blogname]</strong> 表示博客名字, <strong>[postname]</strong> 表示文章名"
+
+# D:/usr/Apache/www/w23/wp-content/plugins/wp-thread-comment/wp-thread-comment.php:358
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1258
+msgid "Edit Notification Message"
+msgstr "編輯通知內容"
+
+# D:/usr/Apache/www/w23/wp-content/plugins/wp-thread-comment/wp-thread-comment.php:362
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1262
+msgid "Use HTML only. As a easier way, you may use the following tags: <strong>[pc_author]</strong> for parent comment author, <strong>[pc_date]</strong> for parent comment date, <strong>[pc_content]</strong> for parent comment content, <strong>[cc_author]</strong> for child comment author, <strong>[cc_date]</strong> for child comment date, <strong>[cc_url]</strong> for child comment author url, <strong>[cc_content]</strong> for child comment content, <strong>[commentlink]</strong> for parent comment link, <strong>[blogname]</strong> for blog name, <strong>[blogurl]</strong> for blog url and <strong>[postname]</strong> for post name."
+msgstr "只能使用文字, 您可以使用 <strong>[pc_author]</strong>表示父留言的作者, <strong>[pc_date]</strong> 表示父留言的日期, <strong>[pc_content]</strong> 表示父留言的內容, <strong>[cc_author]</strong> 表示子留言的作者 and <strong>[cc_date]</strong> 表示子留言的日期, <strong>[cc_url]</strong> 表示子留言的作者鏈結, <strong>[cc_content]</strong> 表示子留言的內容, <strong>[commentlink]</strong>表示父留言的鏈結, <strong>[blogname]</strong> 表示博客名, <strong>[postname]</strong> 表示文章名稱."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1266
+msgid "Reply in Wordpress Admin Panel"
+msgstr "後臺管理面板直接回應留言"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1268
+msgid "Reply in Wordpress Admin Panel:"
+msgstr "後臺管理面板直接回應留言:"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:230
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1271
+msgid "Check this box if you want to be able to Reply directly from the Wordpress Admin Panel"
+msgstr "如果您想要在後臺直接回應留言, 請在選項中打勾."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1275
+msgid "Front-end comment management"
+msgstr "前臺留言管理"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1277
+msgid "Enabled In-the-post comment management:"
+msgstr "允許文章頁直接管理留言"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1280
+msgid "Check this box if you wish to allow the administrator or author to delete and move the comments directly in post and pages."
+msgstr "如果您想要管理員或者文章作者可以在前臺文章頁直接管理留言(比如刪除、移動留言等), 請在上面的選項中打勾."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1284
+msgid "Add author in reply comment"
+msgstr ""
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1286
+msgid "Add @author in comment:"
+msgstr ""
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1289
+msgid "Add @author in reply comment."
+msgstr ""
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:225
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1293
+msgid "Configuration action of deactivate"
+msgstr "停用外掛時設定的處理"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:227
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1295
+msgid "Delete options after deactivate:"
+msgstr "停用外掛時刪除設定:"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:230
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1298
+msgid "check box if you want to delete all of options of wp thread comment after deactivate this plugin"
+msgstr "如果您想要在停用外掛後刪除設定, 請在選項上打勾."
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:233
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1302
+msgid "Update Options"
+msgstr "更新選項"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:234
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1303
+msgid "Do you really want to reset your current configuration?"
+msgstr "您真的要重置設定嗎?"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:234
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1303
+msgid "Reset Options"
+msgstr "重置設定"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1427
+msgid "Oops, no comment with this ID."
+msgstr "抱歉, 未找到該 ID 所對應的留言"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1430
+msgid "Oops, no comment with this Moved ID."
+msgstr "抱歉, 未找到該 ID 所對應的移動到留言"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1433
+msgid "You are not allowed to edit comments on this post."
+msgstr "您沒有權限編輯該文章"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1444
+msgid "Oops, Can not move comment to its child's comment."
+msgstr "抱歉, 不能移動留言到其子留言中."
+
+#~ msgid "Go back"
+#~ msgstr "後退"
+#~ msgid "submit reply"
+#~ msgstr "送出回應"
+

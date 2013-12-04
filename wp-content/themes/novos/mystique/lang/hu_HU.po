@@ -1,0 +1,1300 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mystique 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-08 18:14+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: digitalnature.ro <hello@digitalnature.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes\\mystique\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/404.php:12
+msgid "The requested page was not found"
+msgstr "A kért oldal nem található"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:19
+#, php-format
+msgid "Posts tagged %s"
+msgstr "Üzenetek címkézve %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:21
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:23
+#, php-format
+msgid "Archive for %s"
+msgstr "%s archíválva"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:23
+msgid "F, Y"
+msgstr "F, Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:25
+#, php-format
+msgid "Archive for year %s"
+msgstr "Achícum évre: %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:25
+msgid "Y"
+msgstr "Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:27
+msgid "Author archive"
+msgstr "Szerkesztő archívum"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:29
+msgid "Blog Archives"
+msgstr "Blog Archívum"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:41
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:53
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:19
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Régebbi belépések"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:20
+msgid "Newer Entries &raquo;"
+msgstr "Újabb belépések &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:49
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Elnézést, nincs üzenet ebben a kategóriában: %s...még."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:51
+msgid "Sorry, but there aren't any posts within this date."
+msgstr "Elnézést, nincs üzenet ezzel a dátummal."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:54
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Elnézést, nincsenek üzenetek tőle: %s...még."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:56
+msgid "No posts found."
+msgstr "Nincs üzenet"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:27
+msgid "This user hasn't shared any biographical information"
+msgstr "Ez a felhasználó nem osztott meg életrajzi információkat"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:32
+msgid "Homepage:"
+msgstr "Főoldal:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:33
+msgid "Yahoo Messenger:"
+msgstr "Yahoo Messenger:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:34
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:35
+msgid "AIM:"
+msgstr "AIM:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:31
+#, php-format
+msgid "Posts by %s"
+msgstr "írta %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:59
+msgid "No posts found by this author."
+msgstr "Nincs üzenet ettől a szerkesztőtőt."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Add meg a jelszavad a hozzászólás megnézéséhez"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:42
+msgid "Related Posts"
+msgstr "Hasonló üzenetek"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:43
+#, php-format
+msgid "Trackbacks (%s)"
+msgstr "Visszakövetések (%s)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:44
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:50
+#, php-format
+msgid "Comments (%s)"
+msgstr "Hozzászólások (%s)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:69
+msgid "No comments yet."
+msgstr "Nincs hozzászólás... még."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:91
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Be kell <a href=\"%s\">Jelentkezned</a> a hozzászóláshoz."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:102
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:128
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:129
+msgid "Name (required)"
+msgstr "Név (kötelező)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:103
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:132
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:133
+msgid "E-mail (required, will not be published)"
+msgstr "E-mail (kötelező, nem lesz nyilvános)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:104
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:136
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:137
+msgid "Website"
+msgstr "Weboldal"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:111
+msgid "Cancel Reply"
+msgstr "Válasz visszavonás"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:118
+#, php-format
+msgid "Logged in as %s."
+msgstr "Bejelentkezve: %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:120
+msgid "Log out of this account"
+msgstr "Jelentkezz ki ebből a felhasználóból"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:120
+msgid "Logout &raquo;"
+msgstr "Kijelentkezés &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:124
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Üdvözöllek <strong>%s</strong>."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:124
+msgid "Change &raquo;"
+msgstr "Válassz &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:152
+#, php-format
+msgid "Spam protection: Sum of %1$s + %2$s = ?"
+msgstr "Spam védelem: Sum of %1$s + %2$s = ?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:161
+msgid "Submit Comment"
+msgstr "Hozzászólás küldése"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:184
+msgid "No trackbacks yet."
+msgstr "Nincs visszakövetés... még."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:201
+msgid "No comments"
+msgstr "Nincs hozzászólás"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:201
+msgid "1 comment"
+msgstr "1 hozzászólás"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:201
+#, php-format
+msgid "% comments"
+msgstr "% hozzászólás"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:219
+msgid "Comments are closed."
+msgstr "Hozzászólás bezárva."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/featured-posts.php:42
+msgid "Read more"
+msgstr "Részletek"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:59
+msgid "Search"
+msgstr "Keresés"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:90
+#, php-format
+msgid "about %s year ago"
+msgid_plural "about %s years ago"
+msgstr[0] "körülbelül %s éve"
+msgstr[1] "körülbelül %s éve"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:91
+#, php-format
+msgid "about %s month ago"
+msgid_plural "about %s months ago"
+msgstr[0] "körülbelül %s hónapja"
+msgstr[1] "körülbelül %s hónapja"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:92
+#, php-format
+msgid "about %s week ago"
+msgid_plural "about %s weeks ago"
+msgstr[0] "körülbelül %s hete"
+msgstr[1] "körülbelül %s hete"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:93
+#, php-format
+msgid "about %s day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "körülbelül %s napja"
+msgstr[1] "körülbelül %s napja"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:94
+#, php-format
+msgid "about %s hour ago"
+msgid_plural "about %s hours ago"
+msgstr[0] "körülbelül %s órája"
+msgstr[1] "körülbelül %s órája"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:95
+#, php-format
+msgid "about %s minute ago"
+msgid_plural "about %s minutes ago"
+msgstr[0] "körülbelül %s perce"
+msgstr[1] "körülbelül %s perce"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:96
+#, php-format
+msgid "about %s second ago"
+msgid_plural "about %s seconds ago"
+msgstr[0] "körülbelül %s másodperce"
+msgstr[1] "körülbelül %s másodperce"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:302
+msgid "Default sidebar"
+msgstr "Alapértelmezett sidebar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:304
+msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
+msgstr "Ez az alapértelmezett sidebar, látható a 2 és 3 oszlopos rétegstíluson. Nincs aktív widget, ehelyett a felület alapértelmezett widgetei láthatók."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:312
+msgid "Secondary sidebar"
+msgstr "Másodlagos sidebar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:314
+msgid "This sidebar is active only on a 3 column setup. "
+msgstr "Ez a sidebar csak a 3 oszlopos rétegstílusban aktív."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:322
+msgid "Footer"
+msgstr "Élőláb"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:324
+msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
+msgstr "Adj meg egy widgetet 1 és 6 között (3 vagy 4 az optimális). A widget pontosan be fogja állítani a méretet."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:332
+msgid "Footer (slide 2)"
+msgstr "Élőláb (slide 2)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:334
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:344
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:354
+msgid "Only visible if jQuery is enabled. "
+msgstr "Csak akkor látható ha a jQuery engedélyezve van."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:342
+msgid "Footer (slide 3)"
+msgstr "Élőláb (slide 3)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:352
+msgid "Footer (slide 4)"
+msgstr "Élőláb (slide 4)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:368
+msgid "Share this post!"
+msgstr "Megosztás!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:491
+#, php-format
+msgid "%1$s written by %2$s"
+msgstr "%1$s írta: %2$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:499
+msgid "Reply"
+msgstr "Válasz"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:500
+msgid "Quote"
+msgstr "Idéz"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:507
+msgid "Your comment is awaiting moderation."
+msgstr "A hozzászólásod moderálásra vár."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:11
+#, php-format
+msgid "Page %s &laquo;"
+msgstr "Oldal %s &laquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:51
+msgid "RSS Feeds"
+msgstr "RSS Feeds"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:59
+msgid "Follow me on Twitter!"
+msgstr "Kövess Twitteren!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:68
+msgid "You are Home"
+msgstr "Kezdőlapod"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:68
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:70
+msgid "Home"
+msgstr "Főoldal"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:70
+msgid "Click for Home"
+msgstr "Katt a Főoldalra"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:19
+msgid "More &gt;"
+msgstr "Részletek &gt;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:31
+#, php-format
+msgid "This entry was posted by %1$s on %2$s at %3$s, and is filled under %4$s. Follow any responses to this post through %5$s."
+msgstr "A bejegyzést írta: %1$s ekkor: %2$s - %3$s-kor, ebben a kategóriában: %4$s. Kövesd az üzeneteket ebben a bejegyzésben %5$s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:35
+#, php-format
+msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
+msgstr "Írhatsz <a%1$s>hozzászólást</a> vagy <a%2$s>visszakövetheted</a> az oldaladról."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:39
+#, php-format
+msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
+msgstr "A válaszok jelenleg zárva vannak, de <a%1$s>visszakövetheted</a> az oldaladról."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:43
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Átugorhatsz a végére vagy elhagyhatod a választ. Pinging jelenleg nem engedélyezett."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:47
+msgid "Both comments and pings are currently closed."
+msgstr "Jelenleg a hozzászólások és a kopogások zárva vannak."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:49
+msgid "Edit this entry"
+msgstr "Bejegyzés szerkesztése"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:61
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Elnézést, nincs csatolmány a megadott kritériummal."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:24
+msgid "No posts found"
+msgstr "Nincs üzenet"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:25
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Elnézést, de amit keresel, az nem itt van."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/post.php:18
+msgid "Permanent Link:"
+msgstr "Végleges Link:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/post.php:21
+msgid "M jS"
+msgstr "M jS"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/post.php:25
+#, php-format
+msgid "Posted by %1$s in %2$s"
+msgstr "Írta: %1$s Kategória: %2$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/post.php:28
+msgid "Edit"
+msgstr "Szerkeszt"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/post.php:60
+#, php-format
+msgid "%1$s (%2$s topics)"
+msgstr "%1$s (%2$s topikok)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:18
+#, php-format
+msgid "Search Results for %s"
+msgstr "Keresési eredmény: %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:42
+msgid "Nothing found."
+msgstr "Nem található"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:42
+msgid "Try a different search?"
+msgstr "Megpróbál egy másik keresést?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:46
+msgid "What do you wish to search for?"
+msgstr "Mit szeretnél keresni?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:11
+#, php-format
+msgid "You have searched the archives for %s"
+msgstr "Következő archívumokra kerestél: %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:13
+msgid "Type a valid search term..."
+msgstr "Gépelj be egy érvényes időszakot..."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar.php:22
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:416
+msgid "My latest tweets"
+msgstr "Legújabb \"csiripelés\""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar.php:30
+msgid "Blogroll"
+msgstr "Blogroll"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar2.php:8
+msgid "2nd sidebar is active. Add widgets here from the Dashboard"
+msgstr "Második sidebar aktív. Add hozzá a widgetet a Vezérlőpultban."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:35
+msgid "Pages:"
+msgstr "Oldalak:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:39
+msgid "Tags:"
+msgstr "Címkék:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:5
+msgid "Insert Ad slot #1 in every post and page"
+msgstr "Reklám kód #1 beillesztése minden hozzászólás után"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:16
+msgid "Insert Ad slot #2 at every 5 comments"
+msgstr "Reklám kód #2 beillesztése minden ötödik hozzászólás után."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:25
+msgid "Replace blog description text with Ad #4"
+msgstr "Blog leírásának cseréje Ad #4"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:39
+msgid "Black navigation style"
+msgstr "Fekete navigációs stílus"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:67
+msgid "Alternate header image"
+msgstr "Változó élőfej kép"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:71
+msgid "Hide RSS button"
+msgstr "RSS gomb elrejtése"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:75
+msgid "Hide Twitter button"
+msgstr "Twitter gomb elrejtése"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:79
+msgid "Set a fluid page width"
+msgstr "Fix oldalszélesség"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:83
+msgid "Decrease site title text size"
+msgstr "Oldal címének szövegének csökkentése"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:87
+msgid "Hide post information bar"
+msgstr "Bejegyzések információs csíkjának elrejtése"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:91
+msgid "Change footer background color to light gray"
+msgstr "Élőláb hátter színének változtatása világos szürkére"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:96
+msgid "Dark background footer"
+msgstr "Sőtét élőláb háttér"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:102
+msgid "Join navigation with main content"
+msgstr "Navigáció összekötése a főtartalommal"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:106
+msgid "Hide navigation"
+msgstr "Navigáció elrejtése"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:112
+msgid "Remove styling from tables"
+msgstr "Stílus eltávolítása a táblákból"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:116
+msgid "Text-Justify post and page content"
+msgstr "Sorkizárt szöveg az üzenetekben és a tartalomban"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:120
+msgid "Fixed custom background image"
+msgstr "Fixált egyedi háttérkép"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/editor.php:44
+msgid "Divider"
+msgstr "Elválasztó"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/editor.php:45
+msgid "Error text color"
+msgstr "Hiba szöveg színe"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/editor.php:46
+msgid "Error box"
+msgstr "Hiba doboz"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:46
+#, php-format
+msgid "You can configure Mystique from the <a%s>theme settings</a> page."
+msgstr "Beállíthatod a Mystique felületet az <a%s>opciók</a> oldalon."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:327
+msgid "You are not authorised to perform this operation."
+msgstr "Nem vagy illetékes a művelet végrehajtásához."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:404
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:965
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:966
+msgid "Mystique settings"
+msgstr "Mystique opciók"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:410
+#, php-format
+msgid "Settings saved. %s"
+msgstr "Opciók mentve. %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:410
+msgid "View site"
+msgstr "Oldal mutatása"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:414
+msgid "Please upload a valid image file!"
+msgstr "Kérlek tölts fel egy érvényes képfájlt!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:415
+msgid "The file you uploaded doesn't seem to be a valid JPEG, PNG or GIF image"
+msgstr "A feltöltött kép nem érvényes JPEG, PNG vagy GIF kép"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:416
+msgid "The image could not be saved on your server"
+msgstr "A képet nem lehet elmenteni a szerverre"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:421
+#, php-format
+msgid "Error: %s"
+msgstr "Hiba: %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:428
+msgid "General"
+msgstr "Alap"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:429
+msgid "Design/colors"
+msgstr "Dizájn/színek"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:430
+msgid "Navigation"
+msgstr "Navigáció"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:431
+msgid "Posts"
+msgstr "Üzenetek"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:432
+msgid "SEO"
+msgstr "SEO"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:434
+msgid "Ads"
+msgstr "Reklám"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:436
+msgid "Advanced"
+msgstr "Haladó"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:437
+msgid "User CSS"
+msgstr "Saját CSS"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:447
+msgid "Layout style"
+msgstr "Rétegstílus"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:447
+msgid "Use page templates to apply these only to specific pages"
+msgstr "Alkalmazz sablonokat az oldaladhoz"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:483
+msgid "Imageless layout"
+msgstr "Képnélküli szerkezet"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:483
+msgid "No background images; reduces page load downto just a few KB, with the cost of less graphic details"
+msgstr "Nincsenek háttérképek; csökken az oldalak mérete, kevesebb grafikai részlet"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:488
+msgid "Footer content"
+msgstr "Élőláb tartalom"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:488
+msgid "You can post HTML code"
+msgstr "Beírhatol HTML kódokat"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:488
+msgid "HTML code is disallowed"
+msgstr "HTML kód nem engedélyezett"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:492
+#, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr "Használd a következő rövid kódokat a kényelmes elrendezéshez: <br />%s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:500
+msgid "Loading site preview..."
+msgstr "Oldal előnézetének betöltése..."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:508
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:520
+msgid "Sidebar(s) vs Main Content ratio"
+msgstr "Szélső menü(k) és Főtartalom aránya"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:530
+msgid "Preferred font style"
+msgstr "Betűstílus"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:530
+msgid "Font priority and their availability"
+msgstr "Betű prioritás és elérhetőségük"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:541
+msgid "Color scheme"
+msgstr "Színséma"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:545
+msgid "Not available with <em>imageless</em> setting"
+msgstr "Nem elérhető ha a <em>Képnélküli szerkezet</em> be van kapcsolva"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:572
+msgid "Custom logo image"
+msgstr "Egyedi logó"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:572
+msgid "Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr "Logó mutatása a szöveg helyett; Tölsd fel a képet a számítógépedről"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:578
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:593
+msgid "Remove current image"
+msgstr "Jelenlegi kép törlése"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:581
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:596
+#, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr "%s mappa nem írható - nem lehet feltölteni"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:581
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:596
+msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
+msgstr "Nézd meg a Beállítások/Egyéb feltöltési mappát hogy a CHMOD 755/777 legyen.<br />Vedd fel a kapcsolatot a szolgáltatóval ha nem értesz hozzá."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:587
+msgid "Custom background image"
+msgstr "Egyedi háttérkép"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:587
+msgid "Upload a new background/header image to replace the default one"
+msgstr "Tölts fel egy új hátteret/élőfej képet az alapértelmezett helyett"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:602
+msgid "Background color"
+msgstr "Háttér színe"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:602
+msgid "Leave Black (#000000) to keep the default background"
+msgstr "Feketétől indulj (#000000) hogy megtartsd az eredeti hátteret"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:615
+msgid "Top navigation shows"
+msgstr "Felső navigáció"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:618
+msgid "Pages"
+msgstr "Oldalak"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:619
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:116
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:292
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:620
+msgid "Links"
+msgstr "Linkek"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:628
+msgid "from category"
+msgstr "kategóriából"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:641
+msgid "No links found"
+msgstr "Link nem található"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:650
+msgid "Exclude from navigation"
+msgstr "Kizárás navigációból"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:650
+msgid "Check the items you wish to hide from the main menu"
+msgstr "Válaszd ki azokat amelyeket nem akarod hogy megjelenjen a navigációba"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:660
+msgid "(Use the private property to hide other links)"
+msgstr "(használd a magántulajdont, hogy elrejts más kapcsolatokat)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:726
+msgid "View page"
+msgstr "Oldal mutatása"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:749
+msgid "Post previews"
+msgstr "Üzenet előnézet"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:749
+msgid "The way posts are displayed on blog homepage and archive pages"
+msgstr "Mutatja a hozzászólásokat a blog főoldalán és az archívum oldalon"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:752
+msgid "Full"
+msgstr "Teljes"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:753
+msgid "Excerpts"
+msgstr "Részlet"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:754
+msgid "Titles only"
+msgstr "Csak a címet"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:761
+msgid "Post thumbnail size"
+msgstr "Hozzászólás miniatűr mérete"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:761
+#, php-format
+msgid "Note that this only works for images you upload from now on, older images will be browser-resized. You should use the %s plugin to create missing image sizes"
+msgstr "Jegyezd meg, hogy amit felöltesz képeket, régebbi böngészők át fogják méretezni a képet. Használnod kéne a %s plugint hogy lekérje a kép méretét"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:765
+msgid "Small: 64 x 64"
+msgstr "Kicsi: 64 x 64"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:766
+msgid "Medium: 100 x 100"
+msgstr "Közepes: 100 x 100"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:767
+#, php-format
+msgid "WP's Media setting: %s"
+msgstr "WP média beállítás: %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:774
+msgid "Enable \"Share This Post\" feature"
+msgstr "\"Megosztás!\"  engedélyezése"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:774
+msgid "Uncheck this if you're using a social bookmaring plugin"
+msgstr "Ha leveszed a pipát, használhatsz másik társasági könyvjelző bővítményt"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:779
+msgid "Featured content source"
+msgstr "Kiemelt tartalom forrás"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:779
+msgid "The last 5 posts from this category will be shown in the featured content area (in random order)"
+msgstr "Az utolsó 5 bejegyzést megmutatja ebból a kategóriából(véletlen sorrendben)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:784
+msgid "- All categories"
+msgstr "- Összes kategória"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:793
+msgid "Where to display the featured posts?"
+msgstr "Hol jelenítsd meg a kiemelt hozászólásokat?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:796
+msgid "On pages that use the Featured Posts template"
+msgstr "Azokon az oldalakon, ahol használják a kiemelt hozzászólásokat"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:797
+msgid "On the home page"
+msgstr "A főoldalon"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:798
+msgid "On all pages, including home"
+msgstr "Minden oldalon, beleértve a főoldalt"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:799
+msgid "On all posts"
+msgstr "Az összes hozzászólásnál"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:800
+msgid "On all pages and posts"
+msgstr "Az összes oldalon és hozzászólásnál"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:806
+msgid "Maximum number of featured posts"
+msgstr "Ajánlott hozzászólások maximális száma"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:820
+msgid "Show related posts next to comments"
+msgstr "Összetartozó üzenetek mutatása a hozzászólásoknál"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:825
+msgid "Show comment author's country flag"
+msgstr "Hozzászólás írójának nemzeti zászlójának mutatása"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:825
+msgid "May slow down page loading"
+msgstr "Az oldal betöltése lassulhat"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:835
+msgid "Additional site optimization for search engines"
+msgstr "További weblapok optimalizálása a keresőmotorokhoz"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:835
+msgid "Uncheck if you are using a SEO plugin!"
+msgstr "Vedd le a pipát ha SEO bővítményt használsz"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:842
+msgid "What does this do?"
+msgstr "Mit csinál ez?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:844
+msgid "enables canonical URLs for comments (duplicate content fix)"
+msgstr "engedi a kánoni URL-eket a hozzászólásoknál (fixálja a dupla tartalmat)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:845
+msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
+msgstr "generál egyedülálló címeket az üzenetekhez töbszörös hozzászólás oldalakkal (megakadályozza a dupla címeket)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:846
+#, php-format
+msgid "no keywords are generated because they are <a %s>useless</a>"
+msgstr "nincsenek kulcsszavak, mert <a %s>haszontalan</a>"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:860
+msgid "Advertisment blocks"
+msgstr "Reklám blokkok"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:860
+#, php-format
+msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
+msgstr "Használd ezeket a rövid kódokat %s, az üzenetekben, a szöveges bővítményekben vagy az élőlábban"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:861
+msgid "Example:"
+msgstr "Például:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:867
+#, php-format
+msgid "Ad code #%s:"
+msgstr "Reklám kód #%s:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:883
+msgid "Use jQuery"
+msgstr "jQuery használata"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:883
+msgid "For testing purposes only. Only uncheck if you know what you're doing!"
+msgstr "Kizárólag tesztelés céljából. Csak akkor vedd le a pipát, ha tudod hogy mit csinálsz!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:888
+msgid "Enable theme built-in lightbox on all image links"
+msgstr "Engedélyezi hogy az összes képet a lightbox építse fel"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:888
+msgid "Uncheck if you prefer a lightbox plugin"
+msgstr "Vedd le a pipát ha más lightbox bővítményt használsz"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:893
+msgid "Remove Mystique settings from the database after theme switch"
+msgstr "Mystique beállításainak eltávolítása az adatbázisból, sablonváltás esetén"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:893
+msgid "Uncheck this if you plan to keep Mystique as your default theme!"
+msgstr "Vedd le a pipát ha a Mystique marad az alapértelmezett felület."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:905
+msgid "Document head code"
+msgstr "Élőfej kód"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:905
+#, php-format
+msgid "PHP code to insert in the %s section of the XHTML document. Useful if you have plugins that require you to add stuff here, adding Analytics code etc."
+msgstr "PHP kódot be lehet illeszteni a %s szekcióba az XHTML dokumentumban. Használható ha vannak bővítményeid amik igénylik hozzáadását, hozzáadva analitikai kódot stb."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:906
+msgid "To output HTML only, close the PHP tag first."
+msgstr "HTML hozzáadásánál a PHP kódot le kell zárni."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:908
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:929
+msgid "Examples and helpers:"
+msgstr "Példák és segítség"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:927
+msgid "Modify anything related to design using CSS code"
+msgstr "Változtathatsz bármit a dizájnon CSS kód használatával"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:927
+#, php-format
+msgid "Check %s to see existing theme classes and properties"
+msgstr "Ellenőrizd a %s hogy lásd a felület osztályait és beállításait"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:927
+msgid "Avoid modifying theme files directly; use this option instead to preserve your changes after update"
+msgstr "Kerüld a felület fájljainak módosítását; használd ezt az opciót hogy frissítés után megmaradjanak a beállításaid"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:950
+msgid "Save Changes"
+msgstr "Változások mentése"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:950
+msgid "Reset to Defaults"
+msgstr "Visszaállítás alapértelmezettre"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:31
+#, php-format
+msgid "%s: Widget class not found. Make sure this widget exists and the class name is correct"
+msgstr "%s: Widget osztály nem található. Csinálj valós widgetet helyes osztállyal és névvel."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:77
+msgid "Please type a user name"
+msgstr "Kérem adja meg felhasználónevét"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:78
+msgid "E-mail address is required."
+msgstr "E-mail cím kötelező"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:79
+msgid "You must enter a password."
+msgstr "Be kell írnod egy jelszavat."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:80
+msgid "Please verify the password"
+msgstr "Kérlek erősítsd meg a jelszavad"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:81
+msgid "Passwords do not match"
+msgstr "A jelszavak nem illenek össze"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:82
+msgid "User registration failed.  Please try again."
+msgstr "Regisztráció sikertelen. Kérlek próbáld újra."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:90
+#, php-format
+msgid "You are logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. You don't need another account :)"
+msgstr "Be vagy jelentkezve, mint: <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. Nem igényel másik felhasználót :)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:95
+#, php-format
+msgid "A user account for %1$s has been created."
+msgstr "%1$s felhasználó sikeresen elkészült."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:96
+#, php-format
+msgid "Thank you for registering, %1$s."
+msgstr "Köszönjük regisztrációját, %1$s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:105
+msgid "User name (required)"
+msgstr "Felhasználónév(kötelező)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:110
+msgid "First name"
+msgstr "Utónév"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:115
+msgid "Last name"
+msgstr "Keresztnév"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:120
+msgid "E-mail (required)"
+msgstr "E-mail(kötelező)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:132
+msgid "Password (required)"
+msgstr "Jelszó(kötelező)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:137
+msgid "Verify password (required)"
+msgstr "Jelszó megerősítés(kötelező)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:144
+msgid "Profile info"
+msgstr "Profil infó"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:150
+msgid "Add User"
+msgstr "Felhasználó hozzáadása"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:150
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:609
+msgid "Register"
+msgstr "Regisztráció"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:178
+msgid "No redirect URL specified"
+msgstr "Nincs URL átírányítás"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:317
+#, php-format
+msgid "Empty ad slot (#%s)!"
+msgstr "Üres reklám kód (#%s)!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:324
+msgid "Top"
+msgstr "Fel"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:336
+#, php-format
+msgid "%1$s theme by %2$s | Powered by %3$s"
+msgstr "%1$s felületet készítette: %2$s | CMS: %3$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:343
+msgid "Copyright &copy;"
+msgstr "Tulajdonjog &copy;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:359
+msgid "Site Admin"
+msgstr "Oldal admin"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:360
+msgid "Log in"
+msgstr "Belépés"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:52
+#, php-format
+msgid "%s followers"
+msgstr "%s követő"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:73
+msgid "Error while retrieving tweets (Twitter down?)"
+msgstr "HIBA, \"csiripelések\" nem érhetőek el (Twitter leállt?)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:86
+msgid "Displays links to different sections grouped in tabs"
+msgstr "Linkek mutatása különböző csoportok fülekben"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:88
+msgid "Mystique | Sidebar tabs"
+msgstr "Mystique | Sidebar tabs"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:112
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:308
+msgid "Recent comments"
+msgstr "Legújabb hozzászólás"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:113
+msgid "Popular posts"
+msgstr "Népszerű hozzászólások"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:114
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:300
+msgid "Archives"
+msgstr "Archívum"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:115
+msgid "Tags"
+msgstr "Címkék"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:209
+msgid "Didn't find any posts popular enough :("
+msgstr "Nem található elég népszerű üzenet:("
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:252
+msgid "Sidebar tabs"
+msgstr "Sidebar fülek"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:253
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:396
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:495
+msgid "jQuery is disabled and this widget needs it"
+msgstr "jQuery letiltva de a widget igényli"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:288
+msgid "Tabs to show"
+msgstr "Fülek mutatása"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:296
+msgid "Tags "
+msgstr "Címkék"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:304
+msgid "Popular posts (most commented)"
+msgstr "Népszerű üzenetek (legtöbbször kommentált)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:314
+msgid "Sort categories"
+msgstr "Kategória rendezése"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:316
+msgid "by name (alphabetically)"
+msgstr "név szerint (abc sorrendben)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:317
+msgid "by category ID"
+msgstr "kategória ID"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:318
+msgid "by category slug"
+msgstr "kategória szerint"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:319
+msgid "by post count"
+msgstr "üzenet látogatottság szerint"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:324
+msgid "Show post count (categories and archives)"
+msgstr "Üzenet látogatottság mutatása (Kategóriák és archívumok)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:330
+msgid "How many popular posts to show?"
+msgstr "Hány népszerű hözászólást mutasson?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:337
+msgid "How many recent comments to show?"
+msgstr "Hány új hozzászólás legyen látható?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:353
+msgid "Shows your latest Twitter updates"
+msgstr "Legújabb Twitter frissítések mutatása"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:354
+msgid "Mystique | Twitter"
+msgstr "Mystique | Twitter"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:393
+msgid "Loading tweets..."
+msgstr "Twittek betöltése"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:423
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:529
+msgid "Title:"
+msgstr "Cím:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:428
+msgid "Twitter user name:"
+msgstr "Twitter felhasználónév"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:433
+msgid "Number of tweets to show:"
+msgstr "twittek száma:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:447
+msgid "Displays Flickr galleries (needs API key)"
+msgstr "Flickr galéria kijelzés (API kulcscsal)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:449
+msgid "Mystique | Flickr Gallery"
+msgstr "Mystique | Flickr Galléria"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:520
+msgid "Flickr Gallery"
+msgstr "Flickr Galléria"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:534
+msgid "API key:"
+msgstr "API kulcs:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:539
+msgid "Number of photos to show:"
+msgstr "Mutatott képek száma:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:544
+msgid "Gallery source:"
+msgstr "Galléria forrás:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:546
+msgid "Photoset"
+msgstr "Photoset"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:547
+msgid "User photostream"
+msgstr "Felhasználó fotó"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:552
+msgid "Photoset ID:"
+msgstr "Photoset ID:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:557
+#, php-format
+msgid "User ID (use %s to find it):"
+msgstr "Felhasználó ID (használd %s kereséséhez):"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:572
+msgid "Login form"
+msgstr "Belépési űrlap"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:573
+msgid "Mystique | Login"
+msgstr "Mystique | Belépés"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:583
+#, php-format
+msgid "Logged in: %s"
+msgstr "Belépve: %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:588
+msgid "Dashboard"
+msgstr "Vezérlőpult"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:590
+msgid "Write"
+msgstr "Új bejegyzés"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:591
+msgid "Comments"
+msgstr "Hozzászólások"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:593
+msgid "Log out"
+msgstr "Kijelentkezés"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:597
+msgid "User Login"
+msgstr "Felhasználó belépés"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:601
+msgid "User"
+msgstr "Felhasználó"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:602
+msgid "Password"
+msgstr "Jelszó"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:603
+msgid "Login"
+msgstr "Belépés"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:604
+msgid "Remember me"
+msgstr "Jegyezzen meg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:610
+msgid "Lost your password?"
+msgstr "Elfelejtette jelszavát?"
+

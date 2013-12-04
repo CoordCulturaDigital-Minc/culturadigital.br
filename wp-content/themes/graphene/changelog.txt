@@ -1,0 +1,128 @@
+GRAPHENE WORDPRESS THEME CHANGELOG
+by Syahir Hakim
+http://www.khairul-syahir.com
+
+CHANGELOG
+
+Version 1.0.10
+
+	* [TODO] Add the author info box under each post in single post display
+	* [TODO] Add option to show the AddThis button on posts and pages or posts only
+	* [TODO] Learn how to add option to the edit post screen
+	* [TODO] Add option to have the slider pull the first image from the post instead of using featured image (Note: using wordpress' own resizing function perhaps?)
+	* [TODO] Add option to link the header image to the homepage
+	
+Version 1.0.9.3
+
+	* Hides the "Continue reading" link in excerpts of posts in slider
+	* Some CSS updates on the slider styling
+	* Removed add_theme_support() calls that used read-only arguments
+	* Removed overflow:auto on content paragraphs and lists
+	
+Version 1.0.9.2
+
+	* Fixed the menu's z-index that caused the dropdown menu to be displayed behind the slider
+
+Version 1.0.9.1
+
+	* Fixed the jQuery slider so that all posts in the selected category is shown instead of limited to 5 posts
+
+Version 1.0.9
+
+	* Added jQuery slider on the front page
+	* Fixed border-radius CSS property, now works in Chrome and Safari too
+	* Fixed the W3C CSS validator link
+	* Removed max-width property from the content area and use overflow:auto instead
+	* Default menu no longer show the hardcoded Home link when static front page is used
+	* Added class attributes for the header title <h1> and description <h2>
+	* Added action hooks for much greater customisability through child theme
+	* Added SSL check for custom header image link, and return https link instead of http if SSL connection is used
+
+Version 1.0.8.2
+
+	* Fixed the header text link - now correctly links to the homepage
+	* Added Polish (pl_PL) translation, by Dariusz Francuz
+	* Added French (fr_FR) translation, by Wolforg
+	* Removed the max_depth parameter in listing comments so that threading depth can be set (or disabled) in the admin panel
+	* Existing comments will now be shown if comment is closed on posts/pages that already have comments
+	* Replaced the minified Son of Suckerfish js for IE6 with the un-minified js - somehow it caused the dropdown menu to 'stick' on hover in IE6
+
+Version 1.0.8.1
+
+	* Fixed the one-column, no sidebar template
+
+Version 1.0.8
+
+	* Added options to hide post parameters, i.e. post date, post author, comment count, post category, post tag (useful for use as CMS)
+	* Added option to display Adsense ads on the front page as well
+	* Added another widget area at the bottom of the theme
+	* Added option to use different widget areas for front page than the rest of the website
+	* Added option to specify number of columns for footer widget area, and the width of each column will be adjusted automatically
+	* Added option to specify font styles for header text title and description as well as content text
+	* Added option to specify width of dropdown menu children
+	* Added author's page, which includes author bio, latest posts, most commented posts, and a full list of author's posts with excerpt
+	* Added CSS styling for tables and made other minor CSS modifications
+	* Added additional message strings and included esc_attr_e and esc_attr__ as language keywords (attn. translators)
+	* Added option to switch to a lighter-coloured header bars
+	* Added option to display post author's gravatar in posts (useful if blog has multiple authors)
+	* Replaced excerpt's [...] with an ellipsis and link to the full posts, based on the Twenty Ten excerpt more filter functions
+	* Added Italian (it_IT) translation, by Ermes Gelosa
+	* Added German (de_DE) translation, by Sebastian Brandner
+	* Replaced all instances of bloginfo('url') with the newer home_url() introduced in WP3.0
+	* Renamed page-onecolumn.php template file to template-onecolumn.php to avoid conflict with Wordpress template hierarchy
+	* Fixed nav menu hover effect where the the hover styles stays permanently in IE6 and IE7
+	* Fixed Custom Background bug where the default background is still displayed even when a custom background colour is set
+	* Replaced the get_the_title() with the_title_attribute() function for title attribute of post title's <a> element
+
+Version 1.0.7
+
+	* Fixed gettext call for comment count string
+	* Added copyright text and developer credit widths in footer to prevent layout overflow for long text
+	* Fixed alignment classes CSS so that captioned images are aligned properly
+	* Added Spanish (es_ES) translation, by Eduardo Larequi (http://www.labitacoradeltigre.com/)
+
+Version 1.0.6
+
+	* Fixed minor CSS styling bug causing the allowed HTML tags note in comment form to be partially hidden in IE6 and IE7
+
+Version 1.0.5
+
+	* Minor CSS sprite background positioning and paragraph margin fix
+	* Updated gettext calls and language files
+	* Implemented sliding door effect for button
+	* Removed the <!-- WP-Minify JS --> tag in footer
+	* Separated changelog from the readme file into changelog.txt file
+	* Added Brazilian Portuguese (pt_BR) language files, by Leonardo Antonioli (http://www.tobeguarany.com)
+	* Fixed sidebar wrapping where the layout is broken if any sidebar item does not have title
+	* Added a page template with no sidebar and full-width 1-column layout
+	* Removed the post tags display for pages
+	* Replaced URL to stylesheet with absolute path when using get_theme_data() in footer.php to avoid URL file-access disabled error
+	* Removed dependence on IE7.js script for IE6 support
+	* Improved dropdown menu implementation using Son of Suckerfish method, now up to 5 levels deep!
+	* Improved comment form CSS styling to better accommodate extra fields that may be added by plugins
+
+Version 1.0.4
+
+	* Fixed custom menu where assigned custom menu loses dropdown capability
+
+Version 1.0.3
+
+	* Minor code fixes
+
+Version 1.0.2
+	
+	* Replaced include() function call in search.php with get_template_part()
+	* Slight modification to the redirect URL in 404.php.
+
+Version 1.0.1
+
+	* Replaced include() function call with get_search_form() function call to get the search form
+	* Replaced hard-coded comment form with comment_form() function call
+	* Added missing post_class() in post <div> tag
+	* Removed "Comments are closed" message from posts and pages where commenting is disabled
+	* Added support for editor style
+	* Updated language files
+
+Version 1.0
+
+    * Initial public release

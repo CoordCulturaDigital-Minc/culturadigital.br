@@ -1,0 +1,7 @@
+body {background: #bbb url(back-body.jpg) repeat-x }
+#bg {background: url(back-bg.jpg) no-repeat center top}
+#sidebar h2 {background: url(back-sidebar-title.jpg) no-repeat scroll right top; color: #595959 }
+#sidebar ul li a.sidebartitle:link, #sidebar ul li a.sidebartitle:visited {color:#595959 }
+#logo a:link, #logo a:visited {color:#464646;}
+#logo a span {color:#222 }
+#logo a:link, #logo a:visited, #logo a:hover, #logo a:active {text-shadow:none }

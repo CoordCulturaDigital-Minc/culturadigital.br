@@ -1,0 +1,41 @@
+# Copyright (C) 2009 WordPress
+# Marcelo Mesquita <stallefish@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2009-09-13 16:02+0200\n"
+"PO-Revision-Date: 2009-09-13 16:08-0300\n"
+"Last-Translator: \n"
+"Language-Team: WordPress-BR <contato@wordpress-br.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: *.php:0
+msgid "HeadLines"
+msgstr ""
+
+msgid "HeadLines Categories"
+msgstr ""
+
+msgid "HeadLine title"
+msgstr ""
+
+msgid "HeadLine excerpt"
+msgstr ""
+
+msgid "HeadLine Categories"
+msgstr ""
+
+msgid "order"
+msgstr ""
+
+msgid "out"
+msgstr ""
+

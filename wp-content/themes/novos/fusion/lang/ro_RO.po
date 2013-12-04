@@ -1,0 +1,779 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fusion 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-14 02:00+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: digitalnature <hello@digitalnature.ro>\n"
+"Language-Team: digitalnature.ro <hello@digitalnature.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: ROMANIA\n"
+"X-Poedit-Basepath: c:\\wamp\\www\\wordpress\\wp-content\\themes\\fusion\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes\\fusion\n"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/404.php:5
+msgid "Page not found (404)"
+msgstr "Pagina nu a fost gasită (404)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/404.php:7
+msgid "Try one of these links:"
+msgstr "Încercaţi una din aceste legături:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:9
+#, php-format
+msgid "Archive for category %s"
+msgstr "Arhivă pentru categoria %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:11
+#, php-format
+msgid "Posts Tagged %s"
+msgstr "Postări etichetate %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:15
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:17
+#, php-format
+msgid "Archive for %s"
+msgstr "Arhivă pentru %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:13
+msgid "F jS, Y"
+msgstr "j F Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:15
+msgid "F, Y"
+msgstr "F, Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:17
+msgid "Y"
+msgstr "Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:19
+msgid "Author Archive"
+msgstr "Arhiva autorului"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:21
+msgid "Blog Archives"
+msgstr "Arhivele blog-ului"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:26
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:12
+msgid "Permanent Link:"
+msgstr "Link permanent:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:31
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:17
+#, php-format
+msgid "Posted by %s in %s on %s"
+msgstr "Publicat de %s în %s la %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:31
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:17
+#, php-format
+msgid "Posts by %s"
+msgstr "Articole scrise de %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:31
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:805
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:17
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page.php:9
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+msgid "Edit"
+msgstr "Modifică"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:36
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:23
+msgid "Read the rest of this entry &raquo;"
+msgstr "Citeşte restul acestui articol &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+msgid "No Comments"
+msgstr "Nu există comentarii"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+msgid "1 Comment"
+msgstr "Un comentariu"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+msgid "% Comments"
+msgstr "% Comentarii"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:59
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:45
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:30
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Articole mai vechi"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:60
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:55
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:14
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:31
+msgid "Newer Entries &raquo;"
+msgstr "Articole mai noi &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:66
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Îmi pare rău, incă nu exista nici un articol in categoria %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:68
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Îmi pare rău, nu există nici un articol scris la această dată."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:71
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Îmi pare rău, încă nu există nici un articol scris de %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:73
+msgid "No posts found."
+msgstr "Nu a fost găsit nici un articol."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archives.php:10
+msgid "Archives by Month:"
+msgstr "Arhive dupa lună:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archives.php:14
+msgid "Archives by Subject:"
+msgstr "Articole după subiect:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:25
+msgid "This user hasn't shared any biographical information"
+msgstr "Acest utilizator nu are nici o descriere."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:30
+msgid "Homepage:"
+msgstr "Pagină web:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:31
+msgid "Yahoo Messenger:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:32
+msgid "Jabber/GTalk:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:33
+msgid "AIM:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+msgid "Tags: "
+msgstr "Etichete: "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+#, php-format
+msgid "Posted in %s"
+msgstr "Publicat în %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:60
+msgid "No posts found by this author."
+msgstr "Nu a fost găsit nici un articol scris de acest utilizator."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Introduceti parola pentru a vizualiza comentariile"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:38
+msgid "Comments"
+msgstr "Comentarii"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:39
+msgid "Trackbacks"
+msgstr "Trackback-uri"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:40
+msgid "Related Posts"
+msgstr "Articole asemănătoare"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:59
+msgid "No comments yet."
+msgstr "Nu sunt comentarii."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:80
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Trebuie să fii <a href=\"%s\">autentificat</a> pentru a scrie comentarii."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:87
+msgid "Cancel Reply"
+msgstr "Renunţă la răspuns"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:93
+#, php-format
+msgid "Logged in as %s."
+msgstr "Sunteţi autentificat ca şi %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:95
+msgid "Log out of this account"
+msgstr "Log out"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:95
+msgid "Logout &raquo;"
+msgstr "Logout &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:99
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Bun venit <strong>%s</strong>."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:99
+msgid "Change &raquo;"
+msgstr "Schimbă &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:99
+msgid "Close &raquo;"
+msgstr "Închide &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:104
+msgid "Name"
+msgstr "Nume"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:104
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:108
+msgid "(required)"
+msgstr "(necesar)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:108
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:108
+msgid "(will not be published)"
+msgstr "(nu va fi publicat)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:112
+msgid "Website"
+msgstr "Site web"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:131
+#, php-format
+msgid "Spam protection: Sum of %s + %s = ?"
+msgstr "Protecţie spam: Suma a %s + %s = ?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:141
+msgid "Submit Comment"
+msgstr "Postează comentariul"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:186
+msgid "Comments are closed."
+msgstr "Comentariile sunt dezactivate."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:39
+#, php-format
+msgid "Fusion theme by %s"
+msgstr "Tema Fusion creată de %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:41
+#, php-format
+msgid "powered by %s"
+msgstr "susţinut de %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:44
+msgid "Entries (RSS)"
+msgstr "Articole (RSS)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:44
+msgid "and"
+msgstr "şi"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:44
+msgid "Comments (RSS)"
+msgstr "Comentarii (RSS)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:51
+msgid "Increase/Decrease text size"
+msgstr "Măreşte sau micşorează textul"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:52
+msgid "Switch between full and fixed width"
+msgstr "Schimbă lăţimea paginii"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:169
+msgid "Fusion settings"
+msgstr "Opţiuni temă"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:178
+msgid "Fusion theme settings"
+msgstr "Opţiuni temă"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:180
+msgid "Settings saved."
+msgstr "Setările au fost salvate"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:228
+msgid "General"
+msgstr "Setări generale"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:237
+msgid "Use jQuery"
+msgstr "Foloseşte jQuery"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:237
+msgid "(Don't change this unless you know what you're doing)"
+msgstr "(Nu schimbaţi această opţiune)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:239
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:272
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:284
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:360
+msgid "Yes"
+msgstr "Da"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:241
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:275
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:286
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:363
+msgid "No"
+msgstr "Nu"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:248
+msgid "Homepage meta keywords"
+msgstr "Cuvinte cheie (META):"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:248
+msgid "(Separate with commas. Tags are used as keywords on other pages. Leave empty if you are using a SEO plugin)"
+msgstr "(Separaţi cu virgulă. Etichetele sunt folosite ca şi cuvinte META pe alte pagini. Lăsaţi gol daca folosiţi un plugin SEO)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:259
+msgid "Index page/Archives show:"
+msgstr "Pagina principală/Arhivele afişează:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:261
+msgid "Full posts"
+msgstr "Articole complete"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:263
+msgid "Excerpts only"
+msgstr "Doar rezumatul"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:270
+msgid "Show layout controls (Aa/<>)"
+msgstr "Activează abilitatea vizitatorilor de a schimba mărimea textului sau lăţimea paginii (Aa/<>)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:282
+msgid "Enable 2nd sidebar on all pages"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:282
+msgid "(use the 3-column page template if you only want it on certain pages)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:300
+msgid "Header"
+msgstr "Antet"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:308
+msgid "Top navigation shows"
+msgstr "Bara de navigare afişează"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:310
+msgid "Pages"
+msgstr "Pagini"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:312
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:562
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:563
+msgid "Categories"
+msgstr "Categorii"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:320
+msgid "Header background"
+msgstr "Fundal antent"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:324
+msgid "Theme default (gray noise)"
+msgstr "Implicit (gri)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:325
+msgid "User defined image(s) (upload)"
+msgstr "Imagine predefinită"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:326
+msgid "User defined color"
+msgstr "Culoare predefinită"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:332
+msgid "Centered image (upload a 960x200 image for best fit):"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:337
+msgid "Tiled image, repeats itself across the entire header (centered image will show on top of it, if specified):"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:342
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:371
+#, php-format
+msgid "Can't upload! Directory %s is not writable!<br />Change write permissions with CHMOD 755 or 777"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:348
+msgid "Pick a color"
+msgstr "Alegeţi o culoare"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:358
+msgid "Logo image"
+msgstr "Siglă"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:367
+msgid "Upload a custom logo image"
+msgstr "Uploadaţi o imagine cu sigla personalizată"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:387
+msgid "Sidebar"
+msgstr "Bara laterală"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:395
+msgid "Sidebar position"
+msgstr "Poziţia barei laterale:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:397
+msgid "Left"
+msgstr "Stânga"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:400
+msgid "Right (default)"
+msgstr "Dreapta (implicit)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:412
+msgid "Footer"
+msgstr "Subsolul paginii"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:420
+msgid "Add content"
+msgstr "Adaugă conţinut"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:420
+msgid "(HTML allowed)"
+msgstr "(HTML permis)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:436
+msgid "User CSS code"
+msgstr "Cod CSS personalizat"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:445
+msgid "Modify anything related to design using simple CSS"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:445
+msgid "Avoid modifying theme files and use this option instead to preserve changes after update"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:475
+msgid "Save changes"
+msgstr "Salvează modificările"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:545
+msgid "Sort categories by:"
+msgstr "Sortează categoriile:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:547
+msgid "Alphabetically (default)"
+msgstr "Alfabetic (implicit)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:548
+msgid "Unique category ID"
+msgstr "După identificatorul unic de categorie (ID)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:549
+msgid "Category slug"
+msgstr "După Slug"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:550
+msgid "Post count"
+msgstr "După numărul articolelor"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:556
+msgid "Show category count"
+msgstr "Afişează numărul articolelor"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:577
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:593
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:632
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:633
+msgid "Search"
+msgstr "Caută"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:622
+msgid "Search handled by:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:627
+msgid "Find <code>name='cx'</code> in the <strong>Search box code</strong> of <a href='http://www.google.com/coop/cse/'>Google Custom Search Engine</a>, and type the <code>value</code> above.<br/>"
+msgstr "Căutaţi <code>name='cx'</code> în <strong>Search box code</strong> din <a href='http://www.google.com/coop/cse/'>Google Custom Search Engine</a>, şi completaţi câmpul <code>value</code> mai sus.<br/>"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:640
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:683
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:684
+msgid "Twitter posts"
+msgstr "Postări Twitter"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:672
+msgid "Your Twitter ID:"
+msgstr "ID-ul tău Twitter:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:677
+msgid "Maximum number of entries to display:"
+msgstr "Numărul maxim de înregistrări:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:691
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:729
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:730
+msgid "Flickr gallery"
+msgstr "Galerie Flickr"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:723
+msgid "Your <a href=\"http://idgettr.com/\" target=\"_blank\">Flickr ID</a>:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:783
+#, php-format
+msgid "%s by %s on %s"
+msgstr "%s scris de %s, %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:790
+msgid "Your comment is awaiting moderation."
+msgstr "Comentariul dvs. va fi moderat."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:801
+msgid "Reply"
+msgstr "Răspunde"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:803
+msgid "Quote"
+msgstr "Citează"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:179
+msgid "You are Home"
+msgstr "Sunteţi pe pagina principală"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:179
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:181
+msgid "Home"
+msgstr "Acasă"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:181
+msgid "Click for Home"
+msgstr "Click pt. pagina principală"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:27
+#, php-format
+msgid "This entry was posted on %s and is filed under %s. You can follow any responses to this entry through %s."
+msgstr "Acest articol a fost publicat %s în %s. Puteţi urmări orice comentariu nou la acest articol prin %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:31
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Puteţi <a href=\"#respond\">comenta</a>, sau lăsa o <a href=\"%s\" rel=\"trackback\">legătură</a> pe site-ul dvs."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:35
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Comentariile sunt dezactivate momentan, dar puteţi lăsa o <a href=\"%s\" rel=\"trackback\">legătură</a> de pe site-ul dvs."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:39
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Puteţi lăsa un comentariu. Trackback-urile de pe site-ul propriu sunt dezactivate."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:43
+msgid "Both comments and pings are currently closed."
+msgstr "Comentariile şi trackback-urile sunt dezactivate."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:45
+msgid "Edit this entry"
+msgstr "Modifică acest articol"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:50
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Îmi pare rău, nu am gasit ataşamente care să se încadreze în acest criteriu."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:51
+msgid "Not Found"
+msgstr "Nu a fost găsit"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:52
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Îmi pare rău, dar căutaţi ceva ce nu se găseşte aici."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page.php:12
+msgid "Read the rest of this page &raquo;"
+msgstr "Citeşte restul acestei pagini &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page.php:13
+msgid "Pages:"
+msgstr "Pagini:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:8
+msgid "Search Results"
+msgstr "Rezultatele căutării"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:36
+msgid "No posts found. Try a different search?"
+msgstr "Nici un articol găsit. Încercaţi o nouă căutare?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:17
+#, php-format
+msgid "You are currently browsing the archives for the %s category."
+msgstr "Acum răsfoiţi arhivele pentru categoria %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:20
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:23
+#, php-format
+msgid "You are currently browsing the archives for %s"
+msgstr "Acum răsfoiţi arhivele pentru %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:20
+msgid "l, F jS, Y"
+msgstr "l, j F Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:26
+#, php-format
+msgid "You are currently browsing the archives for the year %s"
+msgstr "Acum răsfoiţi arhivele pentru anul %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:29
+#, php-format
+msgid "You have searched the archives for %s."
+msgstr "Aţi căutat în arhive %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:32
+msgid "You are currently browsing the archives."
+msgstr "Acum răsfoiţi arhivele"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:83
+msgid "Archives"
+msgstr "Arhive"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:94
+msgid "Meta"
+msgstr "Meta"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/single.php:55
+msgid "Sorry, no posts matched your criteria."
+msgstr "Îmi pare rău, nici un articol nu s-a încadrat în criteriul de căutare."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/yarpp-template-fusion.php:13
+msgid "No related posts."
+msgstr "Nu există articole asemănătoare."
+
+#~ msgid "Tweeter posts"
+#~ msgstr "Postări Twitter"
+#~ msgid "Tweeter updates"
+#~ msgstr "Postări Twitter"
+#~ msgid "No trackbacks yet."
+#~ msgstr "Încă nu există trackback-uri."
+#~ msgid "H:i"
+#~ msgstr "H:i"
+#~ msgid "Show theme-default category block"
+#~ msgstr "Arată categoriile în bara laterală"
+#~ msgid "Separate with commas"
+#~ msgstr "Separaţi prin virgulă"
+#~ msgid "Upload your logo as \"logo.png\" in the theme directory:"
+#~ msgstr "Copiaţi sigla dvs. cu numele \"logo.png\" în directorul temei:"
+#~ msgid "You should export the logo image with transparency enabled"
+#~ msgstr ""
+#~ "Dacă e posibil, folosiţi culori transparente când creeaţi sigla dvs."
+#~ msgid "Disable homepage tab"
+#~ msgstr "Dezactivează meniul \"Acasă\" din antent"
+#~ msgid "Check this if you are using a static page as the homepage"
+#~ msgstr ""
+#~ "Bifaţi această opţiune dacă folosiţi o pagină statică ca şi pagină "
+#~ "principală"
+#~ msgid "Show the categories as header tabs"
+#~ msgstr "Arată categoriile în meniul din antet"
+#~ msgid "(instead of pages)"
+#~ msgstr "(în loc de pagini)"
+#~ msgid ""
+#~ "Check if you prefer the widgetized category display or just want to hide "
+#~ "the categories"
+#~ msgstr ""
+#~ "Bifaţi  dacă doriţi să ascundeţi categoriile, sau dacă preferaţi "
+#~ "categoriile ca şi widget"
+#~ msgid "Disable the default search block in the sidebar"
+#~ msgstr "Dezactivează meniul de căutare din bara laterală"
+#~ msgid "Check if you don't like the theme-default search look"
+#~ msgstr "Bifaţi dacă nu doriţi afişarea lui"
+#~ msgid "Default page content width:"
+#~ msgstr "Lăţimea implicită a paginii:"
+#~ msgid "Fixed (960 pixels)"
+#~ msgstr "Fixă  (960 pixeli)"
+#~ msgid "Fluid (95 percent of the visitor's screen width)"
+#~ msgstr "Flexibilă (95 la suta din lăţimea ferestrei browser-ului)"
+#~ msgid ""
+#~ "Note that if the layout controls are enabled, the visitor's javascript "
+#~ "page width cookie setting will override this option"
+#~ msgstr ""
+#~ "Această opţiune nu are efect daca vizitatorul poate schimba laţimea "
+#~ "paginii"
+#~ msgid "Disable jQuery and the associated code"
+#~ msgstr "Dezactivează jQuery şi codul asociat lui"
+#~ msgid ""
+#~ "This will reduce the page load with ~70 KB, but will also disable some "
+#~ "features and effects (layout controls, rss links inside category menu, "
+#~ "comment tabs, trackbacks).<br />You shouldn't change this unless you have "
+#~ "problems with your host regarding bandwidth"
+#~ msgstr ""
+#~ "Această opţiune va reduce traficul unui vizitator cu aprox. 70 KB, dar va "
+#~ "dezactiva unele funcţionalităţi şi efecte. Nu bifaţi dacă nu aveţi "
+#~ "probleme legate de trafic sau lăţime de bandă."
+#~ msgid ""
+#~ "Don't modify style.css if you wish to preserve your changes after theme "
+#~ "update! Use this option instead."
+#~ msgstr ""
+#~ "Nu modificaţi fişierul style.css daca vreţi să prezervaţi modificările "
+#~ "dvs la codul CSS dupa actualizarea temei! Folosiţi această opţiune pt. "
+#~ "asta"
+#~ msgid "Links:"
+#~ msgstr "Link-uri:"
+#~ msgid "Permanent Link to"
+#~ msgstr "Link permanent la"
+#~ msgid "by"
+#~ msgstr "de"
+#~ msgid "%1$s at %2$s"
+#~ msgstr "%1$s la %2$s"
+#~ msgid "on"
+#~ msgstr "la"
+#~ msgid "Logged in as <a href=\"%1$s\"><strong>%2$s</strong></a>."
+#~ msgstr "Sunteţi autentificat ca şi "
+#~ msgid "Posted in"
+#~ msgstr "Postat în"
+#~ msgid "This entry was posted on"
+#~ msgstr "Acest articol a fost scris"
+#~ msgid "and is filed under"
+#~ msgstr "si este încadrat în"
+#~ msgid "You can follow any responses to this entry through"
+#~ msgstr "Puteţi urmări orice comentariu nou la acest articol prin"
+#~ msgid "Archive for"
+#~ msgstr "Arhivă pentru"
+#~ msgid "Subscribe to comments feed"
+#~ msgstr "Vreau să fiu notificat prin RSS dacă apar comentarii noi"
+#~ msgid "Leave a comment"
+#~ msgstr "Lasă un comentariu"
+#~ msgid "Sorry, the comment form is closed at this time."
+#~ msgstr "Îmi pare rău, formularul pentru comentarii este închis momentan."
+#~ msgid "Close this window."
+#~ msgstr "Închide această fereastră."
+#~ msgid "Disable the \"<>\" layout-type switcher"
+#~ msgstr "Dezactivează abilitatea vizitatorior de a schimba lăţimea paginii"
+

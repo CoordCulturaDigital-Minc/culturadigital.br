@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Optimize DB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-08-21 11:15+0100\n"
+"Last-Translator: Roland Rust <wordpress@designpraxis.at>\n"
+"Language-Team: Roland Rust <wordpress@designpraxis.at>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: AUSTRIA\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: W:\\www.designpraxis.at\\wordpress\\wp-content\\plugins\\\n"
+"X-Poedit-SearchPath-0: optimize-db\n"
+
+#: optimize-db/optimize-db.php:47
+msgid "Optimizing ..."
+msgstr "Es wird optimiert ..."
+
+#: optimize-db/optimize-db.php:59
+msgid "Error: Database table"
+msgstr "FEHLER: Datenbank Tabelle"
+
+#: optimize-db/optimize-db.php:61
+msgid "could not be optimized"
+msgstr "konnte nicht optimiert werden"
+
+#: optimize-db/optimize-db.php:67
+msgid "Database table"
+msgstr "Datenbank Tabelle"
+
+#: optimize-db/optimize-db.php:69
+msgid "optimized"
+msgstr "optimiert"
+
+#: optimize-db/optimize-db.php:89
+msgid "Your database is allready optimized"
+msgstr "Ihre WordPress Datenbank ist bereits optimiert"
+
+#: optimize-db/optimize-db.php:95
+msgid "Your database holds"
+msgstr "Ihre Datenbank speichert"
+
+#: optimize-db/optimize-db.php:97
+msgid "of Data"
+msgstr "an Daten"
+
+#: optimize-db/optimize-db.php:100
+msgid "It can be reduced by"
+msgstr "Diese könnten reduziert werden:"
+
+#: optimize-db/optimize-db.php:102
+msgid "Optimize Now"
+msgstr "Jetzt optimieren"
+
+#: optimize-db/optimize-db.php:112
+msgid "Table Name"
+msgstr "Tabellen Name"
+
+#: optimize-db/optimize-db.php:113
+msgid "Data stored"
+msgstr "gespeicherte Daten"
+
+#: optimize-db/optimize-db.php:114
+msgid "Overhead"
+msgstr "Überhang"
+
+#: optimize-db/optimize-db.php:150
+msgid "Optimize Database"
+msgstr "Datenbank optimieren"
+
+#: optimize-db/optimize-db.php:151
+msgid "Checking database tables. Please wait."
+msgstr "Tabellen werden überprüft. Bitte warten."
+
+#: optimize-db/optimize-db.php:155
+msgid "Running into Troubles? Features to suggest?"
+msgstr "Probleme mit diesem Plugin? Verbesserungsvorschläge?"
+
+#: optimize-db/optimize-db.php:157
+msgid "Drop me a line"
+msgstr "Schreiben Sie mir"
+
+#: optimize-db/optimize-db.php:162
+msgid "Do you like this Plugin?"
+msgstr "Fanden Sie dieses Plugin nützlich?"
+
+#: optimize-db/optimize-db.php:163
+msgid "Consider to"
+msgstr "Unterstützen Sie meine Arbeit"
+

@@ -1,0 +1,24 @@
+{
+    "name": "ehough/finder",
+    "type": "library",
+    "description": "Fork of Symfony's Finder Component compatible with PHP 5.2+",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Hough",
+            "email": "eric@ehough.com",
+            "homepage": "http://ehough.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2",
+        "ehough/filesystem": "~2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {"ehough_finder": "src/main/php"}
+    }
+}

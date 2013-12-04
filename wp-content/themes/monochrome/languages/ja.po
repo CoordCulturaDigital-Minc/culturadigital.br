@@ -1,0 +1,516 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: monochrome\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-19 18:13+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mono-lab <mail@mono-lab.net>\n"
+"Language-Team: monolab <mail@monolab.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: I:\\xampplite\\htdocs\\monochrome\n"
+"X-Poedit-SearchPath-0: wp-content\\themes\\monochrome\n"
+
+#: wp-content\themes\monochrome/archive.php:12
+#, php-format
+msgid "Archive for the &#8216;<span id=\"keyword\"> %s </span>&#8217; Category"
+msgstr "カテゴリー :<span id=\"keyword\"> %s </span>"
+
+#: wp-content\themes\monochrome/archive.php:15
+#, php-format
+msgid "Posts Tagged &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+msgstr "タグ : <span id=\"keyword\"> %s </span>"
+
+#: wp-content\themes\monochrome/archive.php:18
+#: wp-content\themes\monochrome/archive.php:21
+#: wp-content\themes\monochrome/archive.php:24
+#, php-format
+msgid "Archive for <span id=\"keyword\">%s</span>"
+msgstr "アーカイブ :<span id=\"keyword\"> %s </span>"
+
+#: wp-content\themes\monochrome/archive.php:18
+#: wp-content\themes\monochrome/comments.php:116
+#: wp-content\themes\monochrome/functions.php:369
+msgid "F jS, Y"
+msgstr "Y年 n月 j日"
+
+#: wp-content\themes\monochrome/archive.php:21
+msgid "F, Y"
+msgstr "Y年 n月"
+
+#: wp-content\themes\monochrome/archive.php:24
+msgid "Y"
+msgstr "Y年"
+
+#: wp-content\themes\monochrome/archive.php:27
+msgid "Author Archive"
+msgstr "投稿者のアーカイブ"
+
+#: wp-content\themes\monochrome/archive.php:30
+msgid "Blog Archives"
+msgstr "ブログアーカイブ"
+
+#: wp-content\themes\monochrome/archive.php:44
+#: wp-content\themes\monochrome/index.php:14
+#: wp-content\themes\monochrome/page-nocomment-noinfo.php:18
+#: wp-content\themes\monochrome/page-nocomment.php:18
+#: wp-content\themes\monochrome/page-noside-nocomment.php:16
+#: wp-content\themes\monochrome/page-noside.php:16
+#: wp-content\themes\monochrome/page.php:13
+#: wp-content\themes\monochrome/search.php:22
+#: wp-content\themes\monochrome/single.php:23
+msgid "Read more"
+msgstr "続きを読む"
+
+#: wp-content\themes\monochrome/archive.php:51
+#: wp-content\themes\monochrome/index.php:22
+#: wp-content\themes\monochrome/page-nocomment.php:26
+#: wp-content\themes\monochrome/page.php:21
+#: wp-content\themes\monochrome/search.php:29
+#: wp-content\themes\monochrome/single.php:31
+msgid "POSTED BY"
+msgstr "投稿者"
+
+#: wp-content\themes\monochrome/archive.php:54
+#: wp-content\themes\monochrome/index.php:25
+#: wp-content\themes\monochrome/search.php:32
+#: wp-content\themes\monochrome/single.php:34
+msgid "CATEGORY"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:57
+#: wp-content\themes\monochrome/index.php:28
+#: wp-content\themes\monochrome/search.php:35
+#: wp-content\themes\monochrome/single.php:37
+msgid "<dt>TAGS</dt><dd>"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:59
+#: wp-content\themes\monochrome/comments.php:39
+#: wp-content\themes\monochrome/index.php:30
+#: wp-content\themes\monochrome/page.php:24
+#: wp-content\themes\monochrome/search.php:37
+#: wp-content\themes\monochrome/single.php:39
+msgid "Write comment"
+msgstr "コメントを書く"
+
+#: wp-content\themes\monochrome/archive.php:59
+#: wp-content\themes\monochrome/index.php:30
+#: wp-content\themes\monochrome/page.php:24
+#: wp-content\themes\monochrome/search.php:37
+#: wp-content\themes\monochrome/single.php:39
+msgid "1 comment"
+msgstr "コメント ( 1 )"
+
+#: wp-content\themes\monochrome/archive.php:59
+#: wp-content\themes\monochrome/index.php:30
+#: wp-content\themes\monochrome/page.php:24
+#: wp-content\themes\monochrome/search.php:37
+#: wp-content\themes\monochrome/single.php:39
+#, php-format
+msgid "% comments"
+msgstr "コメント ( % )"
+
+#: wp-content\themes\monochrome/archive.php:60
+#: wp-content\themes\monochrome/comments.php:117
+#: wp-content\themes\monochrome/index.php:31
+#: wp-content\themes\monochrome/page-nocomment.php:29
+#: wp-content\themes\monochrome/page-noside-nocomment.php:14
+#: wp-content\themes\monochrome/page-noside.php:14
+#: wp-content\themes\monochrome/page.php:25
+#: wp-content\themes\monochrome/search.php:38
+#: wp-content\themes\monochrome/single.php:40
+msgid "[ EDIT ]"
+msgstr "[ 編集 ]"
+
+#: wp-content\themes\monochrome/archive.php:70
+#: wp-content\themes\monochrome/index.php:41
+#: wp-content\themes\monochrome/page-nocomment-noinfo.php:28
+#: wp-content\themes\monochrome/page-nocomment.php:37
+#: wp-content\themes\monochrome/page-noside-nocomment.php:24
+#: wp-content\themes\monochrome/page-noside.php:23
+#: wp-content\themes\monochrome/page.php:33
+#: wp-content\themes\monochrome/search.php:46
+#: wp-content\themes\monochrome/single.php:48
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "該当する記事は見つかりませんでした。"
+
+#: wp-content\themes\monochrome/comments.php:10
+#: wp-content\themes\monochrome/comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "この投稿はパスワードで保護されています。コメントを閲覧するにはパスワードを入力してください。"
+
+#: wp-content\themes\monochrome/comments.php:41
+msgid "Comments RSS"
+msgstr "コメントRSS"
+
+#: wp-content\themes\monochrome/comments.php:46
+msgid "Trackback"
+msgstr "トラックバック"
+
+#: wp-content\themes\monochrome/comments.php:47
+#: wp-content\themes\monochrome/comments.php:50
+msgid "Comments"
+msgstr "コメント"
+
+#: wp-content\themes\monochrome/comments.php:49
+msgid "Trackback are closed"
+msgstr "トラックバック　停止中"
+
+#: wp-content\themes\monochrome/comments.php:78
+msgid "No comments yet."
+msgstr "コメントはまだありません。"
+
+#: wp-content\themes\monochrome/comments.php:105
+msgid "TrackBack URL"
+msgstr "トラックバック URL"
+
+#: wp-content\themes\monochrome/comments.php:120
+msgid "Trackback from : "
+msgstr "トラックバック先 :"
+
+#: wp-content\themes\monochrome/comments.php:126
+msgid "No trackbacks yet."
+msgstr "トラックバックはまだありません。"
+
+#: wp-content\themes\monochrome/comments.php:141
+msgid "Comment are closed."
+msgstr "コメント　停止中"
+
+#: wp-content\themes\monochrome/comments.php:156
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "コメントするには、 <a href=\"%s\">[ ログイン ]</a> する必要があります。"
+
+#: wp-content\themes\monochrome/comments.php:175
+#: wp-content\themes\monochrome/comments.php:177
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "<a href=\"%1$s\">%2$s</a> としてログインしています。"
+
+#: wp-content\themes\monochrome/comments.php:175
+#: wp-content\themes\monochrome/comments.php:177
+msgid "Log out of this account"
+msgstr "このアカウントからログアウトする。"
+
+#: wp-content\themes\monochrome/comments.php:175
+msgid "[ Log out ]"
+msgstr "[ ログアウト ]"
+
+#: wp-content\themes\monochrome/comments.php:177
+msgid "Log out"
+msgstr "ログアウト"
+
+#: wp-content\themes\monochrome/comments.php:182
+msgid "NAME"
+msgstr "名前"
+
+#: wp-content\themes\monochrome/comments.php:182
+#: wp-content\themes\monochrome/comments.php:183
+msgid "( required )"
+msgstr "( 必須 )"
+
+#: wp-content\themes\monochrome/comments.php:183
+msgid "E-MAIL"
+msgstr "メールアドレス"
+
+#: wp-content\themes\monochrome/comments.php:183
+msgid "- will not be published -"
+msgstr "- 非公開 -"
+
+#: wp-content\themes\monochrome/comments.php:184
+msgid "URL"
+msgstr "ウェブサイト"
+
+#: wp-content\themes\monochrome/comments.php:197
+msgid "Submit Comment"
+msgstr "コメントを送信する"
+
+#: wp-content\themes\monochrome/footer.php:10
+msgid "Copyright &copy;&nbsp; "
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:172
+msgid "Theme Options"
+msgstr "monochromeオプション設定"
+
+#: wp-content\themes\monochrome/functions.php:180
+msgid "Theme options have been saved."
+msgstr "オプション設定は更新されました。"
+
+#: wp-content\themes\monochrome/functions.php:186
+msgid "Monochrome option"
+msgstr "monochrome オプション設定"
+
+#: wp-content\themes\monochrome/functions.php:190
+#: wp-content\themes\monochrome/functions.php:283
+msgid "Save Changes"
+msgstr "設定を保存する"
+
+#: wp-content\themes\monochrome/functions.php:194
+msgid "Select width of monochrome."
+msgstr "サイトの横幅を指定してください。（デフォルトは1000pxになります。）"
+
+#: wp-content\themes\monochrome/functions.php:196
+msgid "930px."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:197
+msgid "1000px"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:198
+msgid "1100px"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:203
+msgid "Check if you would like to use original image for logo instead of using plain text.<br />( Don't forget to upload image into, <strong>wp-content/themes/monochrome/img/</strong> )"
+msgstr "ロゴにオリジナルの画像を利用する。<br />( 画像を利用する場合は、なからず画像を <strong>wp-content/themes/monochrome/img/</strong> にアップロードしてください。)"
+
+#: wp-content\themes\monochrome/functions.php:204
+#: wp-content\themes\monochrome/functions.php:211
+#: wp-content\themes\monochrome/functions.php:220
+#: wp-content\themes\monochrome/functions.php:230
+#: wp-content\themes\monochrome/functions.php:237
+#: wp-content\themes\monochrome/functions.php:242
+#: wp-content\themes\monochrome/functions.php:258
+#: wp-content\themes\monochrome/functions.php:261
+#: wp-content\themes\monochrome/functions.php:264
+#: wp-content\themes\monochrome/functions.php:267
+#: wp-content\themes\monochrome/functions.php:270
+#: wp-content\themes\monochrome/functions.php:275
+#: wp-content\themes\monochrome/functions.php:280
+msgid "Yes"
+msgstr " 表示する"
+
+#: wp-content\themes\monochrome/functions.php:205
+msgid "Write your logo file name.<br />Example : <strong>logo.gif</strong>"
+msgstr "ロゴのファイル名を拡張子を含めてご記入ください。.<br />記入例 : <strong>logo.gif</strong>"
+
+#: wp-content\themes\monochrome/functions.php:210
+msgid "Show Information on sidebar."
+msgstr "サイドバーにインフォメーションを表示する　（表示しない場合はチェックをはずしてください。）"
+
+#: wp-content\themes\monochrome/functions.php:212
+msgid "Information title."
+msgstr "インフォメーションのタイトル"
+
+#: wp-content\themes\monochrome/functions.php:214
+msgid "Information contents. ( HTML tag is available. )"
+msgstr "インフォメーションの内容 ( 無記入の場合は、代替テキストが表示されます )<br />※ HTMLタグを使用することができます。"
+
+#: wp-content\themes\monochrome/functions.php:219
+msgid "Show rss feed on sidebar."
+msgstr "RSSフィードを表示する　（表示しない場合はチェックをはずしてください。）"
+
+#: wp-content\themes\monochrome/functions.php:224
+msgid "Position of search area on sidebar."
+msgstr "サイドバーに表示する検索の位置"
+
+#: wp-content\themes\monochrome/functions.php:226
+msgid "Top"
+msgstr "サイドバーの一番上"
+
+#: wp-content\themes\monochrome/functions.php:227
+msgid "Bottom"
+msgstr "サイドバーの一番下"
+
+#: wp-content\themes\monochrome/functions.php:229
+msgid "Use <a href=\"http://www.google.com/cse/\">Google Custom Search</a><br />(If you check this option,don't forget to write your Google Custom Search ID below.)"
+msgstr "<a href=\"http://www.google.com/cse/\">Googleカスタム検索</a> を利用する。<br />(もし、Googleカスタム検索を利用する場合は、下にGoogleカスタム検索IDを入力してください。)"
+
+#: wp-content\themes\monochrome/functions.php:231
+msgid "Input your Google Custom Search ID."
+msgstr "Googleカスタム検索のIDを入力してください。"
+
+#: wp-content\themes\monochrome/functions.php:236
+msgid "Show tag list under search area."
+msgstr "タグリストを検索の下に表示する "
+
+#: wp-content\themes\monochrome/functions.php:241
+msgid "Check if you would like to use Custom Navigation Menus in WordPress 3.0."
+msgstr "WordPress3.0のカスタムメニューを使いたい場合は、下にチェックを入れてください。<br />カスタムメニューは外観項目から設定できます。"
+
+#: wp-content\themes\monochrome/functions.php:244
+msgid "Header menu."
+msgstr "ページ上部のメニュー"
+
+#: wp-content\themes\monochrome/functions.php:246
+msgid "Use pages for header menu."
+msgstr "ページを使用する"
+
+#: wp-content\themes\monochrome/functions.php:247
+msgid "Use categories for header menu."
+msgstr "カテゴリーを使用する"
+
+#: wp-content\themes\monochrome/functions.php:249
+msgid "Exclude Pages (Page ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr "ヘッダーメニューに表示したくないページ<br />（ページのＩＤを半角数字で記入してください。複数有る場合は、カンマ「,」で区切ってください。記入例： 1,2,3 ）"
+
+#: wp-content\themes\monochrome/functions.php:251
+msgid "Exclude Categories (Category ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr "ヘッダーメニューに表示したくないカテゴリー<br />（ページのＩＤを半角数字で記入してください。複数有る場合は、カンマ「,」で区切ってください。記入例： 1,2,3 ）"
+
+#: wp-content\themes\monochrome/functions.php:257
+msgid "Show author name."
+msgstr "投稿者を表示する　（表示しない場合はチェックをはずしてください。）"
+
+#: wp-content\themes\monochrome/functions.php:260
+msgid "Show border aroud image in post area."
+msgstr "投稿欄の画像に枠線を付ける。"
+
+#: wp-content\themes\monochrome/functions.php:263
+msgid "Show bread crumb at single post page."
+msgstr "パンくずリンクを表示する。"
+
+#: wp-content\themes\monochrome/functions.php:266
+msgid "Show next preview post at the bottom of single post page."
+msgstr "次の記事、前の記事をシングルページの下部に表示する。"
+
+#: wp-content\themes\monochrome/functions.php:269
+msgid "Show tag."
+msgstr "タグを表示する　（表示しない場合はチェックをはずしてください。）"
+
+#: wp-content\themes\monochrome/functions.php:274
+msgid "Show time on comment."
+msgstr "コメントの日付の横に時間を表示する。"
+
+#: wp-content\themes\monochrome/functions.php:279
+msgid "Check if you want to show Return top link."
+msgstr "RETURN TOP　リンクを画面右下に表示する。　（表示しない場合はチェックをはずしてください。）"
+
+#: wp-content\themes\monochrome/functions.php:369
+msgid " g:ia"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:376
+#: wp-content\themes\monochrome/functions.php:378
+#: wp-content\themes\monochrome/functions.php:381
+msgid "REPLY"
+msgstr "返信"
+
+#: wp-content\themes\monochrome/functions.php:383
+msgid "QUOTE"
+msgstr "引用"
+
+#: wp-content\themes\monochrome/functions.php:384
+msgid "EDIT"
+msgstr "編集"
+
+#: wp-content\themes\monochrome/functions.php:390
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは管理人の承認待ちです。（ あなた以外の人には表示されていません。 ）"
+
+#: wp-content\themes\monochrome/header.php:6
+msgid " | "
+msgstr ""
+
+#: wp-content\themes\monochrome/header.php:62
+#: wp-content\themes\monochrome/single.php:10
+msgid "HOME"
+msgstr "ホーム"
+
+#: wp-content\themes\monochrome/search.php:10
+msgid "Search results for "
+msgstr "検索結果 "
+
+#: wp-content\themes\monochrome/search.php:10
+msgid " hit"
+msgstr "件"
+
+#: wp-content\themes\monochrome/sidebar.php:7
+msgid "Information"
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:8
+msgid "Change this sentence and title from admin Theme option page."
+msgstr "ここの文章と上に表示されているタイトルは管理画面の、 「 monochromeオプション設定 」 から変更してください。"
+
+#: wp-content\themes\monochrome/sidebar.php:12
+msgid "Entries RSS"
+msgstr "投稿記事のRSSフィード"
+
+#: wp-content\themes\monochrome/sidebar.php:12
+msgid "RSS FEED"
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:23
+#: wp-content\themes\monochrome/sidebar.php:79
+msgid "Google Search"
+msgstr "Google Search"
+
+#: wp-content\themes\monochrome/sidebar.php:24
+#: wp-content\themes\monochrome/sidebar.php:32
+#: wp-content\themes\monochrome/sidebar.php:80
+#: wp-content\themes\monochrome/sidebar.php:88
+msgid "Search from this blog."
+msgstr "ブログ内検索"
+
+#: wp-content\themes\monochrome/sidebar.php:31
+#: wp-content\themes\monochrome/sidebar.php:87
+msgid "Search"
+msgstr "ブログ内検索"
+
+#: wp-content\themes\monochrome/sidebar.php:38
+#: wp-content\themes\monochrome/sidebar.php:94
+msgid "TAG LIST"
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:48
+msgid "Recent entry"
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:58
+msgid "Archive"
+msgstr "アーカイブ"
+
+#: wp-content\themes\monochrome/sidebar.php:65
+msgid "Category"
+msgstr "カテゴリー"
+
+#: wp-content\themes\monochrome/sidebar.php:75
+msgid "SEARCH"
+msgstr "ブログ内検索"
+
+#~ msgid "Archive for %s"
+#~ msgstr "<span id=\"keyword\"> %s </span> の記事"
+
+#~ msgid "Posted in "
+#~ msgstr "カテゴリー : "
+
+#~ msgid "By "
+#~ msgstr "投稿者 : "
+
+#~ msgid "[ READ MORE ]"
+#~ msgstr "- [ 続きを読む ]"
+
+#~ msgid "RETURN TOP"
+#~ msgstr "ページ上部に移動"
+
+#~ msgid "Title for Information area (right side)"
+#~ msgstr ""
+#~ "インフォメーションのタイトル　( 無記入の場合は、INFORMATION と表示されま"
+#~ "す )"
+
+#~ msgid "Show rss feed."
+#~ msgstr "表示する"
+
+#~ msgid "Show author"
+#~ msgstr "表示する "
+
+#~ msgid "Show tag"
+#~ msgstr "表示する"
+
+#~ msgid "Show Pagetop link."
+#~ msgstr "表示する"
+
+#~ msgid "Search position."
+#~ msgstr "検索を表示する位置"
+
+#~ msgid "Links"
+#~ msgstr "リンク"

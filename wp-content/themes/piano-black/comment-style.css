@@ -1,0 +1,100 @@
+
+/*  ------ comment ------------- */
+
+#comments { margin:0 0 0 30px; width:556px; }
+#no-side #comments { margin:0 auto; width:880px; line-height:inherit; }
+
+#comment-list, #trackback-list { margin:15px 0 0 0; padding:0 0 20px 0; }
+#trackback-list { display:none; }
+
+/*  ------ comment_header --------------------------------------------------------------------------------------------------------- */
+#comment-header { border:1px solid #333; }
+
+#comment-header-top { background-color:#1b1b1b; padding:7px 20px; margin:0; }
+#comment-header-top li { float:left; display:block; }
+#comment-feed a { display:block; width:22px; height:22px; background:url(img/comment-rss.gif) no-repeat left top; }
+#comment-feed a:hover { background:url(img/comment-rss.gif) no-repeat left bottom; }
+#comment-title { width:90%; padding:2px 0 0 15px; line-height:150%; font-size:11px; }
+
+#comment-header-bottom { background-color:#000; padding:10px 20px; font-size:11px; }
+.switch { float:left; margin:0; }
+.switch li { display:inline; margin:1px 30px 1px 2px; }
+.switch a { padding:0 0 0 15px; }
+.switch .active { background:url(img/arrow6.gif) no-repeat left center; }
+.switch .non-active { background:none; }
+#add-comment { float:right; background:url(img/write-comment.gif) no-repeat left top; padding:0 0 1px 20px; }
+
+/*  ------ comment ------------------------------------------------------------------------------------------------------------------ */
+.commentlist { list-style-type:none; margin:0; padding:0; }
+.comment { border:1px solid #333; margin:0 0 15px 0; padding:15px 20px 3px 20px; background:#000; }
+.admin-comment { background:#1b1b1b; }
+.admin-url { }/* color of admin name */
+
+/* ----- comment-meta ----- */
+.comment-meta { height:50px; position:relative; }
+
+.comment-meta-left { position:absolute; left:0; top:0; }
+.avatar { border:1px solid #555; background:#000; width:37px; height:37px; padding:2px; display:inline; float:left; margin:0 15px 0 0; }
+.comment-name-date { color:#7f8e91; padding:6px 0 0 0; float:left; }
+
+a.admin-url { text-decoration:underline; }
+a.guest-url { text-decoration:underline; }
+
+.comment-date { font-size:11px; color:#757676; margin:0 0 0 0; }
+
+.comment-act {  background:url(img/arrow1.gif) no-repeat left 11px; font-size:11px; position:absolute; right:0; top:0; padding:7px 0 7px 15px; margin:0; }
+.comment-act li { display:inline; margin:0; }
+.comment-reply a, .comment-reply a:visited { border-right:1px solid #3c4243; padding:0 10px 0 0; margin:0 6px 0 0; }
+.comment-edit a, .comment-edit a:visited { border-left:1px solid #3c4243; padding:0 0 0 10px; margin:0 0 0 6px; }
+
+
+/* ----- comment-contents ----- */
+.comment-content { padding:0; }
+.comment-content p { line-height:160%; }
+.comment blockquote { margin:0 0 20px 0; }
+.comment blockquote span { margin:0 0 -1em 0; display:block; }
+.comment-note { display:block; font-size:11px; margin:0 0 1em 0; color:#fff446; border:1px solid #9ea084; padding:10px 15px 5px 15px; background:#58593b; }
+
+.comment-closed { border:1px solid #333; text-align:center; margin:0 0 15px 0; padding:30px; background:#000; }
+#trackback-closed { background:url(img/arrow1.gif) no-repeat left center; padding:0 0 0 12px; }
+.nocomments { text-align:center; color:#fff446; border:1px solid #9ea084; background:#58593b; }
+.nocomments p { margin:15px 20px; font-size:11px; }
+
+.trackback-time { font-size:11px; color:#757676; }
+.trackback-title { margin:2px 0 8px 0; }
+
+#trackback-url { margin:0 0 20px 0; font-size:11px; }
+#trackback-url label { margin:0 0 2px 20px; display:block; }
+#trackback-url input { background:#000 url(img/arrow1.gif) no-repeat 20px 11px; border:1px solid #333; color:#777; padding:5px 30px; width:494px; }
+
+/* ---------- comment form area ---------- */
+
+.comment-form-area { border:1px solid #333; text-align:center; margin:0 0 15px 0; padding:30px; background:#000; }
+
+#cancel-comment-reply #cancel-comment-reply-link { width:94%; margin:0 auto; display:block; text-align:left; background:url(img/arrow1.gif) no-repeat 2px 4px; padding:0 0 15px 15px; }
+
+#comment-user-login p { width:90%; text-align:left; margin:0 auto; padding:8px 0 11px 35px; line-height:100%; background:url(img/warning.gif) no-repeat left top; }
+#comment-user-login span { margin:0 0 0 20px; padding:0 0 0 20px; background:url(img/arrow1.gif) no-repeat 10px 6px; }
+#no-side #comment-user-login p { width:94%; }
+
+#comment-login { text-align:left; background:url(img/comment-area-bottom.gif) no-repeat left bottom; margin:0; padding:3px 30px 10px 30px; }
+#comment-login p { margin:0; padding:12px 0 11px 36px; line-height:100%; background:url(img/warning.gif) no-repeat left 4px; }
+#comment-login a { margin:0 0 0 20px; padding:0 0 0 20px; background:url(img/arrow1.gif) no-repeat 10px 3px; }
+
+#guest-info { margin:0 auto; padding:0; width:98%; }
+#guest-info div { margin:0 0 12px 0; text-align:left; }
+#guest-info input { margin:0; border:1px solid #333;  padding: 3px 5px; width:70%; background:#222; color:#a2a2a2;}
+#guest-info input:focus { outline: 1px solid #849ca0; }
+#guest-info label { display:block; margin:0 0 5px 0; padding:0 0 0 0; font-size:11px; color:#666;}
+#guest-info span { color:#f2f2f2; margin:0 10px 0 0; }
+
+#comment-textarea { width:100%; }
+#comment-textarea textarea { width:90%; margin:15px auto 0 auto; padding:15px; height:150px; border:1px solid #333;
+                             background:#222; color:#a2a2a2; font-size:11px; overflow:auto; }
+#comment-textarea textarea:focus { outline: 1px solid #849ca0; }
+#no-side #comment-textarea textarea { width:94%; }
+
+#comment-submit { margin:30px auto 0 auto; width:200px; display:block; background:#000; color:#a5a5a5; border:1px solid #555; padding:4px 0; cursor:pointer; }
+#comment-submit:hover { color:#849ca0; border:1px solid #849ca0; }
+
+#input_hidden_field { display:none; }

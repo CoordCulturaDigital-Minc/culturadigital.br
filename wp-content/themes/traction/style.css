@@ -1,0 +1,45 @@
+/*
+Theme Name: Traction
+Theme URI: http://thethemefoundry.com/traction/
+Description: A super clean magazine theme featuring built-in post thumbnail support, a featured post slider, and a robust theme options menu.
+Version: 1.0
+Author: The Theme Foundry
+Author URI: http://thethemefoundry.com/
+Tags: fixed-width, two-columns, dark, black, blue, red, green, right-sidebar, threaded-comments, theme-options, translation-ready
+*/
+
+/*
+	Copyright (C) 2010 Jestro LLC
+
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+*/
+
+/* Import Stylesheets
+-----------------------------------------------------------*/
+@import url("stylesheets/master.css");
+
+/* Required WordPress Classes, don't remove these.
+-----------------------------------------------------------*/
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.alignleft { float: left; }
+.alignright { float: right; }
+
+/* Make all custom CSS changes in a Child Theme. Any custom
+changes you make here will not be overidden when you upgrade the theme.
+-----------------------------------------------------------*/

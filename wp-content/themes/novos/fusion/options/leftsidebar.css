@@ -1,0 +1,36 @@
+
+/* sidebar to the left */
+
+#page.with-sidebar #main-wrap #mid-wrap { right:34%;  /* width of the sidebar  */ }
+#page.with-sidebar #main-wrap #side-wrap { right:66%; /* width of the main column */ }
+
+#page.with-sidebar #main-wrap #mid {
+  width:66%;			/* width of the main column */
+  left:134%;
+}
+
+#page.with-sidebar #main-wrap #sidebar {
+  width:34%;			/* width of the sidebar  */
+  left:34%;
+}
+
+
+/* if 2nd sidebar exists... */
+
+#page.with-sidebar2 #main-wrap #mid-wrap { right:20%;  /* width of the 2nd sidebar  */ }
+#page.with-sidebar2 #main-wrap #side-wrap { right:50%; /* width of the main column */ }
+
+#page.with-sidebar2 #main-wrap #mid {
+  width:50%;			/* width of the main column */
+  left:100%;
+}
+
+#page.with-sidebar2 #main-wrap #sidebar {
+  width:30%;			/* width of the sidebar  */
+  left:0%;
+}
+
+#page.with-sidebar2 #main-wrap #sidebar2 {
+  width:20%;            /* width of the 2nd sidebar */
+  left:100%;
+}

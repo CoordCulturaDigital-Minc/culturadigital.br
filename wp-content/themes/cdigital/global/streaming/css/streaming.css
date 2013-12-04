@@ -1,0 +1,329 @@
+/*
+* master.css - This file have the general theme stylesheet
+*
+* Copyright (C) 2010 Ministério da Cultura Brasileira
+* Copyright (C) 2010  Marcos Maia Lopes <marcosmlopes01@gmail.com>
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+*
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/* Global reset
+_____________________*/
+div.streaming{
+    overflow:hidden;
+}
+
+div.streaming .thumbnail img{
+    border:1px solid #b1b1b1;
+    padding:3px;
+}
+
+div.streaming div.head{
+    background:url("../img/graph/graph_streaming.jpg") no-repeat;
+    border-bottom:1px solid #d7d7d7;
+    margin-bottom:18px;
+    overflow:hidden;
+    padding:4px 0 18px 44px;
+}
+
+div.streaming div.head h2{
+    float:left;
+    font-size:24px;
+    font-weight:normal;
+    line-height:100%;
+}
+
+div.streaming div.head p{
+    float:right;
+    font-size:13px;
+    margin-top:5px;
+}
+
+div.streaming div.head p a{
+    background:#f8f8f8;
+    padding:4px 8px;
+    text-decoration:none;
+}
+
+div.streaming div.head p a.active{
+    background:#317BAB;
+    color:#fff;
+}
+
+div.streaming div.head p a:hover{
+    text-decoration:underline;
+}
+
+div.streaming h3{
+    border-bottom:3px solid #017BAE;
+    color:#017BAE;
+    font-size:1.2em;
+    line-height:100%;
+    margin-bottom:20px;
+    padding-bottom:10px;
+    text-transform:uppercase;
+}
+
+div.streaming div.media{
+    float:left;
+    width:620px;
+}
+
+div.streaming div.video{
+    margin-bottom:5px;
+}
+
+div.streaming video{
+    background:#000;
+}
+
+div.streaming div.video-meta{
+    margin-bottom:20px;
+    overflow:hidden;
+}
+
+div.streaming div.video-meta p{
+    margin-top:4px;
+}
+
+div.streaming div.video-meta p
+, div.streaming div.video-meta li{
+    float:left;
+}
+
+div.streaming div.video-meta li{
+    list-style:none;
+    margin-left:12px;
+}
+
+div.streaming div.video-meta li.active{
+    background:#e4e4e4;
+}
+
+div.streaming div.video-meta li.pt a{
+    background:url("../img/bg/bg_pt-br.png") 5px center no-repeat;
+    padding-left:27px;
+}
+
+div.streaming div.video-meta li.en a{
+    background:url("../img/bg/bg_en.png") 5px center no-repeat;
+    padding-left:27px;
+}
+
+div.streaming div.video-meta li.audio
+, div.streaming div.video-meta li.embbed{
+    float:right;
+}
+
+div.streaming div.video-meta a{
+    color:#979797;
+    display:block;
+    line-height:100%;
+    padding:5px;
+    text-decoration:none;
+}
+
+div.streaming div.video-meta li.audio a{
+    background:url("../img/bg/bg_audio.png") left center no-repeat;
+    padding-left:22px;
+}
+
+div.streaming div.video-meta li.embbed a{
+    background:url("../img/bg/bg_embbed.png") left center no-repeat;
+    padding-left:25px;
+}
+
+div.streaming div.video-meta a:hover{
+    text-decoration:underline;
+}
+
+div.streaming div.embbed{
+    display:none;
+    margin-bottom:20px;
+}
+
+div.streaming div.embbed textarea{
+    height:60px;
+    width:100%;
+}
+
+div.streaming div.agenda div.postContent{
+    margin-bottom:16px;
+}
+
+div.streaming div.agenda div.postContent p:last-child{
+    margin-bottom:0;
+}
+
+div.streaming div.agenda div.tweetmeme_button{
+    display:none !important;
+}
+
+div.streaming div.flickr{
+    overflow:hidden;    
+    position:relative;
+}
+
+div.streaming div.flickr.loading{
+    background:url("../img/graph/graph_loading.gif") center 70px no-repeat;
+}
+
+div.streaming div.flickr h3{
+    background:url("../img/bg/bg_flickr.jpg") right top no-repeat;
+}
+
+div.streaming div.carousel{
+    margin:0 22px 18px;
+    min-height:86px;
+    overflow:hidden;
+}
+
+div.streaming div.carousel ul{
+    overflow:hidden;
+    width:920px;
+}
+
+div.streaming div.carousel li{
+    float:left;
+    margin-right:9px;
+    list-style:none;
+}
+
+div.streaming div.carousel li img{
+    display:block;
+    height:75px;
+    width:100px;
+}
+
+div.streaming div.carousel .prev
+, div.streaming div.carousel .next{
+    display:block;
+    height:19px;
+    overflow:hidden;
+    position:absolute;
+    text-indent:-999em;
+    top:77px;
+    width:13px;
+}
+
+div.streaming div.carousel .prev{
+    background:url("../img/bt/bt_carousel-arrows.jpg") no-repeat;
+    left:0;
+}
+
+div.streaming div.carousel .next{
+    background:url("../img/bt/bt_carousel-arrows.jpg") right top no-repeat;
+    right:0;
+}
+
+div.streaming div.carousel a:hover{
+    opacity:0.7;
+}
+
+div.streaming div.bottom{
+    border-top:1px solid #d6d6d6;
+    margin-bottom:30px;
+    overflow:hidden;
+    padding-top:10px;
+}
+
+div.streaming div.bottom .more{
+    float:right;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+div.streaming div.bottom .more:hover{
+    text-decoration:underline;
+}
+
+div.social-network{
+    margin-left:670px;
+    overflow:hidden;
+}
+
+div.social-network p.blogs{
+    font-size:13px;
+    margin-bottom:20px;
+    text-align:right;
+}
+
+div.social-network p.blogs span{
+    color:#999;
+    margin-left:10px;
+}
+
+div.social-network div.twitter.loading{
+    background:url("../img/graph/graph_loading.gif") center no-repeat;
+    height:662px;
+}
+
+div.social-network h3{
+    clear:both;
+    background:url("../img/bg/bg_twitter.jpg") right top no-repeat;
+    padding:10px 0;
+}
+
+div.social-network li{
+    border-bottom:1px solid #ededed;
+    list-style:none;
+    margin-bottom:10px;
+    overflow:hidden;
+    padding-bottom:10px;
+}
+
+div.social-network li:last-child{
+    border:none;
+    margin-bottom:6px;
+}
+
+div.social-network li .thumbnail{
+    float:left;
+    margin-right:7px;
+}
+
+div.social-network li p{
+    line-height:130%;
+    margin-left:63px;
+    margin-top:3px;
+}
+
+div.social-network li p a{
+    font-size:1em;
+}
+
+div.social-network li p a:hover{
+    text-decoration:none;
+}
+
+div.social-network li p span{
+    color:#999;
+    display:block;
+    font-size:1em;
+    margin-top:5px;
+}
+
+div.social-network div.bottom .follow{
+    background:url("../img/tit/tit_follow.jpg") no-repeat;
+    height:19px;
+    float:left;
+    overflow:hidden;
+    text-indent:-999em;
+    width:166px;
+}
+
+div.social-network div.bottom .follow:hover{
+    opacity:0.7;
+}

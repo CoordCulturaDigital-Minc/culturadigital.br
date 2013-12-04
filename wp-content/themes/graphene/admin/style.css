@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.form-table th{
+	width:260px;
+	}
+.wrap h3{
+	margin:30px 0 10px 0;
+	}
+.wrap h4{
+	margin:20px 0 0 0;
+	}
+table.graphene-code-example th{
+	text-align:left;
+	font-weight:normal;
+	}
+.graphene_uninstall{
+	margin-bottom:50px;
+	}

@@ -1,0 +1,374 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mail On Update v2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-22 10:20+0100\n"
+"PO-Revision-Date: 2010-08-22 10:20+0100\n"
+"Last-Translator: Sven Kubiak <sk@svenkubiak.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;__ngettext_noop:1,2;_c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: nospamnx.php:73
+msgid "Your WordPress is to old. NoSpamNX requires at least WordPress 2.8!"
+msgstr "Votre version de Wordpress est trop vieille. NoSpamNX nécessite au moins la version 2.8 de Wordpress."
+
+#: nospamnx.php:131
+msgid "Sorry, but your comment seems to be Spam."
+msgstr "Désolé, votre commentaire semble être du pourriel."
+
+#: nospamnx.php:217
+msgid "Sorry, but you have no permissions to change settings."
+msgstr "Désolé, vous n'avez pas l'autorisation de modifier ces réglages."
+
+#: nospamnx.php:222
+msgid "Referer-Check successfull! You may turn on Referer-Check."
+msgstr "La vérification de référent avec « Referer-Check » a réussi! Vous pouvez activer cette fonction."
+
+#: nospamnx.php:224
+msgid "Referer-Check failed! The referer does not match WordPress option \"home\" or \"siteurl\"."
+msgstr ""
+
+#: nospamnx.php:247
+msgid "NoSpamNX settings were saved successfully."
+msgstr "Les paramètres de NoSpamNX ont été sauvegardés avec succès."
+
+#: nospamnx.php:252
+msgid "NoSpamNX Counter was reseted successfully."
+msgstr "Le compteur de SpamNX a été réinitialisé avec succès."
+
+#: nospamnx.php:257
+msgid "NoSpamNX Blacklist was updated successfully."
+msgstr "La liste noire de SpamNX a été réinitialisée avec succès."
+
+#: nospamnx.php:276
+msgid "Are you sure you want to reset the counter?"
+msgstr "Êtes-vous certain de vouloir remettre le compteur à zéro?"
+
+#: nospamnx.php:283
+msgid "NoSpamNX Settings"
+msgstr "Paramètres de NoSpamNX"
+
+#: nospamnx.php:287
+msgid "Statistic"
+msgstr "Statistiques"
+
+#: nospamnx.php:292
+msgid "Stopped Spambots"
+msgstr "Spambots interceptés"
+
+#: nospamnx.php:299
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: nospamnx.php:307
+msgid "Operating mode"
+msgstr "Mode de fonctionnement"
+
+#: nospamnx.php:309
+msgid "By default all Spambots are marked as Spam, but the recommended Mode is \"Block\". If you want to see what might be blocked, select mark as spam."
+msgstr "Par défaut, tous les spambots (robots à pourriel) sont identifiés comme du pourriel, mais le mode « Bloquer » est recommandé. Si vous voulez voir ce qui est intercepté, sélectionnez « Marquer en tant que pourriel »."
+
+#: nospamnx.php:313
+msgid "Mode"
+msgstr "Mode"
+
+#: nospamnx.php:316
+msgid "Block (recommended)"
+msgstr "Bloquer (mode recommandé)"
+
+#: nospamnx.php:318
+msgid "Mark as Spam"
+msgstr "Marquer en tant que pourriel"
+
+#: nospamnx.php:322
+msgid "Check HTTP Referer"
+msgstr "Vérifier le référent HTTP"
+
+#: nospamnx.php:323
+msgid "If enabled, NoSpamNX checks if the referer of a comment matches your Blog-URL. Please check the correct functionality of this feature, using the following Link."
+msgstr "Si coché, NoSpamNX vérifiera si le référent correspond à l'adresse du blogue. Vérifier le fonctionnement de cette fonction en cliquant sur le lien suivant."
+
+#: nospamnx.php:327
+#: nospamnx.php:347
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: nospamnx.php:335
+msgid "Blacklist"
+msgstr "Liste noire"
+
+#: nospamnx.php:337
+msgid "The NoSpamNX Blacklist is comparable to the WordPress Blacklist (it is based on the same code). However, the NoSpamNX Blacklist enables you to block comments containing certain values, instead of putting them in moderation queue. Thus, this option only makes sense when using NoSpamNX in blocking mode. The NoSpamNX Blacklist checks the given values against the ip address, the author, the E-Mail Address, the comment and the URL field of a comment. If a pattern matches, the comment will be blocked. Like the WordPress Blacklist the NoSpamNX Blacklist uses substrings, so if you put \"foo\" in the list \"foobar\" will be blocked as well. Please use one value per line."
+msgstr "La liste noire de NoSpamNX est semblable à celle de Wordpress (elle est basée sur le même code). Toutefois, la liste noire de NoSpamNX vous permet de bloquer les commentaires contenant certaines valeurs au lieu de simplement les diriger vers la file d'attente des commentaires à modérer. Cette option n'est utile que si le mode « Bloquer » de NoSpamNX est utilisé. La liste noire de NoSpamNX compare les valeurs inscrites avec l'adresse IP, le nom de l'auteur, l'adresse de courriel et le champ d'adresse du commentaire. S'il y a correspondance, le commentaire sera bloqué. Tout comme la liste noire de Wordpress, celle de NoSpamNX tient compte des sous-chaînes de caractère. Par exemple, si vous inscrivez « Foo » dans la liste noire, l'entrée « Foobar » sera aussi bloquée. Inscrire une valeur par ligne."
+
+#: nospamnx.php:358
+msgid "Security-Check failed."
+msgstr ""
+
+#: nospamnx.php:445
+msgid "NoSpamNX has stopped no birdbrained Spambots yet."
+msgstr "NoSpamNX n'a pas encore intercepté de pourriel."
+
+#: nospamnx.php:448
+#, php-format
+msgid "Since its last activation on %s %s has stopped %s birdbrained Spambot (%s per Day)."
+msgid_plural "Since its last activation on %s %s has stopped %s birdbrained Spambots (%s per Day)."
+msgstr[0] "Depuis son activation le %s %s a intercepté %s pourriel (%s par jour)."
+msgstr[1] "Depuis son activation le %s %s a intercepté %s pourriels (%s par jour)."
+
+#~ msgid "NoSpamNX CSS name was updated successfully."
+#~ msgstr "La feuille de style CSS de NoSpamNX a été mise à jour avec succès."
+
+#~ msgid "NoSpamNX CSS name was reseted successfully."
+#~ msgstr ""
+#~ "La feuille de style CSS de NoSpamNX a été réinitialisée avec succès."
+
+#~ msgid "CSS"
+#~ msgstr "Feuille de style CSS"
+
+#~ msgid "CSS Name"
+#~ msgstr "Feuille de style CSS"
+
+#~ msgid " %1$d per Day."
+#~ msgstr " %1$d par jour."
+
+#~ msgid ""
+#~ "NoSpamNX is currently inactive, due to missing required PHP functions."
+#~ msgstr ""
+#~ "NoSpamNX est actuellement inactif en raison de fonctions PHP manquantes."
+
+#~ msgid "Sorry, but access to this page is restricted."
+#~ msgstr "Désolé, l'accès à cette page est restreint."
+
+#~ msgid "Moderate"
+#~ msgstr "Modérer"
+
+#~ msgid "Check logged in User"
+#~ msgstr "Vérifier les utilisateurs connectés"
+
+#~ msgid ""
+#~ "If enabled, NoSpamNX will add hidden fields and perform checks on logged "
+#~ "in users as well."
+#~ msgstr ""
+#~ "Si coché, NoSpamNX ajoutera des champs cachés et effectuera la "
+#~ "vérification de pourriel auprès des utilisateurs connectés."
+
+#~ msgid "Check Registration and Login Form"
+#~ msgstr "Vérifier l'enregistrement et le formulaire de connexion"
+
+#~ msgid ""
+#~ "If enabled, NoSpamNX checks your Registration and Login Form for "
+#~ "automated (non-human) access. All automated (non-human) access will be "
+#~ "blocked."
+#~ msgstr ""
+#~ "Si coché, NoSpamNX vérifiera votre enregistrement et le formulaire de "
+#~ "connexion pour détecter des connexions automatiques. Tout accès "
+#~ "automatique sera bloqué."
+
+#~ msgid ""
+#~ "NoSpamNX is currently inactive! Some required PHP functions are not "
+#~ "available. See Settings -> NoSpamNX -> Information for more details."
+#~ msgstr ""
+#~ "NoSpamNX est actuellement inactive! Certaines fonctions de PHP requise ne "
+#~ "sont pas disponibles. Voir Paramètres -> NoSpamNX -> Informations pour "
+#~ "plus de détails."
+
+#~ msgid "Debug"
+#~ msgstr "Debug"
+
+#~ msgid "PHP-Info"
+#~ msgstr "PHP-Info"
+
+#~ msgid "Support"
+#~ msgstr "Soutenir"
+
+#~ msgid ""
+#~ "Problems using NoSpamNX? Feel free to contact me via E-Mail (%s) or check "
+#~ "out the comments at the Plugin homepage. Please add the debug information "
+#~ "to your request."
+#~ msgstr ""
+#~ "Problèmes d'utilisation de NoSpamNX? N'hésitez pas à me contacter par E-"
+#~ "Mail (%s) ou de consulter les commentaires à la page d'accueil Plugin. "
+#~ "S'il vous plaît ajouter les informations de débogage à votre demande."
+
+#~ msgid "Donation"
+#~ msgstr "Donation"
+
+#~ msgid ""
+#~ "Developing, maintaining and supporting this plugin requires time. You can "
+#~ "support further development with a donation. Thanks!"
+#~ msgstr ""
+#~ "Développer, maintenir et soutenir ce plugin nécessite du temps. Vous "
+#~ "pouvez soutenir la poursuite des travaux avec un don. Merci!"
+
+#~ msgid "Mark as Spam (requires at least WP 2.7)"
+#~ msgstr "Marquer comme spam (nécessite au moins WP 2.7)"
+
+#~ msgid "Yes"
+#~ msgstr "Oui"
+
+#~ msgid "No"
+#~ msgstr "Non"
+
+#~ msgid "IP-Address Lockout"
+#~ msgstr "IP-Adresse Lockout"
+
+#~ msgid ""
+#~ "You can block an IP-Address of a catched Spambot for 1 hour, 24 hours or "
+#~ "indefinitely. This IP-Address can not post any comments during this time."
+#~ msgstr ""
+#~ "Vous pouvez bloquer une adresse IP d'un catched Spambot pour 1 heure, 24 "
+#~ "heures ou de durée. Cette adresse IP ne pouvez pas poster des "
+#~ "commentaires pendant ce temps."
+
+#~ msgid "Block IP-Address"
+#~ msgstr "Block IP-Adresse"
+
+#~ msgid "Block time"
+#~ msgstr "Bloc de temps"
+
+#~ msgid "1 hour"
+#~ msgstr "1 heure"
+
+#~ msgid "24 hours"
+#~ msgstr "24 heures"
+
+#~ msgid "Indefinitely"
+#~ msgstr "Indéfiniment"
+
+#~ msgid "Entries"
+#~ msgstr "Entries"
+
+#~ msgid " Currently %s out of 100 entries is stored."
+
+#~ msgid_plural " Currently %s out of 100 entries are stored."
+#~ msgstr[0] " Actuellement %s de 100 entrées sont enregistrées."
+#~ msgstr[1] "Actuellement %s de 100 entrées sont enregistrés."
+
+#~ msgid "Exclude page/post"
+#~ msgstr "Exclure page/post"
+
+#~ msgid ""
+#~ "If you have Problems with NoSpamNX on a certain page/post you can exclude "
+#~ "this page/post from NoSpamNX. Just enter the ID(s) of the page/post (use "
+#~ "comma-separated values like 4,8,15,16,23,42)"
+#~ msgstr ""
+#~ "Si vous avez des problèmes avec NoSpamNX sur une page/post, vous pouvez "
+#~ "exclure cette page/poste de NoSpamNX. Il suffit d'entrer l'ID (s) de la "
+#~ "page / post (utilisation comma-separated values comme 4,8,15,16,23,42)"
+
+#~ msgid "IDs"
+#~ msgstr "IDs"
+
+#~ msgid "Information"
+#~ msgstr "Information"
+
+#~ msgid "A new version of %1$s is available."
+#~ msgstr "Il y a une nouvelle version de %1$s disponible."
+
+#~ msgid "- Installed: %1$s, Current: %2$s"
+#~ msgstr "- Installé: %1$s, Actuel: %2$s"
+
+#~ msgid "active"
+#~ msgstr "actif"
+
+#~ msgid "inactive"
+#~ msgstr "inactif"
+
+#~ msgid "A new version (%1$s) of %2$s is available. (%3s)"
+#~ msgstr "Il y a une nouvelle version (%1$s) de %2$s disponible. (%3s)"
+
+#~ msgid "Update your Plugins at"
+#~ msgstr "Mettez à jour vos plugins sur "
+
+#~ msgid ""
+#~ "There are also updates available for the plugins below. However, these "
+#~ "plugins are of no concern for this notifier and the information is just "
+#~ "for completeness."
+#~ msgstr ""
+#~ "Il y a aussi des mises à jour disponibles pour les plugins ci-dessous. "
+#~ "Quoiqu'il en soit, ces plugins ne sont pas concernés par cet "
+#~ "avertissement et ce message est juste à titre informatif."
+
+#~ msgid "WordPress Plugin Update Notification"
+#~ msgstr "Notification de mise à jour d'un plugin Wordpress."
+
+#~ msgid "Mail On Update settings succsesfully saved."
+#~ msgstr "Les réglages de Mail on Update ont été sauvegardés avec succès."
+
+#~ msgid "Mail On Update Settings"
+#~ msgstr "Réglages de Mail on Update"
+
+#~ msgid ""
+#~ "Since no alternative recipients are specified, the default address %s is "
+#~ "assumed. Provide a list of alternative recipients to override."
+#~ msgstr ""
+#~ "Comme aucun autre destinataire n'a été spécifié, l'adresse par défaut %s "
+#~ "est prise en compte. Veuillez fournir une liste de destinataires autres "
+#~ "pour modifier ce réglage. "
+
+#~ msgid "List of alternative recipients:"
+#~ msgstr "Liste de destinataires autres:"
+
+#~ msgid "* Each E-Mail-Address has to appear on a single line"
+#~ msgstr "* Chaque adresse email doit être affichée sur une seule ligne"
+
+#~ msgid "* Invalid E-Mail-Addresses will be rejected"
+#~ msgstr "* Les adresses email non valides seront rejetées"
+
+#~ msgid "* An E-Mail-Address with \"-\" at the end is not considered"
+#~ msgstr ""
+#~ "* Une adresse email avec \"-\" à la fin ne seront pas prises en compte"
+
+#~ msgid "* Clear this field to set the default E-Mail-Address"
+#~ msgstr "* Effacer ce champ pour mettre l'adresse email par défaut"
+
+#~ msgid "Filters:"
+#~ msgstr "Filtres:"
+
+#~ msgid "* A plugin is matched if the filter is a substring"
+#~ msgstr "* Correspond à un plugin si le filtre est une sous-chaîne"
+
+#~ msgid "* A filter has to appear on a single line"
+#~ msgstr "* Chaque filtre doit s'afficher sur une seule ligne"
+
+#~ msgid "* A filter is not case sensetive"
+#~ msgstr "* Les filtres ne sont pas sensibles à la casse"
+
+#~ msgid "* A filter is considered as a string and no regexp"
+#~ msgstr "* Un filtre est considéré comme une chaîne et pas un regexp"
+
+#~ msgid "* A filter with \"-\" at the end is not considered"
+#~ msgstr "* Tout filtre finissant par \"-\" n'est pas pris en compte"
+
+#~ msgid "Don't filter plugins"
+#~ msgstr "Ne pas filtrer les plugins"
+
+#~ msgid "Blacklist filter (exclude plugins)"
+#~ msgstr "Liste noire (exclure des plugins)"
+
+#~ msgid "Whitelist filter (include plugins)"
+#~ msgstr "Liste blanche (inclure des plugins)"
+
+#~ msgid "Don't validate inactive plugins"
+#~ msgstr "Ne pas prendre en compte les plugins inactifs"
+
+#~ msgid "Plugins to validate:"
+#~ msgstr "Plugins à prendre en compte:"
+
+#~ msgid "Plugin will be validated"
+#~ msgstr "Le plugin sera pris en compte"
+
+#~ msgid "Plugin will not be validated"
+#~ msgstr "Le plugin ne sera pas pris en compte"
+
+#~ msgid "Inactive plugin"
+#~ msgstr "Plugin inactif"

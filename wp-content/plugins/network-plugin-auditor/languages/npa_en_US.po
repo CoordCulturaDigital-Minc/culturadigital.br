@@ -1,0 +1,86 @@
+# Copyright (C) 2013
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Network Plugin Auditor 1.6\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/network-plugin-"
+"auditor\n"
+"POT-Creation-Date: 2013-11-19 21:41-0500\n"
+"PO-Revision-Date: 2013-11-19 21:42-0500\n"
+"Last-Translator: \n"
+"Language-Team: Katherine Semel <ksemel@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../network-plugin-auditor.php:48
+msgid "Network Plugin Auditor"
+msgstr "Network Plugin Auditor"
+
+#: ../network-plugin-auditor.php:50
+msgid ""
+"Your wp-config.php has an empty database table prefix, which is not "
+"supported. Please disable the Network Plugin Auditor and visit the support "
+"forum for assistance."
+msgstr ""
+"Your wp-config.php has an empty database table prefix, which is not "
+"supported. Please disable the Network Plugin Auditor and visit the support "
+"forum for assistance."
+
+#: ../network-plugin-auditor.php:60 ../network-plugin-auditor.php:113
+msgid "Active Blogs"
+msgstr "Active Blogs"
+
+#: ../network-plugin-auditor.php:77
+msgid "Network Activated"
+msgstr "Network Activated"
+
+#: ../network-plugin-auditor.php:98
+msgid "Manage plugins on "
+msgstr "Manage plugins on "
+
+#: ../network-plugin-auditor.php:116
+msgid "Children"
+msgstr "Children"
+
+#: ../network-plugin-auditor.php:175
+msgid "Active Plugins"
+msgstr "Active Plugins"
+
+#: ../network-plugin-auditor.php:175
+msgid "Excludes network-active and must-use plugins"
+msgstr "Excludes network-active and must-use plugins"
+
+#: ../network-plugin-auditor.php:177
+msgid "Active Theme"
+msgstr "Active Theme"
+
+#: ../network-plugin-auditor.php:212
+msgid "Visit the plugin URL"
+msgstr "Visit the plugin URL"
+
+#: ../network-plugin-auditor.php:220
+msgid "Plugin files were removed while the plugin was active on this blog"
+msgstr "Plugin files were removed while the plugin was active on this blog"
+
+#: ../network-plugin-auditor.php:226
+msgid "No Active Plugins"
+msgstr "No Active Plugins"
+
+#: ../network-plugin-auditor.php:440
+msgid "child of"
+msgstr "child of"
+
+#: ../network-plugin-auditor.php:463
+msgid "Manage themes on "
+msgstr "Manage themes on "

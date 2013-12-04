@@ -1,0 +1,542 @@
+# Simplified Chinese Clean Options Language File - zh_CN
+# Copyright (C) 2010 Mittineague
+# This file is distributed under the same license as the Clean Options package.
+# Mittineague <http://www.mittineague.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Clean Options 1.3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-01 22:21+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Francis Joe <francis.tm@gmail.com>\n"
+"Language-Team: Francis Joe <francis.tm@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:173
+msgid "Tools"
+msgstr "工具"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:382
+msgid "Listed Options are those that are found in the wp_options table but are not referenced by \"get_option\" or \"get_settings\" by any of the PHP files located within your blog directory. If you have deactivated plugins and/or non-used themes in your directory, the associated options will not be considered orphaned until the files are removed."
+msgstr "下面列出的\"选项\"选项内容是由那些没有通过\"get_option\"、\"get_settings\"等方式，被Blog中的任意一个PHP文件所引用的数据表。如果你禁用了一些不用的主题、插件，它们所产生的数据表不会被认为是\"无用的\"，直到这些主题、插件被删除。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:386
+msgid "Most likely there are an extreme number of \"rss_hash\" rows in the wp_options table."
+msgstr "看起来在 wp_options 表中有大量的 \"rss_hash\" 数据行。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:387
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:514
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:526
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1296
+msgid "WARNING"
+msgstr "警告"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:387
+#, php-format
+msgid "To avoid excessive memory use, using \"%s\" does not attempt to list all of the \"rss_hash\" options, nor will you be able to review the contents."
+msgstr "为了避免过多的内存使用，请使用\"%s\"来尝试不列出所有的\"rss_hash\"选项，"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:387
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:388
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:389
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1596
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1686
+msgid "Delete ALL 'rss' Options"
+msgstr "删除所有“RSS”选项"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:388
+#, php-format
+msgid "\"%s\" attempts to provide some measure against the deletion of current \"rss_hash\" options by not deleting any \"rss_hash\" rows with an option_id newer than (the last row id - %d ). Because plugins and themes also add rows to the wp_options table, depending on your recent installation history, this may remove <strong>ALL</strong> of the \"rss_hash\" options, both older AND <strong>CURRENT</strong> ones, no questions asked."
+msgstr "\"%s\" 试图将删除\"rss_hash\"中一些明确的记录，这一删除动作不会删除\"rss_hash\"中一些新的行(最后一条记录的ID - %d)。因为插件和主题同样会在 wp_options 表中添加记录，这取决于你当前的安装历史。对于在\"rss_hash\"中的记录，可能可以<strong>全部</strong>删除，包括老的和<strong>当前</strong>记录。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:389
+#, php-format
+msgid "Although removing current \"rss_hash\" rows should not \"break\" your WordPress blog (they should be entered again next time the feed is cached), please <strong>BACKUP</strong> your database <strong>BEFORE</strong> doing this.<br />After using \"%1$s\", you should \"%2$s\" to clean the wp_options table further."
+msgstr "虽然删除当前的\"rss_hash\"不会\"损坏\"你的 WordPress 博客( 将在下次feed被缓存的时候重新进行), 请<strong>在此之前备份</strong>你的数据库.<br />使用\"%1$s\"以后,将会\"%2$s\"进一步的清理 wp_options 表."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:389
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1610
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1659
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1700
+msgid "Find Orphaned Options"
+msgstr "寻找孤立的选项"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:390
+msgid "It is <strong>highly recommended</strong> that you Limit the \"Find\" to only a selected number of the most recent \"rss_hash\" options Instead and repeat the process until the number becomes manageable."
+msgstr "我们<strong>强烈建议</strong>您限制查找到仅最近的rss_hash所选号码的选择，而是和重复该过程，直至数字变得易于管理。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:392
+msgid "The lower the number of \"rss_hash\" option pairs you \"Find\", the less likely it is that you will experience problems with memory during the \"Find\". However, depending on the number of feed rows that are current, the \"Find\" may not include any older ones that can be deleted.<br />The higher the number of \"rss_hash\" pairs you \"Find\", the more likely it is that older ones that can be deleted will be included. But there is a greater chance of having memory problems during the \"Find\".<br />It is suggested that you start off with a lower \"Find\", and increase the number gradually, if you wish to, on subsequent \"Finds\". If you get a memory error, use a lower number.<br />Again said, it is recommended that you scan the results on the review page of anything you select prior to it's deletion, to ensure that you really want to remove it."
+msgstr "\"rss_hash\"与\"搜索\"匹配的数量越少，越表明在\"搜索\"期间将遇到内存的问题。然而，更具现在找到的数量，\"查询\"可能不包含任何可以删除的项。<br />在\"rss_hash\"中\"查询\"的匹配数量越大，越说明这里包含那些可删除的陈旧项目。但是在\"查询\"期间有更多的可能性出现内存问题。<br />建议您先从较少的\"查询\"开始，然后逐渐的增大数目。如果出现了内存错误，请使用低一些的数量。<br />再次声明，强烈建议在删除前请仔细查看你所选择的项目，直到您确定要删除它们。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:394
+msgid "Low Memory usage"
+msgstr "低内存用量"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:395
+msgid "Moderate Memory usage"
+msgstr "中内存用量"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:396
+msgid "High Memory usage"
+msgstr "高内存用量"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:397
+msgid "Find"
+msgstr "寻找"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:398
+msgid "10 pairs"
+msgstr "10 对"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:399
+msgid "25 pairs"
+msgstr "25 对"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:400
+msgid "50 pairs"
+msgstr "50 对"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:401
+msgid "75 pairs"
+msgstr "75 对"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:402
+msgid "100 pairs"
+msgstr "100 对"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:403
+msgid "125 pairs"
+msgstr "125 对"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:404
+msgid "150 pairs"
+msgstr "150 对"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:405
+msgid "175 pairs"
+msgstr "175 对"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:451
+msgid "Don't show the Known WordPress Core options for this \"Find\""
+msgstr "不在\"查询\"中显示已知的Wordpress核心选项"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:454
+msgid "Don't show the Alternate Syntax Warnings for this \"Find\""
+msgstr "不在\"查询\"中显示替代语法警告"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:577
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:631
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1396
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1733
+msgid "File System Error"
+msgstr "文件系统错误"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:577
+#, php-format
+msgid "Could not open folder %s"
+msgstr "无法打开%s目录"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:631
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1396
+#, php-format
+msgid "Could not open file %s"
+msgstr "无法打开%s文件"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:672
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:682
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1716
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1717
+msgid "Alternate Syntax"
+msgstr "替代语法"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:672
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:682
+#, php-format
+msgid " %1$s has an option line with %2$s"
+msgstr "%1$s 包含选项 %2$s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:726
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1112
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1132
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1145
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1498
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1721
+msgid "Database Error"
+msgstr "数据库错误"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:726
+#, php-format
+msgid "%s (the Orphaned Options query) did not return an array."
+msgstr "%s （孤立的查询选项）不返回任何数组"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:736
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1156
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1728
+msgid "Empty Name"
+msgstr "空名称"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:736
+#, php-format
+msgid "There is an autoload yes Option with No Name with the value: %s"
+msgstr "这是一个没有名称的将 autoload 设置为 yse 的设置: %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:749
+msgid "To double-check options in the Orphaned Options list:"
+msgstr "再次检查孤立选项列表里的选项:"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:751
+msgid "Look at the file names in any Warning messages."
+msgstr "注意在警告信息中的文件名。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:752
+msgid "Look at the text in any Alternate Syntax Warning messages."
+msgstr "注意在语法警告中的信息。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:753
+#, php-format
+msgid "Some information may be available at your %s page."
+msgstr "其他的信息可能在 %s 找到。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:754
+msgid "Try a Google search for the option_name."
+msgstr "尝试用Google来找到有关的 option_name。"
+
+# msgid "Search files in the wp-content folder by:" OBSOLETE
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:755
+msgid "Search files by:"
+msgstr "中寻找文件"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:757
+msgid "entering either a single string eg."
+msgstr "要么输入一个字符串。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:758
+msgid "all_or_portion_of_option_name"
+msgstr "全部或者一部分选项的名称"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:759
+#, php-format
+msgid "2 strings separated by %s (in uppercase, enclosed with asterisks) eg."
+msgstr "两个由%s(小写，用星号标记）所分开的字符串。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:760
+#, php-format
+msgid "prefix %s other_words"
+msgstr "前缀为 %s 的词"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:761
+#, php-format
+msgid "or a maximum of 3 strings separated by %s eg."
+msgstr "或者长度不超过3个由 %s 分开的字符串。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:762
+#, php-format
+msgid "prefix%1$sword%2$sother_word"
+msgstr "前缀为 %1sword%2$sother_word 的"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:763
+msgid "Note: all spaces are removed, search is case sensitive."
+msgstr "注意: 所有的空格都将被删除，搜索是区分大小写的。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:765
+msgid "Carefully Review information on the \"View Selected Options Information\" page <i>before</i> deleting the option."
+msgstr "在删除前请仔细阅读\"查看选择项目的信息\"中的信息。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:768
+msgid "Possibly Orphaned Options"
+msgstr "可能的孤立设置."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:768
+msgid "The following Options appear to be orphans. When shown, non-selectable Options are known to have been created from files present during upgrade or backup, or are legitimate options that do not \"fit\" the search for get_option or get_settings. If you wish to remove them by other means, do so at your own risk."
+msgstr "下面的选项看起来是孤立的。当它们被列出的时候，那些无法选择的选项是被那些正在升级或者备份的插件所创建，或者不是符合当前的搜索条件。如果你仍然想要删除它们，当心造成的后果。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:961
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1018
+msgid "No Orphaned Options were found"
+msgstr "没有发现孤立的设置"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:988
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1000
+msgid "known WordPress Core option"
+msgstr "已知的 WordPress 核心设置。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1007
+msgid "Google it"
+msgstr "谷歌一下"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1021
+msgid "Only WordPress Core Options were found"
+msgstr "只发现了Wordpress的核心选项。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1026
+msgid "To look for option_name(s):"
+msgstr "查看 option_name(s)："
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1027
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1035
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1357
+msgid "Enter Search String here"
+msgstr "在这里输入搜索的文字"
+
+# msgid "Search wp-content folder" OBSOLETE
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1044
+msgid "Search"
+msgstr "搜索"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1112
+#, php-format
+msgid "%s (the \"rss_\" timestamp Options query) did not return an array"
+msgstr "%s( 这个\"rss_\"时间戳选项查询)没有返回任何数组"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1132
+#, php-format
+msgid "%s (the \"rss_\" non-timestamp Options query) did not return an array"
+msgstr "%s( 这个\"rss_\"非时间戳选项查询)没有返回任何数组"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1145
+#, php-format
+msgid "%s (the \"rss_\" Options query) did not return an array"
+msgstr "%s( 这个\"rss_\"选项查询)没有返回任何数组"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1156
+#, php-format
+msgid "There is an autoload not equal to yes Option with No Name with the value: %s"
+msgstr "这是一个值为%s，没有名称，AutoLoad不等于Yes的选项"
+
+msgid "The \"rss_\" options are obsolete as of WordPress version 2.8 All are selectable and it should be safe to remove any that remain."
+msgstr "\"rss_\"选项已经被WP2.8所废除。它们全都可以被选择并且安全的删除。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1218
+msgid "RSS Options"
+msgstr "RSS 设置"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1218
+#, php-format
+msgid "The following contains \"RSS\" Options added to the wp_options table from the blog's dashboard page and other files that parse RSS feeds and cache the results.<br />In each pair, the upper option is the cached feed and the lower is the option's timestamp.<br />Those listed may include options that are <strong>Currently Active</strong>.<br />When shown, \"rss_\" option pairs with dates newer or the same as the date of 14'th newest \"rss_\" option pair (the ones that are more likely to be current) have no checkbox but begin with \"-\" and end with \"<em># %1$s</em>\" in italics.<br />The older \"rss_\" options can be selected and end with \"<strong># %2$s</strong>\" in bold."
+msgstr "下列包含\"RSS\"的选项是由WP的Dashboard或者其他需要RSSFeeds功能的文件所产生的缓存。<br />在每一对结果中，上方的是Feed缓存，下方的是时间戳。<br />这些列表可能包含一些<strong>激活中</strong>的选项。<br />当它们被显示的时候，\"rss_\"选项将会按照日期配对，那些以\"-\"开头；以\"<em># %1$s</em>\" 结尾并以斜体字显示的项目是最新的14条RSS记录（其中有可能包含当前的）。那些可以选择的\"rss_\"项目将以\"<strong>\"# %2$s</strong>\" 结尾并以粗体字显示。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1218
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1242
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1253
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1268
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1277
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1306
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1312
+msgid "days old"
+msgstr "日以前"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1225
+msgid "There were No \"rss_\" Options found"
+msgstr "没有发现\"rss_\"的选项"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1296
+msgid "The following options were not paired correctly. Be certain to check their information carefully before you remove them."
+msgstr "下面的选项配对不正确。在删除它们之前请检仔细查他们的信息。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1318
+msgid "ALERT"
+msgstr "警告"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1318
+msgid "Age Unknown"
+msgstr "未知时间"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1318
+msgid "check the age of the corresponding \"_ts\" option."
+msgstr "检查\"_ts\"选项时间的一致性。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1338
+msgid "Select all"
+msgstr "选择全部"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1338
+msgid "Deselect all"
+msgstr "取消所有选中"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1338
+msgid "\"all\" means BOTH \"plugin\" AND \"rss_\" options."
+msgstr "\"全部\"意味着所有\"插件\"和\"rss_\"选项。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1343
+msgid "View Selected Options Information"
+msgstr "查看选中的设置选项的信息"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1437
+msgid "was found in:"
+msgstr "在这里找到："
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1448
+#, php-format
+msgid "No files were found containing %s"
+msgstr "没有找到包含%s的文件"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1453
+msgid "No Search string was entered."
+msgstr "没有输入搜索的文字。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1456
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1543
+#, php-format
+msgid "Return to the %s"
+msgstr "回到 %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1456
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1543
+msgid "first screen"
+msgstr "最初屏幕"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1472
+msgid "*Note* spaces have been added after every 10th character of the option_name and every 20th character of the option_value to preserve page layout.<br />Not all options have values and/or descriptions."
+msgstr "*注* 在option_name中，所有第10个字母后将会添加一个空格，在option_value中，所有第20个字母将会保持原有的页面布局。<br />并不是所有的选项都有值或者描述。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1473
+msgid "Please review this information very carefully and only remove Options that you know for certain have been orphaned or deprecated."
+msgstr "请仔细的阅读这些信息并且仅仅删除那些你确定是孤立的选项或者可以被忽略的选项。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1474
+msgid "It is strongly suggested that you BACKUP your database before removing any options."
+msgstr "强烈建议在删除任何的设置之前备份你的数据库."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1498
+#, php-format
+msgid "%s (the review information query) did not return an array"
+msgstr "%s(审查信息查询)并没有返回任何数组"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1534
+msgid "Yes, Remove ALL of these options from the wp_options table."
+msgstr "确定从 wp_options 里删除这些设置。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1535
+msgid "No, Don't remove them, return to the first screen."
+msgstr "不，删除它们并返回最初的屏幕。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1536
+msgid "Submit"
+msgstr "提交"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1541
+msgid "No Orphaned Options where selected."
+msgstr "不，删除它们并返回最初的屏幕。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1563
+msgid "Removed Options"
+msgstr "已删除的设置"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1584
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1651
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1675
+#, php-format
+msgid "The Options table currently has %s found rows."
+msgstr "当前选项表中包含%s行记录。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1643
+#, php-format
+msgid "Removed %d \"rss_hash\" Options"
+msgstr "已在\"rss_hash\"中删除%d选项"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1658
+msgid "Every \"rss_hash\" option in the wp_options table will be shown, including current ones."
+msgstr "在wp_options表中的每一个\"rss_hash\"选项都会被显示，包括当前的这一个。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1710
+msgid "Warning Messages"
+msgstr "警告信息"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1711
+msgid "A Warning message, means that something has happened and options that should not be deleted might be available for deletion, or options that could be safely deleted might not be available for deletion. In any case, if you see a Warning message, use extra-special care and thought before deleting any options."
+msgstr "一个警告信息意味着那些不应该被删除的选项现在可能将被删除，或者一些选项现在不能够安全的删除。无论如何，如果你看见了警告信息，请额别注意并且在删除前认真考虑。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1716
+msgid "has an option line with"
+msgstr "包含下列内容的选项"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1717
+#, php-format
+msgid "The plugin searches PHP files for instances of get_option('option_name as a string') to match against values found in the wp_options table. Some files however use syntax such as get_option(&#36;variable) or get_option('prefix_' . &#36;variable). These option names will not match those found in the wp_option table, and they may be present in the list of Orphaned Options when in fact they are not really orphaned. In many cases, knowing the file, and the prefix if used, should help in identification of options that are not really orphaned.<br />*Note, if you get this warning with a plugin file (from the <u><i>WordPress.com Plugin Directory only</i></u>, please) and you know it's not a potential problem (eg. some WordPress core files, the WordPress.com Stats plugin, and this plugin have alternate syntax in them BUT <u><i>there are no options associated with them listed</i></u>), please visit the blog and leave a comment something like \"the whatever plugin has alternate syntax but is OK\" and I can add it to the \"ignore\" list for future version releases if it is safe to do so. Many Thanks. %s"
+msgstr "此插件搜索PHP文件内部包含与 get_option(option_name将作为一个字符串)相对应的值。一些文件使用 get_option(&#36;variable) 或者 get_option('prefix_' . &#36;variable)。这些选项的名称将不会在这里被找到，他们会出现在孤立的选项列表中。很多情况下，一直的文件，一些被使用的前缀可以帮助来判断这些选项是否真的被孤立。<br />*注意，如果你看到了一个有关插件的警告信息（从<u><i>仅从 Wordpress.com 插件目录</i></u>），但是你确定此插件不存在潜在的问题（如WP核心文件，Wordpress.com 的 Stats 插件，这个插件包含一些替代语法但是<u><i>没有任何与它有关的选项</i></u>）， 请访问我的Blog然后留下一条评论，类似于\"无论任何一个包含替代语法的插件，但是我确定他没有问题\"，这样在下一个版本中，我将会添加它到\"忽略\"列表中。非常的感谢。%s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1721
+msgid "query did not return an array"
+msgstr "请求的没有返回一个数组"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1722
+msgid "The plugin queries the wp_options table. It expects an array with at least 1 row. This error message may be the result of fact. i.e. There actually are no wp_option rows with autoload=yes (next to impossible), or there actually are no \"rss_hash\" rows. Or it could be an actual database problem (eg. connection failure, memory failure). If you get this error message you should look for a WPDB error message as well for more detailed information. An error with either the autoload=yes query (core/plugin/theme options), or the autoload!=yes query (rss_hash options) means that none of the corresponding rows will be available for review or deletion until the database problem is resolved."
+msgstr "插件查询了wp_option表。它应当返回一个至少有一行的数组。 这个信息可能是真实的结果。例如真的没有 autoload=yes 的 wp_option 行，或者真的没有 rss_hash 行。还有可能是数据库发生了问题（例如连接失败或者内存错误）。如果你看见了这个错误信息，你应当立刻查看WPDB错误信息以获得更多的信息。一个autoload=yes的查询错误（核心、插件、主题的选项）或者autoload!=yes的查询错误就意味着在数据库问题解决之前，没有任何相应的行需要审查或者可以删除。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1723
+msgid "WordPress database error"
+msgstr "WordPress数据库错误"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1724
+msgid "These are the error messages as returned by WordPress."
+msgstr "这些是从WordPress返回的错误信息。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1728
+msgid "Option with No Name with the value"
+msgstr "该选项即没有名称也没有值存在。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1729
+msgid "Perhaps some plugins/themes add options that have no name? Or the name becomes removed from the row somehow? Because this plugin finds options based on their names, these \"no name\" options will not be included in the list, and thus can not be selected for review or deletion. If the row has no option_name but has an option_value, it will be shown to help you identify the source of the problem. At present, if you wish to remove such rows you must do so by other means."
+msgstr "或许一些插件、主题添加了一些没有名称的选项？或者他的名字在后来被删除了？由于此插件是靠名称来查询选项的，所以那些“无名”的选项将不会被显示出来，因此他们也不能查看或者删除。如果一些选项没有名称但是有值，它将会被显示以便帮助你判断源代码的错误。现在，如果你想删除这些行的话，就必须与通过其他方法。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1733
+msgid "Could not open folder/file"
+msgstr "不能打开文件夹/文件"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1734
+msgid "The plugin failed to open a folder/file. This is most often because of inadequate permissions settings. i.e. The \"read\" permission setting. They do not need to be \"world\" readable, but scripts must be able to. Options that are in files that can not be read may appear in the \"orphaned options\" list when in fact they are not orphaned. In many cases, knowing the folder/file should help in identification of options that are not really orphaned."
+msgstr "打开文件或者目录失败。这通常是因为权限不足而引起的。例如“读”权限设置。它们不需要“全局”可读，但是至少脚本需要访问它的权限。由那些无权访问所创建的选项将会被列岛“孤立的”选项列表当中，即使它不是孤立的。在许多的情况下，了解这些文件、文件夹会帮助判断选项是否是孤立的。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1738
+msgid "Further Information"
+msgstr "更多信息"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1739
+msgid "WANTED - Bug Reports"
+msgstr "您想要 - 报告 Bug"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1740
+msgid "WANTED - Translations"
+msgstr "您想要 - 翻译"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1741
+msgid "If you have any questions, problems, comments, or suggestions, please let me know."
+msgstr "假如你有任何疑问，问题，意见，建议，请让我知道。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1742
+#, php-format
+msgid "If you would like to provide a translation, please leave a comment at %s"
+msgstr "如果你想提供翻译，请在 %s 留下一个评论。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1744
+#, php-format
+msgid "For more information, the latest version, etc. please visit the plugin's page %s"
+msgstr "取得更多的信息, 最新版, 等等. 请访问插件页 %s 。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1746
+#, php-format
+msgid "Questions? For support, please visit the forum %s"
+msgstr "有问题? 需要支持的请访问论坛 %s 。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1747
+msgid "registration required to post"
+msgstr "发布之前要求注册"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1748
+#, php-format
+msgid "For comments / suggestions, please visit the blog %s"
+msgstr "有关建议或者意见，请访问Blog %s 。"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1749
+msgid "Translation Acknowledgements"
+msgstr "翻译鸣谢"
+
+#~ msgid "Search files in the wp-content folder by:"
+#~ msgstr "可以按照下面的顺序在 wp-content 中寻找文件："
+
+#~ msgid "Search wp-content folder"
+#~ msgstr "搜索 wp-content 文件夹"

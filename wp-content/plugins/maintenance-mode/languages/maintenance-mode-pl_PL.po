@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Maintenance Mode\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-13 00:02+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Krzysztof Derdzikowski <krzysztof114@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ../.\n"
+
+#: .././inc.swg-plugin-framework.php:57
+msgid "Plugin"
+msgstr "Wtyczka"
+
+#: .././inc.swg-plugin-framework.php:59
+msgid "Plugin's Homepage"
+msgstr "Strona Wtyczki"
+
+#: .././inc.swg-plugin-framework.php:60
+msgid "WordPress Support"
+msgstr "Wsparcie Wordpress"
+
+#: .././inc.swg-plugin-framework.php:61
+msgid "Other Plugins I've Written"
+msgstr "Moje inne wtyczki"
+
+#: .././inc.swg-plugin-framework.php:64
+msgid "Do you like this plugin?"
+msgstr "Podoba Ci się ta wtyczka?"
+
+#: .././inc.swg-plugin-framework.php:65
+msgid "I spend a lot of time on the plugins I've written for WordPress. Any donation would be highly appreciated."
+msgstr "Spędziłem dużo czasu na pisaniu wtyczek do Wordpressa. Każda dotacja bedzie bardzo cenna."
+
+#: .././inc.swg-plugin-framework.php:67
+msgid "Donate via PayPal"
+msgstr "Wesprzyj przez PayPal"
+
+#: .././inc.swg-plugin-framework.php:68
+msgid "My Amazon Wish List"
+msgstr "\"Chce to\" z Amazon"
+
+#: .././inc.swg-plugin-framework.php:86
+msgid "The activated plugin"
+msgstr "Aktywowana wtyczka"
+
+#: .././inc.swg-plugin-framework.php:87
+msgid "is not compatible with your installed WordPress"
+msgstr "nie jest zgodna z Twoją wersją WorpPress"
+
+#: .././inc.swg-plugin-framework.php:88
+msgid "WordPress version"
+msgstr "Wersja WordPress"
+
+#: .././inc.swg-plugin-framework.php:88
+msgid "or higher is required when using this plugin, please deactivate it."
+msgstr "lub wyższa jest wymagana aby uzywać tej wtyczki, proszę deaktywuj ją."
+
+#: .././inc.swg-plugin-framework.php:99
+msgid "Settings deleted/reset."
+msgstr "Ustawienia skasowane/zresetowane."
+
+#: .././inc.swg-plugin-framework.php:126
+msgid "Settings saved."
+msgstr "Ustawienia zapisane."
+
+#: .././inc.swg-plugin-framework.php:239
+msgid "You do not have permission to modify the options"
+msgstr "Nie masz uprawnień do zmiany opcji"
+
+#: .././inc.swg-plugin-framework.php:271
+msgid "Plugin Settings"
+msgstr "Ustawienia wtyczki"
+
+#: .././inc.swg-plugin-framework.php:284
+#: .././maintenance-mode.php:126
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: .././inc.swg-plugin-framework.php:285
+msgid "Do you really want to delete/reset the plugin settings?"
+msgstr "Czy na pewno czcesz usunać/zresetować tą wtyczkę?"
+
+#: .././inc.swg-plugin-framework.php:285
+msgid "Delete/Reset Settings"
+msgstr "Kasuj/Resetuj Ustawienia"
+
+#: .././maintenance-mode.php:73
+msgid "The Maintenance Mode is active. Please don't forget to"
+msgstr "Komunikat o pracach jest włączony. Pamietaj aby"
+
+#: .././maintenance-mode.php:73
+msgid "deactivate"
+msgstr "deaktywować"
+
+#: .././maintenance-mode.php:73
+msgid "it as soon as you are done."
+msgstr "wtyczkę jak tylko zakończysz prace."
+
+#: .././maintenance-mode.php:113
+msgid "Activate/Deactivate Maintenance Mode"
+msgstr "Aktywuj/Deaktywuj Wtyczkę"
+
+#: .././maintenance-mode.php:118
+msgid "Activated"
+msgstr "Aktywowano"
+
+#: .././maintenance-mode.php:121
+msgid "Deactivated"
+msgstr "Deaktywowano"
+
+#: .././maintenance-mode.php:132
+#: .././maintenance-mode.php:139
+msgid "Message"
+msgstr "Wiadomość"
+
+#: .././maintenance-mode.php:135
+msgid "Title"
+msgstr "Tytuł"
+
+#: .././maintenance-mode.php:141
+msgid "Use HTML only, no PHP allowed. You can use <strong>[blogurl]</strong>, <strong>[blogtitle]</strong> and <strong>[backtime]</strong> as placeholders."
+msgstr "Używaj tylko HTML, PHP nie jest dozwolony. Możesz użyć następujących tagów: <strong>[blogurl]</strong>, <strong>[blogtitle]</strong> oraz <strong>[backtime]</strong>."
+
+#: .././maintenance-mode.php:147
+msgid "Backtime and HTTP header"
+msgstr "Czas powrotu oraz HTTP header"
+
+#: .././maintenance-mode.php:150
+msgid "Backtime in minutes"
+msgstr "Wracamy za (minut)"
+
+#: .././maintenance-mode.php:152
+msgid "A special HTML header for feed and trackback will be applied (&laquo;503 Service Unavailable&raquo;) including 'retry after x minutes'. Enter here the approximate time in minutes to retry. Also, by using the placeholder <strong>[backtime]</strong> above, the time in minutes be displayed to the visitors as well."
+msgstr "Tla trackbacków oraz feedów zostanie zastosowany specjalny naglówek HTML (&laquo;503 Service Unavailable&raquo;) zawierający informację o plaowanym czasie zakończenia prac. Wpisz tutaj przewidywany czas zakończenia prac (w minutach). Dzięki użyciu tagu<strong>[backtime]</strong> w polu powyżej o planowanym czasie powrotu dowiedzą się również goście Twojego bloga."
+
+#: .././maintenance-mode.php:157
+msgid "Apply HTTP header '503 Service Unavailable' and 'Retry-After &lt;backtime&gt;' to Maintenance Mode splash page"
+msgstr "Zastosuj nagłówek HTTP '503 Service Unavailable'oraz informację 'Retry-After &lt;backtime&gt;' dla tego bloga"
+
+#: .././maintenance-mode.php:161
+msgid "Paths to be still accessable"
+msgstr "Ścieżki które nadal mają być dostępne"
+
+#: .././maintenance-mode.php:163
+msgid "Enter paths that shall be excluded and still be accessable. Separate multiple paths with line breaks.<br />Example: If you want to exclude <em>http://site.com/about/</em>, then enter <em>/about/</em>."
+msgstr "Wpisz ścieżki które mają pozostać dostępne. Odziel poszczególne ścieżki znakami końca linii. <br />Przykład: Jeśli chcesz aby dostępna była strona \"About\": <em>http://site.com/about/</em>, lub: <em>/about/</em>."
+
+#: .././maintenance-mode.php:168
+msgid "How to permit blog editors to see the blog's front-end"
+msgstr "Jak zezwolić autorom bloga do wyświetlania strony w trakcie prac"
+
+#: .././maintenance-mode.php:169
+msgid "As soon as you activate the maintenance mode, a splash page is being added to your blog that informs visitors about your blog maintenance. Logged in administrators get full access to the blog including the front-end and will not see any splash page.<br />This plugin adds the capability 'access_on_maintenance' to the role 'Administrator'. If users with a specific role, for instance 'Editor', should get full access to the blog as well, use an appropriate plugin like"
+msgstr "Jak tylko aktywujesz wtyczkę strona informująca o przerwie z powodu prac zostanie wyświetlona gściom odwiedzającym stronę w trakcie prac. Zalogowany administrator ma pełny dostęp do strony włączając w to widok strony głównej zamiast komunikatu o pracach. <br />Ta wtyczka daje możliwość 'access_on_maintenance' tylko dla 'Administratora'. Jeśli użytkownicy o określonych rolach również powinni mieć dostęp do bloga możesz użyć wtyczki"
+
+#: .././maintenance-mode.php:171
+msgid "and grant the capability 'Access On Maintenance' for the role 'Editor' or for any other role of your choice. <br />Check out"
+msgstr "i przydzielić uprawnienie  'Access On Maintenance' na przykład dla grupy 'Edytorów' lub innej jaką wybierzesz.<br /> Sprawdź"
+
+#: .././maintenance-mode.php:173
+msgid "for further information."
+msgstr "aby dowiedzieś się więcej."
+

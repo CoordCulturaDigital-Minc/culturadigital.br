@@ -1,0 +1,75 @@
+
+
+/* Internet Explorer 5.5/6 bug-fixes */
+
+
+
+body{text-align:center;}
+.page-content{text-align:left;}
+
+.clear-block{zoom:1;}
+
+body{background-image:none;}
+
+pre{word-wrap:break-word;}
+
+
+/* png replacements */
+#header a.rss{bottom:16px;}
+.block h3.title,.block h3.title span,.block .block-div,.block .block-div-arrow{background-image:url(images/_ie6/block-title.png);}
+ul.box-tabs li a{background-image:url(images/_ie6/box-tabs.png);}
+#footer-blocks .slide-navigation a.next,#footer-blocks .slide-navigation a.previous{background-image:url(images/_ie6/block-nav.png);}
+
+ul#navigation li a{height:32px;float:left;}
+ul#navigation li li a{height:auto;float:none;}
+
+ul#navigation li.active a span.pointer,ul#navigation li.active a span.pointer,ul#navigation li.active-parent a span.pointer,ul#navigation li.active-ancestor a span.pointer{display:none;}
+
+#featured-content .slide-container{padding:0;}
+#featured-content a.readmore{display: none;}
+
+
+/* no shadows (no point to use pngfix, waste of resources */
+.shadow-left,.shadow-right{background:none;}
+
+#main-inside{
+  height: 100%;
+  background: #fff; /* needs fix */
+}
+
+.post-info{height:42px;}
+
+.post-date p{
+  float: left;
+  line-height: 100%;
+  padding-top: 8px;
+}
+
+.post-info p{line-height:100%;margin-top:10px;display:block;}
+
+li.comment .comment-head{height:60px;}
+
+#footer-blocks ul.slides li.slide .slide-content{width:92%;}
+
+.block .block-div{display:none;}
+.block .block-div-arrow{margin:0;}
+
+.block-flickr h3.title span{padding-left:0;}
+.block-flickr h3.title span.icon{display:none;}
+
+.search-form{position:relative;margin:0 auto;width:100%;}
+.search-form input.text{width:80px;}
+
+.box ul.menuList li {display:inline;}
+.box ul.menuList .fadeThis{position:static;}
+
+.tabs{padding-right:32px;}
+.tabs li:hover a,.tabs li a:hover{background-position:0 0px;}
+
+a#fancyleft,a#fancyright{background-image:url(data:image/gif;base64,AAAA);}
+div#fancyoverlay{position:absolute;height:expression(document.body.scrollHeight>document.body.offsetHeight?document.body.scrollHeight:document.body.offsetHeight+'px');}
+
+#footer-blocks .leftFade,#footer-blocks .rightFade{display:none;}
+
+.crap-browser-warning{background-color:#ed1e24;text-align:center;color:#fff;padding:4px 0;position:absolute;top:0;left:0;width:100%;}
+.crap-browser-warning a,.crap-browser-warning a:hover{font-weight:bold;color:#fff;text-decoration:underline;}

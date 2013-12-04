@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AntiVirus v0.4\n"
+"Report-Msgid-Bugs-To: k.vycius@gmail.com\n"
+"POT-Creation-Date: 2009-07-12\n"
+"PO-Revision-Date: 2011-12-05 20:42+0100\n"
+"Last-Translator: Sergej Müller\n"
+"Language-Team: Karolis Vyčius <k.vycius@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Lithuanian\n"
+"X-Poedit-Country: LITHUANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: antivirus.php:134
+#: antivirus.php:150
+#: antivirus.php:722
+msgid "Settings"
+msgstr "Nustatymai"
+
+#@ antivirus
+#: antivirus.php:206
+#: antivirus.php:466
+msgid "Virus suspected"
+msgstr "Įtarimas dėl viruso"
+
+#@ antivirus
+#: antivirus.php:209
+#: antivirus.php:467
+msgid "The daily antivirus scan of your blog suggests alarm."
+msgstr "Kasdieninė virusų apsauga jūsų bloge problemos"
+
+#@ antivirus
+#: antivirus.php:452
+#: antivirus.php:477
+msgid "AntiVirus for WordPress"
+msgstr "Wordpress Antivirus"
+
+#@ antivirus
+#: antivirus.php:453
+msgid "requires at least WordPress 2.6"
+msgstr "reikalinga bent WordPress 2.6"
+
+#@ antivirus
+#: antivirus.php:469
+#: antivirus.php:746
+msgid "Manual scan"
+msgstr "Rankinis skenavimas"
+
+#: antivirus.php:476
+msgid "Plugin"
+msgstr "Priedas"
+
+#: antivirus.php:478
+msgid "Version"
+msgstr "Versija"
+
+#: antivirus.php:480
+msgid "Author"
+msgstr "Autorius"
+
+#@ antivirus
+#: antivirus.php:624
+msgid "There is no virus"
+msgstr "Jokių virusų nebuvo rasta!"
+
+#@ antivirus
+#: antivirus.php:624
+msgid "View line"
+msgstr "Žiūrėti"
+
+#@ antivirus
+#: antivirus.php:659
+msgid "Scan finished"
+msgstr "Skenavimas baigtas"
+
+#: antivirus.php:705
+msgid "Settings saved."
+msgstr "Nustatymai išsaugoti"
+
+#@ antivirus
+#: antivirus.php:730
+msgid "Enable the daily antivirus scan and send the administrator an e-mail if suspicion on a virus"
+msgstr "Įjungti kasdieninį virusų skenavimą ir jeigu virusas bus rastas informuoti administratorių el-paštu apie virusus."
+
+#@ antivirus
+#: antivirus.php:731
+msgid "Last"
+msgstr "Paskutinis"
+
+#@ antivirus
+#: antivirus.php:734
+msgid "Alternate e-mail address"
+msgstr "Alternatyvus e-mail adresas"
+
+#: antivirus.php:740
+msgid "Save Changes"
+msgstr "Išsaugoti pakeitimus"
+
+#@ antivirus
+#: antivirus.php:750
+msgid "Scan the templates now"
+msgstr "Skenuoti temą dabar"
+
+#@ antivirus
+#: antivirus.php:756
+msgid "About"
+msgstr "Apie"
+

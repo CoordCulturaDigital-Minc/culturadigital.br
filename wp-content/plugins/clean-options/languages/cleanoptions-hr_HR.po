@@ -1,0 +1,550 @@
+# Croatian Clean Options Language File - hr_HR
+# Copyright (C) 2010 Mittineague
+# This file is distributed under the same license as the Clean Options package.
+# Mittineague <http://www.mittineague.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Clean Options 1.3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-01 22:21+0000\n"
+"PO-Revision-Date: 2010-01-16 02:29+0000\n"
+"Last-Translator: Vladimir uranic<vdjuranic@gmail.com>\n"
+"Language-Team: Vladimir uranic<vdjuranic@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hrvatski\n"
+"X-Poedit-Country: Hrvatska\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:173
+msgid "Tools"
+msgstr "Alati"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:382
+msgid "Listed Options are those that are found in the wp_options table but are not referenced by \"get_option\" or \"get_settings\" by any of the PHP files located within your blog directory. If you have deactivated plugins and/or non-used themes in your directory, the associated options will not be considered orphaned until the files are removed."
+msgstr "Izlistane opcije su one pronadene u wp_options tablici ali nisu povezane sa \"get_option\" ili \"get_settings\" u svim PHP datotekama pronadenim  unutar direktorija vašeg bloga. Ukoliko ste deaktivirali dodatke i/ili neupotrebljavane teme u datoteci, pripradajuce opcije se nece smatrati ostavljenima dok datoteke nisu uklonjene."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:386
+msgid "Most likely there are an extreme number of \"rss_hash\" rows in the wp_options table."
+msgstr "Vrlo vjerovatno postoji extreman broj \"rss_hash\" redova unutar tablice wp_options."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:387
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:514
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:526
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1296
+msgid "WARNING"
+msgstr "UPOZORENJE"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:387
+#, php-format
+msgid "To avoid excessive memory use, using \"%s\" does not attempt to list all of the \"rss_hash\" options, nor will you be able to review the contents."
+msgstr "Da bi se izbjegla prekomjerna potrošnja memorije, koristeci \"%s\" ne pokušava se izlistanje svih \"rss_hash\" opcija niti cete moci pregledati njihov sadržaj."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:387
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:388
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:389
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1596
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1686
+msgid "Delete ALL 'rss' Options"
+msgstr "Obriši SVE 'rss' Opcije"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:388
+#, php-format
+msgid "\"%s\" attempts to provide some measure against the deletion of current \"rss_hash\" options by not deleting any \"rss_hash\" rows with an option_id newer than (the last row id - %d ). Because plugins and themes also add rows to the wp_options table, depending on your recent installation history, this may remove <strong>ALL</strong> of the \"rss_hash\" options, both older AND <strong>CURRENT</strong> ones, no questions asked."
+msgstr "\"%s\" pokušava osigurati mjere protiv brisanja trenutnih \"rss_hash\" opcija tako što ne briše niti jedan \"rss_hash\" red sa option_id novijim od (zadnji red id - %d). Zbog toga što dodaci i teme takoder dodaju redove u wp_options tablicu, ovisno o povjesti Vaše instalacije, ovo može ukoniti <strong>SVE</strong> \"rss_hash\" opcije, takoder stare I <strong> TRENUTNE</strong> bez daljnjih pitanja."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:389
+#, php-format
+msgid "Although removing current \"rss_hash\" rows should not \"break\" your WordPress blog (they should be entered again next time the feed is cached), please <strong>BACKUP</strong> your database <strong>BEFORE</strong> doing this.<br />After using \"%1$s\", you should \"%2$s\" to clean the wp_options table further."
+msgstr "Iako uklanjanje trenutnih \"rss_hash\" redova ne bi trebalo \"razbiti\" Vaš Wordpress blog (trebali bi biti uneseni iduci put kada se kanal umemorira), molimo <strong> NAPRAVITE PRICUVU</strong> Vaše baze podataka <strong> PRIJE</strong> nego što cete ovo uciniti.<br/> Nakon korištenja \"%1$s\", trebali bi \"%2$s\", da dalje ocistite wp_options tablicu."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:389
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1610
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1659
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1700
+msgid "Find Orphaned Options"
+msgstr "Pronadi Ostavljene Opcije"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:390
+msgid "It is <strong>highly recommended</strong> that you Limit the \"Find\" to only a selected number of the most recent \"rss_hash\" options Instead and repeat the process until the number becomes manageable."
+msgstr "<strong> Vrlo je preporucivo </strong> da odredite limit \"Traži\" na samo odabrani broj najnovijih \"rss_hash\" opcija umjesto i ponavljate proces dok njihov broj ne postane upravljiviji."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:392
+msgid "The lower the number of \"rss_hash\" option pairs you \"Find\", the less likely it is that you will experience problems with memory during the \"Find\". However, depending on the number of feed rows that are current, the \"Find\" may not include any older ones that can be deleted.<br />The higher the number of \"rss_hash\" pairs you \"Find\", the more likely it is that older ones that can be deleted will be included. But there is a greater chance of having memory problems during the \"Find\".<br />It is suggested that you start off with a lower \"Find\", and increase the number gradually, if you wish to, on subsequent \"Finds\". If you get a memory error, use a lower number.<br />Again said, it is recommended that you scan the results on the review page of anything you select prior to it's deletion, to ensure that you really want to remove it."
+msgstr "&#352;to niži broj \"rss_hash\" opcija parova \"Traži\" , manje je vjerovatno da cete imati problema s memorijom tijekom \"Traži\" . Unatoc tome, ovisno o broju redova kanala koji su trenutni, \"Traži\"  može ne ukljuciti i starije koji mogu biti obrisani.<br/> &#352;to je veci broj \"rss_hash\" parova koji \"Traži\" , veca je vjerovatnost da ce i stariji koji mogu biti obrisani biti ukljuceni. Ali tada je veca mogucnost problema s memorijom tijekom \"Traži\"<br/> Savjetujemo da zapocnete s nižim \"Traži\" i postepeno povecavate broj svakim sljedecim \"Pronalazi\". Ukoliko dobijete greške s memorijom, koristite niži broj.<br/> Ponavljamo da preporucamo da pregledate rezultate na stranici s rezultatima koje ste odabrali prije brisanja, kako bi se uvjerili da ih zaista želite obrisati."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:394
+msgid "Low Memory usage"
+msgstr "Niska potrošnja memorije"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:395
+msgid "Moderate Memory usage"
+msgstr "Srednja potrošnja memorije"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:396
+msgid "High Memory usage"
+msgstr "Visoka potrošnja memorije"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:397
+msgid "Find"
+msgstr "Traži"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:398
+msgid "10 pairs"
+msgstr "10 parova"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:399
+msgid "25 pairs"
+msgstr "25 parova"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:400
+msgid "50 pairs"
+msgstr "50 parova"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:401
+msgid "75 pairs"
+msgstr "75 parova"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:402
+msgid "100 pairs"
+msgstr "100 parova"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:403
+msgid "125 pairs"
+msgstr "125 parova"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:404
+msgid "150 pairs"
+msgstr "150 parova"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:405
+msgid "175 pairs"
+msgstr "175 parova"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:451
+msgid "Don't show the Known WordPress Core options for this \"Find\""
+msgstr "Ne prikazuj poznate opcije WordPress jezgre za ovaj \"Traži\""
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:454
+msgid "Don't show the Alternate Syntax Warnings for this \"Find\""
+msgstr "Ne prikazuj alternativna upozorenja sintakse za ovaj \"Traži\""
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:577
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:631
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1396
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1733
+msgid "File System Error"
+msgstr "Greška sistemskih datoteka"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:577
+#, php-format
+msgid "Could not open folder %s"
+msgstr "Nije moguce otvoriti direktorij %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:631
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1396
+#, php-format
+msgid "Could not open file %s"
+msgstr "Nije moguce otvoriti datoteku %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:672
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:682
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1716
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1717
+msgid "Alternate Syntax"
+msgstr "Alternativna sintaksa"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:672
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:682
+#, php-format
+msgid " %1$s has an option line with %2$s"
+msgstr " %1$s ima liniju opcije unutar %2$s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:726
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1112
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1132
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1145
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1498
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1721
+msgid "Database Error"
+msgstr "Greška baze podataka"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:726
+#, php-format
+msgid "%s (the Orphaned Options query) did not return an array."
+msgstr "%s (Upit Ostavljenih Opcija) nije vratio vrijednost."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:736
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1156
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1728
+msgid "Empty Name"
+msgstr "Prazno Ime"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:736
+#, php-format
+msgid "There is an autoload yes Option with No Name with the value: %s"
+msgstr "Postoji automatski ucitana Opcija sa Bez Imena sa vrijednosti: %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:749
+msgid "To double-check options in the Orphaned Options list:"
+msgstr "Ponovno provjeri opcije iz liste Ostavljenih Opcija:"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:751
+msgid "Look at the file names in any Warning messages."
+msgstr "Pogledajte imena datoteka u bilo kojim porukama Upozorenja."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:752
+msgid "Look at the text in any Alternate Syntax Warning messages."
+msgstr "Pogledajte tekst u bilo kojim porukama Upozorenja Alternativnih Sintaksi."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:753
+#, php-format
+msgid "Some information may be available at your %s page."
+msgstr "Neke informacije su možda dostupne na Vašoj %s stranici."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:754
+msgid "Try a Google search for the option_name."
+msgstr "Pokušajte Google pretragu za option_name."
+
+# msgid "Search files in the wp-content folder by:" OBSOLETE
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:755
+msgid "Search files by:"
+msgstr "Pretraži datoteke prema:"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:757
+msgid "entering either a single string eg."
+msgstr "unoseci bilo samo jednu oznaku niza npr."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:758
+msgid "all_or_portion_of_option_name"
+msgstr "cijeli_ili_dio_imena_opcije"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:759
+#, php-format
+msgid "2 strings separated by %s (in uppercase, enclosed with asterisks) eg."
+msgstr "2 niza odvojena s %s (velika slova unutar zvjezdica) npr."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:760
+#, php-format
+msgid "prefix %s other_words"
+msgstr "prefiks %s druge_rijeci"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:761
+#, php-format
+msgid "or a maximum of 3 strings separated by %s eg."
+msgstr "ili maksimum od 3 niza odvojena sa %s npr."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:762
+#, php-format
+msgid "prefix%1$sword%2$sother_word"
+msgstr "prefiks%1$srijec%2$sdruga_rijec"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:763
+msgid "Note: all spaces are removed, search is case sensitive."
+msgstr "Bilješka: svi razmaci su uklonjeni, pretraga je osjetljiva na velicinu slova."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:765
+msgid "Carefully Review information on the \"View Selected Options Information\" page <i>before</i> deleting the option."
+msgstr "Pažljivo pregledajte informacije na \"Pogledaj Informacije Oznacenih Opcija\" stranici <i> prije </i> brisanja opcije."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:768
+msgid "Possibly Orphaned Options"
+msgstr "Moguce Ostavljene Opcije"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:768
+msgid "The following Options appear to be orphans. When shown, non-selectable Options are known to have been created from files present during upgrade or backup, or are legitimate options that do not \"fit\" the search for get_option or get_settings. If you wish to remove them by other means, do so at your own risk."
+msgstr "Opcije koje slijede se cine Ostavljene. Kada su prikazane, opcije koje se nemogu oznaciti su stvorene prilikom nadogradnje ili pravljenja pricuve, ili su legitimne opcije koje ne \"pristajati\" u pretragu za get_option ili get_settings. Ako ih želite ukloniti iz drugih razloga ucinite to na vlastiti rizik."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:961
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1018
+msgid "No Orphaned Options were found"
+msgstr "Nisu pronadene Ostavljene Opcije"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:988
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1000
+msgid "known WordPress Core option"
+msgstr "poznate opcije WordPress jezgre"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1007
+msgid "Google it"
+msgstr "Guglaj"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1021
+msgid "Only WordPress Core Options were found"
+msgstr "Pronadene su samo opcije WordPress jezgre"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1026
+msgid "To look for option_name(s):"
+msgstr "Pregledati za option_name:"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1027
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1035
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1357
+msgid "Enter Search String here"
+msgstr "Unesite niz za pretraživanje ovdje-"
+
+# msgid "Search wp-content folder" OBSOLETE
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1044
+msgid "Search"
+msgstr "Pretraži"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1112
+#, php-format
+msgid "%s (the \"rss_\" timestamp Options query) did not return an array"
+msgstr "%s (\"rss_\" vremenski upit Opcija) nije vratio vrijednost."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1132
+#, php-format
+msgid "%s (the \"rss_\" non-timestamp Options query) did not return an array"
+msgstr "%s (\"rss_\" ne-vremenski upit Opcija) nije vratio vrijednost"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1145
+#, php-format
+msgid "%s (the \"rss_\" Options query) did not return an array"
+msgstr "%s (\"rss_\" upit Opcija) nije vratio vrijednost."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1156
+#, php-format
+msgid "There is an autoload not equal to yes Option with No Name with the value: %s"
+msgstr "Postoji samoucitanje koje nije jednako da Opciji sa Bez Imena sa vrijednosti: %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1216
+msgid "The \"rss_\" options are obsolete as of WordPress version 2.8 All are selectable and it should be safe to remove any that remain."
+msgstr "\"rss_\" opcije kao od Wordpress verzije 2.8 su zastarjele te se mogu oznaciti i trebalo bi biti sigurno ukloniti bilo koje su ostale."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1218
+msgid "RSS Options"
+msgstr "RSS Opcije"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1218
+#, php-format
+msgid "The following contains \"RSS\" Options added to the wp_options table from the blog's dashboard page and other files that parse RSS feeds and cache the results.<br />In each pair, the upper option is the cached feed and the lower is the option's timestamp.<br />Those listed may include options that are <strong>Currently Active</strong>.<br />When shown, \"rss_\" option pairs with dates newer or the same as the date of 14'th newest \"rss_\" option pair (the ones that are more likely to be current) have no checkbox but begin with \"-\" and end with \"<em># %1$s</em>\" in italics.<br />The older \"rss_\" options can be selected and end with \"<strong># %2$s</strong>\" in bold."
+msgstr "Slijedi sadržaj \"RSS\" Opcija dodanih u wp_options tablicu od strane administratorskog sucelja ili drugih datoteka koje citaju RSS tokove i hvataju rezultate.<br/> U svakom paru, gornja opcija je uhvaceni tok a doljnja je vremenska oznaka opcije.<br/> Popis može ukljucivati opcije koje su <strong>Trenutno Aktivne</strong>.<br/> Kada su prikazane \"rss_\" parovi opcija sa datumom novijim ili istim kao datumom 14 te najnovijih \"rss_\" parova opcija ( one koje su vjerovatnije trenutne) nemaju polje za oznaku ali pocinju sa \"-\" i završavaju sa \"<em># %1$s</em>\" italik.<br/>Starije \"rss_\" opcije mogu biti oznacene i završavaju sa \"<strong># %2$s</strong>\" boldano."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1218
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1242
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1253
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1268
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1277
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1306
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1312
+msgid "days old"
+msgstr "dana stare"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1225
+msgid "There were No \"rss_\" Options found"
+msgstr "Nisu pronadene \"rss_\" Opcije"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1296
+msgid "The following options were not paired correctly. Be certain to check their information carefully before you remove them."
+msgstr "Opcije koje slijede nisu ispravno uparene. Budite sigurni da pažljivo provjerite njihove informacije prije no što ih uklonite."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1318
+msgid "ALERT"
+msgstr "PAŽNJA"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1318
+msgid "Age Unknown"
+msgstr "Starost Nepoznata"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1318
+msgid "check the age of the corresponding \"_ts\" option."
+msgstr "provjeri starost pripadajuce \"_ts\" opcije."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1338
+msgid "Select all"
+msgstr "Oznaci sve"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1338
+msgid "Deselect all"
+msgstr "Odznaci sve"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1338
+msgid "\"all\" means BOTH \"plugin\" AND \"rss_\" options."
+msgstr "\"sve\"  znaci OBOJE \"dodataka\" I \"rss_\" opcije."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1343
+msgid "View Selected Options Information"
+msgstr "Pogledaj Informacije Oznacenih Opcija"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1437
+msgid "was found in:"
+msgstr "je pronadeno u:"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1448
+#, php-format
+msgid "No files were found containing %s"
+msgstr "Nisu pronadene datoteke sa %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1453
+msgid "No Search string was entered."
+msgstr "Nije unešen niz podataka Pretrage."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1456
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1543
+#, php-format
+msgid "Return to the %s"
+msgstr "Povratak na %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1456
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1543
+msgid "first screen"
+msgstr "prvi ekran"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1472
+msgid "*Note* spaces have been added after every 10th character of the option_name and every 20th character of the option_value to preserve page layout.<br />Not all options have values and/or descriptions."
+msgstr "*Bilješka* razmaci su dodani nakon svakog 10tog znaka option_name i svakog 20tog znaka option_value da bi se zadržao izgled stranice.<br/>Sve opcije ne moraju imati vrijednosti i/ili opise."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1473
+msgid "Please review this information very carefully and only remove Options that you know for certain have been orphaned or deprecated."
+msgstr "Molimo pregledajte ove podatke vrlo pažljivo te uklonite samo Opcije za koje sigurno znate da su ostavljene ili neodobrene."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1474
+msgid "It is strongly suggested that you BACKUP your database before removing any options."
+msgstr "Vrlo je preporucljivo da napravite KOPIJU baze  podataka prije uklanjanja bilo koje opcije."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1498
+#, php-format
+msgid "%s (the review information query) did not return an array"
+msgstr "%s (upit pregleda informacija) nije vratio vrijednost ."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1534
+msgid "Yes, Remove ALL of these options from the wp_options table."
+msgstr "Da, ukloni SVE ove opcije iz wp_options tablice."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1535
+msgid "No, Don't remove them, return to the first screen."
+msgstr "Ne, ne uklanjaj ih, vrati se na pocetni ekran."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1536
+msgid "Submit"
+msgstr "Proslijedi"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1541
+msgid "No Orphaned Options where selected."
+msgstr "Nema oznacenih Ostavljenih Opcija."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1563
+msgid "Removed Options"
+msgstr "Uklonjene Opcije"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1584
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1651
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1675
+#, php-format
+msgid "The Options table currently has %s found rows."
+msgstr "Tablica Opcije trenutno ima %s pronadenih redova."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1643
+#, php-format
+msgid "Removed %d \"rss_hash\" Options"
+msgstr "Uklonjene %d \"rss_hash\"  Opcije"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1658
+msgid "Every \"rss_hash\" option in the wp_options table will be shown, including current ones."
+msgstr "Svaka \"rss_hash\" opcija u wp_options tablici ce biti prikazana ukljucujuci trenutne."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1710
+msgid "Warning Messages"
+msgstr "Poruke Upozorenja"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1711
+msgid "A Warning message, means that something has happened and options that should not be deleted might be available for deletion, or options that could be safely deleted might not be available for deletion. In any case, if you see a Warning message, use extra-special care and thought before deleting any options."
+msgstr "Poruke Upozorenja znace da se nešto dogodilo i da je opcija koja ne bi trebala biti izbrisana postala dostupna za brisanje, ili da opcija koja se može obrisati nije dostupna za brisanje. U svakom slucaju ukoliko ugledate poruke Upozorenja budite posebno oprezni i promišljeni prije no što cete obrisati bilo koje opcije."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1716
+msgid "has an option line with"
+msgstr "ima liniju opcije sa "
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1717
+#, php-format
+msgid "The plugin searches PHP files for instances of get_option('option_name as a string') to match against values found in the wp_options table. Some files however use syntax such as get_option(&#36;variable) or get_option('prefix_' . &#36;variable). These option names will not match those found in the wp_option table, and they may be present in the list of Orphaned Options when in fact they are not really orphaned. In many cases, knowing the file, and the prefix if used, should help in identification of options that are not really orphaned.<br />*Note, if you get this warning with a plugin file (from the <u><i>WordPress.com Plugin Directory only</i></u>, please) and you know it's not a potential problem (eg. some WordPress core files, the WordPress.com Stats plugin, and this plugin have alternate syntax in them BUT <u><i>there are no options associated with them listed</i></u>), please visit the blog and leave a comment something like \"the whatever plugin has alternate syntax but is OK\" and I can add it to the \"ignore\" list for future version releases if it is safe to do so. Many Thanks. %s"
+msgstr "Dodatak pretražuje PHP datoteke za instance \"get_option('option_name kao niz') što se slažu s vrijednostima pronadenim u wp_options tablici. Neki fajlovi koriste sintaksu kao get_option(&#36;varijable) ili get_option('prefix_' . &#36;variable). Ova imena opcija se nece slagati sa onima pronadenim u wp_options tablici i mogu biti prisutna na listi Ostavljenih Opcija dok u stvarnosti nisu ostavljene.U mnogim slucajevima, poznavajuci datoteke, i prefikse ukoliko su korišteni, može pomoci u identifikaciji opcija koje nisu u stvarnosti ostavljene. <br/> *Bilješka* ukoliko dobivate ovo upozorenje sa datotekama dodataka (iz<u><i> Wordpress.com direktorija dodataka</i></u>, molim) i znate da nije potencijalni problem (npr. neke poznate Wordpress jezgrene datoteke, WordPress.com dodatak za statistiku, koji ima alternativnu sintaksu u sebi ALI <u><i> nema izlistanih opcija povezanih s njim</i></u>, molimo posjetite blog i ostavite komentar tipa: \"bilokoji dodatak ima alternativnu sintaksu ali je OK \" da ga mogu dodati na \"ignore\" listu za izdanja buducih verzija ukoliko je to sigurno. Puno hvala. %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1721
+msgid "query did not return an array"
+msgstr "upit nije vratio vrijednost"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1722
+msgid "The plugin queries the wp_options table. It expects an array with at least 1 row. This error message may be the result of fact. i.e. There actually are no wp_option rows with autoload=yes (next to impossible), or there actually are no \"rss_hash\" rows. Or it could be an actual database problem (eg. connection failure, memory failure). If you get this error message you should look for a WPDB error message as well for more detailed information. An error with either the autoload=yes query (core/plugin/theme options), or the autoload!=yes query (rss_hash options) means that none of the corresponding rows will be available for review or deletion until the database problem is resolved."
+msgstr "Dodatak postavlja upite prema wp_options tablici. Ocekuje vrijednost sa barem jednim redom. Ova poruka greške može biti rezultat cinjenice da stvarno nema wp_options redova koji se automatski ucitavaju (što je skoro nemoguce), ili stvarno nema \"rss_hash\" redova. Ili možda postoji problem u bazi podataka (npr. Greška u povezivanju ili memoriji). Ukoliko ste dobili ovu poruku greške trebali bi pogledati  takoder WPDB poruke greške za detaljnije informacije. Greška sa bilo automatskoucitanje=da upitom(opcije jezgre/dodataka/teme) ili automatskoucitanje=da (rss_hash opcija) znaci da niti jedan od pripadajucih redova nece biti dostupan za pregled ili brisanje dok se ne riješi problem s bazom podataka."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1723
+msgid "WordPress database error"
+msgstr "Greška WordPress baze podataka"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1724
+msgid "These are the error messages as returned by WordPress."
+msgstr "Ovo su poruke grešaka kako ih prosljeduje Wordpress."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1728
+msgid "Option with No Name with the value"
+msgstr "Opcija Bez Imena sa vrijednosti"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1729
+msgid "Perhaps some plugins/themes add options that have no name? Or the name becomes removed from the row somehow? Because this plugin finds options based on their names, these \"no name\" options will not be included in the list, and thus can not be selected for review or deletion. If the row has no option_name but has an option_value, it will be shown to help you identify the source of the problem. At present, if you wish to remove such rows you must do so by other means."
+msgstr "Možda neki dodatci/teme dodaju opcije koje nemaju imena? Ili je ime nekako uklonjeno iz reda? Kako dodatci pronalaze opcije prema njihovim imenima, ove \"bez imena\" opcije nece biti ukljucene u popis, te se prema tome ne mogu pregledati niti obrisati. Ukoliko red nema option_name ali ima option_value, biti ce prikazan da bi se pomoglo u identifikaciji problema. Trenutno, ukoliko želite ukloniti takve redove morate to uciniti na neki drugi nacin."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1733
+msgid "Could not open folder/file"
+msgstr "Nije moguce otvoriti direktorij/datoteku"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1734
+msgid "The plugin failed to open a folder/file. This is most often because of inadequate permissions settings. i.e. The \"read\" permission setting. They do not need to be \"world\" readable, but scripts must be able to. Options that are in files that can not be read may appear in the \"orphaned options\" list when in fact they are not orphaned. In many cases, knowing the folder/file should help in identification of options that are not really orphaned."
+msgstr "Dodatak nije uspio otvoriti direktorij/datoteku. To se najcešce dogada zbog neadekvatne postavke dozvola tj. \"čitati\" postavke dozvola. One ne trebaju biti \"svijet\" ucitavane, ali skripte moraju imati dozvolu. Opcije koje su u direktorijima koji se ne mogu citati se mogu pojaviti u  listi \"ostavljene opcije\" kada u stvari nisu ostavljene."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1738
+msgid "Further Information"
+msgstr "Daljnje informacije"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1739
+msgid "WANTED - Bug Reports"
+msgstr "TRAŽE SE - prijave bugova"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1740
+msgid "WANTED - Translations"
+msgstr "TRAŽE SE - Prijevodi"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1741
+msgid "If you have any questions, problems, comments, or suggestions, please let me know."
+msgstr "Ukoliko imate bilo kakvih pitanja, problema, komentara ili prijedloga molim javite."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1742
+#, php-format
+msgid "If you would like to provide a translation, please leave a comment at %s"
+msgstr "Ukoliko želite prevesti dodatak, molim ostavite komentar na %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1744
+#, php-format
+msgid "For more information, the latest version, etc. please visit the plugin's page %s"
+msgstr "Za više informacija, posljednju verziju itd. Molim posjetite stranicu dodatka %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1746
+#, php-format
+msgid "Questions? For support, please visit the forum %s"
+msgstr "Pitanja? Za podršku molim posjetite forum %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1747
+msgid "registration required to post"
+msgstr "za post je potrebna registracija"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1748
+#, php-format
+msgid "For comments / suggestions, please visit the blog %s"
+msgstr "Za komentare/sugestije molim posjetite blog %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1749
+msgid "Translation Acknowledgements"
+msgstr "Zahvale Prevoditeljima"
+
+#~ msgid "Search files in the wp-content folder by:"
+#~ msgstr "Pretraži datoteke u wp-content direktoriju prema:"
+
+#~ msgid "Search wp-content folder"
+#~ msgstr "Pretraži wp-content direktorij"

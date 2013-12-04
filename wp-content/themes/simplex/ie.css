@@ -1,0 +1,12 @@
+#searchdiv {
+	#margin-left: 398px; /* IE 7 hack */
+	_margin-left: 365px; /* IE 6 hack */
+}
+
+#pagemenu ul#page-list {
+	display: inline-block;
+}
+		
+#pagemenu #page-list li {
+	margin-left: 5px;	
+}

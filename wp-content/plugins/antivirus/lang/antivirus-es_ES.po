@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AntiVirus\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Aqua2webs <aqua2webs@gmail.com>\n"
+"Language-Team: Sergej Müller\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Virus suspected"
+msgstr "Sospecha de virus"
+
+msgid "The daily antivirus scan of your blog suggests alarm."
+msgstr "La revisión diaria de Antivirus te avisa si hubiese un posible virus"
+
+msgid "AntiVirus for WordPress"
+msgstr "AntiVirus para WordPress"
+
+msgid "requires at least WordPress 2.5"
+msgstr "valido para WordPress 2.5 o superior"
+
+msgid "Last"
+msgstr "Ultimo"
+
+msgid "View line"
+msgstr "Ver linea"
+
+msgid "There is no virus"
+msgstr "No hay ningún virus"
+
+msgid "Scan finished"
+msgstr "Analisis terminado"
+
+msgid "Enable the daily antivirus scan and send the administrator an e-mail if suspicion on a virus"
+msgstr "Activar el analisis diario y enviar por e-mail si hubiese sospecha de virus"
+
+msgid "Alternate e-mail address"
+msgstr "Dirección/es de e-mail"
+
+msgid "Manual scan"
+msgstr "Análisis manual"
+
+msgid "Scan the templates now"
+msgstr "Analizar las plantillas ahora"
+
+msgid "About"
+msgstr "Sobre"
+

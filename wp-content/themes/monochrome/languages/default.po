@@ -1,0 +1,463 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: monochrome\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-17 21:16+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mono-lab <mail@mono-lab.net>\n"
+"Language-Team: monolab <mail@monolab.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: I:\\xampplite\\htdocs\\monochrome\n"
+"X-Poedit-SearchPath-0: wp-content\\themes\\monochrome\n"
+
+#: wp-content\themes\monochrome/archive.php:12
+#, php-format
+msgid "Archive for the &#8216;<span id=\"keyword\"> %s </span>&#8217; Category"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:15
+#, php-format
+msgid "Posts Tagged &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:18
+#: wp-content\themes\monochrome/archive.php:21
+#: wp-content\themes\monochrome/archive.php:24
+#, php-format
+msgid "Archive for <span id=\"keyword\">%s</span>"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:18
+#: wp-content\themes\monochrome/comments.php:116
+#: wp-content\themes\monochrome/functions.php:354
+msgid "F jS, Y"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:21
+msgid "F, Y"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:24
+msgid "Y"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:27
+msgid "Author Archive"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:30
+msgid "Blog Archives"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:42
+#: wp-content\themes\monochrome/index.php:14
+#: wp-content\themes\monochrome/page-nocomment-noinfo.php:18
+#: wp-content\themes\monochrome/page-nocomment.php:18
+#: wp-content\themes\monochrome/page-noside-nocomment.php:16
+#: wp-content\themes\monochrome/page-noside.php:16
+#: wp-content\themes\monochrome/page.php:13
+#: wp-content\themes\monochrome/search.php:22
+#: wp-content\themes\monochrome/single.php:13
+msgid "Read more"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:49
+#: wp-content\themes\monochrome/index.php:22
+#: wp-content\themes\monochrome/page-nocomment.php:26
+#: wp-content\themes\monochrome/page.php:21
+#: wp-content\themes\monochrome/search.php:29
+#: wp-content\themes\monochrome/single.php:21
+msgid "POSTED BY"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:52
+#: wp-content\themes\monochrome/index.php:25
+#: wp-content\themes\monochrome/search.php:32
+#: wp-content\themes\monochrome/single.php:24
+msgid "CATEGORY"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:55
+#: wp-content\themes\monochrome/index.php:28
+#: wp-content\themes\monochrome/search.php:35
+#: wp-content\themes\monochrome/single.php:27
+msgid "<dt>TAGS</dt><dd>"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:57
+#: wp-content\themes\monochrome/comments.php:39
+#: wp-content\themes\monochrome/index.php:30
+#: wp-content\themes\monochrome/page.php:24
+#: wp-content\themes\monochrome/search.php:37
+#: wp-content\themes\monochrome/single.php:29
+msgid "Write comment"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:57
+#: wp-content\themes\monochrome/index.php:30
+#: wp-content\themes\monochrome/page.php:24
+#: wp-content\themes\monochrome/search.php:37
+#: wp-content\themes\monochrome/single.php:29
+msgid "1 comment"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:57
+#: wp-content\themes\monochrome/index.php:30
+#: wp-content\themes\monochrome/page.php:24
+#: wp-content\themes\monochrome/search.php:37
+#: wp-content\themes\monochrome/single.php:29
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:58
+#: wp-content\themes\monochrome/comments.php:117
+#: wp-content\themes\monochrome/index.php:31
+#: wp-content\themes\monochrome/page-nocomment.php:29
+#: wp-content\themes\monochrome/page-noside-nocomment.php:14
+#: wp-content\themes\monochrome/page-noside.php:14
+#: wp-content\themes\monochrome/page.php:25
+#: wp-content\themes\monochrome/search.php:38
+#: wp-content\themes\monochrome/single.php:30
+msgid "[ EDIT ]"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:68
+#: wp-content\themes\monochrome/index.php:41
+#: wp-content\themes\monochrome/page-nocomment-noinfo.php:28
+#: wp-content\themes\monochrome/page-nocomment.php:37
+#: wp-content\themes\monochrome/page-noside-nocomment.php:24
+#: wp-content\themes\monochrome/page-noside.php:23
+#: wp-content\themes\monochrome/page.php:33
+#: wp-content\themes\monochrome/search.php:46
+#: wp-content\themes\monochrome/single.php:38
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:10
+#: wp-content\themes\monochrome/comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:41
+msgid "Comments RSS"
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:46
+msgid "Trackback"
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:47
+#: wp-content\themes\monochrome/comments.php:50
+msgid "Comments"
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:49
+msgid "Trackback are closed"
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:78
+msgid "No comments yet."
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:105
+msgid "TrackBack URL"
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:120
+msgid "Trackback from : "
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:126
+msgid "No trackbacks yet."
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:141
+msgid "Comment are closed."
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:156
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:175
+#: wp-content\themes\monochrome/comments.php:177
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:175
+#: wp-content\themes\monochrome/comments.php:177
+msgid "Log out of this account"
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:175
+msgid "[ Log out ]"
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:177
+msgid "Log out"
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:182
+msgid "NAME"
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:182
+#: wp-content\themes\monochrome/comments.php:183
+msgid "( required )"
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:183
+msgid "E-MAIL"
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:183
+msgid "- will not be published -"
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:184
+msgid "URL"
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:197
+msgid "Submit Comment"
+msgstr ""
+
+#: wp-content\themes\monochrome/footer.php:10
+msgid "Copyright &copy;&nbsp; "
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:148
+msgid "Theme Options"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:156
+msgid "Theme options have been saved."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:162
+msgid "Monochrome option"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:166
+#: wp-content\themes\monochrome/functions.php:268
+msgid "Save Changes"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:170
+msgid "Select width of monochrome."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:172
+msgid "930px."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:173
+msgid "1000px"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:174
+msgid "1100px"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:179
+msgid "Check if you would like to use original image for logo instead of using plain text.<br />( Don't forget to upload image into, <strong>wp-content/themes/monochrome/img/</strong> )"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:180
+#: wp-content\themes\monochrome/functions.php:188
+#: wp-content\themes\monochrome/functions.php:199
+#: wp-content\themes\monochrome/functions.php:211
+#: wp-content\themes\monochrome/functions.php:222
+#: wp-content\themes\monochrome/functions.php:228
+#: wp-content\themes\monochrome/functions.php:245
+#: wp-content\themes\monochrome/functions.php:252
+#: wp-content\themes\monochrome/functions.php:259
+#: wp-content\themes\monochrome/functions.php:265
+msgid "Yes"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:181
+msgid "Write your logo file name.<br />Example : <strong>logo.gif</strong>"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:186
+msgid "Show Information on sidebar."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:190
+msgid "Information title."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:192
+msgid "Information contents. ( HTML tag is available. )"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:197
+msgid "Show rss feed on sidebar."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:204
+msgid "Position of search area on sidebar."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:206
+msgid "Top"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:207
+msgid "Bottom"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:209
+msgid "Use <a href=\"http://www.google.com/cse/\">Google Custom Search</a><br />(If you check this option,don't forget to write your Google Custom Search ID below.)"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:213
+msgid "Input your Google Custom Search ID."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:220
+msgid "Show tag list under search area."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:227
+msgid "Check if you would like to use Custom Navigation Menus in WordPress 3.0."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:230
+msgid "Header menu."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:232
+msgid "Use pages for header menu."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:233
+msgid "Use categories for header menu."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:235
+msgid "Exclude Pages (Page ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:237
+msgid "Exclude Categories (Category ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:243
+msgid "Show author name."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:250
+msgid "Show tag."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:257
+msgid "Show time on comment."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:264
+msgid "Check if you want to show Return top link."
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:354
+msgid " g:ia"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:361
+#: wp-content\themes\monochrome/functions.php:363
+#: wp-content\themes\monochrome/functions.php:366
+msgid "REPLY"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:368
+msgid "QUOTE"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:369
+msgid "EDIT"
+msgstr ""
+
+#: wp-content\themes\monochrome/functions.php:375
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: wp-content\themes\monochrome/header.php:6
+msgid " | "
+msgstr ""
+
+#: wp-content\themes\monochrome/header.php:55
+msgid "HOME"
+msgstr ""
+
+#: wp-content\themes\monochrome/search.php:10
+msgid "Search results for "
+msgstr ""
+
+#: wp-content\themes\monochrome/search.php:10
+msgid " hit"
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:7
+msgid "Information"
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:8
+msgid "Change this sentence and title from admin Theme option page."
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:12
+msgid "Entries RSS"
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:12
+msgid "RSS FEED"
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:23
+#: wp-content\themes\monochrome/sidebar.php:79
+msgid "Google Search"
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:24
+#: wp-content\themes\monochrome/sidebar.php:32
+#: wp-content\themes\monochrome/sidebar.php:80
+#: wp-content\themes\monochrome/sidebar.php:88
+msgid "Search from this blog."
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:31
+#: wp-content\themes\monochrome/sidebar.php:87
+msgid "Search"
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:38
+#: wp-content\themes\monochrome/sidebar.php:94
+msgid "TAG LIST"
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:48
+msgid "Recent entry"
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:58
+msgid "Archive"
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:65
+msgid "Category"
+msgstr ""
+
+#: wp-content\themes\monochrome/sidebar.php:75
+msgid "SEARCH"
+msgstr ""
+

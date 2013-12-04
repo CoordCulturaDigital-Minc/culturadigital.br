@@ -1,0 +1,614 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Optimize 1.2\n"
+"POT-Creation-Date: 2013-11-07 11:23+0800\n"
+"PO-Revision-Date: 2013-11-12 05:30+0200\n"
+"Last-Translator: HakanEr <hakanerwptr@gmail.com>\n"
+"Language-Team: hakan er <hakanerwptr@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_n;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: turkish\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: D:\\Documents\\My Works\\wp-optimize_work\n"
+"X-Poedit-SearchPath-1: d:\\Ruhani\\Documents\\My Works\\wp-optimize_work\n"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:49
+msgid "Database Optimized!"
+msgstr "Veritabanı Optimize Edildi!"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:67
+msgid "Optimizer"
+msgstr "Optimizer"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:72
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:73
+msgid "Info"
+msgstr "Bilgi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:107
+msgid "Total clean up overall"
+msgstr "Genel temizlik toplamı"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:110
+#: Works\wp-optimize_work/wp-optimize-main.php:116
+#: Works\wp-optimize_work/wp-optimize-main.php:132
+msgid "Kb"
+msgstr "Kb"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:402
+msgid "transient options deleted"
+msgstr "geçici seçenek silindi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:410
+msgid "orphaned postmeta deleted"
+msgstr "sahipsiz postmeta silindi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:418
+msgid "unused tags deleted"
+msgstr "kullanılmayan etiket silindi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:429
+msgid "post revisions deleted"
+msgstr "yazı düzeltmesi silindi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:440
+msgid "auto drafts deleted"
+msgstr "otomatik taslak silindi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:448
+#: Works\wp-optimize_work/wp-optimize-common.php:468
+msgid "items removed from Trash"
+msgstr "öğe çöpten kaldırıldı"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:460
+msgid "spam comments deleted"
+msgstr "spam yorum silindi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:478
+msgid "unapproved comments deleted"
+msgstr "onaylanmamış yorumlar silindi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:484
+msgid "pingbacks deleted"
+msgstr "pingback'ler silindi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:490
+msgid "trackbacks deleted"
+msgstr "trackback'ler silindi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:497
+msgid "Enabled weekly processing"
+msgstr "Haftalık işlem etkinleştirildi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:503
+msgid "Disabled weekly processing"
+msgstr "Haftalık işlem devre dışı bırakıldı"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:512
+msgid "NO Actions Taken"
+msgstr "Alınan Herhangi bir İşlem YOK"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:539
+msgid "transient options in your database"
+msgstr "veritabanınızdaki geçici seçenek"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:541
+msgid "No transient options found"
+msgstr "Herhangi bir geçici seçenek bulunamadı"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:550
+msgid "orphaned postmeta in your database"
+msgstr "veritabanınızdaki sahipsiz postmeta"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:552
+msgid "No orphaned postmeta in your database"
+msgstr "Veritabanınızda herhangi bir sahipsiz postmeta yok"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:561
+msgid "unused tags in your database"
+msgstr "veritabanınızdaki kullanılmayan etiket"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:563
+msgid "No unused tags found"
+msgstr "Herhangi bir kullanılmayan etiket bulunamadı"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:576
+msgid "post revisions in your database"
+msgstr "veritabanınızdaki yazı düzeltmesi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:578
+msgid "No post revisions found"
+msgstr "Herhangi bir yazı düzeltme bulunamadı"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:591
+msgid "auto draft post(s) in your database"
+msgstr "veritabanınızdaki otomatik yazı taslağı"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:593
+msgid "No auto draft posts found"
+msgstr "Herhangi bir otomatik yazı taslağı bulunamadı"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:605
+msgid "spam comments found"
+msgstr "spam yorum bulundu"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:605
+msgid "Review Spams"
+msgstr "Spamları İncele"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:607
+msgid "No spam comments found"
+msgstr "Herhangi bir spam yorum bulunamadı"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:618
+msgid "unapproved comments found"
+msgstr "onaylanmamış yorum bulundu"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:618
+msgid "Review Unapproved Comments"
+msgstr "Onaylanmamış Yorumları İncele"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:620
+msgid "No unapproved comments found"
+msgstr "Herhangi bir onaylanmamış yorum bulunamadı"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:628
+msgid "Pingbacks found"
+msgstr "Pingback bulundu"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:630
+msgid "No pingbacks found"
+msgstr "Herhangi bir Pingback bulunamadı"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:638
+msgid "Trackbacks found"
+msgstr "Trackback bulundu"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:640
+msgid "No trackbacks found"
+msgstr "Herhangi bir Trackback bulunamadı"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:646
+msgid "nothing"
+msgstr "hiçbir"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:4
+msgid "Credits"
+msgstr "Katkıda bulunanlar"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:5
+msgid ""
+"WP-Optimize started as a utility for my own projects. I have realized soon, "
+"that this plugin might help a lot of people out there. I am personally "
+"thanking all of the users who use this plugin as a daily basis. Also thank "
+"you all of the translators and the generous people who have donated for this "
+"project."
+msgstr ""
+"WP-Optimize kendi projelerim için bir yardımcı program olarak başladı. Kısa "
+"süre sonra fark ettim ki, bu eklenti dışarıda pek çok kişiye yardımcı "
+"olabilir. Şahsen bu eklentiyi günlük olarak kullanan tüm kullanıcılara "
+"teşekkür ediyorum. Ayrıca, tüm çevirmenlere ve bu proje için bağışta bulunan "
+"cömert kişilere teşekkür ederim."
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:15
+msgid "Share this plugin on Facebook"
+msgstr "Bu eklentiyi Facebook'ta paylaş"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:25
+msgid "Contributing Developers"
+msgstr "Katkıda bulunan Geliştiriciler"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:26
+msgid "Help me make this plugin better"
+msgstr "Bu eklentiyi geliştirmek için bana yardımcı olun"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:26
+msgid "I am looking for contributing developers."
+msgstr "Katkıda bulunacak geliştiriciler arıyorum."
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:27
+msgid "Your name and website will be credited here in the plugin"
+msgstr "Adınız ve web siteniz eklenti içinde burada yer alacaktır"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:29
+msgid "Translators"
+msgstr "Çevirmenler"
+
+# This is the link for the Translator's website
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:30
+msgid "http://www.ruhanirabin.com/"
+msgstr "http://hakanertr.wordpress.com/"
+
+# Please change this to Translator's name
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:30
+msgid ""
+"Default Language by Ruhani Rabin (Change this text and the link inside "
+"translation file)"
+msgstr "Hakan Er tarafından Türkçe Dili"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:32
+msgid "Download .POT File to translate"
+msgstr "Çevirmek için .POT Dosyasını indir"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:32
+msgid "Email your translations to"
+msgstr "Çevirileri eposta ile gönder"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:38
+msgid "Development Log"
+msgstr "Geliştirme Günlüğü"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:58
+msgid "No items"
+msgstr "Öğe yok"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:63
+#, php-format
+msgid "Update %s"
+msgstr "%s güncelle"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:71
+msgid "Plugin Resources"
+msgstr "Eklenti Kaynakları"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:72
+msgid "Plugin Homepage"
+msgstr "Eklenti Web Sitesi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:73
+msgid "Support Forum"
+msgstr "Destek Forumu"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:74
+msgid "Change Log"
+msgstr "Değişiklik Günlüğü"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:75
+msgid "FAQ"
+msgstr "SSS"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:5
+msgid "Status : "
+msgstr "Durum : "
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:10
+msgid "Last automatic optimization was at "
+msgstr "Son otomatik optimizasyon tarihi "
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:21
+msgid "There was no automatic optimization"
+msgstr "Herhangi bir otomatik optimizasyon yok"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:24
+#: Works\wp-optimize_work/wp-optimize-main.php:70
+#: Works\wp-optimize_work/wp-optimize-main.php:95
+msgid "Check settings"
+msgstr "Ayarları kontrol et"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:36
+msgid "Scheduled cleaning enabled"
+msgstr "Zamanlanmış temizleme etkinleştirildi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:48
+msgid "Next schedule"
+msgstr "Sonraki zamanlama"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:59
+msgid "Refresh"
+msgstr "Yenile"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:67
+msgid "Scheduled cleaning DISABLED"
+msgstr "Zamanlanmış temizleme DEVRE DIŞI"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:81
+msgid "Retention enabled and keeping last "
+msgstr "Saklama etkin ve en son sakladığı "
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:84
+#: Works\wp-optimize_work/wp-optimize-settings.php:93
+msgid "weeks data"
+msgstr "hafta verisi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:92
+msgid "Retention is disabled"
+msgstr "Saklama devre dışı"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:109
+msgid "Current database size : "
+msgstr "Mevcut veritabanı boyutu : "
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:111
+#: Works\wp-optimize_work/wp-optimize-main.php:125
+msgid "Kb."
+msgstr "Kb."
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:113
+msgid "You have saved"
+msgstr "Tasarruf ettiğiniz miktar"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:122
+msgid "Current database size"
+msgstr "Mevcut veritabanı boyutu"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:129
+msgid "You can save almost"
+msgstr "Tasarruf edebileceğiniz"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:138
+msgid "Buy me a Coffee :)"
+msgstr "Bana bir Kahve Al :)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:139
+msgid "See Tables > "
+msgstr "Tablolara bak > "
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:139
+msgid "Database Size > "
+msgstr "Veritabanı Boyutu > "
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:164
+msgid "Database Optimization Options"
+msgstr "Veritabanı Optimizasyon Seçenekleri"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:175
+msgid "Sponsor"
+msgstr "Sponsor"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:182
+msgid "Remove post revisions which are older than "
+msgstr "Bu süreden daha eski olan yazı düzeltmelerini kaldır - "
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:185
+#: Works\wp-optimize_work/wp-optimize-main.php:205
+#: Works\wp-optimize_work/wp-optimize-main.php:225
+#: Works\wp-optimize_work/wp-optimize-main.php:244
+msgid "weeks"
+msgstr "hafta"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:187
+msgid "Remove all post revisions"
+msgstr "Tüm yazı düzeltmelerini kaldır"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:202
+msgid "Remove auto draft posts which are older than "
+msgstr "Bu süreden daha eski olan otomatik taslak yazılarını kaldır - "
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:207
+msgid "Remove auto draft posts (This will also clear out posts in Trash)"
+msgstr ""
+"Otomatik taslak yazılarını kaldır (Aynı zamanda Çöp içindeki yazıları da "
+"temizleyecektir)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:222
+msgid "Remove spam comments which are older than "
+msgstr "Bu süredsen daha eski olan spam yorumları kaldır - "
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:227
+msgid "Remove spam comments (This will also clear out comments in Trash)"
+msgstr ""
+"Spam yorumları kaldır (Aynı zamanda Çöp içindeki yorumları da "
+"temizleyecektir)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:241
+msgid "Remove unapproved comments which are older than "
+msgstr "Bu süreden daha eski olan onaylanmamış yorumları kaldır - "
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:246
+#: Works\wp-optimize_work/wp-optimize-settings.php:172
+msgid "Remove unapproved comments"
+msgstr "Onaylanmamış yorumları kaldır"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:258
+#: Works\wp-optimize_work/wp-optimize-settings.php:174
+msgid "Remove transient options"
+msgstr "Geçici seçenekleri kaldır"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:267
+msgid "Remove orphaned postmeta"
+msgstr "Sahipsiz postmeta'yı kaldır"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:276
+#: Works\wp-optimize_work/wp-optimize-settings.php:178
+msgid "Remove unused tags"
+msgstr "Kullanılmayan etiketleri kaldır"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:285
+msgid "Remove pingbacks"
+msgstr "Pingback'leri kaldır"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:294
+msgid "Remove trackbacks"
+msgstr "Trackback'leri kaldır"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:305
+msgid "Optimize database tables"
+msgstr "Veritabanı tablolarını optimize et"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:314
+msgid "PROCESS"
+msgstr "İŞLE"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:340
+msgid "Database Tables Report"
+msgstr "Veritabanı Tabloları Raporu"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:341
+msgid "Database Name:"
+msgstr "Veritabanı Adı:"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:345
+msgid "Optimized all the tables found in the database."
+msgstr "Veritabanında bulunan tüm tablolar optimize edildi."
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:352
+#: Works\wp-optimize_work/wp-optimize-main.php:360
+msgid "Table"
+msgstr "Tablo"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:353
+#: Works\wp-optimize_work/wp-optimize-main.php:361
+msgid "Size"
+msgstr "Boyut"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:354
+#: Works\wp-optimize_work/wp-optimize-main.php:362
+msgid "Status"
+msgstr "Durum"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:355
+#: Works\wp-optimize_work/wp-optimize-main.php:363
+msgid "Space Save"
+msgstr "Alan Tasarrufu"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:409
+msgid "Already Optimized"
+msgstr "Zaten Optimize Edilmiş"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:418
+msgid "Optimized"
+msgstr "Optimize edildi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:426
+msgid "Need to Optimize"
+msgstr "Optimize etmek gerekiyor"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:438
+msgid "Total Size of Database"
+msgstr "Veritabanı Toplam Boyutu"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:446
+msgid "Optimization Results"
+msgstr "Optimizasyon Sonuçları"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:447
+msgid "Total Space Saved"
+msgstr "Toplam Alan Tasarrufu"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:452
+msgid "Optimization Possibility"
+msgstr "Optimizasyon Olasılığı"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:453
+msgid "Total space can be saved"
+msgstr "Tasarruf edilebilecek toplam alan"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:63
+msgid "Settings updated"
+msgstr "Ayarlar güncellendi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:72
+msgid "General Settings"
+msgstr "Genel Ayarlar"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:73
+msgid "Auto Clean-up Settings"
+msgstr "Otomatik Temizleme Ayarları"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:82
+msgid "Keep last "
+msgstr "En son saklanacak "
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:98
+msgid ""
+"This option will retain the last X weeks data and remove any garbage data "
+"before that period"
+msgstr ""
+"Bu seçenek, son X haftanın verilerini korur ve bu dönemden önceki tüm çöp "
+"verileri kaldırır"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:106
+msgid "Enable admin bar link "
+msgstr "Yönetici çubuğu bağlantısını etkinleştir "
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:108
+msgid "(Click here to refresh)"
+msgstr "(Yenilemek için tıklayın)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:113
+msgid ""
+"This option will put WP-Optimize link on the top admin bar (default is off). "
+"Requires page refresh."
+msgstr ""
+"Bu seçenek, üst Yönetici çubuğuna WP-Optimize bağlantısı ekleyecektir "
+"(varsayılan kapalı). Sayfanın yenilenmesini gerektirir."
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:122
+msgid "Enable scheduled clean-up and optimization (EXPERIMENTAL!)"
+msgstr "Temizlik ve optimizasyon zamanlamasını etkinleştir (DENEYSEL!)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:124
+msgid "Select schedule type (default is Weekly)"
+msgstr "Zamanlama türünü seçin (varsayılan olarak Haftalık)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:131
+#: Works\wp-optimize_work/wp-optimize-settings.php:143
+#: Works\wp-optimize_work/wp-optimize-settings.php:149
+msgid "Every week"
+msgstr "Her hafta"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:135
+#: Works\wp-optimize_work/wp-optimize-settings.php:150
+msgid "Every other week (every 14 days)"
+msgstr "Her ertesi hafta (her 14 günde bir)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:139
+#: Works\wp-optimize_work/wp-optimize-settings.php:151
+msgid "Every month (every 31 days)"
+msgstr "Her ay (her 31 günde bir)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:156
+msgid "Automatic cleanup will perform the following:"
+msgstr "Otomatik temizleme aşağıdakilerini gerçekleştirir:"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:158
+msgid ""
+"Remove revisions, auto drafts, posts/comments in trash, transient options. "
+"After that it will optimize the db."
+msgstr ""
+"Düzeltmeler, otomatik taslaklar, çöpteki yazılar/yorumlar, geçici "
+"seçenekleri kaldırır. Daha sonra vt optimize eder."
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:164
+msgid ""
+"These options will only work if the automatic clean-up schedule has been "
+"enabled"
+msgstr ""
+"Bu seçenekler yalnızca otomatik temizleme zamanlaması etkinleştirilmişse "
+"çalışacaktır"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:166
+msgid "Remove auto revisions"
+msgstr "Otomatik düzeltmeleri kaldır"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:168
+msgid "Remove auto drafts"
+msgstr "Otomatik taslakları kaldır"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:170
+msgid "Remove spam comments"
+msgstr "Spam yorumları kaldır"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:176
+msgid "Remove orphaned post meta"
+msgstr "Sahipsiz yazı meta verisini kaldır"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:180
+msgid "Optimize database"
+msgstr "Veritabanını optimize et"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:185
+msgid "SAVE SETTINGS"
+msgstr "AYARLARI KAYDET"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:186
+msgid "SAVE AUTO CLEAN-UP SETTINGS"
+msgstr "OTOMATİK TEMİZLİK AYARLARINI KAYDET"

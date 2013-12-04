@@ -1,0 +1,444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: piano-black\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-21 11:09+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: MMKaresz <mmkaresz@gmail.com>\n"
+"Language-Team: mono-lab <mail@mono-lab.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: D:\\xampplite\\htdocs\\pianoblack\n"
+"X-Poedit-SearchPath-0: wp-content\\themes\\pianoblack\n"
+
+#: wp-content\themes\pianoblack/archive.php:12
+#, php-format
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr "&#8216;%s&#8217; kategoria archivuma"
+
+#: wp-content\themes\pianoblack/archive.php:15
+#, php-format
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr "Bejegyzes taggelve &#8216;%s&#8217;"
+
+#: wp-content\themes\pianoblack/archive.php:18
+#: wp-content\themes\pianoblack/archive.php:21
+#: wp-content\themes\pianoblack/archive.php:24
+#, php-format
+msgid "Archive for %s"
+msgstr "%s archivuma"
+
+#: wp-content\themes\pianoblack/archive.php:18
+#: wp-content\themes\pianoblack/archive.php:39
+#: wp-content\themes\pianoblack/comments.php:117
+#: wp-content\themes\pianoblack/functions.php:300
+#: wp-content\themes\pianoblack/index.php:11
+#: wp-content\themes\pianoblack/page-noside.php:15
+#: wp-content\themes\pianoblack/page.php:13
+#: wp-content\themes\pianoblack/search.php:18
+#: wp-content\themes\pianoblack/single.php:13
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: wp-content\themes\pianoblack/archive.php:21
+msgid "F, Y"
+msgstr "F, Y"
+
+#: wp-content\themes\pianoblack/archive.php:24
+msgid "Y"
+msgstr "Y"
+
+#: wp-content\themes\pianoblack/archive.php:27
+msgid "Author Archive"
+msgstr "Szerz? archivuma"
+
+#: wp-content\themes\pianoblack/archive.php:30
+msgid "Blog Archives"
+msgstr "Blog Archivok"
+
+#: wp-content\themes\pianoblack/archive.php:40
+#: wp-content\themes\pianoblack/index.php:12
+#: wp-content\themes\pianoblack/page-noside.php:16
+#: wp-content\themes\pianoblack/page.php:14
+#: wp-content\themes\pianoblack/search.php:20
+#: wp-content\themes\pianoblack/single.php:15
+msgid "By "
+msgstr "Szerz?:"
+
+#: wp-content\themes\pianoblack/archive.php:41
+#: wp-content\themes\pianoblack/archive.php:56
+#: wp-content\themes\pianoblack/comments.php:51
+#: wp-content\themes\pianoblack/index.php:13
+#: wp-content\themes\pianoblack/index.php:28
+#: wp-content\themes\pianoblack/single.php:16
+msgid "Write comment"
+msgstr "Hozzaszolas irasa"
+
+#: wp-content\themes\pianoblack/archive.php:42
+#: wp-content\themes\pianoblack/comments.php:118
+#: wp-content\themes\pianoblack/index.php:14
+#: wp-content\themes\pianoblack/page-noside.php:17
+#: wp-content\themes\pianoblack/page.php:15
+#: wp-content\themes\pianoblack/search.php:21
+#: wp-content\themes\pianoblack/single.php:17
+msgid "[ EDIT ]"
+msgstr "[ Szerkesztes ]"
+
+#: wp-content\themes\pianoblack/archive.php:45
+#: wp-content\themes\pianoblack/index.php:17
+#: wp-content\themes\pianoblack/page-noinfo.php:16
+#: wp-content\themes\pianoblack/page-noside-noinfo.php:14
+#: wp-content\themes\pianoblack/page-noside.php:20
+#: wp-content\themes\pianoblack/page.php:18
+#: wp-content\themes\pianoblack/single.php:21
+msgid "Read more"
+msgstr "Tovabb..."
+
+#: wp-content\themes\pianoblack/archive.php:56
+#: wp-content\themes\pianoblack/index.php:28
+msgid "1 comment"
+msgstr "1 hozzaszolas"
+
+#: wp-content\themes\pianoblack/archive.php:56
+#: wp-content\themes\pianoblack/index.php:28
+#, php-format
+msgid "% comments"
+msgstr "% hozzaszolas"
+
+#: wp-content\themes\pianoblack/archive.php:62
+#: wp-content\themes\pianoblack/index.php:40
+#: wp-content\themes\pianoblack/page-noinfo.php:23
+#: wp-content\themes\pianoblack/page-noside-noinfo.php:21
+#: wp-content\themes\pianoblack/page-noside.php:27
+#: wp-content\themes\pianoblack/page.php:25
+#: wp-content\themes\pianoblack/search.php:34
+#: wp-content\themes\pianoblack/single.php:29
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "A keresett tartalom nem talalhato"
+
+#: wp-content\themes\pianoblack/archive.php:68
+#: wp-content\themes\pianoblack/comments.php:145
+#: wp-content\themes\pianoblack/comments.php:211
+#: wp-content\themes\pianoblack/index.php:36
+#: wp-content\themes\pianoblack/search.php:30
+msgid "Return top"
+msgstr "Vissza a tetejere"
+
+#: wp-content\themes\pianoblack/comments.php:10
+#: wp-content\themes\pianoblack/comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Ez a bejegyzes jelszoval vedett. A jelszo beirasa utan olvashato csak."
+
+#: wp-content\themes\pianoblack/comments.php:37
+msgid "Comments RSS"
+msgstr "Hozzaszolas RSS"
+
+#: wp-content\themes\pianoblack/comments.php:43
+#: wp-content\themes\pianoblack/comments.php:46
+msgid "Comments"
+msgstr "Hozzaszolasok"
+
+#: wp-content\themes\pianoblack/comments.php:44
+msgid "Trackback"
+msgstr "Visszakovetes"
+
+#: wp-content\themes\pianoblack/comments.php:47
+msgid "Trackback are closed."
+msgstr "Visszakovetes lezarva."
+
+#: wp-content\themes\pianoblack/comments.php:79
+msgid "No comments yet."
+msgstr "Nincs meg hozzaszolas"
+
+#: wp-content\themes\pianoblack/comments.php:106
+msgid "TrackBack URL"
+msgstr "Visszakovet? URL"
+
+#: wp-content\themes\pianoblack/comments.php:121
+msgid "Trackback from : "
+msgstr "Visszakovetes innen: "
+
+#: wp-content\themes\pianoblack/comments.php:127
+msgid "No trackbacks yet."
+msgstr "Nincs meg visszakovetes."
+
+#: wp-content\themes\pianoblack/comments.php:142
+msgid "Comment are closed."
+msgstr "Hozzaszolasok lezarva."
+
+#: wp-content\themes\pianoblack/comments.php:158
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "<a href=\"%s\">Jelentkezz be</a> hogy hozzaszolas irhass."
+
+#: wp-content\themes\pianoblack/comments.php:177
+#: wp-content\themes\pianoblack/comments.php:179
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "Bejelentkezve mint <a href=\"%1$s\">%2$s</a>."
+
+#: wp-content\themes\pianoblack/comments.php:177
+#: wp-content\themes\pianoblack/comments.php:179
+msgid "Log out of this account"
+msgstr "Kijelentkezes ebb?l a fiokbol"
+
+#: wp-content\themes\pianoblack/comments.php:177
+#: wp-content\themes\pianoblack/comments.php:179
+msgid "Log out"
+msgstr "Kijelentkezes"
+
+#: wp-content\themes\pianoblack/comments.php:184
+msgid "NAME"
+msgstr "NEV"
+
+#: wp-content\themes\pianoblack/comments.php:184
+#: wp-content\themes\pianoblack/comments.php:185
+msgid "( required )"
+msgstr "( szukseges )"
+
+#: wp-content\themes\pianoblack/comments.php:185
+msgid "E-MAIL"
+msgstr "E-MAIL"
+
+#: wp-content\themes\pianoblack/comments.php:185
+msgid "- will not be published -"
+msgstr "- nem tesszuk kozze - "
+
+#: wp-content\themes\pianoblack/comments.php:186
+msgid "URL"
+msgstr "URL"
+
+#: wp-content\themes\pianoblack/comments.php:195
+msgid "Submit Comment"
+msgstr "Hozzaszolas kuldese"
+
+#: wp-content\themes\pianoblack/functions.php:105
+msgid "Current Theme Options"
+msgstr "Jelenlegi tema beallitasai"
+
+#: wp-content\themes\pianoblack/functions.php:114
+msgid "Piano Black Options"
+msgstr "Piano Black beallitasai"
+
+#: wp-content\themes\pianoblack/functions.php:118
+msgid "Check if you would like to use image for logo.<br />Replace your original image with pianoblack / img / logo.gif<br />Adjust position in style.css line 54"
+msgstr "Pipald be, ha egyeni kepet szeretnel logonak.<br />Csereld ki a kepet, amit hasznalni szeretnel ezzel: pianoblack / img / logo.gif<br />Allits utana a parametereknel a style.css -ben az 54. sorban."
+
+#: wp-content\themes\pianoblack/functions.php:120
+#: wp-content\themes\pianoblack/functions.php:126
+#: wp-content\themes\pianoblack/functions.php:155
+#: wp-content\themes\pianoblack/functions.php:161
+#: wp-content\themes\pianoblack/functions.php:166
+#: wp-content\themes\pianoblack/functions.php:177
+msgid "Yes"
+msgstr "Igen"
+
+#: wp-content\themes\pianoblack/functions.php:124
+msgid "Show Information on sidebar."
+msgstr "Informaciok mutatasa az oldalsavban"
+
+#: wp-content\themes\pianoblack/functions.php:130
+msgid "Information title."
+msgstr "Informacio cimsor"
+
+#: wp-content\themes\pianoblack/functions.php:134
+msgid "Information contents. ( HTML tag is available. )"
+msgstr "Informacio tartalom ( HTML tag-ek hasznalhatoak )"
+
+#: wp-content\themes\pianoblack/functions.php:138
+msgid "Header menu."
+msgstr "Fejlec menu"
+
+#: wp-content\themes\pianoblack/functions.php:140
+msgid "Use pages for header menu."
+msgstr "Oldalak hasznalata fejlec menukent"
+
+#: wp-content\themes\pianoblack/functions.php:141
+msgid "Use categories for header menu."
+msgstr "Kategoriak hasznalata fejlec menukent"
+
+#: wp-content\themes\pianoblack/functions.php:145
+msgid "Exclude Pages<br />(Page ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr "Kategoria kivetelek<br />(Azoknak az oldalaknak az ID-je, amelyeket nem szeretnel szerepeltetni a fejlec menuben, vessz?vel elvalasztva, pl.: 1,2,3)"
+
+#: wp-content\themes\pianoblack/functions.php:149
+msgid "Exclude Categories<br />(Category ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr "Kategoria kivetelek<br />(Azoknak a kategoriaknak az ID-je, amelyeket nem szeretnel szerepeltetni a fejlec menuben, vessz?vel elvalasztva, pl.: 1,2,3)"
+
+#: wp-content\themes\pianoblack/functions.php:153
+msgid "Show rss on header."
+msgstr "RSS mutatasa a fejlecen"
+
+#: wp-content\themes\pianoblack/functions.php:159
+msgid "Show search on header."
+msgstr "Keres? mutatasa a fejlecen"
+
+#: wp-content\themes\pianoblack/functions.php:164
+msgid "Use <a href=\"http://www.google.com/cse/\">Google Custom Search</a><br />(If you check this option,don't forget to write your Google Custom Search ID below.)"
+msgstr "<a href=\"http://www.google.com/cse/\">Google Custom Search</a> hasznalata<br />(Ha ezt az opciot valasztod, ne feledd megadni a Google Custom Search azonositod.)"
+
+#: wp-content\themes\pianoblack/functions.php:168
+msgid "Input your Google Custom Search ID."
+msgstr "Google Custom Search azonositod:"
+
+#: wp-content\themes\pianoblack/functions.php:175
+msgid "Show author."
+msgstr "Szerz? mutatasa"
+
+#: wp-content\themes\pianoblack/functions.php:181
+msgid "Post meta."
+msgstr "Bejegyzes meta"
+
+#: wp-content\themes\pianoblack/functions.php:183
+msgid "Show category."
+msgstr "Kategoria mutatasa"
+
+#: wp-content\themes\pianoblack/functions.php:184
+msgid "Show tag."
+msgstr "Tag mutatasa"
+
+#: wp-content\themes\pianoblack/functions.php:188
+msgid "Page navi type."
+msgstr "Navi tipus hasznalata"
+
+#: wp-content\themes\pianoblack/functions.php:190
+msgid "Use Pager."
+msgstr "Pager hasznalata"
+
+#: wp-content\themes\pianoblack/functions.php:191
+msgid "Use normal style next-previous link."
+msgstr "Normal stilusu el?z?-kovetkez? link hasznalata"
+
+#: wp-content\themes\pianoblack/functions.php:195
+msgid "Check if you want to show Return top link.<br />( NOTICE : Return top link does not work on IE6. )"
+msgstr "Vissza a tetejere link mutatasa.<br />( Nem m?kodik IE6-al. )"
+
+#: wp-content\themes\pianoblack/functions.php:196
+msgid "Show Return top link."
+msgstr "Vissza a tetejere link mutatasa"
+
+#: wp-content\themes\pianoblack/functions.php:199
+msgid "Save Changes"
+msgstr "valtoztatasok mentese"
+
+#: wp-content\themes\pianoblack/functions.php:307
+#: wp-content\themes\pianoblack/functions.php:309
+#: wp-content\themes\pianoblack/functions.php:312
+msgid "REPLY"
+msgstr "VALASZ"
+
+#: wp-content\themes\pianoblack/functions.php:314
+msgid "QUOTE"
+msgstr "IDEZ"
+
+#: wp-content\themes\pianoblack/functions.php:315
+msgid "EDIT"
+msgstr "SZERKESZT"
+
+#: wp-content\themes\pianoblack/functions.php:321
+msgid "Your comment is awaiting moderation."
+msgstr "A hozzaszolas moderalasra var."
+
+#: wp-content\themes\pianoblack/header.php:13
+msgid " | "
+msgstr " | "
+
+#: wp-content\themes\pianoblack/header.php:44
+msgid "HOME"
+msgstr "Kezd?lap"
+
+#: wp-content\themes\pianoblack/header.php:69
+msgid "Entries RSS"
+msgstr "Bejegyzes RSS"
+
+#: wp-content\themes\pianoblack/header.php:69
+msgid "RSS FEED"
+msgstr "RSS hirfolyam"
+
+#: wp-content\themes\pianoblack/header.php:75
+msgid "Google Search"
+msgstr "Google kereses"
+
+#: wp-content\themes\pianoblack/header.php:76
+#: wp-content\themes\pianoblack/header.php:84
+msgid "Search from this blog."
+msgstr "Kereses az oldalon"
+
+#: wp-content\themes\pianoblack/header.php:83
+msgid "Search"
+msgstr "Kereses"
+
+#: wp-content\themes\pianoblack/navigation.php:26
+msgid "&laquo; Previous"
+msgstr "&laquo; El?z?"
+
+#: wp-content\themes\pianoblack/navigation.php:27
+msgid "Next &raquo;"
+msgstr "Kovetkez? &raquo;"
+
+#: wp-content\themes\pianoblack/navigation.php:33
+msgid "Newer Entries"
+msgstr "Ujabb bejegyzesek"
+
+#: wp-content\themes\pianoblack/navigation.php:34
+msgid "Older Entries"
+msgstr "Regebbi bejegyzesek"
+
+#: wp-content\themes\pianoblack/search.php:10
+msgid "Search results for "
+msgstr "Keresesi eredmenyek:"
+
+#: wp-content\themes\pianoblack/search.php:10
+msgid " hit"
+msgstr "talalat "
+
+#: wp-content\themes\pianoblack/search.php:19
+#: wp-content\themes\pianoblack/single.php:14
+msgid "Posted in "
+msgstr "Kozzeteve itt: "
+
+#: wp-content\themes\pianoblack/search.php:23
+msgid "[ READ MORE ]"
+msgstr "[ Olvass tovabb ]"
+
+#: wp-content\themes\pianoblack/sidebar.php:5
+msgid "INFORMATION"
+msgstr "INFORMACIO"
+
+#: wp-content\themes\pianoblack/sidebar.php:7
+msgid "Change this sentence and title from admin Theme option page."
+msgstr "Ezt a szoveget es cimet az admin - tema beallitasok oldalon valtoztathatod meg."
+
+#: wp-content\themes\pianoblack/sidebar.php:14
+msgid "RECENT ENTRY"
+msgstr "UTOLSO BEJEGYZES"
+
+#: wp-content\themes\pianoblack/sidebar.php:24
+msgid "CATEGORY"
+msgstr "KATEGORIA"
+
+#: wp-content\themes\pianoblack/sidebar.php:32
+msgid "ARCHIVES"
+msgstr "ARHIVUMOK"
+
+#: wp-content\themes\pianoblack/sidebar.php:40
+msgid "LINKS"
+msgstr "LINKEK"
+
+#: wp-content\themes\pianoblack/sidebar.php:72
+msgid "Copyright &copy;&nbsp; "
+msgstr "Minden jog fenntartva &copy;&nbsp; "
+
+#: wp-content\themes\pianoblack/sidebar.php:81
+msgid "Theme designed by <a href=\"http://www.mono-lab.net/\">mono-lab</a>"
+msgstr "Tema design <a href=\"http://www.mono-lab.net/\">mono-lab</a>"
+
+#: wp-content\themes\pianoblack/sidebar.php:82
+msgid "Powerd by <a href=\"http://wordpress.org/\">WordPress</a>"
+msgstr "<a href=\"http://wordpress.org/\">WordPress</a> motorral"
+

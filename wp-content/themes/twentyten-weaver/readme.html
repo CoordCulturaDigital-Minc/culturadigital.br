@@ -1,0 +1,1087 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Twenty Ten Weaver Theme</title>
+  <style type="text/css">
+<!--
+body {
+	background: #eeeeee;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	text-align: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	background-color: #F5F5DC;
+}
+#container {
+	background-color: #00CC00;
+}
+#mainContent {
+	background-color: #FFFFCD;
+}
+
+.oneColFixCtr #container {
+	width: 750px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFCD;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColFixCtr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	font-size:12px;
+}
+h3 {
+	font-size: medium;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: underline;
+}
+h2 {
+	font-size: large;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: underline;
+	margin-top: 40pt;
+}
+.codebox {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 10px;
+	font-style: normal;
+	background-color: #E8E8E8;
+	margin: 10px;
+	padding: 4px;
+	border: 1px solid #333333;
+	color: #000000;
+	width: 80%;
+}
+h1 {
+	font-size: x-large;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: underline;
+}
+.attrs {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color:#000000;
+	text-decoration: none;
+}
+.css {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 9pt;
+	font-style: normal;
+}
+.box {
+	color: #000000;
+	text-decoration: none;
+	margin: 5px;
+	padding: 5px;
+	border: thin solid #000000;
+}
+.nospace {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.style1 {color: #CC6600}
+.style2 {color: #CC0000}
+.style3 {font-family: "Courier New", Courier, monospace}
+-->
+  </style>
+</head>
+<body class="oneColFixCtr">
+<div id="container">
+<div id="mainContent">
+<h2><b>Twenty Ten Weaver Theme Documentation -- Version 1.4</b></h2>
+<h4><a href="#v4releasenotes" title="Important notes about V 1.4">See
+Version 1.4 Release Notes for new features and changes.</a></h4>
+<p>The <em>Twenty Ten Weaver</em> (TTW) Wordpress theme is a pure
+child theme of the new Wordpress 3 standard <em>Twenty Ten</em> theme.
+<em>Twenty Ten Weaver</em> allows you to change many of the colors and
+other aspects of the standard <em>Twenty Ten</em> theme. In addition,
+it allows you to easily add whatever special code you might need (such
+as advertising tracking code), all without having to get into the
+depths of Wordpress theme code.</p>
+<p><em>TTW </em>allows you to build a custom site look by tweaking
+many of the style rules for your Wordpress blog. You can get a very
+customized look just by picking colors and layout options. While the <em>Main
+and
+Advanced Options</em> control panels may look overwhelming, they
+really aren't that hard to use once you play with them a bit. This <em>Help</em>
+document has lots more information to help you design your own site
+look by changing many of the the standard <em>Twenty Ten</em> theme
+styles. Don't know what a style is - don't worry, you just have to pick
+colors and click on check marks.</p>
+<h3>How to get started:</h3>
+<ol>
+  <li>Select one of the predefined sub-themes. There are over a dozen
+to choose from.</li>
+  <li>Go to the <em>Main Options</em> panel. You'll see a list of
+options you can change. Play around with them, and see how the theme
+you selected changes. This may be enough to get a custom theme you like.</li>
+  <li>If you have ad-sense code, or other code from a similar site, you
+can easily add it to your site in the <em>Advanced Options</em> panel.</li>
+  <li>Finally, read the help page. There are lots of tips there, as
+well as fairly detailed explanations of exactly which CSS rules TTW
+supports, and hints on how to go beyond the basics and really customize
+your site.</li>
+</ol>
+<h4>Twenty Ten Weaver vs. 2010 Weaver</h4>
+<p>You may have seen there are two versions of Weaver. The two versions
+function exactly the same. The only difference is whether or not you
+have to have the default Wordpress Twenty Ten theme installed. The
+Twenty Ten Weaver version is what is known as a pure child theme, and
+you must have Twenty Ten installed as well. The 2010 Weaver version
+already includes Twenty Ten in its files, so it will work without
+Twenty Ten.</p>
+<p>The main reason there are two versions is that the Wordpress.org
+theme library will now allow pure child themes, and so the 2010 Weaver
+versions is the one available for direct download from there. You can
+even have both versions installed, and can switch back and forth, but
+you won't see any differences.</p>
+<h4>Using With Wordpress Multisite</h4>
+<p>Twenty Ten Weaver (and 2010 Weaver) will work with no additional
+settings on Wordpress Multisite installations. Because the <em>Advanced
+Options</em> tab allows people to add Javascript, the <em>Advanced
+Options</em> and <em>Save/Restore</em> tabs may be <em>disabled</em>
+by changing a value in the Weaver settings php file. Administrators of
+Multisite installations can edit the <span class="style3">/wp-content/themes/twentyten-weaver/ttw-settings.php</span>
+file and change the <span class="style3">'TTW_MULTISITE_ALLOPTIONS'</span>
+definition to <span class="style3">false</span>, which will then
+disable the Advanced Options and Save/Restore tabs. This setting might
+make a Multisite installation slightly more secure.</p>
+<h3>Design Hints</h3>
+<p>This section has a few hints on designing your own theme.</p>
+<p>Latest Help Info</p>
+<p>This help document is current as of the time of the release of this
+version of Twenty Ten Weaver. The latest revisions of this help page
+can be found at <a href="http://wpweaver.info/downloads/readme.html">Twenty
+Ten
+Weaver Help</a>.</p>
+<h4>Choosing Colors</h4>
+<p>Good themes use related colors. Many times (but not always), when
+you look at the Main Options page, you'll notice that all the colors of
+the should "look good". They don't have to, but having a nicely
+matching set of colors.</p>
+<p>The color picker has an interesting feature. Once you pick a color
+from the left section, the right bar shows different brightness levels
+of that color. This is especially useful for making a color lighter or
+darker.</p>
+<p>Some themes use the same colors for all links, some vary. But using
+the same link hover color for all the different kind of links lends
+consistency to your theme. The same is true for the other colors - try
+for a consistent look in your theme.</p>
+<h4>Testing</h4>
+<p>There a a couple of tricks that can help make testing you theme
+easier. First is the preview window at the bottom of the theme settings
+tabs. However, you might find it easier to open a new tab in your
+browser. Open the theme admin page on one tab, and the main site on the
+other. After you make a change (and save them), you can toggle to the
+second tab and refresh the page.</p>
+<p>Another important thing is to change just one thing at a time. This
+may seem to take longer, but you will really be able to see the effect
+of your change this way and be sure it does what you want.</p>
+<h4>Saving Option Settings</h4>
+<p>After you make any changes to the values of the Main or Advanced
+Options, you must save your changes. If you navigate away from the
+design tabs without first saving your values, everything will be lost.
+This is typical behavior for most Wordpress settings screens.</p>
+<p>After you save your settings, the preview window at the bottom of
+the Twenty Ten Weaver admin page will be updated to show the effects of
+your settings.</p>
+<h4>Saving Your Own Theme</h4>
+<p>Once you have a design you like, you can click the "<em>Save in My
+Saved Theme</em>" button near the bottom of the <em>Main Options </em>tab
+to
+save your theme. You restore that saved theme by selecting it from
+the Sub-Theme list. Your saved theme will then overwrite all options,
+including the <em>Advanced Options</em>. This is the one way to
+preserve all your work, so when you get something you like, save it.
+You can then fiddle and fine tune more without losing your previous
+work.</p>
+<h4>Sidebar and Content Widths</h4>
+<p>This table gives the maximum width of the usable areas of sidebars
+and other areas depending on which sidebar scheme you've selected - <em>using
+the
+standard width of 940px.</em> Usable area is the maximum width of
+an image you could put in the area and still maintain the appropriate
+margins in area. These numbers will change if you use a custom theme
+width.</p>
+<table border="1" cellpadding="4" cellspacing="2" width="700">
+  <tbody>
+    <tr>
+      <td width="15%">&nbsp;</td>
+      <td width="14%">Content</td>
+      <td width="14%">Content<br>
+(single col)</td>
+      <td width="14%">Primary<br>
+Widget Area</td>
+      <td width="14%">Secondary<br>
+Widget Area</td>
+      <td width="14%">Footer<br>
+Widget Areas</td>
+      <td width="14%">Top/Bottom<br>
+Widget Areas</td>
+    </tr>
+    <tr>
+      <td>Default sidebar<br>
+1 right</td>
+      <td>670px</td>
+      <td>800px</td>
+      <td>210px</td>
+      <td>210px</td>
+      <td>220px</td>
+      <td>570px</td>
+    </tr>
+    <tr>
+      <td>Right sidebar<br>
+wider</td>
+      <td>590px</td>
+      <td>800px</td>
+      <td>290px</td>
+      <td>290px</td>
+      <td>220px</td>
+      <td>510px</td>
+    </tr>
+    <tr>
+      <td>One Left</td>
+      <td>630px</td>
+      <td>800px</td>
+      <td>210px</td>
+      <td>210px</td>
+      <td>220px</td>
+      <td>590px</td>
+    </tr>
+    <tr>
+      <td>
+      <p>Two sidebars<br>
+left and right</p>
+      </td>
+      <td>460px</td>
+      <td>800px</td>
+      <td>200px</td>
+      <td>200px</td>
+      <td>220px</td>
+      <td>390px</td>
+    </tr>
+    <tr>
+      <td>
+      <p>Two sidebars<br>
+right side</p>
+      </td>
+      <td>490px</td>
+      <td>800px</td>
+      <td>210px</td>
+      <td>160px</td>
+      <td>220px</td>
+      <td>410px</td>
+    </tr>
+    <tr>
+      <td>Two sidebars<br>
+left side</td>
+      <td>500px</td>
+      <td>800px</td>
+      <td>205px</td>
+      <td>160px</td>
+      <td>220px</td>
+      <td>410px</td>
+    </tr>
+    <tr>
+      <td>No sidebars</td>
+      <td>860px</td>
+      <td>800px</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>220px</td>
+      <td>790px</td>
+    </tr>
+  </tbody>
+</table>
+<p>(Note: it is mostly because of all the different sidebar choices
+that TTW does not let you change the overall width of the theme. The
+inter-relationships of the different sidebars are too complex to allow
+both different sidebar arrangements and a total width option.)</p>
+<h3>Twenty Ten Predefined Sub-Themes</h3>
+<p><em>TTW</em> comes with over a dozen predefined themes. You can use
+them as-is, or as a starting point for your own designs. When you
+select a new sub-theme, <em><strong>all</strong></em> the options
+values from the <em>Twenty Ten Weaver Main Options</em> are cleared
+and set to the new values of the sub-theme. Most of the Advanced
+Options are not changed - except the Special Overrides are set to the
+values required by the new sub-theme.</p>
+<h2>Twenty Ten Weaver Main Options</h2>
+<p>This document gives some hints for using TTW, as well as describing
+some of the technical aspects used to develop the theme. The things you
+can control have been divided into </p>
+<p class="box"><em><strong>Advanced Note</strong></em>: Included at the
+end of each description is some CSS code contained in <span class="css">{braces}</span>.
+This
+information includes which CSS style rules are used to control the
+desired attribute. This information can be useful for those of you who
+know a little CSS. For example, all the link attributes use some form
+of the "<span class="css">a</span>" tag. You can add underlining or
+change font style of links by adding an appropriate CSS style entry to
+the <span class="css">&lt;HEAD&gt;</span> section of the advanced
+options.</p>
+<h3>Header Options</h3>
+<table class="attrs">
+  <tbody>
+    <tr>
+      <td align="left" width="25%">Menu Bar:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color of the main menu
+bar. <span class="css">{#access}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Menu Bar hover BG:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color of the menu item and
+drop down background when hover over item. <span class="css">{#access
+li:hover &gt; a, #access ul ul:hover &gt; a}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Menu Bar text:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color of the main menu bar
+text item when not hovering <span class="css">{#access a}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Menu Bar text hover:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color of the main menu bar
+text item when hovering or current page <span class="css">{#access ul
+ul a, #access li:hover &gt; a, #access ul ul:hover &gt; a}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Bold Menu Text:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Check to use bold font
+style for menu text. <span class="css">{#access, #access li ul ul a}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Move Menu to Top:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Move the menu to above the
+image.<span class="css"> {#header, #access, #site-title}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Larger Site Tagline:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Check to make site Tagline
+larger. <span class="css">{#site-description}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Hide Site Title and Tagline:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Check to hide display of
+Site Title and Tagline <span class="css">{#branding,
+#site-description, #site-title }</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Header Image Height:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Change the default height
+of the Header Image (use 0 to HIDE image). <em>Upload new image in
+Appearance -&gt; Header <u>after</u> changing height.</em> <span
+ class="css">{ }</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Space After Header:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Change the space between
+Header and Body (specify space in px, but just give number, <em>no px</em>).
+
+      <span class="css">{#main}</span></small></td>
+    </tr>
+  </tbody>
+</table>
+<h3><em>General Appearance</em></h3>
+<table class="attrs">
+  <tbody>
+    <tr>
+      <td align="left" width="25%">Main Sidebars:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Choices for one on right
+(default), one on left, 3 varieties of two sidebars, or none. <span
+ class="css">{#container, #content, #primary, #secondary}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Content Font:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Font used for main site
+content. <span class="css">{body, input, textarea, .page-title span,
+.pingback a.url}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Smaller Content Font:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Make font of article and
+post text a bit smaller. <span class="css">{#content, #comments}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Titles Font:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Font used for titles,
+labels, and other text. <span class="css">{h3#comments-title,
+h3#reply-title, #access .menu, #access div.menu ul,
+#cancel-comment-reply-link, .form-allowed-tags, #site-info,
+#site-title, #wp-calendar,<br>
+.comment-meta, .comment-body tr th, .comment-body thead th,
+.entry-content label, .entry-content tr th, .entry-content thead th,
+.entry-meta, .entry-title, .entry-utility, #respond label, .navigation,
+.page-title, .pingback p, .reply, .widget_search label, .widget-title,
+input[type=submit]}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Bar under Titles:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Enter size in px (just
+value, no px) if you want a bar under Titles. Leave 0 for no bar. <span
+ class="css">{.entry-title}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Bar under Widget Titles:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Enter size in px (just
+value, no px) if you want a bar under Widget Titles. Leave 0 for no
+bar. <span class="css">{.widget-title}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Rounded Corners:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Check to use rounded
+corners for main area and colored sidebars. <span class="css">{#content,
+#wrapper,
+#primary, #secondary}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Area Border:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Check to include border
+around main area and colored sidebars. <span class="css">{#wrapper,
+#primary, #secondary}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Header/Footer Border:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color of the border around
+the header image and above the footer area. <span class="css">{#branding
+img,
+#colophon}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">&lt;HR&gt; color:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color of horizontal
+(&lt;hr&gt;) lines in posts and pages. <span class="css">{hr}</span></small></td>
+    </tr>
+  </tbody>
+</table>
+<h3>Theme Text Colors</h3>
+<table class="attrs">
+  <tbody>
+    <tr>
+      <td align="left" width="25%">Blog Title:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color of the blog's main
+title in header. <span class="css">{#site-title a }</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Header text:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Default color for headers
+and other text not otherwise specified. <span class="css">{#content
+strong, #content b, #content dt, #content th',#content h1, #content h2,
+#content h3, #content h4, #content h5, #content h6, h1, h2, h3, h4, h5,
+h6, .page-title, #content .entry-title, .page-link, #entry-author-info
+h2, h3#comments-title, h3#reply-title, .comment-author cite,
+.entry-content fieldset legend }</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Content text:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color for main blog and
+article content. <span class="css">{#content, #content input, #content
+textarea}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Widget Title:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color for Widget titles
+and labels. <span class="css">{.widget-title, .widget_search label,
+#wp-calendar caption}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Widget text:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color for widget content. <span
+ class="css">{body, input, textarea}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Standard Link:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color for most links. <span
+ class="css">{a:link}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Standard Link Visited:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color for links that have
+been visited. <span class="css">{a:visited}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Standard Link Hover:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color for links when
+hovering. <span class="css">{a:active, a:hover}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Widget Link:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color for links in widgets
+(uses Standard Link colors if left to default color). <span class="css">{#primary
+a:link,
+#secondary a:link, #footer-widget-area a:link}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Widget Link Visited:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color for widget links
+that have been visited. <span class="css">{#primary a:visited,
+#secondary a:visited, #footer-widget-area a:visited}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Widget Link Hover:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color for widget links
+when hovering. <span class="css">{#primary a:hover, #secondary
+a:hover, #footer-widget-area a:hover}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Post Entry Title Link:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Post entry title link
+color (blog entry titles are links). <span class="css">{.entry-title
+a:link, .widget_rss a.rsswidget:link}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Post Entry Title Link Visited:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Post entry title links
+that have been visited. <span class="css">{.entry-title a:visited,
+.widget_rss a.rsswidget:visited}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Post Entry Title Link Hover:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Post entry title for links
+when hovering. <span class="css">{.entry-title a:active, .entry-title
+a:hover, .widget_rss a.rsswidget:active, .widget_rss a.rsswidget:hover}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Information text:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Color for secondary and
+information text like dates and small labels. <span class="css">{#comments
+.pingback
+p, #respond label, #respond dt, #respond dd, .entry-meta,
+.entry-content label, .entry-utility, #content .wp-caption, #content
+.gallery .gallery-caption, .navigation}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Information Link:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Links in secondary and
+information text like dates and small labels. <span class="css">{.page-title
+a:link,
+.entry-meta a:link, .entry-utility a:link, .navigation a:link,
+.comment-meta a:link, .reply a:link, a.comment-edit-link:link}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Information Link Visited:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Visited Information Links.
+      <span class="css">{.page-title a:visited, .entry-meta a:visited,
+.entry-utility a:visited, .navigation a:visited, .comment-meta
+a:visited, .reply a:visited, a.comment-edit-link:visited}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Information Link Hover:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Hovering on Information
+links. <span class="css">{.page-title a:active, .page-title a:hover,
+.entry-meta a:hover, .entry-meta a:active', .entry-utility a:hover,
+.entry-utility a:active, .navigation a:active, .navigation a:hover,
+.comment-meta a:active, .comment-meta a:hover, .reply a:active,
+a.comment-edit-link:active, .reply a:hover, a.comment-edit-link:hover}</span></small></td>
+    </tr>
+  </tbody>
+</table>
+<h3>Theme Background Colors</h3>
+<table class="attrs">
+  <tbody>
+    <tr>
+      <td align="left" width="25%">Wrapper Page BG:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Background for top level
+#wrapper div - default BG if you don't change others. <span class="css">{#wrapper}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Main Area BG:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Background for main page
+#main div - wraps container, content and sidebars (uses wrapper bg if
+not set). <span class="css">{#main}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Container Area BG:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Background for #container
+div - wraps content and sidebars (uses wrapper bg if not set). <span
+ class="css">{#container}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Content BG:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Background for post and
+page content area (uses main bg if not set). <span class="css">{#content}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">XX Widget Area BG:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Background for the four
+widget areas. <span class="css">{#primary, etc.}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Footer BG:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Background for the footer
+area. <span class="css">{#footer}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Outside BG:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Background color that
+wraps entire page. Using Appearance-&gt;Background will override this
+value, or allow a background image instead.<span class="css">{body}</span></small></td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+<h2>Twenty Ten Weaver Advanced Options</h2>
+<p>The Advanced Options page allows you to save pieces of HTML code
+required by third-party plugins and widgets. You can also use them to
+save Google Maps/Analytics/AdSense javascript snippets. You will need
+to understand a bit of HTML coding to used these fields effectively.</p>
+<p>The values you put here are saved in the Wordpress database, and
+will survive theme upgrades and other changes. When you select a new
+sub-theme, all the <em>Advanced Options</em> are left untouched
+(except the <em>Special Theme Overrides</em>, which are set by the new
+sub-theme). However, if you pick "My Saved Theme", then all Advanced
+options are replaced. The idea is that you can use the Advanced Options
+to set up things you want, and try different sub-theme looks without
+losing your work. But if you restore "My Saved Theme", then you should
+get back what you really saved.</p>
+<p>PLEASE NOTE: NO validation is made on the field values, so be
+careful not to paste invalid code. Invalid code is usually harmless,
+but it can make your site display incorrectly. If your site looks
+broken after you add stuff here, please double check that what you
+entered uses valid HTML commands. Also note that backslashes will be
+stripped.</p>
+<hr> <label><b>&lt;HEAD&gt; Section</b></label> <br>
+Code entered in the <span class="css">&lt;HEAD&gt;</span> box is
+included right before <span class="css">&lt;/HEAD&gt;</span> tag in
+your site. You can add <em>custom CSS</em> here to further enhance the
+look of your site. The section covering the various include sub-themes
+includes specific examples of CSS used to get a particular effect.
+Another use is for <span class="css">&lt;META&gt;</span> tags for
+description or bot search terms. (This field is also useful for
+entering links to javascript files or anything else that belongs in the
+<span class="css">&lt;HEAD&gt;</span>, but this use will be uncommon -
+usually you can find a WP Plugin to do what you need.) <br>
+<br>
+<br>
+<label><b>Site Header Insert Code</b></label>
+<p>This must be HTML markup code (including WP shortcodes), and will be
+inserted into the #branding div header area right above where the
+standard site header image goes. You can use it for logos, better site
+name text - whatever. When used in combination with hiding the site
+title, header image, and the menu, you can design a completely custom
+header. </p>
+<p>Note that this code will be after or before the default Primary menu
+depending on the move menu setting. You can completely replace the
+default menu (hide it), but you will have to hard-wire the links to
+pages in your replacement menu. </p>
+<p>If you hide the title, image, and header, no other code is generated
+in the #branding div, so the code here can be a complete header
+replacement. You will almost certainly need to add some CSS style, too.
+(We've added a class called ttw-center which you can use to div-wrap
+your insert code to center it:<br>
+<span class="css">&lt;div class="ttw-center"&gt;[shortcode]&lt;/div&gt;</span>)
+</p>
+<p>You can also override the CSS <span class="css">#branding </span>rule,
+create
+a new <span class="css">div</span>, or use in-line styling. One
+of the most flexible capabilities of the section is the ability to
+embed Wordpress shortcodes. This might be most useful for adding a
+rotating header image using a plugin such as Meteor Slides or WP-Cycle.</p>
+<p>For example, assume you've installed the Meteor Slides plugin, and
+have uploaded your rotating header images for the plugin to use. To add
+this slide show header image, you should first disable the default
+header image by setting the header image size to zero in the <em>Main
+Options</em> tab. Then, add this code to the Site Header Insert Code
+box:</p>
+<p><span class="css">&lt;div
+class="ttw-center"&gt;[meteor_slideshow]&lt;/div&gt;</span></p>
+<p>Note that the built-in <span class="css">ttw-center</span> CSS
+class will ensure the slide show is displayed properly. Without
+appropriate CSS styling, you may get unexpected placement of the plugin
+output. The <span class="css">ttw-center</span> class will usually do
+what you want.</p>
+<label><b>Site Footer Area</b></label> <br>
+This code will be inserted into the site footer area, right before the
+before the "Powered by" credits, but after any Footer widgets. This
+could include extra information, visit counters, etc. You can use HTML
+here, so include style tags if you want! And like the Site Header
+Insert Code section, you can also use shortcodes.<br>
+<br>
+<br>
+<label><b>The Last Thing</b></label> <br>
+This code is inserted right before the closing <span class="css">&lt;/body&gt;</span>
+tag. This is the best place for your Google analytics code other final
+code that is not usually displayed. <br>
+<br>
+<br>
+<label><b>Special Theme &lt;HEAD&gt; Section Overrides</b></label> <br>
+The entries in this field are usually generated by some of the example
+themes provided with Twenty Ten Weaver. You can fiddle with them, but
+it is generally better to use the regular <span class="css">&lt;HEAD&gt;</span>
+overrides. (Note: this code is included before the standard <span
+ class="css">&lt;HEAD&gt;</span> section code above.) <br>
+<h2>Twenty Ten Weaver Advanced Topics</h2>
+<h2>Custom Menus</h2>
+<p>One of the new features included with Wordpress 3 is support for
+custom menus. By using the <em>Appearance-&gt;Menus</em> panel, you
+can create a menu completely under your control. While the standard
+Twenty Ten only supports one custom menu, Weaver supports two. If you
+have defined two custom menus, they will be placed above and below the
+site header image.</p>
+<p>Custom Menus can let you really customize site navigation. One
+typical use of multiple menus is one for pages, the other organized by
+category or tags. But you have complete control. However, which menus
+show can be a bit confusing. There are three specific cases of
+specifying menus that are most likely to be useful:</p>
+<ol>
+  <li><strong>No Custom Menus Defined</strong><br>
+This might be the most common case. If you don't use the <em>Menus</em>
+panel, and don't define any custom menus, then the theme will
+automatically generate a menu based on your pages (including Home)
+using the page order defined in the page editor when you create pages.
+This is the legacy method, and works fine for many situations.<br>
+    <br>
+  </li>
+  <li><strong>Defining One or Two Custom Menus</strong><br>
+You can also define one or two custom menus. The two menus supported by
+Weaver are called the Primary and Secondary Menus. If you define a
+Primary Menu, then it will be the main menu bar normally under the
+Header Image. If you don't define a Secondary menu, then only one will
+be displayed. If you define the Secondary Menu, then it will normally
+be displayed above the Header Image. You can switch the order of the
+two menus either using the <em>Main Options</em> tab, or by switching
+the order in the <em>Menus</em> panel.<br>
+    <br>
+Normally, both menu bars will use the same menu bar color scheme. When
+you've selected the rounded area option, the top menu bar will have the
+top edge rounded, and the bottom menu bar the lower edge rounded. This
+look great with a square Header Image.<br>
+    <br>
+You can use CSS snippets to change the color of the Secondary menu bar
+- it uses <span class="css">#access2</span> for its CSS tags.<br>
+    <br>
+  </li>
+  <li><strong>Define Only Secondary Custom Menu</strong><br>
+If you define only the Secondary Menu and leave the Primary Navigation
+theme location blank, then Weave will display two menu bars - the
+Secondary Menu bar on top as you defined, and the default menu with
+pages (as discussed in #1 above) on the bottom menu bar.</li>
+</ol>
+<h3>Miscellaneous Notes</h3>
+<ul>
+  <li><strong>Default Color Values</strong><br>
+The default color values for the various elements you can change are
+the same values as used in the parent Twenty Ten theme. When an item
+has the default value, the color is inherited from the parent theme -
+no CSS is generated to override the parent color. <br>
+    <br>
+Sometimes, however, you might want to use the default color, but still
+have a CSS rule generated. One case, for example, is having white
+content or sidebar backgrounds while having a different body background
+color. Because no CSS will be generated for those backgrounds if the
+default "#FFFFFF" value is used, you have to use some trickery - like
+using a close non-default value. The "Dark - 2 Right Sidebars" theme
+demonstrates this. The theme uses "#FFFFFE" for those background
+colors, which is almost pure , to force a CSS color property to be
+generated so the sidebars show up in white. If the default were used,
+the backgrounds would inherit the dark surrounding background.<br>
+    <br>
+  </li>
+  <li><strong>Things you can't do</strong><br>
+Because of the design of Twenty Ten Weaver as a "strict" child theme of
+Twenty Ten, there are some things you can't really do using CSS
+overrides. For example, the Sidebars are placed outside of the main
+content area.<br>
+  </li>
+</ul>
+<h2>Technical Notes</h2>
+<p>The <em>Twenty Ten Weaver</em> theme is a child theme of the <em>Twenty
+Ten</em> theme now standard for Wordpress 3. As this theme is currently
+implemented, all the changes you can make to the default <em>Twenty Ten</em>
+theme are accomplished using CSS style rules.
+Don't worry - you don't have to know them to use the options panel of
+TTW. But that does mean that there is nothing you can do about the
+order that the content is generated by the parent theme. But mostly
+that doesn't matter - the parent theme has made many very good choices
+on how it generates site content. </p>
+<h2><a name="divhierarchy" id="divhierarchy"></a>Twenty Ten HTML
+&lt;div&gt; Hierarchy</h2>
+<p>The Twenty Ten theme generates content that is wrapped in HTML
+&lt;div&gt;'s with a set of conventional names. A typical site page
+will have the following hierarchy. Knowing this can help you make
+additional custom modifications. (Another useful thing to do is to use
+the "View Document Source" option of your web browser to see the actual
+HTML generated by Wordpress for your site content.)</p>
+<pre class="codebox">#wrapper<br>	#header<br>		#masthead<br><br>  # main<br>	    #container<br>			#content<br>				#comments<br><br>		#primary<br>		#secondary<br>	#footer<br>		#colophon</pre>
+<p>&nbsp;</p>
+<h2>Notes on Example Themes</h2>
+<p>Here are some notes to discuss some of the special CSS rules that
+were added to give the sub-themes a better look, as well as other
+aspects of the designs. Note that this code is part of the internal
+theme definition, but is displayed in the <em>Special Theme
+&lt;HEAD&gt; Section Overrides section</em> of the Advanced Options
+panel. You can accomplish similar effects by adding rules to the <span
+ class="css">&lt;HEAD&gt;</span> section. It is better not to use the
+Special Theme section since that gets replaced if you select a new
+theme. Code in the <span class="css">&lt;HEAD&gt; </span>section is
+preserved.</p>
+<h4>Dark - 2 Left Sidebars</h4>
+<p>This theme add a very simple rule that is used in some of the other
+themes - it adds some space below the widget title. You can use the
+same style name to change the font style, add a box, or whatever. But
+adding space seems to help the look of some themes.&nbsp;</p>
+<p class="codebox">.widget-title {margin-bottom:10px;}</p>
+<h4>Blue</h4>
+<p>This style rule adds some space to the top of the content box to
+make the theme look a bit better.</p>
+<p class="codebox">#content{padding-top:15px;}</p>
+<h4>Dark with Green</h4>
+<p>This makes a couple of things italic, and adds some padding to the
+top of the content box.</p>
+<p class="codebox">.entry-title {font-style:italic;}<br>
+#content{padding-top:15px;}<br>
+#branding h1 {font-style:italic;}</p>
+<h4>Reds</h4>
+<p>The Reds theme uses several CSS styles to help give it its look. The
+ones with <span class="css">border</span> values add the white bars.
+The <span class="css">#branding</span> rules add the right color at
+the top. And we add some italic.&nbsp;</p>
+<p class="codebox">#main{border-top-style:solid; border-top-width: 5px;
+border-top-color: #FFFFFF;}<br>
+#primary{border-left-style:solid; border-left-width: 5px;
+border-left-color: #FFFFFF;padding-top:10px;}<br>
+#content{padding-top: 10px}<br>
+#secondary{border-left-style:solid; border-left-width: 5px;
+border-left-color: #FFFFFF;}<br>
+.widget-title {margin-bottom:12px;}<br>
+#branding{background-color:#660000;}<br>
+#branding a{margin-left:15px;font-style:italic;}<br>
+#content h2, #content h1{font-style:italic;}</p>
+<h4>Tan and Gray</h4>
+<p>We use the #header rule to fix the color at the top. We add some
+padding to the site title, and fiddle with margins in the footer. We
+make the blog post titles bigger.&nbsp;</p>
+<p class="codebox">#header{background-color:#9D8851;}<br>
+#content{padding-top:15px;}<br>
+.entry-title h1,.entry-title
+a{font-size:30px;font-weight:normal;line-height:35px;}<br>
+.widget-title
+{font-size:30px;font-weight:normal;line-height:35px;margin-bottom:5px;}<br>
+#colophon a{color:#333333;}#branding a{margin-left:15px;}<br>
+#footer-widget-area{margin-left:10px;}</p>
+<h4>Orange</h4>
+<p>This adjusts the widget titles, and add some padding and dotted
+borders.&nbsp;</p>
+<p class="codebox">.widget-title
+{font-size:130%;margin-bottom:8px;border-bottom: 1px dotted #C4BCB0;}<br>
+#content p{padding-left:15px;}<br>
+#content .post {border-top: 1px dotted #DBD2C4;border-bottom: 1px
+dotted #C4BCB0;margin-bottom:10px;}</p>
+<h4>Simple Silver</h4>
+<p>These two rules add the boxes around the post information. Note that
+the post information comes partly at the top and partly at the bottom
+of the post content. Many themes combine this information into one
+section, but Twenty Ten has the information split around the post.
+Changing this would require more than simple style rule changes.</p>
+<p class="codebox">.entry-meta {padding:4px 0 4px
+20px;background-color:#F8F8F8; border: solid 1px
+#A0A0A0;font-style:bold;}<br>
+.entry-utility {padding:4px 0 4px 20px;background-color:#C0C0C0;
+border: solid 1px #A0A0A0;font-style:bold;}</p>
+<p>&nbsp;</p>
+<h4>Ivory Drive example notes</h4>
+<p>The Ivory Drive example is based on the web site of Ivory Drive
+(IvoryDrive.com). As is the case with several of the example themes,
+you have to set the header in the Appearance Admin menu to the Ivory
+Drive header.</p>
+<p>This example has a couple of interesting items. First, the header
+image was crafted to fit with the left-hand sidebar. The left hand
+sidebar is 240px wide, so the band photo on the left was made to be
+240px. This led to a header image height of 167px. So as you can see
+from this example, it is possible to craft a special header image that
+corresponds to the settings of the rest of your theme.</p>
+<p>We use the <span class="css">{.widget-title}</span> style to
+override the color of the bar under the widget titles. Here's the code:</p>
+<pre class="codebox">.widget-title {border-bottom: 2px solid #737373; font-variant: small-caps;}</pre>
+<p>&nbsp;</p>
+<h3>More Help - Suggestions</h3>
+<p>The <em>Twenty Ten Weaver</em> page at WPWeaver.info allows
+comments. You can leave questions or comments there. No promises on how
+quickly you will get a response, however. I have a lot of other
+projects going, and travel some, so I might not get a chance to respond
+immediately, but I will try. If this theme becomes popular, I might
+create a support forum for it. But for now - just comments.</p>
+<p>Thanks for checking out <em>Twenty Ten Weaver</em>. Hope you create
+a beautiful Wordpress theme with it!<!-- end #mainContent --> </p>
+<p>&nbsp;</p>
+<hr>
+<h2><a name="v3releasenotes" id="v3releasenotes"></a>Version 1.3
+Release Notes </h2>
+<p>Weaver Version 1.3 has some significant enhancements and <a
+ href="#changes13">changes</a> over previous versions. It is possible
+you will have to make a couple of minor changes to your theme to have
+it look exactly the way it did before.</p>
+<strong>More Header Options</strong>
+<ul>
+  <li>Option for Header Image to be a link to site</li>
+  <li>Move Site Title and Description over Header Image</li>
+  <li>Gradient on Menu Bar</li>
+  <li>New special purpose header widget area for social links and more</li>
+  <li>Support for <a
+ href="http://wordpress.org/extend/plugins/dynamic-headers/">Dynamic
+Headers</a> plugin (gives you total control over which header image
+appears on which page and more)</li>
+</ul>
+<strong>Improved Widget Area Options</strong>
+<ul>
+  <li>Top and Bottom Widget Areas can be full width</li>
+  <li>Better control on which pages Top and Bottom Widget areas show</li>
+</ul>
+<strong>Other new and improved features</strong>
+<ul>
+  <li>Color picker boxes now allow text - e.g. <em>blue, transparent,
+inherit</em>, etc.</li>
+  <li>Improved Save/Restore of your own designed sub-themes</li>
+  <li>Optional styling for tables - gets around the huge default
+padding in Twenty Ten</li>
+  <li>More options, including none, for list bullets</li>
+  <li>New Admin options (e.g., hide site preview)</li>
+  <li>Significantly faster generating pages</li>
+  <li>Theme extensions (e.g., Slider) now done with plugins</li>
+  <li>Separate Multi-Weaver discontinued - now merged into Weaver.
+Significant new features for WP Multisite.</li>
+</ul>
+<p><strong><a name="changes13" id="changes13"></a>Changes to Weaver
+Functionality</strong></p>
+<p><strong>1. Area Background Colors</strong></p>
+<p>The most significant change to Weaver involves how the background
+colors of the major areas are handled. These background colors are set
+in the Theme Background Colors section of the Main Options tab of the
+admin page. These are the areas, and the corresponding CSS &lt;div&gt;
+names:</p>
+<table class="attrs">
+  <tbody>
+    <tr>
+      <td align="left" width="25%">Wrapper Page BG:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Background for top level
+#wrapper div - default BG if you don't change others. <span class="css">{#wrapper}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Main Area BG:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Background for main page
+#main div - wraps container, content and sidebars (uses wrapper bg if
+not set). <span class="css">{#main}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Container Area BG:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Background for #container
+div - wraps content and sidebars (uses wrapper bg if not set). <span
+ class="css">{#container}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Content BG:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Background for post and
+page content area (uses main bg if not set). <span class="css">{#content}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">XX Widget Area BG:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Background for the four
+widget areas. <span class="css">{#primary, etc.}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Footer BG:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Background for the footer
+area. <span class="css">{#footer}</span></small></td>
+    </tr>
+    <tr>
+      <td align="left">Outside BG:&nbsp;</td>
+      <td style="padding-left: 10px;"><small>Background color that
+wraps entire page. Using Appearance-&gt;Background will override this
+value, or allow a background image instead.<span class="css">{body}</span></small></td>
+    </tr>
+  </tbody>
+</table>
+<p>Previous versions of Weaver had gotten this wrong in two ways.
+First, it used White as the background colors for the &lt;div&gt;'s
+nested inside the #wrapper &lt;div&gt;. This was partly from a
+limitation in the color picker that didn't allow <em>transparent</em>
+as a value. It turns out that <em>transparent</em> is the "correct"
+value for these &lt;div&gt;'s. The <a href="#divhierarchy">chart</a>
+that shows the &lt;div&gt; hierarchy can help understand how these
+&lt;div&gt;'s interact.</p>
+<p>If you've set colors for most of your own BG areas, then it is
+likely you will see no difference in how your theme looks. However, 1.3
+has added the "Container" setting. The previous versions incorrectly
+set the #container &lt;div&gt; using the "Content BG" setting. Each of
+these settings now apply to the correct &lt;div&gt;. <span
+ class="style2">If you have an issue with your content area not having
+the correct background color or incorrect rounded corners, try setting
+the new Container Area BG to the old value, and set the current Content
+BG to <em>transparent</em> and things should be fine.</span></p>
+<p><strong>2. Theme Save File Extension</strong></p>
+<p>The file extension used for Weaver saved theme files. Previously,
+the extension was <span class="style3">.txt</span>. That has been
+changed to <span class="style3">.wvr</span>. The actual format of the
+file has not changed. If you have old themes saved, simply rename them
+and change the extension from <span class="style3">.txt</span> to <span
+ class="style3">.wvr</span>.</p>
+<p><strong>3. SEO Tags</strong></p>
+<p>A new advanced option called "SEO Tags" has been added. Search
+Engine Optimization is somewhat of a black art, and this provides
+minimal support. The difference is that previously, the meta tags now
+included here were in the &lt;HEAD&gt; Section, which meant your tags
+were saved in any themes you saved, which isn't exactly correct. Now,
+these SEO meta tags are not saved with theme settings, but are just
+site specific. If you had filled in the meta tags on your old versions,
+you should remove them from the &lt;HEAD&gt; Section, and copy them
+here.</p>
+<p><strong>4. The Last Thing</strong></p>
+<p>Just as the SEO tags don't belong with the theme, the code you
+include in this section are site specific. They will not longer be
+saved with a theme. If you have an old saved theme, however, the
+settings will be copied over automatically.</p>
+<p>&nbsp;</p>
+<hr>
+<h2><a name="v4releasenotes" id="v4releasenotes"></a>Version 1.4
+Release Notes </h2>
+Weaver 1.4 has a few changes and some new features. This is a summary
+of the changes:<br>
+<ol>
+  <li>Two new sub-themes<br>
+Transparent Dark and Transparent Light. These two themes use
+transparent backgrounds, and can make truly beautiful sites when used
+with an appropriate background image or solid color.<br>
+    <br>
+  </li>
+  <li>Icons for Post Meta Info<br>
+A set of icons suitable for using with the Meta Information above and
+below Blog Posts has been included. You can use the default set (a gray
+theme that works well with almost any color) with a Main Options check
+mark, or use custom CSS in the &lt;HEAD&gt; Section. There is also a
+check mark option to remove the fill-in text (e.g., 'Posted on', 'by',
+etc.) in the info lines, which allows a very nice icon-only look. There
+are a number of icons available for your custom use in the
+/wp-content/themes/twentyten-weaver/images/icons directory.<br>
+    <br>
+  </li>
+  <li>Advanced Option to customize copyright<br>
+You can now put a totally customized copyright notice in the footer to
+replace the automatically generated one. There is also a check mark to
+hide the "Powered by" credit if you really don't want to give credit to
+WordPress and WPWeaver.<br>
+    <br>
+  </li>
+  <li>Advanced Option to Clear the Weaver database<br>
+Sometimes it is just best to start over. This new option allows you to
+clear the existing Weaver settings back to the original default values.<br>
+    <br>
+  </li>
+  <li>Internet Explorer fixes<br>
+Code was added to support rounded corners in the upcoming IE 9. A long
+unreported problem with a bug in IE that made it display the color
+boxes&nbsp; was fixed to work around the problem.<br>
+  </li>
+</ol>
+<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+</body>
+</html>

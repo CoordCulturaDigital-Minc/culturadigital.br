@@ -1,0 +1,705 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fusion 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-12 14:12+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: digitalnature <hello@digitalnature.ro>\n"
+"Language-Team: digitalnature.ro <hello@digitalnature.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes\\fusion\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/404.php:5
+msgid "Page not found (404)"
+msgstr "Side ikke fundet (404)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/404.php:7
+msgid "Try one of these links:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:9
+#, php-format
+msgid "Archive for category %s"
+msgstr "Arkiv over kategorien %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:11
+#, fuzzy, php-format
+msgid "Posts Tagged %s"
+msgstr "Indlæg tagget med"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:15
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:17
+#, php-format
+msgid "Archive for %s"
+msgstr "Arkiv over %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:13
+msgid "F jS, Y"
+msgstr " j. F, Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:15
+msgid "F, Y"
+msgstr "F, Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:17
+msgid "Y"
+msgstr "Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:19
+msgid "Author Archive"
+msgstr "Forfatter arkiv"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:21
+msgid "Blog Archives"
+msgstr "Blogarkiv"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:26
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:12
+#, fuzzy
+msgid "Permanent Link:"
+msgstr "Permanent link til"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:31
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:17
+#, php-format
+msgid "Posted by %s in %s on %s"
+msgstr "Lagt op af %s i %s den %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:31
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:17
+#, php-format
+msgid "Posts by %s"
+msgstr "Indlæg af %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:36
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:23
+msgid "Read the rest of this entry &raquo;"
+msgstr "Læst resten af dette indlæg &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+msgid "No Comments"
+msgstr "Ingen Kommentarer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+msgid "% Comments"
+msgstr "% Kommentarer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:59
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:45
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:30
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Ældre Indlæg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:60
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:55
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:14
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:31
+msgid "Newer Entries &raquo;"
+msgstr "Nyere Indlæg &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:66
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Vi er ked af at måtte sige det, men der er endnu ikke nogen indlæg i kategorien %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:68
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Vi er ked af at måtte sige det, men der er ikke nogen indlæg fra denne dato."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:71
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Vi er ked af at måtte sige det, men %s har endnu ikke skrevet nogle indlæg."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:73
+msgid "No posts found."
+msgstr "Ingen indlæg fundet"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archives.php:10
+msgid "Archives by Month:"
+msgstr "Månedlige Arkiver:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archives.php:14
+msgid "Archives by Subject:"
+msgstr "Emneopdelte Arkiver:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:25
+msgid "This user hasn't shared any biographical information"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:30
+#, fuzzy
+msgid "Homepage:"
+msgstr "Forsiden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:31
+msgid "Yahoo Messenger:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:32
+msgid "Jabber/GTalk:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:33
+msgid "AIM:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+msgid "Tags: "
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+#, fuzzy, php-format
+msgid "Posted in %s"
+msgstr "Indlæg af %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+msgid "Edit"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:60
+#, fuzzy
+msgid "No posts found by this author."
+msgstr "Ingen indlæg fundet"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Indtast dit kodeord for at se kommentarer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:19
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:20
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:39
+msgid "No comments yet."
+msgstr "Endnu ingen kommentarer."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:60
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Du skal være <a href=\"%s\">logget ind</a> før du kan poste en kommentar."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:67
+msgid "Cancel Reply"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:73
+#, fuzzy, php-format
+msgid "Logged in as %s."
+msgstr "Logget ind som %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:75
+msgid "Log out of this account"
+msgstr "Log ud af denne konto"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:75
+msgid "Logout &raquo;"
+msgstr "Log ud &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:79
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Hej igen, <strong>%s</strong>."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:79
+msgid "Change &raquo;"
+msgstr "Ændr &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:79
+msgid "Close &raquo;"
+msgstr "Luk &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:84
+msgid "Name"
+msgstr "Navn"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:84
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:88
+msgid "(required)"
+msgstr "(påkrævet)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:88
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:88
+msgid "(will not be published)"
+msgstr "(bliver ikke vist offentligt)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:92
+msgid "Website"
+msgstr "Website"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:111
+#, php-format
+msgid "Spam protection: Sum of %s + %s = ?"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:121
+msgid "Submit Comment"
+msgstr "Indsend Kommentar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:138
+msgid "No trackbacks yet."
+msgstr "Endnu ingen trackbacks."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:151
+msgid "Comments are closed."
+msgstr "Lukket for kommentarer."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:39
+#, fuzzy, php-format
+msgid "Fusion theme by %s"
+msgstr "Fusion tema af"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:41
+#, fuzzy, php-format
+msgid "powered by %s"
+msgstr "drevet af"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:44
+msgid "Entries (RSS)"
+msgstr "Indlæg (RSS)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:44
+msgid "and"
+msgstr "og"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:44
+msgid "Comments (RSS)"
+msgstr "Kommentarer (RSS)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:51
+msgid "Increase/Decrease text size"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:52
+msgid "Switch between full and fixed width"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:139
+#, fuzzy
+msgid "Fusion settings"
+msgstr "Fusion Tema Indstillingsmuligheder"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:148
+#, fuzzy
+msgid "Fusion theme settings"
+msgstr "Fusion Tema Indstillingsmuligheder"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:150
+msgid "Settings saved."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:198
+msgid "General"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:207
+msgid "Use jQuery"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:207
+msgid "(Don't change this unless you know what you're doing)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:209
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:242
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:312
+msgid "Yes"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:211
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:245
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:315
+msgid "No"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:218
+#, fuzzy
+msgid "Homepage meta keywords"
+msgstr "Meta keywords:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:218
+msgid "(Separate with commas. Tags are used as keywords on other pages. Leave empty if you are using a SEO plugin)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:229
+msgid "Index page/Archives show:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:231
+msgid "Full posts"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:233
+msgid "Excerpts only"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:240
+msgid "Show layout controls (Aa/<>)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:258
+msgid "Header"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:266
+msgid "Top navigation shows"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:268
+msgid "Pages"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:270
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:477
+msgid "Categories"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:278
+msgid "Header background"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:282
+msgid "Theme default (gray noise)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:283
+msgid "User defined image(s) (upload)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:284
+msgid "User defined color"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:289
+msgid "Centered image (upload a 960x200 image for best fit):"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:294
+msgid "Tiled image, repeats itself across the entire header (centered image will show on top of it, if specified):"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:300
+msgid "Pick a color"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:310
+msgid "Logo image"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:318
+#, fuzzy
+msgid "Upload a custom logo image"
+msgstr "Brug eget logobillede"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:334
+#, fuzzy
+msgid "Sidebar"
+msgstr "Søg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:342
+#, fuzzy
+msgid "Sidebar position"
+msgstr "Sidebarposition:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:344
+msgid "Left"
+msgstr "Venstre"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:347
+msgid "Right (default)"
+msgstr "Højre (standard)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:359
+msgid "Footer"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:367
+msgid "Add content"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:367
+msgid "(HTML allowed)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:383
+msgid "User CSS code"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:392
+msgid "Modify anything related to design using simple CSS"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:392
+msgid "Avoid modifying theme files and use this option instead to preserve changes after update"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:422
+#, fuzzy
+msgid "Save changes"
+msgstr "Gem Ændringer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:492
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:508
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:547
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:548
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/searchform.php:7
+msgid "Search"
+msgstr "Søg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:536
+msgid "Search handled by:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:541
+msgid "Find <code>name='cx'</code> in the <strong>Search box code</strong> of <a href='http://www.google.com/coop/cse/'>Google Custom Search Engine</a>, and type the <code>value</code> above.<br/>"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:601
+#, fuzzy, php-format
+msgid "%s by %s on %s %s"
+msgstr "Lagt op af %s i %s den %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:608
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer gennemlæsning."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:619
+msgid "Reply"
+msgstr "Besvar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:621
+msgid "Quote"
+msgstr "Citér"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:179
+msgid "You are Home"
+msgstr "Du er på Forsiden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:179
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:181
+msgid "Home"
+msgstr "Forsiden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:181
+msgid "Click for Home"
+msgstr "Klik for Forsiden"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:27
+#, fuzzy, php-format
+msgid "This entry was posted on %s and is filed under %s. You can follow any responses to this entry through %s."
+msgstr "Du kan følge reaktionerne på dette indlæg via"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:31
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Du kan <a href=\"#respond\">skrive et svar</a>, eller <a href=\"%s\" rel=\"trackback\">trackback</a> fra dit eget website."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:35
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Der er p.t. lukket for besvarelser, men du kan <a href=\"%s\" rel=\"trackback\">trackback</a> fra dit eget website."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:39
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Du kan springe direkte til bunden og lægge et svar. Det er p.t. ikke tilladt at pinge."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:43
+msgid "Both comments and pings are currently closed."
+msgstr "Såvel kommentarer som pings er lukkede p.t."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:45
+msgid "Edit this entry"
+msgstr "Rediger dette indlæg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:50
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Desværre, der var ingen vedhæftede filer, som matchede dine kriterier"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:51
+msgid "Not Found"
+msgstr "Ikke Fundet"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:52
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Vi er kede af at måtte sige det, men du leder efter noget som ikke er her."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page-3col.php:16
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page-nosidebar.php:16
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page.php:12
+msgid "Read the rest of this page &raquo;"
+msgstr "Læs resten af denne side &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:8
+msgid "Search Results"
+msgstr "Søgeresultater"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:36
+msgid "No posts found. Try a different search?"
+msgstr "Der blev ikke fundet nogen indlæg. Prøv en anden søgning?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:13
+#, fuzzy, php-format
+msgid "You are currently browsing the archives for the %s category."
+msgstr "Du gennemser arkiverne over kategorien %1$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:16
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:19
+#, fuzzy, php-format
+msgid "You are currently browsing the archives for %s"
+msgstr "Du gennemser arkiverne over %1$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:16
+msgid "l, F jS, Y"
+msgstr "l, j. F Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:22
+#, fuzzy, php-format
+msgid "You are currently browsing the archives for the year %s"
+msgstr "Du gennemser akiverne over året %1$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:25
+#, fuzzy, php-format
+msgid "You have searched the archives for %s."
+msgstr "Du har søgt i arkiverne efter"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:28
+msgid "You are currently browsing the archives."
+msgstr "Du gennemser arkiverne."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:68
+msgid "Archives"
+msgstr "Arkiver"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:79
+msgid "Meta"
+msgstr "Meta"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/single.php:55
+msgid "Sorry, no posts matched your criteria."
+msgstr "Vi er ked af at måtte sige det, men der var ingen indlæg som matchede dine kriterier."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/yarpp-template-fusion.php:5
+msgid "Related Posts"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/yarpp-template-fusion.php:13
+msgid "No related posts."
+msgstr ""
+
+#~ msgid "on"
+#~ msgstr "den"
+#~ msgid "Leave a comment"
+#~ msgstr "Skriv en kommentar"
+#~ msgid "Sorry, the comment form is closed at this time."
+#~ msgstr ""
+#~ "Vi er ked af at måtte sige det, men kommentarformularen er lukket p.t."
+#~ msgid "Close this window."
+#~ msgstr "Luk dette vindue."
+#~ msgid "Subscribe to comments feed"
+#~ msgstr "Abonner på kommentar-feedet"
+#~ msgid "Separate with commas"
+#~ msgstr "adskil med kommaer"
+#~ msgid "Upload your logo as \"logo.png\" in the theme directory:"
+#~ msgstr "Upload dit logo som \"logo.png\" i temaets mappe:"
+#~ msgid "You should export the logo image with transparency enabled"
+#~ msgstr "Logoet bør eksporteres med transparens slået til"
+#~ msgid "Disable homepage tab"
+#~ msgstr "Slå forside-flappen fra"
+#~ msgid "Check this if you are using a static page as the homepage"
+#~ msgstr "Sæt kryds hvis du benytter en statisk side som forside"
+#~ msgid "Show the categories as header tabs"
+#~ msgstr "Vis kategorier som sidehoved-flapper"
+#~ msgid "(instead of pages)"
+#~ msgstr "(istedet for sider)"
+#~ msgid "Disable the default category block in the sidebar"
+#~ msgstr "Slå kategoriblokken i sidebar'en fra (slået til som standard)"
+#~ msgid ""
+#~ "Check if you prefer the widgetized category display or just want to hide "
+#~ "the categories"
+#~ msgstr ""
+#~ "Sæt kryds hvis du foretrækker den widget-agtige måde at vise kategorier "
+#~ "på, eller hvis du blot vil gemme kategorierne"
+#~ msgid "Disable the default search block in the sidebar"
+#~ msgstr "Slå søgeblokken i sidebar'en fra (slået til som standard)"
+#~ msgid "Check if you don't like the theme-default search look"
+#~ msgstr ""
+#~ "Sæt kryds hvis du ikke bryder dig om temaets standardmåde at vise søgning "
+#~ "på"
+#~ msgid "Disable the \"<>\" layout-type switcher"
+#~ msgstr "Slå layout-type skifteren \"<>\" fra"
+#~ msgid "Default page content width:"
+#~ msgstr "Standardbredde af sidens indhold:"
+#~ msgid "Fixed (960 pixels)"
+#~ msgstr "Fast (960 pixels)"
+#~ msgid "Fluid (95 percent of the visitor's screen width)"
+#~ msgstr "Flydende (95 procent af den besøgende browsers bredde)"
+#~ msgid ""
+#~ "Note that if the layout-type switcher is enabled, the visitor's "
+#~ "javascript cookie setting will override this option"
+#~ msgstr ""
+#~ "Vær opmærksom på, at den besøgendes eventuelle indstillinger gemt i "
+#~ "javascript cookies vil have højere prioritet, og derfor være bestemmende "
+#~ "for layout-typen selvom layout-type skifteren er slået til. "
+#~ msgid "Disable jQuery and the associated code"
+#~ msgstr "Slå JQuery og dertil hørende kode fra"
+#~ msgid ""
+#~ "This will reduce the page load with ~40 KB, but will also disable some "
+#~ "features (layout-control, rss links inside category menu, comment tabs, "
+#~ "trackbacks) and all effects.<br />You shouldn't change this unless you "
+#~ "have problems with your host regarding bandwidth"
+#~ msgstr ""
+#~ "Dermed vil du reducere sidens størrelse med ~40 KB, men du vil også slå "
+#~ "nogle features fra (layout-skifter, rss-links i kategorimenuen, "
+#~ "kommentarflapper, trackbacks) samt alle effekter.<br />Du bør ikke ændre "
+#~ "på denne indstilling medmindre du har problemer med din host vedrørende "
+#~ "båndbredde"
+#~ msgid "by"
+#~ msgstr "af"
+#~ msgid "%1$s at %2$s"
+#~ msgstr "%1$s kl. %2$s"
+#~ msgid "H:i"
+#~ msgstr "H:i"
+#~ msgid "This entry was posted on"
+#~ msgstr "Dette indlæg blev publiceret"
+#~ msgid "and is filed under"
+#~ msgstr "og er arkiveret under"
+#~ msgid "Links:"
+#~ msgstr "Links:"
+

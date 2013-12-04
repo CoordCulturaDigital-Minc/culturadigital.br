@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Alexander Kanakaris\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-13 00:02+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Alexander Kanakaris <lexios@gmail.com>\n"
+"Language-Team:  <lexios@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: .././inc.swg-plugin-framework.php:57
+msgid "Plugin"
+msgstr "Πρόσθετο"
+
+#: .././inc.swg-plugin-framework.php:59
+msgid "Plugin's Homepage"
+msgstr "Ιστοσελίδα Προσθέτου"
+
+#: .././inc.swg-plugin-framework.php:60
+msgid "WordPress Support"
+msgstr "Υποστήριξη Wordpress"
+
+#: .././inc.swg-plugin-framework.php:61
+msgid "Other Plugins I've Written"
+msgstr "Άλλα Πρόσθετα που έχω δημιουργήσει"
+
+#: .././inc.swg-plugin-framework.php:64
+msgid "Do you like this plugin?"
+msgstr "Σας αρέσει αυτό το Πρόσθετο;"
+
+#: .././inc.swg-plugin-framework.php:65
+msgid "I spend a lot of time on the plugins I've written for WordPress. Any donation would be highly appreciated."
+msgstr "Ξόδεψα πολύ χρόνο για τη δημιουργία των Πρόσθετων του Wordpress. Εκτιμώ κάθε δυνατή δωρεά."
+
+#: .././inc.swg-plugin-framework.php:67
+msgid "Donate via PayPal"
+msgstr "Δωρεά μέσω PayPal"
+
+#: .././inc.swg-plugin-framework.php:68
+msgid "My Amazon Wish List"
+msgstr "Λίστα Δώρων στο Amazon"
+
+#: .././inc.swg-plugin-framework.php:86
+msgid "The activated plugin"
+msgstr "Το ενεργοποιημένο Πρόσθετο"
+
+#: .././inc.swg-plugin-framework.php:87
+msgid "is not compatible with your installed WordPress"
+msgstr "δεν είναι συμβατό με την έκδοση Wordpress σας"
+
+#: .././inc.swg-plugin-framework.php:88
+msgid "WordPress version"
+msgstr "Έκδοση Wordpress"
+
+#: .././inc.swg-plugin-framework.php:88
+msgid "or higher is required when using this plugin, please deactivate it."
+msgstr "ή νεώτερη είναι αναγκαία για τη χρήση αυτού του Προσθέτου, παρακαλώ απενεργοποιήστε το."
+
+#: .././inc.swg-plugin-framework.php:99
+msgid "Settings deleted/reset."
+msgstr "Οι ρυθμίσεις διαγράφηκαν/αρχικοποιήθηκαν."
+
+#: .././inc.swg-plugin-framework.php:126
+msgid "Settings saved."
+msgstr "Ρυθμίσεις Αποθηκεύθηκαν"
+
+#: .././inc.swg-plugin-framework.php:239
+msgid "You do not have permission to modify the options"
+msgstr "Δεν έχετε δικαίωμα αλλαγής των ρυθμίσεων"
+
+#: .././inc.swg-plugin-framework.php:271
+msgid "Plugin Settings"
+msgstr "Ρυθμίσεις Προσθέτου"
+
+#: .././inc.swg-plugin-framework.php:284
+#: .././maintenance-mode.php:126
+msgid "Save Changes"
+msgstr "Αποθήκευση Αλλαγών"
+
+#: .././inc.swg-plugin-framework.php:285
+msgid "Do you really want to delete/reset the plugin settings?"
+msgstr "Επιθυμείτε την αρχικοποίηση των ρυθμίσεων του Προσθέτου;"
+
+#: .././inc.swg-plugin-framework.php:285
+msgid "Delete/Reset Settings"
+msgstr "Διαγραφή/Αρχικοποίηση Ρυθμίσεων"
+
+#: .././maintenance-mode.php:73
+msgid "The Maintenance Mode is active. Please don't forget to"
+msgstr "Η Κατάσταση Συντήρησης είναι ενεργή. Μην ξεχάσετε να"
+
+#: .././maintenance-mode.php:73
+msgid "deactivate"
+msgstr "την απενεργοποιήσετε"
+
+#: .././maintenance-mode.php:73
+msgid "it as soon as you are done."
+msgstr "το συντομότερο δυνατό."
+
+#: .././maintenance-mode.php:113
+msgid "Activate/Deactivate Maintenance Mode"
+msgstr "Ενεργοποίηση/Απενεργοποίηση της Κατάστασης Συντήρησης"
+
+#: .././maintenance-mode.php:118
+msgid "Activated"
+msgstr "Ενεργοποιημένο"
+
+#: .././maintenance-mode.php:121
+msgid "Deactivated"
+msgstr "Απενεργοποιημένο"
+
+#: .././maintenance-mode.php:132
+#: .././maintenance-mode.php:139
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: .././maintenance-mode.php:135
+msgid "Title"
+msgstr "Τίτλος"
+
+#: .././maintenance-mode.php:141
+msgid "Use HTML only, no PHP allowed. You can use <strong>[blogurl]</strong>, <strong>[blogtitle]</strong> and <strong>[backtime]</strong> as placeholders."
+msgstr "Μόνο HTML αποδεκτή όχι PHP. Μπορείτε να χρησιμοποιήσετε τις <strong>[blogurl]</strong>, <strong>[blogtitle]</strong> και <strong>[backtime]</strong> σαν μεταβλητές."
+
+#: .././maintenance-mode.php:147
+msgid "Backtime and HTTP header"
+msgstr "Downtime και HTTP-Header"
+
+#: .././maintenance-mode.php:150
+msgid "Backtime in minutes"
+msgstr "Χρόνος downtime σε λεπτά (\"backtime\")"
+
+#: .././maintenance-mode.php:152
+msgid "A special HTML header for feed and trackback will be applied (&laquo;503 Service Unavailable&raquo;) including 'retry after x minutes'. Enter here the approximate time in minutes to retry. Also, by using the placeholder <strong>[backtime]</strong> above, the time in minutes be displayed to the visitors as well."
+msgstr "Θα εφαρμοστεί μια ειδική HTML κεφαλίδα στη Ροή RSS και στα Trackback (&laquo;503 Service Unavailable&raquo;) και ενημερώνει με 'ξαναπροσπαθήστε σε Χ λεπτά'. Εισάγετε τον κατα προσέγγιση χρόνο σε λεπτά για την νέα προσπάθεια. Επίσης, αν χρησιμοποιήσετε τον μπαλαντέρ <strong>[backtime]</strong> πιο πάνω, οι επισκέπτες θα ενημερώνονται και οι ίδιοι για τον χρόνο downtime.."
+
+#: .././maintenance-mode.php:157
+msgid "Apply HTTP header '503 Service Unavailable' and 'Retry-After &lt;backtime&gt;' to Maintenance Mode splash page"
+msgstr "Εφαρμογή της HTTP κεφαλίδας  '503 Service Unavailable' και 'Retry-After &lt;backtime&gt;' στην ειδικά διαμορφωμένη σελίδα της Κατάστασης Συντήρησης"
+
+#: .././maintenance-mode.php:161
+msgid "Paths to be still accessable"
+msgstr "Διαδρομές που θα είναι προσβάσιμες"
+
+#: .././maintenance-mode.php:163
+msgid "Enter paths that shall be excluded and still be accessable. Separate multiple paths with line breaks.<br />Example: If you want to exclude <em>http://site.com/about/</em>, then enter <em>/about/</em>."
+msgstr "Εξαιρέστε σημεία του WP που θα παραμείνουν διαθέσιμα. Διαχωρίστε πολλαπλές επιλογές με line breaks. ,<br />Παράδειγμα: Εαν θέλετε να εξαιρέσετε το <em>http://site.com/about/</em>, τότε γράψτε <em>/about/</em>."
+
+#: .././maintenance-mode.php:168
+msgid "How to permit blog editors to see the blog's front-end"
+msgstr "Πως θα επιτρέψετε σε blog editors να προβάλλουν την αρχική σελίδα του blog."
+
+#: .././maintenance-mode.php:169
+msgid "As soon as you activate the maintenance mode, a splash page is being added to your blog that informs visitors about your blog maintenance. Logged in administrators get full access to the blog including the front-end and will not see any splash page.<br />This plugin adds the capability 'access_on_maintenance' to the role 'Administrator'. If users with a specific role, for instance 'Editor', should get full access to the blog as well, use an appropriate plugin like"
+msgstr "Μόλις ενεργοποιήσετε την Κατάσταση Συντήρησης, οι επισκέπτες σας βλέπουν μια ειδική ξεχωριστή αρχική σελίδα που τους ενημερώνει. Οι Διαχειριστές όμως έχουν πλήρη πρόσβαση στο blog και δεν βλέπουν αυτή την ειδική ενημερωτική σελίδα. <br />Το Πρόσθετο αυτό, προσθέτει την ιδιότητα 'access_on_maintenance' στον Ρόλο των Διαχειριστών. Εαν χρήστες με συγκεκριμένο Ρόλο, όπως για παράδειγμα οι Εκδότες, θα έχουν επίσης πλήρη πρόσβαση στο blog, εφόσον εσείς"
+
+#: .././maintenance-mode.php:171
+msgid "and grant the capability 'Access On Maintenance' for the role 'Editor' or for any other role of your choice. <br />Check out"
+msgstr "προσθέσετε την ιδιότητα Access On Maintenance για τον Ρόλο του Εκδότη ή οποιοδήποτε άλλου Ρόλου επιθυμείτε. <br />Δείτε"
+
+#: .././maintenance-mode.php:173
+msgid "for further information."
+msgstr ".για περισσότερες πληροφορίες."
+

@@ -1,0 +1,187 @@
+.carousel-component { 
+	position:relative;
+	overflow:hidden;   /* causes the clipping */
+	display:none; /* component turns it on when first item is rendered */
+	width:883px !important;
+}
+				
+.carousel-component ul.carousel-list { 
+	width:10000px;
+	position:relative;
+	z-index:1; 
+}
+
+.carousel-component .carousel-list li { 
+	float:left;
+	list-style:none;
+	overflow:hidden;
+}
+
+/**
+ * VERTICAL CAROUSEL DEFAULTS
+ **/
+.carousel-component .carousel-vertical li { 
+	margin-bottom:0px;
+
+	/* Fix for extra spacing in IE */
+	float:left;
+    clear:left;  
+	
+	/* Force the LI to respect the HEIGHT specified */
+	overflow:hidden;
+	display:block;
+}
+
+/* For vertical carousel, not set, width defaults to auto */
+/* Note if you explicitly set width to auto, this might cause */
+/* problems with Safari... as in up/down button not working in some examples. */	 
+.carousel-component ul.carousel-vertical {
+	width:883px !important;
+}
+
+.carousel-component .carousel-clip-region { 
+	overflow:hidden; /* Secret to the clipping */
+	margin:0px auto;
+	position:aboslute; 
+}
+
+/**
+ * ==============================================================================
+ * Safe to override. It is safe to override background, padding, margin, color,
+ * text alignment, fonts, etc. Define a separate CSS file and override your style
+ * preferences.
+ **/
+
+.carousel-component { 
+	padding:0px;
+	-moz-border-radius:6px;
+	color:#618cbe;
+}
+.carousel-component ul.carousel-list { 
+	margin:0px;
+	padding:0px;
+	line-height:0px;
+}
+.carousel-component .carousel-list li { 
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	font:10px verdana,arial,sans-serif;
+	color:#666;
+	*border:#fff !important;
+}
+.carousel-component .carousel-vertical li { 
+}
+.carousel-component ul.carousel-vertical { 
+}
+
+
+.carousel-component {
+	padding:28px 0 0 0 !important;
+	margin:0 !important;
+}
+.carousel-component .carousel-list li { 
+	margin:2px 11px 0 0 !important;
+	width:243px; /* img width is 75 px from flickr + a.border-left (1) + a.border-right(1) + 
+	               img.border-left (1) + img.border-right (1)*/
+	/*	margin-left: auto;*/ /* for testing IE auto issue */
+}
+
+.carousel-component .carousel-list li a { 
+	display:block;
+	/*border:1px solid #e2edfa;*/
+	outline:none;
+	-moz-outline:none;
+}
+
+.carousel-component .carousel-list li a:hover { 
+	/*border: 1px solid #87bf4e; */
+}
+
+.carousel-component .carousel-list li img { 
+	/*border:1px solid #999;*/
+	display:block; 
+	*border:#fff !important; 
+}
+
+.carousel-component .carousel-list li strong { 
+	display:block; 
+}
+									
+#prev-arrow { 
+	position:absolute;
+	top:150px;
+	z-index:3;
+	cursor:pointer; 
+	left:10px; 
+}
+
+#next-arrow { 
+	position:absolute;
+	top:150px;
+	z-index:3;
+	cursor:pointer; 
+	right:10px; 
+}
+
+.bright {
+	filter: alpha(opacity=100); -moz-opacity:1.0;
+}
+.dim {
+	filter: alpha(opacity=40); -moz-opacity:0.4;
+}
+
+
+
+
+.carousel-component {
+	padding:0px 0 0 0 !important;
+	margin:0 !important;
+}
+.carousel-component .carousel-list li { 
+	margin:0px 11px 0 0 !important;
+	width:956px; /* img width is 75 px from flickr + a.border-left (1) + a.border-right(1) + 
+	               img.border-left (1) + img.border-right (1)*/
+	/*	margin-left: auto;*/ /* for testing IE auto issue */
+}
+
+.carousel-component .carousel-list li a { 
+	display:block;
+	/*border:1px solid #e2edfa;*/
+	outline:none;
+}
+
+.carousel-component .carousel-list li a:hover { 
+	/*border: 1px solid #87bf4e; */
+}
+
+.carousel-component .carousel-list li img { 
+	/*border:1px solid #999;*/
+	display:block; 
+}
+
+.carousel-component .carousel-list li strong { 
+	display:block; 
+}
+									
+#prev-arrow { 
+	position:absolute;
+	top:100px;
+	z-index:3;
+	cursor:pointer; 
+	left:10px; 
+}
+
+#next-arrow { 
+	position:absolute;
+	top:100px;
+	z-index:3;
+	cursor:pointer; 
+	right:10px; 
+}
+
+
+.carousel-component .carousel-list li img{ 
+	margin:0px 11px 0 50px !important;
+	
+}

@@ -1,0 +1,268 @@
+#content div.main div.posts div#respond{
+	float:left;
+	padding-left:121px;
+	position:relative;
+	width:79.5%;
+}
+#content div.main div.posts div#respond div.respondTit{
+	margin-left:-121px;
+}
+#content div.main span.edit{
+	float:right;
+}
+#content div.main div.posts ul h1.big{
+	border-bottom:1px solid #ebebeb;
+	color:#324a59;
+	display:inline;
+	float:left;
+	font:normal 20px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	text-transform:uppercase;
+	width:610px;
+}
+#general #content div.main div.posts ul.posts li.post {
+	margin-bottom:10px;
+}
+#content div.main div.comentar{
+	background-color:#ededed;
+	border:1px solid #dcdddd;
+	clear:both;
+	margin:10px;
+	padding:10px 15px;
+	position:relative;
+}
+#content div.main div.comentar h3{
+	font:18px Arial, Helvetica, sans-serif;
+	color:#3d3d3e;
+	float:left;
+	clear:both;
+}
+#content div.main div.comentar a.avatar{
+	text-transform:uppercase;
+	margin-top:4px;
+	margin-bottom:20px;
+	float:right;
+	display:inline;
+}
+#content div.main div.comentar div.authorComment{
+	position:absolute;
+	left:0;
+}
+#content div.main div.comentar ul.comment-list div#respond{
+	padding-left:0;
+	width:100%;
+	margin-bottom:10px;
+}
+#content div.main div.comentar ul.comment-list div#respond input
+, #content div.main div.comentar ul.comment-list div#respond textarea{
+	width:98.3%;
+}
+#content div.main div.comentar div#respond div.authorComment{
+	top:40px;
+}
+#content div.main div.comentar ul.comment-list div#respond div.respondTit
+, #content div.main div.comentar ul.comment-list div#respond div.authorComment
+, #content div.main div.comentar ul.comment-list div#respond span.comentario{
+	display:none;
+}
+#content div.main div.comentar ul.comment-list div.authorComment{
+	top:0;
+	width:80px;
+}
+#content div.main div.comentar p.yourName{
+	width:80px;
+	overflow:hidden;
+	font-size:11px;
+	color:#8d8d8d;
+}
+#content div.main div.comentar span.comentario{
+	background:url("../img/bg/bg_content_comentarioSeta.png") no-repeat;
+	width:32px;
+	height:32px;
+	position:absolute;
+	left:90px;
+	top:79px;
+}
+#content div.main div.comentar form ul{
+	list-style:none;
+}
+#content div.main div.comentar form ul li{
+	margin-top:6px;
+}
+#content div.main div.comentar form ul li textarea{
+	width:451px;
+	height:156px;
+	font:12px Arial, Helvetica, sans-serif;
+	padding-left:7px;
+	padding-top:3px;
+	border:1px solid #ced0d0;
+	width:98.5%;
+}
+#content div.main div.comentar form ul li input{
+	height:18px;
+	font:12px Arial, Helvetica, sans-serif;
+	padding-left:7px;
+	padding-top:3px;
+	border:1px solid #ced0d0;
+}
+#content div.main div.comentar form ul li input.nome
+, #content div.main div.comentar form ul li input.eMail
+, #content div.main div.comentar form ul li input.cidade{
+	width:98.5%;
+}
+#content div.main div.comentar form button{
+	background:url("../img/bt/bt_header_btComentar.png") right top no-repeat;
+	width:97px;
+	height:26px;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	margin-top:6px;
+	display:inline;
+	float:right;
+	cursor:pointer;
+	overflow:hidden;
+	text-transform:uppercase;
+}
+#content div.main div.comentar form button:active{
+	background:url("../img/bt/bt_header_btComentar.png") left top no-repeat;
+}
+#content div.main div.comentar ul.comentarios #cancel-comment-reply-link{
+	background:url("../img/bt/bt_header_btCancelar.png") right top no-repeat;
+	color:#000;
+	width:97px;
+	height:19px;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	margin-top:6px;
+	display:inline;
+	float:left;
+	margin-bottom:10px;
+	cursor:pointer;
+	overflow:hidden;
+	padding-top:7px;
+	text-align:center;
+	text-transform:uppercase;
+}
+#content div.main div.comentar ul.comentarios #cancel-comment-reply-link:hover{
+	text-decoration:none;
+}
+#content div.main div.comentar ul.comentarios #cancel-comment-reply-link:active{
+	background:url("../img/bt/bt_header_btCancelar.png") left top no-repeat;
+}
+#content div.main div.comentar ul.comentarios{
+	width:581px;
+	clear:both;
+	float:left;
+}
+#content div.main div.comentar ul.comentarios li.depth-1{
+	margin-top:15px;
+	position:relative;
+	padding-left:80px;
+	list-style:none;
+	clear:both;
+}
+#content div.main div.comentar ul.comentarios li p.autor{
+	width:80px;
+	text-align:left;
+	font-size:11px;
+}
+#content div.main div.comentar ul.comentarios li p.autor a{
+	text-transform:capitalize;
+}
+#content div.main div.comentar ul.comentarios li p.autor span{
+	display:block;
+}
+#content div.main div.comentar ul.comentarios li div.comentario{
+	background:#FFF;
+	width:439px;
+	margin-left:40px;
+	padding:14px 10px 10px 10px;
+	border:1px solid #ced0d0;
+	float:left;
+	display:inline;
+	margin-bottom:10px;
+}
+#content div.main div.comentar ul.comentarios li div.comentario span.seta{
+	background:url("../img/bg/bg_content_comentarioSeta.png") no-repeat;
+	width:32px;
+	height:32px;
+	position:absolute;
+	top:20px;
+	left:89px;
+}
+#content div.main div.comentar ul.comentarios li a.comment-reply-link
+, div.reply-link{
+	margin-top:60px;
+	text-transform:uppercase;
+	font-size:11px;
+	float:left;
+	display:inline;
+}
+#content div.main div.comentar ul.comentarios li ul.children{
+	background:url("../img/bg/bg_content_resposta.png") no-repeat left top;
+	margin-left:40px;
+	margin-top:10px;
+	list-style:none;
+}	
+#content div.main div.comentar ul.comentarios li ul.children li{
+	margin-bottom:0;
+	margin-top:10px;
+	padding:0;
+}
+#content div.main div.comentar ul.comentarios li ul.children li div.comment-reply{
+	background:#f8f8f8;
+	border:1px solid #ced0d0;
+	padding:14px 0 10px 10px;
+	display:block;
+	margin-left:26px;
+	clear:both;
+}
+#content div.main div.comentar ul.comentarios li ul.children div.autorResposta{
+	height:40px;
+	float:right;
+	display:inline;
+	margin-right:10px;
+	margin-top:35px;
+}
+#content div.main div.comentar ul.comentarios li ul.children div.autorResposta p.nomeData{
+	width:90px;
+	font-size:11px;
+	margin-right:10px;
+	margin-top:8px;
+	text-align:right;
+	float:left;
+	display:inline;
+}
+#content div.main div.comentar ul.comentarios li ul.children div.autorResposta p.nomeData span{
+	display:block;
+}
+#content div.main div.comentar ul.comentarios li ul.children div.autorResposta p.nomeData a{
+	color:#6D7415;
+}
+div.pings{
+	border:1px solid #DCDDDD;
+	clear:both;
+	display:inline-block;
+	margin-left:10px;
+	padding:10px;
+	width:591px;
+}
+div.pings h3{
+	font-size:15px;
+	margin-bottom:15px;
+}
+div.pings li{
+	list-style:disc inside none;
+	margin-bottom:5px;
+	padding:5px 10px;
+}
+div.pings li.odd{
+	background-color:#F0EFED;
+}
+div.pings li a{
+	font-size:11px;
+}
+#captchaImgDiv{
+	clear:left;
+	margin-bottom:20px;
+	width:355px;
+}

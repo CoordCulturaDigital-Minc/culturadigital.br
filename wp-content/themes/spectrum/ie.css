@@ -1,0 +1,71 @@
+/*
+
+Theme Name: Spectrum
+Internet Explorer Fixes
+
+*/
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/*- IE6 --------------------------------------------------------------------*/
+	
+
+		* html #siteDescription,
+		* html .mainTitle,
+		* html .sidebarTitle,
+		* html .subTitle,
+		* html .subTitleBorder,
+		* html .subTitleBorder h4,
+		* html .sidebarBox li a,
+		* html .postNav a,
+		* html #tagCloud ul,
+		* html #commentlist li,
+		* html .commentAuthorAndDate,
+		* html .comment,
+		* html .pingback,
+		* html #footer .pageList ul {height:1%;}
+		* html #header .pageList a {display:inline;}
+		* html .postMeta {display:inline;}
+		* html .sidebarTitle .edge {bottom:-2px;}
+		* html #tagCloud {padding-top:10px;}
+		* html #tagCloud li a {line-height:130%;}
+		* html #searchBox button {top:0;}
+		* html .pointer {overflow:hidden;}
+		* html #commentForm {padding-top:20px;}
+		* html #commentForm button {display:block; clear:both;}
+		* html #navigation {padding-top:15px; padding-bottom:55px;}
+		* html #tagCloud .divider {padding-top:0;}
+		
+
+/*- End IE6 ----------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+
+/*- IE7 --------------------------------------------------------------------*/
+	
+
+		*+ html #siteDescription,
+		*+ html .mainTitle,
+		*+ html .sidebarTitle,
+		*+ html .subTitle,
+		*+ html .subTitleBorder,
+		*+ html .subTitleBorder h4,
+		*+ html .sidebarBox li a,
+		*+ html .postNav a,
+		*+ html #footer .pageList ul {min-height:1%;}
+		*+ html #searchBox button {top:0;}	
+		*+ html .entry,
+		*+ html #tagCloud,
+		*+ html #commentList li {padding-top:15px;}	
+		*+ html #commentList {padding-top:40px;}
+		*+ html #codeIsPoetry {font-size:1px;}
+		*+ html #tagCloud li a {line-height:130%;}
+		*+ html #commentList {padding-top:0;}
+		*+ html #commentForm button {display:block; clear:both;}
+		*+ html #navigation {padding-bottom:20px;}
+		*+ html .entry h3.result {padding-top:15px;}
+
+
+/*- End IE7 ----------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/

@@ -1,0 +1,3232 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Graphene theme for WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-24 12:12+0800\n"
+"PO-Revision-Date: 2013-09-07 13:38+0200\n"
+"Last-Translator: Udi's Blog <blog@udiburg.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr_e;esc_attr__\n"
+"X-Poedit-Basepath: G:\\Install\\Wordpress\\Wordpress themes\\Graphene theme "
+"1.8a\\languages\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:23
+#, php-format
+msgid "Searching for: <span>%s</span>"
+msgstr "מחפש אחר: <span>%s</span>"
+
+#: 404.php:29 search-404.php:3
+msgid "Error 404 - Page Not Found"
+msgstr "שגיאת 404 - הדף לא נמצא"
+
+#: 404.php:31 search-404.php:5
+msgid ""
+"Sorry, I've looked everywhere but I can't find the page you're looking for."
+msgstr "מצטערים, אבל חיפשנו בכל מקום ולא הצלחנו למצוא את הדף שאתם מחפשים."
+
+#: 404.php:32 search-404.php:6
+msgid ""
+"If you follow the link from another website, I may have removed or renamed "
+"the page some time ago. You may want to try searching for the page:"
+msgstr ""
+"אם הגעתם דרך קישור מאתר אחר, יכול להיות ששיניתי או העברתי את העמוד לא מזמן. "
+"נסו להשתמש בחיפוש:"
+
+#: 404.php:40
+msgid "Automated search"
+msgstr "חיפוש אוטומטי"
+
+#: 404.php:43
+#, php-format
+msgid "Searching for the terms <strong>%s</strong> ..."
+msgstr "מחפש לפי התנאים <strong>%s</strong> ..."
+
+#: archive.php:24
+#, php-format
+msgid "Daily Archive: %s"
+msgstr "ארכיון יומי: %s"
+
+#: archive.php:26
+#, php-format
+msgid "Monthly Archive: %s"
+msgstr "ארכיון חודשי: %s"
+
+#. translators: F will be replaced with month, and Y will be replaced with year, so "F Y" in English would be replaced with something like "June 2008".
+#: archive.php:28
+msgid "F Y"
+msgstr ""
+
+#: archive.php:30
+#, php-format
+msgid "Yearly Archive: %s"
+msgstr "ארכיון שנתי: %s"
+
+#: archive.php:32
+msgid "Blog Archive"
+msgstr "ארכיון הבלוג"
+
+#: author.php:32
+msgid "Author's posts listings"
+msgstr "רשימות המאמרים של הכותב"
+
+#: category.php:13
+#, php-format
+msgid "Category Archive: <span>%s</span>"
+msgstr "ארכיון קטגוריות: <span>%s</span>"
+
+#: comments.php:25
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "המאמר הזה מוגן סיסמא. נא הקלידו את הסיסמא לצפייה בתגובות."
+
+#: comments.php:50 loop-author.php:85 loop-post-formats.php:52 loop.php:164
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "תגובה אחת"
+msgstr[1] "%s תגובות"
+
+#: comments.php:52
+#, php-format
+msgid "%s ping"
+msgid_plural "%s pings"
+msgstr[0] "פינג אחד"
+msgstr[1] "%s פינגים"
+
+#: comments.php:72
+msgid "Skip to comment form"
+msgstr "דלגו לטופס מילוי התגובה"
+
+#: comments.php:114
+msgid "Comments have been disabled."
+msgstr "האפשרות להגיב נסגרה."
+
+#: comments.php:131
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+"אתם יכולים להשתמש באפשרויות ותגי ה-<abbr title=\"HyperText Markup Language"
+"\">HTML</abbr>הבאים: %s"
+
+#: comments.php:138
+msgid "Submit Comment"
+msgstr "שלח תגובה"
+
+#: footer.php:42
+msgid "Copyright"
+msgstr "זכויות יוצרים"
+
+#. translators: %s will replaced by a link to the Creative Commons licence page, with "Creative Commons Licence" as the link text.
+#: footer.php:57
+#, php-format
+msgid ""
+"Except where otherwise noted, content on this site is licensed under a %s."
+msgstr "אלא אם צוין אחרת, תוכן הבלוג הזה נמצא תחת רשיון %s."
+
+#: footer.php:57
+msgid "Creative Commons Licence"
+msgstr "רשיון Creative Commons"
+
+#: footer.php:59
+msgid "Creative Commons Licence BY-NC-ND"
+msgstr "רשיון Creative Commons BY-NC-ND"
+
+#: footer.php:80
+msgid "Return to top"
+msgstr "בחזרה לראש העמוד"
+
+#. translators: %1$s is the link to WordPress.org, %2$s is the theme's name
+#: footer.php:90
+#, php-format
+msgid "Powered by %1$s and the %2$s."
+msgstr "פועל על %1$s ועם %2$s."
+
+#: footer.php:90
+msgid "Graphene Theme"
+msgstr "תבנית Graphene"
+
+#: header.php:69 header.php:97
+msgid "Go back to the front page"
+msgstr "חזרו לעמוד הראשי"
+
+#: loop-author.php:23
+msgid "Author's details"
+msgstr "פרטי המחבר"
+
+#. translators: %1$s is the first name, %2$s is the last name
+#: loop-author.php:25
+#, php-format
+msgid "<strong>Name:</strong> %1$s %2$s"
+msgstr "<strong>שם:</strong> %1$s %2$s"
+
+#: loop-author.php:26
+#, php-format
+msgid "<strong>Date registered:</strong> %1$s"
+msgstr "<strong>יום הרישום:</strong> %1$s"
+
+#: loop-author.php:35
+msgid "Biography"
+msgstr "ביוגרפיה"
+
+#: loop-author.php:52 admin/options-general.php:300
+msgid "Latest posts"
+msgstr "מאמרים אחרונים"
+
+#: loop-author.php:55 loop-author.php:85 loop-children.php:45
+#: loop-children.php:54 loop-post-formats.php:36 loop.php:63 loop.php:128
+#: includes/theme-panes.php:79 includes/theme-panes.php:92
+#: includes/theme-panes.php:107
+#, php-format
+msgid "Permalink to %s"
+msgstr "קישור קבוע ל %s"
+
+#: loop-author.php:55 loop-author.php:85 loop-children.php:45 loop-page.php:11
+#: loop-page.php:34 loop-post-formats.php:36 loop-single.php:61 loop.php:31
+#: loop.php:64
+msgid "(No title)"
+msgstr "(אין כותרת)"
+
+#: loop-author.php:92
+msgid "Most commented posts"
+msgstr "המאמרים המוגבים ביותר"
+
+#: loop-children.php:54
+msgid "View page &raquo;"
+msgstr "צפה בעמוד &raquo;"
+
+#: loop-not-found.php:3
+msgid "Not found"
+msgstr "לא נמצא"
+
+#: loop-not-found.php:8
+msgid ""
+"Sorry, but you are looking for something that isn't here. Wanna try a search?"
+msgstr "מצטערים, אבל אתם מחפשים משהו שלא נמצא פה. רוצים לנסות חיפוש?"
+
+#: loop-not-found.php:10
+msgid ""
+"Sorry, but no results were found for that keyword. Wanna try an alternative "
+"keyword search?"
+msgstr ""
+"מצטערים, אבל לא נמצאו תוצאות למילת החיפוש שהקשתם. רוצים לחפש מילות חיפוש "
+"אלטרנטיביות?"
+
+#: loop-page.php:44 loop-single.php:77 loop.php:83
+#, php-format
+msgid "Edit %s"
+msgstr "ערוך %s"
+
+#: loop-page.php:65 loop-single.php:114 loop.php:146
+msgid "Pages:"
+msgstr "עמודים:"
+
+#: loop-page.php:89 loop-post-formats.php:123 loop-single.php:162 loop.php:182
+msgid "Permanent link to this article:"
+msgstr "קישור קבוע למאמר הזה:"
+
+#: loop-post-formats.php:14
+msgid "Status update"
+msgstr "עדכון סטטוס"
+
+#: loop-post-formats.php:15
+msgid "Link"
+msgstr "קישור"
+
+#: loop-post-formats.php:16
+msgid "Audio"
+msgstr "אודיו"
+
+#: loop-post-formats.php:17
+msgid "Image"
+msgstr "תמונה"
+
+#: loop-post-formats.php:18
+msgid "Video"
+msgstr "וידאו"
+
+#: loop-post-formats.php:19
+msgid "Post format"
+msgstr "עיצוב/ארגון הפוסט"
+
+#. translators: This is the PHP date formatting string for the status post format. See http://php.net/manual/en/function.date.php for more details.
+#: loop-post-formats.php:32
+msgid "l F j, Y"
+msgstr ""
+
+#: loop-post-formats.php:32
+msgid "g:i A"
+msgstr ""
+
+#: loop-post-formats.php:43
+msgid "Edit post"
+msgstr "ערוך מאמר"
+
+#: loop-post-formats.php:52 loop.php:164
+msgid "Leave comment"
+msgstr "השאירו תגובה"
+
+#: loop-post-formats.php:52
+msgid "Comments off"
+msgstr "התגובות כבויות"
+
+#: loop-post-formats.php:111
+#, php-format
+msgid "Posted on: %s"
+msgstr "פורסם ב: %s"
+
+#: loop-post-formats.php:111
+msgid "F j, Y"
+msgstr ""
+
+#: loop-single.php:70 loop.php:76
+msgid "Categories:"
+msgstr "קטגוריות:"
+
+#: loop-single.php:90 loop.php:96
+#, php-format
+msgid "by %s"
+msgstr "מאת %s"
+
+#: loop-single.php:124 loop.php:156
+msgid "Tags:"
+msgstr "תגיות:"
+
+#: loop-single.php:124 loop.php:156
+msgid "This post has no tag"
+msgstr "למאמר זה אין תגיות"
+
+#: loop-single.php:143
+msgid "About the author"
+msgstr "אודות המחבר"
+
+#: loop.php:121
+msgid "Read the rest of this entry &raquo;"
+msgstr "המשיכו בקריאה &raquo;"
+
+#. translators: %1$s is the number of results found, %2$s is the search term
+#: search-404.php:17 search.php:18
+#, php-format
+msgid "Found %1$s search result for keyword: %2$s"
+msgid_plural "Found %1$s search results for keyword: %2$s"
+msgstr[0] "מצאתי %1$s תוצאות חיפוש עבור מילות החיפוש: %2$s"
+msgstr[1] "מצאתי %1$s תוצאות חיפוש עבור מילות החיפוש: %2$s"
+
+#: search-404.php:26
+msgid "Suggested results"
+msgstr "הצעה לתוצאות"
+
+#. translators: %1$s is the search term, %2$s is the number of results found
+#: search-404.php:31
+#, php-format
+msgid ""
+"I've done a courtesy search for the term %1$s for you and found a total of "
+"%2$s result. See if you can find what you're looking for below."
+msgid_plural ""
+"I've done a courtesy search for the term %1$s for you and found a total of "
+"%2$s results. See if you can find what you're looking for below."
+msgstr[0] ""
+"ביצעתי חיפוש מיוזמתי עבור הערך %1$s עבורכם ומצאתי סה\"כ %2$s תוצאות. ראו אם "
+"אתם מוצאים את מה שחיפשתם ברשימה למטה. "
+msgstr[1] ""
+"ביצעתי חיפוש מיוזמתי עבור הערך %1$s עבורכם ומצאתי סה\"כ %2$s תוצאות. ראו אם "
+"אתם מוצאים את מה שחיפשתם ברשימה למטה. "
+
+#: search-404.php:52
+msgid ""
+"<strong>Sorry, couldn't find anything.</strong> Try searching for "
+"alternative terms using the search form above."
+msgstr ""
+"סליחה, אבל לא מצאתי כלום.</strong> נסו לחפש עם אפשרויות אחרות בחלון החיפוש "
+"למעלה.<strong>"
+
+#: searchform.php:3 searchform.php:4
+msgid "Search"
+msgstr "חפשו בבלוג..."
+
+#: sidebar-two.php:28 includes/theme-setup.php:305
+msgid "Front Page Sidebar Two Widget Area"
+msgstr "סרגל צידי של עמוד ראשי עם מקום לשני וידג'טים"
+
+#: sidebar-two.php:30 includes/theme-setup.php:270
+msgid "Sidebar Two Widget Area"
+msgstr "סרגל צידי עם מקום לשני וידג'טים"
+
+#: sidebar.php:28 includes/theme-setup.php:296
+msgid "Front Page Sidebar Widget Area"
+msgstr "מקום לוידג'ט בסרגל צידי של עמוד ראשי"
+
+#: sidebar.php:30 includes/theme-setup.php:261
+msgid "Sidebar Widget Area"
+msgstr "אזור לוידג'ט בסרגל צידי"
+
+#: tag.php:13
+#, php-format
+msgid "Tag Archive: <span>%s</span>"
+msgstr "ארכיון תגיות: <span>%s</span>"
+
+#. translators: %1$s will be replaced by the taxonomy singular name, %2$s will be replaced by the term title
+#: taxonomy.php:15
+#, php-format
+msgid "%1$s Archive: %2$s"
+msgstr "%1$s ארכיון: %2$s"
+
+#: template-onecolumn.php:10
+msgid "One column, no sidebar"
+msgstr "עמודה אחת, ללא סרגל צידי"
+
+#: template-threecolumnscenter.php:11
+msgid "Three columns, sidebar left and right"
+msgstr "שלוש עמודות עם שני סרגלים צידיים ימני ושמאלי"
+
+#. translators: For RTL languages, translate "right" as "left"
+#: template-threecolumnsleft.php:13
+msgid "Three columns, sidebars on the right"
+msgstr "שלוש עמודות עם סרגל צידי שמאלי "
+
+#. translators: For RTL languages, translate "left" as "right"
+#: template-threecolumnsright.php:13
+msgid "Three columns, sidebars on the left"
+msgstr "שלוש עמודות עם סרגל צידי ימני"
+
+#. translators: For RTL languages, translate "right" as "left"
+#: template-twocolumnsleft.php:13
+msgid "Two columns, sidebar on the right"
+msgstr "שתי עמודות עם סרגל צידי שמאלי"
+
+#. translators: For RTL languages, translate "left" as "right"
+#: template-twocolumnsright.php:13
+msgid "Two columns, sidebar on the left"
+msgstr "שתי עמודות עם סרגל צידי ימני"
+
+#: admin/ajax-handler.php:9 admin/ajax-handler.php:36
+msgid ""
+"Sorry, but you don't have the necessary permission to modify theme options."
+msgstr "מצטערים, אבל אין לכם את ההרשאות הנדרשות לבצע שינויים בהגדרות התבנית."
+
+#: admin/ajax-handler.php:20
+msgid "Options saved."
+msgstr "האפשרויות נשמרו."
+
+#: admin/ajax-handler.php:69
+msgid "Colour preset deleted."
+msgstr "הגדרות צבע קבועות מראש נמחקו."
+
+#: admin/ajax-handler.php:69
+msgid "Colour preset saved."
+msgstr "ערכת צבע קבועה מראש נשמרה."
+
+#: admin/custom-fields.php:14
+msgid "Graphene post-specific options"
+msgstr "אפשרויות מיוחדות לפוסט Graphene"
+
+#: admin/custom-fields.php:15
+msgid "Graphene page-specific options"
+msgstr "אפשרויות מיוחדות לעמוד Graphene"
+
+#: admin/custom-fields.php:92
+msgid ""
+"These settings will only be applied to this particular post or page you're "
+"editing. They will override the global settings set in the Graphene Options "
+"or Graphene Display options page."
+msgstr ""
+"ההגדרות האלה יבוצעו רק על הפוסט או העמוד הספציפיים שאתם עורכים. הם יגברו על "
+"ההגדרות הכלליות שבאפשרויות התבנית או בעמוד אפשרויות התצוגה של התבנית."
+
+#: admin/custom-fields.php:93
+msgid "Slider options"
+msgstr "אפשרויות מצגת"
+
+#: admin/custom-fields.php:97 admin/options-general.php:108
+msgid "Slider image"
+msgstr "תמונת מצגת"
+
+#: admin/custom-fields.php:101 admin/custom-fields.php:136
+#: admin/custom-fields.php:150
+msgid "Use global setting"
+msgstr "השתמשו בהגדרה כללית"
+
+#: admin/custom-fields.php:102 admin/options-general.php:112
+msgid "Don't show image"
+msgstr "אל תציג תמונה"
+
+#: admin/custom-fields.php:103 admin/options-general.php:113
+msgid "Featured Image"
+msgstr "תמונה נבחרת"
+
+#: admin/custom-fields.php:104 admin/options-general.php:114
+msgid "First image in post"
+msgstr "התמונה הראשונה במאמר"
+
+#: admin/custom-fields.php:105 admin/options-general.php:115
+msgid "Custom URL"
+msgstr "קישור מוגדר אישית"
+
+#: admin/custom-fields.php:111 admin/options-general.php:121
+msgid "Custom slider image URL"
+msgstr "קישור מותאם אישית לתמונת המצגת"
+
+#: admin/custom-fields.php:115 admin/options-general.php:125
+msgid ""
+"Make sure you select Custom URL in the slider image option above to use this "
+"custom url."
+msgstr ""
+"בדקו שבחרתם בקישור מוגדר אישית בתמונת המצגת כדי שתוכלו להשתמש האפשרות זו."
+
+#: admin/custom-fields.php:120
+msgid "Custom slider URL"
+msgstr "קישור מוגדר אישית למצגת"
+
+#: admin/custom-fields.php:124
+msgid "Use this to override the link that is used in the slider."
+msgstr "השתמשו בזה כדי לעקוף את הקישור שבשימוש המצגת."
+
+#: admin/custom-fields.php:128
+msgid "Display options"
+msgstr "אפשרויות תצוגה"
+
+#: admin/custom-fields.php:132
+msgid "AddThis Social Sharing button"
+msgstr "לחצן שיתוף AddThis"
+
+#: admin/custom-fields.php:137
+msgid "Show button"
+msgstr "הצג לחצן"
+
+#: admin/custom-fields.php:138
+msgid "Hide button"
+msgstr "הסתר לחצן"
+
+#: admin/custom-fields.php:146 admin/options-display.php:305
+msgid "Post date display"
+msgstr "תצוגת תאריך המאמר"
+
+#: admin/custom-fields.php:151 admin/options-display.php:309
+msgid "Hidden"
+msgstr "נסתר"
+
+#: admin/custom-fields.php:152 admin/options-display.php:310
+msgid "As an icon (without the year)"
+msgstr "כאייקון (ללא השנה)"
+
+#: admin/custom-fields.php:153 admin/options-display.php:311
+msgid "As an icon (including the year)"
+msgstr "כאייקון (עם השנה)"
+
+#: admin/custom-fields.php:154 admin/options-display.php:312
+msgid "As inline text"
+msgstr "כטקסט בתוך השורה"
+
+#: admin/custom-fields.php:162
+msgid "Navigation options"
+msgstr "אפשרויות ניווט"
+
+#: admin/custom-fields.php:166
+msgid "Description"
+msgstr "תאור"
+
+#: admin/custom-fields.php:170 admin/options-display.php:629
+msgid ""
+"Only required if you need a description in the navigation menu and you are "
+"not using a custom menu."
+msgstr ""
+"נחוץ רק אם אתם צריכים תאור בתפריט הניווט ואתם לא משתמשים בתפריט מותאם אישית."
+
+#: admin/db-updater.php:237
+#, php-format
+msgid "Follow %s on Twitter"
+msgstr "עקבו %s בטוויטר"
+
+#: admin/db-updater.php:248
+#, php-format
+msgid "Visit %s's Facebook page"
+msgstr "בקרו בעמוד של %s בפייסבוק"
+
+#: admin/faq.php:11
+msgid "Graphene's Frequently Asked Questions"
+msgstr "שאלות נפוצות של התבנית Graphene"
+
+#: admin/faq.php:14
+msgid "Where should I go for the theme's support?"
+msgstr "לאן לפנות כדי לקבל תמיכה בתבנית?"
+
+#: admin/faq.php:15
+msgid ""
+"Please direct all support requests for the theme at the theme's <a href="
+"\"http://forum.khairul-syahir.com/graphene-wordpress-theme/\">Support Forum</"
+"a>."
+msgstr ""
+"נא הפנו את כל בקשות התמיכה ל<a href=\"http://forum.khairul-syahir.com/"
+"graphene-wordpress-theme/\">פורום התמיכה של התבנית.</a>"
+
+#: admin/faq.php:18
+msgid "The post's featured image is replacing my header image. Help!"
+msgstr "התמונה הנבחרת של המאמר מחליפה את התמונה של ראש העמוד. עזרה בבקשה!"
+
+#: admin/faq.php:19
+msgid ""
+"This is actually one of the theme's features, based on the feature in the "
+"default TwentyTen theme. Any featured image that has a size of greater than "
+"or equal to the theme's header image size (960 x 198 pixels) will replace "
+"the header image when the post/page that featured image is assigned to is "
+"being displayed. It enables you to have different header image for different "
+"posts and/or pages."
+msgstr ""
+
+#: admin/faq.php:20
+msgid ""
+"If you want to disable this feature, simply tick the <em>Disable Featured "
+"Image replacing header image</em> option in the <a href=\"themes.php?"
+"page=graphene_options&tab=display\">Graphene Options</a> page, under Display "
+"&gt; Header Display Options."
+msgstr ""
+
+#: admin/faq.php:23
+msgid "Can I modify Graphene to my heart's content without paying anything?"
+msgstr "האם ניתן לשנות את הגדרות התבנית לפי הצורך מבלי לשלם כלום?"
+
+#: admin/faq.php:24
+msgid ""
+"The Graphene WordPress theme, along with all the other themes in the "
+"WordPress.org Official Free Themes Directory, is released under the GNU "
+"General Public License (GPL) Version 3. The full text of that licence is "
+"included with the theme in the <code>licence.txt</code> file in the theme's "
+"folder. Releasing the theme under that licence means, among others, that you "
+"are <em>free to modify the theme in any way for any purpose (including "
+"commercial)</em>. However, if you decide to redistribute the theme, the "
+"licence dictates that you must release the theme under the same licence, "
+"GPLv3, and attributes the copyright of the original theme to the original "
+"author."
+msgstr ""
+
+#: admin/faq.php:25
+msgid ""
+"But of course, the author would always appreciate <a href=\"themes.php?"
+"page=graphene_options\">donations</a> to support ongoing and future "
+"developments of the theme."
+msgstr ""
+"יוצר התבנית ישמח לקבל <a href=\"themes.php?page=graphene_options\"> תרומה</"
+"a> עבור המשך התמיכה ופיתוח התבנית."
+
+#: admin/faq.php:28
+msgid ""
+"If the theme is released under GPLv3, what is this Creative Commons licence "
+"in the theme's footer?"
+msgstr ""
+
+#: admin/faq.php:29
+msgid ""
+"The Creative Commons licence is a popular licence nowadays that are used by "
+"a lot of web-based content authors to licence their work such that it "
+"protects their intellectual property but in the same time allows its free "
+"distribution. It is included with the theme simply to make it easy for the "
+"theme's users to make use of the licence for the content they publish. Theme "
+"users can remove it altogether via the theme's Options page should they wish "
+"not to use it."
+msgstr ""
+
+#: admin/faq.php:30
+msgid ""
+"Put simply, <em>it is not the licence that is applied for the theme itself</"
+"em>, but just for the website's content should the theme user wants to use "
+"it."
+msgstr ""
+
+#: admin/faq.php:33
+msgid "Is the theme compatible with this plugin or that plugin?"
+msgstr "האם ערכת הנושא תורמת את התוסף הזה או ההוא?"
+
+#: admin/faq.php:34
+msgid ""
+"I don't know. With so many plugins available for WordPress, there's no way "
+"that I (or anybody else for that matter) can test for compatibility for all "
+"of them. Having said that, the theme is built with all the necessary "
+"WordPress components included with it, so chances are most plugins will be "
+"compatible with the theme."
+msgstr ""
+
+#: admin/faq.php:35
+msgid ""
+"My suggestion is to just install the plugin and try it. If you stumble into "
+"problem, ask for support from the plugin author first. If the plugin author "
+"says that it's a problems with the theme, you know where to find support."
+msgstr ""
+
+#: admin/feature-pointers.php:9
+msgid "Where are all the options?!"
+msgstr "איפה כל האפשרויות?"
+
+#: admin/feature-pointers.php:10
+msgid "We've decided to clean things up!"
+msgstr "החלטנו לנקות הכל!"
+
+#: admin/feature-pointers.php:11
+msgid ""
+"We know how too many options can really be daunting to new users, so we've "
+"hidden them."
+msgstr ""
+
+#: admin/feature-pointers.php:12
+msgid ""
+"But no worries! If you're a seasoned user of the Graphene theme, or whenever "
+"you feel ready to further customise your site, just click on the \"Show all "
+"options\" link, and they will magically appear to you."
+msgstr ""
+
+#: admin/options-advanced.php:13 admin/options.php:319
+msgid "Preview"
+msgstr "תצוגה מוקדמת"
+
+#: admin/options-advanced.php:20
+msgid "Enable preview of your site on the Graphene Theme Options page"
+msgstr "אפשר תצוגה מוקדמת של תבנית ה- Graphene באתרך בעמוד אפשרויות התבנית"
+
+#: admin/options-advanced.php:25 admin/options-advanced.php:55
+#: admin/options-advanced.php:92 admin/options-advanced.php:131
+#: admin/options-colours.php:78 admin/options-colours.php:195
+#: admin/options-colours.php:311 admin/options-colours.php:347
+#: admin/options-colours.php:388 admin/options-colours.php:424
+#: admin/options-colours.php:462 admin/options-colours.php:501
+#: admin/options-colours.php:537 admin/options-colours.php:589
+#: admin/options-colours.php:645 admin/options-display.php:63
+#: admin/options-display.php:200 admin/options-display.php:284
+#: admin/options-display.php:345 admin/options-display.php:387
+#: admin/options-display.php:410 admin/options-display.php:565
+#: admin/options-display.php:595 admin/options-display.php:634
+#: admin/options-display.php:693 admin/options-display.php:725
+#: admin/options-general.php:188 admin/options-general.php:231
+#: admin/options-general.php:267 admin/options-general.php:343
+#: admin/options-general.php:372 admin/options-general.php:406
+#: admin/options-general.php:448 admin/options-general.php:592
+#: admin/options-general.php:644 admin/options-general.php:680
+#: admin/options-general.php:713 admin/options-general.php:749
+#: admin/options-general.php:775
+msgid "Save All Options"
+msgstr "שמור את כל האפשרויות"
+
+#: admin/options-advanced.php:35
+msgid "Custom <head> Tags"
+msgstr "תגיות כותרת <head> מותאמות אישית"
+
+#: admin/options-advanced.php:40
+msgid "Code to insert into the <head> element"
+msgstr "הקוד יש להכניס לרכיב הכותרת <head>"
+
+#: admin/options-advanced.php:65
+msgid "Action Hooks Widget Areas"
+msgstr "אזור ווידג'טים של עוגני התוכן (action hooks)"
+
+#: admin/options-advanced.php:68
+msgid ""
+"This option enables you to place virtually any content to every nook and "
+"cranny in the theme, by attaching widget areas to the theme's action hooks."
+msgstr ""
+"אפשרות זו נותנת לכם למקם באופן וירטואלי כל תוכן בכל מקום בערכת הנושא, ע\"י "
+"הצמדת אזור ווידג'טים לעוגני התוכן (action hooks) השונים בתבנית."
+
+#: admin/options-advanced.php:69
+msgid ""
+"All action hooks available in the Graphene Theme are listed below. Click on "
+"the filename to display all the action hooks available in that file. Then, "
+"tick the checkbox next to an action hook to make a widget area available for "
+"that action hook."
+msgstr ""
+"כל עוגני התוכן האפשריים בערכת ה-Graphene רשומים פה למטה. לחצו על שם הקובץ על "
+"מנת להציג את כל העוגנים האפשריים לאותו קובץ. לאחר מכן בחרו את תיבת הסימון "
+"ליד העוגן בו תרצו להשתמש על מנת ליצור אזור ווידג'ט לעוגן הזה."
+
+#: admin/options-advanced.php:78
+msgid "Click to show/hide the action hooks for this file"
+msgstr "לחצו להצגת/הסתרת אפשרויות הלכידה עובר הקובץ הזה"
+
+#: admin/options-advanced.php:91
+msgid "Rescan action hooks"
+msgstr "סרוק שוב את עוגני התוכן (action hooks)"
+
+#: admin/options-advanced.php:101
+msgid "Move generated CSS"
+msgstr "העבר את ה-CSS שנוצר"
+
+#: admin/options-advanced.php:106
+#, php-format
+msgid ""
+"If you're using a child theme, you can move the CSS codes generated by the "
+"theme into the child theme's %s file."
+msgstr ""
+"אם אתם משתמשים בתבנית בן, תוכלו להעביר את קוד ה-CSS שנוצר ע\"י התבנית הראשית "
+"לתוך קובץ ה- %s של תבנית הבן."
+
+#: admin/options-advanced.php:107
+msgid ""
+"The CSS codes are generated from the various customisation options in the "
+"theme's options pages, including any codes you have entered in the Custom "
+"CSS option."
+msgstr ""
+"קודי ה-CSS נוצרים ע\"י ההגדרות השונות של אפשרויות התבנית בעמודי ההגדרות של "
+"התבנית כולל כל הקודים שהכנסתם לאפשרות קוד ה-CSS המותאם אישית."
+
+#: admin/options-advanced.php:110
+#, php-format
+msgid "This will reduce up to %.1f KB on every page load for your site."
+msgstr "זה יחסוך לכם עד ל %.1f KB בכל טעינה של עמוד באתרכם."
+
+#: admin/options-advanced.php:113
+#, php-format
+msgid ""
+"You will need to update your child theme's %s file everytime you change any "
+"options that rely on CSS to be implemented, such as column widths and "
+"colours."
+msgstr ""
+"תצטרכו לעדכן את קובץ ה %s של תבנית הבן בכל פעם שתבצעו שינויים באיזושהיא "
+"הגדרה שנסמכת על ה-CSS כגון רוחב עמודות או צבעים."
+
+#: admin/options-advanced.php:118
+msgid "I have moved the generated CSS"
+msgstr "העברתי את ה- CSS שנוצר"
+
+#: admin/options-advanced.php:123
+msgid "CSS codes generated by the theme"
+msgstr "קוד עיצוב שנוצר ע\"י התבנית (CSS code)"
+
+#: admin/options-advanced.php:125
+msgid "Select all"
+msgstr "בחר הכל"
+
+#: admin/options-colours.php:8
+msgid ""
+"Changing colours for your website involves a lot more than just trial and "
+"error. Simply mixing and matching colours without regard to their "
+"compatibility may do more damage than good to your site's aesthetics."
+msgstr ""
+"שינוי צבעי האתר שלכם דורש יותר מאשר ניסוי וטעייה. סתם ערבוב צבעים בלי תכנון "
+"ובדיקת תאימות יגרום יותר נזק מתועלת לעיצוב האתר."
+
+#: admin/options-colours.php:9
+#, php-format
+msgid ""
+"It's generally a good idea to stick to colours from colour pallettes that "
+"are aesthetically pleasing. Try the %s website for a kickstart on some "
+"colour palettes you can use."
+msgstr ""
+"בדרך כלל זה רעיון טוב להצמד לצבעים מתוך ערכת הצבעים הכללית של התבנית. נסו את "
+"האתר %s כנקודת התחלה לבחירת הרכבי צבעים שבהם תוכלו להשתמש."
+
+#: admin/options-colours.php:10
+#, php-format
+msgid ""
+"When you've got the perfect combination, you can even share it with fellow "
+"Graphene theme users through the %s."
+msgstr ""
+"כשתגיעו לקומבינצית הצבעים המתאימה לכם תוכלו אפילו לשתף אותה עם יתר משתמשי "
+"התבנית ב%s."
+
+#: admin/options-colours.php:10 admin/options.php:131
+msgid "Support Forum"
+msgstr "פורום תמיכה"
+
+#: admin/options-colours.php:11
+msgid ""
+"<strong>Note:</strong> The previews work best on modern Gecko- and Webkit-"
+"based browsers, such as Mozilla Firefox and Google Chrome."
+msgstr ""
+"<strong> שימו לב: </strong> התצוגה המוקדמת עובדת במיטבה בדפדפנים מוזילה "
+"פיירפוקס וגוגל כרום."
+
+#: admin/options-colours.php:12
+msgid ""
+"<strong>Note:</strong> To reset any of the colours to their default value, "
+"just click on \"Clear\" beside the colour field and save the settings. The "
+"theme will automatically revert the value to the default colour."
+msgstr ""
+"<strong>שימו לב:</strong> כדי לאפס את הצבעים לערכי ברירת המחדל שלהם הקליקו "
+"על \"נקה\" ליד שדה הצבע ושמרו את ההגדרות. ערכת הנושא תחזיר את הצבעים לצבעים "
+"המקוריים באופן אוטומטי."
+
+#: admin/options-colours.php:14
+msgid "Colour presets"
+msgstr "ערכי צבע קבועים מראש"
+
+#: admin/options-colours.php:16
+msgid ""
+"These are some colour presets that you may use, either as is or tweak them "
+"further to your liking."
+msgstr ""
+"ישנן כמה ערכות צבעים קבועות מראש שאתם יכולים להשתמש בהן כמו שהן או לשנותן "
+"לפי רצונכם."
+
+#: admin/options-colours.php:25
+msgid "Delete preset"
+msgstr "מחק קבועים מראש"
+
+#: admin/options-colours.php:26
+msgid "Save current settings as preset"
+msgstr "שמור הגדרות נוכחיות כקבועות מראש"
+
+#: admin/options-colours.php:27
+msgid "Import presets"
+msgstr "ייבא קבועים מראש"
+
+#: admin/options-colours.php:28
+msgid "Export presets"
+msgstr "ייצא קבועים מראש"
+
+#: admin/options-colours.php:47 admin/options-display.php:55
+msgid "Top bar"
+msgstr "סרגל עליון"
+
+#: admin/options-colours.php:52
+msgid "Top bar preview"
+msgstr "תצוגה מוקדמת של סרגל עליון"
+
+#: admin/options-colours.php:60 admin/options-colours.php:96
+#: admin/options-colours.php:120 admin/options-colours.php:154
+#: admin/options-colours.php:177 admin/options-colours.php:270
+#: admin/options-colours.php:293
+msgid "Top background"
+msgstr "רקע עליון"
+
+#: admin/options-colours.php:61 admin/options-colours.php:97
+#: admin/options-colours.php:121 admin/options-colours.php:155
+#: admin/options-colours.php:178 admin/options-colours.php:271
+#: admin/options-colours.php:294
+msgid "Bottom background"
+msgstr "רקע תחתון"
+
+#: admin/options-colours.php:62 admin/options-colours.php:98
+msgid "Bottom border"
+msgstr "גבול תחתון"
+
+#: admin/options-colours.php:63
+msgid "Header top border"
+msgstr "גבול עליון של הכותרת (header)"
+
+#: admin/options-colours.php:71 admin/options-colours.php:109
+#: admin/options-colours.php:132 admin/options-colours.php:166
+#: admin/options-colours.php:188 admin/options-colours.php:229
+#: admin/options-colours.php:250 admin/options-colours.php:282
+#: admin/options-colours.php:304 admin/options-colours.php:340
+#: admin/options-colours.php:380 admin/options-colours.php:416
+#: admin/options-colours.php:454 admin/options-colours.php:493
+#: admin/options-colours.php:530 admin/options-colours.php:555
+#: admin/options-colours.php:565 admin/options-colours.php:582
+#: admin/options-colours.php:638
+msgid "Clear"
+msgstr "נקה"
+
+#: admin/options-colours.php:85
+msgid "Primary menu"
+msgstr "תפריט ראשי"
+
+#: admin/options-colours.php:88 admin/options-colours.php:206
+msgid "Default state"
+msgstr "מצב ברירת מחדל"
+
+#: admin/options-colours.php:91 admin/options-colours.php:142
+#: admin/options-colours.php:209 admin/options-colours.php:260
+msgid "Menu preview"
+msgstr "תצוגה מוקדמת של התפריט"
+
+#: admin/options-colours.php:92 admin/options-colours.php:146
+#: admin/options-colours.php:211 admin/options-colours.php:263
+msgid "Active menu item"
+msgstr "רכיב תפריט פעיל"
+
+#: admin/options-colours.php:92 admin/options-colours.php:100
+#: admin/options-colours.php:123
+msgid "Menu item description"
+msgstr "תאור רכיב התפריט"
+
+#: admin/options-colours.php:92 admin/options-colours.php:99
+#: admin/options-colours.php:122 admin/options-colours.php:156
+#: admin/options-colours.php:179 admin/options-colours.php:212
+#: admin/options-colours.php:220 admin/options-colours.php:241
+#: admin/options-colours.php:262 admin/options-colours.php:264
+#: admin/options-colours.php:272 admin/options-colours.php:295
+msgid "Menu item"
+msgstr "רכיב בתפריט"
+
+#: admin/options-colours.php:116
+msgid "Hover and active state"
+msgstr "קישור במעבר עכבר וקישור פעיל"
+
+#: admin/options-colours.php:139 admin/options-colours.php:257
+msgid "Dropdown menu (default state)"
+msgstr "תפריט נגלל (מצב ברירת מחדל)"
+
+#: admin/options-colours.php:145 admin/options-colours.php:147
+msgid "Dropdown menu item"
+msgstr "רכיב בתפריט נגלל"
+
+#: admin/options-colours.php:157 admin/options-colours.php:273
+msgid "Box shadow"
+msgstr "צל תיבת הווידג'ט"
+
+#: admin/options-colours.php:173 admin/options-colours.php:289
+msgid "Dropdown menu (hover and active state)"
+msgstr "תפריט נגלל (במעבר עכבר ומצב פעיל)"
+
+#: admin/options-colours.php:203
+msgid "Secondary menu"
+msgstr "תפריט שני"
+
+#: admin/options-colours.php:218 admin/options-colours.php:240
+#: admin/options-colours.php:625
+msgid "Background"
+msgstr "רקע "
+
+#: admin/options-colours.php:219
+msgid "Top border"
+msgstr "גבול עליון"
+
+#: admin/options-colours.php:236
+msgid "Active and hover state"
+msgstr "מצבים פעיל ובמעבר עכבר מעל"
+
+#: admin/options-colours.php:319
+msgid "Content area"
+msgstr "אזור התוכן"
+
+#: admin/options-colours.php:325
+msgid "Main content wrapper background"
+msgstr "צבע הרקע של מעטפת התוכן הראשי"
+
+#: admin/options-colours.php:326
+msgid "Post and pages content background"
+msgstr "רקע התוכן בעמודים ומאמרים (פוסטים)"
+
+#: admin/options-colours.php:327
+msgid "Post meta and footer border"
+msgstr "גבול תחתון ומטה (meta) של הפוסט"
+
+#: admin/options-colours.php:328
+msgid "Post and pages top border"
+msgstr "גבול עליון של מאמרים ועמודים"
+
+#: admin/options-colours.php:329
+msgid "Post and pages bottom border"
+msgstr "גבול תחתון של מאמרים ועמודים"
+
+#: admin/options-colours.php:330
+msgid "Sticky posts content background"
+msgstr "רקע התוכן במאמרים דביקים"
+
+#: admin/options-colours.php:331
+msgid "Child pages content background"
+msgstr "רקע התוכן בתת דפים (דפים בנים)"
+
+#: admin/options-colours.php:354
+msgid "Widgets"
+msgstr "ווידג'טים"
+
+#: admin/options-colours.php:359
+msgid "Widget preview"
+msgstr "תצוגה מוקדמת של הווידג'ט"
+
+#: admin/options-colours.php:360
+msgid "Widget title"
+msgstr "כותרת הווידג'ט"
+
+#: admin/options-colours.php:360
+msgid "List item"
+msgstr "רשימת אייטמים"
+
+#: admin/options-colours.php:364
+msgid "Widget item background"
+msgstr "רקע של ווידג'ט"
+
+#: admin/options-colours.php:365
+msgid "Widget item list border"
+msgstr "צבע הגבול בין הרכיבים בווידג'ט"
+
+#: admin/options-colours.php:366
+msgid "Widget header border"
+msgstr "גובל כותרת הווידג'ט"
+
+#: admin/options-colours.php:367
+msgid "Widget title colour"
+msgstr "צבע כותרת הווידג'ט"
+
+#: admin/options-colours.php:368
+msgid "Widget title text shadow colour"
+msgstr "צבע הצל של טקסט כותרת הווידג'ט"
+
+#: admin/options-colours.php:369
+msgid "Widget header gradient bottom colour"
+msgstr "הצבע המדרוני (gradient) התחתון של כותרת הווידג'ט"
+
+#: admin/options-colours.php:370
+msgid "Widget header gradient top colour"
+msgstr "הצבע המדרוני (gradient) העליון של כותרת הווידג'ט"
+
+#: admin/options-colours.php:371
+msgid "Widget box shadow"
+msgstr "צל תיבת הווידג'ט"
+
+#: admin/options-colours.php:396
+msgid "Slider"
+msgstr "מצגת"
+
+#: admin/options-colours.php:401
+msgid "Slider background preview"
+msgstr "תצוגה מוקדמת של רקע המצגת"
+
+#: admin/options-colours.php:406
+msgid "Slider top left colour"
+msgstr "צבע שמאלי עליון של המצגת"
+
+#: admin/options-colours.php:407
+msgid "Slider bottom right colour"
+msgstr "צבע ימני תחתון של המצגת"
+
+#: admin/options-colours.php:432
+msgid "Block buttons"
+msgstr "כפתור לחיצה (block)"
+
+#: admin/options-colours.php:437
+msgid "Block button preview"
+msgstr "תצוגה מוקדמת של הכפתור"
+
+#: admin/options-colours.php:438
+msgid "Button label"
+msgstr "כיתוב הכפתור"
+
+#: admin/options-colours.php:442
+msgid "Button background colour"
+msgstr "צבע רקע הכפתור"
+
+#: admin/options-colours.php:443
+msgid "Button label colour"
+msgstr "צבע כיתוב הכפתור"
+
+#: admin/options-colours.php:444
+msgid "Button label text shadow"
+msgstr "צבע צל כיתוב הכפתור"
+
+#: admin/options-colours.php:445
+msgid "Button box shadow"
+msgstr "צל הכפתור"
+
+#: admin/options-colours.php:470 admin/options-colours.php:476
+msgid "Archive title"
+msgstr "כותרת הארכיון"
+
+#: admin/options-colours.php:475
+msgid "Archive title preview"
+msgstr "תצוגה מוקדמת של כותרת הארכיון"
+
+#: admin/options-colours.php:476
+msgid "Sample title"
+msgstr "כותרת לדוגמא"
+
+#: admin/options-colours.php:480
+msgid "Archive background gradient left colour"
+msgstr "צבע הרקע המדרוני (gradient) השמאלי של כותרת הארכיון"
+
+#: admin/options-colours.php:481
+msgid "Archive background gradient right colour"
+msgstr "צבע הרקע המדרוני (gradient) הימני של כותרת הארכיון"
+
+#: admin/options-colours.php:482
+msgid "Archive label colour"
+msgstr "צבע תוית (label) הארכיון"
+
+#: admin/options-colours.php:483
+msgid "Archive text colour"
+msgstr "צבע טקסט הארכיון"
+
+#: admin/options-colours.php:484
+msgid "Archive label and text shadow colour"
+msgstr "צבע הצל של תוית וטקסט הארכיון"
+
+#: admin/options-colours.php:509
+msgid "Comments area"
+msgstr "אזור התגובות"
+
+#: admin/options-colours.php:515
+msgid "Comments background"
+msgstr "רקע התגובות"
+
+#: admin/options-colours.php:516
+msgid "Comments text"
+msgstr "צבע טקסט התגובות"
+
+#: admin/options-colours.php:517
+msgid "Threaded comments border"
+msgstr "צבע גבול תגובות משויכות"
+
+#: admin/options-colours.php:518
+msgid "Author comments background"
+msgstr "רקע תגובות המחבר"
+
+#: admin/options-colours.php:519
+msgid "Author comments top border"
+msgstr "צבע הגבול העליון של תגובות כותב המאמר"
+
+#: admin/options-colours.php:520
+msgid "Author comments text"
+msgstr "צבע טקסט תגובת הכותב"
+
+#: admin/options-colours.php:521
+msgid "Comment form background"
+msgstr "רקע טופס התגובות"
+
+#: admin/options-colours.php:522
+msgid "Comment form text"
+msgstr "צבע טקסט טופס התגובה"
+
+#: admin/options-colours.php:545 admin/options-colours.php:551
+msgid "Content text"
+msgstr "צבע טקסט התוכן"
+
+#: admin/options-colours.php:561
+msgid "Title text"
+msgstr "צבע טקסט הנושא"
+
+#: admin/options-colours.php:571
+msgid "Link colour (normal state)"
+msgstr "צבע הקישור (מצב רגיל)"
+
+#: admin/options-colours.php:572
+msgid "Link colour (visited state)"
+msgstr "צבע הקישור (קישור שבקרו בו)"
+
+#: admin/options-colours.php:573
+msgid "Link colour (hover state)"
+msgstr "צבע הקישור (מעבר על הקישור)"
+
+#: admin/options-colours.php:596
+msgid "Footer"
+msgstr "תפריט תחתון (footer)"
+
+#: admin/options-colours.php:601
+msgid "Footer preview"
+msgstr "תצוגה מוקדמת של הפוטר (footer)"
+
+#: admin/options-colours.php:626
+msgid "Heading"
+msgstr "(Heading) כותרת"
+
+#: admin/options-colours.php:627
+msgid "Normal text"
+msgstr "כיתוב סטנדרטי"
+
+#: admin/options-colours.php:628
+msgid "Link text"
+msgstr "כיתוב הקישור"
+
+#: admin/options-colours.php:629
+msgid "Submenu text"
+msgstr "כיתוב תת תפריט"
+
+#: admin/options-colours.php:630
+msgid "Submenu border"
+msgstr "גבול תת תפריט"
+
+#: admin/options-defaults.php:88
+#, php-format
+msgid "Subscribe to %s's RSS feed"
+msgstr "הרשמו לשירות הפידים של %s"
+
+#: admin/options-defaults.php:167
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: admin/options-defaults.php:171
+msgid "Dream Magnet"
+msgstr ""
+
+#: admin/options-defaults.php:175
+msgid "Curiosity Killed"
+msgstr ""
+
+#: admin/options-defaults.php:179
+msgid "Zesty Orange"
+msgstr ""
+
+#: admin/options-display.php:14
+msgid "Header Display Options"
+msgstr "אפשרויות תצוגת הכותרת (header)"
+
+#: admin/options-display.php:20
+msgid "Use light-coloured header bars"
+msgstr "השתמשו בצבעים בהירים בסרגל הכותרת"
+
+#: admin/options-display.php:26
+msgid "Link header image to front page"
+msgstr "קשרו את תמונת הכותרת (header) לעמוד הראשי"
+
+#: admin/options-display.php:29
+msgid ""
+"Check this if you disable the header texts and want the header image to be "
+"linked to the front page."
+msgstr ""
+"בחרו באפשרות זו אם ביטלתם את הטקסט בכותרת ואתם רוצים שתמונת הכותרת תהיה "
+"מקושרת לעמוד הראשי."
+
+#: admin/options-display.php:34
+msgid "Disable Featured Image replacing header image"
+msgstr "בטל אפשרות שתמונה נבחרת תחליף את תמונת הכותרת (header)"
+
+#: admin/options-display.php:37
+msgid ""
+"Check this to prevent the posts Featured Image replacing the header image "
+"regardless of the featured image dimension."
+msgstr ""
+"בחר אופציה זו כדי למנוע מהתמונה הנבחרת של המאמר להחליף את תמונת הכותרת בלי "
+"קשר למידות התמונה הנבחרת."
+
+#: admin/options-display.php:42
+msgid "Header image height"
+msgstr "גובה תמונת הכותרת (header)"
+
+#: admin/options-display.php:51
+msgid "Search box location"
+msgstr "מיקום תיבת החיפוש"
+
+#: admin/options-display.php:56
+msgid "Navigation bar"
+msgstr "סרגל ניווט"
+
+#: admin/options-display.php:57
+msgid "Disable search box"
+msgstr "כבה את קופסת החיפוש"
+
+#: admin/options-display.php:73
+msgid "Column Options"
+msgstr "אפשרויות עימוד"
+
+#: admin/options-display.php:79
+msgid "Column mode"
+msgstr "מצב עימוד"
+
+#: admin/options-display.php:88 admin/options-display.php:149
+msgid "One column"
+msgstr "עמודה אחת"
+
+#: admin/options-display.php:96 admin/options-display.php:106
+#: admin/options-display.php:157 admin/options-display.php:167
+msgid "Two columns (with sidebar right)"
+msgstr "שתי עמודות עם סרגל צידי ימני"
+
+#: admin/options-display.php:98 admin/options-display.php:104
+#: admin/options-display.php:159 admin/options-display.php:165
+msgid "Two columns (with sidebar left)"
+msgstr "שתי עמודות עם שני סרגל צידי שמאלי"
+
+#: admin/options-display.php:115 admin/options-display.php:125
+#: admin/options-display.php:176 admin/options-display.php:186
+msgid "Three columns (with two sidebars right)"
+msgstr "שלוש עמודות עם שני סרגלים צידיים ימניים"
+
+#: admin/options-display.php:117 admin/options-display.php:123
+#: admin/options-display.php:178 admin/options-display.php:184
+msgid "Three columns (with two sidebars left)"
+msgstr "שלוש עמודות עם שני סרגלים צידיים שמאליים"
+
+#: admin/options-display.php:130 admin/options-display.php:191
+msgid "Three columns (with sidebars left and right)"
+msgstr "שלוש עמודות עם שני סרגלים צידיים ימני ושמאלי"
+
+#: admin/options-display.php:140
+msgid "bbPress column mode"
+msgstr "מצב עמודת bbPress"
+
+#: admin/options-display.php:210
+msgid "Column Width Options"
+msgstr "אפשרויות רוחב עמודה"
+
+#: admin/options-display.php:213
+msgid "Note: Leave values empty to reset to the default values."
+msgstr "הערה: השאירו את הערכים ריקים על מנת לאפסם לברירת המחדל."
+
+#: admin/options-display.php:217
+msgid "Container width"
+msgstr "רוחב קונטיינר"
+
+#: admin/options-display.php:234 admin/options-display.php:257
+msgid "Column width"
+msgstr "רוחב עמודה"
+
+#: admin/options-display.php:234
+msgid "two-column mode"
+msgstr "מצב שתי עמודות"
+
+#: admin/options-display.php:238 admin/options-display.php:265
+msgid "Content"
+msgstr "תוכן"
+
+#: admin/options-display.php:242
+msgid "Sidebar"
+msgstr "סרגל צידי"
+
+#: admin/options-display.php:257
+msgid "three-column mode"
+msgstr "מצב 3 עמודות"
+
+#: admin/options-display.php:261
+msgid "Left sidebar"
+msgstr "סרגל צידי שמאלי"
+
+#: admin/options-display.php:269
+msgid "Right sidebar"
+msgstr "סרגל צידי ימני"
+
+#: admin/options-display.php:293
+msgid "Posts Display Options"
+msgstr "אפשרויות תצוגת מאמרים"
+
+#: admin/options-display.php:299
+msgid "Hide post author"
+msgstr "הסתר את מחבר המאמר"
+
+#: admin/options-display.php:318
+msgid "Hide post categories"
+msgstr "הסתר קטגוריות מאמר"
+
+#: admin/options-display.php:324
+msgid "Hide post tags"
+msgstr "הסתר תגי מאמר"
+
+#: admin/options-display.php:330
+msgid "Hide post comment count"
+msgstr "הסתר מונה תגובות מאמר"
+
+#: admin/options-display.php:331
+msgid ""
+"Only affects posts listing (such as the front page) and not single post view."
+msgstr "משפיע רק על רשימת המאמרים (כמו העמוד הראשי) ולא על תצוגת מאמר יחיד."
+
+#: admin/options-display.php:336
+msgid "Show post author's <a href=\"http://en.gravatar.com/\">gravatar</a>"
+msgstr "הראה<a href=\"http://en.gravatar.com/\"> אוואטר</a> של המחבר"
+
+#: admin/options-display.php:340
+msgid "Show post author's info"
+msgstr "הצג מידע על מחבר המאמר"
+
+#: admin/options-display.php:355
+msgid "Excerpts Display Options"
+msgstr "אפשרויות תצוגת תקציר המאמר"
+
+#: admin/options-display.php:361
+msgid "Show excerpts in front page"
+msgstr "הצג תקצירי מאמרים בעמוד ראשי"
+
+#: admin/options-display.php:367
+msgid "Show full content in archive pages"
+msgstr "הצג את כל התוכן בעמודי ארכיון"
+
+#: admin/options-display.php:371
+msgid ""
+"Note: Archive pages include the archive for category, tags, time, and search "
+"results pages. Enabling this option will cause the full content of posts and "
+"pages listed in those archives to displayed instead of the excerpt, and "
+"truncated by the Read More tag if used."
+msgstr ""
+"הערה: עמודי ארכיון מכילים את הארכיון עבור קטגוריות, תגיות, זמן ותוצאות "
+"חיפושים. הפעלת אפשרות זו תגרום לכך שהתוכן המלא של כל פוסט ועמוד הרשומים "
+"בארכיונים האלה, להיות מוצג במקום התקצירים ויבטלו את אפשרות ה\"קרא עוד\" אם "
+"היתה בשימוש."
+
+#: admin/options-display.php:375
+msgid "Show More link for manual excerpts"
+msgstr "הצג קישור\"עוד\" לתקצירים ידניים"
+
+#: admin/options-display.php:379
+msgid "Retain these HTML tags in excerpts"
+msgstr "שמור על תגי ה-HTML האלה בתקצירי פוסטים"
+
+#: admin/options-display.php:382
+msgid ""
+"Enter the HTML tags you'd like to retain in excerpts. For example, enter "
+"<code>&lt;p&gt;&lt;ul&gt;&lt;li&gt;</code> to retain <code>&lt;p&gt;</code>, "
+"<code>&lt;ul&gt;</code>, and <code>&lt;li&gt;</code> HTML tags."
+msgstr ""
+"הכניסו את תגי ה- HTML שתרצו לשמור בתקצירים. לדוגמא הכניסו את <code>&lt;p&gt;"
+"&lt;ul&gt;&lt;li&gt;</code> כדי לשמור את <code>&lt;p&gt;</code>, <code>&lt;"
+"ul&gt;</code>, ואת <code>&lt;li&gt;</code> תגי ה- HTML."
+
+#: admin/options-display.php:398
+msgid "Comments Display Options"
+msgstr "אפשרויות תצוגת תגובות"
+
+#: admin/options-display.php:404
+msgid "Hide allowed tags in comment form"
+msgstr "הסתר תגים מותרים בטופס התגובה"
+
+#: admin/options-display.php:420
+msgid "Text Style Options"
+msgstr "אפשרויות סגנון הטקסט"
+
+#: admin/options-display.php:423
+msgid "Google Webfonts"
+msgstr ""
+
+#: admin/options-display.php:426
+msgid "Font families"
+msgstr "משפחות גופנים"
+
+#: admin/options-display.php:429
+msgid ""
+"Enter the Google Webfont font family string in the format that is used in "
+"the Webfont Loader, one font family per line."
+msgstr ""
+"הכניסו את מחרוזת גופני הווב של גוגל (Google WebFont) באותו פורמט שבשימוש "
+"טוען הגופנים בווב, משפחת גופנים אחת בכל שורה."
+
+#: admin/options-display.php:430
+msgid "Example:"
+msgstr "דוגמא:"
+
+#: admin/options-display.php:435
+msgid ""
+"The following options are CSS properties, so any valid CSS values for each "
+"particular property can be used."
+msgstr "שימו לב שאלו הגדרות של CSS, כך שכל הגדרה תקנית של CSS ניתנת לשימוש."
+
+#: admin/options-display.php:436
+msgid "Some example CSS properties values:"
+msgstr "כמה דוגמאות לערכי CSS אפשריים:"
+
+#: admin/options-display.php:439
+msgid "Text font:"
+msgstr "גופן הטקסט:"
+
+#: admin/options-display.php:443
+msgid "Text size and line height:"
+msgstr "גודל טקסט וגובה הקו:"
+
+#: admin/options-display.php:447
+msgid "Text weight:"
+msgstr "משקל הטקסט (weight):"
+
+#: admin/options-display.php:451
+msgid "Text style:"
+msgstr "סגנון הטקסט:"
+
+#: admin/options-display.php:455
+msgid "Text decoration:"
+msgstr "עיצוב הטקסט:"
+
+#: admin/options-display.php:460
+msgid "Header Text"
+msgstr "צבע טקסט הכותרת (header):"
+
+#: admin/options-display.php:464
+msgid "Title text font"
+msgstr "גופן כיתוב הנושא (Title)"
+
+#: admin/options-display.php:470
+msgid "Title text size"
+msgstr "גודל גופן הנושא"
+
+#: admin/options-display.php:476
+msgid "Title text weight"
+msgstr "משקל גופן הנושא"
+
+#: admin/options-display.php:482
+msgid "Title text line height"
+msgstr "גובה שורת כיתוב הנושא"
+
+#: admin/options-display.php:488
+msgid "Title text style"
+msgstr "סגנון כיתוב הנושא"
+
+#: admin/options-display.php:497
+msgid "Description text font"
+msgstr "גופן כיתוב התאור"
+
+#: admin/options-display.php:503
+msgid "Description text size"
+msgstr "גודל טקסט ההסבר description"
+
+#: admin/options-display.php:509
+msgid "Description text weight"
+msgstr "משקל טקסט התיאור"
+
+#: admin/options-display.php:515
+msgid "Description text line height"
+msgstr "גובה שורת טקסט התיאור"
+
+#: admin/options-display.php:521
+msgid "Description text style"
+msgstr "סגנון טקסט ההסבר"
+
+#: admin/options-display.php:527
+msgid "Content Text"
+msgstr "טקסט התוכן"
+
+#: admin/options-display.php:531
+msgid "Text font"
+msgstr "גופן הטקסט"
+
+#: admin/options-display.php:537
+msgid "Text size"
+msgstr "גודל הטקסט"
+
+#: admin/options-display.php:543
+msgid "Text line height"
+msgstr "גובה שורת הטקסט"
+
+#: admin/options-display.php:549
+msgid "Link Text"
+msgstr "טקסט קישור"
+
+#: admin/options-display.php:553
+msgid "Text decoration (normal state)"
+msgstr "עיצוב הטקסט (במצב רגיל)"
+
+#: admin/options-display.php:559
+msgid "Text decoration (hover state)"
+msgstr "עיצוב הטקסט (במעבר עליו עם העכבר)"
+
+#: admin/options-display.php:575
+msgid "Footer Widget Display Options"
+msgstr "אפשרויות תצוגת הווידג'טים בתחתית"
+
+#: admin/options-display.php:581
+msgid "Number of columns to display"
+msgstr "מספר העמודות לתצוגה"
+
+#: admin/options-display.php:588
+msgid "Number of columns to display for front page footer widget"
+msgstr "מספר העמודות לתצוגה בווידג'ט של תחתית העמוד הראשי"
+
+#: admin/options-display.php:605
+msgid "Navigation Menu Display Options"
+msgstr "אפשרויות תצוגת תבנית הניווט"
+
+#: admin/options-display.php:611
+msgid "Dropdown menu item width"
+msgstr "רוחב התפריט הנגלל"
+
+#: admin/options-display.php:617
+msgid "Disable description in Header Menu"
+msgstr "כבו את אפשרות התאור בתפריט העליון"
+
+#: admin/options-display.php:625
+msgid "Description for default menu \"Home\" item"
+msgstr "תאור עבור רכיב \"הבית\" בתפריט ברירת המחדל"
+
+#: admin/options-display.php:644
+msgid "Miscellaneous Display Options"
+msgstr "אפשרויות תצוגה נוספות"
+
+#: admin/options-display.php:647
+msgid "Site title options"
+msgstr "אפשרויות כותרת האתר"
+
+#: admin/options-display.php:648
+msgid ""
+"Use these tags to customise your own site title structure: <code>#site-name</"
+"code>, <code>#site-desc</code>, <code>#post-title</code>"
+msgstr ""
+"השתמשו בתגיות האלה על מנת להתאים את כותרת משלכם לאתר: <code>#site-name</"
+"code>, <code>#site-desc</code>, <code>#post-title</code>"
+
+#: admin/options-display.php:652
+msgid "Custom front page site title"
+msgstr "אפשרויות מתואמות אישית של כותרת האתר"
+
+#: admin/options-display.php:656
+msgid ""
+"Defaults to <code>#site-name &raquo; #site-desc</code>. The <code>#post-"
+"title</code> tag cannot be used here."
+msgstr ""
+"ברירת מחדל ל <code>#site-name &raquo; #site-desc</code>. התג <code>#post-"
+"title</code> לא יכול להיות בשימוש כאן."
+
+#: admin/options-display.php:661
+msgid "Custom content pages site title"
+msgstr "התאמה אישית של כותרת האתר לדפי התוכן"
+
+#: admin/options-display.php:665
+msgid "Defaults to <code>#post-title &raquo; #site-name</code>."
+msgstr "ברירת מחדל ל <code>#post-title &raquo; #site-name</code>."
+
+#: admin/options-display.php:670
+msgid "Favicon options"
+msgstr "אפשרויות Favicon"
+
+#: admin/options-display.php:674
+msgid "Favicon URL"
+msgstr "קישור ל- Favicon"
+
+#: admin/options-display.php:678 admin/options-general.php:125
+msgid "Upload or select image from gallery"
+msgstr "העלו או בחרו תמונה מהגלריה"
+
+#: admin/options-display.php:678
+msgid ""
+"Simply enter the full URL to your favicon file here to enable favicon. Make "
+"sure you include the <code>http://</code> in front of the URL as well. Or "
+"use the WordPress media uploader to upload an image, or select one from the "
+"media library."
+msgstr ""
+"הכניסו קישור URL לאייקון הלוגו שלכם על מנת לאפשר אופציה זו. שימו לה להכליל "
+"את הקידומת http://. אתם יכולים גם להשתמש במעלה המדיה של וורדפרס ואז לבחור את "
+"האייקון מתוך ספריית המדיה."
+
+#: admin/options-display.php:683
+msgid "WordPress Editor options"
+msgstr "אפשרויות עורך וורדפרס"
+
+#: admin/options-display.php:687
+msgid "Disable custom editor styles"
+msgstr "בטל עיצובי עריכה מוגדרים אישית"
+
+#: admin/options-display.php:703
+msgid "Custom CSS"
+msgstr "CSS מותאם אישית"
+
+#: admin/options-display.php:708
+msgid "Custom CSS styles"
+msgstr "סגנונות CSS מותאם אישית"
+
+#: admin/options-display.php:710
+msgid ""
+"You can enter your own CSS codes below to modify any other aspects of the "
+"theme's appearance that is not included in the options."
+msgstr ""
+"אתם יכולים להכניס את קוד ה- CSS שלכם למטה על מנת לשנות כל אפשרות תצוגה אחרת "
+"של התבנית שלא נכללה באפשרויות התפריטים השונים."
+
+#: admin/options-general.php:13
+msgid "Slider Options"
+msgstr "אפשרויות מצגת"
+
+#: admin/options-general.php:19
+msgid "Disable slider"
+msgstr "כבה מצגת"
+
+#: admin/options-general.php:27
+msgid "Extend slider to full width of the theme"
+msgstr "הרחב את המצגת לכל רוחב התבנית"
+
+#: admin/options-general.php:33
+msgid "What do you want to show in the slider"
+msgstr "מה תרצו להציג במצגת"
+
+#: admin/options-general.php:37
+msgid "Show latest posts"
+msgstr "הצג מאמרים אחרונים"
+
+#: admin/options-general.php:40
+msgid "Show random posts"
+msgstr "הצג מאמרים אקראיים"
+
+#: admin/options-general.php:43
+msgid "Show specific posts/pages"
+msgstr "הצג עמודים/מאמרים ספציפיים"
+
+#: admin/options-general.php:46
+msgid "Show posts from categories"
+msgstr "הצג מאמרים לפי קטגוריות"
+
+#: admin/options-general.php:51 admin/options-general.php:331
+msgid "Posts and/or pages to display"
+msgstr "מאמרים ו/או עמודים להצגה"
+
+#: admin/options-general.php:56 admin/options-general.php:335
+msgid ""
+"Enter ID of posts and/or pages to be displayed, separated by comma. Example: "
+"<code>1,13,45,33</code>"
+msgstr ""
+"הכניסו את ה ID של המאמר ו/או העמוד שתרצו להציג, מופרדים ע\"י פסיק. לדוגמא: "
+"<code>1,13,45,33</code>"
+
+#: admin/options-general.php:57
+msgid ""
+"Applicable only if <strong>Show specific posts/pages</strong> is selected "
+"above."
+msgstr "אפשרי רק אם \"הצג פוסטים או עמודים ספציפיים\" נבחר למעלה."
+
+#: admin/options-general.php:63
+msgid "Categories to display"
+msgstr "קטגוריות להצגה"
+
+#: admin/options-general.php:66 admin/options-general.php:251
+#: admin/options-general.php:322
+msgid "Click to select categories or type to search"
+msgstr "הקליקו לבחירת קטגוריות או הקלידו לחיפוש"
+
+#: admin/options-general.php:75
+msgid ""
+"All posts within the categories selected here will be displayed on the "
+"slider. Usage example: create a new category \"Featured\" and assign all "
+"posts to be displayed on the slider to that category, and then select that "
+"category here."
+msgstr ""
+
+#: admin/options-general.php:80
+msgid "Exclude the categories from posts listing"
+msgstr "אל תכלילו את הקטגוריות ברשימת הפוסטים"
+
+#: admin/options-general.php:84
+msgid "Disabled"
+msgstr "כבוי"
+
+#: admin/options-general.php:85
+msgid "Home Page"
+msgstr "דף הבית"
+
+#: admin/options-general.php:86
+msgid "Everywhere"
+msgstr "בכל מקום"
+
+#: admin/options-general.php:92
+msgid "Show posts from categories in random order"
+msgstr "הצג מאמרים לפי קטגוריות בסדר אקראי"
+
+#: admin/options-general.php:100
+msgid "Number of posts to display"
+msgstr "מספר המאמרים להצגה"
+
+#: admin/options-general.php:131
+msgid "Slider display style"
+msgstr "סגנון תצוגת המצגת"
+
+#: admin/options-general.php:135
+msgid "Thumbnail and excerpt"
+msgstr "תמונה ממוזערת ותמצית המאמר"
+
+#: admin/options-general.php:136
+msgid "Background image and excerpt"
+msgstr "תמונת רקע (ראשית) של המאמר ותמצית המאמר"
+
+#: admin/options-general.php:137
+msgid "Full post content"
+msgstr "תוכן מלא של המאמר"
+
+#: admin/options-general.php:143
+msgid "Slider animation"
+msgstr "אנימצית המצגת"
+
+#: admin/options-general.php:147
+msgid "Horizontal slide"
+msgstr "מצגת אופקית"
+
+#: admin/options-general.php:148
+msgid "Vertical slide"
+msgstr "מצגת אנכית"
+
+#: admin/options-general.php:149
+msgid "Fade"
+msgstr "עמעום"
+
+#: admin/options-general.php:150
+msgid "No effect"
+msgstr "ללא אפקטים"
+
+#: admin/options-general.php:156
+msgid "Slider height"
+msgstr "גובה המצגת"
+
+#: admin/options-general.php:164
+msgid "Slider speed"
+msgstr "מהירות המצגת"
+
+#: admin/options-general.php:167 admin/options-general.php:176
+msgid "milliseconds"
+msgstr "מילי שניות"
+
+#: admin/options-general.php:168
+msgid "This is the duration that each slider item will be shown"
+msgstr "זהו פרק הזמן שבו כל תמונה במצגת תוצג"
+
+#: admin/options-general.php:173
+msgid "Slider transition speed"
+msgstr "מהירות העברת תמונה במצגת"
+
+#: admin/options-general.php:177
+msgid ""
+"This is the speed of the slider transition. Lower values = higher speed."
+msgstr "זהו קצב המעבר בין התמונות במצגת. ערכים נמוכים = מהירות מעבר גבוהה."
+
+#: admin/options-general.php:182
+msgid "Move slider to bottom of page"
+msgstr "העבר את המצגת לתחתית העמוד"
+
+#: admin/options-general.php:198
+msgid "Infinite Scroll"
+msgstr "גלילה אינסופית"
+
+#: admin/options-general.php:201
+msgid ""
+"Let the theme pull the next set of posts or comments into view when visitor "
+"approaches the bottom of the page."
+msgstr ""
+"תנו לתבנית להציג את קבוצת הפוסטים או התגובות הבאה כאשר המבקר באתר מגיע "
+"לתחתית העמוד."
+
+#: admin/options-general.php:205
+msgid "Enable Infinite Scroll"
+msgstr "אפשר גלילה אינסופית"
+
+#: admin/options-general.php:214
+msgid "Click to fetch more items"
+msgstr "הוסף לחצן להצגת עוד פוסטים/תגובות בלחיצה עליו"
+
+#: admin/options-general.php:220
+msgid "For comments"
+msgstr "עבור תגובות"
+
+#: admin/options-general.php:225
+msgid "Enable Infinite Scroll for comments"
+msgstr "אפשר גלילה אינסופית לתגובות"
+
+#: admin/options-general.php:241
+msgid "Front Page Options"
+msgstr "אפשרויות עמוד ראשי"
+
+#: admin/options-general.php:248
+msgid "Front page posts categories"
+msgstr "קטגוריות מאמרים לעמוד ראשי"
+
+#: admin/options-general.php:259
+msgid ""
+"Only posts that belong to the categories selected here will be displayed on "
+"the front page."
+msgstr "רק מאמרים השייכים לקטגוריות הנבחרות כאן יוצגו בעמוד הראשי. "
+
+#: admin/options-general.php:264
+msgid ""
+"<strong>Note:</strong> this feature is not available when using a <a href="
+"\"http://codex.wordpress.org/Creating_a_Static_Front_Page\">static front "
+"page</a>."
+msgstr ""
+"<strong>שימו לב:</strong> אפשרות זו לא זמינה כשעובדים עם <a href=\"http://"
+"codex.wordpress.org/Creating_a_Static_Front_Page\">עמוד בית סטטי</a>מופעל."
+
+#: admin/options-general.php:279
+msgid "Homepage Panes"
+msgstr "חלונות תצוגה של עמוד הבית"
+
+#: admin/options-general.php:286
+msgid "Disable homepage panes"
+msgstr "בטל חלונות תצוגה של עמוד הבית"
+
+#: admin/options-general.php:296
+msgid "Type of content to show"
+msgstr "סוגי תוכן לתצוגה"
+
+#: admin/options-general.php:303
+msgid "Latest posts by category"
+msgstr "פוסטים אחרונים לפי קטגוריה"
+
+#: admin/options-general.php:306
+msgid "Posts and/or pages"
+msgstr "מאמרים ו/או עמודים"
+
+#: admin/options-general.php:311
+msgid "Number of latest posts to display"
+msgstr "מספר מאמרים אחרונים לתצוגה"
+
+#: admin/options-general.php:319
+msgid "Categories to show latest posts from"
+msgstr "הקטגוריות שלפיהם יוצגו המאמרים האחרונים"
+
+#: admin/options-general.php:340
+msgid ""
+"<strong>Note:</strong> this feature is only available when using a <a href="
+"\"http://codex.wordpress.org/Creating_a_Static_Front_Page\">static front "
+"page</a>."
+msgstr ""
+"<strong>שימו לב:</strong> אפשרות זו פעילה רק כש <a href=\"http://codex."
+"wordpress.org/Creating_a_Static_Front_Page\">עמוד בית סטטי</a>מופעל."
+
+#: admin/options-general.php:353
+msgid "Comments Options"
+msgstr "אפשרויות תגובות"
+
+#: admin/options-general.php:359
+msgid "Commenting"
+msgstr "מגיבים"
+
+#: admin/options-general.php:363
+msgid "Use WordPress settings"
+msgstr "השתמש בהגדרות וורדפרס"
+
+#: admin/options-general.php:364
+msgid "Disabled for pages"
+msgstr "בטל לעמודים"
+
+#: admin/options-general.php:365
+msgid "Disabled completely"
+msgstr "בטל לחלוטין"
+
+#: admin/options-general.php:367
+msgid ""
+"Note: this setting overrides the global WordPress Discussion Setting called "
+"\"Allow people to post comments on new articles\" and also the \"Allow "
+"comments\" option for individual posts/pages."
+msgstr ""
+"הערה: הגדרה זו עוקפת את ההגדרה הגלובלית של דיונים בוורדפרס הנקראת \"אפשר "
+"לשלוח תגובות לפוסטים חדשים\" וגם \"אפשר תגובות\" לפסוטים או עמודים בודדים."
+
+#: admin/options-general.php:382
+msgid "Child Page Options"
+msgstr "אפשרויות דף בן (Child Page)"
+
+#: admin/options-general.php:388
+msgid "Hide parent box if content is empty"
+msgstr "הסתר תיבת הורה אם התוכן ריק"
+
+#: admin/options-general.php:394
+msgid "Child page listings"
+msgstr "הצגת דף בן"
+
+#: admin/options-general.php:398
+msgid "Show listing"
+msgstr "הצג רשימה"
+
+#: admin/options-general.php:399
+msgid "Hide listing"
+msgstr "הסתר רשימה"
+
+#: admin/options-general.php:400
+msgid "Only show listing if parent content is empty"
+msgstr "הראה אפשרויות תצוגה רק אם תוכן ההורה ריק"
+
+#: admin/options-general.php:416
+msgid "Widget Area Options"
+msgstr "אפשרויות אזור ווידג'טים"
+
+#: admin/options-general.php:419
+msgid "Header widget area"
+msgstr "אזור ווידג'טים ב- header"
+
+#: admin/options-general.php:420
+msgid ""
+"<strong>Important:</strong> This widget area is unstyled, as it is often "
+"used for advertisement banners, etc. If you enable it, make sure you style "
+"it to your needs using the Custom CSS option."
+msgstr ""
+"<strong>חשוב:</strong> שטח הווידג'טים הזה אינו מעוצב, מאחר ובדרך כלל מיועד "
+"לבאנרים פרסומיים וכו'. אם אתם מאפשרים אותו, ודאו שאתם מעצבים אותו לפי צרכיכם "
+"באמצעות קוד ה- CSS המותאם אישית."
+
+#: admin/options-general.php:424
+msgid "Enable header widget area"
+msgstr "אפשר אזור ווידג'טים ב-header"
+
+#: admin/options-general.php:433
+msgid "Alternate Widgets"
+msgstr "ווידג'טים אלטרנטיביים"
+
+#: admin/options-general.php:434
+msgid ""
+"You can enable the theme to show different widget areas in the front page "
+"than the rest of the website. If you enable this option, additional widget "
+"areas that will only be displayed on the front page will be added to the "
+"Widget settings page."
+msgstr ""
+"אתם יכולים לאפשר תצוגה שונה של וידג'טים בעמוד הראשי מאשר בשאר האתר. אם "
+"תפעילו אפשרות זו יופיעו וידג'טים נוספים בעמוד הוידג'טים וכשתוסיפו אותם הם "
+"יופיעו רק בעמוד הראשי."
+
+#: admin/options-general.php:437
+msgid "Enable alternate front page sidebar widget area"
+msgstr "אפשר אזור חלופי לווידג'טים צידיים בעמוד הראשי"
+
+#: admin/options-general.php:441
+msgid "Enable alternate front page footer widget area"
+msgstr "אפשר אזור חלופי לווידג'טים תחתיים בעמוד הראשי"
+
+#: admin/options-general.php:442
+msgid ""
+"You can also specify different column counts for the front page footer "
+"widget and the rest-of-site footer widget if you enable this option."
+msgstr ""
+"אם אתם מאפשרים אפשרות זו, תוכלו לבחור מספר עמודות שונה לתצוגת ווידג'טים "
+"בתחתית העמוד הראשי."
+
+#: admin/options-general.php:458
+msgid "Top Bar Options"
+msgstr "אפשרויות סרגל עליון"
+
+#: admin/options-general.php:464
+msgid "Hide the top bar"
+msgstr "הסתר סרגל עליון"
+
+#: admin/options-general.php:470
+msgid "Social Media"
+msgstr "רשתות חברתיות"
+
+#: admin/options-general.php:473
+msgid "Open social media links in new window"
+msgstr "פתח קישור לרשתות חברתיות בחלון חדש"
+
+#: admin/options-general.php:477
+msgid ""
+"<strong>Hint:</strong> drag and drop to rearrange the placement of the "
+"social media icons."
+msgstr ""
+"<strong> טיפ: </strong> גררו והשליכו על מנת לארגן את המיקום של אייקוני "
+"השיתוף החברתי."
+
+#: admin/options-general.php:503 admin/options-general.php:562
+msgid "Custom"
+msgstr "מותאם אישית"
+
+#: admin/options-general.php:512 admin/options-general.php:548
+#: admin/options-general.php:571
+msgid "Title attribute"
+msgstr "תאור הכותרת"
+
+#: admin/options-general.php:516 admin/options-general.php:549
+#: admin/options-general.php:575
+msgid "URL"
+msgstr "קישור"
+
+#: admin/options-general.php:520 admin/options-general.php:577
+msgid "Leave the URL empty to use the default RSS URL."
+msgstr "השאירו את הקישור ריק על מנת להשתמש בקישור ברירת המחדל לRSS."
+
+#: admin/options-general.php:526 admin/options-general.php:547
+#: admin/options-general.php:581
+msgid "Icon URL"
+msgstr "קישור לאייקון"
+
+#: admin/options-general.php:530 admin/options-general.php:550
+#: includes/theme-comments.php:219
+msgid "Delete"
+msgstr "מחק"
+
+#: admin/options-general.php:542
+msgid "Add Social Media Profile"
+msgstr "הוסיפו פרופיל של רשת חברתית"
+
+#: admin/options-general.php:554
+msgid "Type"
+msgstr "סוג"
+
+#: admin/options-general.php:556
+msgid "Choose type"
+msgstr "בחרו סוג"
+
+#: admin/options-general.php:585
+msgid "Add this social media profile"
+msgstr "הוסיפו פרופיל של רשת חברתית"
+
+#: admin/options-general.php:602
+msgid "Social Sharing Buttons"
+msgstr "כפתורי שיתוף של רשת חברתית"
+
+#: admin/options-general.php:607
+msgid "Show social sharing button"
+msgstr "הצג כפתורי שיתוף של רשת חברתית"
+
+#: admin/options-general.php:613
+msgid "Show in Pages as well?"
+msgstr "להציג גם בדפים?"
+
+#: admin/options-general.php:617
+msgid "Show in home and archive pages?"
+msgstr "להציג גם בדף ראשי ובדפי ארכיון?"
+
+#: admin/options-general.php:620
+#, php-format
+msgid ""
+"Enabling this will cause the social sharing buttons to appear on posts "
+"listing pages, like the home page and archive pages. Use the available tags "
+"in the code below to get the post's URL, title, and excerpt. Otherwise, all "
+"your buttons will share the same URL and title. If you're using AddThis, see "
+"the %s."
+msgstr ""
+"הפעלה של אפשרות זו תגרום לכך שכפתורי השיתוף של המדיה החברתית יופיעו בעמודים "
+"המפרטים רשימות פוסטים כמו עמוד הבית ועמודי ארכיון. השתמשו בתגיות האפשריות "
+"בקוד פה למטה על מנת לקבל את כתובת ה-URL של הפוסט וכן את כותרתו וקיצורו. "
+"אחרת, כל כפתורי השיתוף שלכם ישתמשו באותם קישורים וכותרות. אם אתם משתמשים ב- "
+"AddThis ראו גם את %s."
+
+#: admin/options-general.php:620
+msgid "AddThis Client API"
+msgstr ""
+
+#: admin/options-general.php:624
+msgid "Social sharing buttons location"
+msgstr "מיקום כפתורי השיתוף של הרשתות החברתיות"
+
+#: admin/options-general.php:627
+msgid "Bottom of posts"
+msgstr "בתחתית המאמר"
+
+#: admin/options-general.php:628
+msgid "Top of posts"
+msgstr "בראש המאמר"
+
+#: admin/options-general.php:629
+msgid "Both top and bottom"
+msgstr "בתחתית ובראש המאמר"
+
+#: admin/options-general.php:635
+msgid "Your social sharing button code"
+msgstr "הקוד של כפתור השיתוף החברתי שלך"
+
+#: admin/options-general.php:636
+msgid ""
+"You can use codes from any popular social sharing sites, like Facebook, "
+"Digg, AddThis, etc."
+msgstr ""
+"אתם יכולים להשתמש בקוד של כל אתר שיתוף חברתי שתרצו כמו פייסבוק, דיג, AddThis "
+"וכו'."
+
+#: admin/options-general.php:639
+msgid "You may use these tags to get the post's URL, title, and excerpt:"
+msgstr ""
+"אתם יכולים להשתמש בתגיות האלה על מנת לקבל את כתובת ה- URL של הפוסט, הכותרת "
+"שלו ותקצירו:"
+
+#: admin/options-general.php:654
+msgid "Adsense Options"
+msgstr "אפשרויות Adsense"
+
+#: admin/options-general.php:660
+msgid "Show Adsense advertising"
+msgstr "הראה פרסומות adsense"
+
+#: admin/options-general.php:668
+msgid "Show ads on front page as well"
+msgstr "הראה פרסומות גם בעמוד ראשי"
+
+#: admin/options-general.php:674
+msgid "Your Adsense code"
+msgstr "קוד ה- Adsense  שלכם"
+
+#: admin/options-general.php:690
+msgid "Google Analytics Options"
+msgstr "אפשרויות גוגל אנאליטיקס"
+
+#: admin/options-general.php:695
+msgid "Enable Google Analytics tracking"
+msgstr "אפשר מעקב של גוגל אנאליטיקס"
+
+#: admin/options-general.php:702
+msgid ""
+"<strong>Note:</strong> the theme now places the Google Analytics script in "
+"the <code>&lt;head&gt;</code> element to better support the new asynchronous "
+"Google Analytics script. Please make sure you update your script to use the "
+"new asynchronous script from Google Analytics."
+msgstr ""
+
+#: admin/options-general.php:706
+msgid "Google Analytics tracking code"
+msgstr "אפשר מעקב Google Analytics"
+
+#: admin/options-general.php:707
+msgid ""
+"Make sure you include the full tracking code (including the <code>&lt;"
+"script&gt;</code> and <code>&lt;/script&gt;</code> tags) and not just the "
+"<code>UA-#######-#</code> code."
+msgstr ""
+
+#: admin/options-general.php:723
+msgid "Footer Options"
+msgstr "אפשרויות footer"
+
+#: admin/options-general.php:728
+msgid "Use Creative Commons licence for content"
+msgstr "השתמש ברישיון Creative Commons לתוכן"
+
+#: admin/options-general.php:733
+msgid "Copyright text (html allowed)"
+msgstr "כיתוב זכויות יוצרים (מותרים תגי HTML)"
+
+#: admin/options-general.php:734
+msgid ""
+"If this field is empty, the following default copyright text will be "
+"displayed:"
+msgstr "אם שדה זה יישאר ריק, הטקסט ברירת המחדל הזה של זכויות היוצרים יוצג:"
+
+#: admin/options-general.php:740
+msgid "Do not show copyright info"
+msgstr "אל תציג מידע זכויות יוצרים"
+
+#: admin/options-general.php:744
+msgid "Do not show the \"Return to top\" link"
+msgstr "אל תציג קישור \"חזרה לראש העמוד\""
+
+#: admin/options-general.php:759
+msgid "Print Options"
+msgstr "אפשרויות הדפסה"
+
+#: admin/options-general.php:764
+msgid "Enable print CSS for single posts and pages?"
+msgstr "האם לאפשר הדפסת CSS עבור פוסטים בודדים ועמודים?"
+
+#: admin/options-general.php:770
+msgid "Show print button"
+msgstr "הצג כפתור הדפסה"
+
+#: admin/options-import.php:30
+msgid "ERROR: You have not selected any colour presets to be exported."
+msgstr ""
+
+#: admin/options-import.php:65 admin/options-import.php:282
+#: admin/options-presets.php:25 admin/uninstall.php:32
+msgid "ERROR: You are not authorised to perform that operation"
+msgstr "שגיאה: אינך מורשה לבצע פעולה זו"
+
+#: admin/options-import.php:86 admin/options-import.php:122
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr "לפני שתוכלו להעלות את קובץ הייבוא שלכם, עליכם לתקן את השגיאה הבאה:"
+
+#: admin/options-import.php:92 admin/options-import.php:196
+msgid "Import Graphene Theme Options"
+msgstr "ייבא את אפשרויות ערכת נושא Graphene"
+
+#: admin/options-import.php:95
+msgid "Choose a file from your computer:"
+msgstr "בחרו קובץ מהמחשב שלכם:"
+
+#: admin/options-import.php:95 admin/options-import.php:132
+#, php-format
+msgid "Maximum size: %s"
+msgstr "גודל מקסימאלי: %s"
+
+#: admin/options-import.php:102 admin/options-import.php:139
+msgid "Upload file and import"
+msgstr "העלה קובץ וייבא אותו"
+
+#: admin/options-import.php:128 admin/options-import.php:196
+msgid "Import Graphene Theme Colour Presets"
+msgstr "ייבא ערכות צבע קבועות מראש של Graphene"
+
+#: admin/options-import.php:131
+msgid ""
+"Choose a Graphene theme's colour presets export file from your computer:"
+msgstr "בחרו קובץ ייצוא של ערכת צבע קבועה מראש מהמחשב שלכם:"
+
+#: admin/options-import.php:158
+msgid "Export Graphene Theme Colour Presets"
+msgstr "יצאו ערכת צבע קבועה מראש של Graphene"
+
+#: admin/options-import.php:161
+msgid "Please select the colour presets to be exported."
+msgstr "בחרו בבקשה את ערכות הצבע הקבועות מראש שתרצו לייצא."
+
+#: admin/options-import.php:171
+msgid "Export colour presets"
+msgstr "ייצאו ערכות צבע קבועות מראש"
+
+#: admin/options-import.php:172 admin/options-import.php:245
+#: admin/options-import.php:255
+msgid "&laquo; Return to Graphene Options"
+msgstr "&laquo; חזרו לאפשרויות Graphene"
+
+#: admin/options-import.php:244
+msgid "Options import completed."
+msgstr "ייבוא האפשרויות הסתיים."
+
+#: admin/options-import.php:247 admin/options-import.php:257
+#: admin/options-import.php:263 admin/options-import.php:268
+msgid "Sorry, there has been an error."
+msgstr "מצטערים, ארעה תקלה."
+
+#: admin/options-import.php:248
+msgid "The uploaded file does not contain valid Graphene options."
+msgstr "הקובץ שהועלה אינו כולל אפשרויות ערכת נושא."
+
+#: admin/options-import.php:254
+msgid "Colour presets import completed."
+msgstr "ייבוא ערכות צבע קבועות מראש הסתיים."
+
+#: admin/options-import.php:258
+msgid "The uploaded file does not contain valid Graphene colour presets."
+msgstr "הקובץ שהועלה אינו כולל ערכת צבע קבועה מראש של Graphene."
+
+#: admin/options-import.php:264
+msgid "The uploaded file could not be read."
+msgstr "לא ניתן לקרוא את הקובץ שהועלה."
+
+#: admin/options-import.php:269
+msgid "The uploaded file is not supported."
+msgstr "הקובץ שהועלה אינו נתמך."
+
+#: admin/options-import.php:277
+msgid ""
+"File is empty. Please upload something more substantial. This error could "
+"also be caused by uploads being disabled in your php.ini or by post_max_size "
+"being defined as smaller than upload_max_filesize in php.ini."
+msgstr ""
+
+#: admin/options-init.php:42
+msgid "Graphene Options"
+msgstr "אפשרויות Graphene"
+
+#: admin/options-init.php:43
+msgid "Graphene FAQs"
+msgstr "שאלות נפוצות של Graphene"
+
+#: admin/options-init.php:134
+msgid "What should we call this preset?"
+msgstr "איך לקרוא לקבוע מראש הזה?"
+
+#: admin/options-init.php:135
+msgid "Preset name is required to save a preset."
+msgstr "שם הקבוע מראש דרוש כדי לשמור כקבוע מראש."
+
+#: admin/options-init.php:136
+msgid "You are deleting this preset:"
+msgstr "אתם מוחקים את הקבוע מראש הזה:"
+
+#: admin/options-init.php:137
+msgid "Please select the exported Graphene colour presets file to import."
+msgstr "בחרו בבקשה את ערכת הצבע הקבועה מראש שייצאתם, שתרצו לייצא."
+
+#: admin/options-init.php:138
+msgid "Oops, nothing found."
+msgstr "אופס, לא נמצא כלום."
+
+#: admin/options-init.php:140
+msgid "Please select the exported Graphene options file to import."
+msgstr "בחרו בבקשה את קובץ אפשרויות ערכת Graphene שייצאתם שתרצו לייבא."
+
+#: admin/options-init.php:174
+msgid "Toggle all options boxes"
+msgstr "החלף בחירה בכל תיבות הסימון"
+
+#: admin/options-init.php:233
+msgid "Template preview not found."
+msgstr "תבנית תצוגה מוקדמת לא נמצאה."
+
+#: admin/options-init.php:236
+msgid "default"
+msgstr "ברירת מחדל"
+
+#: admin/options-init.php:295 admin/options-init.php:299
+msgid "Theme default"
+msgstr "ברירת מחדל של ערכת הנושא"
+
+#: admin/options-init.php:336
+msgid "Learn more about this feature set"
+msgstr "למדו עוד על סט תכונות זה"
+
+#: admin/options-init.php:337
+msgid "Documentation"
+msgstr "תיעוד"
+
+#: admin/options-presets.php:18
+msgid "Settings have been reset."
+msgstr "ההגדרות אופסו."
+
+#: admin/options-validator.php:27
+msgid "ERROR: Invalid category to show in slider."
+msgstr "שגיאה: קטגוריה לא תקינה מוצגת במצגת."
+
+#: admin/options-validator.php:30
+msgid ""
+"ERROR: You must specify the posts/pages to be displayed when you have \"Show "
+"specific posts/pages\" selected for the slider."
+msgstr ""
+"שגיאה: אתם חייבים אלו פוסטים או עמודים יוצגו אם בחרתם \"הצג פוסטים/עמודים "
+"ספציפיים\" במצגת."
+
+#: admin/options-validator.php:33
+msgid ""
+"ERROR: You must have selected at least one category when you have \"Show "
+"posts from categories\" selected for the slider."
+msgstr ""
+"שגיאה: אתם חייבים לבחור לפחות קטגוריה אחת אם בחרתם \"הצג פוסטים מקטגוריות\" "
+"מצגת."
+
+#: admin/options-validator.php:43
+msgid "ERROR: Invalid category selected for the slider categories."
+msgstr "שגיאה: קטגוריה שגויה נבחרה לקטגוריות המצגת."
+
+#: admin/options-validator.php:47
+msgid ""
+"ERROR: Invalid option for the slider categories exclusion from posts listing "
+"is specified."
+msgstr ""
+
+#: admin/options-validator.php:53
+msgid ""
+"ERROR: The number of posts to displayed in the slider must be a an integer "
+"value."
+msgstr "שגיאה: מספר הפוסטים לתצוגה בסליידר חייב להיות מספר שלם."
+
+#: admin/options-validator.php:56
+msgid "ERROR: Invalid option for the slider image is specified."
+msgstr "שגיאה: אפשרות לא תקינה הוגדרה עבור תמונת הסליידר."
+
+#: admin/options-validator.php:58
+msgid "ERROR: Bad URL entered for the custom slider image URL."
+msgstr "שגיאה: הוכנסה כתובת URL לא נכונה עבור תמונת מצגת מותאמת אישית."
+
+#: admin/options-validator.php:60
+msgid "ERROR: Invalid option for the slider display style is specified."
+msgstr "שגיאה: נבחרה אפשרות שגוייה לסגנון תצוגת המצגת."
+
+#: admin/options-validator.php:62
+msgid "ERROR: The value for slider height must be an integer."
+msgstr "שגיאה: הערך לגובה הסליידר חייב להיות מספר שלם."
+
+#: admin/options-validator.php:64
+msgid "ERROR: The value for slider speed must be an integer."
+msgstr "שגיאה: הערך למהירות הסליידר חייב להיות מספר שלם."
+
+#: admin/options-validator.php:66
+msgid "ERROR: The value for slider transition speed must be an integer."
+msgstr "שגיאה: הערך למהירות מעבר הסליידר חייב להיות מספר שלם."
+
+#: admin/options-validator.php:68
+msgid "ERROR: Invalid slider animation."
+msgstr "שגיאה: אנימציה לא תקינה במצגת."
+
+#: admin/options-validator.php:87
+msgid "ERROR: Invalid category selected for the front page posts categories."
+msgstr "שגיאה: קטגוריה לא נכונה נבחרה לתצוגת הפוסטים לפי קטגוריות בעמוד הראשי."
+
+#: admin/options-validator.php:98
+msgid ""
+"ERROR: Invalid option for the type of content to show in homepage panes."
+msgstr "שגיאה: אפשרות לא נכונה נבחרה לתוכן התצוגה בעמודות עמוד הבית."
+
+#: admin/options-validator.php:100
+msgid ""
+"ERROR: The value for the number of latest posts to display in homepage panes "
+"must be an integer."
+msgstr "שגיאה: מספר הפוסטים האחרונים לתצוגה בעמוד הבית חייב להיות מספר שלם."
+
+#: admin/options-validator.php:107
+msgid ""
+"ERROR: Invalid category selected for the latest posts to show from in the "
+"homepage panes."
+msgstr "שגיאה: קטגוריה לא תקינה נבחרה להצגת פוסטים אחרונים בתצוגת עמוד הבית."
+
+#: admin/options-validator.php:122
+msgid "ERROR: Invalid option for the comments option."
+msgstr "שגיאה: אפשרות לא חוקית עבור אפשרויות התגובות."
+
+#: admin/options-validator.php:131
+msgid "ERROR: Invalid option for the child page listings."
+msgstr "שגיאה: אפשרות לא חוקית עבור רשימת דפי הבן."
+
+#: admin/options-validator.php:142
+msgid "ERROR: You must supply an URL for the custom RSS Feed."
+msgstr "שגיאה: אתם חייבים לספק URL עבור הזנת RSS מותאמת אישית."
+
+#: admin/options-validator.php:144
+msgid "ERROR: Bad URL entered for the custom RSS Feed URL."
+msgstr "שגיאה: הוכנסה כתובת URL לא תקינה עבור הזנת RSS מותאמת אישית."
+
+#: admin/options-validator.php:175
+#, php-format
+msgid "ERROR: Bad URL entered for the %s URL."
+msgstr "שגיאה: כתובת URL לא נכונה הוכנסה עבור %s."
+
+#: admin/options-validator.php:201
+msgid "ERROR: Invalid option for the social sharing buttons location."
+msgstr "שגיאה: אפשרות לא תקינה עבור מיקום כפתורי השיתוף של מדיה חברתית."
+
+#: admin/options-validator.php:260
+msgid "ERROR: The value for the header image height must be an integer."
+msgstr "שגיאה: הערך לגובה תמונת הכותרת חייב להיות מספר שלם."
+
+#: admin/options-validator.php:261
+msgid "ERROR: Invalid option for the Search box location."
+msgstr "שגיאה: אפשרות לא חוקית עבור מיקום תיבת החיפוש."
+
+#: admin/options-validator.php:265
+msgid "ERROR: Invalid option for the column mode."
+msgstr "שגיאה: אפשרות לא חוקית עבור מצב העמודה."
+
+#: admin/options-validator.php:266
+msgid "ERROR: Invalid option for the bbPress column mode."
+msgstr "שגיאה: אפשרות לא חוקית עבור מצב עמודת bbPress."
+
+#: admin/options-validator.php:272
+#, php-format
+msgid ""
+"ERROR: Invalid width for %s. Width value must be positive number without "
+"units."
+msgstr ""
+"שגיאה: רוחב לא תקני עבור %s. ערך הרוחב חייב להיות מספר חיובי ללא יחידות."
+
+#: admin/options-validator.php:279
+msgid "ERROR: Invalid option for the post date display."
+msgstr "שגיאה: אפשרות לא חוקית עובר תצוגת התאריך בפוסט."
+
+#: admin/options-validator.php:303
+msgid ""
+"ERROR: The number of columns to be displayed in the footer widget must be a "
+"an integer value."
+msgstr "שגיאה: מספר העמודות לתצוגה בוידג'ט התחתון חייב להיות מספר שלם."
+
+#: admin/options-validator.php:308
+msgid "ERROR: The width of the submenu must be a an integer value."
+msgstr "שגיאה: הרוחב של תת תפריט חייב להיות עם מספר שלם."
+
+#: admin/options-validator.php:316
+msgid "ERROR: Bad URL entered for the favicon URL."
+msgstr "שגיאה: כתובת URL לא תקינה הוכנסה עבור ה- Favicon."
+
+#: admin/options-validator.php:342
+msgid "ERROR: Invalid action hook selected widget action hooks."
+msgstr ""
+
+#: admin/options.php:60 admin/uninstall.php:23
+msgid "Uninstall Graphene"
+msgstr "הסר את ערכת הנושא Graphene"
+
+#: admin/options.php:61
+msgid ""
+"Please confirm that you would like to uninstall the Graphene theme. All of "
+"the theme's options in the database will be deleted."
+msgstr ""
+"נא אשרו שאתם רוצים להסיר את תבנית העיצוב Graphene. כל הגדרות התבנית יימחקו "
+"מבסיס הנתונים."
+
+#: admin/options.php:62
+msgid "This action is not reversible."
+msgstr "הפעולה הזו אינה הפיכה."
+
+#: admin/options.php:66 admin/options.php:308
+msgid "Uninstall Theme"
+msgstr "הסר ערכת נושא"
+
+#: admin/options.php:80
+msgid "Graphene Theme Options"
+msgstr "אפשרויות ערכת נושא Graphene"
+
+#: admin/options.php:82
+msgid ""
+"These are the global settings for the theme. You may override some of the "
+"settings in individual posts and pages."
+msgstr ""
+"אלו הם ההגדרות הכלליות לערכת העיצוב. ניתן לעקוף את חלקן עבור מאמרים ודפים "
+"ספציפיים."
+
+#: admin/options.php:90
+msgid "General"
+msgstr "כללי"
+
+#: admin/options.php:91
+msgid "Display"
+msgstr "תצוגה"
+
+#: admin/options.php:92
+msgid "Colours"
+msgstr "צבעים"
+
+#: admin/options.php:93
+msgid "Advanced"
+msgstr "מתקדם"
+
+#: admin/options.php:112
+msgid "Save Options"
+msgstr "שמור אפשרויות"
+
+#: admin/options.php:126
+msgid "Need help?"
+msgstr "זקוקים לעזרה?"
+
+#: admin/options.php:130
+msgid "Documentation Wiki"
+msgstr "תיעוד Wiki"
+
+#: admin/options.php:133
+#, php-format
+msgid "Also, find out how you can %s."
+msgstr "בנוסף, ראו כיצד אתם יכולים %s."
+
+#: admin/options.php:133
+msgid "support the Graphene theme"
+msgstr "לתמוך בערכת הנושא Graphene"
+
+#: admin/options.php:140
+msgid "Support the developer"
+msgstr "תמכו במפתח הערכה"
+
+#: admin/options.php:143
+msgid ""
+"Developing this awesome theme took a lot of effort and time, months and "
+"months of continuous voluntary unpaid work. If you like this theme or if you "
+"are using it for commercial websites, please consider a donation to the "
+"developer to help support future updates and development."
+msgstr ""
+"פיתוח ערכת הנושא המדהימה הזו (באמת!) דורש המון זמן ומאמצים וחודשים על חודשים "
+"של פיתוח ללא שכר. אם אתם אוהבים את ערכת הנושא הזו או אם אתם משתמשים בה לאתר "
+"מסחרי, אנא, חישבו על תרומה למפתח כדי שהוא יוכל להמשיך בפיתוח ערכת הנושא "
+"ולתמוך בכם בכל שאלה או בעייה."
+
+#: admin/options.php:157
+msgid "Graphene Theme news"
+msgstr "חדשות ערכת נושא Graphene"
+
+#: admin/options.php:168
+msgid "No news items."
+msgstr "אין חדשות."
+
+#: admin/options.php:184
+msgid "Add-ons and plugins"
+msgstr "תוספים והרחבות"
+
+#: admin/options.php:187
+msgid "Add-ons"
+msgstr "תוספים"
+
+#: admin/options.php:188
+msgid ""
+"Add-ons are not shipped with the theme, but can be installed separately to "
+"extend the theme's capability."
+msgstr ""
+"תוספים לא מגיעים עם ערכת הנושא אבל ניתן להתקינם על מנת להרחיב את יכולות ערכת "
+"העיצוב"
+
+#: admin/options.php:192 admin/options.php:198
+msgid "Installed"
+msgstr "מותקן"
+
+#: admin/options.php:193 admin/options.php:199 admin/options.php:245
+msgid "Not installed"
+msgstr "לא מותקן"
+
+#: admin/options.php:194
+msgid ""
+"The new premium mobile theme that fuses elegant design with premium "
+"features. It's a match of pixel-perfection and code-devilry."
+msgstr ""
+
+#: admin/options.php:199
+msgid "Learn more"
+msgstr "למדו עוד"
+
+#: admin/options.php:200
+msgid ""
+"Mobile extension developed specifically for optimised display of your site "
+"on mobile devices, such as iPhone and Android devices."
+msgstr ""
+"תוסף המובייל פותח במיוחד על מנת להתאים בצורה אופטימלית את תצוגת האתר שלכם "
+"למכשירים ניידים כמו אייפון ואנדרואיד."
+
+#: admin/options.php:204
+msgid "Plugins"
+msgstr "תוספים"
+
+#: admin/options.php:205
+msgid ""
+"The plugins listed here are natively supported by the theme. All you need to "
+"do is install the plugins and activate them."
+msgstr ""
+"התוספים הרשומים פה נתמכים באופן טבעי ע\"י ערכת הנושא. כל שעליכם לעשות הוא "
+"להתקינם ולהפעילם."
+
+#: admin/options.php:244
+msgid "Activated"
+msgstr "מופעל"
+
+#: admin/options.php:257 admin/options.php:266
+msgid "Reset settings"
+msgstr "אפס הגדרות"
+
+#: admin/options.php:260
+msgid ""
+"Reset all of the theme's settings to their default values. Only settings "
+"accessible via Graphene Theme Options are affected, including any custom "
+"colour presets you might have. Custom Header, Custom Menus, and other "
+"WordPress settings won't be affected."
+msgstr ""
+"איפוס כל בגדרות התבנית לערכי ברירת המחדל שלהם. רק ההגדרות שנגישות דרך "
+"אפשרויות גראפין יהיו מושפעות, כולל כל הגדרות צבע מותאמות מראש המוגדרות מראש "
+"ששמרתם. כותרת מותאמת אישית, תפריטים מותאמים אישית ואפשרויות וורדפרס אחרות לא "
+"יושפעו."
+
+#: admin/options.php:261
+msgid "<strong>WARNING:</strong> This action is not reversible."
+msgstr "<strong> אזהרה: </strong>הפעולה הזו אינה הפיכה."
+
+#: admin/options.php:276
+msgid "Import/export theme options"
+msgstr "ייבא/ ייצא הגדרות תבנית"
+
+#: admin/options.php:279
+msgid "Import"
+msgstr "ייבא"
+
+#: admin/options.php:282
+msgid "Import Theme options"
+msgstr "ייבא הגדרות תבנית"
+
+#: admin/options.php:284
+msgid "Export"
+msgstr "ייצא"
+
+#: admin/options.php:288
+msgid "Export Theme options"
+msgstr "ייצא הגדרות תבנית"
+
+#: admin/options.php:298
+msgid "Uninstall theme"
+msgstr "הסר התקנת ערכת הנושא"
+
+#: admin/options.php:301
+msgid ""
+"<strong>Be careful!</strong> Uninstalling the theme will remove all of the "
+"theme's options from the database. Do this only if you decide not to use the "
+"theme anymore."
+msgstr ""
+" <strong>הזהרו!  </strong> הסרת התבנית תסיר את כל הגדרות ואפשרויות התבנית "
+"מבסיס הנתונים. עשו זאת רק אם אתם מחליטים שלא תשתמשו בתבנית זו יותר."
+
+#: admin/options.php:302
+msgid ""
+"If you just want to try another theme, there is no need to uninstall this "
+"theme. Simply activate the other theme in the Appearance &gt; Themes admin "
+"page."
+msgstr ""
+"אם אתם רק רוצים לנסות תבנית אחרת אין צורך להסיר את התקנת התבנית הזו. פשוט "
+"הפעילו את התבנית האחרת תחת \"עיצוב\" > ערכות עיצוב בפנל הניהול."
+
+#: admin/options.php:303
+msgid ""
+"Note that uninstalling this theme <strong>does not remove</strong> the "
+"theme's files. To delete the files after you have uninstalled this theme, go "
+"to Appearance &gt; Themes and delete the theme from there."
+msgstr ""
+"שימו לב שהסרת התקנת התבנית  <strong>לא מסירה </strong> את קבצי התבנית. כדי "
+"למחוק את קבצי התבנית אחרי שהסרתם את התקנתה עברו ל-עיצוב > ערכות עיצוב ומחקו "
+"את התבנית משם."
+
+#: admin/options.php:320
+msgid ""
+"The preview will be updated when the \"Save Options\" button above is "
+"clicked."
+msgstr "התצוגה המוקדמת תעודכן לאחר שתלחצו על הכפתור לשמירת האפשרויות."
+
+#: admin/uninstall.php:24
+#, php-format
+msgid "Theme uninstalled. Redirecting to %s"
+msgstr "ערכת הנושא הוסרה. הנכם מופנים ל %s"
+
+#: admin/user.php:7
+msgid "Graphene-specific User Profile Information"
+msgstr "מידע פרופיל של משתמש Graphene ספציפי"
+
+#: admin/user.php:8
+msgid "The settings defined here are used only with the Graphene theme."
+msgstr "ההגדרות המוזכרות פה נמצאות רק בשימוש של ערכת Graphene."
+
+#: admin/user.php:12
+msgid "Author profile image URL"
+msgstr "קישור לתמונת פרופיל של המחבר"
+
+#. translators: %s will be replaced by a link to the Gravatar website (http://www.gravatar.com)
+#: admin/user.php:14
+#, php-format
+msgid ""
+"You can specify the image to be displayed as the author's profile image in "
+"the Author's page. If no URL is defined here, the author's %s will be used."
+msgstr ""
+"אתם יכולים להגדיר את התמונה שתוצג כתמונת הכותב בעמוד של הכותב. אם לא תכניסו "
+"כתובת URL לכאן התמונה של הכותב שתוצג תהיה %s."
+
+#. translators: %s will be replaced by 'http://' wrapped in <code> tags
+#: admin/user.php:19
+#, php-format
+msgid "Please enter the full URL (including %s) to your profile image."
+msgstr "הכניסו את הקישור המלא (כולל %s( לתמונת הפרופיל שלכם."
+
+#: admin/user.php:19
+msgid ""
+"<strong>Important: </strong>Image width must be less than or equal to "
+"<strong>150px</strong>."
+msgstr ""
+"<strong>חשוב: </strong>רוחב התמונה חייב להיות פחות או שווה ל <strong>150px</"
+"strong>."
+
+#. translators: %1$s is the comment date, %2$s is the comment time
+#: includes/theme-comments.php:32
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s ב %2$s"
+
+#: includes/theme-comments.php:35
+msgid "Edit comment"
+msgstr "ערוך תגובה"
+
+#: includes/theme-comments.php:36
+msgid "Link to this comment"
+msgstr "קישור לתגובה זו"
+
+#: includes/theme-comments.php:40
+msgid "Reply"
+msgstr "השב"
+
+#: includes/theme-comments.php:51
+msgid "Your comment is awaiting moderation."
+msgstr "תגובתך ממתינה לאישור"
+
+#: includes/theme-comments.php:80
+msgid "Name:"
+msgstr "שם:"
+
+#: includes/theme-comments.php:85
+msgid "Email:"
+msgstr "אימייל:"
+
+#: includes/theme-comments.php:90
+msgid "Website:"
+msgstr "אתר:"
+
+#: includes/theme-comments.php:110
+msgid "Message:"
+msgstr "תוכן ההודעה:"
+
+#: includes/theme-comments.php:219
+msgid "Delete this comment"
+msgstr "מחק תגובה זו"
+
+#: includes/theme-comments.php:221
+msgid "Mark this comment as spam"
+msgstr "סמן תגובה זו כספאם"
+
+#: includes/theme-comments.php:221
+msgid "Spam"
+msgstr "ספאם"
+
+#: includes/theme-comments.php:248
+msgid "Fetch more comments"
+msgstr "הצג תגובות נוספות"
+
+#. translators: %1$s is the website's name, %2$s is the social media name
+#: includes/theme-functions.php:138
+#, php-format
+msgid "Visit %1$s's %2$s page"
+msgstr "בקר בעמוד %1$s %2$s "
+
+#: includes/theme-functions.php:300
+#, php-format
+msgid ""
+"You haven't placed any widget into this widget area. Go to %1$s and place "
+"some widgets in the widget area called %2$s."
+msgstr ""
+"לא מיקמתם שום וידג'ט בשטח הוידג'טים הזה. עברו ל %1$s ומקמו קצת וידג'טים בשטח "
+"הוידג'טים שנקרא %2$s."
+
+#: includes/theme-functions.php:300
+msgid "WP Admin > Appearance > Widgets"
+msgstr "לוח הבקרה > עיצוב >  ווידג'טים"
+
+#: includes/theme-functions.php:301
+msgid "This notice will not be displayed to your site's visitors."
+msgstr "ההערה הזו לא תוצג למבקרים בבלוג שלכם."
+
+#: includes/theme-loop.php:85
+msgid "Continue reading &raquo;"
+msgstr "המשיכו בקריאה &raquo;"
+
+#: includes/theme-loop.php:152
+msgid "Older posts &laquo;"
+msgstr "מאמרים ישנים יותר &laquo;"
+
+#: includes/theme-loop.php:153
+msgid "&raquo; Newer posts"
+msgstr "&raquo; מאמרים חדשים יותר"
+
+#: includes/theme-loop.php:155
+msgid "Next page &raquo;"
+msgstr "עמוד הבא &raquo;"
+
+#: includes/theme-loop.php:156
+msgid "&laquo; Previous page"
+msgstr "&laquo; עמוד קודם"
+
+#: includes/theme-loop.php:162
+msgid "Fetch more items"
+msgstr "הצג מידע נוסף"
+
+#: includes/theme-loop.php:474 includes/theme-loop.php:475
+#, php-format
+msgid "Print this %s"
+msgstr "הדפס %s זה"
+
+#: includes/theme-loop.php:515
+#, php-format
+msgid "Return to %s"
+msgstr "חזור ל %s"
+
+#: includes/theme-menu.php:66
+msgid "Home"
+msgstr "עמוד הבית"
+
+#: includes/theme-panes.php:107
+msgid "Read more"
+msgstr "המשיכו בקריאה..."
+
+#: includes/theme-scripts.php:118 includes/theme-scripts.php:122
+#, php-format
+msgid "Fetching %1$s more item from %2$s left ..."
+msgid_plural "Fetching %1$s more items from %2$s left ..."
+msgstr[0] "מביא עוד %1$s נושא מתוך  %2$s שנשארו ..."
+msgstr[1] "מביא עוד %1$s נושאים מתוך  %2$s שנשארו ..."
+
+#: includes/theme-scripts.php:127
+msgid "No more items to fetch"
+msgstr "אין עוד רכיבים להביא"
+
+#: includes/theme-scripts.php:131 includes/theme-scripts.php:135
+#, php-format
+msgid "Fetching %1$s more top level comment from %2$s left ..."
+msgid_plural "Fetching %1$s more top level comments from %2$s left ..."
+msgstr[0] "מביא עוד %1$s תגובה מתוך  %2$s שנשארו ..."
+msgstr[1] "מביא עוד %1$s תגובות מתוך  %2$s שנשארו ..."
+
+#: includes/theme-scripts.php:140
+msgid "No more comments to fetch"
+msgstr "אין תגובות נוספות להצגה"
+
+#: includes/theme-setup.php:115
+msgid "Header Menu"
+msgstr "תפריט הכותרת (header)"
+
+#: includes/theme-setup.php:116
+msgid "Secondary Menu"
+msgstr "תפריט שני"
+
+#: includes/theme-setup.php:117
+msgid "Footer Menu"
+msgstr "תפריט תחתון (footer)"
+
+#: includes/theme-setup.php:168
+msgid "Header image by Syahir Hakim"
+msgstr "תמונת הכותרת מאת סייהיר חכים"
+
+#: includes/theme-setup.php:172
+msgid ""
+"This is the default Graphene theme header image, cropped from image by "
+"Quantin Houyoux at sxc.hu"
+msgstr ""
+"זוהי תמונת ברירת המחדל של כותרת התבנית Graphene. התמונה נחתכה מתמונה של "
+"Quantin Houyoux ב sxc.hu"
+
+#: includes/theme-setup.php:176 includes/theme-setup.php:180
+#: includes/theme-setup.php:184 includes/theme-setup.php:188
+#: includes/theme-setup.php:192
+msgid "Header image cropped from image by Ilco at sxc.hu"
+msgstr "תמונת כותרת שנחתכה מתמונה של llco מ sxc.hu"
+
+#: includes/theme-setup.php:263
+msgid ""
+"The first sidebar widget area (will always be displayed on the right hand "
+"side)."
+msgstr "אזור וידג'טים ראשון של הסרגל הצידי (יוצג תמיד בצד ימין)."
+
+#: includes/theme-setup.php:272
+msgid ""
+"The second sidebar widget area (will always be displayed on the left hand "
+"side)."
+msgstr "אזור תצוגת וידג'טים שני של הסרגל הצידי (יוצג תמיד בצד שמאל)."
+
+#: includes/theme-setup.php:279
+msgid "Footer Widget Area"
+msgstr "אזור ווידג'טים בתחתית (Footer)"
+
+#: includes/theme-setup.php:281
+msgid ""
+"The footer widget area. Leave empty to disable. Set the number of columns to "
+"display at the theme's Display Options page."
+msgstr ""
+"אשור וידג'ט תחתון. השאירו ריק על מנת שלא יופעל. קיבעו את מספר העמודות לתצוגה "
+"בעמוד אפשרויות התצוגה של תבנית."
+
+#: includes/theme-setup.php:298
+msgid ""
+"The first sidebar widget area that will only be displayed on the front page."
+msgstr "שטח וידג'ט ראשון של הסרגל הצידי שיוצג רק בעמוד הראשי."
+
+#: includes/theme-setup.php:307
+msgid ""
+"The second sidebar widget area that will only be displayed on the front page."
+msgstr "שטח וידג'ט שני בסרגל צידי שיוצג רק בעמוד הראשי."
+
+#: includes/theme-setup.php:316
+msgid "Front Page Footer Widget Area"
+msgstr "אזור ווידג'טים תחתי של עמוד ראשי"
+
+#: includes/theme-setup.php:318
+msgid ""
+"The footer widget area that will only be displayed on the front page. Leave "
+"empty to disable. Set the number of columns to display at the theme's "
+"Display Options page."
+msgstr ""
+"שטח וידג'ט תחתון שיהיה מוצג רק בעמוד הראשי. השאירו ריק כדי שלא יופעל. קיבעו "
+"את מספר העמודות להצגה בעמוד אפשרויות תצוגה של התבנית."
+
+#: includes/theme-setup.php:328
+msgid "Header Widget Area"
+msgstr "איזור וידג'טים בכותרת (Header)"
+
+#: includes/theme-setup.php:330
+msgid "The header widget area."
+msgstr "אזור הוידג'טים בכותרת (Header)"
+
+#: includes/theme-setup.php:347
+#, php-format
+msgid ""
+"Dynamically added widget area. This widget area is attached to the %s action "
+"hook."
+msgstr ""
+"שטח הוספת וידג'ט דינמי. שטח וידג'ט זה מחובר ללוכד פעולה (action hook) %s."
+
+#: includes/theme-slider.php:64 includes/theme-slider.php:93
+msgid "View full post"
+msgstr "צפו במאמר המלא"
+
+#: js/mce-l10n.php:11
+msgid "Add a warning message block"
+msgstr "הוסף בלוק של הודעת אזהרה"
+
+#: js/mce-l10n.php:12
+msgid "Add an error message block"
+msgstr "הוסף בלוק של הודעת שגיאה"
+
+#: js/mce-l10n.php:13
+msgid "Add a notice message block"
+msgstr "הוסף בלוק של הודעת תזכורת"
+
+#: js/mce-l10n.php:14
+msgid "Add an important message block"
+msgstr "הוסף בלוק של הודעה חשובה"
+
+#: js/mce-l10n.php:15
+msgid "Add a pullquote"
+msgstr "הכנס חלון ציטוט"
+
+#~ msgid "Text colour:"
+#~ msgstr "צבע הטקסט:"
+
+#~ msgid ""
+#~ "Applicable only if <strong>Latest posts</strong> or <strong>Latest posts "
+#~ "by category</strong> is selected above."
+#~ msgstr ""
+#~ "אפשרי רק אם \"תגובות אחרונות\" או \"תגובות אחרונות לפי קטגוריה\" נבחרו "
+#~ "למעלה."
+
+#~ msgid ""
+#~ "Applicable only if <strong>Latest posts by category</strong> is selected "
+#~ "above."
+#~ msgstr ""
+#~ "אפשרי רק אם <strong>מאמרים אחרונים לפי קטגוריה </strong>נבחרו למעלה."
+
+#~ msgid ""
+#~ "Applicable only if <strong>Posts and/or pages</strong> is selected above."
+#~ msgstr "אפשרי רק אם <strong>מאמרים ו/או עמודים </strong>נבחרו למעלה."
+
+#~ msgid "The \"Normal website\" settings preset has been applied."
+#~ msgstr "ההגדרות של \"אתר נורמלי\" הוחלו"
+
+#~ msgid "Graphene Usage Survey"
+#~ msgstr "סקר שימוש ב- Graphene"
+
+#~ msgid ""
+#~ "Help us to get to know you better. Take the Graphene theme usage survey "
+#~ "now! Every opinion counts towards making the theme better. The survey is "
+#~ "very short, and is completely anonymous."
+#~ msgstr ""
+#~ "עזרו לנו להכיר אתכם טוב יותר. השתתפו בסקר השימוש ב- Graphene עכשיו! כל "
+#~ "דיעה נספרת וכך נוכל להמשיך ולשפר את תבנית העיצוב. הסקר קצר ואנונימי "
+#~ "לחלוטין."
+
+#~ msgid "Take the survey"
+#~ msgstr "השתתפו בסקר"
+
+#~ msgid "Options Presets"
+#~ msgstr "אפשרויות מוגדרות מראש"
+
+#~ msgid ""
+#~ "Note that you can still configure the individual settings after you apply "
+#~ "any preset."
+#~ msgstr ""
+#~ "שימו לב שאתם עדיין יכולים להגדיר כל הגדרה בנפרד לאחר החלת הגדרות מוכנות "
+#~ "מראש."
+
+#~ msgid "Select Options Preset"
+#~ msgstr "בחר אפשרויות מוגדרות מראש Preset"
+
+#~ msgid "Normal website"
+#~ msgstr "אתר אינטרנט סטנדרטי"
+
+#~ msgid "Apply Options Preset"
+#~ msgstr "החל אפשרויות מוגדרות מראש Preset"
+
+#~ msgid "1 comment"
+#~ msgstr "תגובה אחת"
+
+#~ msgid "Use random header image"
+#~ msgstr "השתמש בתמונת כותרת (header) אקראית"
+
+#~ msgid ""
+#~ "Check this to show a random header image (random image taken from the "
+#~ "available default header images)."
+#~ msgstr ""
+#~ "בחר אפשרות זו כדי להציג תמונת כותרת אקראית ( התמונה נבחרת מתוך מבחר "
+#~ "תמונות הכותרת ברירות המחדל)."
+
+#~ msgid ""
+#~ "<strong>Note:</strong> only works on pages where a specific header image "
+#~ "is not defined."
+#~ msgstr "הערה: פועל רק בעמודים בהם לא מוגדרת תמונת כותרת ספציפית."
+
+#~ msgid "Display the latest Twitter status updates."
+#~ msgstr "הצג עדכונים אחרונים מהטוויטר."
+
+#~ msgid "Loading tweets..."
+#~ msgstr "טוען ציוצים..."
+
+#~ msgid "Follow %s"
+#~ msgstr "עקבו %s"
+
+#~ msgid "Latest tweets"
+#~ msgstr "ציוצים אחרונים"
+
+#~ msgid "Title:"
+#~ msgstr "נושא:"
+
+#~ msgid "Twitter Username:"
+#~ msgstr "שם משתמש בטוויטר:"
+
+#~ msgid "Number of tweets to display:"
+#~ msgstr "מספר ציוצים לתצוגה:"
+
+#~ msgid "Show followers count"
+#~ msgstr "הצג מונה עוקבים"
+
+#~ msgid "Hide @replies"
+#~ msgstr "הסתר תגובות"
+
+#~ msgid "Open links in new window"
+#~ msgstr "פתח קישור בחלון חדש"
+
+#~ msgid "Permalink Link to %s"
+#~ msgstr "קישור קבוע ל %s"
+
+#~ msgid "Hide date"
+#~ msgstr "הסתר תאריך"
+
+#~ msgid "--Disabled--"
+#~ msgstr "--כבוי/מבוטל--"
+
+#~ msgid "You may select multiple categories by holding down the CTRL key."
+#~ msgstr "אתם יכולים לבחור מספר קטגוריות ע\"י לחיצה והחזקת מקש ה- CTRL."
+
+#~ msgid "Colours Options"
+#~ msgstr "אפשרויות צבעים"
+
+#~ msgid "Archive title:"
+#~ msgstr "כותרת הארכיון:"
+
+#~ msgid "Add new Social Media Profile"
+#~ msgstr "הוסיפו פרופיל חדש של רשת חברתית"

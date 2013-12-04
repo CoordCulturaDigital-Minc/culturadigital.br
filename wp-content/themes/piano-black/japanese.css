@@ -1,0 +1,31 @@
+body { font-family:  "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3"; font-size:12px; }
+
+/*タイトル*/
+#logo a, #logo a:visited { font-size:16px; }
+/*タイトルの位置を調整*/
+#logo { margin:70px 0 0 50px; }
+
+.comment-act, #comment-header-bottom, .st-related-posts li
+{ font-size:12px; }
+
+#comment-title { font-size:12px; margin:2px 0 0 0; }
+
+
+.post h2 a, .post h2 a:visited { font-size:14px; margin:0 0 4px 0; line-height:140%; }
+.post-category { background:url(img/category-icon.gif) no-repeat 2px top; }
+.post-tag { background:url(img/tag-icon.gif) no-repeat 2px top; }
+
+.page-navi a, .page-navi a:visited, .page-navi a:hover,
+.page-navi span.pages, .page-navi span.extend, .page-navi span.current, .page-navi span.dots
+ { font-size:11px; line-height:100%; margin:0 -1px 25px 0; padding:2px 14px 1px 14px; display:block; float:left; border-right:1px solid #555; border-left:1px solid #555; }
+
+.page-navi span.current { color:#81c8d5; background:url(img/arrow8.gif) no-repeat center bottom; padding-bottom:10px; border:none; }
+
+#b-home, #b-cat { background:url(img/arrow1.gif) no-repeat right 2px; }
+
+.write-comment { background:url(img/arrow1.gif) no-repeat left 2px; }
+.post-comment { background:url(img/write-comment.gif) no-repeat left top; padding:1px 10px 1px 22px; }
+
+#back-top { background:url(img/arrow5.gif) no-repeat left 14px; }
+#comment-user-login span { margin:0 0 0 20px; padding:0 0 0 20px; background:url(img/arrow1.gif) no-repeat 10px center; }
+.comment-act { background:url(img/arrow4.gif) no-repeat left 2px; }

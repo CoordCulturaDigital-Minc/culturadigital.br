@@ -1,0 +1,567 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Korean by Soul\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-03-01 18:24+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jong-In Kim <soulofpure@hotmail.com>\n"
+"Language-Team: Jong-In Kim <Jong-In Kim(soulofpure@hotmail.com)>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Korean\n"
+"X-Poedit-Country: KOREA, REPUBLIC OF\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes\\fusion\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/404.php:7
+msgid "Page not found (404)"
+msgstr "페이지를 찾을 수 없습니다 (404)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:9
+msgid "Archive for category"
+msgstr "카테고리 보관"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:11
+msgid "Posts Tagged"
+msgstr "다음 태그를 쓴 글:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:15
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:17
+msgid "Archive for"
+msgstr "보관"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:204
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:20
+msgid "F jS, Y"
+msgstr "Y년 F j일"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:15
+msgid "F, Y"
+msgstr "Y년 F"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:17
+msgid "Y"
+msgstr "Y년"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:19
+msgid "Author Archive"
+msgstr "글쓴이 보관"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:21
+msgid "Blog Archives"
+msgstr "블로그 보관"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:30
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:14
+msgid "Permanent Link to"
+msgstr "영구 링크:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:20
+#, php-format
+msgid "Posted by %s in %s"
+msgstr "글쓴이: %s 카테고리: %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:37
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:20
+#, php-format
+msgid "Posts by %s"
+msgstr "글쓴이: %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:20
+msgid "on"
+msgstr "작성일:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:16
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:28
+msgid "Read the rest of this entry &raquo;"
+msgstr "이 글의 나머지 부분을 읽기 &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:40
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "No Comments"
+msgstr "댓글 없음"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:40
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "1 Comment"
+msgstr "1개의 댓글"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:40
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "% Comments"
+msgstr "% 개의 댓글"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:65
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:53
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:52
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:12
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:33
+msgid "&laquo; Older Entries"
+msgstr "&laquo; 이전 글"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:66
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:53
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:34
+msgid "Newer Entries &raquo;"
+msgstr "최신 글 &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:72
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "죄송합니다, 하지만 %s 카테고리에 아직 글이 없습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:74
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "죄송합니다, 하지만 이 날짜에 작성된 글이 없습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:77
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "죄송합니다, 하지만 %s 의 글이 없습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:79
+msgid "No posts found."
+msgstr "글을 찾을 수 없습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archives.php:10
+msgid "Archives by Month:"
+msgstr "월별 보관:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archives.php:14
+msgid "Archives by Subject:"
+msgstr "주제별 보관:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:20
+msgid "This user hasn't shared any biographical information"
+msgstr "이 유저는 전기 정보를 공유하지 않았습니다"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:25
+msgid "Homepage:"
+msgstr "홈페이지:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:26
+msgid "Yahoo Messenger:"
+msgstr "야후 메신저:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:27
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:28
+msgid "AIM:"
+msgstr "AIM:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:45
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:29
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:25
+msgid "l, F jS, Y"
+msgstr "Y년 F j일, l"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "Tags: "
+msgstr "태그:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "Posted in"
+msgstr "카테고리:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "Edit"
+msgstr "편집"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:59
+msgid "No posts found by this author."
+msgstr "이 글쓴이의 글이 없습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:5
+msgid "Enter your password to view comments"
+msgstr "댓글을 보기위해 비밀번호를 입력하세요"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:21
+msgid "Comments"
+msgstr "댓글"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:22
+msgid "Trackbacks"
+msgstr "트랙백"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:41
+msgid "No comments yet."
+msgstr "아직 댓글이 없습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:62
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "댓글을 쓰기위해서는 <a href=\"%s\">로그인</a> 해야됩니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:69
+msgid "Cancel Reply"
+msgstr "응답 취소"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:72
+msgid "Logged in as"
+msgstr "다음과 같이 로그인:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:72
+msgid "Log out of this account"
+msgstr "이 계정 로그아웃"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:72
+msgid "Logout &raquo;"
+msgstr "로그아웃 &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:75
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "<strong>%s</strong>님 돌아오신걸 환영합니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:75
+msgid "Change &raquo;"
+msgstr "변경 &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:75
+msgid "Close &raquo;"
+msgstr "닫기 &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:80
+msgid "Name"
+msgstr "이름"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:80
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:84
+msgid "(required)"
+msgstr "(필수)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:84
+msgid "E-Mail"
+msgstr "이메일"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:84
+msgid "(will not be published)"
+msgstr "(공개되지 않음)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:88
+msgid "Website"
+msgstr "웹사이트"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:106
+msgid "Submit Comment"
+msgstr "댓글 등록"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:124
+msgid "No trackbacks yet."
+msgstr "아직 트랙백이 없습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:137
+msgid "Comments are closed."
+msgstr "댓글을 닫혔습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:7
+msgid "Fusion theme by"
+msgstr "Fusion theme by"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:7
+msgid "powered by "
+msgstr "powered by "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:8
+msgid "Entries (RSS)"
+msgstr "글 (RSS)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:8
+msgid "and"
+msgstr "그리고"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:8
+msgid "Comments (RSS)"
+msgstr "댓글 (RSS)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:15
+msgid "Increase/Decrease text size"
+msgstr "글자 크기 증가/감소"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:16
+msgid "Switch between full and fixed width"
+msgstr "전체 폭과 고정된 폭의 변경"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:88
+msgid "Fusion Theme Options"
+msgstr "Fusion 테마 옵션"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:91
+msgid "Meta keywords:"
+msgstr "메타 키워드:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:92
+msgid "Separate with commas"
+msgstr "쉼표로 나누기"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:97
+msgid "Use custom logo image"
+msgstr "사용자 로고 이미지 사용"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:97
+msgid "Upload your logo as \"logo.png\" in the theme directory:"
+msgstr "테마 폴더에 \"logo.png\" 같이 로고를 업로드:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:97
+msgid "You should export the logo image with transparency enabled"
+msgstr "투명이 활성화된 로고 이미지를 내보내야 됩니다"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:102
+msgid "Disable homepage tab"
+msgstr "홈페이지 탭 비활성화"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:102
+msgid "Check this if you are using a static page as the homepage"
+msgstr "만약 정적 페이지로 홈페이지를 사용한다면 체크하세요"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:107
+msgid "Show the categories as header tabs"
+msgstr "카테고리를 헤더 탭으로 보기"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:107
+msgid "(instead of pages)"
+msgstr "(페이지 대신)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:112
+msgid "Disable the default category block in the sidebar"
+msgstr "사이드바의 기본 카테고리를 비활성화"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:112
+msgid "Check if you prefer the widgetized category display or just want to hide the categories"
+msgstr "만약 카테고리 표시를 Widgetized 하거나 그냥 카테고리를 숨기길 원한다면 체크하세요"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:117
+msgid "Disable the default search block in the sidebar"
+msgstr "사이드바의 기본 검색을 비활성화"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:117
+msgid "Check if you don't like the theme-default search look"
+msgstr "만약 테마-기본 검색이 맘에 들지 않으면 체크하세요."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:122
+msgid "Disable layout controls (Aa/<>)"
+msgstr "레이아웃 컨트롤 비활성화 (Aa/<>)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:124
+msgid "Default page content width:"
+msgstr "기본 페이지 본문 폭:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:127
+msgid "Fixed (960 pixels)"
+msgstr "고정됨 (960 픽셀)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:131
+msgid "Fluid (95 percent of the visitor's screen width)"
+msgstr "유동체 (방문자의 화면 폭의 95 퍼센트)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:132
+msgid "Note that if the layout controls are enabled, the visitor's javascript page width cookie setting will override this option"
+msgstr "레이아웃 컨트롤을 활성화하는 경우, 방문자의 자바스크립트 페이지 폭 쿠키 설정은 이 옵션을 무시할 것입니다"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:136
+msgid "Sidebar position:"
+msgstr "사이드바 위치:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:139
+msgid "Right (default)"
+msgstr "오른쪽 (기본)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:143
+msgid "Left"
+msgstr "왼쪽"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:149
+msgid "Disable jQuery and the associated code"
+msgstr "jQuery 와 그와 관련된 코드 비활성화"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:149
+msgid "This will reduce the page load with ~70 KB, but will also disable some features and effects (layout controls, rss links inside category menu, comment tabs, trackbacks).<br />You shouldn't change this unless you have problems with your host regarding bandwidth"
+msgstr "이는 페이지 로드를 ~70 KB 정도로 감소시키지만, 몇가지 기능과 효과를 비활성화 합니다 (레이아웃 컨트롤, 카테고리 메뉴안의 RSS 링크, 댓글 탭, 트랙백).<br />호스트 대역폭에 문제가 있지 않다면 이것을 변경하지 마세요."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:152
+msgid "Custom CSS code"
+msgstr "사용자정의 CSS 코드"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:152
+msgid "Here you can add or change anything related to design if you have some basic CSS knowledge. Check "
+msgstr "여기서 CSS에 지식이 있다면 관련된 디자인을 추가하거나 바꿀 수 있습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:152
+msgid "to see existing styles, which you can redefine here."
+msgstr "의 스타일을 확인하세요, 여기서 재수정할 수 있습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:152
+msgid "Don't modify style.css if you wish to preserve your changes after theme update! Use this option instead."
+msgstr "만약 테마 업데이트 후에 변경사항을 보존하고 싶다면 style.css를 수정하지 마세요! 대신 이 옵션을 사용하세요."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:155
+msgid "Save Changes"
+msgstr "변경 저장"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:204
+msgid "by"
+msgstr "by"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:204
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s  %2$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:204
+msgid "H:i"
+msgstr "H:i"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:208
+msgid "Your comment is awaiting moderation."
+msgstr "댓글은 승인을 기다리고 있습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:218
+msgid "Reply"
+msgstr "응답"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:218
+msgid "Quote"
+msgstr "인용문"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:158
+msgid "You are Home"
+msgstr "홈입니다"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:158
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:160
+msgid "Home"
+msgstr "홈"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:160
+msgid "Click for Home"
+msgstr "홈으로 가기"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:28
+msgid "This entry was posted on"
+msgstr "이 글의 작성일은"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:30
+msgid "and is filed under"
+msgstr "그리고 카테고리는"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:32
+msgid "You can follow any responses to this entry through"
+msgstr "당신은 다음을 통해 응답을 따를 수 있습니다: "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:35
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "당신은 <a href=\"#respond\">응답을 남길 수도 있고</a>, 당신의 사이트에서 <a href=\"%s\" rel=\"trackback\">트랙백</a> 을 할 수도 있습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:39
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "응답은 현재 닫혔습니다, 하지만 당신의 사이트에서 <a href=\"%s\" rel=\"trackback\">트랙백</a> 할 수 있습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:43
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "끝으로 넘어가서 응답을 남길 수 있습니다. 핑은 현재 허용되지 않습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:47
+msgid "Both comments and pings are currently closed."
+msgstr "댓글과 핑은 현재 닫혔습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:49
+msgid "Edit this entry"
+msgstr "이 글 편집"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:54
+msgid "Sorry, no attachments matched your criteria."
+msgstr "죄송합니다, 기준과 일치하는 첨부 파일이 없습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:60
+msgid "Not Found"
+msgstr "를 찾을 수 없습니다"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:61
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "죄송합니다, 여기에 없는 무언가를 찾고 있습니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/links.php:9
+msgid "Links:"
+msgstr "링크:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page-3col.php:23
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page-hidecomments.php:23
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page-nosidebar.php:19
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page.php:16
+msgid "Read the rest of this page &raquo;"
+msgstr "이 페이지의 나머지 부분을 읽기 &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:7
+msgid "Search Results"
+msgstr "검색 결과"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:39
+msgid "No posts found. Try a different search?"
+msgstr "글을 찾을 수 없습니다. 다른 검색을 해보시겠습니까?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/searchform.php:8
+msgid "Search"
+msgstr "검색"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:27
+#, php-format
+msgid "You are currently browsing the archives for the %1$s category."
+msgstr "현재  %1$s 카테고리의 보관을 탐색중입니다 ."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:30
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:33
+#, php-format
+msgid "You are currently browsing the archives for %1$s"
+msgstr "현재 %1$s 의 보관을 탐색중입니다. "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:36
+#, php-format
+msgid "You are currently browsing the archives for the year %1$s"
+msgstr "현재 %1$s 년의 보관을 탐색중입니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:39
+msgid "You have searched the archives for"
+msgstr "다음의 보관을 검색했습니다:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:42
+msgid "You are currently browsing the archives."
+msgstr "현재 보관을 탐색중입니다."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:66
+msgid "Archives"
+msgstr "보관"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:77
+msgid "Meta"
+msgstr "메타"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/single.php:61
+msgid "Sorry, no posts matched your criteria."
+msgstr "죄송합니다, 기준과 일치하는 글이 없습니다."
+

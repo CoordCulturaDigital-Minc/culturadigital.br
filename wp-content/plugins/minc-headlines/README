@@ -1,0 +1,45 @@
+=== HeadLines ===
+Contributors: Marcelo Mesquita <marcelo.costa@cultura.gov.br>
+Tags: headlines
+Requires at least: 2.7
+Tested up to: 2.9
+
+Allow to reorganize the post by user's priorities beside WordPress chronological order.
+
+== Description ==
+
+Allow to reorganize the post by user's priorities beside WordPress chronological order.
+
+== Installation ==
+
+1. Upload `minc-headlines` to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Open the theme file where you want to use the HeadLine
+1. Load the HeadLines posts with the HL_Query (similar to WP_Query), eg.: '$headlines_loop = new HL_Query( "showposts=5&headline_category_name=headlines" );'
+1. Alternatively you can use the HeadLines widget too, just drag'n drop to the sidebar
+
+== Frequently Asked Questions ==
+
+= Question? =
+
+Answer.
+
+== Screenshots ==
+
+1. screenshot-1.png
+
+== Changelog ==
+
+= 0.3 =
+* widget
+
+= 0.2 =
+* drag'n drop headlines
+* headlines capabilities
+
+= 0.1 =
+* loop WP_Query like
+* headlines metabox
+* headlines categories
+
+== TODO ==

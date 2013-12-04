@@ -1,0 +1,23 @@
+{
+    "name": "ehough/filesystem",
+    "type": "library",
+    "description": "Fork of Symfony's Filesystem Component compatible with PHP 5.2+",
+    "keywords": ["filesystem"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Hough",
+            "email": "eric@ehough.com",
+            "homepage": "http://ehough.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {"ehough_filesystem": "src/main/php"}
+    }
+}

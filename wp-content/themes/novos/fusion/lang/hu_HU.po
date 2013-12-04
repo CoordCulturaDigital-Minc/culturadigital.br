@@ -1,0 +1,627 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fusion 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-16 12:41+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: digitalnature <hello@digitalnature.ro>\n"
+"Language-Team: kopasz <balint@vereskuti.info>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:5
+msgid "Page not found (404)"
+msgstr "Az oldal nem található (404)"
+
+#: ../404.php:7
+msgid "Try one of these links:"
+msgstr "Próbálja az alábbi linkeket:"
+
+#: ../archive.php:9
+#, php-format
+msgid "Archive for category %s"
+msgstr "%s kategória archívuma"
+
+#: ../archive.php:11
+#, php-format
+msgid "Posts Tagged %s"
+msgstr "%s címkéjű cikkek"
+
+#: ../archive.php:13
+#: ../archive.php:15
+#: ../archive.php:17
+#, php-format
+msgid "Archive for %s"
+msgstr "%s archívuma"
+
+#: ../archive.php:13
+#: ../archive.php:31
+#: ../functions.php:601
+#: ../index.php:17
+msgid "F jS, Y"
+msgstr "Y. F. j."
+
+#: ../archive.php:15
+#: ../sidebar.php:19
+msgid "F, Y"
+msgstr "Y F"
+
+#: ../archive.php:17
+#: ../sidebar.php:22
+msgid "Y"
+msgstr "Y"
+
+#: ../archive.php:19
+msgid "Author Archive"
+msgstr "Szerző archívuma"
+
+#: ../archive.php:21
+msgid "Blog Archives"
+msgstr "Blog archívuma"
+
+#: ../archive.php:26
+#: ../index.php:12
+msgid "Permanent Link:"
+msgstr "Állandó link:"
+
+#: ../archive.php:31
+#: ../index.php:17
+#, php-format
+msgid "Posted by %s in %s on %s"
+msgstr "Írta %s a(z) %s kategóriában - %s"
+
+#: ../archive.php:31
+#: ../author.php:42
+#: ../index.php:17
+#, php-format
+msgid "Posts by %s"
+msgstr "%s hozzászólásai"
+
+#: ../archive.php:36
+#: ../image.php:13
+#: ../index.php:23
+msgid "Read the rest of this entry &raquo;"
+msgstr "A bejegyzés részleteinek olvasása &raquo;"
+
+#: ../archive.php:48
+#: ../author.php:47
+#: ../index.php:35
+#: ../search.php:23
+msgid "No Comments"
+msgstr "Nincs hozzászólás"
+
+#: ../archive.php:48
+#: ../author.php:47
+#: ../index.php:35
+#: ../search.php:23
+msgid "1 Comment"
+msgstr "1 hozzászólás"
+
+#: ../archive.php:48
+#: ../author.php:47
+#: ../index.php:35
+#: ../search.php:23
+msgid "% Comments"
+msgstr "%s hozzászólás"
+
+#: ../archive.php:59
+#: ../author.php:54
+#: ../index.php:45
+#: ../search.php:13
+#: ../search.php:30
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Régebbi hozzászólások"
+
+#: ../archive.php:60
+#: ../author.php:55
+#: ../index.php:46
+#: ../search.php:14
+#: ../search.php:31
+msgid "Newer Entries &raquo;"
+msgstr "Újabb hozzászólások &raquo;"
+
+#: ../archive.php:66
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Sajnáljuk, egyelőre még nincs ilyen hozzászólás a %s kategóriában."
+
+#: ../archive.php:68
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Sajnáljuk, de nincsenek hozzászólások ezzel a dátummal."
+
+#: ../archive.php:71
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Sajnáljuk, de %s még szólt hozzá."
+
+#: ../archive.php:73
+msgid "No posts found."
+msgstr "Nincs hozzászólás."
+
+#: ../archives.php:10
+msgid "Archives by Month:"
+msgstr "Archívum hónap szerint:"
+
+#: ../archives.php:14
+msgid "Archives by Subject:"
+msgstr "Archívum tárgy szerint:"
+
+#: ../author.php:25
+msgid "This user hasn't shared any biographical information"
+msgstr "A felhasználó még nem adott meg személyes adatokat"
+
+#: ../author.php:30
+msgid "Homepage:"
+msgstr "Weboldal:"
+
+#: ../author.php:31
+msgid "Yahoo Messenger:"
+msgstr "Yahoo Messenger:"
+
+#: ../author.php:32
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: ../author.php:33
+msgid "AIM:"
+msgstr "AIM:"
+
+#: ../author.php:46
+#: ../image.php:27
+#: ../search.php:22
+#: ../sidebar.php:16
+msgid "l, F jS, Y"
+msgstr "Y. F. j., l"
+
+#: ../author.php:47
+#: ../search.php:23
+msgid "Tags: "
+msgstr "Címkék:"
+
+#: ../author.php:47
+#: ../search.php:23
+#, php-format
+msgid "Posted in %s"
+msgstr "A(z) %s kategóriában"
+
+#: ../author.php:47
+#: ../search.php:23
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: ../author.php:60
+msgid "No posts found by this author."
+msgstr "A szerzőtől nincsen cikk."
+
+#: ../comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Adja meg jelszavát a hozzászólások megtekintéséhez"
+
+#: ../comments.php:19
+msgid "Comments"
+msgstr "Hozzászólások"
+
+#: ../comments.php:20
+msgid "Trackbacks"
+msgstr "Hivatkozások"
+
+#: ../comments.php:39
+msgid "No comments yet."
+msgstr "Még nem érkezett hozzászólás."
+
+#: ../comments.php:60
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Kérjük, <a href=\"%s\">jelentkezzen be</a> a hozzászóláshoz!"
+
+#: ../comments.php:67
+msgid "Cancel Reply"
+msgstr "Válasz törlése"
+
+#: ../comments.php:73
+#, php-format
+msgid "Logged in as %s."
+msgstr "%sként bejelentkezve."
+
+#: ../comments.php:75
+msgid "Log out of this account"
+msgstr "Kijelentkezés a fiókból"
+
+#: ../comments.php:75
+msgid "Logout &raquo;"
+msgstr "Kijelentkezés &raquo;"
+
+#: ../comments.php:79
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Üdv újra <strong>%s</strong>."
+
+#: ../comments.php:79
+msgid "Change &raquo;"
+msgstr "Megváltoztat &raquo;"
+
+#: ../comments.php:79
+msgid "Close &raquo;"
+msgstr "Bezárás &raquo;"
+
+#: ../comments.php:84
+msgid "Name"
+msgstr "Név"
+
+#: ../comments.php:84
+#: ../comments.php:88
+msgid "(required)"
+msgstr "(kötelező)"
+
+#: ../comments.php:88
+msgid "E-Mail"
+msgstr "e-mail"
+
+#: ../comments.php:88
+msgid "(will not be published)"
+msgstr "(nem lesz látható más számára)"
+
+#: ../comments.php:92
+msgid "Website"
+msgstr "Honlap"
+
+#: ../comments.php:111
+#, php-format
+msgid "Spam protection: Sum of %s + %s = ?"
+msgstr ""
+
+#: ../comments.php:121
+msgid "Submit Comment"
+msgstr "Hozzászólás elküldése"
+
+#: ../comments.php:138
+msgid "No trackbacks yet."
+msgstr "Nincs hivatkozás."
+
+#: ../comments.php:151
+msgid "Comments are closed."
+msgstr "Nem lehet hozzászólni."
+
+#: ../footer.php:39
+#, php-format
+msgid "Fusion theme by %s"
+msgstr "Fusion téma a %s-től"
+
+#: ../footer.php:41
+#, php-format
+msgid "powered by %s"
+msgstr "Támogatja a %s"
+
+#: ../footer.php:44
+msgid "Entries (RSS)"
+msgstr "Bejegyzések (RSS)"
+
+#: ../footer.php:44
+msgid "and"
+msgstr "és"
+
+#: ../footer.php:44
+msgid "Comments (RSS)"
+msgstr "Hozzászólások (RSS)"
+
+#: ../footer.php:51
+msgid "Increase/Decrease text size"
+msgstr "Szöveg méretének növelése/csökkentése"
+
+#: ../footer.php:52
+msgid "Switch between full and fixed width"
+msgstr "Teljes és rögzített méret közötti váltás"
+
+#: ../functions.php:139
+msgid "Fusion settings"
+msgstr "Fusion beállításai"
+
+#: ../functions.php:148
+msgid "Fusion theme settings"
+msgstr "A Fusion téma beállításai"
+
+#: ../functions.php:150
+msgid "Settings saved."
+msgstr "Beállítáok elmentve."
+
+#: ../functions.php:198
+msgid "General"
+msgstr "Általános"
+
+#: ../functions.php:207
+msgid "Use jQuery"
+msgstr "jQuery használata"
+
+#: ../functions.php:207
+msgid "(Don't change this unless you know what you're doing)"
+msgstr "(Ne változtasson rajta, csak ha tudja, mit csinál!)"
+
+#: ../functions.php:209
+#: ../functions.php:242
+#: ../functions.php:312
+msgid "Yes"
+msgstr "Igen"
+
+#: ../functions.php:211
+#: ../functions.php:245
+#: ../functions.php:315
+msgid "No"
+msgstr "Nem"
+
+#: ../functions.php:218
+msgid "Homepage meta keywords"
+msgstr "Weboldal meta adatai"
+
+#: ../functions.php:218
+msgid "(Separate with commas. Tags are used as keywords on other pages. Leave empty if you are using a SEO plugin)"
+msgstr "(Vesszővel elválasztva. A címkék kulcsszóként használatosak más oldalakon. Hagyja üresen, ha SEO plugint használ!)"
+
+#: ../functions.php:229
+msgid "Index page/Archives show:"
+msgstr "Főoldal/archívum:"
+
+#: ../functions.php:231
+msgid "Full posts"
+msgstr "Teljes cikkek"
+
+#: ../functions.php:233
+msgid "Excerpts only"
+msgstr "Csak kivonatok"
+
+#: ../functions.php:240
+msgid "Show layout controls (Aa/<>)"
+msgstr "Kinézet változtatásának tiltása (Aa/<>)"
+
+#: ../functions.php:258
+msgid "Header"
+msgstr "Fejléc"
+
+#: ../functions.php:266
+msgid "Top navigation shows"
+msgstr "Felső navigáció mutatása"
+
+#: ../functions.php:268
+msgid "Pages"
+msgstr "Oldalak"
+
+#: ../functions.php:270
+#: ../functions.php:477
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: ../functions.php:278
+msgid "Header background"
+msgstr "Fejléc háttere"
+
+#: ../functions.php:282
+msgid "Theme default (gray noise)"
+msgstr "Téma alapértelmezése (szürke zaj)"
+
+#: ../functions.php:283
+msgid "User defined image(s) (upload)"
+msgstr "Felhasználó egyéni képe (feltöltés)"
+
+#: ../functions.php:284
+msgid "User defined color"
+msgstr "Felhasználó egyéni színe"
+
+#: ../functions.php:289
+msgid "Centered image (upload a 960x200 image for best fit):"
+msgstr "Középre igazított kép (960x200 méretű kép feltöltése a ajánlott):"
+
+#: ../functions.php:294
+msgid "Tiled image, repeats itself across the entire header (centered image will show on top of it, if specified):"
+msgstr "Ismétlődő kép a fejléc teljes hosszában (középre igazított kép felette fog megjelenni):"
+
+#: ../functions.php:300
+msgid "Pick a color"
+msgstr "Válasszon színt"
+
+#: ../functions.php:310
+msgid "Logo image"
+msgstr "Egyéni logo"
+
+#: ../functions.php:318
+msgid "Upload a custom logo image"
+msgstr "Saját kép feltötlése"
+
+#: ../functions.php:334
+msgid "Sidebar"
+msgstr "Oldalsáv"
+
+#: ../functions.php:342
+msgid "Sidebar position"
+msgstr "Oldalsáv helye"
+
+#: ../functions.php:344
+msgid "Left"
+msgstr "Bal"
+
+#: ../functions.php:347
+msgid "Right (default)"
+msgstr "Jobb (alapértelmezés)"
+
+#: ../functions.php:359
+msgid "Footer"
+msgstr "Lábléc"
+
+#: ../functions.php:367
+msgid "Add content"
+msgstr "Tartalom hozzáadása"
+
+#: ../functions.php:367
+msgid "(HTML allowed)"
+msgstr "(HTML engedélyezett)"
+
+#: ../functions.php:383
+msgid "User CSS code"
+msgstr "Egyéni CSS kód"
+
+#: ../functions.php:392
+msgid "Modify anything related to design using simple CSS"
+msgstr "CSS segítségével megváltoztathatja a kinézetet"
+
+#: ../functions.php:392
+msgid "Avoid modifying theme files and use this option instead to preserve changes after update"
+msgstr "Kerülje a téma fájljainak közvetlen módosítását, használja inkább ezt a lehetőséget a kinézet megváltoztatáshoz"
+
+#: ../functions.php:422
+msgid "Save changes"
+msgstr "Változások mentése"
+
+#: ../functions.php:492
+#: ../functions.php:508
+#: ../functions.php:547
+#: ../functions.php:548
+#: ../searchform.php:7
+#: ../sidebar.php:42
+msgid "Search"
+msgstr "Keresés"
+
+#: ../functions.php:536
+msgid "Search handled by:"
+msgstr "Keresés az alábbira:"
+
+#: ../functions.php:541
+msgid "Find <code>name='cx'</code> in the <strong>Search box code</strong> of <a href='http://www.google.com/coop/cse/'>Google Custom Search Engine</a>, and type the <code>value</code> above.<br/>"
+msgstr "Keressen <code>name='cx'</code> a <strong>keresési mezőben</strong> a <a href='http://www.google.com/coop/cse/'>Google Custom Search Engine</a> segítségével, és illessze be az(t) <code>value</code> felülre.<br/>"
+
+#: ../functions.php:601
+#, php-format
+msgid "%s by %s on %s"
+msgstr "%s, %s - %s"
+
+#: ../functions.php:601
+msgid "H:i"
+msgstr "H:i"
+
+#: ../functions.php:608
+msgid "Your comment is awaiting moderation."
+msgstr "Hozzászólása moderálásra vár."
+
+#: ../functions.php:619
+msgid "Reply"
+msgstr "Válasz"
+
+#: ../functions.php:621
+msgid "Quote"
+msgstr "Idézés"
+
+#: ../header.php:171
+msgid "You are Home"
+msgstr "A nyitólapon van."
+
+#: ../header.php:171
+#: ../header.php:173
+msgid "Home"
+msgstr "Nyitólap"
+
+#: ../header.php:173
+msgid "Click for Home"
+msgstr "Ugrás a nyitólapra"
+
+#: ../image.php:27
+#, php-format
+msgid "This entry was posted on %s and is filed under %s. You can follow any responses to this entry through %s."
+msgstr "A bejegyzés készült: %s, %s kategóriában. Nyomonkövetheti a válaszokat %s segítségével."
+
+#: ../image.php:31
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Lejjebb <a href=\"#respond\">válaszolhat</a>, vagy <a href=\"%s\" rel=\"trackback\">visszautalhat</a> saját weboldaláról."
+
+#: ../image.php:35
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "A válaszolási lehetőség lezárva, azonban <a href=\"%s\" rel=\"trackback\">visszautalhat</a> saját weboldaláról."
+
+#: ../image.php:39
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Ugorjon a végére, és írjon választ. Pingelés jelenleg nem engedélyezett."
+
+#: ../image.php:43
+msgid "Both comments and pings are currently closed."
+msgstr "Hozzászólások és pingelés sem engedélyezett."
+
+#: ../image.php:45
+msgid "Edit this entry"
+msgstr "Hozzászólás szerkesztése"
+
+#: ../image.php:50
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Sajnos nincs a kritériumoknak megfelelő csatolmány."
+
+#: ../index.php:51
+msgid "Not Found"
+msgstr "Nem található"
+
+#: ../index.php:52
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Sajnáljuk, de amit keres, az itt nem található."
+
+#: ../page-3col.php:16
+#: ../page-nosidebar.php:16
+#: ../page.php:12
+msgid "Read the rest of this page &raquo;"
+msgstr "Olvassa tovább &raquo;"
+
+#: ../search.php:8
+msgid "Search Results"
+msgstr "Keresés eredménye"
+
+#: ../search.php:36
+msgid "No posts found. Try a different search?"
+msgstr "Nem találtam semmit. Megpróbálja máshogy a keresést?"
+
+#: ../sidebar.php:13
+#, php-format
+msgid "You are currently browsing the archives for the %s category."
+msgstr "Jelenleg a(z) %s kategória archívumában keres."
+
+#: ../sidebar.php:16
+#: ../sidebar.php:19
+#, php-format
+msgid "You are currently browsing the archives for %s"
+msgstr "Jelenleg %s-t keresi az arhcívumban."
+
+#: ../sidebar.php:22
+#, php-format
+msgid "You are currently browsing the archives for the year %s"
+msgstr "Jelenleg %s év archívumában keres."
+
+#: ../sidebar.php:25
+#, php-format
+msgid "You have searched the archives for %s."
+msgstr "A(z) %s kulcsszóra keresett."
+
+#: ../sidebar.php:28
+msgid "You are currently browsing the archives."
+msgstr "Jelenleg az archívumban keres."
+
+#: ../sidebar.php:68
+msgid "Archives"
+msgstr "Archívum"
+
+#: ../sidebar.php:79
+msgid "Meta"
+msgstr "Meta"
+
+#: ../single.php:55
+msgid "Sorry, no posts matched your criteria."
+msgstr "Sajnáljuk, nincs a keresésnek megfelelő cikk."
+
+#: ../yarpp-template-fusion.php:5
+msgid "Related Posts"
+msgstr "Hasonló cikkek"
+
+#: ../yarpp-template-fusion.php:13
+msgid "No related posts."
+msgstr "Nincs hasonló cikk."
+

@@ -1,0 +1,628 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fusion 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 08:04+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: digitalnature <hello@digitalnature.ro>\n"
+"Language-Team: digitalnature.ro <hello@digitalnature.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes\\fusion\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/404.php:5
+msgid "Page not found (404)"
+msgstr "Sidan kan inte hittas (404)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/404.php:7
+msgid "Try one of these links:"
+msgstr "Prova en av dessa länkar:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:9
+#, php-format
+msgid "Archive for category %s"
+msgstr "Arkiv för kategori %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:11
+#, php-format
+msgid "Posts Tagged %s"
+msgstr "Poster taggade %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:15
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:17
+#, php-format
+msgid "Archive for %s"
+msgstr "Arkiv för %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:31
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:601
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:17
+msgid "F jS, Y"
+msgstr "d F Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:15
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:19
+msgid "F, Y"
+msgstr "F Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:17
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:22
+msgid "Y"
+msgstr "Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:19
+msgid "Author Archive"
+msgstr "Författararkiv"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:21
+msgid "Blog Archives"
+msgstr "Blog arkiv"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:26
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:12
+msgid "Permanent Link:"
+msgstr "Permalänk:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:31
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:17
+#, php-format
+msgid "Posted by %s in %s on %s"
+msgstr "Postat av %s i %s, %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:31
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:17
+#, php-format
+msgid "Posts by %s"
+msgstr "Poster av %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:36
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:23
+msgid "Read the rest of this entry &raquo;"
+msgstr "Läs resten av detta inlägg &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+msgid "No Comments"
+msgstr "Inga kommentarer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+msgid "% Comments"
+msgstr "% Kommentarer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:59
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:45
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:30
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Äldre inlägg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:60
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:55
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:14
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:31
+msgid "Newer Entries &raquo;"
+msgstr "Nyare inlägg &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:66
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Tyvärr men det finns inga poster i %s kategorin än."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:68
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Tyvärr men det finns inga poster med detta datum."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:71
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Tyvärr men det finns inga poster av %s än."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:73
+msgid "No posts found."
+msgstr "Inga poster hittade"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archives.php:10
+msgid "Archives by Month:"
+msgstr "Arkiv efter månad:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archives.php:14
+msgid "Archives by Subject:"
+msgstr "Arkiv efter ämne:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:25
+msgid "This user hasn't shared any biographical information"
+msgstr "Denna användare har inte angivit någon information"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:30
+msgid "Homepage:"
+msgstr "Hemsida:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:31
+msgid "Yahoo Messenger:"
+msgstr "Yahoo Messenger:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:32
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:33
+msgid "AIM:"
+msgstr "AIM:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:27
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:22
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:16
+msgid "l, F jS, Y"
+msgstr "l, d F Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+msgid "Tags: "
+msgstr "Taggar:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+#, php-format
+msgid "Posted in %s"
+msgstr "Postad i %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:47
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:23
+msgid "Edit"
+msgstr "Redigera"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:60
+msgid "No posts found by this author."
+msgstr "Inga poster hittade av denna författare."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Mata in ditt lösenord för att läsa kommentarer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:19
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:20
+msgid "Trackbacks"
+msgstr "Trackbackar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:39
+msgid "No comments yet."
+msgstr "Inga kommentarer än."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:60
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Du måste vara <a href=\"%s\">inloggad</a> för att posta en kommentar."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:67
+msgid "Cancel Reply"
+msgstr "Avbryt svar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:73
+#, php-format
+msgid "Logged in as %s."
+msgstr "Inloggad som %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:75
+msgid "Log out of this account"
+msgstr "Logga ut från detta konto"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:75
+msgid "Logout &raquo;"
+msgstr "Logga ut &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:79
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Välkommen tillbaka <strong>%s</strong>."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:79
+msgid "Change &raquo;"
+msgstr "Ändra &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:79
+msgid "Close &raquo;"
+msgstr "Stäng &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:84
+msgid "Name"
+msgstr "Namn"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:84
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:88
+msgid "(required)"
+msgstr "(krävs)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:88
+msgid "E-Mail"
+msgstr "E-post"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:88
+msgid "(will not be published)"
+msgstr "(publiceras inte)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:92
+msgid "Website"
+msgstr "Webbsida"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:111
+#, php-format
+msgid "Spam protection: Sum of %s + %s = ?"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:121
+msgid "Submit Comment"
+msgstr "Skicka kommentar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:138
+msgid "No trackbacks yet."
+msgstr "Inga trackbackar än."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:151
+msgid "Comments are closed."
+msgstr "Kommentarer stängt."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:39
+#, php-format
+msgid "Fusion theme by %s"
+msgstr "Fusion tema av %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:41
+#, php-format
+msgid "powered by %s"
+msgstr "körs med %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:44
+msgid "Entries (RSS)"
+msgstr "Inlägg (RSS)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:44
+msgid "and"
+msgstr "och"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:44
+msgid "Comments (RSS)"
+msgstr "Kommentarer (RSS)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:51
+msgid "Increase/Decrease text size"
+msgstr "Öka/minska textstorlek"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:52
+msgid "Switch between full and fixed width"
+msgstr "Växla mellan full och fixerad vidd"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:139
+msgid "Fusion settings"
+msgstr "Fusion inställningar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:148
+msgid "Fusion theme settings"
+msgstr "Fusion temainställningar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:150
+msgid "Settings saved."
+msgstr "Inställningar sparade."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:198
+msgid "General"
+msgstr "Generell"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:207
+msgid "Use jQuery"
+msgstr "Använd jQuery"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:207
+msgid "(Don't change this unless you know what you're doing)"
+msgstr "(Ändra inte detta, såvida du inte vet vad du gör)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:209
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:242
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:312
+msgid "Yes"
+msgstr "Ja"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:211
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:245
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:315
+msgid "No"
+msgstr "Nej"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:218
+msgid "Homepage meta keywords"
+msgstr "Meta nyckelord hemsida"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:218
+msgid "(Separate with commas. Tags are used as keywords on other pages. Leave empty if you are using a SEO plugin)"
+msgstr "(Separera med komma. Taggar används som nyckelord på andra sidor. Lämna tom om du använder ett SEO plugin)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:229
+msgid "Index page/Archives show:"
+msgstr "Index sida/Arkiv visar:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:231
+msgid "Full posts"
+msgstr "Fulla poster"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:233
+msgid "Excerpts only"
+msgstr "Sammanfattning endast"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:240
+msgid "Show layout controls (Aa/<>)"
+msgstr "Visa layoutkontroller (Aa/<>)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:258
+msgid "Header"
+msgstr "Huvud"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:266
+msgid "Top navigation shows"
+msgstr "Topnavigation visar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:268
+msgid "Pages"
+msgstr "Sidor"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:270
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:477
+msgid "Categories"
+msgstr "Kategorier"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:278
+msgid "Header background"
+msgstr "Huvud bakgrund"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:282
+msgid "Theme default (gray noise)"
+msgstr "Tema förval (grått brus)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:283
+msgid "User defined image(s) (upload)"
+msgstr "Användardefinierad bild(er) (uppladdning)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:284
+msgid "User defined color"
+msgstr "Användardefinierad färg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:289
+msgid "Centered image (upload a 960x200 image for best fit):"
+msgstr "Centrerad bild (ladda upp en 960x200 bild för bästa passning):"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:294
+msgid "Tiled image, repeats itself across the entire header (centered image will show on top of it, if specified):"
+msgstr "Sida vid sida, repeterar sig själv över hela huvudet (centrerad bild kommer att synas ovan på, om specifierad):"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:300
+msgid "Pick a color"
+msgstr "Välj en färg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:310
+msgid "Logo image"
+msgstr "Logo bild"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:318
+msgid "Upload a custom logo image"
+msgstr "Ladda upp en egen logo bild"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:334
+msgid "Sidebar"
+msgstr "Sidomeny"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:342
+msgid "Sidebar position"
+msgstr "Position sidomeny"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:344
+msgid "Left"
+msgstr "Vänster"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:347
+msgid "Right (default)"
+msgstr "Höger (förval)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:359
+msgid "Footer"
+msgstr "Fot"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:367
+msgid "Add content"
+msgstr "Lägg till innehåll"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:367
+msgid "(HTML allowed)"
+msgstr "(HTML tillåten)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:383
+msgid "User CSS code"
+msgstr "Användar CSS kod"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:392
+msgid "Modify anything related to design using simple CSS"
+msgstr "Modifiera vad som helst som hör till design med enkel CSS"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:392
+msgid "Avoid modifying theme files and use this option instead to preserve changes after update"
+msgstr "Undvik att modifiera temafiler och använd detta val istället för att bibehålla ändringar efter uppdatering"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:422
+msgid "Save changes"
+msgstr "Spara ändringar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:492
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:508
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:547
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:548
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/searchform.php:7
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:42
+msgid "Search"
+msgstr "Sök"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:536
+msgid "Search handled by:"
+msgstr "Sök hanteras av:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:541
+msgid "Find <code>name='cx'</code> in the <strong>Search box code</strong> of <a href='http://www.google.com/coop/cse/'>Google Custom Search Engine</a>, and type the <code>value</code> above.<br/>"
+msgstr "Hitta <code>namn='cx'</code> i <strong>Sökrutekoden</strong> för <a href='http://www.google.com/coop/cse/'>Google Custom Search Engine</a> och skriv in <code>värdet</code> ovan.<br/>"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:601
+#, php-format
+msgid "%s by %s on %s"
+msgstr "%s av %s, %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:601
+msgid "H:i"
+msgstr "H:i"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:608
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar väntar på moderering."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:619
+msgid "Reply"
+msgstr "Svara"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:621
+msgid "Quote"
+msgstr "Citera"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:171
+msgid "You are Home"
+msgstr "Du är Hemma"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:171
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:173
+msgid "Home"
+msgstr "Hem"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:173
+msgid "Click for Home"
+msgstr "Klicka för Hem"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:27
+#, php-format
+msgid "This entry was posted on %s and is filed under %s. You can follow any responses to this entry through %s."
+msgstr "Detta inlägg postades %s och är sparad under %s. Du kan följa svar till detta inlägg genom %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:31
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Du kan <a href=\"#respond\">lämna ett svar</a> eller <a href=\"%s\" rel=\"trackback\">trackback</a> från din egen sida."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:35
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Svar är för närvarande stängt men du kan <a href\"%s\" rel=\"trackback\">trackback</a> från din egen sida."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:39
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Du kan hoppa till slutet och lämna ett svar. Pingning är för närvarande inte tillåtet."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:43
+msgid "Both comments and pings are currently closed."
+msgstr "Både kommentarer och pingar är stängt."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:45
+msgid "Edit this entry"
+msgstr "Redigera detta inlägg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:50
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Tyvärr, inget bifogat matchade din kriteria."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:51
+msgid "Not Found"
+msgstr "Hittades inte"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:52
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Tyvärr men du letar efter något som inte finns här."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page-3col.php:16
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page-nosidebar.php:16
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page.php:12
+msgid "Read the rest of this page &raquo;"
+msgstr "Läs resten av denna sida &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:8
+msgid "Search Results"
+msgstr "Sökresultat"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:36
+msgid "No posts found. Try a different search?"
+msgstr "Inga poster hittade. Prova en annan sökning?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:13
+#, php-format
+msgid "You are currently browsing the archives for the %s category."
+msgstr "Du bläddrar för närvarande i arkiven för %s kategorin."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:16
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:19
+#, php-format
+msgid "You are currently browsing the archives for %s"
+msgstr "Du bläddrar för närvarande i arkiven för %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:22
+#, php-format
+msgid "You are currently browsing the archives for the year %s"
+msgstr "Du bläddrar för närvarande i arkiven för året %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:25
+#, php-format
+msgid "You have searched the archives for %s."
+msgstr "Du har sökt i arkiven efter %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:28
+msgid "You are currently browsing the archives."
+msgstr "Du bläddrar för närvarande i arkiven."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:68
+msgid "Archives"
+msgstr "Arkiv"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:79
+msgid "Meta"
+msgstr "Meta"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/single.php:55
+msgid "Sorry, no posts matched your criteria."
+msgstr "Tyvärr, inga poster matchade din kriteria."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/yarpp-template-fusion.php:5
+msgid "Related Posts"
+msgstr "Relaterade poster"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/yarpp-template-fusion.php:13
+msgid "No related posts."
+msgstr "Inga relaterade poster."
+

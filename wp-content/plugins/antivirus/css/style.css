@@ -1,0 +1,207 @@
+/* @group Adminbar */
+
+#wp-admin-bar-antivirus .ab-label {
+	color: #E66F00;
+	margin-left: 4px;
+}
+#wp-admin-bar-antivirus .ab-icon {
+	float: left;
+	width: 16px;
+	height: 16px;
+	position: relative;
+	margin-top: 5px;
+	background: url(../img/warning@2x.png);
+	background-size: 100%;
+}
+
+/* @end group */
+
+
+/* @group GUI */
+
+#av_main .icon32 {
+	width: 32px;
+	height: 32px;
+	background: url('../img/icon@2x.png');
+	background-size: 100%;
+}
+#av_main .postbox h3 {
+	cursor: default;
+}
+#av_main #poststuff > .postbox:first-child {
+	margin-top: 10px;
+}
+
+/* @end group */
+
+
+/* @group Tabelle */
+
+#av_main table {
+	margin: -4px 0;
+}
+#av_main table.form-table {
+	clear: none;
+	width: auto;
+	margin: 0;
+}
+#av_main table.form-table label {
+	display: block;
+	margin: 4px 0 0;
+}
+#av_main table.form-table td {
+	padding: 4px 10px 4px 0;
+}
+#av_main table.form-table input[type="text"] {
+	width: 331px;
+	margin: 4px 0 0 -1px;
+}
+#av_main table.form-table small {
+	color: gray;
+	display: block;
+	font-size: 11px;
+	line-height: 14px;
+}
+#av_main table.form-table small a {
+	color: inherit;
+}
+
+/* @end group */
+
+
+/* @group Submit-Zeile */
+
+.ab-column.ab-submit {
+	width: 352px;
+	padding: 20px 0 6px;
+}
+.ab-column.ab-submit > p {
+	float: right;
+	margin: 0;
+	height: 24px;
+}
+.ab-column.ab-submit > p > a {
+	float: left;
+	line-height: 24px;
+}
+.ab-column.ab-submit > p > a:before {
+	margin: 0 4px;
+	content: '|';
+	display: inline-block;
+}
+.ab-column.ab-submit > p > a:first-child:before {
+	margin: 0;
+	content: '';
+}
+
+/* @end group */
+
+
+/* @group Manual Scan */
+
+#av_manual {
+	height: 1%;
+	overflow: hidden;
+}
+#av_manual a.button {
+	float: left;
+}
+#av_manual .alert {
+	float: left;
+	color: green;
+	margin: 1px 10px 0;
+	border: 1px solid green;
+	display: none;
+	padding: 2px 5px;
+
+	border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#av_main .inside .output {
+	clear: both;
+	height: 1%;
+	padding: 0 0 6px;
+	overflow: hidden;
+}
+#av_main .inside .output div {
+	float: left;
+	color: #FFF;
+	margin: 12px 6px 0;
+	padding: 8px 12px 10px;
+	font-size: 11px !important;
+	background: orange;
+	line-height: 1.2em;
+
+	border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+
+	transition: background-color 0.5s linear;
+	-o-transition: background-color 0.5s linear;
+	-ms-transition: background-color 0.5s linear;
+	-moz-transition: background-color 0.5s linear;
+	-webkit-transition: background-color 0.5s linear;
+}
+#av_main .inside .output div.done {
+	background: green;
+}
+#av_main .inside .output div.danger {
+	width: 97%;
+	background: red;
+}
+#av_main .inside .output div p {
+	padding: 10px;
+	overflow: hidden;
+	background: #F9F9F9;
+	white-space: nowrap;
+
+	border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+#av_main .inside .output div p a {
+	float: left;
+	color: #646464;
+	margin: 0 6px 12px 0;
+	display: block;
+	border: 1px solid #bbbbbb;
+	padding: 2px 5px;
+	background: #f2f2f2;
+	text-decoration: none;
+
+	border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#av_main .inside .output div p a:hover {
+	color: #000;
+	border: 1px solid #646464;
+}
+#av_main .inside .output div p code {
+	clear: both;
+	float: left;
+	color: #000;
+	padding: 2px 5px;
+
+	border-radius: 2px;
+	-o-border-radius: 2px;
+	-o-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+#av_main .inside .output div p code span {
+	padding: 2px;
+	background: yellow;
+}
+
+/* @end group */

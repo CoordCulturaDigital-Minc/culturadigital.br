@@ -1,0 +1,31 @@
+/* ----- layout -------------------------------------------------------------------------------------------------------------------------------- */
+#wrapper { width:930px; }
+#header { background:url(img/width_930px/header.gif) no-repeat bottom; }
+#contents { background:url(img/width_930px/side.gif) repeat-y; }
+#left_col { float:left; display:inline; width:690px; }
+#footer { background:url(img/width_930px/footer.gif) no-repeat top; }
+
+
+/* ----- left_col ------------------------------------------------------------------------------------------------------------------------------ */
+.post { background:url(img/width_930px/post_line.gif) no-repeat left bottom; }
+.post_content_wrapper { width:510px; }
+.content_noside {width:510px; }
+
+/* next,previous post */
+#previous_next_post { width:510px; }
+#previous_next_post #previous_post a { width:211px; }
+#previous_next_post #next_post a { width:211px; }
+
+
+/* ----- header_meta (for breadcrumb,archive,category,tag,search) ------------------------------------------------------------------------------- */
+#header_meta { width:510px; }
+
+
+/* ----- page ---------------------------------------------------------------------------------------------------------------------------------- */
+#page_noside_contents { background:url(img/width_930px/side_noside.gif) repeat-y; }
+#page_noside_header { background:url(img/width_930px/header_noside.gif) no-repeat top; }
+#footer_noside { background:url(img/width_930px/footer_noside.gif) no-repeat top; }
+
+
+/* ----- comment ------------------------------------------------------------------------------------------------------------------------------- */
+#comments_wrapper { width:540px; }

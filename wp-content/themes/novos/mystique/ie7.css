@@ -1,0 +1,20 @@
+
+
+/* Internet Explorer 7 bug-fixes */
+
+pre{word-wrap:break-word;}
+
+.clear-block{zoom:1;}
+
+.box ul.menuList .fadeThis{position:static;}
+
+ul.sidebar-blocks li.block{}
+
+.tabbed-content div.section{position:static;}
+
+li.comment .comment-head{height:60px;}
+
+#footer-blocks ul.slides li.slide .slide-content{width:92%;}
+
+#featured-content .slide-container{padding:0;}
+#featured-content a.readmore{display: none;}

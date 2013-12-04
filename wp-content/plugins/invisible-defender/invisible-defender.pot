@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Daniel Fruyski
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/invisible-defender\n"
+"POT-Creation-Date: 2009-08-26 16:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: invisible-defender.php:81
+msgid "Please leave these two fields as-is:"
+msgstr ""
+
+#: invisible-defender.php:87
+#, php-format
+msgid "Protected by %s."
+msgstr ""
+
+#: invisible-defender.php:96
+#, php-format
+msgid "Showed <strong>403</strong> to <strong>%s</strong> bad guys."
+msgstr ""
+
+#: invisible-defender.php:163
+#, php-format
+msgid ""
+"<strong>Invisible Defender</strong> showed <strong>403</strong> to <strong>%1"
+"$s</strong> bad guys (<strong>%2$s</strong> was blacklisted, <strong>%3$s</"
+"strong> on register form, <strong>%4$s</strong> on login form, <strong>%5$s</"
+"strong> on comments form)."
+msgstr ""
+
+#: invisible-defender.php:182
+msgid "Configuration has been saved."
+msgstr ""
+
+#: invisible-defender.php:188
+msgid "Invisible Defender - Options"
+msgstr ""
+
+#: invisible-defender.php:194
+msgid "Forms protection:"
+msgstr ""
+
+#: invisible-defender.php:198
+msgid "Protect registration form:"
+msgstr ""
+
+#: invisible-defender.php:207
+msgid "Protect login form:"
+msgstr ""
+
+#: invisible-defender.php:216
+msgid "Protect comments form:"
+msgstr ""
+
+#: invisible-defender.php:223
+msgid "Stats and \"Protected by\" link:"
+msgstr ""
+
+#: invisible-defender.php:227
+msgid "Show stats in Dashboard:"
+msgstr ""
+
+#: invisible-defender.php:236
+msgid "Show \"Protected by\" link:"
+msgstr ""
+
+#: invisible-defender.php:239
+msgid ""
+"If you think that this plugin is great and want to tell others about it, "
+"please check this option. Invisible Defender will show small \"Protected by"
+"\" link under your forms. This way you can also credit me for my work."
+msgstr ""
+
+#: invisible-defender.php:245
+msgid "Show number of blocked bots under forms:"
+msgstr ""
+
+#: invisible-defender.php:248
+msgid ""
+"Note: this will be shown only when \"Protected by\" link is enabled too."
+msgstr ""
+
+#: invisible-defender.php:256
+msgid "Save settings"
+msgstr ""
+
+#. Plugin Name of an extension
+msgid "Invisible Defender"
+msgstr ""
+
+#. Plugin URI of an extension
+msgid "http://www.poradnik-webmastera.com/projekty/invisible_defender/"
+msgstr ""
+
+#. Description of an extension
+msgid ""
+"This plugin protects your registration, login and comment forms against "
+"spambots."
+msgstr ""
+
+#. Author of an extension
+msgid "Daniel Fruyski"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.poradnik-webmastera.com/"
+msgstr ""

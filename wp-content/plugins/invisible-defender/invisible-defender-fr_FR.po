@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Invisible Defender\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/invisible-defender\n"
+"POT-Creation-Date: 2009-08-26 16:57+0000\n"
+"PO-Revision-Date: 2009-08-31 13:49+0100\n"
+"Last-Translator: Le Blog de Lise <webmaster@liseweb.fr>\n"
+"Language-Team: Le Blog de Lise <webmaster@liseweb.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+#: invisible-defender.php:81
+msgid "Please leave these two fields as-is:"
+msgstr "Laisser ces deux champs tels quels : "
+
+#: invisible-defender.php:87
+#, php-format
+msgid "Protected by %s."
+msgstr "Protégé par %s."
+
+#: invisible-defender.php:96
+#, php-format
+msgid "Showed <strong>403</strong> to <strong>%s</strong> bad guys."
+msgstr "<strong>%s</strong> spammeurs ont vu s'afficher une page d'erreur <strong>403</strong>. "
+
+#: invisible-defender.php:163
+#, php-format
+msgid "<strong>Invisible Defender</strong> showed <strong>403</strong> to <strong>%1$s</strong> bad guys (<strong>%2$s</strong> was blacklisted, <strong>%3$s</strong> on register form, <strong>%4$s</strong> on login form, <strong>%5$s</strong> on comments form)."
+msgstr "Grâce à <strong>Invisible Defender</strong>, <strong>%1$s</strong> spammeurs ont rencontré une erreur <strong>403</strong> (<strong>%2$s</strong> adresses blacklistées, <strong>%3$s</strong> ont tenté de s'enregistrer, <strong>%4$s</strong> ont tenté de se connecter, <strong>%5$s</strong> ont tenté d'écrire un commentaire)."
+
+#: invisible-defender.php:182
+msgid "Configuration has been saved."
+msgstr "La configuration a été enregistrée."
+
+#: invisible-defender.php:188
+msgid "Invisible Defender - Options"
+msgstr "Options Invisible Defender "
+
+#: invisible-defender.php:194
+msgid "Forms protection:"
+msgstr "Protection des fenêtres de connexion ou de commentaire : "
+
+#: invisible-defender.php:198
+msgid "Protect registration form:"
+msgstr "Protection de la fenêtre d'enregistrement : "
+
+#: invisible-defender.php:207
+msgid "Protect login form:"
+msgstr "Protection de la fenêtre de connexion : "
+
+#: invisible-defender.php:216
+msgid "Protect comments form:"
+msgstr "Protection de la fenêtre de commentaire : "
+
+#: invisible-defender.php:223
+msgid "Stats and \"Protected by\" link:"
+msgstr "Lien vers Invisible Defender : "
+
+#: invisible-defender.php:227
+msgid "Show stats in Dashboard:"
+msgstr "Montrer les statistiques dans le tableau de bord : "
+
+#: invisible-defender.php:236
+msgid "Show \"Protected by\" link:"
+msgstr "Montrer le lien \"Protégé par\" : "
+
+#: invisible-defender.php:239
+msgid "If you think that this plugin is great and want to tell others about it, please check this option. Invisible Defender will show small \"Protected by\" link under your forms. This way you can also credit me for my work."
+msgstr "Si vous pensez que cette extension est utile, merci de cocher cette case. Invisible Defender affichera un petit lien \"Protégé par\" sous votre fenêtre de connexion ou de commentaire. Cela permettra de faire connaître mon travail. "
+
+#: invisible-defender.php:245
+msgid "Show number of blocked bots under forms:"
+msgstr "Afficher le nombre de spams sous les fenêtres : "
+
+#: invisible-defender.php:248
+msgid "Note: this will be shown only when \"Protected by\" link is enabled too."
+msgstr "Note : sera affiché si l'option \"Protégé par\" est cochée."
+
+#: invisible-defender.php:256
+msgid "Save settings"
+msgstr "Enregistrer la configuration"
+
+#. Plugin Name of an extension
+msgid "Invisible Defender"
+msgstr "Invisible Defender"
+
+#. Plugin URI of an extension
+msgid "http://www.poradnik-webmastera.com/projekty/invisible_defender/"
+msgstr "http://www.poradnik-webmastera.com/projekty/invisible_defender/"
+
+#. Description of an extension
+msgid "This plugin protects your registration, login and comment forms against spambots."
+msgstr "Cette extension protège votre blog des robots de spams qui tentent de s'enregistrer, de se connecter ou d'envoyer un commentaire."
+
+#. Author of an extension
+msgid "Daniel Fruyski"
+msgstr "Daniel Fruyski"
+
+#. Author URI of an extension
+msgid "http://www.poradnik-webmastera.com/"
+msgstr "http://www.poradnik-webmastera.com/"
+

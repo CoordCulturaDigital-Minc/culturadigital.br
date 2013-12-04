@@ -1,0 +1,12 @@
+* html { background-image:url(about:blank); }
+
+#wrapper { background:none; }
+#side-bottom { clear:both; margin-top:-50px; }
+#side-bottom-ex { clear:both; margin-top:-50px; }
+
+#return_top a { position:absolute; position:fixed; right:0px; bottom:15px; display:block; height:138px; width:38px; background:url(img/return-top2.png) no-repeat left top; }
+* html #return_top a{ cursor:pointer; position:absolute; bottom:auto; top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||15)-(parseInt(this.currentStyle.marginBottom,10)||0)));}
+
+/* ---------- pngfix ---------- */
+#header,#middle-contents,#footer,#pngfix-right,#pngfix-left,.ul.menu, #no-side, #footer-noside, .pngfix-for-ca, #middle-contents-changeside, #return_top a
+{ behavior: expression(IEPNGFIX.fix(this)); }

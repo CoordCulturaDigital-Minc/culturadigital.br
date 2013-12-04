@@ -1,0 +1,201 @@
+/* Autum Color Theme */
+
+body {
+	background: #fff;
+	color: #333;
+	}
+
+#header {
+	background: #464646;
+	}
+		
+#headerimg .description {
+	color: #bbb;
+	}
+	
+#footer {
+	background: #eee;
+	border-top: 1px solid #ddd;
+	}	
+
+h2.pagetitle {
+	color: #555;
+	}
+
+#sidebar ul li h2 {
+	color: #333;
+	border-bottom: 3px solid #dedede;
+	}
+
+h1, h1 a {
+	color: #333;
+	}
+	
+#header h1, #header h1 a, #header h1 a:hover, #header h1 a:visited {
+	color: #fff;
+	}
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
+	color: #333;
+	}
+
+.commentlist li {
+	background:#fdfdfd;
+	}
+
+.commentlist li .avatar { 
+	border: 1px solid #eee;
+	background: #fff;
+	}
+
+
+.commentlist li.alt {	
+	background:#fefefe;	
+}
+
+small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, strike {
+	color: #aaa;
+	}
+
+code {
+	border: 1px solid #eee;
+	background:#F5FAFE;
+	}
+
+a {
+	color: #21759B;
+	border-bottom: 1px solid #ccc;
+	}
+
+a:hover, .entry a.more-link:hover, .navigation a:hover {
+	color: #D54E21;
+	background: #F5D1C5;
+	border-bottom: 1px solid #D54E21;
+	}
+
+.entry a.more-link, .navigation a {
+	background:#F5FAFE;
+	border-bottom: 1px solid #ddd;
+	}
+
+#sidebar #wp-calendar a {
+	background: #eee;
+	}
+#sidebar #wp-calendar a:hover {
+	background: #E8C8C8;
+	}	
+
+#sidebar #wp-calendar th {
+	border-bottom:1px solid #eee;
+	}
+	
+.post hr {
+	border-top: 1px dotted #ccc;
+	}		
+	
+.narrowcolumn .postmetadata2 {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}	
+
+.entry img {
+	border: 1px solid #eee;
+	}	
+	
+.entry {
+	border-top: 1px solid #eee;
+	}
+	
+#sidebar a {
+	border-bottom:1px solid #eee;
+	}	
+#sidebar a:hover {
+	border-bottom: 1px solid #D54E21;
+	background-color: #F5D1C5;
+}	
+
+#sidebar .cat-item a:hover, #sidebar .archives a:hover,
+#sidebar #archives ul li a:hover,
+#sidebar .linkcat a:hover,
+#sidebar .blogroll a:hover {
+	background-color: #F5D1C5;
+} 
+
+#sidebar div.flickr_badge_image a {
+	background: #fff;
+	border: 1px solid #eee;
+}
+#sidebar div.flickr_badge_image a:hover {
+	border: 1px solid #ddd;
+	background: #fdfdfd;
+}
+
+.commentlist li {
+	border: 1px solid #eee;	
+	}
+	
+#sidebar #wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+/* End Calendar */
+
+acronym, abbr {
+	border-bottom: 1px dashed #ccc;
+	}
+	
+blockquote {
+	border-left: 4px solid #E2F0FC;
+	background:#F5FAFE;
+	color:#666;
+	}		
+
+.wp-caption {
+	border: 1px solid #ddd;
+	background-color: #f3f3f3;
+	}
+
+
+
+#sidebar li#rssfeeds a:hover, #sidebar .textwidget a:hover, #sidebar #tag_cloud a:hover, #sidebar p a:hover{
+	background: #e8c8c8;
+	}
+
+
+/* Form Elements */
+
+#header #searchform #s {
+	background: #5A5A5A;
+	color: #aaa;
+	border: 1px solid #666;
+	}
+
+#header #searchsubmit, #commentform #submit {
+	background: #666;
+	border: 1px solid #888;
+	color: #bbb;
+	}
+	
+#content #searchform #s {
+	background: #ddd;
+	color: #333;
+	border: 1px solid #bbb;
+	}
+
+#content #searchsubmit {
+	background: #666;
+	border: 1px solid #777;
+	color: #ccc;
+	}
+	
+#commentform input, #commentform textarea, fieldset {
+	border: 1px solid #ccc;
+	}
+	
+legend {
+	background: #ccc;
+}
+
+/* menu colors */
+div.menu {background: #E4F2FD;border-top: 1px solid #E4F2FD;}
+.menu ul li.current-menu-item a, .menu ul li.current_page_item, .menu ul li.current_page_item a:hover {color: #333;background: #fff;}
+.menu ul a, .menu ul li,.menu ul li li,.menu ul li li li, .menu ul li.current-menu-item li a {color: #21759B;	background:#F1F9FE;}
+.menu ul li:hover, .menu ul li.sfHover,.menu ul a:focus, .menu ul a:hover, .menu ul a:active,  .menu ul li.current-menu-item li a:hover {	color: #D54E21;	background: #F5D1C5;}

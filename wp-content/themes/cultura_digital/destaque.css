@@ -1,0 +1,67 @@
+div.destaque{
+	margin-top:20px;
+}
+
+div.destaque h2 {
+	margin-top:15px;
+}
+div.destaque h2 a{
+	color:#247BA5;
+	display:block;
+	margin-bottom:9px;
+	font:bold 18px Arial, Helvetica, sans-serif;
+	line-height:130%;
+}
+div.destaque p{
+	line-height:16px;
+}
+div.destaque p a{
+	color:#484848;
+}
+div.destaque ul.tabs-nav{
+	border-bottom:1px solid #97A5B0;
+	width:465px;
+}
+div.streaming{
+	display:inline;
+	float:left;
+	margin-right:12px;
+	width:465px;
+}
+div.streaming p{
+	display:inline;
+	float:left;
+	margin:13px 0;
+}
+div.artigosDestaque{
+	display:inline;
+	float:left;
+	width:475px;
+	overflow:hidden;
+}
+div.artigosDestaque ul{
+	list-style:none;
+	width:490px;
+}
+div.artigosDestaque ul.artigosPost li{
+	border-bottom:1px solid #d8d8d8;
+	float:left;
+	padding:10px 0;
+	margin-right:15px;
+	width:230px;
+}
+div.artigosDestaque img{
+	border:none;
+	float:left;
+	margin-right:9px;
+	margin-top:5px;
+}
+div.artigosDestaque .verMais{
+	display:inline;
+	float:left;
+	font-size:14px;
+	margin:15px 0;
+}
+.streamTit{
+	margin-top:15px;
+}

@@ -1,0 +1,334 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress Thread Comment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-05 13:37+0800\n"
+"PO-Revision-Date: 2008-12-05 13:38+0800\n"
+"Last-Translator: 偶爱偶家 <blog.2i2j.com@gmail.com>\n"
+"Language-Team: Zdeněk Hataš <zdenek.hatas@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: D:/SVN/wp-thread-comment\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: D:/SVN/wp-thread-comment/trunk\n"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:360
+msgid "Click to cancel reply"
+msgstr "Zrušit odpověď"
+
+# D:/SVN/wp-thread-comment/wp-thread-comment.php:401
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:362
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:555
+msgid "Reply"
+msgstr "Odpověď"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:366
+msgid "<div class=\"comment-childs<?php echo $deep%2 ? ' chalt' : ''; ?>\" id=\"comment-[ID]\"><?php if(function_exists(\"get_avatar\")) echo get_avatar( $comment, 32 ); ?><p><cite>[author]</cite> Reply:[moderation]<br /><small class=\"commentmetadata\">[date] at [time]</small></p>[content]</div>"
+msgstr "<div class=\"comment-childs<?php echo $deep%2 ? ' chalt' : ''; ?>\" id=\"comment-[ID]\"><?php if(function_exists(\"get_avatar\")) echo get_avatar( $comment, 32 ); ?><p><cite>[author]</cite> Odpověď:[moderation]<br /><small class=\"commentmetadata\">[date] v [time]</small></p>[content]</div>"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:408
+msgid "Your comment at [[blogname]] has a new reply"
+msgstr "K vašemu komentáři k [[blogname]] byla přidána odpověď"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:410
+msgid ""
+"<p><strong>[blogname]</strong>: Your comment on the post <strong>[postname]</strong> has a new reply</p>\n"
+"<p>Here is your original comment:<br />\n"
+"[pc_content]</p>\n"
+"<p>Here is the new reply:<br />\n"
+"[cc_content]</p>\n"
+"<p>You can see more information for the comment on this post here:<br />\n"
+"<a href=\"[commentlink]\">[commentlink]</a></p>\n"
+"<p><strong>Thank you for your commenting on <a href=\"[blogurl]\">[blogname]</a></strong></p>\n"
+"<p><strong>This email was sent automatically. Please don't reply to this email.</strong></p>"
+msgstr ""
+"<p><strong>[blogname]</strong> informuje: k vašemu komentáři k příspěvku <strong>[postname]</strong> byla připojena odpověď</p>\n"
+"<p>zde je Váš komentář:<br />\n"
+"[pc_content]</p>\n"
+"<p>zde je odpověď:<br />\n"
+"[cc_content]</p>\n"
+"<p>Detaily příspěvku naleznete zde:<br />\n"
+"<a href=\"[commentlink]\">[commentlink]</a></p>\n"
+"<p><strong>Děkujeme za Váš zájem o <a href=\"[blogurl]\">[blogname]</a></strong></p>\n"
+"<p><strong>Toto je automaticky generovaná zpráva. Prosím neodpovídejte na ni.</strong></p>"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:565
+msgid "Nested Reply"
+msgstr "Vnořená odpověď"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:566
+msgid "Post Comment"
+msgstr "Vložit komentář"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:567
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:573
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:575
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:887
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:889
+msgid "Notify me of follow-up comments via e-mail"
+msgstr ""
+
+# D:/SVN/wp-thread-comment/wp-thread-comment.php:403
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1004
+msgid "Do you really want to delete the comment?"
+msgstr "Opravdu chcete smazat komentář?"
+
+# D:/SVN/wp-thread-comment/wp-thread-comment.php:403
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1004
+msgid "Delete"
+msgstr "Vymazat"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:160
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1101
+msgid "WP Thread Comment Option"
+msgstr "WP Thread Comment Možnosti"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:160
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1101
+msgid "WP Thread Comment"
+msgstr "WP Thread Comment"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:190
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1116
+msgid "Options saved"
+msgstr "Konfigurace uložena"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1120
+msgid "Plugin confriguration has been reset back to default!"
+msgstr "Konfigurace byla resetována!"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1130
+#, php-format
+msgid "Thanks for using this plugin! If it works and you are satisfied with the results, isn't it worth at least one dollar? <a href=\"%s\" target=\"_blank\">Donations</a> help me to continue support and development of this <i>free</i> software! <a href=\"%s\" target=\"_blank\">Sure, no problem!</a> <a href=\"%s\" style=\"float:right; display:block; border:none;\"><small style=\"font-weight:normal;\">No thanks, please don't bug me anymore!</small></a>"
+msgstr "Děkujeme, že používáte tento plugin! Pokud jste spokojeni s jeho funkcí a výsledky, nestojí za alespoň jeden dolar? <a href=\"%s\" target=\"_blank\">Příspěvky</a> mi pomohou pokračovat v podpoře a vývoji tohoto <i>volného</i> software! <a href=\"%s\" target=\"_blank\">Jistě, žádný problém!</a> <a href=\"%s\" style=\"float:right; display:block; border:none;\"><small style=\"font-weight:normal;\">Ne, děkuji, neobtěžujte mě více prosím!</small></a>"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1148
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Donations for this plugins</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">Podpořte tento plugin</a>"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1152
+msgid "Memory Limit Set"
+msgstr "Nastavený limit paměti"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1154
+msgid "Memory limit(number only):"
+msgstr "Limit paměti (pouze číslo):"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1157
+msgid "if you cannot run this plugin due to low memory, try to increase the memory limit so you can run the plugin. If leave this value null or 0, this plugin will use your system's default memory limit."
+msgstr "Pokud nemůžete spustit plugin kvůli nízkému limitu paměti, zkuste limit zvýšit. Pokud hodnotu ponecháte null nebo 0, bude použit limit systému."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1161
+msgid "Configuration Reply Rights"
+msgstr "Konfigurace AJAX"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1163
+msgid "Only Admin or Poster can reply in front:"
+msgstr ""
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1166
+msgid "Check this box if you wish to allow only the admin or original poster to reply in front"
+msgstr "Zatrhněte tuto volbu pokud chcete povolit administrátorovi nebo autorovi mazat a přesouvat komentáře přímo v rámci stránek a v příspěvcích."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1170
+msgid "Configuration AJAX"
+msgstr "Konfigurace AJAX"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1172
+msgid "Enable Ajax Support:"
+msgstr "Povolena podpora AJAX:"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1175
+msgid "Check this box if you wish to use AJAX when people reply to comments"
+msgstr "Zatrhněte tuto volbu pokud chcete použít ajax pro odpovědi"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:217
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1179
+msgid "Edit Comment Form ID"
+msgstr "Změnit ID komentářového formuláře"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1184
+msgid "Change the commentform ID in comments.php according to your theme. In most cases you will not need to do anything as this can be detected automatically."
+msgstr "Změnit commentform ID v souboru comments.php tak aby odpovídalo Vámi používanému vzhledu. Ve většině případu to není nutné, protože je detekováno automaticky."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1189
+msgid "Edit Reply Text & Cancel Reply Text"
+msgstr "Změnit text opovědi & Zrušit text odpovědi"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1191
+msgid "Reply Text"
+msgstr "Text odpovědi"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1194
+msgid "Cancel Reply Text"
+msgstr "Zrušit text odpovědi"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1197
+msgid "Edit Reply Button Text & Cancel Reply Text that you wish to show in the post comments."
+msgstr "Změnit text tlačítka odpovědi & tlačítka zrušení odpovědi které je zobrazováno u komentářů příspěvků."
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:203
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1202
+msgid "Edit Comment HTML"
+msgstr "Změnit HTML komentáře"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1206
+msgid "HTML and PHP both can be used. As a easier way, you may use the following tags: <strong>[ID]</strong> for comment ID, <strong>[author]</strong> for comment author, <strong>[date]</strong> for comment date, <strong>[time]</strong> for comment time, <strong>[content]</strong> for comment content and <strong>[moderation]</strong> for comment moderation."
+msgstr "HTML a PHP může být použito zároveň. Pro zjednodušení můžete použít tyto značky: <strong>[ID]</strong> pro ID komentáře, <strong>[author]</strong> pro autora komentáře, <strong>[date]</strong> pro datum komentáře, <strong>[time]</strong> pro čas komentáře, <strong>[content]</strong> pro obsah komentáře a <strong>[moderation]</strong> pro moderování komentáře."
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:210
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1210
+msgid "Edit Comment CSS"
+msgstr "Změnit CSS komentáře"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:214
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1214
+msgid "Use CSS only, HTML and PHP cannot be used."
+msgstr "Použít pouze CSS, HTML a PHP nebude použito."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1217
+msgid "Include CSS in style.css"
+msgstr "Vložit CSS do style.css"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1220
+msgid "If you want to use css in style.css, please check this box, then copy above css style to style.css file.(nomally dont checked it)"
+msgstr "Pokud chcete použít css v souboru style.css, zatrhněte tuto volbu. Poté zkopírujte definici stylů uvedenou výše do souboru style.css (normálně není zaškrtnuto)"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1225
+msgid "Edit maximum nest level"
+msgstr "Změnit maximální úroveň vnoření"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1227
+msgid "Thread Nest level(number only):"
+msgstr "Úroveň vnoření vlákna (pouze číslo):"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1230
+msgid "Comments cannot be nested more deeply than this level."
+msgstr "Odpovědi nemohou být vnořeny hlouběji než tato úroveň."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1234
+msgid "Email notify the parent commenter when his comment was replied"
+msgstr "Informovat emailem autora nadřazeného komentáře pokud je ke komentáři vložena odpověď."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1236
+msgid "Disabled"
+msgstr "Zakázáno"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1238
+msgid "Replied by the author of the post or administrator ONLY"
+msgstr "Odpovědi POUZE od autora příspěvku nebo administrátora."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1240
+msgid "Anyone replies"
+msgstr "Odpověď od kohokoli."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1242
+msgid "Commenter choose to do so(default checked)"
+msgstr ""
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1244
+msgid "Commenter choose to do so(default unchecked)"
+msgstr ""
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1249
+msgid "Edit the subject of notification email"
+msgstr "Změnit předmět informačního emailu"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1253
+msgid "Use TEXT only. As a easier way, you may use the following tags: <strong>[blogname]</strong> for blog name and <strong>[postname]</strong> for comment post name"
+msgstr "Použít pouze TEXT. Pro zjednodušení můžete požít tyto značky: <strong>[blogname]</strong> pro jméno blogu a <strong>[postname]</strong> pro jméno příspěvku."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1258
+msgid "Edit Notification Message"
+msgstr "Změnit informační zprávu"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1262
+msgid "Use HTML only. As a easier way, you may use the following tags: <strong>[pc_author]</strong> for parent comment author, <strong>[pc_date]</strong> for parent comment date, <strong>[pc_content]</strong> for parent comment content, <strong>[cc_author]</strong> for child comment author, <strong>[cc_date]</strong> for child comment date, <strong>[cc_url]</strong> for child comment author url, <strong>[cc_content]</strong> for child comment content, <strong>[commentlink]</strong> for parent comment link, <strong>[blogname]</strong> for blog name, <strong>[blogurl]</strong> for blog url and <strong>[postname]</strong> for post name."
+msgstr "Použít pouze HTML. Pro zjednodušení můžete použít tyto značky:<strong>[pc_author]</strong> pro autora nadřazeného komentáře, <strong>[pc_date]</strong> pro datum nadřazeného komentáře, <strong>[pc_content]</strong> pro obsah nadřazeného komentáře, <strong>[cc_author]</strong> pro autora podřazeného komentáře, <strong>[cc_date]</strong> pro datum podřazeného komentáře, <strong>[cc_url]</strong> pro url autora podřazeného komentáře, <strong>[cc_content]</strong> pro obsah podřazeného komentáře, <strong>[commentlink]</strong> pro link na nadřazený komentář, <strong>[blogname]</strong> pro jméno blogu, <strong>[blogurl]</strong> pro url blogu a <strong>[postname]</strong> pro název příspěvku."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1266
+msgid "Reply in Wordpress Admin Panel"
+msgstr "Odpovědět v administrátorském panelu Wordpress"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1268
+msgid "Reply in Wordpress Admin Panel:"
+msgstr "Odpovědět v administrátorském panelu Wordpress:"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1271
+msgid "Check this box if you want to be able to Reply directly from the Wordpress Admin Panel"
+msgstr "zatrhněte tuto volbu pokud chcete odpovídat v administrátorském panelu Wordpress"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1275
+msgid "Front-end comment management"
+msgstr "Rozhraní správy komentářů"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1277
+msgid "Enabled In-the-post comment management:"
+msgstr "Povolit správu komentářů v příspěvku:"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1280
+msgid "Check this box if you wish to allow the administrator or author to delete and move the comments directly in post and pages."
+msgstr "Zatrhněte tuto volbu pokud chcete povolit administrátorovi nebo autorovi mazat a přesouvat komentáře přímo v rámci stránek a v příspěvcích."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1284
+msgid "Add author in reply comment"
+msgstr ""
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1286
+msgid "Add @author in comment:"
+msgstr ""
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1289
+msgid "Add @author in reply comment."
+msgstr ""
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1293
+msgid "Configuration action of deactivate"
+msgstr "Konfigurační akce při deaktivaci"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1295
+msgid "Delete options after deactivate:"
+msgstr "Vmazat nastavení po deaktivaci:"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1298
+msgid "check box if you want to delete all of options of wp thread comment after deactivate this plugin"
+msgstr "zatrhněte tuto volbu pokud chcete vymazat všechna nastavení po deaktivaci tohoto pluginu"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:233
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1302
+msgid "Update Options"
+msgstr "Aktualizovat nastavení"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1303
+msgid "Do you really want to reset your current configuration?"
+msgstr "Opravdu chcete zrušit Vaši současnou konfiguraci?"
+
+# D:/plugins/wp-thread-comment/wp-thread-comment.php:234
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1303
+msgid "Reset Options"
+msgstr "Resetovat nastavení"
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1427
+msgid "Oops, no comment with this ID."
+msgstr "CHYBA: s tímto ID není spojen žádný komentář."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1430
+msgid "Oops, no comment with this Moved ID."
+msgstr "CHYBA: s tímto ID není spojen žádný komentář."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1433
+msgid "You are not allowed to edit comments on this post."
+msgstr "Nejste oprávněn měnit komentáře k tomuto příspěvku."
+
+#: D:/SVN/wp-thread-comment/trunk/wp-thread-comment.php:1444
+msgid "Oops, Can not move comment to its child's comment."
+msgstr "CHYBA: není možné přesunout komentář pod odpověď."
+

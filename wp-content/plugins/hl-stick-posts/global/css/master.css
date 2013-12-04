@@ -1,0 +1,110 @@
+/*
+* master.css - This file have admin options page styles
+*
+* Copyright (C) 2010  Marcos Maia Lopes <marcosmlopes01@gmail.com>
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+*
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+div.sticky-posts{
+  margin:15px 0;
+  padding-top:15px;
+}
+
+ul.tabs{
+  margin:0 40px;
+}
+
+ul.tabs li{
+  float:left;
+  line-height:100%;
+  margin-bottom:-1px;
+  margin-right:7px;
+}
+
+ul.tabs li a
+, ul.tabs li span{
+  -moz-border-radius:8px 8px 0 0;
+  background:#F4F4F4;
+  border:1px solid #C0C0C0;
+  color:#C1C1C1;
+  float:left;
+  font-size:1.2em;
+  padding:8px 25px;
+  text-decoration:none;
+}
+
+ul.tabs li.selected a
+, ul.tabs li.selected span{
+  background:#E7E7E7;
+  color:#464646;
+  border-bottom:1px solid #E7E7E7;
+}
+
+ul.tabs li a:hover{
+  color:#D54E21;
+}
+
+div.tab-content{
+  -moz-border-radius:8px;
+  background:#fff;
+  border:1px solid #C0C0C0;
+  clear:both;
+}
+
+p{
+  margin:0;
+}
+
+div.sticky-category{
+  -moz-border-radius:8px 8px 0 0;
+  background:-moz-linear-gradient(center bottom , #F9F9F9, #E7E7E7) repeat scroll 0 0 transparent;
+  border-bottom:1px solid #C0C0C0;
+  margin-bottom:15px;
+  padding:15px;
+}
+
+ul.posts{
+  padding:15px;
+}
+
+ul.posts li{
+  -moz-border-radius:8px;
+  background:-moz-linear-gradient(center bottom , #E7E7E7, #FFFFFF) repeat scroll 0 0 transparent;
+  border:1px solid #C0C0C0;
+  cursor:move;
+  line-height:15px;
+  margin-bottom:15px;
+  padding:3px 30px 4px 12px;
+}
+
+ul.posts li h3{
+  font-size:12px;
+  margin:8px 0;
+}
+
+div.bt{
+  padding:0 15px 15px;
+  text-align:right;
+}
+
+.hl-save{
+  font-size:14px;
+}
+
+div.wrap ul.posts li.ui-state-highlight{
+  background:transparent;
+  border:1px dashed #ccc;
+  height:25px;
+}

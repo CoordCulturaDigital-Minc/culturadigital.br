@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+
+
+#principal #coluna_esquerda {
+	margin-right: 3px;
+}
+
+#principal #coluna_esquerda #parcerias {
+	width: 385px;
+	padding: 8px;
+}
+
+#principal #coluna_esquerda #conheca {
+	width: 383px;
+	padding: 8px;
+}
+
+
+#principal #coluna_esquerda #conheca ul li {
+	float: left;
+	margin-right: 2px;
+	margin-left: 2px;
+}

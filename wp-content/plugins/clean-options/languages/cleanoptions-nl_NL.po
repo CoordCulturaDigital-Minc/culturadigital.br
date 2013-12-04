@@ -1,0 +1,621 @@
+# Dutch Clean Options Language File - nl_NL
+# Copyright (C) 2007, 2008, 2009, 2010, Mittineague
+# This file is distributed under the same license as the Clean Options package.
+# Mittineague <http://www.mittineague.com>, 2007, 2008, 2009, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Clean Options 1.3.2\n"
+"Report-Msgid-Bugs-To: <http://www.mittineague.com/blog/2009/04/ping-watcher-translations/>\n"
+"POT-Creation-Date: 2010-03-01 22:21+0000\n"
+"PO-Revision-Date: 2010-03-15 19:21+0100\n"
+"Last-Translator: WordPressPluginGuide.com <info@wppg.me>\n"
+"Language-Team: http://WPwebshop.com <info@wpwebshop.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+
+# "Tools" should be the same as the core's admin menu
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:173
+msgid "Tools"
+msgstr "Gereedschappen"
+
+# "get_option" and "get_settings" are code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:382
+msgid "Listed Options are those that are found in the wp_options table but are not referenced by \"get_option\" or \"get_settings\" by any of the PHP files located within your blog directory. If you have deactivated plugins and/or non-used themes in your directory, the associated options will not be considered orphaned until the files are removed."
+msgstr "Weergegeven Opties zijn de opties die zijn gevonden in de wp_options tabel, maar zijn niet aangemerkt met \"get_option\" (verkrijg optie) of \"get_settings\" (verkrijg instellingen) door een van de PHP-bestanden binnen jouw blog map. Als je plugins en/of niet gebruikte thema's gedeactiveerd hebt in je map zullen de bijbehorende opties niet worden beschouwd als opzichzelfstaand totdat de bestanden zijn verwijderd."
+
+# "rss_hash" and wp_options are code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:386
+msgid "Most likely there are an extreme number of \"rss_hash\" rows in the wp_options table."
+msgstr "Waarschijnlijk zijn er een extreem groot aantal \"rss_hash\" rijen in de wp_options tabel."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:387
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:514
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:526
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1296
+msgid "WARNING"
+msgstr "WAARSCHUWING"
+
+# %s = the "Delete ALL 'rss' Options" button's text
+# "rss_hash" is code and should NOT be transslated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:387
+#, php-format
+msgid "To avoid excessive memory use, using \"%s\" does not attempt to list all of the \"rss_hash\" options, nor will you be able to review the contents."
+msgstr "Ter voorkoming van overmatig geheugengebruik, het gebruik van \"%s\" probeert niet om alle \"rss_hash\" opties weer te geven, noch zal je in staat zijn om de inhoud te beoordelen."
+
+# 'rss' is code and should NOT be transslated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:387
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:388
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:389
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1596
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1686
+msgid "Delete ALL 'rss' Options"
+msgstr "Verwijder ALLE 'rss' Opties"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:388
+#, php-format
+msgid "\"%s\" attempts to provide some measure against the deletion of current \"rss_hash\" options by not deleting any \"rss_hash\" rows with an option_id newer than (the last row id - %d ). Because plugins and themes also add rows to the wp_options table, depending on your recent installation history, this may remove <strong>ALL</strong> of the \"rss_hash\" options, both older AND <strong>CURRENT</strong> ones, no questions asked."
+msgstr "\"%s\" pogingen om enkele maatregelen te treffen tegen het verwijderen van de huidige \"rss_hash\" opties door het niet verwijderen van \"rss_hash\"  rijen met een option_id (optie ID) nieuwer dan (de laatste rij id -%d). Omdat plugins en thema's ook rijen toevoegen aan de wp-options tabel, afhankelijk van uw recente installatie geschiedenis, kan deze <strong>ALLE</ strong> \"rss_hash\"  opties verwijderen, ZOWEL oudere als <strong>HUIDIGE</ strong> opties, zonder dat er om bevestiging gevraagd wordt."
+
+# %1$s = the "Delete ALL 'rss' Options" button's text
+# %2$s = the "Find Orphaned Options" button's text
+# "rss_hash" is code and should NOT be transslated
+# "break" should be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:389
+#, php-format
+msgid "Although removing current \"rss_hash\" rows should not \"break\" your WordPress blog (they should be entered again next time the feed is cached), please <strong>BACKUP</strong> your database <strong>BEFORE</strong> doing this.<br />After using \"%1$s\", you should \"%2$s\" to clean the wp_options table further."
+msgstr "Hoewel het verwijderen van de huidige \"rss_hash\" rijen niet je WordPress blog \"kapot\" mag maken (deze moeten opnieuw worden ingevoerd bij de volgende keer dat de feed is opgenomen in de cache), dien je een <strong>BACKUP</ strong> te maken van je database <strong>VOORDAT</ strong> je dit doet. <br />Na het gebruik van \"%1$s\" dien je de \"%2$s\" tabel wp_options verder op te schonen."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:389
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1610
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1659
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1700
+msgid "Find Orphaned Options"
+msgstr "Vind Opzichzelfstaande Instellingen"
+
+# "Find" refers to the operation that occurs when the "Find Orphaned Options" button is clicked
+# "Find" should be translated to the same as the button text's Find: msgid "Find Orphaned Options"
+# "rss_hash" is code and should NOT be transslated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:390
+msgid "It is <strong>highly recommended</strong> that you Limit the \"Find\" to only a selected number of the most recent \"rss_hash\" options Instead and repeat the process until the number becomes manageable."
+msgstr "Het is <strong>van harte aanbevolen</ strong> dat je het \"Zoeken\" beperkt tot alleen een geselecteerd aantal van de meest recente \"rss_hash\" opties en dit proces herhaalt tot het aantal beheersbaar wordt."
+
+# "rss_hash" is code and should NOT be transslated
+# "Find" refers to the operation that occurs when the "Find Orphaned Options" button is clicked
+# "Find" should be translated to the same as the button text's Find: msgid "Find Orphaned Options"
+# If plural of "Find" - "Finds" is a problem, please ensure users will understand what it refers to
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:392
+msgid "The lower the number of \"rss_hash\" option pairs you \"Find\", the less likely it is that you will experience problems with memory during the \"Find\". However, depending on the number of feed rows that are current, the \"Find\" may not include any older ones that can be deleted.<br />The higher the number of \"rss_hash\" pairs you \"Find\", the more likely it is that older ones that can be deleted will be included. But there is a greater chance of having memory problems during the \"Find\".<br />It is suggested that you start off with a lower \"Find\", and increase the number gradually, if you wish to, on subsequent \"Finds\". If you get a memory error, use a lower number.<br />Again said, it is recommended that you scan the results on the review page of anything you select prior to it's deletion, to ensure that you really want to remove it."
+msgstr "Hoe lager het aantal \"rss_hash\" optie paren je \"vindt\", hoe minder waarschijnlijk het is dat je problemen met het geheugen zal ondervinden tijdens de \"zoekopdracht\". Echter, afhankelijk van het huidige aantal RSS feed rijen mag de \"zoekopdracht\" geen enkele oudere paren bevatten welke verwijderd kunnen worden. <br />Hoe hoger het aantal \"rss_hash\" paren u \"zoekt\", hoe waarschijnlijker het is dat ook oudere paren verwijderd zullen worden. Er is wel een grotere kans op geheugen problemen tijdens het \"zoeken\".<br />Het is aan te raden te beginnen met een lagere \"zoekopdracht\", dit geleidelijk te verhogen, en als u wilt, op daaropvolgende \"zoekopdrachten\". Wanneer je een geheugen foutmelding krijgt gebruik dan een kleiner aantal.<br />Nogmaals gezegd, het is aanbevolen dat je de resultaten op de overzichtspagina nakijkt op alles voorafgaand aan het verwijderen, om ervoor te zorgen dat je het ook echt wilt verwijderen."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:394
+msgid "Low Memory usage"
+msgstr "Laag Geheugen Gebruik"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:395
+msgid "Moderate Memory usage"
+msgstr "Gemiddeld Geheugen gebruik"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:396
+msgid "High Memory usage"
+msgstr "Hoog Geheugen gebruik"
+
+# "Find" refers to the operation that occurs when the "Find Orphaned Options" button is clicked
+# "Find" should be translated to the same as the button text's Find: msgid "Find Orphaned Options"
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:397
+msgid "Find"
+msgstr "Zoeken"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:398
+msgid "10 pairs"
+msgstr "10 koppelingen"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:399
+msgid "25 pairs"
+msgstr "25 koppelingen"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:400
+msgid "50 pairs"
+msgstr "50 koppelingen"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:401
+msgid "75 pairs"
+msgstr "75 koppelingen"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:402
+msgid "100 pairs"
+msgstr "100 koppelingen"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:403
+msgid "125 pairs"
+msgstr "125 koppelingen"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:404
+msgid "150 pairs"
+msgstr "150 koppelingen"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:405
+msgid "175 pairs"
+msgstr "175 koppelingen"
+
+# "Find" refers to the operation that occurs when the "Find Orphaned Options" button is clicked
+# "Find" should be translated to the same as the button text's Find: msgid "Find Orphaned Options"
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:451
+msgid "Don't show the Known WordPress Core options for this \"Find\""
+msgstr "Laat niet de bekende WordPress kern opties zien voor deze \"Zoekopdracht\""
+
+# "Alternate Syntax" and "Warning" refer to message headers
+# "Find" refers to the operation that occurs when the "Find Orphaned Options" button is clicked
+# "Find" should be translated to the same as the button text's Find: msgid "Find Orphaned Options"
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:454
+msgid "Don't show the Alternate Syntax Warnings for this \"Find\""
+msgstr "Laat niet de bekende alternatieve syntaxis waarschuwingen zien voor deze \"Zoekopdracht\""
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:577
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:631
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1396
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1733
+msgid "File System Error"
+msgstr "Fout Bestandssysteem"
+
+# %s = value of $current_dir variable
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:577
+#, php-format
+msgid "Could not open folder %s"
+msgstr "Kan niet de map %s openen"
+
+# %s = value of $found_file variable
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:631
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1396
+#, php-format
+msgid "Could not open file %s"
+msgstr "Could not open file %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:672
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:682
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1716
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1717
+msgid "Alternate Syntax"
+msgstr "Alternatieve Syntaxis"
+
+# %1$s = value of $found_file variable
+# %2$s = value of $alt_syntax_match variable
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:672
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:682
+#, php-format
+msgid " %1$s has an option line with %2$s"
+msgstr " %1$s heeft een optionele regel met %2$s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:726
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1112
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1132
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1145
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1498
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1721
+msgid "Database Error"
+msgstr "Database Fout"
+
+# %s = value of $yes_query variable
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:726
+#, php-format
+msgid "%s (the Orphaned Options query) did not return an array."
+msgstr "%s (zoeken naar de Opzichzelfstaande Instellingen) heeft geen reeks teruggegeven."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:736
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1156
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1728
+msgid "Empty Name"
+msgstr "Lege Naam"
+
+# %s = value of $yes_opt_val variable
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:736
+#, php-format
+msgid "There is an autoload yes Option with No Name with the value: %s"
+msgstr "Er is een autolader optie zonder naam met de waarde: %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:749
+msgid "To double-check options in the Orphaned Options list:"
+msgstr "Voor dubbele controle van de instellingen in de lijst van Opzichzelfstaande Instellingen:"
+
+# "Warning" refers to message header
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:751
+msgid "Look at the file names in any Warning messages."
+msgstr "Controleer de bestandsnaam in de foutmeldingen."
+
+# "Alternate Syntax" and "Warning" refer to message headers
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:752
+msgid "Look at the text in any Alternate Syntax Warning messages."
+msgstr "Kijk naar de tekst in alle alternatieve syntaxis waarschuwings berichten."
+
+# %s = link to >wp-admin/options.php<
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:753
+#, php-format
+msgid "Some information may be available at your %s page."
+msgstr "Er kan bepaalde informatie aanwezig zijn op je %s pagina."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:754
+msgid "Try a Google search for the option_name."
+msgstr "Probeer een zoekopdracht in Google voor de optie naam."
+
+# msgid "Search files in the wp-content folder by:" OBSOLETE
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:755
+msgid "Search files by:"
+msgstr "Zoek bestanden in de wp-content map op:"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:757
+msgid "entering either a single string eg."
+msgstr "het invoeren van bijvoorbeeld een enkele string"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:758
+msgid "all_or_portion_of_option_name"
+msgstr "alles_of_een_gedeelte_van_de_naam_van_de_optie"
+
+# %s = hard-coded "*AND*"
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:759
+#, php-format
+msgid "2 strings separated by %s (in uppercase, enclosed with asterisks) eg."
+msgstr "2 strings gescheiden door%s bijvoorbeeld (in hoofdletters, ingesloten met * sterretjes)"
+
+# %s = hard-coded "*AND*"
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:760
+#, php-format
+msgid "prefix %s other_words"
+msgstr "voorvoegsel %s andere_woorden"
+
+# %s = hard-coded "*AND*"
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:761
+#, php-format
+msgid "or a maximum of 3 strings separated by %s eg."
+msgstr "of een maximum van 3 strings gescheiden door bijvoorbeeld %s"
+
+# %1$s, %2$s = hard-coded "*AND*"
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:762
+#, php-format
+msgid "prefix%1$sword%2$sother_word"
+msgstr "voorvoegsel%1$swoord%2$sander_woord"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:763
+msgid "Note: all spaces are removed, search is case sensitive."
+msgstr "Opmerking: alle spaties worden verwijderd, zoeken is hoofdlettergevoelig."
+
+# the "View Selected Options Information" button's text
+# should be translated to the same as: msgid "View Selected Options Information"
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:765
+msgid "Carefully Review information on the \"View Selected Options Information\" page <i>before</i> deleting the option."
+msgstr "Bekijk zorgvuldig  de informatie op de \"Bekijk informatie over geselecteerde opties\" pagina <i>vóór</ i> het verwijderen van de optie."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:768
+msgid "Possibly Orphaned Options"
+msgstr "Mogelijke Opzichzelfstaande Instellingen"
+
+# "fit" should be translated
+# "get_option" and "get_settings" are code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:768
+msgid "The following Options appear to be orphans. When shown, non-selectable Options are known to have been created from files present during upgrade or backup, or are legitimate options that do not \"fit\" the search for get_option or get_settings. If you wish to remove them by other means, do so at your own risk."
+msgstr "De volgende opties schijnen opzichzelfstaand te zijn. Wanneer deze worden weergegeven worden niet-selecteerbare opties gemaakt op basis van bestanden welke aanwezig zijn tijdens een upgrade of back-up, of legitieme opties die niet \"passen\" in de zoekactie naar verkrijg_optie of verkrijg_instellingen. Indien u wenst om deze te verwijderen met andere middelen doet u dit op eigen risico."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:961
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1018
+msgid "No Orphaned Options were found"
+msgstr "Er zijn geen Opzichzelfstaande Instellingen gevonden"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:988
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1000
+msgid "known WordPress Core option"
+msgstr "bekende WordPress kern optie"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1007
+msgid "Google it"
+msgstr "Google het"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1021
+msgid "Only WordPress Core Options were found"
+msgstr "Alleen WordPress kern opties zijn gevonden"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1026
+msgid "To look for option_name(s):"
+msgstr "Zoeken naar optie_naam/namen:"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1027
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1035
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1357
+msgid "Enter Search String here"
+msgstr "Voer de zoekstring hier in"
+
+# msgid "Search wp-content folder" OBSOLETE
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1044
+msgid "Search"
+msgstr "Zoek"
+
+# %s = value of $ts_query variable
+# "rss_" is code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1112
+#, php-format
+msgid "%s (the \"rss_\" timestamp Options query) did not return an array"
+msgstr "%s (de \"rss_\" zoekopdracht met tijdsmarkering) heeft geen bereik weergegeven"
+
+# %s = value of $non_ts_query variable
+# "rss_" is code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1132
+#, php-format
+msgid "%s (the \"rss_\" non-timestamp Options query) did not return an array"
+msgstr "%s (de \"rss_\" zoekopdracht zonder tijdsmarkering) heeft geen bereik weergegeven"
+
+# %s = value of $no_query variable
+# "rss_" is code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1145
+#, php-format
+msgid "%s (the \"rss_\" Options query) did not return an array"
+msgstr "%s (de \"rss_\" instellingen zoekopdracht) heeft geen bereik weergegeven"
+
+# %s = value of $no_opt_val variable
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1156
+#, php-format
+msgid "There is an autoload not equal to yes Option with No Name with the value: %s"
+msgstr "Er is een autolader welke niet gelijk is aan de ja Instelling zonder naam met de waarde: %s"
+
+# "rss_" is code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1216
+msgid "The \"rss_\" options are obsolete as of WordPress version 2.8 All are selectable and it should be safe to remove any that remain."
+msgstr "De \"rss_\" opties zijn achterhaald sinds WordPress versie 2.8. Ze kunnen allemaal geselecteerd worden en het zou veilig moeten zijn om deze te verwijderen."
+
+# RSS is code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1218
+msgid "RSS Options"
+msgstr "RSS opties"
+
+# %1$s, %2$s = the select option's "days old" text
+# RSS is code and should NOT be translated
+# "rss_" is code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1218
+#, php-format
+msgid "The following contains \"RSS\" Options added to the wp_options table from the blog's dashboard page and other files that parse RSS feeds and cache the results.<br />In each pair, the upper option is the cached feed and the lower is the option's timestamp.<br />Those listed may include options that are <strong>Currently Active</strong>.<br />When shown, \"rss_\" option pairs with dates newer or the same as the date of 14'th newest \"rss_\" option pair (the ones that are more likely to be current) have no checkbox but begin with \"-\" and end with \"<em># %1$s</em>\" in italics.<br />The older \"rss_\" options can be selected and end with \"<strong># %2$s</strong>\" in bold."
+msgstr "Het volgende bevat \"RSS\" Opties welke toegevoegd zijn aan de wp_options tabel uit de dashboard pagina van de blog, en andere bestanden die RSS-feeds ontleden en resultaten cachen.<br />In elk paar is de hoogste optie de feed cache en de laagste is de tijdsmarkering van de optie.<br/>De genoemde opties kunnen bestaan uit opties die <strong>Actief</strong> zijn.<br/>Wanneer getoond verenigd de \"rss_\" optie met data nieuwer of hetzelfde als de datum van het 14e nieuwste \"rss_\" optie paar (degene die vaker de huidige lijken) hebben geen selecteervak maar beginnen met \"-\" en eindigen met \"<em>#%1$s</em>\" in cursief.<br/>De oudere \"rss_\" opties kunnen geselecteerd worden en eindigen met \"<strong>#%2$s</strong>\" vetgedrukt."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1218
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1242
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1253
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1268
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1277
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1306
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1312
+msgid "days old"
+msgstr "dagen oud"
+
+# "rss_" is code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1225
+msgid "There were No \"rss_\" Options found"
+msgstr "Er zijn geen \"rss_\" opties gevonden"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1296
+msgid "The following options were not paired correctly. Be certain to check their information carefully before you remove them."
+msgstr "De volgende opties werden niet correct gekoppeld. Wees er zeker van de informatie zorgvuldig te controleren voordat u deze verwijderd."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1318
+msgid "ALERT"
+msgstr "OPGELET"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1318
+msgid "Age Unknown"
+msgstr "Levensduur Onbekend"
+
+# "_ts" is code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1318
+msgid "check the age of the corresponding \"_ts\" option."
+msgstr "bekijk de levensduur van de gelijkwaardige \"_ts\" optie."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1338
+msgid "Select all"
+msgstr "Selecteer alles"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1338
+msgid "Deselect all"
+msgstr "Alles deselecteren"
+
+# "all" and "plugin" should be translated
+# "rss_" is code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1338
+msgid "\"all\" means BOTH \"plugin\" AND \"rss_\" options."
+msgstr "\"all\" (alles) betekent ZOWEL \"plugin\" ALS \"rss_\" opties."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1343
+msgid "View Selected Options Information"
+msgstr "Bekijk informatie over geselecteerde opties"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1437
+msgid "was found in:"
+msgstr "was gevonden in:"
+
+# %s = value of $probe_string variable
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1448
+#, php-format
+msgid "No files were found containing %s"
+msgstr "Geen bestanden gevonden die %s bevatten"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1453
+msgid "No Search string was entered."
+msgstr "Geen zoekstring was ingevoerd."
+
+# %s = link to >first screen<
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1456
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1543
+#, php-format
+msgid "Return to the %s"
+msgstr "Keer terug naar de %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1456
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1543
+msgid "first screen"
+msgstr "eerste scherm"
+
+# 10th and 20th are abbreviations for tenth and twentieth, if numeric is a problem, please substitute
+# option_value is code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1472
+msgid "*Note* spaces have been added after every 10th character of the option_name and every 20th character of the option_value to preserve page layout.<br />Not all options have values and/or descriptions."
+msgstr "*Opgelet* er zijn spaties toegevoegd na elk 10e karakter van de optie_naam en elk 20e karakter van de optie_waarde om de pagina layout te behouden.<br/>Niet alle instellingen hebben waarden en/of omschrijvingen."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1473
+msgid "Please review this information very carefully and only remove Options that you know for certain have been orphaned or deprecated."
+msgstr "Lees deze informatie aandachtig en verwijder alleen instellingen waarvan je zeker weet dat ze op zichzelf staan of niet meer gebruikt worden."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1474
+msgid "It is strongly suggested that you BACKUP your database before removing any options."
+msgstr "Het wordt ten harte aangeraden om een backup van de database te maken voordat instellingen verwijderd worden."
+
+# %s = value of $prune_query variable
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1498
+#, php-format
+msgid "%s (the review information query) did not return an array"
+msgstr "%s (de informatie overzicht aanvraag) heeft geen reeks teruggegeven"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1534
+msgid "Yes, Remove ALL of these options from the wp_options table."
+msgstr "Ja, verwijder deze opties ALLEMAAL van de wp_options tabel."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1535
+msgid "No, Don't remove them, return to the first screen."
+msgstr "Nee, verwijder ze niet, keer terug naar het eerste scherm."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1536
+msgid "Submit"
+msgstr "Toevoegen"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1541
+msgid "No Orphaned Options where selected."
+msgstr "Geen instellingen werden geselecteerd welke op zichzelf staan."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1563
+msgid "Removed Options"
+msgstr "Verwijderde Opties"
+
+# %s = value of $opt_tbl_len variable
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1584
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1651
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1675
+#, php-format
+msgid "The Options table currently has %s found rows."
+msgstr "De tabel Opties heeft op dit moment %s regels gevonden."
+
+# %d = value of $rows_deleted variable
+# "rss_hash" is code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1643
+#, php-format
+msgid "Removed %d \"rss_hash\" Options"
+msgstr "%d \"rss_hash\" opties zijn verwijderd"
+
+# "rss_hash" and wp_options are code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1658
+msgid "Every \"rss_hash\" option in the wp_options table will be shown, including current ones."
+msgstr "Elke \"rss_hash\" optie in de wp_opties tabel zal worden weergegeven, inclusief de huidige opties."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1710
+msgid "Warning Messages"
+msgstr "Waarschuwingsboodschappen"
+
+# "Warning" refers to message header
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1711
+msgid "A Warning message, means that something has happened and options that should not be deleted might be available for deletion, or options that could be safely deleted might not be available for deletion. In any case, if you see a Warning message, use extra-special care and thought before deleting any options."
+msgstr "Een waarschuwing betekent dat er iets is gebeurd en opties die niet verwijderd hadden moeten worden mogelijk beschikbaar zijn voor verwijdering, of opties die veilig kunnen worden verwijderd zijn mogelijk niet beschikbaar voor verwijdering. In ieder geval, wanneer je een waarschuwing ziet wees bedacht voordat u eventuele opties verwijderd."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1716
+msgid "has an option line with"
+msgstr "heeft een instellingsregel met"
+
+# %s = link to >http://www.mittineague.com/blog/2009/03/alternate-syntax/<
+# get_option, option_name, wp_options, are code and should NOT be translated
+# "the whatever plugin has alternate syntax but is OK" and "ignore" should be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1717
+#, php-format
+msgid "The plugin searches PHP files for instances of get_option('option_name as a string') to match against values found in the wp_options table. Some files however use syntax such as get_option(&#36;variable) or get_option('prefix_' . &#36;variable). These option names will not match those found in the wp_option table, and they may be present in the list of Orphaned Options when in fact they are not really orphaned. In many cases, knowing the file, and the prefix if used, should help in identification of options that are not really orphaned.<br />*Note, if you get this warning with a plugin file (from the <u><i>WordPress.com Plugin Directory only</i></u>, please) and you know it's not a potential problem (eg. some WordPress core files, the WordPress.com Stats plugin, and this plugin have alternate syntax in them BUT <u><i>there are no options associated with them listed</i></u>), please visit the blog and leave a comment something like \"the whatever plugin has alternate syntax but is OK\" and I can add it to the \"ignore\" list for future version releases if it is safe to do so. Many Thanks. %s"
+msgstr "De plugin zoekt PHP-bestanden voor gevallen wanneer de \"verkrijg_optie\" ('optie_naam als een string') gelijk is aan de waarden gevonden in de wp_options tabel. Sommige bestanden gebruiken echter de syntaxis zoals verkrijg_optie(&#36;variable) of verkrijg_optie('voorvoegsel_'.&#36;variable). Deze optienamen zullen niet overeenkomen met de opties in de wp_optie tabel, en ze kunnen aanwezig zijn in de lijst van Opzichzelfstaande Opties terwijl ze in feite niet echt op zichzelf staan. In veel gevallen, wanneer het bestand en het gebruikte voorvoegsel bekend zijn kan dit helpen bij de identificatie van opties die niet op zichzelf staan.<br/>* Let op, als je deze waarschuwing krijgt met een plugin bestand (<u><i>alleen uit de WordPress.com plugin map</i></u>) en je weet dat het niet een potentieel probleem is (bv. sommige WordPress kern bestanden, de WordPress.com Stats plugin, en deze plugin hebben alternatieve syntax in zichzelf, MAAR <u><i>er zijn geen opties die banden met hen hebben weergegeven</i></u>) kun je terecht op de blog en een reactie achterlaten zoiets als \"de plugin X heeft een alternatieve syntaxis, maar is OK\" en ik kan dan deze toevoegen aan de \"te negeren\" lijst voor toekomstige versie releases als het inderdaad veilig is om dat te doen. Bedankt! %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1721
+msgid "query did not return an array"
+msgstr "zoekopdracht heeft geen bereik opgeleverd"
+
+# wp_options and "rss_hash" are code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1722
+msgid "The plugin queries the wp_options table. It expects an array with at least 1 row. This error message may be the result of fact. i.e. There actually are no wp_option rows with autoload=yes (next to impossible), or there actually are no \"rss_hash\" rows. Or it could be an actual database problem (eg. connection failure, memory failure). If you get this error message you should look for a WPDB error message as well for more detailed information. An error with either the autoload=yes query (core/plugin/theme options), or the autoload!=yes query (rss_hash options) means that none of the corresponding rows will be available for review or deletion until the database problem is resolved."
+msgstr "De plugin raadpleegt de wp_options tabel. Het verwacht een bereik van tenminste 1 rij. Deze foutmelding kan het resultaat zijn van deze opvraging. Er zijn eigenlijk geen rijen in de wp_option tabel met autoladen=ja (vrijwel onmogelijk), en er zijn ook geen \"rss_hash\" regels. Het kan een database probleem zijn (bijv. verbindingsprobleem, geheugenprobleem). Wanneer je deze foutboodschap krijgt moet je kijken naar een WPDB foutmelding en voor meer gedetailleerde informatie. Een fout met de autolader=ja opvraging (kern/plugin/thema opties), of de autolader!=ja opvraging (rss_hash opties) betekent dat geen enkele van de corresponderende regels beschikbaar zijn voor inspectie of verwijdering totdat het database probleem is opgelost."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1723
+msgid "WordPress database error"
+msgstr "WordPress database fout"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1724
+msgid "These are the error messages as returned by WordPress."
+msgstr "Dit zijn de foutmeldingen zoals deze worden aangegeven door WordPress."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1728
+msgid "Option with No Name with the value"
+msgstr "Optie zonder naam met de waarde"
+
+# "no name" should be translated
+# option_name and option_value are code and should NOT be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1729
+msgid "Perhaps some plugins/themes add options that have no name? Or the name becomes removed from the row somehow? Because this plugin finds options based on their names, these \"no name\" options will not be included in the list, and thus can not be selected for review or deletion. If the row has no option_name but has an option_value, it will be shown to help you identify the source of the problem. At present, if you wish to remove such rows you must do so by other means."
+msgstr "Misschien hebben enkele plugins/thema's opties toegevoegd die geen naam hebben ? Of de naam is verwijderd van de regel op een of andere manier ? Omdat deze plugin opzichzelfstaande opties vind gebaseerd op hun namen worden deze \"zonder naam\" opties niet opgenomen in de lijst, en kunnen dus niet geselecteerd worden voor inspectie of verwijdering. Wanneer de regel geen optie_naam heeft maar wel een optie_waarde zal het worden weergegeven zodat het je kan helpen met het oplossen van het probleem. Als je op dit moment zulke rijen wenst te verwijderen moet je dit doen op een andere manier."
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1733
+msgid "Could not open folder/file"
+msgstr "Kan het bestand/map niet openen"
+
+# "read" and "world" should be translated to what's used as in permissions - i.e. 0777, drwxrwxrwx etc.
+# "orphaned options" should be translated
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1734
+msgid "The plugin failed to open a folder/file. This is most often because of inadequate permissions settings. i.e. The \"read\" permission setting. They do not need to be \"world\" readable, but scripts must be able to. Options that are in files that can not be read may appear in the \"orphaned options\" list when in fact they are not orphaned. In many cases, knowing the folder/file should help in identification of options that are not really orphaned."
+msgstr "De plugin kon geen map/bestand openen. Dit komt meestal door verkeerde permissie instellingen, bijvoorbeeld de \"lees\" permissie instelling. Ze hoeven niet \"globaal\" leesbaar te zijn, maar scripts moeten dit wel kunnen. Instellingen welke in bestanden staan welke niet gelezen kunnen worden kunnen verschijnen in de lijst met \"opzichzelfstaande opties\""
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1738
+msgid "Further Information"
+msgstr "Meer Informatie"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1739
+msgid "WANTED - Bug Reports"
+msgstr "GEVRAAGD - Rapporten met Fouten"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1740
+msgid "WANTED - Translations"
+msgstr "GEVRAAGD - Vertalingen"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1741
+msgid "If you have any questions, problems, comments, or suggestions, please let me know."
+msgstr "Wanneer je een vraag, probleem, reactie of suggestie hebt laat het me a.u.b. weten."
+
+# %s = link to >http://www.mittineague.com/blog/2009/06/clean-options-translations/<
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1742
+#, php-format
+msgid "If you would like to provide a translation, please leave a comment at %s"
+msgstr "Als je ook wil bijdragen aan een vertaling laat hier een reactie achter : %s"
+
+# %s = link to >http://www.mittineague.com/dev/co.php<
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1744
+#, php-format
+msgid "For more information, the latest version, etc. please visit the plugin's page %s"
+msgstr "Voor meer informatie, de laatste versie etc. bezoek de pagina van de plugin : %s"
+
+# %s = link to >http://www.mittineague.com/forums/viewtopic.php?t=101<
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1746
+#, php-format
+msgid "Questions? For support, please visit the forum %s"
+msgstr "Vragen? Voor hulp kun je naar het %s forum gaan"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1747
+msgid "registration required to post"
+msgstr "registratie is vereist om te posten"
+
+# %s = link to >http://www.mittineague.com/blog/2008/11/clean-options-plugin-release-candidate/<
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1748
+#, php-format
+msgid "For comments / suggestions, please visit the blog %s"
+msgstr "Voor reacties / sugesties bezoek de blog hier : %s"
+
+#: c:\progra~1\gnuwin32\test\cleanoptions.php:1749
+msgid "Translation Acknowledgements"
+msgstr "Bronvermelding Vertalingen"
+

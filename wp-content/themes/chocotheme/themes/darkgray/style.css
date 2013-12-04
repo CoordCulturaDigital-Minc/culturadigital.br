@@ -1,0 +1,25 @@
+body { background: #000; }
+
+#logo a { color: #fff; }
+#header .description { color: #848282; }
+
+.post .date .bg { background-image: url(images/date.png); }
+.post .date span { color: #feefcc; }
+
+#main { background-image: url(images/main-bg.jpg); }
+#main-top { background-image: url(images/main-top.jpg); }
+#main-bot { background-image: url(images/main-bot.jpg); }
+
+#rss-link { background-image: url(images/ico-rss.png); }
+
+#sidebar h2 { background-image: url(images/widgettitle.jpg); color: #fff; }
+#sidebar ul ul li { background-image: url(images/sidebar-list-arr.gif); border-bottom-color: #363636; }
+
+#sidebar #searchform label { color: #ebab00; }
+#sidebar #searchform .field-place { background-image: url(images/searchform-field.gif); }
+#sidebar #searchform .field-place .field { color: #ffe6a8; }
+
+#respond .button { background-image: url(images/button.gif); }
+
+#nav ul li.current_page_item a,
+#nav ul li.current_page_item a span { background-image: url(images/nav-active.png); }

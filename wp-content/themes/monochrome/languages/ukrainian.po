@@ -1,0 +1,398 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: monochrome\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-23 02:26+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mono-lab.net <support@mono-lab.net>\n"
+"Language-Team: monolab <mail@monolab.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\Program Files\\xampp\\htdocs\\testblog15\n"
+"X-Poedit-SearchPath-0: wp-content\\themes\\monochrome\n"
+
+#: wp-content\themes\monochrome/archive.php:12
+#, php-format
+msgid "Archive for the &#8216; %s &#8217; Category"
+msgstr "Арх?в категор?? &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+
+#: wp-content\themes\monochrome/archive.php:15
+#, php-format
+msgid "Posts Tagged &#8216; %s &#8217;"
+msgstr "Записи з тегом &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+
+#: wp-content\themes\monochrome/archive.php:18
+#: wp-content\themes\monochrome/archive.php:21
+#: wp-content\themes\monochrome/archive.php:24
+#, php-format
+msgid "Archive for %s"
+msgstr "Арх?в<span id=\"keyword\"> %s </span>"
+
+#: wp-content\themes\monochrome/archive.php:18
+#: wp-content\themes\monochrome/archive.php:39
+#: wp-content\themes\monochrome/comments.php:116
+#: wp-content\themes\monochrome/functions.php:229
+#: wp-content\themes\monochrome/search.php:18
+msgid "F jS, Y"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:21
+msgid "F, Y"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:24
+msgid "Y"
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:27
+msgid "Author Archive"
+msgstr "Арх?в автора"
+
+#: wp-content\themes\monochrome/archive.php:30
+msgid "Blog Archives"
+msgstr "Арх?ви блогу"
+
+#: wp-content\themes\monochrome/archive.php:40
+#: wp-content\themes\monochrome/search.php:19
+msgid "Posted in "
+msgstr "Написано у"
+
+#: wp-content\themes\monochrome/archive.php:41
+#: wp-content\themes\monochrome/search.php:20
+msgid "By "
+msgstr ""
+
+#: wp-content\themes\monochrome/archive.php:42
+#: wp-content\themes\monochrome/comments.php:117
+#: wp-content\themes\monochrome/index.php:31
+#: wp-content\themes\monochrome/page-nocomment.php:28
+#: wp-content\themes\monochrome/page.php:24
+#: wp-content\themes\monochrome/search.php:21
+#: wp-content\themes\monochrome/single.php:30
+msgid "[ EDIT ]"
+msgstr "[Редагувати]"
+
+#: wp-content\themes\monochrome/archive.php:44
+#: wp-content\themes\monochrome/search.php:23
+msgid "[ READ MORE ]"
+msgstr "[Читати б?льше]"
+
+#: wp-content\themes\monochrome/archive.php:49
+#: wp-content\themes\monochrome/index.php:39
+#: wp-content\themes\monochrome/page-nocomment-noinfo.php:25
+#: wp-content\themes\monochrome/page-nocomment.php:34
+#: wp-content\themes\monochrome/page-noside-nocomment.php:21
+#: wp-content\themes\monochrome/page-noside.php:21
+#: wp-content\themes\monochrome/page.php:30
+#: wp-content\themes\monochrome/search.php:28
+#: wp-content\themes\monochrome/single.php:36
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Вибачте, але того, що Ви шука?те, тут нема."
+
+#: wp-content\themes\monochrome/archive.php:54
+#: wp-content\themes\monochrome/comments.php:144
+#: wp-content\themes\monochrome/comments.php:210
+#: wp-content\themes\monochrome/index.php:45
+#: wp-content\themes\monochrome/page-nocomment-noinfo.php:31
+#: wp-content\themes\monochrome/page-nocomment.php:40
+#: wp-content\themes\monochrome/search.php:33
+msgid "RETURN TOP"
+msgstr "Повернутися нагору"
+
+#: wp-content\themes\monochrome/comments.php:10
+#: wp-content\themes\monochrome/comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Запис захищено паролем. Введ?ть пароль аби дивитися коментар?."
+
+#: wp-content\themes\monochrome/comments.php:39
+#: wp-content\themes\monochrome/index.php:30
+#: wp-content\themes\monochrome/page.php:23
+#: wp-content\themes\monochrome/single.php:29
+msgid "Write comment"
+msgstr "Коментувати"
+
+#: wp-content\themes\monochrome/comments.php:41
+msgid "Comments RSS"
+msgstr "RSS коментар?в"
+
+#: wp-content\themes\monochrome/comments.php:46
+msgid "Trackback"
+msgstr "Трекбек"
+
+#: wp-content\themes\monochrome/comments.php:47
+#: wp-content\themes\monochrome/comments.php:50
+msgid "Comments"
+msgstr "Коментар?"
+
+#: wp-content\themes\monochrome/comments.php:49
+msgid "Trackback are closed"
+msgstr "Трекбеки закрит?"
+
+#: wp-content\themes\monochrome/comments.php:78
+msgid "No comments yet."
+msgstr "Коментар?в ще нема."
+
+#: wp-content\themes\monochrome/comments.php:105
+msgid "TrackBack URL"
+msgstr "URL трекбеку"
+
+#: wp-content\themes\monochrome/comments.php:120
+msgid "Trackback from : "
+msgstr "Трекбек в?д: "
+
+#: wp-content\themes\monochrome/comments.php:126
+msgid "No trackbacks yet."
+msgstr "Трекбек?в ще нема."
+
+#: wp-content\themes\monochrome/comments.php:141
+msgid "Comment are closed."
+msgstr "Коментування закрите."
+
+#: wp-content\themes\monochrome/comments.php:157
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Ви ма?те <a href=\"%s\">ув?йти</a> аби коментувати."
+
+#: wp-content\themes\monochrome/comments.php:176
+#: wp-content\themes\monochrome/comments.php:178
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "Ув?йшов як <a href=\"%1$s\">%2$s</a>."
+
+#: wp-content\themes\monochrome/comments.php:176
+#: wp-content\themes\monochrome/comments.php:178
+msgid "Log out of this account"
+msgstr "Вийти з цього акаунта"
+
+#: wp-content\themes\monochrome/comments.php:176
+msgid "[ Log out ]"
+msgstr "[Вийти]"
+
+#: wp-content\themes\monochrome/comments.php:178
+msgid "Log out"
+msgstr "Вийти"
+
+#: wp-content\themes\monochrome/comments.php:183
+msgid "NAME"
+msgstr "?м’я"
+
+#: wp-content\themes\monochrome/comments.php:183
+#: wp-content\themes\monochrome/comments.php:184
+msgid "( required )"
+msgstr "(необх?дно)"
+
+#: wp-content\themes\monochrome/comments.php:184
+msgid "E-MAIL"
+msgstr "Електропошта"
+
+#: wp-content\themes\monochrome/comments.php:184
+msgid "- will not be published -"
+msgstr "-не буде опубл?ковано-"
+
+#: wp-content\themes\monochrome/comments.php:185
+msgid "URL"
+msgstr ""
+
+#: wp-content\themes\monochrome/comments.php:194
+msgid "Submit Comment"
+msgstr "Над?слати коментар"
+
+#: wp-content\themes\monochrome/functions.php:81
+msgid "Theme Options"
+msgstr "Параметри теми"
+
+#: wp-content\themes\monochrome/functions.php:90
+msgid "Monochrome option"
+msgstr "Параметри Monochrome"
+
+#: wp-content\themes\monochrome/functions.php:94
+msgid "Show Information on sidebar."
+msgstr "Показати ?нформац?ю на боков?й панел?."
+
+#: wp-content\themes\monochrome/functions.php:96
+#: wp-content\themes\monochrome/functions.php:110
+#: wp-content\themes\monochrome/functions.php:123
+#: wp-content\themes\monochrome/functions.php:136
+#: wp-content\themes\monochrome/functions.php:142
+#: wp-content\themes\monochrome/functions.php:147
+msgid "Yes"
+msgstr "Так"
+
+#: wp-content\themes\monochrome/functions.php:100
+msgid "Title for Information area (right side)"
+msgstr "Заголовок ?нформац?йно? област? (справа)"
+
+#: wp-content\themes\monochrome/functions.php:104
+msgid "Contents for Information area. ( HTML tag is available. )"
+msgstr "Вм?ст ?нформац?йно? област? (дозволено HTML)."
+
+#: wp-content\themes\monochrome/functions.php:108
+msgid "Show rss feed on sidebar."
+msgstr "Показувати RSS на боков?й панел?."
+
+#: wp-content\themes\monochrome/functions.php:114
+msgid "Position of search area on sidebar."
+msgstr "Позиц?я пошуку на боков?й панел?."
+
+#: wp-content\themes\monochrome/functions.php:116
+msgid "Top"
+msgstr "Верх"
+
+#: wp-content\themes\monochrome/functions.php:117
+msgid "Bottom"
+msgstr "Низ"
+
+#: wp-content\themes\monochrome/functions.php:121
+msgid "Show tag list on sidebar."
+msgstr "Показати список тег?в на боков?й панел?."
+
+#: wp-content\themes\monochrome/functions.php:127
+msgid "Header menu."
+msgstr "Меню заголовка."
+
+#: wp-content\themes\monochrome/functions.php:129
+msgid "Use pages for header menu."
+msgstr "Використовувати стор?нки для меню заголовка."
+
+#: wp-content\themes\monochrome/functions.php:130
+msgid "Use categories for header menu."
+msgstr "Використовувати категор?? для меню заголовка."
+
+#: wp-content\themes\monochrome/functions.php:134
+msgid "Show author name."
+msgstr "Показати ?м’я автора."
+
+#: wp-content\themes\monochrome/functions.php:140
+msgid "Show tag."
+msgstr "Показати тег."
+
+#: wp-content\themes\monochrome/functions.php:146
+msgid "Check if you want to show Return top link.<br />( NOTICE : Return top link does not work on IE6. )"
+msgstr "Показувати посилання нагору. <br />(Прим?тка: не працю? в IE6)"
+
+#: wp-content\themes\monochrome/functions.php:151
+msgid "Save Changes"
+msgstr "Зберегти зм?ни"
+
+#: wp-content\themes\monochrome/functions.php:236
+#: wp-content\themes\monochrome/functions.php:238
+#: wp-content\themes\monochrome/functions.php:241
+msgid "REPLY"
+msgstr "В?дпов?сти"
+
+#: wp-content\themes\monochrome/functions.php:243
+msgid "QUOTE"
+msgstr "Цитувати"
+
+#: wp-content\themes\monochrome/functions.php:244
+msgid "EDIT"
+msgstr "Редагувати"
+
+#: wp-content\themes\monochrome/functions.php:250
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш коментар оч?ку? модерац??."
+
+#: wp-content\themes\monochrome/header.php:12
+msgid " | "
+msgstr ""
+
+#: wp-content\themes\monochrome/header.php:49
+msgid "HOME"
+msgstr "Домашня"
+
+#: wp-content\themes\monochrome/index.php:14
+#: wp-content\themes\monochrome/page-nocomment-noinfo.php:18
+#: wp-content\themes\monochrome/page-nocomment.php:18
+#: wp-content\themes\monochrome/page-noside-nocomment.php:15
+#: wp-content\themes\monochrome/page-noside.php:15
+#: wp-content\themes\monochrome/page.php:13
+#: wp-content\themes\monochrome/single.php:13
+msgid "Read more"
+msgstr "Читати б?льше"
+
+#: wp-content\themes\monochrome/index.php:21
+#: wp-content\themes\monochrome/page-nocomment.php:25
+#: wp-content\themes\monochrome/page.php:20
+#: wp-content\themes\monochrome/single.php:20
+msgid "POSTED BY"
+msgstr "Написано"
+
+#: wp-content\themes\monochrome/index.php:24
+#: wp-content\themes\monochrome/single.php:23
+msgid "CATEGORY"
+msgstr "Категор?я"
+
+#: wp-content\themes\monochrome/index.php:27
+#: wp-content\themes\monochrome/single.php:26
+msgid "TAGS"
+msgstr "Теги"
+
+#: wp-content\themes\monochrome/index.php:30
+msgid "1 comment"
+msgstr "1 коментар"
+
+#: wp-content\themes\monochrome/index.php:30
+#, php-format
+msgid "% comments"
+msgstr "% коментар(?, ?в)"
+
+#: wp-content\themes\monochrome/search.php:10
+msgid "Search results for "
+msgstr "Результати пошуку для "
+
+#: wp-content\themes\monochrome/search.php:10
+msgid " hit"
+msgstr " х?т"
+
+#: wp-content\themes\monochrome/sidebar.php:7
+msgid "Information"
+msgstr "?нформац?я"
+
+#: wp-content\themes\monochrome/sidebar.php:8
+msgid "Change this sentence and title from admin Theme option page."
+msgstr "Зм?н?ть речення ? заголовок ?з стор?нки параметр?в теми."
+
+#: wp-content\themes\monochrome/sidebar.php:12
+msgid "Entries RSS"
+msgstr "Записи RSS"
+
+#: wp-content\themes\monochrome/sidebar.php:12
+msgid "RSS FEED"
+msgstr "Стр?чка RSS"
+
+#: wp-content\themes\monochrome/sidebar.php:22
+#: wp-content\themes\monochrome/sidebar.php:68
+msgid "Search"
+msgstr "Пошук"
+
+#: wp-content\themes\monochrome/sidebar.php:23
+#: wp-content\themes\monochrome/sidebar.php:69
+msgid "Search from this blog."
+msgstr "Шукати з цього блогу."
+
+#: wp-content\themes\monochrome/sidebar.php:28
+#: wp-content\themes\monochrome/sidebar.php:74
+msgid "TAG LIST"
+msgstr "Список тег?в"
+
+#: wp-content\themes\monochrome/sidebar.php:38
+msgid "Recent entry"
+msgstr "Останн? записи"
+
+#: wp-content\themes\monochrome/sidebar.php:48
+msgid "Archive"
+msgstr "Арх?в"
+
+#: wp-content\themes\monochrome/sidebar.php:55
+msgid "Category"
+msgstr "Категор?я"
+
+#: wp-content\themes\monochrome/sidebar.php:65
+msgid "SEARCH"
+msgstr "Пошук"
+

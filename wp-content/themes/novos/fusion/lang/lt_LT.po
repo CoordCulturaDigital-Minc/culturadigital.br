@@ -1,0 +1,580 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress Theme Fusion 2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-05 18:03+0200\n"
+"PO-Revision-Date: 2009-04-27 08:36+0200\n"
+"Last-Translator: Donatas G. <dgvirtual@akl.lt>\n"
+"Language-Team:\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/404.php:6
+msgid "Page not found (404)"
+msgstr "Puslapis nerastas (klaida 404)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:9
+#, php-format
+msgid "Archive for category %s"
+msgstr "Kategorijos „%s“ archyvas"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:11
+#, php-format
+msgid "Posts Tagged %s"
+msgstr "Įrašai, paženklinti „%s“ žyma"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:15
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:17
+#, php-format
+msgid "Archive for %s"
+msgstr "„%s“ archyvas"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:217
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:20
+msgid "F jS, Y"
+msgstr "Y-m-d"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:15
+msgid "F, Y"
+msgstr "F, Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:17
+msgid "Y"
+msgstr "Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:19
+msgid "Author Archive"
+msgstr "Autoriaus archyvas"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:21
+msgid "Blog Archives"
+msgstr "Tinklaraščio archyvai"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:30
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:15
+msgid "Permanent Link:"
+msgstr "Nuolatinė nuoroda:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:20
+#, php-format
+msgid "Posted by %s in %s on %s"
+msgstr "Paskelbė %s kategorijose: %s, %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:33
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:20
+#, php-format
+msgid "Posts by %s"
+msgstr "%s įrašai"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:40
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:17
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:26
+msgid "Read the rest of this entry &raquo;"
+msgstr "Skaityti visą įrašą &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:52
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:38
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:27
+msgid "No Comments"
+msgstr "Komentarų nėra"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:52
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:38
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:27
+msgid "1 Comment"
+msgstr "Vienas komentaras"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:52
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:38
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:27
+msgid "% Comments"
+msgstr "% komentarai(-ų)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:63
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:49
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:34
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Ankstesni įrašai"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:64
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:50
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:49
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:14
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:35
+msgid "Newer Entries &raquo;"
+msgstr "Naujesni įrašai &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:70
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Deja, kategorijoje %s dar nėra įrašų."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:72
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Deja, nėra įrašų šia data."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:75
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Deja, dar nėra autoriaus %s įrašų."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archive.php:77
+msgid "No posts found."
+msgstr "Įrašų nerasta."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archives.php:10
+msgid "Archives by Month:"
+msgstr "Archyvai pagal mėnesius:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/archives.php:14
+msgid "Archives by Subject:"
+msgstr "Archyvai pagal temą:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:16
+msgid "This user hasn't shared any biographical information"
+msgstr "Šis vartotojas nepaskelbė jokios biografinės informacijos"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:21
+msgid "Homepage:"
+msgstr "Namų puslapis:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:22
+msgid "Yahoo Messenger:"
+msgstr "Yahoo messenger:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:23
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:24
+msgid "AIM:"
+msgstr "AIM:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:41
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:31
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:26
+msgid "l, F jS, Y"
+msgstr "l, F jS, Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:27
+msgid "Tags: "
+msgstr "Žymos:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:27
+#, php-format
+msgid "Posted in %s"
+msgstr "Paskelbta kategorijoje %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:27
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/author.php:55
+msgid "No posts found by this author."
+msgstr "Nerasta šio autoriaus įrašų."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:5
+msgid "Enter your password to view comments"
+msgstr "Norėdami peržiūrėti komentarus, įrašykite slaptažodį"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:21
+msgid "Comments"
+msgstr "Komentarai"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:22
+msgid "Trackbacks"
+msgstr "Kitur rašyta"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:41
+msgid "No comments yet."
+msgstr "Dar nėra komentarų."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:62
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+"Norėdami įrašyti komentartą turite būti <a href=\"%s\">prisijungę</a> "
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:69
+msgid "Cancel Reply"
+msgstr "Atšaukti atsakymą"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:75
+#, php-format
+msgid "Logged in as %s."
+msgstr "Prisijungta kaip %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:77
+msgid "Log out of this account"
+msgstr "Išsiregistruoti iš šios paskyros"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:77
+msgid "Logout &raquo;"
+msgstr "Išsiregistruoti &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:81
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Sveiki sugrįžę <strong>%s</strong>."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:81
+msgid "Change &raquo;"
+msgstr "Pakeisti &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:81
+msgid "Close &raquo;"
+msgstr "Užverti &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:86
+msgid "Name"
+msgstr "Vardas"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:86
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:90
+msgid "(required)"
+msgstr "(būtina)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:90
+msgid "E-Mail"
+msgstr "El. paštas"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:90
+msgid "(will not be published)"
+msgstr "(nebus skelbiama)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:94
+msgid "Website"
+msgstr "Svetainė"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:112
+msgid "Submit Comment"
+msgstr "Pateikti komentarą"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:129
+msgid "No trackbacks yet."
+msgstr "Kol kas nėra nuorodų, kad kitur būtų rašyta apie šį įrašą."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/comments.php:142
+msgid "Comments are closed."
+msgstr "Komentuoti negalima."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:21
+#, php-format
+msgid "Fusion theme by %s"
+msgstr "Fusion tema sukurta %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:23
+#, php-format
+msgid "powered by %s"
+msgstr "galios teikia %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:26
+msgid "Entries (RSS)"
+msgstr "Įrašai (RSS)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:26
+msgid "and"
+msgstr "ir"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:26
+msgid "Comments (RSS)"
+msgstr "Komentarai (RSS)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:33
+msgid "Increase/Decrease text size"
+msgstr "Didinti/mažinti tekstą"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/footer.php:34
+msgid "Switch between full and fixed width"
+msgstr "Persijungti tarp fiksuoto ir pilno pločio"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:85
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:93
+msgid "Fusion Theme Options"
+msgstr "Fusion temos parinktys"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:96
+msgid "Meta keywords:"
+msgstr "Meta raktažodžiai"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:97
+msgid "Separate with commas"
+msgstr "Atskirti kableliais"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:102
+msgid "Use custom logo image"
+msgstr "Naudoti savo logotipo ženklą"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:102
+msgid "Upload your logo as \"logo.png\" in the theme directory:"
+msgstr "Įkelkite savo logotipą kaip logo.png failą į temos direktoriją:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:102
+msgid "You should export the logo image with transparency enabled"
+msgstr "Turite eksportuoti logotipo atvaizdą įjungę permatomumą"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:107
+msgid "Disable homepage tab"
+msgstr "Išjungti titulinio puslapio kortelę"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:107
+msgid "Check this if you are using a static page as the homepage"
+msgstr "Pažymėkite šią parinktį jei namų puslapiui naudojate statinį puslapį"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:112
+msgid "Show the categories as header tabs"
+msgstr "Rodyti kategorijas kaip antraštės korteles"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:112
+msgid "(instead of pages)"
+msgstr "(vietoje puslapių)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:117
+msgid "Disable the default category block in the sidebar"
+msgstr "Išjungti numatytąjį kategorijų bloką šoninėje juostoje"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:117
+msgid ""
+"Check if you prefer the widgetized category display or just want to hide the "
+"categories"
+msgstr ""
+"Pažymėkite šią parinktį jei norite, kad kategorijoms būtų naudojamas valdiklis, "
+"arba jei norite apskirtai paslėpti kategorijas"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:122
+msgid "Disable the default search block in the sidebar"
+msgstr "Išjungti numatytąjį paieškos bloką šoninėje juostoje"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:122
+msgid "Check if you don't like the theme-default search look"
+msgstr "Pažymėkite šią parinktį, jei Jums nepatinka numatytasis temos paieškos laukelis"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:127
+msgid "Disable layout controls (Aa/<>)"
+msgstr "Išjungti išdėstymo valdymą (Aa/<>)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:129
+msgid "Default page content width:"
+msgstr "Numatytasis puslapio turinio plotis:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:132
+msgid "Fixed (960 pixels)"
+msgstr "Fiksuotas (960 pikselių)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:136
+msgid "Fluid (95 percent of the visitor's screen width)"
+msgstr "Laisvas (95 % lankytojo ekrano pločio)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:137
+msgid ""
+"Note that if the layout controls are enabled, the visitor's javascript page "
+"width cookie setting will override this option"
+msgstr "" 
+"Atkreipkite dėmesį į tai, kad įjungus išdėstymo valdymą lankytojo javascript puslapis "
+"su slapuku turės pirmenybę šiai parinkčiai"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:141
+msgid "Sidebar position:"
+msgstr "Šoninės juostos pozicija:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:144
+msgid "Right (default)"
+msgstr "Dešinėje (numatytasis)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:148
+msgid "Left"
+msgstr "Kairėje"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:154
+msgid "Disable jQuery and the associated code"
+msgstr "Išjungti jQuery ir susijusį kodą"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:154
+msgid ""
+"This will reduce the page load with ~70 KB, but will also disable some "
+"features and effects (layout controls, rss links inside category menu, "
+"comment tabs, trackbacks).<br />You shouldn't change this unless you have "
+"problems with your host regarding bandwidth"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:157
+msgid "Custom CSS code"
+msgstr "Savadarbis CSS kodas"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:157
+#, php-format
+msgid ""
+"Here you can add or change anything related to design if you have some basic "
+"CSS knowledge. Check %s to see existing styles, which you can redefine here."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:157
+msgid ""
+"Don't modify style.css if you wish to preserve your changes after theme "
+"update! Use this option instead."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:160
+msgid "Save Changes"
+msgstr "Įrašyti pakeitimus"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:217
+#, php-format
+msgid "%s by %s at %s"
+msgstr "%s parašė %s, %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:217
+msgid "H:i"
+msgstr "H:i"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:224
+msgid "Your comment is awaiting moderation."
+msgstr "Komentaras yra sulaikytas moderavimui"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:234
+msgid "Reply"
+msgstr "Atsakyti"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/functions.php:234
+msgid "Quote"
+msgstr "Citata"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:152
+msgid "You are Home"
+msgstr "Esate tituliniame puslapyje"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:152
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:154
+msgid "Home"
+msgstr "Titulinis"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/header.php:154
+msgid "Click for Home"
+msgstr "Spragtelėkite čia norėdami patekti į titulinį"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:31
+#, php-format
+msgid ""
+"This entry was posted on %s and is filed under %s. You can follow any "
+"responses to this entry through %s."
+msgstr ""
+"Įrašas buvo paskelbtas %s ir yra įrašytas %s. Atsakymus į jį galite sekti "
+"per %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:35
+#, php-format
+msgid ""
+"You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel="
+"\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:39
+#, php-format
+msgid ""
+"Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback"
+"\">trackback</a> from your own site."
+msgstr ""
+"Komentuoti šiuo metu neleidžiama, tačiau galite rašyti iš savo svetainės ir tai"
+"bus rodoma kaip <a href=\"%s\" rel=\"trackback\">rašyta kitur</a> tipo komentaras."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:43
+msgid ""
+"You can skip to the end and leave a response. Pinging is currently not "
+"allowed."
+msgstr "Galite peršokti į pabaigą ir palikti atsakymą. Šiuo metu neleidžiama "
+"palikti švyturėlių."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:47
+msgid "Both comments and pings are currently closed."
+msgstr "Šiuo metu neleidžiama nei komentuoti, nei palikti švyturėlių."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:49
+msgid "Edit this entry"
+msgstr "Redaguoti šį įrašą"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/image.php:54
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Deja, nurodytų kriterijų neatitiko nei vienas priedas."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:54
+msgid "Not Found"
+msgstr "Nerasta"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/index.php:55
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Deja, ieškote to, ko čia nėra."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/links.php:10
+msgid "Links:"
+msgstr "Nuorodos:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page-3col.php:20
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page-nosidebar.php:21
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/page.php:16
+msgid "Read the rest of this page &raquo;"
+msgstr "Skaitykite likusią puslapio dalį &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:8
+msgid "Search Results"
+msgstr "Paieškos rezultatai"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/search.php:40
+msgid "No posts found. Try a different search?"
+msgstr "Įrašų nerasta. Bandysite ieškoti ko kito?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/searchform.php:8
+msgid "Search"
+msgstr "Ieškoti"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:20
+#, php-format
+msgid "You are currently browsing the archives for the %s category."
+msgstr "Šiuo metu naršote %s kategorijos karchyvus."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:23
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:26
+#, php-format
+msgid "You are currently browsing the archives for %s"
+msgstr "Šiuo metu naršote %s archyvus"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:29
+#, php-format
+msgid "You are currently browsing the archives for the year %s"
+msgstr "Šiuo metu naršote %s metų archyvus"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:32
+#, php-format
+msgid "You have searched the archives for %s."
+msgstr "Šiuo metu naršote %s archyvus."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:35
+msgid "You are currently browsing the archives."
+msgstr "Šiuo metu naršote archyvus."
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:62
+msgid "Archives"
+msgstr "Archyvai"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/sidebar.php:73
+msgid "Meta"
+msgstr "Meta"
+
+#: c:\wamp\www\wordpress\wp-content\themes\fusion/single.php:59
+msgid "Sorry, no posts matched your criteria."
+msgstr "Nėra jūsų norimų įrašų."

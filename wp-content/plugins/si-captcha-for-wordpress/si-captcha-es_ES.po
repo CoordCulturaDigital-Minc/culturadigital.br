@@ -1,0 +1,225 @@
+# SI CAPTCHA
+# This file is put in the public domain.
+#
+# Plugin URI: http://www.642weather.com/weather/scripts-wordpress-captcha.php
+# Description: A CAPTCHA to protect comment posts and or registrations in WordPress
+# Version: 1.6
+# Author: Mike Challis
+# Author URI: http://www.642weather.com/weather/scripts.php
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.6\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/si-captcha-for-wordpress\n"
+"POT-Creation-Date: 2008-12-14 17:48+0000\n"
+"PO-Revision-Date: 2009-05-03 21:08+0100\n"
+"Last-Translator: LoPsT <lopst.com@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: si-captcha.php:38
+#: si-captcha.php:99
+msgid "SI Captcha Options"
+msgstr "Opciones de SI Captcha"
+
+#: si-captcha.php:62
+msgid "You do not have permissions for managing this option"
+msgstr "No tienes permisos para administrar esta opcion"
+
+#: si-captcha.php:96
+msgid "Options saved."
+msgstr "Opciones salvadas"
+
+#: si-captcha.php:102
+msgid "Your theme must have a"
+msgstr "Tu tema debe tener la etiqueta"
+
+#: si-captcha.php:102
+msgid "tag inside your comments.php form. Most themes do."
+msgstr "dentro del fichero comments.php"
+
+#: si-captcha.php:103
+msgid "The best place to locate the tag is before the comment textarea, you may want to move it if it is below the comment textarea, or the captcha image and captcha code entry might display after the submit button."
+msgstr "El mejor lugar para ubicar la etiqueta es antes del comentario de texto, puede que quiera moverlo si esta por debajo del comentario de texto o la imagen Captcha y el Captcha estan despues del boton de enviar."
+
+#: si-captcha.php:115
+msgid "CAPTCHA on Register Form:"
+msgstr "CAPTCHA en formularios de registro:"
+
+#: si-captcha.php:119
+msgid "Enable CAPTCHA on the register form."
+msgstr "Activar CAPTCHA en los formularios de registro."
+
+#: si-captcha.php:124
+msgid "CAPTCHA on Comment Form:"
+msgstr "CAPTCHA en formularios de comentarios:"
+
+#: si-captcha.php:127
+msgid "Enable CAPTCHA on the comment form."
+msgstr "Activar CAPTCHA en los comentarios."
+
+#: si-captcha.php:130
+msgid "Hide CAPTCHA for"
+msgstr "Esconder CAPTCHA para"
+
+#: si-captcha.php:131
+msgid "registered"
+msgstr "registrados"
+
+#: si-captcha.php:132
+msgid "users who can:"
+msgstr "usuarios que pueden:"
+
+#: si-captcha.php:135
+msgid "CSS class name for CAPTCHA input field on the comment form"
+msgstr "Nombre la clase CSS para el campo INPUT en los comentarios de CAPTCHA"
+
+#: si-captcha.php:136
+msgid "(Enter a CSS class name only if your theme uses one for comment text inputs. Default is blank for none.)"
+msgstr "(Introduzca un nombre de clase CSS solo si el tema usa entradas de texto de comentario. Predeterminado vacío para ninguno.)"
+
+#: si-captcha.php:141
+msgid "Comment Form Rearrange:"
+msgstr "Reordenar formulario de comentario:"
+
+#: si-captcha.php:145
+msgid "Change the display order of the catpcha input field on the comment form. (see note below)."
+msgstr "Cambiar el orden de visualización del Catpcha en la entrada en el formulario de comentarios. (ver nota mas abajo)."
+
+#: si-captcha.php:152
+msgid "Problem:"
+msgstr "Problema:"
+
+#: si-captcha.php:153
+msgid "Sometimes the captcha image and captcha input field are displayed AFTER the submit button on the comment form."
+msgstr "A veces, la imagen Captcha y el campo Captcha se visualizan después en el botón de enviar el formulario de los comentarios."
+
+#: si-captcha.php:154
+msgid "Fix:"
+msgstr "Corrección:"
+
+#: si-captcha.php:155
+msgid "Edit your current theme comments.php file and locate this line:"
+msgstr "Edita tu fichero comments.php de tu tema actual y localiza esta linea:"
+
+#: si-captcha.php:157
+msgid "This tag is exactly where the captcha image and captcha code entry will display on the form, so move the line to BEFORE the comment textarea, uncheck the option box above, and the problem should be fixed."
+msgstr "Esta etiqueta es exactamente donde la imagen Captcha y el código Captcha aparecerán en el formulario, así que mueva a la linea antes del comentario de texto, desactive la casilla de la opción anterior, y el problema debe ser corregido."
+
+#: si-captcha.php:158
+msgid "Alernately you can just check the box above and javascript will attempt to rearrange it for you, but editing the comments.php, moving the tag, and unchecking this box is the best solution."
+msgstr "Alternativamente puede marcar la casilla anterior y javascript intentara reorganizarlo para usted, pero editando comments.php, moviendo la etiqueta, y desmarcando esta casilla es la mejor solución."
+
+#: si-captcha.php:159
+msgid "Why is it better to uncheck this and move the tag? because the XHTML will no longer validate on the comment page if it is checked."
+msgstr "Por que es mejor desmarcar esto y avanzar en la etiqueta? porque el XHTML ya no valida el comentario sobre la pagina, si esta activada."
+
+#: si-captcha.php:162
+msgid "Update Options"
+msgstr "Actualizar Opciones"
+
+#: si-captcha.php:172
+msgid "All registered users"
+msgstr "Todos los usuarios registrados"
+
+#: si-captcha.php:173
+msgid "Edit posts"
+msgstr "Editar Post"
+
+#: si-captcha.php:174
+msgid "Publish Posts"
+msgstr "Publicar Post"
+
+#: si-captcha.php:175
+msgid "Moderate Comments"
+msgstr "Moderar Comentarios"
+
+#: si-captcha.php:176
+msgid "Administer site"
+msgstr "Administrar sitio"
+
+#: si-captcha.php:195
+msgid "ERROR: si-captcha.php plugin says GD image support not detected in PHP!"
+msgstr "ERROR: si-captcha.php no hay soporte para GD en PHP!"
+
+#: si-captcha.php:196
+msgid "Contact your web host and ask them why GD image support is not enabled for PHP."
+msgstr "Póngase en contacto con su host web y pregunte por que la imagen de apoyo GD no esta habilitado para PHP."
+
+#: si-captcha.php:200
+msgid "ERROR: si-captcha.php plugin says imagepng function not detected in PHP!"
+msgstr "ERROR: si-captcha.php plugin dice la función imagepng no se detecta en PHP!"
+
+#: si-captcha.php:201
+msgid "Contact your web host and ask them why imagepng function is not enabled for PHP."
+msgstr "Póngase en contacto con su host web y pregunte por que imagepng función no esta habilitada para PHP."
+
+#: si-captcha.php:205
+msgid "ERROR: si-captcha.php plugin says captcha_library not found."
+msgstr "ERROR: si-captcha.php captcha_library no encontrada."
+
+#: si-captcha.php:240
+#: si-captcha.php:302
+msgid "CAPTCHA Image"
+msgstr "Imagen CAPTCHA"
+
+#: si-captcha.php:241
+#: si-captcha.php:303
+msgid "Audible Version of CAPTCHA"
+msgstr "Versión audible de CAPTCHA"
+
+#: si-captcha.php:242
+#: si-captcha.php:304
+msgid "Audio Version"
+msgstr "Versión de audio"
+
+#: si-captcha.php:244
+#: si-captcha.php:306
+msgid "Refresh Image"
+msgstr "Refrescar imagen"
+
+#: si-captcha.php:246
+#: si-captcha.php:308
+msgid "Reload Image"
+msgstr "Recargar imagen"
+
+#: si-captcha.php:257
+#: si-captcha.php:313
+msgid "CAPTCHA Code (required)"
+msgstr "Código CAPTCHA (requerido)"
+
+#: si-captcha.php:275
+msgid "Submit Comment"
+msgstr "Enviar comentario"
+
+#: si-captcha.php:327
+#: si-captcha.php:341
+#: si-captcha.php:351
+#: si-captcha.php:364
+msgid "ERROR"
+msgstr "ERROR"
+
+#: si-captcha.php:327
+#: si-captcha.php:351
+msgid "Please complete the CAPTCHA."
+msgstr "Por favor complete el CAPTCHA"
+
+#: si-captcha.php:341
+#: si-captcha.php:364
+msgid "That CAPTCHA was incorrect."
+msgstr "Este CAPTCHA es incorrecto."
+
+#: si-captcha.php:399
+msgid "Error: You did not enter a Captcha phrase. Press your browsers back button and try again."
+msgstr "Error. No has introducido ningún CAPTCHA. Vuelve a intentarlo."
+
+#: si-captcha.php:411
+msgid "Error: You entered in the wrong Captcha phrase. Press your browsers back button and try again."
+msgstr "Error. Has introducido un CAPTCHA erróneo. Vuelve a intentarlo."
+

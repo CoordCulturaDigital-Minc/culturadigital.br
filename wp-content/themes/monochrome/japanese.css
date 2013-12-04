@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+body { font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif; }
+
+#logo { float:left; display:inline; margin:18px 0 0 3px; }
+#logo a, #logo a:visited { font-size:26px; }
+#logo h1 { font-size:87%; margin-top:-3px; }
+
+.post_meta { margin:33px 0 0 0; font-size:87%; }
+
+.post_content a.more-link, .post_content a.more-link:visited 
+  { padding:2px 0 2px 45px; }
+
+#headline p { font-weight:normal; }
+
+.page_navi a, .page_navi a:visited, .page_navi a:hover, .page_navi span.current,
+.page_navi span.pages, .page_navi span.extend, .page_navi span.current, .page_navi span.dots
+ { padding:11px 0 8px; margin:0 3px 0 0; line-height:100%; }
+
+#copyright li { padding:3px 0 0 13px; }
+
+/* ----- 右サイド ----- */
+.side_box { font-size:87%; }
+.search_tag { padding:1px 0 2px 24px; }
+#entries_rss { padding:1px 0 2px 18px; }
+
+/* ----- コメント ----- */
+#comment_header li { padding:7px 10px 4px; }
+.comment-name-date { padding:2px 0 0 0; }
+#add_comment a { padding:3px 0 0 20px; }
+#comment_feed a { padding:3px 0 0 20px; }
+.comment-act { background:url(img/arrow2.gif) no-repeat left 5px; }
+
+/* ----- ヘッダーのメニュー -------------------------------------------------------------------------------------------------------------------- */
+#header_menu { float:right; display:inline; margin:20px 0 0 0; height:52px; background:url(img/header_menu_right.gif) no-repeat right top; }
+
+#menu { float:left; background:url(img/header_menu_left.gif) no-repeat left top; font-size:11px; height:52px; margin:0; }
+#menu, #menu ul { line-height:1; margin:0; padding:0; }
+#menu li { position:relative; float:left; display:inline; border-left:1px solid #444; height:46px; margin:2px 0 0 0; z-index:10; }
+#menu ul li { height:auto; border-left:none; padding:0; left:auto; margin:0; font-size:11px; }
+#menu a:link, #menu a:visited { color:#999; display:block; line-height:50px; height:46px; padding:0 30px; position:relative; }
+#menu a:hover { color:#f3193d; text-decoration:none; background:#333; }
+#menu ul { position:absolute; top:48px; left:0; display:none; opacity:0; width:200px; }
+#menu ul ul { margin:0 0 0 189px; top:0; }
+
+#menu ul a:link, #menu ul a:visited,
+ #menu .current_page_item ul a:link, #menu .current_page_item ul a:visited,
+  #menu ul .current_page_item a:link, #menu ul .current_page_item a:visited,
+   #menu ul .current_page_item ul a:link, #menu ul .current_page_item ul a:visited,
+ #menu .current-cat ul a:link, #menu .current-cat ul a:visited,
+  #menu ul .current-cat a:link, #menu ul .current-cat a:visited,
+   #menu ul .current-cat ul a:link, #menu ul .current-cat ul a:visited
+   { color:#999; background:#282828; line-height:140%; height:100%; padding:9px 28px 7px; border:1px solid #444; width: 132px; margin:-1px 0 0 0; }
+#menu ul a:hover, #menu .current_page_item ul a:hover, #menu .current-cat ul a:hover,
+ #menu .first_menu ul a:hover, #menu .last_menu ul a:hover
+   { color:#f3193d; background:#333; }
+
+#menu .current_page_item, #menu .current-cat { background:url(img/stripe2.gif) left top; z-index:9; }
+#menu .current_page_item a:link, #menu .current_page_item a:visited,
+#menu .current-cat a:link, #menu .current-cat a:visited
+  { color:#f3193d; padding-bottom:8px; background:url(img/header_menu_arrow.gif) no-repeat center bottom;}
+#menu ul .current_page_item a:link, #menu ul .current_page_item a:visited,
+#menu ul .current-cat a:link, #menu ul .current-cat a:visited
+  { color:#f3193d; background:#282828 url(img/stripe2.gif) left top; }
+#menu ul .current_page_item ul a:link, #menu ul .current_page_item ul a:visited,
+#menu ul .current-cat ul a:link, #menu ul .current-cat ul a:visited
+  { color:#999; background:#282828; }
+#menu ul .current_page_item ul a:hover, #menu ul .current-cat ul a:hover { color:#f3193d; background:#333; }
+
+#menu .first_menu { border:none; background:none; }
+#menu .first_menu_active { background:url(img/header_menu_first_active.gif) no-repeat left top; }
+#menu .first_menu a:hover { background:url(img/header_menu_first_hover.gif) no-repeat left top; }
+#menu .last_menu { background:none; }
+#menu .last_menu_active { background:url(img/header_menu_last_active.gif) no-repeat right top; }
+#menu .last_menu a:hover { background:url(img/header_menu_last_hover.gif) no-repeat right top; }
+
+#menu ul .parent_menu > a:link, #menu ul .parent_menu > a:visited { background:#282828 url(img/arrow4.gif) no-repeat right 14px; }
+#menu ul .parent_menu > a:hover { background:#333 url(img/arrow4.gif) no-repeat right 14px; }

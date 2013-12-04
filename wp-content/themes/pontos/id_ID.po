@@ -1,0 +1,376 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arthemia Premium\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-11-22 14:25+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Michael Jubel Hutagalung <michaeljubel@gmail.com>\n"
+"Language-Team: Colorlabs Project <sales@colorlabsproject.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Indonesian\n"
+"X-Poedit-Country: INDONESIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wp-content\\themes\\arthemia-premium\n"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/404.php:4
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:9
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:12
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:14
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:16
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:18
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:21
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:79
+#: c:\wamp\www\wp-content\themes\arthemia-premium/author.php:15
+#: c:\wamp\www\wp-content\themes\arthemia-premium/author.php:78
+#: c:\wamp\www\wp-content\themes\arthemia-premium/header.php:178
+#: c:\wamp\www\wp-content\themes\arthemia-premium/page.php:9
+#: c:\wamp\www\wp-content\themes\arthemia-premium/search.php:5
+#: c:\wamp\www\wp-content\themes\arthemia-premium/single.php:9
+#: c:\wamp\www\wp-content\themes\arthemia-premium/unused/headera.php:174
+msgid "Home"
+msgstr "Utama"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/404.php:4
+msgid "Error 404"
+msgstr "Error 404"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/404.php:5
+msgid "Error 404 - Not Found"
+msgstr "Error 404 - Tidak Ditemukan"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/404.php:6
+msgid "Ooops, We cannot find you the page you are looking for. You may try to search our site for another keyword or use the navigational tools in this website."
+msgstr "Maaf, kami tidak dapat menemukan halaman yang Anda cari. Silakan gunakan kata kunci lain atau gunakan navigasi yang tersedia dalam website ini."
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:9
+msgid "Archive by Category"
+msgstr "Arsip Kategori"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:10
+msgid "Articles in "
+msgstr "Artikel dalam kategori"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:12
+msgid "Archive by Tags"
+msgstr "Arsip Kata Kunci"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:12
+msgid "Articles tagged with: "
+msgstr "Artikel dengan kata kunci:"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:14
+msgid "Archive by Day"
+msgstr "Arsip per Hari"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:14
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:16
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:18
+msgid "Article Archive for "
+msgstr "Arsip Artikel untuk"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:16
+msgid "Archive by Month"
+msgstr "Arsip per Bulan"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:18
+msgid "Archive by Year"
+msgstr "Arsip per Tahun"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:18
+msgid "Year"
+msgstr "Tahun"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:21
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:79
+#: c:\wamp\www\wp-content\themes\arthemia-premium/author.php:78
+#: c:\wamp\www\wp-content\themes\arthemia-premium/sidebar.php:153
+msgid "Archive"
+msgstr "Arsip"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:22
+msgid "The Archive"
+msgstr "Arsip Artikel"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:31
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:22
+#: c:\wamp\www\wp-content\themes\arthemia-premium/header.php:226
+#: c:\wamp\www\wp-content\themes\arthemia-premium/header.php:268
+#: c:\wamp\www\wp-content\themes\arthemia-premium/header.php:328
+#: c:\wamp\www\wp-content\themes\arthemia-premium/index.php:44
+#: c:\wamp\www\wp-content\themes\arthemia-premium/index.php:102
+#: c:\wamp\www\wp-content\themes\arthemia-premium/index.php:185
+#: c:\wamp\www\wp-content\themes\arthemia-premium/search.php:19
+#: c:\wamp\www\wp-content\themes\arthemia-premium/single.php:12
+#: c:\wamp\www\wp-content\themes\arthemia-premium/unused/headera.php:222
+#: c:\wamp\www\wp-content\themes\arthemia-premium/unused/headera.php:263
+#: c:\wamp\www\wp-content\themes\arthemia-premium/unused/headera.php:313
+msgid "No Comment"
+msgstr "Belum Ada Komentar"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:31
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:22
+#: c:\wamp\www\wp-content\themes\arthemia-premium/header.php:226
+#: c:\wamp\www\wp-content\themes\arthemia-premium/header.php:268
+#: c:\wamp\www\wp-content\themes\arthemia-premium/header.php:328
+#: c:\wamp\www\wp-content\themes\arthemia-premium/index.php:44
+#: c:\wamp\www\wp-content\themes\arthemia-premium/index.php:102
+#: c:\wamp\www\wp-content\themes\arthemia-premium/index.php:185
+#: c:\wamp\www\wp-content\themes\arthemia-premium/search.php:19
+#: c:\wamp\www\wp-content\themes\arthemia-premium/single.php:12
+#: c:\wamp\www\wp-content\themes\arthemia-premium/unused/headera.php:222
+#: c:\wamp\www\wp-content\themes\arthemia-premium/unused/headera.php:263
+#: c:\wamp\www\wp-content\themes\arthemia-premium/unused/headera.php:313
+msgid "One Comment"
+msgstr "Satu Komentar"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:31
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:22
+#: c:\wamp\www\wp-content\themes\arthemia-premium/header.php:226
+#: c:\wamp\www\wp-content\themes\arthemia-premium/header.php:268
+#: c:\wamp\www\wp-content\themes\arthemia-premium/header.php:328
+#: c:\wamp\www\wp-content\themes\arthemia-premium/index.php:44
+#: c:\wamp\www\wp-content\themes\arthemia-premium/index.php:102
+#: c:\wamp\www\wp-content\themes\arthemia-premium/index.php:185
+#: c:\wamp\www\wp-content\themes\arthemia-premium/search.php:19
+#: c:\wamp\www\wp-content\themes\arthemia-premium/single.php:12
+#: c:\wamp\www\wp-content\themes\arthemia-premium/unused/headera.php:222
+#: c:\wamp\www\wp-content\themes\arthemia-premium/unused/headera.php:263
+#: c:\wamp\www\wp-content\themes\arthemia-premium/unused/headera.php:313
+msgid "% Comments"
+msgstr "% Komentar"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:80
+#: c:\wamp\www\wp-content\themes\arthemia-premium/author.php:79
+msgid "Not Found"
+msgstr "Tidak Ditemukan"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/archive.php:82
+#: c:\wamp\www\wp-content\themes\arthemia-premium/author.php:81
+#: c:\wamp\www\wp-content\themes\arthemia-premium/search.php:70
+msgid "No posts found. Try a different search?"
+msgstr "Artikel tidak ditemukan. Coba kata kunci lain?"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/author.php:15
+msgid "Archive by Author"
+msgstr "Arsip per Penulis"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/author.php:16
+msgid "Articles by"
+msgstr "Artikel oleh"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Artikel ini diproteksi password. Silakan masukkan password untuk melihat komentar."
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:22
+msgid "Leave a comment"
+msgstr "Tinggalkan komentar"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:36
+msgid "said:"
+msgstr "berkata:"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:43
+msgid "Your comment is awaiting moderation."
+msgstr "Komentar Anda sedang menunggu moderasi."
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:50
+msgid "at"
+msgstr "pada"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:65
+msgid "Comments are closed."
+msgstr "Komentar ditutup."
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:74
+msgid "Leave a comment!"
+msgstr "Tinggalkan komentar!"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:77
+msgid "You must be"
+msgstr "Anda harus"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:77
+msgid "logged in"
+msgstr "log in"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:77
+msgid "to post a comment."
+msgstr "untuk meninggalkan komentar."
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:84
+msgid "Logged in as"
+msgstr "Selamat datang,"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:84
+msgid "Log out of this account"
+msgstr "Log out dari akun ini"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:84
+msgid "Logout"
+msgstr "Log out"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:88
+msgid "Add your comment below, or"
+msgstr "Tuliskan komentar Anda atau"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:88
+msgid "trackback"
+msgstr "berikan trackback"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:88
+msgid "from your own site"
+msgstr "dari website Anda"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:88
+msgid "You can also"
+msgstr "Anda juga dapat"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:88
+msgid "subscribe to these comments"
+msgstr "berlangganan komentar artikel ini"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:88
+msgid "via RSS."
+msgstr "melalui RSS."
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:90
+msgid "Be nice. Keep it clean. Stay on topic. No spam."
+msgstr "Tetap pada topic. Jangan lakukan spamming."
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:93
+msgid "Name"
+msgstr "Nama"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:93
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:96
+msgid "(required)"
+msgstr "(wajib diisi)"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:96
+msgid "Mail"
+msgstr "E-mail"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:96
+msgid "(will not be published)"
+msgstr "(tidak akan dipublikasikan)"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:99
+msgid "Website"
+msgstr "Website"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:99
+msgid "(optional)"
+msgstr "(opsional)"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:104
+msgid "You can use these tags:"
+msgstr "Anda dapat menggunakan tag HTML ini:"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:105
+msgid "This is a Gravatar-enabled weblog. To get your own globally-recognized-avatar, please register at"
+msgstr "Website ini menggunakan Gravatar. Untuk mendapatkan avatar pribadi Anda, silakan register dan upload avatar Anda di"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/comments.php:107
+msgid "Submit Comment"
+msgstr "Tinggalkan komentar"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/footer.php:15
+msgid "Random Posts"
+msgstr "Artikel Acak"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/footer.php:59
+msgid "(refresh random posts)"
+msgstr "(refresh artikel acak)"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/footer.php:69
+msgid "Latest Video Post"
+msgstr "Artikel Video Terbaru"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/footer.php:124
+msgid "Most Commented"
+msgstr "Diskusi Hangat"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/footer.php:143
+msgid "Most Popular"
+msgstr "Artikel Populer"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/footer.php:152
+msgid "Powered by"
+msgstr "Dibangun dengan"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/footer.php:152
+msgid "Entries (RSS)"
+msgstr "Artikel (RSS)"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/footer.php:152
+msgid "Comments (RSS)"
+msgstr "Komentar (RSS)"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/footer.php:152
+msgid "by"
+msgstr "oleh"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/header.php:228
+#: c:\wamp\www\wp-content\themes\arthemia-premium/header.php:330
+#: c:\wamp\www\wp-content\themes\arthemia-premium/index.php:61
+msgid "Read the full story &raquo;"
+msgstr "Baca keseluruhan artikel &raquo;"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/page.php:14
+msgid "<p>Read the rest of this page &raquo;</p>"
+msgstr "<p>Baca keseluruhan halaman &raquo;</p>"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/page.php:16
+#: c:\wamp\www\wp-content\themes\arthemia-premium/single.php:75
+msgid "<p><strong>Pages:</strong>"
+msgstr "<p><strong>Halaman:</strong>"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/search.php:5
+msgid "Search"
+msgstr "Cari"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/search.php:7
+msgid "Search Results"
+msgstr "Hasil Pencarian"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/search.php:9
+msgid "You have just searched for"
+msgstr "Anda telah melakukan pencarian untuk kata kunci"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/search.php:9
+msgid "Here are the results:"
+msgstr "Berikut ini adalah hasilnya:"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/sidebar.php:98
+msgid "More articles &raquo;"
+msgstr "Arsip selengkapnya &raquo;"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/sidebar.php:163
+msgid "Blogroll"
+msgstr "Link"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/sidebar.php:179
+msgid "Tag Cloud"
+msgstr "Topik Populer"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/single.php:12
+msgid "Submitted by"
+msgstr "Artikel dikirim oleh"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/single.php:12
+msgid "on"
+msgstr "pada"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/single.php:73
+msgid "Read the rest of this entry &raquo;"
+msgstr "Baca keseluruhan artikel &raquo;"
+
+#: c:\wamp\www\wp-content\themes\arthemia-premium/single.php:118
+msgid "Sorry, no posts matched your criteria."
+msgstr "Maaf, tidak ada artikel yang sesuai dengan kriteria Anda."
+

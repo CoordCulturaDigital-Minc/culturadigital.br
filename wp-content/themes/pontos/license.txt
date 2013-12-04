@@ -1,0 +1,32 @@
+©Copyright 2008, Michael Jubel Hutagalung, use only as authorized
+
+-----------------------------------
+Please read this license carefully before using Arthemia Premium.
+By using this theme, you are bound to the terms of this license.
+-----------------------------------
+
+
+-----------------------------------
+1-Site License
+-----------------------------------
+This license provides the non-transferable right to use Arthemia Premium on one (1) website. 
+The product may be used by the licensee in any personal or commercial projects. They may not be resold or redistributed.
+You may not copy enclosed Arthemia Premium documentation or distribute it to other parties. You may customize Arthemia Premium for your own project. 
+You must keep the "Arthemia Premium" credit in the footer.
+
+
+-----------------------------------
+5-Site License
+-----------------------------------
+This license provides the non-transferable right to use Arthemia Premium on five (5) websites. 
+The product may be used by the licensee in any personal or commercial projects. They may not be resold or redistributed.
+You may not copy enclosed Arthemia Premium documentation or distribute it to other parties. You may customize Arthemia Premium for your own project. 
+You must keep the "Arthemia Premium" credit in the footer.
+
+
+-----------------------------------
+Developer's Pack
+-----------------------------------
+Under this license, the theme may be applied to unlimited websites for the developer's purposes.
+It cannot be freely redestributed to the public or re-sold verbatim as Arthemia Premium. 
+It may be modified for your own projects. The "Arthemia Premium" credit may be removed from the footer.

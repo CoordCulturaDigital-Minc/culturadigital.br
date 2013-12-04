@@ -1,0 +1,111 @@
+# Polish translation for Invisible Defender plugin.
+# Copyright (C) 2009 Daniel Frużyński
+# This file is distributed under the same license as the Invisible Defender package.
+# Daniel Frużyński <daniel [A-T] poradnik-webmastera.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Invisible Defender\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/invisible-defender\n"
+"POT-Creation-Date: 2009-08-26 16:57+0000\n"
+"PO-Revision-Date: 2010-02-24 00:05+0530\n"
+"Last-Translator: Ashish <ashish@outshinesolutions.com>\n"
+"Language-Team: Outshine Solutions <ashish@outshinesolutions.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hindi\n"
+"X-Poedit-Country: INDIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: invisible-defender.php:81
+msgid "Please leave these two fields as-is:"
+msgstr "है, कृपया इन दो क्षेत्रों के रूप में जाना-:"
+
+#: invisible-defender.php:87
+#, php-format
+msgid "Protected by %s."
+msgstr "%s द्वारा संरक्षित"
+
+#: invisible-defender.php:96
+#, php-format
+msgid "Showed <strong>403</strong> to <strong>%s</strong> bad guys."
+msgstr "दिखाया <strong> 403 </ strong> के लिए <strong>% s </ strong> बुरे लड़कों से."
+
+#: invisible-defender.php:163
+#, php-format
+msgid "<strong>Invisible Defender</strong> showed <strong>403</strong> to <strong>%1$s</strong> bad guys (<strong>%2$s</strong> was blacklisted, <strong>%3$s</strong> on register form, <strong>%4$s</strong> on login form, <strong>%5$s</strong> on comments form)."
+msgstr "<strong> अदृश्य </strong> के डिफेंडर दिखाया <strong> 403 </strong> को <strong>%1$s </strong> बुरे लोग (<strong>%2$s </ strong> काली सूची में डाला था, <strong> %3$s</strong> पंजीकरण फार्म पर, <strong>%4$s </strong> लॉगिन फार्म पर मजबूत, <strong>%5$s </strong> टिप्पणी फार्म पर)."
+
+#: invisible-defender.php:182
+msgid "Configuration has been saved."
+msgstr "विन्यास बचा लिया गया है."
+
+#: invisible-defender.php:188
+msgid "Invisible Defender - Options"
+msgstr "अदृश्य के डिफेंडर - विकल्प"
+
+#: invisible-defender.php:194
+msgid "Forms protection:"
+msgstr "रूपों सुरक्षा:"
+
+#: invisible-defender.php:198
+msgid "Protect registration form:"
+msgstr "पंजीकरण फार्म को सुरक्षित रखें:"
+
+#: invisible-defender.php:207
+msgid "Protect login form:"
+msgstr "प्रवेश फार्म को सुरक्षित रखें:"
+
+#: invisible-defender.php:216
+msgid "Protect comments form:"
+msgstr "रक्षा टिप्पणी फार्म:"
+
+#: invisible-defender.php:223
+msgid "Stats and \"Protected by\" link:"
+msgstr "और आँकड़े \"द्वारा संरक्षित \" लिंक:"
+
+#: invisible-defender.php:227
+msgid "Show stats in Dashboard:"
+msgstr "डैशबोर्ड में आँकड़े दिखाएँ:"
+
+#: invisible-defender.php:236
+msgid "Show \"Protected by\" link:"
+msgstr "दिखाएँ \"द्वारा संरक्षित \" लिंक:"
+
+#: invisible-defender.php:239
+msgid "If you think that this plugin is great and want to tell others about it, please check this option. Invisible Defender will show small \"Protected by\" link under your forms. This way you can also credit me for my work."
+msgstr "अगर आपको लगता है कि इस प्लगइन का महान है और इसके बारे में दूसरों को बताना चाहता हूँ, कृपया इस विकल्प की जाँच करें. अदृश्य के डिफेंडर छोटे शो \"इच्छा से संरक्षित \" अपने फार्म के तहत लिंक. इस तरह तुम भी मुझे मेरे काम के लिए जमा कर सकते हैं."
+
+#: invisible-defender.php:245
+msgid "Show number of blocked bots under forms:"
+msgstr "दिखाने के रूप में बंद bots की संख्या:"
+
+#: invisible-defender.php:248
+msgid "Note: this will be shown only when \"Protected by\" link is enabled too."
+msgstr "ध्यान दें: यह दिखाया जाएगा जब \"द्वारा संरक्षित\" लिंक भी सक्षम है."
+
+#: invisible-defender.php:256
+msgid "Save settings"
+msgstr "सेटिंग्स सहेजें"
+
+#. Plugin Name of an extension
+msgid "Invisible Defender"
+msgstr "अदृश्य के डिफेंडर"
+
+#. Plugin URI of an extension
+msgid "http://www.poradnik-webmastera.com/projekty/invisible_defender/"
+msgstr "http://www.poradnik-webmastera.com/projekty/invisible_defender/"
+
+#. Description of an extension
+msgid "This plugin protects your registration, login and comment forms against spambots."
+msgstr "इस प्लगइन का spambots के खिलाफ अपना पंजीकरण, लॉगिन और टिप्पणी फार्म बचाता है."
+
+#. Author of an extension
+msgid "Daniel Fruyski"
+msgstr "डैनियल फ्रुय्सकी"
+
+#. Author URI of an extension
+msgid "http://www.poradnik-webmastera.com/"
+msgstr "http://www.poradnik-webmastera.com/"
+

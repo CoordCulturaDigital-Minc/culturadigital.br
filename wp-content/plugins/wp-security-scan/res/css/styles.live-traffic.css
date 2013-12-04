@@ -1,0 +1,75 @@
+.wsd-clear { float: none; clear: both; height: 0; width: 100%; margin: 0 0; padding: 0 0;}
+.wsdTrafficScan { }
+.wsd-scan-entry { border-bottom: solid 1px #000; }
+.wsd-scan-entry p { margin: 0 0; padding: 0 0;  font-size: 100%; }
+.wsd-scan-entry p .w-entry { color: #21759B; }
+.wsd-scan-entry p .w-ip { color: #d00000; }
+.wsd-scan-entry p .w-ua { color: #808080; }
+.wsd-scan-entry p .w-date { color: #006600; }
+#loaderWrapper {
+    float: right;
+    margin: 0 5px 0 0;
+    padding: 0 0;
+    overflow: hidden; min-height: 1px;
+    height: 20px;
+}
+#loaderWrapper span img { float: left;display:block; margin-top:4px; }
+#loaderWrapper span span { float: left;display:block;padding-top: 0;margin-left:10px;color:#000000; }
+.wsdPluginFieldsetSettingsExpanded { background: #F9F9F9; border: solid 1px #DFDFDF; padding: 0 0; }
+.wsdPluginFieldsetSettingsCollapsed { background: transparent; border: none; border-top: solid 1px #DFDFDF; padding: 0 0; }
+#settingsLegend {
+    background: linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+    border: solid 1px #DFDFDF; padding: 2px 5px; margin-left: 5px; cursor: pointer;
+}
+#settingsContent { padding: 0 0; margin: 2px 0 5px 10px; line-height: normal; }
+#max_number_live_traffic { margin-top: -5px; padding-top: 0; padding-bottom: 0; width: 50px; }
+.btn {
+    -moz-box-sizing: border-box;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    height: 24px;
+    line-height: 23px;
+    margin: 0;
+    padding: 0 10px 1px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.btn-danger {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #da4f49;
+    background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+    background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+    background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+    background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
+    border-color: #bd362f #bd362f #802420;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    *background-color: #bd362f;
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-inverse {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #363636;
+    background-image: -moz-linear-gradient(top, #444444, #222222);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#222222));
+    background-image: -webkit-linear-gradient(top, #444444, #222222);
+    background-image: -o-linear-gradient(top, #444444, #222222);
+    background-image: linear-gradient(to bottom, #444444, #222222);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff222222', GradientType=0);
+    border-color: #222222 #222222 #000000;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    *background-color: #222222;
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+

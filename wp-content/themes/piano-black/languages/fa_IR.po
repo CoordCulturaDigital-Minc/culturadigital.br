@@ -1,0 +1,445 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: piano-black\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-21 11:09+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mono-lab.net <support@mono-lab.net>\n"
+"Language-Team: mono-lab <mail@mono-lab.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: D:\\xampplite\\htdocs\\pianoblack\n"
+"X-Poedit-SearchPath-0: wp-content\\themes\\pianoblack\n"
+
+#: wp-content\themes\pianoblack/archive.php:12
+#, php-format
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr " ????? ???? ? &#8217;%s&#8216;"
+
+#: wp-content\themes\pianoblack/archive.php:15
+#, php-format
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr "????? ?? ?? &#8216;%s&#8217;"
+
+#: wp-content\themes\pianoblack/archive.php:18
+#: wp-content\themes\pianoblack/archive.php:21
+#: wp-content\themes\pianoblack/archive.php:24
+#, php-format
+msgid "Archive for %s"
+msgstr "????? %s"
+
+#: wp-content\themes\pianoblack/archive.php:18
+#: wp-content\themes\pianoblack/archive.php:39
+#: wp-content\themes\pianoblack/comments.php:117
+#: wp-content\themes\pianoblack/functions.php:300
+#: wp-content\themes\pianoblack/index.php:11
+#: wp-content\themes\pianoblack/page-noside.php:15
+#: wp-content\themes\pianoblack/page.php:13
+#: wp-content\themes\pianoblack/search.php:18
+#: wp-content\themes\pianoblack/single.php:13
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: wp-content\themes\pianoblack/archive.php:21
+msgid "F, Y"
+msgstr "F, Y"
+
+#: wp-content\themes\pianoblack/archive.php:24
+msgid "Y"
+msgstr "Y"
+
+#: wp-content\themes\pianoblack/archive.php:27
+msgid "Author Archive"
+msgstr "???? ????? ??? ??? ???????"
+
+#: wp-content\themes\pianoblack/archive.php:30
+msgid "Blog Archives"
+msgstr "????? ?????"
+
+#: wp-content\themes\pianoblack/archive.php:40
+#: wp-content\themes\pianoblack/index.php:12
+#: wp-content\themes\pianoblack/page-noside.php:16
+#: wp-content\themes\pianoblack/page.php:14
+#: wp-content\themes\pianoblack/search.php:20
+#: wp-content\themes\pianoblack/single.php:15
+msgid "By "
+msgstr "????"
+
+#: wp-content\themes\pianoblack/archive.php:41
+#: wp-content\themes\pianoblack/archive.php:56
+#: wp-content\themes\pianoblack/comments.php:51
+#: wp-content\themes\pianoblack/index.php:13
+#: wp-content\themes\pianoblack/index.php:28
+#: wp-content\themes\pianoblack/single.php:16
+msgid "Write comment"
+msgstr "??? ???"
+
+#: wp-content\themes\pianoblack/archive.php:42
+#: wp-content\themes\pianoblack/comments.php:118
+#: wp-content\themes\pianoblack/index.php:14
+#: wp-content\themes\pianoblack/page-noside.php:17
+#: wp-content\themes\pianoblack/page.php:15
+#: wp-content\themes\pianoblack/search.php:21
+#: wp-content\themes\pianoblack/single.php:17
+msgid "[ EDIT ]"
+msgstr "[??????]"
+
+#: wp-content\themes\pianoblack/archive.php:45
+#: wp-content\themes\pianoblack/index.php:17
+#: wp-content\themes\pianoblack/page-noinfo.php:16
+#: wp-content\themes\pianoblack/page-noside-noinfo.php:14
+#: wp-content\themes\pianoblack/page-noside.php:20
+#: wp-content\themes\pianoblack/page.php:18
+#: wp-content\themes\pianoblack/single.php:21
+msgid "Read more"
+msgstr "????? ????"
+
+#: wp-content\themes\pianoblack/archive.php:56
+#: wp-content\themes\pianoblack/index.php:28
+msgid "1 comment"
+msgstr "?? ???"
+
+#: wp-content\themes\pianoblack/archive.php:56
+#: wp-content\themes\pianoblack/index.php:28
+#, php-format
+msgid "% comments"
+msgstr "% ???"
+
+#: wp-content\themes\pianoblack/archive.php:62
+#: wp-content\themes\pianoblack/index.php:40
+#: wp-content\themes\pianoblack/page-noinfo.php:23
+#: wp-content\themes\pianoblack/page-noside-noinfo.php:21
+#: wp-content\themes\pianoblack/page-noside.php:27
+#: wp-content\themes\pianoblack/page.php:25
+#: wp-content\themes\pianoblack/search.php:34
+#: wp-content\themes\pianoblack/single.php:29
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "???????? ???? ???? ??? ??? ???? ???."
+
+#: wp-content\themes\pianoblack/archive.php:68
+#: wp-content\themes\pianoblack/comments.php:145
+#: wp-content\themes\pianoblack/comments.php:211
+#: wp-content\themes\pianoblack/index.php:36
+#: wp-content\themes\pianoblack/search.php:30
+msgid "Return top"
+msgstr "????? ????"
+
+#: wp-content\themes\pianoblack/comments.php:10
+#: wp-content\themes\pianoblack/comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "??? ???? ?? ???? ? ???? ???? ????? ???? ? ???? ??? ?? ???? ????."
+
+#: wp-content\themes\pianoblack/comments.php:37
+msgid "Comments RSS"
+msgstr "??? ?????"
+
+#: wp-content\themes\pianoblack/comments.php:43
+#: wp-content\themes\pianoblack/comments.php:46
+msgid "Comments"
+msgstr "?????"
+
+#: wp-content\themes\pianoblack/comments.php:44
+msgid "Trackback"
+msgstr "??????"
+
+#: wp-content\themes\pianoblack/comments.php:47
+msgid "Trackback are closed."
+msgstr "??????? ?????? ???? ????"
+
+#: wp-content\themes\pianoblack/comments.php:79
+msgid "No comments yet."
+msgstr "???? ???? ????."
+
+#: wp-content\themes\pianoblack/comments.php:106
+msgid "TrackBack URL"
+msgstr "???? ??????"
+
+#: wp-content\themes\pianoblack/comments.php:121
+msgid "Trackback from : "
+msgstr "?????? ??:"
+
+#: wp-content\themes\pianoblack/comments.php:127
+msgid "No trackbacks yet."
+msgstr "??????? ???? ??? ????? ???? ????."
+
+#: wp-content\themes\pianoblack/comments.php:142
+msgid "Comment are closed."
+msgstr "????? ?????? ????."
+
+#: wp-content\themes\pianoblack/comments.php:158
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "???? ??? ???? ???? <a href=\"%s\">???? ??? ?????</a>"
+
+#: wp-content\themes\pianoblack/comments.php:177
+#: wp-content\themes\pianoblack/comments.php:179
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "???? ??? ?? ??? <a href=\"%1$s\">%2$s</a>."
+
+#: wp-content\themes\pianoblack/comments.php:177
+#: wp-content\themes\pianoblack/comments.php:179
+msgid "Log out of this account"
+msgstr "????"
+
+#: wp-content\themes\pianoblack/comments.php:177
+#: wp-content\themes\pianoblack/comments.php:179
+msgid "Log out"
+msgstr "????"
+
+#: wp-content\themes\pianoblack/comments.php:184
+msgid "NAME"
+msgstr "???"
+
+#: wp-content\themes\pianoblack/comments.php:184
+#: wp-content\themes\pianoblack/comments.php:185
+msgid "( required )"
+msgstr "??????"
+
+#: wp-content\themes\pianoblack/comments.php:185
+msgid "E-MAIL"
+msgstr "?? ???"
+
+#: wp-content\themes\pianoblack/comments.php:185
+msgid "- will not be published -"
+msgstr "????? ?????? ??"
+
+#: wp-content\themes\pianoblack/comments.php:186
+msgid "URL"
+msgstr "????"
+
+#: wp-content\themes\pianoblack/comments.php:195
+msgid "Submit Comment"
+msgstr "?????"
+
+#: wp-content\themes\pianoblack/functions.php:105
+msgid "Current Theme Options"
+msgstr "??????? ?????"
+
+#: wp-content\themes\pianoblack/functions.php:114
+msgid "Piano Black Options"
+msgstr "??????? ????? piano black"
+
+#: wp-content\themes\pianoblack/functions.php:118
+msgid "Check if you would like to use image for logo.<br />Replace your original image with pianoblack / img / logo.gif<br />Adjust position in style.css line 54"
+msgstr "??? ???????? ?? ????? ?????? ??????? ?????!<br />????? ???? ?? ???????  pianoblack / img / logo.gif ????. <br /> ?? ?? 54 ???? style.css ???????? ??? ???????? ???? ?? ????? ????."
+
+#: wp-content\themes\pianoblack/functions.php:120
+#: wp-content\themes\pianoblack/functions.php:126
+#: wp-content\themes\pianoblack/functions.php:155
+#: wp-content\themes\pianoblack/functions.php:161
+#: wp-content\themes\pianoblack/functions.php:166
+#: wp-content\themes\pianoblack/functions.php:177
+msgid "Yes"
+msgstr "???"
+
+#: wp-content\themes\pianoblack/functions.php:124
+msgid "Show Information on sidebar."
+msgstr "????? ??????? ?? ???????"
+
+#: wp-content\themes\pianoblack/functions.php:130
+msgid "Information title."
+msgstr "???? ???????"
+
+#: wp-content\themes\pianoblack/functions.php:134
+msgid "Information contents. ( HTML tag is available. )"
+msgstr "??????? ??????? (???????? ?? ?? ??? HTML ??????? ????)"
+
+#: wp-content\themes\pianoblack/functions.php:138
+msgid "Header menu."
+msgstr "???? ???"
+
+#: wp-content\themes\pianoblack/functions.php:140
+msgid "Use pages for header menu."
+msgstr "???? ???? ???? ?? ?? ???? ???"
+
+#: wp-content\themes\pianoblack/functions.php:141
+msgid "Use categories for header menu."
+msgstr "???? ???? ???? ???? ?? ???? ???"
+
+#: wp-content\themes\pianoblack/functions.php:145
+msgid "Exclude Pages<br />(Page ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr "????? (ID) ?????? ?? ???????? ?? ???? ??? ????? ???? ????? ?? ??????? (????? ?? ?? ?? ??????? ?? , ?? ?? ??? ????)"
+
+#: wp-content\themes\pianoblack/functions.php:149
+msgid "Exclude Categories<br />(Category ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr "????? (ID) ???? ???? ???? ?? ???????? ?? ???? ??? ????? ???? ????? ?? ??????? (????? ?? ?? ?? ??????? ?? , ?? ?? ??? ????)"
+
+#: wp-content\themes\pianoblack/functions.php:153
+msgid "Show rss on header."
+msgstr "????? ??? ?? ?? ?? ?? ???"
+
+#: wp-content\themes\pianoblack/functions.php:159
+msgid "Show search on header."
+msgstr "????? ????? ?? ???"
+
+#: wp-content\themes\pianoblack/functions.php:164
+#, fuzzy
+msgid "Use <a href=\"http://www.google.com/cse/\">Google Custom Search</a><br />(If you check this option,don't forget to write your Google Custom Search ID below.)"
+msgstr "??????? ?? Google Custom Search <br />( ?? ???? ?????? ??? ????? ???? ?? ?? Google Custom Search ??? ?? ???? ????)"
+
+#: wp-content\themes\pianoblack/functions.php:168
+msgid "Input your Google Custom Search ID."
+msgstr "?? ?? Google custom search ??? ?? ???? ????."
+
+#: wp-content\themes\pianoblack/functions.php:175
+msgid "Show author."
+msgstr "????? ???????"
+
+#: wp-content\themes\pianoblack/functions.php:181
+msgid "Post meta."
+msgstr "??????? ????"
+
+#: wp-content\themes\pianoblack/functions.php:183
+msgid "Show category."
+msgstr "????? ???? ????"
+
+#: wp-content\themes\pianoblack/functions.php:184
+msgid "Show tag."
+msgstr "????? ??"
+
+#: wp-content\themes\pianoblack/functions.php:188
+msgid "Page navi type."
+msgstr "???? ? ????? ??????? ?????"
+
+#: wp-content\themes\pianoblack/functions.php:190
+msgid "Use Pager."
+msgstr "??????? ?? ??????? ????? ??"
+
+#: wp-content\themes\pianoblack/functions.php:191
+msgid "Use normal style next-previous link."
+msgstr "??????? ?? ??????? ??? ???"
+
+#: wp-content\themes\pianoblack/functions.php:195
+msgid "Check if you want to show Return top link.<br />( NOTICE : Return top link does not work on IE6. )"
+msgstr "?? ????? ?? ???????? ???? ? ?????? ?? ??? ???? ????? ???? ??? ??? ????? ?? ?????? ????.<br />???? ???? ?? ?? ?????? ??????? ???????? 6 ????? ???? ??????!"
+
+#: wp-content\themes\pianoblack/functions.php:196
+msgid "Show Return top link."
+msgstr "????? ???? ?????? ?? ????? ????"
+
+#: wp-content\themes\pianoblack/functions.php:199
+msgid "Save Changes"
+msgstr "????? ???????"
+
+#: wp-content\themes\pianoblack/functions.php:307
+#: wp-content\themes\pianoblack/functions.php:309
+#: wp-content\themes\pianoblack/functions.php:312
+msgid "REPLY"
+msgstr "????"
+
+#: wp-content\themes\pianoblack/functions.php:314
+msgid "QUOTE"
+msgstr "??? ???"
+
+#: wp-content\themes\pianoblack/functions.php:315
+msgid "EDIT"
+msgstr "??????"
+
+#: wp-content\themes\pianoblack/functions.php:321
+msgid "Your comment is awaiting moderation."
+msgstr "??? ??? ?? ?????? ????? ???"
+
+#: wp-content\themes\pianoblack/header.php:13
+msgid " | "
+msgstr " |"
+
+#: wp-content\themes\pianoblack/header.php:44
+msgid "HOME"
+msgstr "????"
+
+#: wp-content\themes\pianoblack/header.php:69
+msgid "Entries RSS"
+msgstr "??? ?? ?? ?? ?????"
+
+#: wp-content\themes\pianoblack/header.php:69
+msgid "RSS FEED"
+msgstr "??? ?? ?? ??"
+
+#: wp-content\themes\pianoblack/header.php:75
+msgid "Google Search"
+msgstr "?????? ????"
+
+#: wp-content\themes\pianoblack/header.php:76
+#: wp-content\themes\pianoblack/header.php:84
+msgid "Search from this blog."
+msgstr "????? ?? ??? ?????"
+
+#: wp-content\themes\pianoblack/header.php:83
+msgid "Search"
+msgstr "?????"
+
+#: wp-content\themes\pianoblack/navigation.php:26
+msgid "&laquo; Previous"
+msgstr "&laquo; ????"
+
+#: wp-content\themes\pianoblack/navigation.php:27
+msgid "Next &raquo;"
+msgstr "???? &raquo;"
+
+#: wp-content\themes\pianoblack/navigation.php:33
+msgid "Newer Entries"
+msgstr "????? ??????"
+
+#: wp-content\themes\pianoblack/navigation.php:34
+msgid "Older Entries"
+msgstr "????? ????? ??"
+
+#: wp-content\themes\pianoblack/search.php:10
+msgid "Search results for "
+msgstr "????? ?????? "
+
+#: wp-content\themes\pianoblack/search.php:10
+msgid " hit"
+msgstr " ?????"
+
+#: wp-content\themes\pianoblack/search.php:19
+#: wp-content\themes\pianoblack/single.php:14
+msgid "Posted in "
+msgstr "????? ??? ?? ????? ? :"
+
+#: wp-content\themes\pianoblack/search.php:23
+msgid "[ READ MORE ]"
+msgstr "[ ????? ? ???? ]"
+
+#: wp-content\themes\pianoblack/sidebar.php:5
+msgid "INFORMATION"
+msgstr "???????"
+
+#: wp-content\themes\pianoblack/sidebar.php:7
+msgid "Change this sentence and title from admin Theme option page."
+msgstr "?? ???? ??????? ????? ?? ??????? ??? ???? ?? ???? ????."
+
+#: wp-content\themes\pianoblack/sidebar.php:14
+msgid "RECENT ENTRY"
+msgstr "????? ????"
+
+#: wp-content\themes\pianoblack/sidebar.php:24
+msgid "CATEGORY"
+msgstr "???? ????"
+
+#: wp-content\themes\pianoblack/sidebar.php:32
+msgid "ARCHIVES"
+msgstr "?????"
+
+#: wp-content\themes\pianoblack/sidebar.php:40
+msgid "LINKS"
+msgstr "???????"
+
+#: wp-content\themes\pianoblack/sidebar.php:72
+msgid "Copyright &copy;&nbsp; "
+msgstr "??? ???? &copy;&nbsp; "
+
+#: wp-content\themes\pianoblack/sidebar.php:81
+msgid "Theme designed by <a href=\"http://www.mono-lab.net/\">mono-lab</a>"
+msgstr "????? ??? ???? <a href=\"http://www.mono-lab.net/\">mono-lab</a>"
+
+#: wp-content\themes\pianoblack/sidebar.php:82
+msgid "Powerd by <a href=\"http://wordpress.org/\">WordPress</a>"
+msgstr "???? ????? ?? <a href=\"http://wordpress.org/\">??????</a>"
+

@@ -1,0 +1,75 @@
+/*
+This file is for RTL(Right To Left) languages like Persian(farsi)
+by Siavash Keshmiri
+*/
+#wrapper{
+	direction:rtl;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+#logo { 
+	float:right;
+	text-align:right;
+	margin:64px 40px 0 0;
+}
+#rss-feed { 
+	font-size:11px;
+	float:left;
+	margin:62px 0 0 10px;
+}
+#search-area {
+	float:left;
+	margin:70px 0 0 47px;
+	font:Tahoma, Geneva, sans-serif;
+}
+#search-area #searchform div{
+		font:Tahoma, Geneva, sans-serif;
+}
+.post {
+	text-align:right;
+}
+.common-navi-wrapper p{
+	text-align:right;
+	padding-bottom:12px;
+	padding-right:20px;
+	
+}
+#right-col{
+	direction:ltr;
+}
+.side-title{
+	direction:rtl;
+	text-align:right;
+}
+.side-box {
+	text-align:right;
+}
+.information-contents{
+	direction:rtl;
+	text-align:right;
+}
+#comment-header-top li { 
+	float:right; 
+}
+#comment-title {
+	padding:2px 15px 0 0 ;
+	text-align:right;
+}
+.comment {
+	padding:15px 20px 3px 20px;
+	text-align:right;
+}
+
+#guest-info div {
+	text-align:right;
+	margin-right:5px;
+}
+#comment-user-login p {
+	text-align:right; 
+	padding:8px 35px 11px 0 ; 
+}
+#email,#url{
+	direction:ltr;
+}
+.button{
+	font-family:Tahoma, Geneva, sans-serif;
+}

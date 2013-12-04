@@ -1,0 +1,65 @@
+
+
+/* RTL - not fully implemented yet ! */
+
+body{
+  text-align:right !important;
+  direction:rtl !important;
+  unicode-bidi: embed !important;
+}
+
+#site-title{left:auto;;right:0;}
+#site-title h1#logo{float:right;}
+#site-title p.headline{float:right;border-right:1px solid #999;margin:0 1em 0 0;padding:.2em .8em .2em .0;border-left:0;}
+
+#header a.rss{right:auto;left:20px;}
+
+ul.navigation li{float:right;}
+ul.navigation ul li a{text-align:right;}
+ul.navigation li li a span.arrow{right:auto;left:6px;}
+ul.navigation ul ul{left:auto;right:250px;}
+
+#featured-content{direction:ltr;}
+#featured-content .details{float:right;}
+#featured-content a.readmore{float:left;}
+
+#primary-content,#sidebar,#sidebar2{direction:ltr;}
+
+.block h3.title{text-align:right;}
+.block-twitter a.followMe{right:auto;left:10px;}
+.block-twitter ul li span.entry{background-position:right -383px;padding-left:0;padding-right:30px;}
+.block-flickr h3.title span{padding-left:0;padding-right:52px;}
+.block-flickr h3.title span.icon{left:auto;right:10px;}
+
+li.comment .controls{right:auto;left:10px;}
+li.comment.withAvatars .controls{left:88px;}
+
+#footer a.rss-subscribe{background-position:right -666px;}
+
+.post .post-tags{background-position:right -104px;padding-left:0;padding-right:24px;}
+
+.block li{background-position:right -816px;padding:0 25px 0 0;}
+.block li:hover{background-position:right -1005px;}
+
+.box ul.menuList li a{padding:3px 0px 3px 25px;}
+.box ul.menuList li a span.entry{background-position:right -816px;padding-right:25px;padding-left:0;}
+.box ul.menuList li a:hover span.entry{background-position:right -1005px;}
+.box ul.menuList.recentcomm li a span.entry,.box ul.menuList.recentcomm li a:hover span.entry{background-position:right -1280px;padding-right:25px;padding-left:0;}
+
+#pageControls{right:auto;left:0;}
+#pageControls a{right:auto;left:10px;}
+#pageControls a.fontSize{right:auto;left:36px;}
+
+
+
+.post-info{direction:rtl;}
+.tabs-wrap{direction:rtl;}
+ul.slides li.slide .slide-content ul.blocks li.block h4.title{text-align:right;}
+h1.title,h2.title,h3.title,h4.title {direction:rtl;}
+h1,h2,h3,h5,#site-title p.headline,.box .tag-cloud a{letter-spacing:0px;}
+.post-date p{direction:rtl;}
+blockquote {direction:rtl;}
+li {direction:rtl;}
+.post .post-content p {direction:rtl;}
+.box-main .box-content{direction:rtl;}
+li.comment.withAvatars .comment-head{direction:rtl;}

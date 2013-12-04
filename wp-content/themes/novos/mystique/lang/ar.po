@@ -1,0 +1,996 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mystique 1.08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-31 19:19+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: digitalnature <hello@digitalnature.ro>\n"
+"Language-Team: digitalnature.ro <hello@digitalnature.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes\\mystique\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/404.php:12
+msgid "The requested page was not found"
+msgstr "الصفحة المطلوبة غير متوفرة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:19
+#, php-format
+msgid "Posts tagged %s"
+msgstr " وسم التدوينة %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:21
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:23
+#, php-format
+msgid "Archive for %s"
+msgstr "ارشيف %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:23
+msgid "F, Y"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:25
+#, php-format
+msgid "Archive for year %s"
+msgstr " الارشيف للسنة %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:25
+msgid "Y"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:27
+msgid "Author archive"
+msgstr "ارشيف المؤلف"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:29
+msgid "Blog Archives"
+msgstr "ارشيف المدونة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:22
+msgid "Permanent Link:"
+msgstr "ارتباط دائم"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:26
+msgid "M jS"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:50
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:30
+#, php-format
+msgid "Posted by %s in %s"
+msgstr "كتبها %s  في%s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:50
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:41
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:30
+#, php-format
+msgid "Posts by %s"
+msgstr "كتب بواسطة %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:53
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:197
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:33
+msgid "Edit"
+msgstr "تحرير"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:60
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:197
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:39
+msgid "No comments"
+msgstr "لا يوجد تعليقات"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:60
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:197
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:39
+msgid "1 comment"
+msgstr "تعليق واحد"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:60
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:197
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:39
+#, php-format
+msgid "% comments"
+msgstr "% تعليق"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:66
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:19
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:45
+msgid "Read the rest of this entry &raquo;"
+msgstr "أكمل قراءة الموضوع &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:79
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:57
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:58
+msgid "&laquo; Older Entries"
+msgstr "&laquo;  الموضوعات السابقة "
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:80
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:58
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:59
+msgid "Newer Entries &raquo;"
+msgstr " الموضوعات التالية  &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:88
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "عفوا لا يوجد اي تدوينة في تصنيف %s لغاية الان."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:90
+msgid "Sorry, but there aren't any posts within this date."
+msgstr "عفوا لا تدوينات بالتاريخ الحالي"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:93
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "عفوا لا يوجد تدوينات بواسطة العضو %s للان."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:95
+msgid "No posts found."
+msgstr "لا موضوعات موجودة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:26
+msgid "This user hasn't shared any biographical information"
+msgstr "هذا المستخدم لم يشارك أي معلومات السيرة الذاتية"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:31
+msgid "Homepage:"
+msgstr "الصفحة الرئيسية"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:32
+msgid "Yahoo Messenger:"
+msgstr "مسنجر الياهو"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:33
+msgid "Jabber/GTalk:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:34
+msgid "AIM:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:197
+msgid "Tags:"
+msgstr "الوسوم:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:197
+#, php-format
+msgid "Posted in %s"
+msgstr "كتبت في %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:64
+msgid "No posts found by this author."
+msgstr "لا يوجد موضوعات لهذا الكاتب"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:3
+msgid "Enter your password to view comments"
+msgstr "ادخل كلمة المرور لمشاهدة التعليقات"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:35
+msgid "Related Posts"
+msgstr "الموضوعات المرتبطة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:36
+#, php-format
+msgid "Trackbacks (%s)"
+msgstr " تعقيب (%s)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:37
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:43
+#, php-format
+msgid "Comments (%s)"
+msgstr "تعليق (%s)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:60
+msgid "No comments yet."
+msgstr "لا تعليقات للان"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:80
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "يجب ان <a href=\"%s\">تسجل الدخول</a> لتتمكن من التعليق."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:91
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:117
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:118
+msgid "Name (required)"
+msgstr "الاسم(مطلوب)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:92
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:121
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:122
+msgid "E-mail (required, will not be published)"
+msgstr "الايميل(مطلوب ولا يظهر )"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:93
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:125
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:126
+msgid "Website"
+msgstr "الموقع(اختياري)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:100
+msgid "Cancel Reply"
+msgstr "الغي الرد"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:107
+#, php-format
+msgid "Logged in as %s."
+msgstr " مسجل باسم %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:109
+msgid "Log out of this account"
+msgstr "اخرج من هذا الحساب"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:109
+msgid "Logout &raquo;"
+msgstr "خروج &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:113
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "مرحبا مرة اخرى <strong>%s</strong>."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:113
+msgid "Change &raquo;"
+msgstr "تغيير  &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:142
+#, php-format
+msgid "Spam protection: Sum of %s + %s = ?"
+msgstr "سؤال الحماية: ما هو مجموع %s + %s = ?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:154
+msgid "Submit Comment"
+msgstr "ارسل التعليق"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:178
+msgid "No trackbacks yet."
+msgstr "لا تعقيبات للان"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:216
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:291
+msgid "Share this post!"
+msgstr "شارك هذا الموضوع"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:334
+#, php-format
+msgid "%s written by %s"
+msgstr "%s كتب بواسطة  %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:344
+msgid "Reply"
+msgstr "رد"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:345
+msgid "Quote"
+msgstr "اقتباس"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:351
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك ينتظر موافقة الادارة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:66
+msgid "RSS Feeds"
+msgstr "تغذية الموقع"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:73
+msgid "You are Home"
+msgstr "انت في الرئيسية"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:73
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:75
+msgid "Home"
+msgstr "الرئيسية"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:75
+msgid "Click for Home"
+msgstr "اضغط للرئيسية"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:139
+msgid "Read more"
+msgstr "اقرا المزيد"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:30
+#, php-format
+msgid "This entry was posted on %s at %s, and is filed under %s. Follow any responses to this post through %s."
+msgstr "هذه التدوينة كتبت بتاريخ %s  الساعة %s, تحت تصنيف %s.تابع التعليقات والتحديثات لها من هنا %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:34
+#, php-format
+msgid "You can <a%s>leave a response</a> or <a%s>trackback</a> from your own site."
+msgstr "تستطيع <a%s>اضافة تعليق</a>  او <a%s>تعقيب</a> من موقعك."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:38
+#, php-format
+msgid "Responses are currently closed, but you can <a%s>trackback</a> from your own site."
+msgstr "التعليقات الان مغلقة لكن يمكنك <a%s>التعقيب</a>من موقعك."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:42
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "تستطيع التوجه لاخر الموضوع لاضافة تعليق التنبيهات الان غير متوفرة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:46
+msgid "Both comments and pings are currently closed."
+msgstr "كلا من التعليقات والتنبيهات مغلقة حاليا"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:48
+msgid "Edit this entry"
+msgstr "تحرير التدوينة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:62
+msgid "Sorry, no attachments matched your criteria."
+msgstr "عفوا لا مرفقات مطابقة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:65
+msgid "No posts found"
+msgstr "لا يوجد موضوعات"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:66
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "عفوا انت تبحث عن شيء غير متوفر هنا"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/page.php:16
+msgid "Read the rest of this page &raquo;"
+msgstr "أكمل قراءة الصفحة &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:15
+#, php-format
+msgid "Search Results for %s"
+msgstr "نتائج البحث عن %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:47
+msgid "Nothing found."
+msgstr "لا يوجد نتائج"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:47
+msgid "Try a different search?"
+msgstr "حاول البحث بصيغة اخرى"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:7
+msgid "Search"
+msgstr "بحث"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar.php:24
+msgid "Blogroll"
+msgstr "الروابط"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar.php:38
+msgid "Meta"
+msgstr "منوعات"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar2.php:8
+msgid "2nd sidebar is active. Add widgets here from the Dashboard"
+msgstr "القائمة الجانبية الثانية مفعلة اضف المربعات من لوحة التحكم"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:203
+msgid "You are not authorised to perform this operation."
+msgstr "انت لا تملك ترخيص لهذه العملية."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:257
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:599
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:600
+msgid "Mystique settings"
+msgstr "اعدادات Mystique "
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:263
+#, php-format
+msgid "Settings saved. %s"
+msgstr "تم حفظ الاعدادات . %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:263
+msgid "View site"
+msgstr "شاهد الموقع"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:270
+msgid "General"
+msgstr "عام"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:271
+msgid "Design/colors"
+msgstr "التصميم/الالوان"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:272
+msgid "Navigation"
+msgstr " القائمة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:273
+msgid "Posts"
+msgstr "التدوينات"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:274
+msgid "SEO"
+msgstr "تحسينات محركات  البحث"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:275
+msgid "Advanced"
+msgstr "متقدم"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:286
+msgid "Layout style"
+msgstr "نظام القالب"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:286
+msgid "Use page templates to apply these only to specific pages"
+msgstr "استخدم قالب الصفحات لتطبيق هذا القالب"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:322
+msgid "Imageless layout"
+msgstr "نظام صور اقل"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:322
+msgid "No background images; reduces page load downto just a few KB, with the cost of less graphic details"
+msgstr "يسرع الصفحة ويقلل زمن تحميلها بسبب تقليل كمية الصور المعروضة في الصفحة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:327
+msgid "Footer content"
+msgstr "محتويات الفوتر"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:327
+msgid "You can post HTML code"
+msgstr "تستطيع اضافة كود هتمل"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:330
+#, fuzzy, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr "استخدم الرموز المختصرة لاجراء التعديلات اللازمة : <br />%s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:342
+msgid "Preferred font style"
+msgstr "تفضيلات انماط الخط"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:342
+msgid "Font priority and their availability"
+msgstr "الخطوط الاولية ومدى تاوفرها"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:354
+msgid "Color scheme"
+msgstr "نظام الالوان"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:358
+msgid "Not available with <em>imageless</em> setting"
+msgstr "غير متوافر مع  <em>نظام الصور الاقل</em> المخصصة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:387
+msgid "Custom logo image"
+msgstr "صورة شعار مخصصة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:387
+msgid "Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr "اظهر صورة شعار بدل الخط : حمل الصورة من الجهاز"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:392
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:403
+msgid "Remove current image"
+msgstr "احذف الصورة الحالية"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:398
+msgid "Custom background image"
+msgstr "صورة خلفية مخصصة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:398
+msgid "Upload a new background/header image to replace the default one"
+msgstr "ارفع صورة خلفية او لوجو جديد لاستبداله بالافتراضي"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:409
+#, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr "مجلد  %s لايملك تصريح كتابة لا يمكن اذا الرفع!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:409
+msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
+msgstr "افحص مسار رفع الملفات وخصائصه وتاكد من اعطائه تصريح o 755/777.<br /> في حال لم تفلح الحلول تواصل مع مستضيفك"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:416
+msgid "Background color"
+msgstr "لون الخلفية"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:416
+msgid "Leave Black (#000000) to keep the default background"
+msgstr "اتركه فارغ (#000000)  لتحتفظ بالخلفية الافتراضية"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:431
+msgid "Top navigation shows"
+msgstr "القائمة العلوية الظاهر"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:434
+msgid "Pages"
+msgstr "الصفحات"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:435
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:39
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:217
+msgid "Categories"
+msgstr "التصنيفات"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:436
+msgid "Links"
+msgstr "الروابط"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:444
+msgid "from category"
+msgstr "قائمة التصنيف"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:457
+msgid "No links found"
+msgstr "لا يوجد روابط"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:466
+msgid "Exclude from navigation"
+msgstr "استثني من القائمة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:466
+msgid "Type page, category or link IDs (depending on your selection above), separated by commas"
+msgstr "نوع الصفحة ، أو تصنيفات او  معرفات الارتباط (اعتمادا على اختيارك أعلاه) ، مفصولة بفواصل"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:479
+msgid "Post previews"
+msgstr "معاينة التدوينة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:479
+msgid "The way posts are displayed on blog homepage and archive pages"
+msgstr "طريقة عرض التدوينات تظهر في الرئيسية وصفحات الارشيف"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:482
+msgid "Full"
+msgstr "كامل"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:483
+msgid "Excerpts"
+msgstr "المختصر"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:484
+msgid "Titles only"
+msgstr "العنوان فقط"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:490
+msgid "Enable \"Share This Post\" feature"
+msgstr "تفعيل \"شارك هذه التدوينة\" خاصية"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:490
+msgid "Uncheck this if you're using a social bookmaring plugin"
+msgstr "ازل هذا الاختيار في حال كنت تستخدم اضافة للمفضلات الاجتماعية"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:495
+msgid "Featured content source"
+msgstr "مصدر المحتوى المميز"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:495
+msgid "The last 5 posts from this category will be shown in the featured content area (in random order)"
+msgstr "اظهار اخر 5 تدوينات من هذا التصنيف في المحتوى المميز ( تظهر بترتيب عشوائي)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:500
+msgid "- All categories"
+msgstr "كل التصنيفات"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:510
+msgid "Display featured posts on blog/home page"
+msgstr "اظهر المحتوى المميز في الرئيسية للمدونة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:510
+msgid "Use the \"Page with Featured Content\" template if you want it on specific pages"
+msgstr "استخدم قالب \"الصفحات مع المحتوى المميز\"اذا اردته في صفحة محددة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:520
+msgid "Additional site optimization for search engines"
+msgstr "حسن الموقع ليتوائم بشكل اكبر مع محركات البحث"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:520
+msgid "Uncheck if you are using a SEO plugin!"
+msgstr "ازل التحديد في حال كنت تستخدم اضافة خاصة لل SEO"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:527
+msgid "What does this do?"
+msgstr "ماذا يفعل ذلك ؟"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:529
+msgid "enables canonical URLs for comments (duplicate content fix)"
+msgstr "فعل العناوين النظيفة للتعليقات (لازالة المكرر)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:530
+msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
+msgstr "استخدام عناوين فريدة في التديونات ذات صفحات التعليقات الكثيرة (لعدم تكرار العنوان في كل صفحة تعليقات)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:531
+msgid "activates meta description field (tag line is used for homepage and post/page summary for others)"
+msgstr "فعل حقل وصف الموضوع (يستعمل لاظهار وصف مختصر للتدوينات والصفحات))"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:532
+#, php-format
+msgid "no keywords are generated because they are <a %s>useless</a>"
+msgstr "لم يتمكن من انشاء وسوم بسبب  <a %s> عدم الاستخدام </a>"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:543
+msgid "Use jQuery"
+msgstr "استخدم jQuery"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:543
+msgid "For testing purposes only. Only uncheck if you know what you're doing!"
+msgstr "لاغراض الاختبار فقط. فقط ازل هذا التحديد في حال كنت تعلم ماذا تفعل!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:548
+msgid "Enable theme built-in lightbox on all image links"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:548
+msgid "Uncheck if you prefer a lightbox plugin"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:553
+msgid "Modify anything related to design using CSS code"
+msgstr "عدل اي شيء يتعلق بالتصميم باستخدام اكواد CSS"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:553
+#, php-format
+msgid "Check %s to see existing theme classes and properties"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:553
+msgid "Avoid modifying theme files directly; use this option instead to preserve your changes after update"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:558
+msgid "Hide home button"
+msgstr "اخفي زر الرئيسية"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:559
+msgid "Set a fluid page width"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:560
+msgid "Decrease site title text size"
+msgstr "زد حجم خط عنوان الموقع"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:561
+msgid "Hide post information bar"
+msgstr "اخفي شريط معلومات التدوينة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:562
+msgid "Change footer background color to light gray"
+msgstr "غير خلفية الفوتر الى خلفية داكنة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:563
+msgid "Dark background footer"
+msgstr "خلفية فوتر سوداء"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:564
+msgid "50/50 columns (on 2 column layout)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:565
+msgid "Remove styling from tables"
+msgstr "اخذف التخصيصات من الحقول"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:571
+msgid "Remove Mystique settings from the database after theme switch"
+msgstr "احذف الاعدادات الخاصة للقالب من القاعدة عند استبداله"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:571
+msgid "Uncheck this if you plan to keep Mystique as your default theme!"
+msgstr "ازل التحديد من هنا في حال رغبتك باستعمال القالب كقالب افتراضي"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:584
+msgid "Save Changes"
+msgstr "احفظ التغييرات"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:45
+msgid "Share on Twitter!"
+msgstr "شاركه في تويتر!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:52
+msgid "Top"
+msgstr "الاعلى"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:64
+#, php-format
+msgid "Mystique theme by %s | Powered by %s"
+msgstr "مصمم بواسطة %s | تعريب : <a href=\"http://www.anas-b.com\">مدونة انس</a> .  |  مدار بواسطة %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:71
+msgid "Copyright &copy;"
+msgstr " الحقوق &copy;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:89
+msgid "Site Admin"
+msgstr "لوحة تحكم الموقع"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:93
+msgid "Log in"
+msgstr "دخول"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:9
+msgid "Displays links to different sections grouped in tabs"
+msgstr "اعرض الروابط في قسمين مختلفين من صندوق التبويبات"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:11
+msgid "Mystique | Sidebar tabs"
+msgstr "Mystique | تبويبات القائمة الجانبية"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:233
+msgid "Recent comments"
+msgstr "اخر التعليقات"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:36
+msgid "Popular posts"
+msgstr "التدوينات الاكثر شعبية"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:37
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:225
+msgid "Archives"
+msgstr "الارشيف"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:38
+msgid "Tags"
+msgstr "الوسوم"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:133
+msgid "Didn't find any posts popular enough :("
+msgstr "لم نجد اي تدوينات لها شعبية كافية"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:175
+msgid "Sidebar tabs"
+msgstr "تبويبات الشريط الجانبي"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:176
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:318
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:413
+msgid "jQuery is disabled and this widget needs it"
+msgstr "jQuery  معطل وهه الاضافة تحتاج الى تفعيلها"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:213
+msgid "Tabs to show"
+msgstr "التبويبات للاظهار"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:221
+msgid "Tags "
+msgstr "الوسوم"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:229
+msgid "Popular posts (most commented)"
+msgstr "اشهر التدوينات ( الاكثر تعليقا )"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:239
+msgid "Sort categories"
+msgstr "ترتيب التصنيفات"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:241
+msgid "by name (alphabetically)"
+msgstr "بواسطة الاسم(ابجدي)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:242
+msgid "by category ID"
+msgstr "بواسطة معرف التصنيف"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:243
+msgid "by category slug"
+msgstr "بواسطة فئة التصنيف"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:244
+msgid "by post count"
+msgstr "الاكثر عددا"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:249
+msgid "Show post count (categories and archives)"
+msgstr "اظهر عدد التدوينات(التصنيفات والارشيف)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:255
+msgid "How many popular posts to show?"
+msgstr "كم عدد التدوينات الاكثر شعبية للاظهار"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:262
+msgid "How many recent comments to show?"
+msgstr "عدد اخر الردود لاظهارها"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:278
+msgid "Shows your latest Twitter updates"
+msgstr "شاهد اخر تحديثات تويتر"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:279
+msgid "Mystique | Twitter"
+msgstr "Mystique  | تويتر"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:300
+msgid "Loading tweets..."
+msgstr "يحمل التويتات..."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:305
+msgid "followers"
+msgstr "المتتبعين"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:315
+msgid "Follow me on Twitter!"
+msgstr "اتبعني على تويتر!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:334
+msgid "My latest tweets"
+msgstr "اخر تويتات"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:341
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:447
+msgid "Title:"
+msgstr "العنوان"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:346
+msgid "Twitter user name:"
+msgstr "اسم مستخدم تويتر:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:351
+msgid "Number of twitts to show:"
+msgstr "عدد التويتات للاظهار :"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:365
+msgid "Displays Flickr galleries (needs API key)"
+msgstr "اعرض مكتبة فليطر ( يلزم رقم API )"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:367
+msgid "Mystique | Flickr Gallery"
+msgstr "Mystique  | فليكر"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:438
+msgid "Flickr Gallery"
+msgstr "مكتبة فليكر"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:452
+msgid "API key:"
+msgstr "مفتاح API :"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:457
+msgid "Number of photos to show:"
+msgstr "عدد الصور لاظهارها"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:462
+msgid "Gallery source:"
+msgstr "مصدر المكتبة"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:464
+msgid "Photoset"
+msgstr "مكتبة الصور"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:465
+msgid "User photostream"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:470
+msgid "Photoset ID:"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:475
+#, php-format
+msgid "User ID (use %s to find it):"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:490
+msgid "Login form"
+msgstr "فورم الدخول"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:491
+msgid "Mystique | Login"
+msgstr "Mystique | تسجيل الدخول"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:509
+#, php-format
+msgid "Logged in: %s"
+msgstr "مسجل باسم : %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:512
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:514
+msgid "Write"
+msgstr "اكتب"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:515
+msgid "Comments"
+msgstr "التعليقات"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:517
+msgid "Log out"
+msgstr "تسجل خروج"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:521
+msgid "User Login"
+msgstr "دخول المستخدم"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:525
+msgid "User"
+msgstr "المستخدم"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:526
+msgid "Password"
+msgstr "الباسوورد"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:527
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:528
+msgid "Remember me"
+msgstr "تذكرني"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:533
+msgid "Register"
+msgstr "تشغيل"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:534
+msgid "Lost your password?"
+msgstr "فقدت كلمة المرور"
+
+#~ msgid "Sorry, no posts matched your criteria."
+#~ msgstr "عفوا لا تدوينات مطابقة"
+#~ msgid "&laquo; Previous Page"
+#~ msgstr "&laquo;الصفحات السابقة"
+#~ msgid "Next Page &raquo;"
+#~ msgstr "الصفحة التالية &raquo;"
+#~ msgid "No Comments"
+#~ msgstr "لا يوجد تعليقات"
+#~ msgid "1 Comment"
+#~ msgstr "تعليق واحد"
+#~ msgid "% Comments"
+#~ msgstr "% تعليق"
+#~ msgid "Trackbacks"
+#~ msgstr "التعقيبات"
+#~ msgid "No related posts found."
+#~ msgstr "لا يوجد موضوعات مرتبطة"
+#~ msgid "First page"
+#~ msgstr "الصفحة الاولى"
+#~ msgid "Last page (%s)"
+#~ msgstr "الصفحة الاخيرة (%s)"
+#~ msgid ""
+#~ "This entry was posted on %s and is filed under %s. You can follow any "
+#~ "responses to this entry through %s."
+#~ msgstr ""
+#~ "هذه التدوينة كتبت بتاريخ %s تحت تصنيف %s. تستطيع تتبع تحديثاتها من خلال %"
+#~ "s."
+#~ msgid ""
+#~ "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel="
+#~ "\"trackback\">trackback</a> from your own site."
+#~ msgstr ""
+#~ "تستطيع <a href=\"#respond\">اضافة تعليق</a>,  او <a href=\"%s\" rel="
+#~ "\"trackback\">تعقيب</a> من موقعك."
+#~ msgid ""
+#~ "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback"
+#~ "\">trackback</a> from your own site."
+#~ msgstr ""
+#~ "الردود مغلقة الان تستطيع <a href=\"%s\" rel=\"trackback\">ترك تعقيب</a> "
+#~ "من موقعك."
+#~ msgid "Background &amp; logo"
+#~ msgstr "الخلفية &amp;  صورة "
+#~ msgid "Lime Green"
+#~ msgstr "اخضر جيري"
+#~ msgid "Ocean Blue"
+#~ msgstr "ازرق سماوي"
+#~ msgid "Red/Wine"
+#~ msgstr "احمر خمري"
+#~ msgid ""
+#~ "Use the follwing short codes for convenient adjustments:<br/><code>[rss]</"
+#~ "code> <code>[copyright]</code> <code>[credit]</code> <code>[wp-link]</"
+#~ "code> <code>[theme-link]</code> <code>[login-link]</code> <code>[blog-"
+#~ "title]</code> <code>[xhtml]</code> <code>[css]</code> <code>[top]</code>."
+#~ msgstr ""
+#~ "تستطيع استخدام هه الاكواد : :<br/><code>[rss]</code> <code>[copyright]</"
+#~ "code> <code>[credit]</code> <code>[wp-link]</code> <code>[theme-link]</"
+#~ "code> <code>[login-link]</code> <code>[blog-title]</code> <code>[xhtml]</"
+#~ "code> <code>[css]</code> <code>[top]</code>."
+#~ msgid "50/50 columns"
+#~ msgstr "القوائم 50("
+#~ msgid "% تعليق"
+#~ msgstr "% تعليق"
+

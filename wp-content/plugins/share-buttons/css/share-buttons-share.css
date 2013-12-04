@@ -1,0 +1,39 @@
+#sortable-list { padding:0; width:200px; }
+
+#sortable-list li { color:#000; cursor:move; list-style:none; background:#f3f3f3; width:130px; border:1px solid #ddd; height:25px; padding-left:8px; padding-top:9px; font-weight:bold; color:#333; }
+
+#message-box { background:#fffea1; border:1px solid #fc0; padding:4px 8px; margin:0 0 14px 0; width:500px; }
+
+.wrap { width: 100%; float: left; margin-right: -160px; background:#fff; }
+
+.fieldset_sort { border:1px solid #eee; float:left; height:460px; }
+
+.body_sort { margin-left:15px; width:150px; padding:10px; }
+
+.fieldset_style { border:1px solid #eee; float:left; width:512px; height:460px; margin-left:10px; }
+
+.body_style { margin-left:15px; padding:0px 10px 0px 10px; }
+
+legend { font-weight:bold; font-size: 14px; padding: 8px; margin: 0px 0px 0px 10px; }
+
+.fieldset_enable { border:1px solid #eee; width:710px; }
+
+.body_enable { margin-left:20px; width:600px; padding:10px; line-height:30px; }
+
+.fieldset_position { border:1px solid #eee; width:710px; }
+
+.body_position { margin-left:20px; width:600px; padding:10px; margin-bottom:10px; }
+
+.GroupHead { font-weight:bold; }
+
+.GroupBody { margin-left:5px; }
+
+.GroupBodyS { margin-left:10px; margin-top:10px; }
+
+.button_submit { margin-left:5px; margin-bottom:10px; margin-top:10px; }
+
+.note { border:1px solid #e3e3e3; padding:10px; background-color:#f0f0f0; }
+
+#wpcontent .body_other select { height:150px; }
+
+.donate { position:absolute; width:120px;left:890px;top:80px; }

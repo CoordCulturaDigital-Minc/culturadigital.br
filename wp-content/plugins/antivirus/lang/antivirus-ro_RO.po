@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-16 20:18+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sergej Müller\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\Documents and Settings\\Administrator\\Desktop\\quotes-collection\\languages\n"
+
+msgid "Settings"
+msgstr "Setări"
+
+msgid "Virus suspected"
+msgstr "Suspiciune de virus"
+
+msgid "The daily antivirus scan of your blog suggests alarm."
+msgstr "Scanarea zilnică a șablonului activ al blogului tău te alarmează."
+
+msgid "There is no virus"
+msgstr "Nu este virus"
+
+msgid "View line"
+msgstr "Afișează linia"
+
+msgid "Scan finished"
+msgstr "Scanare finalizată"
+
+msgid "AntiVirus for WordPress"
+msgstr "AntiVirus pentru WordPress"
+
+msgid "requires at least WordPress 2.7"
+msgstr "Necesită WordPress 2.7 sau mai recent"
+
+msgid "Manual scan"
+msgstr "Scanare manuală"
+
+msgid "by"
+msgstr "de"
+
+msgid "Follow on Twitter"
+msgstr "Urmărește pe Twitter"
+
+msgid "Learn about wpSEO"
+msgstr "Află despre wpSEO"
+
+msgid "Settings saved."
+msgstr "Setările au fost salvate"
+
+msgid "Completed scan"
+msgstr "Scanare completă"
+
+msgid "Permalink back door check"
+msgstr "Verificare legătură permanentă pentru back door"
+
+msgid "http://mashable.com/2009/09/05/wordpress-attack/"
+msgstr "http://mashable.com/2009/09/05/wordpress-attack/"
+
+msgid "All clear"
+msgstr "În regulă"
+
+msgid "Danger"
+msgstr "Pericol"
+
+msgid "Scan the theme templates now"
+msgstr "Scanează acum directorul șablonului activ"
+
+msgid "Enable the daily antivirus scan"
+msgstr "Activează scanarea zilnică"
+
+msgid "Last check"
+msgstr "Ultima verificare"
+
+msgid "Alternate email address"
+msgstr "Adresă email alternativă"
+
+msgid "Save Changes"
+msgstr "Salvează schimbările"
+
+msgid "About"
+msgstr "Despre"
+

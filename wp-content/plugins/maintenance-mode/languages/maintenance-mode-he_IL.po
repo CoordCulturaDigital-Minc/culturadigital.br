@@ -1,0 +1,218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Maintenance Mode 4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-03 17:27+0100\n"
+"PO-Revision-Date: 2009-12-31 23:00+0100\n"
+"Last-Translator: Michael <michael dot woehrer at gmail dot com>\n"
+"Language-Team: FreeAllWeb GUILD <support@freeallweb.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Hebrew\n"
+"X-Poedit-Country: ISRAEL\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ../.\n"
+
+#: .././inc.swg-plugin-framework.php:81
+#: .././inc.swg-plugin-framework.php:82
+msgid "Settings"
+msgstr "הגדרות"
+
+#: .././inc.swg-plugin-framework.php:91
+msgid "Plugin"
+msgstr "תוסף"
+
+#: .././inc.swg-plugin-framework.php:93
+msgid "Plugin's Homepage"
+msgstr "דף הבית של התוסף"
+
+#: .././inc.swg-plugin-framework.php:94
+msgid "WordPress Support"
+msgstr "תמיכה בוורדפרס"
+
+#: .././inc.swg-plugin-framework.php:95
+msgid "Other Plugins I've Written"
+msgstr "תוספים אחרים שכתבתי"
+
+#: .././inc.swg-plugin-framework.php:98
+msgid "Do you like this plugin?"
+msgstr "האם התוסף הזה מוצא בעינייך חן?"
+
+#: .././inc.swg-plugin-framework.php:99
+msgid "I spend a lot of time on the plugins I've written for WordPress. Any donation would be highly appreciated."
+msgstr "הוצאתי המון זמן על תוספים שונים שכתבתי לוורדפרס. כל תרומה תתקבל בברכה והערכה."
+
+#: .././inc.swg-plugin-framework.php:101
+msgid "Donate via PayPal"
+msgstr "תרום דרך PayPal"
+
+#: .././inc.swg-plugin-framework.php:102
+msgid "My Amazon Wish List"
+msgstr "רשימת הבקשות שלי באמזון"
+
+#: .././inc.swg-plugin-framework.php:120
+msgid "The activated plugin"
+msgstr " התוסף המופעל"
+
+#: .././inc.swg-plugin-framework.php:121
+msgid "is not compatible with your installed WordPress"
+msgstr "גירסת התוסף אינה תואמת לגירסת מערכת הוורדפרס שלך"
+
+#: .././inc.swg-plugin-framework.php:122
+msgid "WordPress version"
+msgstr "גירסת וורדפרס"
+
+#: .././inc.swg-plugin-framework.php:122
+msgid "or higher is required when using this plugin, please deactivate it."
+msgstr "או גרסה חדשה יותר נדרשת על מנת להשתמש בתוסף זה, בבקשה כבה אותו."
+
+#: .././inc.swg-plugin-framework.php:348
+msgid "You do not have permission to modify the options"
+msgstr "אין לך רשות לשנות את האפשרויות"
+
+#: .././inc.swg-plugin-framework.php:370
+msgid "Settings deleted/reset."
+msgstr "ההגדרות נמחקו/ אופסו."
+
+#: .././inc.swg-plugin-framework.php:372
+msgid "Settings saved."
+msgstr "ההגדרות נשמרו. "
+
+#: .././inc.swg-plugin-framework.php:408
+msgid "Plugin Settings"
+msgstr "הגדרות התוסף"
+
+#: .././inc.swg-plugin-framework.php:421
+#: .././maintenance-mode.php:144
+msgid "Save Changes"
+msgstr "שמור שינויים"
+
+#: .././inc.swg-plugin-framework.php:422
+msgid "Do you really want to delete/reset the plugin settings?"
+msgstr "האם אתה באמת מעוניין למחוק/ לאפס את הגדרות התוסף?"
+
+#: .././inc.swg-plugin-framework.php:422
+msgid "Delete/Reset Settings"
+msgstr "מחק/ אפס הגדרות"
+
+#: .././maintenance-mode.php:88
+msgid "The Maintenance Mode is active. Please don't forget to"
+msgstr "מצב תחזוקה מופעל. בבקשה לא לשכוח"
+
+#: .././maintenance-mode.php:88
+msgid "deactivate"
+msgstr "לכבות"
+
+#: .././maintenance-mode.php:88
+msgid "it as soon as you are done."
+msgstr "את התוסף ברגע שמסתיימת התחזוקה."
+
+#: .././maintenance-mode.php:131
+msgid "Activate/Deactivate Maintenance Mode"
+msgstr "הפעלה/ כיבוי מצב תחזוקה"
+
+#: .././maintenance-mode.php:136
+msgid "Activated"
+msgstr "מופעל"
+
+#: .././maintenance-mode.php:139
+msgid "Deactivated"
+msgstr "מכובה"
+
+#: .././maintenance-mode.php:150
+#: .././maintenance-mode.php:157
+msgid "Message"
+msgstr "הודעה"
+
+#: .././maintenance-mode.php:153
+msgid "Title"
+msgstr "כותרת"
+
+#: .././maintenance-mode.php:159
+msgid "Use HTML only, no PHP allowed. You can use <strong>[blogurl]</strong>, <strong>[blogtitle]</strong> and <strong>[backtime]</strong> as placeholders."
+msgstr "השתמש ב-HTML בלבד, ללא PHP. אפשר להשתמש ב<strong>[blogurl]</strong>, <strong>[blogtitle]</strong>,  וב- <strong>[backtime]</strong>, כתגי מידע רלוונטי בהודעת התחזוקה."
+
+#: .././maintenance-mode.php:163
+msgid "Use 503.php"
+msgstr "השתמש 503.php"
+
+#: .././maintenance-mode.php:164
+msgid "With the following option activated the plugin will use the file '503.php' from the current theme directory for the splash page instead using 'maintenance-mode_site.php' from the plugin directory; If there is no '503.php', it will use the default file 'maintenance-mode_site.php'."
+msgstr "בעזרת הפעלת האופציה הבאה, התוסף ישתמש בקובץ '503.php' מספריית התבנית הנוכחית, כעמוד טעינה שמודיע על כך שהאתר בתחזוקה, במקום להשתמש בקובץ \"mainenance-mode-site.php\" מתיקיית התוסף; אם הקובץ \"503.php\" לא בנמצא, התוסף ישתמש בברירת המחדל \"mainenance-mode-site.php\"."
+
+#: .././maintenance-mode.php:165
+msgid "So this option will help using a customized splash page without the fear of losing this page when updating the plugin."
+msgstr "על כן אפשרות זו תעזור להשתמש בעמוד טעינה ללא הפחד לאבד את תוכן העמוד כאשר התוסף מעודכן."
+
+#: .././maintenance-mode.php:166
+msgid "Please note that you can't use WordPress theme functions (e.g. <em>get_sidebar()</em>, etc.) in the '503.php'."
+msgstr "שים לב שאינך יכול להשתמש בפונקציות של וורדפרס (כמו <em>get_sidebar()</em>) בתוך הדף \"503.php\"."
+
+#: .././maintenance-mode.php:170
+msgid "Use 503.php from within the theme directory for the splash page"
+msgstr "השתמש ב-503.php מתוך ספריית התבנית לצורך עמוד הטעינה"
+
+#: .././maintenance-mode.php:174
+msgid "Backtime and HTTP header"
+msgstr "סופר זמן לאחור וכותרת ראשית של HTTP."
+
+#: .././maintenance-mode.php:177
+msgid "Backtime in minutes"
+msgstr "סופר זמן לאחור בדקות"
+
+#: .././maintenance-mode.php:179
+msgid "A special HTML header for feed and trackback will be applied (&laquo;503 Service Unavailable&raquo;) including 'retry after x minutes'. Enter here the approximate time in minutes to retry. Also, by using the placeholder <strong>[backtime]</strong> above, the time in minutes be displayed to the visitors as well."
+msgstr "כותרת HTML מיוחדת תופיע, כולל \"חזרה אחרי X דקות\". הכנס כאן את הזמן המוערך לחזרת האתר לאוויר בדקות. זאת ועוד, בעזרת התגים <strong>[backtime]</strong> שלעיל, ספירת הזמן בדקות יופיע גם למבקרים באתר."
+
+#: .././maintenance-mode.php:184
+msgid "Apply HTTP header '503 Service Unavailable' and 'Retry-After &lt;backtime&gt;' to Maintenance Mode splash page"
+msgstr "הפעל כותרת HTTP \"503 Service Unavailable\" ו\"חזור אחרי [backtime]\" בתוך עמוד הטעינה במצב התחזוקה."
+
+#: .././maintenance-mode.php:188
+msgid "Paths to be still accessable"
+msgstr "נתיבים שעדיין יישארו פתוחים למבקרים באתר"
+
+#: .././maintenance-mode.php:190
+msgid "Enter paths that shall be excluded and still be accessable. Separate multiple paths with line breaks.<br />Example: If you want to exclude <em>http://site.com/about/</em>, then enter <em>/about/</em>."
+msgstr "הכנס נתיבים שיישארו פתוחים. הפרד נתיבים בעזרת שורה חדשה. <br/> דוגמא: אם אתה מעוניין להשאיר נתיב פתוח ב<em>http://site.com/about/</em>, ואז הכנס <em>/about/</em>."
+
+#: .././maintenance-mode.php:195
+msgid "Permissions"
+msgstr "הרשאות"
+
+#: .././maintenance-mode.php:196
+msgid "How to permit blog editors to see the blog's front-end"
+msgstr "איך להרשות לעורכי הבלוג לראות את הדף הראשי של הבלוג"
+
+#: .././maintenance-mode.php:197
+msgid "As soon as you activate the maintenance mode, a splash page is being added to your blog that informs visitors about your blog maintenance. Logged in administrators get full access to the blog including the front-end and will not see any splash page.<br />This plugin adds the capability 'access_on_maintenance' to the role 'Administrator'. If users with a specific role, for instance 'Editor', should get full access to the blog as well, use an appropriate plugin like"
+msgstr "ברגע שתפעיל את מצב התחזוקה, עמוד טעינה יוסף לבלוג  שלך שיודיע למבקרים באתר על מצב התחזוקה בבלוג שלך. מנהלים מחוברים יקבלו גישה מלאה לבלוג כולל הדף הראשי, ולא יראו כל עמוד טעינה.<br/> תוסף זה מוסיף את היכולת 'access_on_maintenance' (גישה בזמן תחזוקה) לתפקיד ה'Administrator'. אם משתמשים בתפקיד ספציפי, כמו למשל \"עורך\", צריכים לקבל גם כן גישה לבלוג במצב תחזוקה, השתמש בתוסף כמו"
+
+#: .././maintenance-mode.php:199
+msgid "and grant the capability 'Access On Maintenance' for the role 'Editor' or for any other role of your choice. <br />Check out"
+msgstr "ולהעניק את היכולת 'פעל תחת תחזוקה' לתפקיד העורך או לכל תפקיד אחר לפי בחירתך. <br/> בדוק את"
+
+#: .././maintenance-mode.php:201
+msgid "for further information."
+msgstr "למידע נוסף."
+
+#: .././maintenance-mode.php:203
+msgid "How to deny non-administrators to access the blog's back-end (in addition to not see the front-end)"
+msgstr "איך לשלול ממשתמשים שאינם מנהלים גישה לממשק הניהול של הבלוג (בנוסף לשלילת הגישה לאתר עצמו)"
+
+#: .././maintenance-mode.php:204
+msgid "By activating the following option, you can prevent users that do not have the capability 'access_on_maintenance' from being able to access the back-end (the WordPress' administration) too. This plugin adds the capability 'access_on_maintenance' to the role 'Administrator', so any other roles (like editors, authors, etc.) will not have access to the back-end after activating the following option."
+msgstr "על ידי הפעלת האפשרות הבאה, אתה יכול למנוע ממשתמשים שאין להם את היכולת 'access_on_maintenance' (גישה בזמן תחזוקה) למנוע מהם גם לגשת לממשק הניהול (ניהול הוורדפרס). תוסף זה מוסיף את היכולת 'גישה בזמן תחזוקה' לתפקיד המנהל 'Administrator', כך שלכל תפקיד אחר (כמו עורכים, כותבים וכו') לא תהיה גישה לממשק ניהול אחרי ההפעלה של האפשרות הבאה."
+
+#: .././maintenance-mode.php:208
+msgid "Deny non-administrators to access the blog's back-end"
+msgstr "שלול מלא-מנהלים לגשת לממשק הניהול של הבלוג"
+
+#: .././maintenance-mode_site.php:52
+msgid "(Access to administration denied by administrator)"
+msgstr "(גישה לניהול נשללה על ידי המנהל)"
+

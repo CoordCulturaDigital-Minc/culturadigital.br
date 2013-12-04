@@ -1,0 +1,37 @@
+{
+
+  "name": "ehough/stash",
+  "description": "Fork of tedivm/stash compatible with PHP 5.2+",
+  "keywords": [
+    "cache",
+    "caching",
+    "performance",
+    "scalability",
+    "sessions",
+    "memcached",
+    "redis",
+    "apc"
+  ],
+  "homepage": "http://github.com/ehough/stash",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "authors": [
+      {
+          "name": "Eric Hough",
+          "email": "eric@ehough.com",
+          "homepage": "http://ehough.com"
+      }
+  ],
+  "require": {
+    "php": ">=5.2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  },
+  "autoload": {
+    "psr-0": {
+     	"ehough_stash": "src/main/php",
+     	"ehough_stash_test": "src/test/php"
+     }
+  }
+}

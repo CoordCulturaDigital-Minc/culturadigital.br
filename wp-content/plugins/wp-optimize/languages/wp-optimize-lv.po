@@ -1,0 +1,690 @@
+# Copyright (C) 2010 WP-Optimize
+# This file is distributed under the same license as the WP-Optimize package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Optimize 0.9.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-optimize\n"
+"POT-Creation-Date: 2013-11-07 11:23+0800\n"
+"PO-Revision-Date: 2013-11-07 23:15+0800\n"
+"Last-Translator: Ruhani Rabin <get@ruhanirabin.com>\n"
+"Language-Team: Juris Orlovs <juris.o@gmail.com>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:49
+msgid "Database Optimized!"
+msgstr "Datubāze optimizēta!"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:67
+msgid "Optimizer"
+msgstr "Optimizētājs"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:72
+msgid "Settings"
+msgstr "Iestatījumi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:73
+msgid "Info"
+msgstr "Informācija"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:107
+msgid "Total clean up overall"
+msgstr "Veikt vispārējo tīrīšanu"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:110
+#: Works\wp-optimize_work/wp-optimize-main.php:116
+#: Works\wp-optimize_work/wp-optimize-main.php:132
+msgid "Kb"
+msgstr "Kb"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:402
+msgid "transient options deleted"
+msgstr "pārejošās iespējas izdzēstas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:410
+msgid "orphaned postmeta deleted"
+msgstr ""
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:418
+msgid "unused tags deleted"
+msgstr "neizmantotās birkas dzēstas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:429
+msgid "post revisions deleted"
+msgstr "rakstu revīzijas izdzēstas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:440
+msgid "auto drafts deleted"
+msgstr "automātiskie melnraksti izdzēsti"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:448
+#: Works\wp-optimize_work/wp-optimize-common.php:468
+msgid "items removed from Trash"
+msgstr "ieraksti, dzēsti no miskastes"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:460
+msgid "spam comments deleted"
+msgstr "spama komentāri dzēsti"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:478
+msgid "unapproved comments deleted"
+msgstr "neapstiprinātie komentāri dzēsti"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:484
+msgid "pingbacks deleted"
+msgstr "atbalspaziņošanas (pingback) dzēstas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:490
+msgid "trackbacks deleted"
+msgstr "atsauces notifikācijas dzēstas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:497
+msgid "Enabled weekly processing"
+msgstr "Ieslēgta iknedēļas darbošanās"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:503
+msgid "Disabled weekly processing"
+msgstr "Izslēgta iknedēļas darbošanās"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:512
+msgid "NO Actions Taken"
+msgstr "Nav izpildītas darbības"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:539
+msgid "transient options in your database"
+msgstr "pārejošās iespējas Jūsu datubāzē"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:541
+msgid "No transient options found"
+msgstr "Nav atrastas pārejošās īpašības"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:550
+msgid "orphaned postmeta in your database"
+msgstr ""
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:552
+msgid "No orphaned postmeta in your database"
+msgstr ""
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:561
+msgid "unused tags in your database"
+msgstr "neizmantotās birkas Jūsu datubāzē"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:563
+msgid "No unused tags found"
+msgstr "Neizmantotās birkas nav atrastas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:576
+msgid "post revisions in your database"
+msgstr "rakstu revīzijas Jūsu datubāzē"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:578
+msgid "No post revisions found"
+msgstr "Rakstu revīzijas nav atrastas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:591
+msgid "auto draft post(s) in your database"
+msgstr "auto rakstu melnraksts(i) Jūsu datubāzē"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:593
+msgid "No auto draft posts found"
+msgstr "Nav atrasti rakstu melnraksti"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:605
+msgid "spam comments found"
+msgstr "spama komentāri atrasti"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:605
+msgid "Review Spams"
+msgstr "Apskatīt spamu"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:607
+msgid "No spam comments found"
+msgstr "Spama komentāri nav atrasti"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:618
+msgid "unapproved comments found"
+msgstr "atrasti neapstiprināti komentāri"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:618
+msgid "Review Unapproved Comments"
+msgstr "Apskatīt neapstiprinātos komentārus"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:620
+msgid "No unapproved comments found"
+msgstr "Nav atrasti neapstiprināti komentāri"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:628
+msgid "Pingbacks found"
+msgstr "Atbalspaziņošanas atrastas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:630
+msgid "No pingbacks found"
+msgstr "Atbalspaziņošanas  nav atrastas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:638
+msgid "Trackbacks found"
+msgstr "Atsauces notifikācijas atrastas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:640
+msgid "No trackbacks found"
+msgstr "Atsauces notifikācijas nav atrastas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-common.php:646
+msgid "nothing"
+msgstr "nekas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:4
+msgid "Credits"
+msgstr "Gods"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:5
+msgid ""
+"WP-Optimize started as a utility for my own projects. I have realized soon, "
+"that this plugin might help a lot of people out there. I am personally "
+"thanking all of the users who use this plugin as a daily basis. Also thank "
+"you all of the translators and the generous people who have donated for this "
+"project."
+msgstr ""
+"WP-Optimize sākās kā manis paša projekts. Pēc kāda laika sapratu, ka tas "
+"varētu palīdzēt arī daudziem citiem cilvēkiem. Es personīgi pateicos visiem "
+"lietotājiem, kas izmanto šo spraudni ikdienā. Tāpat saku paldies visiem "
+"tulkotājiem un dāsniem cilvēkiem, kas ir ziedojuši šim projektam."
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:15
+msgid "Share this plugin on Facebook"
+msgstr "Koplietot šo spraudni Facebook"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:25
+msgid "Contributing Developers"
+msgstr "Līdzizstrādātāji"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:26
+msgid "Help me make this plugin better"
+msgstr "Palīdziet padarīt šo spraudni labāku"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:26
+msgid "I am looking for contributing developers."
+msgstr "Es meklēju līdzizstrādātājus."
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:27
+msgid "Your name and website will be credited here in the plugin"
+msgstr "Jūsu vārdam un vietnei tiks izrādīts gods šeit spraudnī"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:29
+msgid "Translators"
+msgstr "Tulkotāji"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:30
+msgid "http://www.ruhanirabin.com/"
+msgstr "http://trendfor.lv"
+
+# Please change this to Translator's name
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:30
+msgid ""
+"Default Language by Ruhani Rabin (Change this text and the link inside "
+"translation file)"
+msgstr "Latviski tulkojis Juris Orlovs"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:32
+msgid "Download .POT File to translate"
+msgstr "Lejuplādējiet .po failu tulkošanai"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:32
+msgid "Email your translations to"
+msgstr "Sūtīt pa e-pastu Jūsu tulkojumus uz"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:38
+msgid "Development Log"
+msgstr "Attīstīšanas žurnāls"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:58
+msgid "No items"
+msgstr "Nav ierakstu"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:63
+#, php-format
+msgid "Update %s"
+msgstr "Atjaunots %s"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:71
+msgid "Plugin Resources"
+msgstr "Spraudņa resursi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:72
+msgid "Plugin Homepage"
+msgstr "Spraudņa mājaslapa"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:73
+msgid "Support Forum"
+msgstr "Atbalsta forums"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:74
+msgid "Change Log"
+msgstr "Mainīt žurnālu"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-credits.php:75
+msgid "FAQ"
+msgstr "BUJ"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:5
+msgid "Status : "
+msgstr "Statuss :"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:10
+msgid "Last automatic optimization was at "
+msgstr "Pēdējā automātiskā optimizēšana notika"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:21
+msgid "There was no automatic optimization"
+msgstr "Nav bijušas automātiskas optimizēšanas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:24
+#: Works\wp-optimize_work/wp-optimize-main.php:70
+#: Works\wp-optimize_work/wp-optimize-main.php:95
+msgid "Check settings"
+msgstr "Pārbaudīt iestatījumus"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:36
+msgid "Scheduled cleaning enabled"
+msgstr "Ieslēgta plānotā tīrīšana"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:48
+msgid "Next schedule"
+msgstr "Nākošais ieplānotais"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:59
+msgid "Refresh"
+msgstr "Atsvaidzināt"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:67
+msgid "Scheduled cleaning DISABLED"
+msgstr "Plānotā tīrīšana IZSLĒGTA"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:81
+msgid "Retention enabled and keeping last "
+msgstr "Aizturēšana ieslēgta un saglabāts pēdējais"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:84
+#: Works\wp-optimize_work/wp-optimize-settings.php:93
+msgid "weeks data"
+msgstr "nedēļu datus"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:92
+msgid "Retention is disabled"
+msgstr "Aizturēšana izslēgta"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:109
+msgid "Current database size : "
+msgstr "Patreizējais datubāzes izmērs:"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:111
+#: Works\wp-optimize_work/wp-optimize-main.php:125
+msgid "Kb."
+msgstr "Kb."
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:113
+msgid "You have saved"
+msgstr "Jūs saglabājāt"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:122
+msgid "Current database size"
+msgstr "Patreizējais datu bāzes izmērs"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:129
+msgid "You can save almost"
+msgstr "Jūs variet saglabāt gandrīz"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:138
+msgid "Buy me a Coffee :)"
+msgstr "Nopirksiet man kafiju :)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:139
+msgid "See Tables > "
+msgstr "Skatīt tabulas >"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:139
+msgid "Database Size > "
+msgstr "Datubāzes izmērs >"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:164
+msgid "Database Optimization Options"
+msgstr "Datubāzes optimizācijas iespējas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:175
+msgid "Sponsor"
+msgstr "Sponsors"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:182
+msgid "Remove post revisions which are older than "
+msgstr "Dzēst rakstu revīzijas, kas vecākas kā"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:185
+#: Works\wp-optimize_work/wp-optimize-main.php:205
+#: Works\wp-optimize_work/wp-optimize-main.php:225
+#: Works\wp-optimize_work/wp-optimize-main.php:244
+msgid "weeks"
+msgstr "nedēļas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:187
+msgid "Remove all post revisions"
+msgstr "Dzēst visas rakstu revīzijas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:202
+msgid "Remove auto draft posts which are older than "
+msgstr "Dzēst visus auto rakstu melnrakstus, kas vecāki par"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:207
+msgid "Remove auto draft posts (This will also clear out posts in Trash)"
+msgstr ""
+"Dzēst visus rakstu auto melnrakstus (Tiks iztīrīti arī visi raksti no "
+"miskastes)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:222
+msgid "Remove spam comments which are older than "
+msgstr "Dzēst spama komentārus, kas ir vecāki par"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:227
+msgid "Remove spam comments (This will also clear out comments in Trash)"
+msgstr "Dzēst spama komentārus (Tiks iztīrīti arī visi komentāri no miskastes)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:241
+msgid "Remove unapproved comments which are older than "
+msgstr "Dzēst neapstiprinātie komentāri, kas vecāki kā"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:246
+#: Works\wp-optimize_work/wp-optimize-settings.php:172
+msgid "Remove unapproved comments"
+msgstr "Dzēst neapstiprinātos komentārus"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:258
+#: Works\wp-optimize_work/wp-optimize-settings.php:174
+msgid "Remove transient options"
+msgstr "Dzēst pārejošās iespējas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:267
+msgid "Remove orphaned postmeta"
+msgstr ""
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:276
+#: Works\wp-optimize_work/wp-optimize-settings.php:178
+msgid "Remove unused tags"
+msgstr "Dzēst neizmantotās birkas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:285
+msgid "Remove pingbacks"
+msgstr "Dzēst atbalspaziņošanas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:294
+msgid "Remove trackbacks"
+msgstr "Dzēst atsauces notifikācijas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:305
+msgid "Optimize database tables"
+msgstr "Optimizēt datu bāzes tabulas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:314
+msgid "PROCESS"
+msgstr "APSTRĀDĀT"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:340
+msgid "Database Tables Report"
+msgstr "Datubāzu tabulu atskaite"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:341
+msgid "Database Name:"
+msgstr "Datubāzes nosaukums:"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:345
+msgid "Optimized all the tables found in the database."
+msgstr "Optimizēt visas datubāzes tabulas."
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:352
+#: Works\wp-optimize_work/wp-optimize-main.php:360
+msgid "Table"
+msgstr "Tabula"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:353
+#: Works\wp-optimize_work/wp-optimize-main.php:361
+msgid "Size"
+msgstr "Izmērs"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:354
+#: Works\wp-optimize_work/wp-optimize-main.php:362
+msgid "Status"
+msgstr "Statuss"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:355
+#: Works\wp-optimize_work/wp-optimize-main.php:363
+msgid "Space Save"
+msgstr "Vietas ietaupījums"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:409
+msgid "Already Optimized"
+msgstr "Jau ir optimizēta"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:418
+msgid "Optimized"
+msgstr "Optimizēta"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:426
+msgid "Need to Optimize"
+msgstr "Nepieciešams optimizēt"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:438
+msgid "Total Size of Database"
+msgstr "Datubāzes kopējais izmērs"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:446
+msgid "Optimization Results"
+msgstr "Optimizācijas rezultāts"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:447
+msgid "Total Space Saved"
+msgstr "Kopējā vieta ietaupīta"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:452
+msgid "Optimization Possibility"
+msgstr "Optimizēšanas iespējamība"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-main.php:453
+msgid "Total space can be saved"
+msgstr "Kopējais apjoms, kas tiks saglabāts"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:63
+msgid "Settings updated"
+msgstr "Iestatījumi atjaunoti"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:72
+msgid "General Settings"
+msgstr "Vispārīgie iestatījumi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:73
+msgid "Auto Clean-up Settings"
+msgstr "Automātiskās tīrīšanas iestatījumi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:82
+msgid "Keep last "
+msgstr "Paturēt pēdējo"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:98
+msgid ""
+"This option will retain the last X weeks data and remove any garbage data "
+"before that period"
+msgstr ""
+"Šī funkcija saglabās pēdējo X nedēļu datus un izdzēsīs visus nederīgos datus "
+"pirms šī perioda"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:106
+msgid "Enable admin bar link "
+msgstr "Ieslēgt administratora joslas saiti"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:108
+msgid "(Click here to refresh)"
+msgstr "(Klikšķināt šeit lai atjaunotu)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:113
+msgid ""
+"This option will put WP-Optimize link on the top admin bar (default is off). "
+"Requires page refresh."
+msgstr ""
+"Šī iespēja noliks WP-Optimize saiti augšpusē administratora joslā (pēc "
+"noklusējuma izslēgta). Nepieciešams atsvaidzināt lapu."
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:122
+msgid "Enable scheduled clean-up and optimization (EXPERIMENTAL!)"
+msgstr "Ieslēgt iknedēļas tīrīšanu un optimizēšanu (EKSPERIMENTĀLA!)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:124
+msgid "Select schedule type (default is Weekly)"
+msgstr "Izvēlēties plānošanas tipu (noklusētais ir Reizi nedēļā)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:131
+#: Works\wp-optimize_work/wp-optimize-settings.php:143
+#: Works\wp-optimize_work/wp-optimize-settings.php:149
+msgid "Every week"
+msgstr "Reizi nedēļā"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:135
+#: Works\wp-optimize_work/wp-optimize-settings.php:150
+msgid "Every other week (every 14 days)"
+msgstr "Katru otro nedēļu (katras 14 dienas)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:139
+#: Works\wp-optimize_work/wp-optimize-settings.php:151
+msgid "Every month (every 31 days)"
+msgstr "Reizi mēnesī (katras 31 dienas)"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:156
+msgid "Automatic cleanup will perform the following:"
+msgstr "Automātiksā tīrīsana darīs sekojošo:"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:158
+msgid ""
+"Remove revisions, auto drafts, posts/comments in trash, transient options. "
+"After that it will optimize the db."
+msgstr ""
+"Dzēsīs revīzijas, auto melnrakstus, rakstus/komentārus miskastē, pārejošās "
+"īpašības. Pēc tā tiks optimizēta datu bāze."
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:164
+msgid ""
+"These options will only work if the automatic clean-up schedule has been "
+"enabled"
+msgstr ""
+"Šī iespēja darbosies tikai tad, ja būs ieslēgta automātiskās tīrīšanas "
+"plānošana"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:166
+msgid "Remove auto revisions"
+msgstr "Dzēst visas rakstu auto revīzijas"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:168
+msgid "Remove auto drafts"
+msgstr "Dzēst visus rakstu auto melnrakstus"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:170
+msgid "Remove spam comments"
+msgstr "Dzēst spama komentārus"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:176
+msgid "Remove orphaned post meta"
+msgstr ""
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:180
+msgid "Optimize database"
+msgstr "Optimizēt datu bāzi"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:185
+msgid "SAVE SETTINGS"
+msgstr "SAGLABĀT IESTATĪJUMUS"
+
+#: d:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-settings.php:186
+msgid "SAVE AUTO CLEAN-UP SETTINGS"
+msgstr "SAGLABĀT AUTO TĪRĪŠANAS IESTATĪJUMUS"
+
+#~ msgid ""
+#~ "This will enable weekly scheduled of all the optimization listed "
+#~ "including - "
+#~ msgstr "Tas ieslēgs ieplānoto iknedēļas optimizāciju, ieskaitot - "
+
+#~ msgid ""
+#~ "Optimize db, Remove AutoDrafts/Revisions, Posts and Comments in Trash."
+#~ msgstr ""
+#~ "Optimizē db, dzēš autom. melnrakstus/revīzijas, rakstus un komentārus "
+#~ "miskastē."
+
+#~ msgid ""
+#~ "NOTE: Unapproved comments will not be removed automatically; just in case "
+#~ "there are legitimate comments"
+#~ msgstr ""
+#~ "Piezīme: Neapstiprinātie komentāri netiks dzēsti automātiski; ja nu "
+#~ "gadījumā tur ir atļauti komentāri"
+
+#~ msgid "Clean Unapproved comments"
+#~ msgstr "Notīrīt neapstiprinātos komentārus"
+
+#~ msgid "Clean Pingbacks"
+#~ msgstr "Iztīrīt atbalspaziņošanas (pingbacks)"
+
+#~ msgid "Clean Trackbacks"
+#~ msgstr "Iztīrīt atsauces notifikācijas (trackbacks)"
+
+#~ msgid "WP-Optimize"
+#~ msgstr "WP-Optimize"
+
+#~ msgid "http://www.ruhanirabin.com/wp-optimize/"
+#~ msgstr "http://www.ruhanirabin.com/wp-optimize/"
+
+#~ msgid ""
+#~ "This plugin helps you to keep your database clean by removing post "
+#~ "revisions and spams in a blaze. Additionally it allows you to run "
+#~ "optimize command on your WordPress core tables (use with caution)."
+#~ msgstr ""
+#~ "Šis spraudnis palīdzēs Jums turēt tīru Jūsu datubāzi, dzēšot rakstu "
+#~ "revīzijas un spamus. Papildus tas atļaus Jums darbināt optimizēšanas "
+#~ "komandu Jūsu WordPress datubāzes tabulām (izmantot uzmanīgi)."
+
+#~ msgid "Ruhani Rabin"
+#~ msgstr "Ruhani Rabin"
+
+#~ msgid "http://www.ruhanirabin.com"
+#~ msgstr "http://trendfor.lv"
+
+#~ msgid "Admin username updated<br>"
+#~ msgstr "Administratora lietotājvārds atjaunots<br>"
+
+#~ msgid "ADMIN USERNAME NOT UPDATED<br>"
+#~ msgstr "Administratora lietotājvārds NAV atjaunots<br>"
+
+#~ msgid "Clean marked Spam comments"
+#~ msgstr "Notīrīt visus iezīmētos spama komentārus"
+
+#~ msgid "Security Tools"
+#~ msgstr "Drošības rīki"
+
+#~ msgid "Old username:"
+#~ msgstr "Vecais lietotājvārds:"
+
+#~ msgid "New username:"
+#~ msgstr "Jaunais lietotājvārds:"
+
+#~ msgid "RSS Feed"
+#~ msgstr "RSS barotne"
+
+#~ msgid "Stay updated with RSS feed"
+#~ msgstr "Palieciet atjaunots ar RSS barotni"
+
+#~ msgid "Did this helped you out"
+#~ msgstr "Vai šis Jums palīdzēja"
+
+#~ msgid "Do you like to donate an amount?"
+#~ msgstr "Vai vēlaties ziedot kādu summu?"

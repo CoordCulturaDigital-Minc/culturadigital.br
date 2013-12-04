@@ -1,0 +1,32 @@
+body{
+  	font: 13px "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;
+}
+
+#loader{
+   visibility:hidden;
+}
+
+#f1_upload_process{
+   z-index:100;
+   visibility:hidden;
+   position:absolute;
+   text-align:center;
+   width:600px;
+   height:0px;
+   margin:0;
+}
+
+.textboxStyled {
+      background:#fff;
+      font: 12px "Trebuchet MS", verdana, tahoma, sans-serif;
+      color:#000; 
+      font-weight:bold;
+      padding:2px;
+      border: 2px #ccc solid;
+      height: 24px;
+}
+
+a .img{
+  border: 1px solid #fff;
+}
+

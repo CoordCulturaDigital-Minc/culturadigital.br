@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AntiVirus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-17 17:54-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sergej Müller\n"
+"Language-Team: Fernando Lopes <contato@fernandolopes.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../antivirus.php:149
+#: ../antivirus.php:165
+#: ../antivirus.php:681
+msgid "Settings"
+msgstr "Configurações"
+
+#: ../antivirus.php:245
+#: ../antivirus.php:590
+msgid "Virus suspected"
+msgstr "Suspeita de vírus"
+
+#: ../antivirus.php:249
+#: ../antivirus.php:591
+msgid "The daily antivirus scan of your blog suggests alarm."
+msgstr "Alarme da verificação de AntiVírus diária do seu blog."
+
+#: ../antivirus.php:251
+msgid "Notify message by AntiVirus for WordPress"
+msgstr "Notifique mensagem por AntiVirus para WordPress"
+
+#: ../antivirus.php:252
+msgid "http://wpantivirus.com"
+msgstr "http://wpantivirus.com"
+
+#: ../antivirus.php:311
+msgid "There is no virus"
+msgstr "Não há vírus"
+
+#: ../antivirus.php:312
+msgid "View line"
+msgstr "Ver linha"
+
+#: ../antivirus.php:313
+msgid "Scan finished"
+msgstr "Verificação terminada"
+
+#: ../antivirus.php:580
+#: ../antivirus.php:600
+msgid "AntiVirus for WordPress"
+msgstr "AntiVírus para WordPress"
+
+#: ../antivirus.php:581
+msgid "requires at least WordPress 2.7"
+msgstr "requer pelo menos WordPress v2.7"
+
+#: ../antivirus.php:593
+#: ../antivirus.php:669
+msgid "Manual scan"
+msgstr "Verificação Manual"
+
+#: ../antivirus.php:602
+msgid "by"
+msgstr "por"
+
+#: ../antivirus.php:603
+msgid "Follow on Twitter"
+msgstr "Siga no Twitter"
+
+#: ../antivirus.php:605
+msgid "Learn about wpSEO"
+msgstr "Saiba mais sobre wpSEO"
+
+#: ../antivirus.php:630
+msgid "Settings saved."
+msgstr "Configurações salvas."
+
+#: ../antivirus.php:645
+msgid "Completed scan"
+msgstr "Verificação completa"
+
+#: ../antivirus.php:649
+msgid "Permalink back door check"
+msgstr "Checar Link Permanente sobre ataque pela porta dos fundos"
+
+#: ../antivirus.php:649
+msgid "http://mashable.com/2009/09/05/wordpress-attack/"
+msgstr "http://mashable.com/2009/09/05/wordpress-attack/"
+
+#: ../antivirus.php:655
+msgid "All clear"
+msgstr "Tudo limpo"
+
+#: ../antivirus.php:661
+msgid "Danger"
+msgstr "Perigo"
+
+#: ../antivirus.php:673
+msgid "Scan the theme templates now"
+msgstr "Verificar os temas agora"
+
+#: ../antivirus.php:689
+msgid "Enable the daily antivirus scan"
+msgstr "Ative a verificação diária do antivírus"
+
+#: ../antivirus.php:693
+msgid "Last check"
+msgstr "Última verificação"
+
+#: ../antivirus.php:699
+msgid "Alternate email address"
+msgstr "Endereço de email alternativo"
+
+#: ../antivirus.php:705
+msgid "Save Changes"
+msgstr "Salvar Alterações"
+
+#: ../antivirus.php:711
+msgid "About"
+msgstr "Sobre"
+
+#~ msgid "Plugin"
+#~ msgstr "Plugin"
+
+#~ msgid "Version"
+#~ msgstr "Versão"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid ""
+#~ "Enable the daily antivirus scan and send the administrator an e-mail if "
+#~ "Virus suspected"
+#~ msgstr ""
+#~ "Ativar o antivírus diariamente, verificar e enviar ao administrador um "
+#~ "email se há suspeita de um vírus."
+
+#~ msgid "Last"
+#~ msgstr "Último"

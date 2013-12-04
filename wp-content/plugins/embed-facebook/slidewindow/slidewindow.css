@@ -1,0 +1,38 @@
+/*
+	Lightweight Image Viewer For Your Website
+	Copyright © 2010 Yury Plashenkov
+	http://www.plashenkov.com/
+*/
+
+#overlay {
+	z-index: 99;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	background: Black;
+}
+
+#wnd {
+	z-index: 100;
+	position: absolute;
+}
+
+#tl, #tr, #bl, #br {
+	width: 20px;
+	height: 20px;
+}
+
+.mc { background: White }
+
+#imgArea { line-height: 0 }
+
+#imgNum, #imgTitle {
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 8pt;
+	font-weight: bold;
+	line-height: 150%;
+}
+
+#imgNum { color: Gray }

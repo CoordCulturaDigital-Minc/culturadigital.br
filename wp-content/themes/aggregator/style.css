@@ -1,0 +1,310 @@
+/*  
+
+Theme Name:    Aggregator 
+Theme URI:     http://templatic.com/
+Description:   Developed by Bhavesh Radadiya.
+Version:       1.0
+Author:        Templatic.com
+Author URI:    http://templatic.com/
+
+*/
+
+/*	--------------------------------------------------
+Global Reset - Resets all browser defaults to 0
+-------------------------------------------------- */
+html, body { margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6, p, blockquote, address, big, cite, code, em, font, img, small, strike, sub, sup, li, ol, ul, fieldset, form, label, legend, button, table, caption, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	font-weight:normal;
+	font-style:normal;
+	font-size:100%;
+	line-height:1;
+	font-family:inherit;
+	text-align:left;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+ol, ul {
+	list-style:none;
+}
+blockquote:before, blockquote:after {
+	content:"";
+}
+
+a { outline:none; }
+
+.fix{ clear: both; height: 1px; margin: -1px 0 0; overflow: hidden }
+.fl{ float: left }
+.fr{ float: right }
+.ac{ text-align: center }
+.ar{ text-align: right }
+
+body { font:12px Arial, Helvetica Neue, Helvetica, sans-serif; }
+a { text-decoration:underline; }
+a:hover { -decoration:underline; }
+
+
+blockquote {  padding:0px 0 10px 45px; font-size:18px; }
+blockquote  p { font-size:18px; }
+
+.clearboth { clear:both; }
+
+#content ul { list-style:none; margin:0 0 25px 0; padding:0;  }
+#content li { margin:0; padding:0; font-size:14px; line-height:22px; }
+
+
+
+
+/*	--------------------------------------------------
+ Structure
+ -------------------------------------------------- */
+#header-in { width:960px; margin:0 auto; height:100px; }
+#wrapper { width:960px; margin:0 auto;  }
+
+#content { width:660px; float:left;  }
+#sidebar { width:240px; float:right; padding-left:20px; }
+
+
+#footer { clear:both; }
+#footer-in { width:960px; margin:0 auto; padding:10px 0; overflow:hidden; height:100%; }
+
+/* header  --------------------------------- */
+#header .logo a { text-decoration:none; display: block; width:220px; margin-top:20px; height:55px; font-size:18px; float:left; text-indent:-9009px; }
+#header .logo a:hover { text-decoration:none; }
+
+#header p.description { float:left; width:500px; margin:35px 0 0 25px; padding:0; font-size:14px; }
+.single_column h3 { margin:0; padding:5px 0 5px 5px; font:18px Georgia, "Times New Roman", Times, serif; }
+
+
+
+/*---------TOP NAVIGATION for PAGES---------  */
+#navbg { bheight:42px; margin-bottom:50px; }
+#nav-menu ul { margin:0; padding:0px; height:42px; clear:both; width:960px; margin:0 auto;    }
+#nav-menu li { float:left; list-style-type:none; margin:0px; overflow:hidden; line-height:17px; text-transform:uppercase;   }
+#nav-menu ul li:hover a, #nav-menu ul li.hover a, #nav-menu ul li.current_page_item a { text-decoration:none;  }
+#nav-menu ul li a { font:bold 14px Arial, Helvetica, sans-serif; text-decoration:none; display:block; margin:0; padding:13px 20px 12px 20px;}
+#nav-menu ul li a:hover { text-decoration:none;  }
+
+#nav-menu ul li:hover a, #nav-menu ul li.hover a, #nav-menu ul li.current-cat a { text-decoration:none; padding:12px 12px 20px 8px 12px; }
+	
+/*---------DROPDOWN NAVIGATION FOR CATEGORIES--------- */
+#nav li ul li a{ font-size: 13px; padding-top:7px; margin-right:0;  text-transform:capitalize; }
+#nav li ul li a:hover{ text-decoration:none; }
+#nav li ul{ margin:0px 0 0 0; position:absolute; width:15em; left:-999em; }
+#nav li:hover ul, #nav li.sfhover ul{ left:auto; z-index:1000 }
+#nav li ul li{ line-height:26px; width:15em; border-width:0 1px 1px 1px; font-weight:bold }
+#nav li:hover, #nav li.hover{ position:static }
+#nav li ul ul{ margin:-37px 0 0 15em; }
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul{ left:-999em; padding:2px 0 0;  }
+#nav li:hover ul ul, #nav li.sfhover ul ul, #nav li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul, #nav li.sfhover ul ul ul ul{left:-999em }
+#nav li:hover ul, #nav li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul, #nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul, #nav li li li li.sfhover ul{left:auto }
+select, #nav{ padding:0 }
+.bot, #header .spacer p, .list2{clear:both }
+#nav li a span{font-size:12px; font-weight:normal }
+
+
+/* Wrapper  --------------------------------- */
+
+.tool-tip { width:300px; z-index:13000; }
+.tool-title { font-weight:bold; font:13px/1.3em Verdana, sans-serif; margin:0; padding:8px 8px 4px; }
+.tool-text { font:12px/1.3em Arial, Helvetica, sans-serif; padding:4px 8px 8px; }
+.tool-text span span { display:block; font:11px/1.3em Verdana, sans-serif; padding:5px 0 0 0; }
+div#footer { padding:5px 20px; text-align:center; }
+div#footer p { line-height:1.6em!important; }
+
+
+/* Wrapper  --------------------------------- */
+
+.nb-list { margin:0 0 20px 0; padding:0; list-style-type: none; font-size:12px; }
+.nb-list ul li { float:none; width:inherit;  list-style:none; margin:0; padding:9px 5px;  text-decoration:none; backgroundheight:300px; 
+overflow:hidden; height:300px;  }
+
+
+.nb-list ul li a { margin:0; text-decoration:none;  }
+.nb-list ul li a:hover { text-decoration:none; }
+.nb-list h3 { margin:0; padding:5px 0 3px 0px; font:18px Georgia, "Times New Roman", Times, serif; }
+.nb-list h3 a { text-decoration:none;  }
+
+.single_column { margin:0px 0 20px -30px; _margin:0 0 20px -90px; padding:0; min-height:500px; _height:500px;   list-style-type: none; font-size:12px;}
+.single_column li { float: left; margin:0 0 40px 30px; width:300px;  height:230px;  }
+* html .single_column li { height:230px; overflow:hidden;  }
+*+html .single_column li { height:240px;  }
+
+
+
+.single_column li ul { margin:12px 0 0 0; padding:0;  }
+.single_column li ul li { float:none; width:inherit; height:inherit; list-style:none; margin:0;   position:relative; height:15px; overflow:inherit }
+.secondary { display:none;  }
+
+.home_column { width:300px;  }
+.fleft { float:left; }
+.fright { float:right; }
+.spacer { padding-left:30px; }
+
+.advt { padding:15px 0 0 0;  }
+
+
+
+
+
+hr { clear:both; margin:0; padding:0; width:100%; }
+
+.single_column li ul li a {text-decoration:none;  display:block; width:300px; position:absolute; top:8px;  height:20px;  overflow:hidden; display:block; 
+line-height:1.5em;  }
+.single_column li ul li a:hover { height:auto; overflow:auto; z-index:11; line-height:18px; padding-bottom:5px; padding-left:5px; left:0px; width:280px;   }
+
+
+* html .single_column li ul li a { text-decoration:none;  display:block; width:300px; position:absolute; top:4px; left:0;  min-height:15px;  display:block; 
+line-height:1.9em; overflow:visible; } 
+* html .single_column li ul li a:hover { height:85px; overflow:visible; z-index:11; line-height:18px; _line-height:28px; top:1px; padding-bottom:0; left:-5px; width:280px;   }
+* html .single_column { margin:0 0 20px -60px; }
+
+*+html .single_column li ul li a { text-decoration:none;  display:block; width:300px; position:absolute; top:-4px; left:0;  min-height:15px;  display:block; 
+line-height:1.9em; overflow:visible; } 
+*+html .single_column li ul li a:hover { height:85px; overflow:visible; z-index:11; line-height:18px; top:-2px;  left:0px; width:280px;   }
+
+
+*+html .single_column li ul li a { padding:8px 5px; } 
+
+
+.ftuhmb { padding:2px; float:left; width:55px; margin:0px 6px 15px 6px; height:55px;  }
+
+/* Headings -----------------------------------------------------------------------*/
+.h3 { margin:0; padding:0; font-size: 22px; }
+h1 a, h3 a { text-decoration: none; }
+h1 a:hover, h3 a:hover { text-decoration: underline; }
+h2 { margin: 0; padding: 10px 0; font:normal 24px Arial, Helvetica, sans-serif; }
+h2 a {  text-decoration: underline; }
+h2 a:hover { text-decoration: none; }
+h3 { margin:0; padding: 5px 0; font:normal 22px Arial, Helvetica, sans-serif; }
+h3 a { text-decoration: none; }
+h3 a:hover { text-decoration: none; }
+h5 { margin: 15px 0 0 0; padding: 5px 0; font:normal 18px Arial, Helvetica, sans-serif; }
+h6 { margin: 0; padding: 0 0 10px 0; font:normal 24px Arial, Helvetica, sans-serif; }
+
+h1 { margin:0 0 20px 0;  font-size:30px;  }
+p { margin:0 0 15px 0; padding:0; font-size:14px; line-height:20px;  }
+
+/* CONTENT -----------------------------------------------------------------------*/
+
+#content ol { list-style-type: decimal; line-height: 18px; margin: 0; padding: 0 0 10px 35px; }
+#content ul { list-style: circle; }
+#content li { margin: 0; padding: 0; }
+#content ul li { margin: 0 30px 0 30px; padding: 5px 0 0 0;  list-style: disc outside; }
+
+#content .post-meta-top { margin:0 0 15px 0;  display: block; font-size:12px; float:left; }
+#content .post-meta-bottom { margin: 30px 0 5px 0; display: block; font-size: 12px; clear:both; }
+
+#posts { padding:0 0 30px 0; margin-bottom:30px; }
+
+.post-meta-top a, .post-meta-bottom a { text-decoration: none;  }
+.post-meta-top a:hover, .post-meta-bottom a:hover { text-decoration: none; }
+
+.cat { float:  left; width:48%; text-align: left; }
+.tags { float:  right; width:48%; text-align: right; }
+
+.comm { width: 20%; float:right; text-align: left; }
+.comm span { padding: 0 0 0 18px;  }
+.date { margin:0 10px 0 0; padding:10px; float: left; text-align: center; }
+.d { font-size:18px; }
+.month { font-size:11px; font-weight:bold; text-transform:uppercase; }
+
+
+	/* Previous/Next Page Navigation ----------------------------------------------------------------*/
+.page-nav { margin: 15px 0; padding: 2px 0;	height: 22px; clear: both; }
+.nav-previous { width: 249px; margin: 2px 0; float:left; text-align:left; }
+.nav-next { width: 249px; margin: 2px 0; float: right; text-align: right; }
+.page-nav a { text-decoration: none; }
+.nav-previous a { padding-left: 10px; }
+.nav-next a { padding-right: 10px; }
+
+
+  
+  
+  /*---------COMMENTS --------- */
+
+#comments ol{padding:20px 0;}
+#content #comments .comment { margin: 10px 0 30px 0; padding:0; width: 100%; list-style:none }
+
+#comments h3{ font:normal 18px Arial, Helvetica, sans-serif; padding:0 0 5px 0; margin:0 0 20px 0; }
+#comments .commentlist { padding:0; margin:0 }
+#comments .commentlist li p { margin:0 0 20px 60px; padding:0; width:590px;  }
+#comments .commentlist li {  position:relative;   }
+
+
+.avatar { padding:3px; float:left; padding:2px; margin:0 12px 12px 0; }
+.comment-author {padding:10px;  clear:both; margin-bottom:20px;   }
+.fn { float:left; margin-right:5px; margin-top:5px; }
+.fn .ur { float:left; margin-right:5px; margin-top:5px;  }
+
+.says { float:left; }
+.commentmetadata { float:right; position:absolute; right:10px; top:10px;  }
+
+#content #comments .bypostauthor { height:100%; overflow:hidden;  }
+
+.reply { margin-left:10px; font-size:12px; }
+.commentmetadata { font-size:12px; } 
+.commentmetadata a { text-decoration:none; }
+.commentmetadata a:hover { text-decoration:none;  }
+
+
+#submit { padding:5px; width:150px;  font:14px Arial, Helvetica, sans-serif; cursor:pointer; }
+#url, #email, #author { font:14px Arial, Helvetica, sans-serif; padding:5px; width:200px; float:left; margin-right:5px; clear:both; }
+#comment { font:14px Arial, Helvetica, sans-serif; padding:5px; clear:both;  }
+
+#commentform p { margin:0 0 8px 0; padding:0; height:100%; overflow:hidden; }
+#commentform label small { float:left; margin-top:8px; }
+#comments .comment .authcomment p { padding:0 0 20px 0;  }
+
+
+  
+  /* SIDEBAR -----------------------------------------------------------------------*/
+#sidebar h3 { margin:0px 0 5px 0; padding:0 0 5px 0; font:bold 16px Arial, Helvetica, sans-serif; }
+
+#sidebar ul{ margin: 0 0 20px 0; padding: 0; list-style-type: none; }
+#sidebar ul li  { margin:0; padding:0; }
+#sidebar ul li a {   text-decoration:none; padding:8px 13px; display:block; }
+#sidebar ul li a:hover { text-decoration: none; }
+
+#wp-calendar { width:100%;  }
+#wp-calendar caption { font-size:14px; text-align:center; margin-bottom:1px; padding:3px; font-weight:bold; }
+#wp-calendar td { text-align:center; font-size:12px; font-weight:bold; padding:3px;  }
+#wp-calendar th { padding:3px; text-align:center; font-weight:bold; }
+
+/*#footer ------------- */
+#footer p { margin:0; padding:0; font-size:11px; float:left; line-height:18px;  }
+#footer p.copyright { width:295px; float:left;  }
+
+#footer p a { text-decoration:none; }
+#footer p a:hover { text-decoration:none; }
+
+.flink { margin:0 -10px 0 0; padding:0; float:right; }
+.flink li { margin:0; padding:0 15px; float:left;  font-size:11px;  }
+.flink li a { text-decoration:none;  }
+.flink li a:hover { text-decoration:none;}
+
+
+/*
+P.I.E. FLOAT CLEARING
+See http://www.positioniseverything.net/easyclearing.html 
+--------------------- */
+.clearfix:after {
+	content: ".";
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+}
+.clearfix {
+	display: inline-block; /* Fixes IE/Mac */
+}
+/* Hides from IE-mac \*/ * html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}

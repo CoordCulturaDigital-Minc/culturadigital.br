@@ -1,0 +1,713 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fusion\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-05-27 19:23+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: digitalnature <hello@digitalnature.ro>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:5
+msgid "Page not found (404)"
+msgstr "Stránka nenalezena (404)"
+
+#: 404.php:7
+msgid "Try one of these links:"
+msgstr "Zkuste některý z těchto odkazů:"
+
+#: archive.php:9
+#, php-format
+msgid "Archive for category %s"
+msgstr "Archiv kategorie %s"
+
+#: archive.php:11
+#, php-format
+msgid "Posts Tagged %s"
+msgstr "Příspěvky označené %s"
+
+#: archive.php:13
+#: archive.php:15
+#: archive.php:17
+#, php-format
+msgid "Archive for %s"
+msgstr "Archiv %s"
+
+#: archive.php:13
+#: archive.php:31
+#: functions.php:548
+#: index.php:17
+msgid "F jS, Y"
+msgstr "d.m.Y"
+
+#: archive.php:15
+#: sidebar.php:52
+msgid "F, Y"
+msgstr "F Y"
+
+#: archive.php:17
+#: sidebar.php:55
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:19
+msgid "Author Archive"
+msgstr "Archiv autora"
+
+#: archive.php:21
+msgid "Blog Archives"
+msgstr "Archivy blogu"
+
+#: archive.php:26
+#: index.php:12
+msgid "Permanent Link:"
+msgstr "Trvalý odkaz:"
+
+#: archive.php:31
+#: index.php:17
+#, php-format
+msgid "Posted by %s in %s on %s"
+msgstr "Autor: %s Kategorie: %s Datum: %s"
+
+#: archive.php:31
+#: author.php:42
+#: index.php:17
+#, php-format
+msgid "Posts by %s"
+msgstr "Příspěvky %s"
+
+#: archive.php:36
+#: image.php:13
+#: index.php:23
+msgid "Read the rest of this entry &raquo;"
+msgstr "Zobrazit další &raquo;"
+
+#: archive.php:48
+#: author.php:47
+#: index.php:35
+#: search.php:23
+msgid "No Comments"
+msgstr "Žádné komentáře"
+
+#: archive.php:48
+#: author.php:47
+#: index.php:35
+#: search.php:23
+msgid "1 Comment"
+msgstr "1 komentář"
+
+#: archive.php:48
+#: author.php:47
+#: index.php:35
+#: search.php:23
+msgid "% Comments"
+msgstr "% komentářů"
+
+#: archive.php:59
+#: author.php:54
+#: index.php:45
+#: search.php:13
+#: search.php:30
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Starší položky"
+
+#: archive.php:60
+#: author.php:55
+#: index.php:46
+#: search.php:14
+#: search.php:31
+msgid "Newer Entries &raquo;"
+msgstr "Novější položky &raquo;"
+
+#: archive.php:66
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Bohužel zatím neexistují žádné příspěvky kategorie %s."
+
+#: archive.php:68
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Bohužel neexistují žádné příspěvky z tohoto dne."
+
+#: archive.php:71
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Bohužel zatím neexistují žádné příspěvky od %s."
+
+#: archive.php:73
+msgid "No posts found."
+msgstr "Žádný příspěvek nenalezen."
+
+#: archives.php:10
+msgid "Archives by Month:"
+msgstr "Archivy po měsících:"
+
+#: archives.php:14
+msgid "Archives by Subject:"
+msgstr "Archivy podle témat:"
+
+#: author.php:25
+msgid "This user hasn't shared any biographical information"
+msgstr "Tento uživatel nesdílí biografické informace."
+
+#: author.php:30
+msgid "Homepage:"
+msgstr "Hlavní stránka:"
+
+#: author.php:31
+msgid "Yahoo Messenger:"
+msgstr "Yahoo Messenger:"
+
+#: author.php:32
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: author.php:33
+msgid "AIM:"
+msgstr "AIM:"
+
+#: author.php:46
+#: image.php:27
+#: search.php:22
+#: sidebar.php:49
+msgid "l, F jS, Y"
+msgstr "I d.m.Y"
+
+#: author.php:47
+#: search.php:23
+msgid "Tags: "
+msgstr "Štítky:"
+
+#: author.php:47
+#: search.php:23
+#, php-format
+msgid "Posted in %s"
+msgstr "Publikováno v %s"
+
+#: author.php:47
+#: search.php:23
+msgid "Edit"
+msgstr "Upravit"
+
+#: author.php:60
+msgid "No posts found by this author."
+msgstr "Nenalezen žádný příspěvek tohoto autora."
+
+#: comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Zadejte vaše heslo přo zobrazení komentářů"
+
+#: comments.php:19
+msgid "Comments"
+msgstr "Komentáře"
+
+#: comments.php:20
+msgid "Trackbacks"
+msgstr "Zpětné odkazy"
+
+#: comments.php:39
+msgid "No comments yet."
+msgstr "Zatím žádné komentáře."
+
+#: comments.php:60
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Musíte se <a href=\"%s\">přihlásit</a> pro odeslání komentáře."
+
+#: comments.php:67
+msgid "Cancel Reply"
+msgstr "Zrušit odpověď"
+
+#: comments.php:73
+#, php-format
+msgid "Logged in as %s."
+msgstr "Přihlášen jako %s"
+
+#: comments.php:75
+msgid "Log out of this account"
+msgstr "Odhlásit z tohoto účtu"
+
+#: comments.php:75
+msgid "Logout &raquo;"
+msgstr "Odhlásit &raquo;"
+
+#: comments.php:79
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Vítej zpět <strong>%s</strong>."
+
+#: comments.php:79
+msgid "Change &raquo;"
+msgstr "Změnit &raquo;"
+
+#: comments.php:79
+msgid "Close &raquo;"
+msgstr "Zavřít &raquo;"
+
+#: comments.php:84
+msgid "Name"
+msgstr "Jméno "
+
+#: comments.php:84
+#: comments.php:88
+msgid "(required)"
+msgstr "(povinné)"
+
+#: comments.php:88
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: comments.php:88
+msgid "(will not be published)"
+msgstr "(nebude zveřejněn)"
+
+#: comments.php:92
+msgid "Website"
+msgstr "Web"
+
+#: comments.php:110
+msgid "Submit Comment"
+msgstr "Odeslat komentář"
+
+#: comments.php:127
+msgid "No trackbacks yet."
+msgstr "Zatím žádné zpětné odkazy."
+
+#: comments.php:140
+msgid "Comments are closed."
+msgstr "Komentáře jsou uzavřeny."
+
+#: footer.php:39
+#, php-format
+msgid "Fusion theme by %s"
+msgstr "Motiv vzhledu Fusion od %s"
+
+#: footer.php:41
+#, php-format
+msgid "powered by %s"
+msgstr "poskytnutý %s"
+
+#: footer.php:44
+msgid "Entries (RSS)"
+msgstr "Položky (RSS)"
+
+#: footer.php:44
+msgid "and"
+msgstr "a"
+
+#: footer.php:44
+msgid "Comments (RSS)"
+msgstr "Komentáře (RSS)"
+
+#: footer.php:51
+msgid "Increase/Decrease text size"
+msgstr "Zvětšit/zmenšit velikost písma"
+
+#: footer.php:52
+msgid "Switch between full and fixed width"
+msgstr "Přepnout maximální/pevnou šířku"
+
+#: functions.php:144
+msgid "Fusion settings"
+msgstr "Nastavení Fusion"
+
+#: functions.php:151
+msgid "Fusion theme settings"
+msgstr "Nastavení vzhledu Fusion"
+
+#: functions.php:153
+msgid "Settings saved."
+msgstr "Nastavení uloženo."
+
+#: functions.php:202
+msgid "General"
+msgstr "Obecné "
+
+#: functions.php:211
+msgid "Use jQuery"
+msgstr "Použít jQuery"
+
+#: functions.php:211
+msgid "(Don't change this unless you know what you're doing)"
+msgstr "(Neměňte pokud si nejste naprosto jisti co děláte)"
+
+#: functions.php:213
+#: functions.php:246
+#: functions.php:316
+#: functions.php:360
+msgid "Yes"
+msgstr "Ano"
+
+#: functions.php:215
+#: functions.php:249
+#: functions.php:319
+#: functions.php:363
+msgid "No"
+msgstr "Ne"
+
+#: functions.php:222
+msgid "Homepage meta keywords"
+msgstr "Meta klíčová slova homepage:"
+
+#: functions.php:222
+msgid "(Separate with commas. Tags are used as keywords on other pages. Leave empty if you are using a SEO plugin)"
+msgstr "(Oddělujte čárkami. Štítky se používají jako klíčová slova na ostatních stránkách. Pokud používáte plugin SEO, nechte prázdné)"
+
+#: functions.php:233
+msgid "Index page/Archives show:"
+msgstr "Na hlavní stránce/v archivech zobrazovat:"
+
+#: functions.php:235
+msgid "Full posts"
+msgstr "Celé příspěvky"
+
+#: functions.php:237
+msgid "Excerpts only"
+msgstr "Pouze shrnutí"
+
+#: functions.php:244
+msgid "Show layout controls (Aa/<>)"
+msgstr "Zobrazit ovládání vzhledu (Aa/<>)"
+
+#: functions.php:262
+msgid "Header"
+msgstr "Nadpis"
+
+#: functions.php:270
+msgid "Top navigation shows"
+msgstr "V menu nahoře zobrazovat"
+
+#: functions.php:272
+msgid "Pages"
+msgstr "Stránky"
+
+#: functions.php:274
+msgid "Categories"
+msgstr "Kategorie"
+
+#: functions.php:282
+msgid "Header background"
+msgstr "Pozadí záhlaví"
+
+#: functions.php:286
+msgid "Theme default (gray noise)"
+msgstr "Výchozí (šedé přechody)"
+
+#: functions.php:287
+msgid "User defined image(s) (upload)"
+msgstr "Nahrát vlastní obrázek/obrázky"
+
+#: functions.php:288
+msgid "User defined color"
+msgstr "Vlastní barva"
+
+#: functions.php:293
+msgid "Centered image (upload a 960x200 image for best fit):"
+msgstr "Centrovaný obrázek (nejlépe velikosti 960x200):"
+
+#: functions.php:298
+msgid "Tiled image, repeats itself across the entire header (centered image will show on top of it, if specified):"
+msgstr "Dlaždice, bude se opakovat na celou šířku záhlaví (centrovaný obrázek je překryje, pokud je zadán):"
+
+#: functions.php:304
+msgid "Pick a color"
+msgstr "Vyberte barvu"
+
+#: functions.php:314
+msgid "Logo image"
+msgstr "Obrázek s logem"
+
+#: functions.php:322
+msgid "Upload a custom logo image"
+msgstr "Nahrát vlastní obrázek pro logo"
+
+#: functions.php:338
+msgid "Sidebar"
+msgstr "Postranní panel"
+
+#: functions.php:347
+msgid "Sidebar position"
+msgstr "Pozice postranního panelu"
+
+#: functions.php:349
+msgid "Left"
+msgstr "Vlevo "
+
+#: functions.php:352
+msgid "Right (default)"
+msgstr "Vpravo (výchozí)"
+
+#: functions.php:358
+msgid "Show theme-default category block"
+msgstr "Zobrazit výchozí blok kategorií"
+
+#: functions.php:370
+msgid "Theme search block"
+msgstr "Blok hledání vzhledu"
+
+#: functions.php:372
+msgid "Wordpress default"
+msgstr "Wordpress výchozí"
+
+#: functions.php:374
+msgid "Google search"
+msgstr "Hledání Google"
+
+#: functions.php:376
+msgid "Disabled"
+msgstr "Vypnuto"
+
+#: functions.php:381
+msgid "Find <code>name='cx'</code> in the <strong>Search box code</strong> of <a href='http://www.google.com/coop/cse/'>Google Custom Search Engine</a>, and type the <code>value</code> above.<br/>"
+msgstr "Vyhledejte <code>name='cx'</code> v <strong>Kód vyhledávacího pole</strong> na <a href='http://www.google.com/coop/cse/'>Google vlastní vyhledávání</a>, a zadejte <code>hodnotu</code> nahoře.<br/>"
+
+#: functions.php:398
+msgid "Footer"
+msgstr "Zápatí"
+
+#: functions.php:407
+msgid "Add content"
+msgstr "Přidat komentář"
+
+#: functions.php:407
+msgid "(HTML allowed)"
+msgstr "(HTML povoleno)"
+
+#: functions.php:424
+msgid "User CSS code"
+msgstr "Vlastní CSS kód"
+
+#: functions.php:433
+msgid "Modify anything related to design using simple CSS"
+msgstr "Upravte cokoli související se vzhledem pomocí jednoduchého CSS"
+
+#: functions.php:433
+msgid "Avoid modifying theme files and use this option instead to preserve changes after update"
+msgstr "Neupravujte soubory vzhledu, ale použijte tuto možnost pokud chcete zachovat změny mezi verzemi"
+
+#: functions.php:461
+msgid "Save changes"
+msgstr "Uložit změny"
+
+#: functions.php:548
+#, php-format
+msgid "%s by %s on %s"
+msgstr "%s  %s  %s"
+
+#: functions.php:548
+msgid "H:i"
+msgstr "H:i"
+
+#: functions.php:555
+msgid "Your comment is awaiting moderation."
+msgstr "Váš komentář čeká na schválení."
+
+#: functions.php:566
+msgid "Reply"
+msgstr "Odpovědět "
+
+#: functions.php:568
+msgid "Quote"
+msgstr "Citovat "
+
+#: header.php:171
+msgid "You are Home"
+msgstr "Jste na Hlavní stránce "
+
+#: header.php:171
+#: header.php:173
+msgid "Home"
+msgstr "Hlavní stránka"
+
+#: header.php:173
+msgid "Click for Home"
+msgstr "Klikněte pro zobrazení hlavní stránky "
+
+#: image.php:27
+#, php-format
+msgid "This entry was posted on %s and is filed under %s. You can follow any responses to this entry through %s."
+msgstr "Tato položka byla publikována na %s a je uložena v %s. Můžete sledovat reakce na tuto položku zde: %s."
+
+#: image.php:31
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Můžete <a href=\"#respond\">reagovat</a>, nebo <a href=\"%s\" rel=\"trackback\">vytvořit zpětný odkaz</a> z vašich stránek."
+
+#: image.php:35
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Reakce jsou uzavřeny, ale můžete <a href=\"%s\" rel=\"trackback\">vytvořit zpětný odkaz</a> z vašich stránek."
+
+#: image.php:39
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Můžete přejít na konec a napsat reakci. Odkazování není dovoleno."
+
+#: image.php:43
+msgid "Both comments and pings are currently closed."
+msgstr "Komentáře i odkazy jsou uzavřeny."
+
+#: image.php:45
+msgid "Edit this entry"
+msgstr "Upravit tuto položku "
+
+#: image.php:50
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Bohužel žádná příloha neodpovídá vašim požadavkům. "
+
+#: index.php:51
+msgid "Not Found"
+msgstr "Nenalezeno."
+
+#: index.php:52
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Bohužel hledáte něco co zde není."
+
+#: page-3col.php:16
+#: page-nosidebar.php:16
+#: page.php:12
+msgid "Read the rest of this page &raquo;"
+msgstr "Zobrazit pokračování &raquo;"
+
+#: search.php:8
+msgid "Search Results"
+msgstr "Prohledat výsledky "
+
+#: search.php:36
+msgid "No posts found. Try a different search?"
+msgstr "Žádné příspěvky nenalezeny. Zkusit znovu? "
+
+#: searchform.php:7
+#: sidebar.php:17
+#: sidebar.php:32
+msgid "Search"
+msgstr "Hledat "
+
+#: sidebar.php:46
+#, php-format
+msgid "You are currently browsing the archives for the %s category."
+msgstr "Procházíte archivy kategorie %s."
+
+#: sidebar.php:49
+#: sidebar.php:52
+#, php-format
+msgid "You are currently browsing the archives for %s"
+msgstr "Procházíte archivy %s"
+
+#: sidebar.php:55
+#, php-format
+msgid "You are currently browsing the archives for the year %s"
+msgstr "Procházíte archivy roku %s"
+
+#: sidebar.php:58
+#, php-format
+msgid "You have searched the archives for %s."
+msgstr "Byly prohledány archivy %s."
+
+#: sidebar.php:61
+msgid "You are currently browsing the archives."
+msgstr "Procházíte archivy."
+
+#: sidebar.php:88
+msgid "Archives"
+msgstr "Archivy"
+
+#: sidebar.php:99
+msgid "Meta"
+msgstr "Meta"
+
+#: single.php:55
+msgid "Sorry, no posts matched your criteria."
+msgstr "Bohužel žádné příspěvky neodpovídají požadavkům."
+
+#: yarpp-template-fusion.php:5
+msgid "Related Posts"
+msgstr "Související příspěvky "
+
+#: yarpp-template-fusion.php:13
+msgid "No related posts."
+msgstr "Žádné suvisející příspěvky. "
+
+#~ msgid "Separate with commas"
+#~ msgstr "Oddělte čárkami"
+#~ msgid "Upload your logo as \"logo.png\" in the theme directory:"
+#~ msgstr "Nahrajte logo jako \"logo.png\" do složky motivu vzhledu:"
+#~ msgid "You should export the logo image with transparency enabled"
+#~ msgstr "Obrázek loga by měl vyexportován se zapnutou průhledností"
+#~ msgid "Disable homepage tab"
+#~ msgstr "Vypnout záložku hlavní strany"
+#~ msgid "Check this if you are using a static page as the homepage"
+#~ msgstr "Zaškrtněte pokud používáte statickou hlavní stranu"
+#~ msgid "Show the categories as header tabs"
+#~ msgstr "Zobrazit kategorie na záložkách"
+#~ msgid "(instead of pages)"
+#~ msgstr "(namísto stránek)"
+#~ msgid ""
+#~ "Check if you prefer the widgetized category display or just want to hide "
+#~ "the categories"
+#~ msgstr ""
+#~ "Zaškrtnout zda preferujete zobrazení widgetu kategorií nebo skrytí "
+#~ "kategorií"
+#~ msgid "Disable the default search block in the sidebar"
+#~ msgstr "Vypnout výchozí blok hledání v postranním panelu"
+#~ msgid "Check if you don't like the theme-default search look"
+#~ msgstr "Zaškrtněte pokud nechcete výchozí blok hledání pro toto téma"
+#~ msgid "Default page content width:"
+#~ msgstr "Výchozí šířka obsahu stránky:"
+#~ msgid "Fixed (960 pixels)"
+#~ msgstr "Pevná (960 Pixelů)"
+#~ msgid "Fluid (95 percent of the visitor's screen width)"
+#~ msgstr "Plovoucí (95 procent šířky okna návštěvníka)"
+#~ msgid ""
+#~ "Note that if the layout controls are enabled, the visitor's javascript "
+#~ "page width cookie setting will override this option"
+#~ msgstr ""
+#~ "Pokud je zapnuto řízení vzhledu, toto nastavení bude přepsáno nastavením "
+#~ "cookie skriptu stránky návštěvníka."
+#~ msgid "Disable jQuery and the associated code"
+#~ msgstr "Vypnout jQuery a související kód"
+#~ msgid ""
+#~ "This will reduce the page load with ~70 KB, but will also disable some "
+#~ "features and effects (layout controls, rss links inside category menu, "
+#~ "comment tabs, trackbacks).<br />You shouldn't change this unless you have "
+#~ "problems with your host regarding bandwidth"
+#~ msgstr ""
+#~ "Sníží objem stránky o ~70 KB, ale vypne některé vlastnosti a efekty "
+#~ "(řízení vzhledu, odkazy rss v menu kategorií, záložky komentářů, zpětné "
+#~ "odkazy).<br />Neměňte pokud nemáte problémy s objemy dat serveru."
+#~ msgid ""
+#~ "Here you can add or change anything related to design if you have some "
+#~ "basic CSS knowledge. Check %s to see existing styles, which you can "
+#~ "redefine here."
+#~ msgstr ""
+#~ "Zde můžete přidat nebo změnit cokoli týkající se vzhledu pokud máte "
+#~ "základní znalosti o CSS. V %s najdete styly které zde můžete předefinovat."
+#~ msgid ""
+#~ "Don't modify style.css if you wish to preserve your changes after theme "
+#~ "update! Use this option instead."
+#~ msgstr ""
+#~ "Neupravujte style.css pokud chcete zachovat své úpravy při aktualizaci "
+#~ "vzhledu! Místo toho použijte tuto volbu."
+#~ msgid "Links:"
+#~ msgstr "Odkazy: "
+#~ msgid "on"
+#~ msgstr "v "
+#~ msgid "to see existing styles, which you can redefine here."
+#~ msgstr "pro zobrazení existujících stylů, které můžete předefinovat zde. "
+#~ msgid "by"
+#~ msgstr "od"
+#~ msgid "%1$s at %2$s"
+#~ msgstr "%1$s v %2$s"
+#~ msgid "This entry was posted on"
+#~ msgstr "Položka byla publikována na"
+#~ msgid "and is filed under"
+#~ msgstr "a je uložena v"
+#~ msgid "Subscribe to comments feed"
+#~ msgstr "Přihlásti k odběru komentářů"
+

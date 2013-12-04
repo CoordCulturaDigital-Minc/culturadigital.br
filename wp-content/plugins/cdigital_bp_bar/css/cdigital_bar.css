@@ -1,0 +1,597 @@
+/*
+* cdigital_bar.css - This file have cdigital custom bp bar stylesheet
+*
+* Copyright (C) 2010  Marcos Maia Lopes <marcosmlopes01@gmail.com>
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+*
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+html body{
+    padding-top:35px !important;
+}
+
+div.nav-bar{
+    background:#105478;
+    border-bottom:2px solid #fff;
+    height:25px;
+    left:0;
+    font-family:Arial, sans-serif;
+    padding:5px 0;
+    position:absolute;
+    top:0;
+    width:100%;
+}
+
+div.nav-bar div.middle{
+    padding:0 15px;
+}
+
+div.nav-bar div.right div.left{
+    border-right:1px solid #4e7795;
+    display:block;
+    margin-right:8px;
+}
+
+div.nav-bar div.right .new-activity a{
+    background:#fff url("../img/activity-icon.png") no-repeat center;
+    height:13px;
+    overflow:hidden;
+    text-indent:-999em;
+    width:10px;
+}
+
+div.nav-bar div.right .new-activity a:hover{
+    background:#fff url("../img/activity-icon.png") no-repeat center;
+    opacity:0.7;
+}
+
+div.nav-bar ul{
+    margin:0;
+}
+
+div.nav-bar div.nav{
+    height:auto;
+    margin:0;
+    padding:0;
+}
+
+div.nav-bar div.nav li{
+    float:left;
+    line-height:110%;
+    list-style:none;
+    margin:0;
+    margin-right:8px;
+}
+
+div.nav-bar div.logged-in div.nav li{
+    margin:0;
+    position:relative;
+}
+
+div.nav-bar div.logged-in div.nav > ul > li{
+    border-right:1px solid #316b8b;
+}
+
+div.nav-bar div.logged-in div.nav ul li.cdigital{
+    border-right:none;
+}
+
+div.nav-bar div.logged-in div.nav ul li.cdigital a{
+    padding-right:3px;
+}
+
+div.nav-bar div.logged-in div.nav ul li.cdigital a:hover{
+    background:none;
+    border:1px solid transparent;
+    color:#fff;
+    text-decoration:underline;
+}
+
+div.nav-bar div.logged-in div.nav > ul > li:last-child{
+    border:none;
+}
+
+div.nav-bar div.logged-in div.nav > ul > li > ul{
+    background:#fff;
+    border:1px solid #bcbcbc;
+    display:none;
+    left:0;
+    position:absolute;
+    top:23px;
+    width:120px;
+    z-index:10;
+}
+
+div.nav-bar div.logged-in div.nav li li a{
+    border-bottom:1px solid #eff0f1;
+    display:block;
+    float:none;
+    padding:7px 8px;
+}
+
+div.nav-bar div.logged-in div.nav li li a:hover{
+    background:#e2e2e2;
+    position:relative;
+    z-index:20;
+}
+
+div.nav-bar div.logged-in div.nav li li ul{
+    background:#fff;
+    border:1px solid #bcbcbc;
+    display:none;
+    left:120px;
+    position:absolute;
+    top:-1px;
+    width:120px;
+    z-index:10;
+}
+
+div.nav-bar div.logged-in div.nav li:hover > ul
+, div.nav-bar div.logged-in div.nav ul ul li:hover ul{
+    display:block;
+}
+
+div.nav-bar div.logged-in div.nav > ul > li:hover > a{
+    background:#fff;
+    border:1px solid #bcbcbc;
+    border-bottom-color:#fff;
+    color:#000;
+}
+
+div.nav-bar div.logged-in div.nav li li{
+    float:none;
+}
+
+div.nav-bar div.logged-in div.nav li li:last-child{
+    border:none;
+}
+
+div.nav-bar div.nav li > a{
+    background:#0a7db9;
+    border:1px solid #094564;
+    color:#fff;
+    float:left;
+    font-size:12px;
+    font-weight:bold;
+    line-height:110%;
+    padding:5px 8px;
+    text-decoration:none;
+    text-shadow:-1px 1px 0 #086596;
+}
+
+div.nav-bar div.logged-in div.nav > ul > li > a{
+    color:#fff;
+}
+
+div.nav-bar div.logged-in div.nav li a{
+    background:transparent;
+    border:1px solid transparent;
+    color:#000;
+    font-size:12px;
+    font-weight:normal;
+    line-height:100%;
+    position:relative;
+    text-shadow:none;
+    z-index:20;
+}
+
+div.nav-bar div.nav li > a:hover{
+    background:#0c89ca;
+}
+
+div.nav-bar div.nav li.login{
+    position:relative;
+}
+
+div.nav-bar div.nav li.login > a{
+    background:#fff url("../img/bullet_dropdown.png") 49px center no-repeat;
+    color:#0a7db9;
+    padding-right:23px;
+    text-shadow:none;
+}
+
+div.nav-bar div.nav li.login.active > a{
+    border-bottom:1px solid #fff;
+    position:relative;
+    z-index:20;
+}
+
+div.nav-bar div.nav li.login form{
+    background:#fff;
+    border:1px solid #094565;
+    display:none;
+    padding:10px;
+    position:absolute;
+    right:0;
+    top:24px;
+    width:255px;
+    z-index:10;
+}
+
+div.nav-bar div.nav li.login.active form{
+    display:block;
+}
+
+div.nav-bar div.nav li.login label{
+    float:left;
+    font-size:11px;
+    font-weight:bold;
+    margin-top:7px;
+    text-transform:uppercase;
+    width:65px;
+}
+
+div.nav-bar div.nav li.login input{
+    background:#f8f8f8;
+    border:none;
+    border-top:1px solid #d9d9d9;
+    border-left:1px solid #d9d9d9;
+    float:left;
+    font-size:12px;
+    margin-bottom:5px;
+    padding:5px;
+    width:179px;
+}
+
+div.nav-bar div.nav li.login input:focus{
+    background:#fbfbfb;
+    border-top:1px solid #d2d2d2;
+    border-left:1px solid #d2d2d2;
+}
+
+div.nav-bar div.nav li.login button{
+    float:right;
+    margin:0;
+    margin-top:3px;
+}
+
+div.nav-bar div.nav li.login form a{
+    float:left;
+    font-size:12px;
+    margin-top:10px;
+    text-decoration:none;
+}
+
+div.nav-bar div.nav li.login form a:hover{
+    text-decoration:underline;
+}
+
+div.nav-bar .search-form{
+    min-width:245px;
+}
+
+div.nav-bar .search-form fieldset{
+    border:none transparent;
+    float:left;
+    position:relative;
+}
+
+div.nav-bar .search-form fieldset span{
+    background:#fff url("../img/bullet/bullet_dropdown.png") 101px 10px no-repeat;
+    border:1px solid #094564;
+    cursor:pointer;
+    float:left;
+    font-size:12px;
+    margin-right:3px;
+    padding:5px 20px 5px 5px;
+    position:relative;
+    width:90px;
+    z-index:3;
+}
+
+div.nav-bar .search-form fieldset.active span{
+    border-bottom:1px solid #fff;
+    padding-bottom:5px;
+}
+
+div.nav-bar .search-form fieldset input{
+    cursor:pointer;
+}
+
+div.nav-bar .search-form fieldset ul{
+    display:none;
+}
+
+div.nav-bar .search-form fieldset.active ul{
+    background:#fff;
+    border:1px solid #1c4563;
+    display:block;
+    padding:12px;
+    position:absolute;
+    top:24px;
+    right:3px;
+    width:117px;
+    z-index:2;
+}
+
+div.nav-bar .search-form fieldset.active li{
+    border-bottom:1px solid #f1f1f1;
+    font-size:12px;
+    list-style:none;
+    margin-bottom:8px;
+    padding-bottom:8px;
+}
+
+div.nav-bar .search-form fieldset li.audio{
+    color:#cd7e39;
+}
+
+div.nav-bar .search-form fieldset li.images{
+    color:#4ea1d5;
+}
+
+div.nav-bar .search-form fieldset li.videos{
+    color:#75c27a;
+}
+
+div.nav-bar .search-form fieldset.active li:first-child{
+    border:none;
+}
+
+div.nav-bar .search-form fieldset.active li:last-child{
+    border:none;
+    margin:0;
+    padding:0;
+}
+
+div.nav-bar .search-form fieldset.active li input{
+    margin-right:8px;
+}
+
+div.nav-bar .search-form button{
+    border:1px solid #1c4563;
+    display:block;
+    margin:0;
+    overflow:hidden;
+    padding:3px 7px;
+}
+
+div.nav-bar button{
+    background:#1ED7A5;
+    border:1px solid #5fba97;
+    color:#fff;
+    cursor:pointer;
+    float:left;
+    font-size:12px;
+    font-weight:bold;
+    padding:3px;
+    text-decoration:none;
+    text-shadow:-1px 1px 0 #58b26c;
+}
+
+div.nav-bar input[type="search"]{
+    -webkit-appearance:textfield;
+    border:1px solid #094564;
+    float:left;
+    font-size:12px;
+    line-height:100%;
+    margin:0;
+    margin-right:3px;
+    padding:4px;
+    width:168px;
+}
+
+.hidden{
+    display:none;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.clearfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix{
+    display:inline;
+}
+
+* html .clearfix{
+    height:1%;
+}
+
+.clearfix{
+    display:block;
+}
+
+div.nav-bar .alt{
+    background-color:#F9F9F9;
+}
+
+.modal.activity{
+    background:#fff;
+    border:3px solid #0A7DB9;
+    font-family:Arial, sans-serif;
+    height:186px;
+    left:50%;
+    margin-left:-277px;
+    margin-top:-93px;
+    overflow:hidden;
+    position:fixed;
+    top:50%;
+    width:554px;
+    z-index:200;
+}
+
+.modal.activity .modal-nav {
+    background:#0A7DB9;
+    cursor:move;
+    margin-bottom:9px;
+}
+
+.modal.activity .modal-nav .close{
+    background:url("../img/bt_close.png") no-repeat;
+    display:block;
+    height:18px;
+    margin-right:2px;
+    margin-top:6px;
+    overflow:hidden;
+    text-indent:-999em;
+    width:19px;
+}
+
+.modal-nav div.handle{
+    float:left;
+    overflow:hidden;
+    width:95%;
+}
+
+.modal.activity ul.tabs{
+    margin:0;
+    overflow:hidden;
+}
+
+.modal.activity ul.tabs li{
+    float:left;
+    line-height:100%;
+    list-style:none;
+    margin:2px 3px 0 0;
+}
+
+.modal.activity ul.tabs li.active{
+    margin-top:0;
+}
+
+.modal.activity ul.tabs li a{
+    background:#1ED7A5;
+    color:#fff;
+    float:left;
+    font-size:11px;
+    font-weight:bold;
+    padding:7px 5px 6px;
+    text-decoration:none;
+    text-transform:uppercase;
+    text-shadow:-1px 1px 0 #0ABC69;
+}
+
+.modal.activity ul.tabs li a:hover{
+    text-decoration:underline;
+}
+
+.modal.activity ul.tabs li.active a{
+    background:#fff;
+    color:#0A7DB9;
+    cursor:default;
+    padding:8px 7px 7px;
+    text-decoration:none;
+    text-shadow:none;
+}
+
+.modal.activity #new-activity{
+    padding:10px;
+}
+
+.modal.activity div.activity-text{
+    background:#fff url("../img/bg_write.jpg") no-repeat 6px 6px;
+    border:1px solid #b5b5b5;
+    border-top:1px solid #919191;
+    margin-bottom:10px;
+    padding:5px;
+    padding-left:28px;
+    position:relative;
+}
+
+.modal.activity #activity-text.disabled{
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    background:transparent;
+    border-radius:0;
+    color:#70726d;
+    height:75px;
+    padding:0;
+    padding-top:5px;
+}
+
+.modal.activity #activity-text{
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    background:transparent;
+    border:none transparent;
+    box-shadow:none;
+    color:#000;
+    height:80px;
+    font:normal 12px/130% Arial, sans-serif;
+    padding:0;
+    width:100%;
+}
+
+.modal.activity label{
+    font-size:12px;
+    margin-top:2px;
+}
+
+.modal.activity label
+, .modal.activity div.custom-select{
+    float:left;
+    margin-right:10px;
+}
+
+.modal.activity div.custom-select{
+    background:url("../img/bg_select.jpg") no-repeat;
+    display:block;
+    height:12px;
+    overflow:hidden;
+    padding:6px;
+    position:relative;
+    width:113px;
+}
+
+.modal.activity div.custom-select div.inner{
+    overflow:hidden;
+    width:93px;
+}
+
+.modal.activity div.custom-select div.inner span{
+    display:block;
+    font-size:12px;
+    line-height:100%;
+    width:300px;
+}
+
+.modal.activity div.custom-select select{
+    height:24px;
+    left:0;
+    opacity:0;
+    position:absolute;
+    top:0;
+    width:125px;
+}
+
+.modal.activity span.custom-select option{
+    padding:3px 5px;
+}
+
+.modal.activity button{
+    background:#1ED7A5;
+    border:1px solid #5fba97;
+    color:#fff;
+    cursor:pointer;
+    display:block;
+    float:right;
+    font-size:12px;
+    font-weight:bold;
+    margin-top:-1px;
+    padding:3px;
+    text-decoration:none;
+    text-shadow:-1px 1px 0 #58b26c;
+}

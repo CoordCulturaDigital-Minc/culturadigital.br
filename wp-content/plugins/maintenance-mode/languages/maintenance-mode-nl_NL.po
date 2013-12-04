@@ -1,0 +1,267 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Maintenance Mode v4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-12-31 22:56+0100\n"
+"Last-Translator: Michael <michael dot woehrer at gmail dot com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc.swg-plugin-framework.php:81
+#: inc.swg-plugin-framework.php:82
+msgid "Settings"
+msgstr "Instellingen"
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:91
+msgid "Plugin"
+msgstr "Plugin"
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:93
+msgid "Plugin's Homepage"
+msgstr "Plugin homepage"
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:94
+msgid "WordPress Support"
+msgstr "Ondersteuning WordPress"
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:95
+msgid "Other Plugins I've Written"
+msgstr "Andere door mij geschreven plugins"
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:98
+msgid "Do you like this plugin?"
+msgstr "Wat vind je van deze plugin?"
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:99
+msgid "I spend a lot of time on the plugins I've written for WordPress. Any donation would be highly appreciated."
+msgstr "Ik besteed behoorlijk wat tijd aan het schrijven van plugins voor WordPress. Elke donatie wordt enorm gewaardeerd."
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:101
+msgid "Donate via PayPal"
+msgstr "Doneer via PayPal"
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:102
+msgid "My Amazon Wish List"
+msgstr "Mijn Amazon-wenslijst"
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:120
+msgid "The activated plugin"
+msgstr "De geactiveerde plugin"
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:121
+msgid "is not compatible with your installed WordPress"
+msgstr "is niet compatibel met de geïnstalleerde WordPress-versie"
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:122
+msgid "WordPress version"
+msgstr "WordPress-versie"
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:122
+msgid "or higher is required when using this plugin, please deactivate it."
+msgstr "of hoger is verplicht voor het gebruik van deze plugin. Deactiveer deze a.u.b."
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:348
+msgid "You do not have permission to modify the options"
+msgstr "Je hebt geen rechten om de opties aan te passen."
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:370
+msgid "Settings deleted/reset."
+msgstr "Instellingen verwijderd/opniew ingesteld."
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:372
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen."
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:408
+msgid "Plugin Settings"
+msgstr "Plugin-instellingen"
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:421
+#: maintenance-mode.php:146
+msgid "Save Changes"
+msgstr "Bewaar wijzigingen"
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:422
+msgid "Do you really want to delete/reset the plugin settings?"
+msgstr "Weet je zeker dat je de instellingen van deze plugin wilt verwijderen/opnieuw wilt instellen?"
+
+#@ ShortName
+#: inc.swg-plugin-framework.php:422
+msgid "Delete/Reset Settings"
+msgstr "Verwijder instellingen/Stel opnieuw in"
+
+#@ ShortName
+#: maintenance-mode.php:90
+msgid "The Maintenance Mode is active. Please don't forget to"
+msgstr "De onderhoudsmodus is actief. Vergeet niet om deze te"
+
+#@ ShortName
+#: maintenance-mode.php:90
+msgid "deactivate"
+msgstr "deactiveren"
+
+#@ ShortName
+#: maintenance-mode.php:90
+msgid "it as soon as you are done."
+msgstr "zodra je klaar bent."
+
+#@ ShortName
+#: maintenance-mode.php:133
+msgid "Activate/Deactivate Maintenance Mode"
+msgstr "Activeer/Deactiveer onderhoudsmodus"
+
+#@ ShortName
+#: maintenance-mode.php:138
+msgid "Activated"
+msgstr "Ingeschakeld"
+
+#@ ShortName
+#: maintenance-mode.php:141
+msgid "Deactivated"
+msgstr "Uitgeschakeld"
+
+#@ ShortName
+#: maintenance-mode.php:152
+#: maintenance-mode.php:159
+msgid "Message"
+msgstr "Boodschap"
+
+#@ ShortName
+#: maintenance-mode.php:155
+msgid "Title"
+msgstr "Titel"
+
+#@ ShortName
+#: maintenance-mode.php:161
+msgid "Use HTML only, no PHP allowed. You can use <strong>[blogurl]</strong>, <strong>[blogtitle]</strong> and <strong>[backtime]</strong> as placeholders."
+msgstr "Gebruik alleen HTML, PHP is niet toegestaan. Je kunt <strong>[blogurl]</strong>, <strong>[blogtitle]</strong> en <strong>[backtime]</strong> als variabelen gebruiken."
+
+#@ ShortName
+#: maintenance-mode.php:165
+msgid "Use 503.php"
+msgstr "Gebruik 503.php"
+
+#@ ShortName
+#: maintenance-mode.php:166
+msgid "With the following option activated the plugin will use the file '503.php' from the current theme directory for the splash page instead using 'maintenance-mode_site.php' from the plugin directory; If there is no '503.php', it will use the default file 'maintenance-mode_site.php'."
+msgstr "Als de volgende optie is geactiveerd, zal de plugin het bestand '503.php' van de huidige themafolder gebruiken voor de onderhoudspagina in plaats van het bestand 'maintenance-mode_site.php' vanuit de plugin-map; als er geen '503.php'-bestand is, zal de plugin het standaardbestand 'maintenance-mode_site.php' gebruiken."
+
+#@ ShortName
+#: maintenance-mode.php:167
+msgid "So this option will help using a customized splash page without the fear of losing this page when updating the plugin."
+msgstr "Deze optie zorgt er dus voor dat je een aangepaste onderhoudspagina kunt gebruiken zonder dat deze aanpassingen bij een volgende update van de plugin verloren gaan."
+
+#@ ShortName
+#: maintenance-mode.php:168
+msgid "Please note that you can't use WordPress theme functions (e.g. <em>get_sidebar()</em>, etc.) in the '503.php'."
+msgstr "Let op dat je geen WordPress-themafuncties (b.v. <em>get_sidebar()</em>, enz.) in het bestand '503.php' kunt gebruiken."
+
+#@ ShortName
+#: maintenance-mode.php:172
+msgid "Use 503.php from within the theme directory for the splash page"
+msgstr "Gebruik 503.php uit de themafolder voor de onderhoudspagina."
+
+#@ ShortName
+#: maintenance-mode.php:176
+msgid "Backtime and HTTP header"
+msgstr "Verwachte tijd en HTTP header"
+
+#@ ShortName
+#: maintenance-mode.php:179
+msgid "Backtime in minutes"
+msgstr "Verwachte onderhoudstijd in minuten"
+
+#@ ShortName
+#: maintenance-mode.php:181
+msgid "A special HTML header for feed and trackback will be applied (&laquo;503 Service Unavailable&raquo;) including 'retry after x minutes'. Enter here the approximate time in minutes to retry. Also, by using the placeholder <strong>[backtime]</strong> above, the time in minutes be displayed to the visitors as well."
+msgstr "Een speciale HTML header voor de feed en trackbacks zal worden toegepast (&laquo;503 Service Unavailable&raquo;), inclusief 'retry after x minutes' (<em>'probeer over X minuten'</em>). Vul de geschatte tijd in minuten in waarop de blog weer beschikbaar zal zijn. Als je hierboven de variable <strong>[backtime]</strong> hebt gebruikt, zal het aantal minuten ook aan je bezoekers worden getoond."
+
+#@ ShortName
+#: maintenance-mode.php:186
+msgid "Apply HTTP header '503 Service Unavailable' and 'Retry-After &lt;backtime&gt;' to Maintenance Mode splash page"
+msgstr "Activeer HTTP header '503 Service Unavaible' en 'Retry-After &lt;backtime&gt;' voor de onderhoudspagina."
+
+#@ ShortName
+#: maintenance-mode.php:190
+msgid "Paths to be still accessable"
+msgstr "Bereikbare locaties tijdens onderhoud"
+
+#@ ShortName
+#: maintenance-mode.php:192
+msgid "Enter paths that shall be excluded and still be accessable. Separate multiple paths with line breaks.<br />Example: If you want to exclude <em>http://site.com/about/</em>, then enter <em>/about/</em>."
+msgstr "Vul hier de locaties in die ook tijdens het onderhoud nog beschikbaar moeten blijven. Scheid meerdere paden met een Enter.<br/>Voorbeeld: als je een uitzondering wilt maken voor <em>http://site.com/about/</em>, vul dan <em>/about/</em> in."
+
+#@ ShortName
+#: maintenance-mode.php:197
+msgid "Permissions"
+msgstr "Rechten"
+
+#@ ShortName
+#: maintenance-mode.php:198
+msgid "How to permit blog editors to see the blog's front-end"
+msgstr "Blogpagina's zichtbaar houden voor blog editors"
+
+#@ ShortName
+#: maintenance-mode.php:199
+msgid "As soon as you activate the maintenance mode, a splash page is being added to your blog that informs visitors about your blog maintenance. Logged in administrators get full access to the blog including the front-end and will not see any splash page.<br />This plugin adds the capability 'access_on_maintenance' to the role 'Administrator'. If users with a specific role, for instance 'Editor', should get full access to the blog as well, use an appropriate plugin like"
+msgstr "Zodra je de onderhoudsmodus activeert, zal een onderhoudspagina aan je blog worden toegevoegd die bezoekers over je geplande onderhoud informeert. Ingelogde administrators hebben volledige toegang tot de blog, inclusief de voorpagina en andere artikelen en zullen geen onderhoudspagina te zien krijgen.</br>Deze plugin voegt de rechtenoptie 'access_on_maintenance' (<em>toegang tijdens onderhoud</em>) toe aan de Beheerder-rol. Als gebruikers met een specifieke rol, bijvoorbeeld 'Editor', ook volledige toegang tot de blog moeten krijgen, gebruik dan een specifieke plugin zoals"
+
+#@ ShortName
+#: maintenance-mode.php:201
+msgid "and grant the capability 'Access On Maintenance' for the role 'Editor' or for any other role of your choice. <br />Check out"
+msgstr "en stel de rechtenoptie 'Access On Maintenance' in voor de Editor-rol of elke andere rol naar keuze. <br />Lees"
+
+#@ ShortName
+#: maintenance-mode.php:203
+msgid "for further information."
+msgstr "voor verdere informatie."
+
+#@ ShortName
+#: maintenance-mode.php:205
+msgid "How to deny non-administrators to access the blog's back-end (in addition to not see the front-end)"
+msgstr "Niet-beheerders de toegang tot WordPress Dashboard ontzeggen"
+
+#@ ShortName
+#: maintenance-mode.php:206
+msgid "By activating the following option, you can prevent users that do not have the capability 'access_on_maintenance' from being able to access the back-end (the WordPress' administration) too. This plugin adds the capability 'access_on_maintenance' to the role 'Administrator', so any other roles (like editors, authors, etc.) will not have access to the back-end after activating the following option."
+msgstr "Door de volgende optie te activeren kun je voorkomen dat gebruikers die niet de rechtenoptie 'access_on_maintenance' hebben toch toegang krijgen tot het WordPress Dashboard (de blog-adminomgeving). Deze plugin voegt de rechtenoptie 'access_on_maintenance' (<em>toegang tijdens onderhoud</em>) toe aan de Beheerder-rol. Elke gebruiker met een andere gebruikersrol (Editors, Auteurs) zal geen toegang hebben tot de admin-omgeving als de volgende optie geactiveerd wordt."
+
+#@ ShortName
+#: maintenance-mode.php:209
+msgid "Deny non-administrators to access the blog's back-end"
+msgstr "Verbied niet-beheerders de toegang tot de admin-omgeving"
+
+#@ ShortName
+#: maintenance-mode_site.php:64
+msgid "(Access to administration denied by administrator)"
+msgstr "(Toegang tot admin-omgeving beperkt door beheerder)"
+
