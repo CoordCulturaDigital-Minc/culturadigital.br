@@ -1,9 +1,4 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Motion
- */
-get_header(); ?>
+<?php get_header(); ?>
 
 <div id="main">
 
@@ -25,7 +20,7 @@ get_header(); ?>
 				<h2 class="posttitle"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 				<div class="postmetatop">
 					<div class="categs">Filed Under: <?php the_category( ', ' ); ?>  by <?php the_author() ?>  &mdash; <?php comments_popup_link( __( 'Leave a comment' ), __( '1 Comment' ), __( '% Comments' ) ) ?></div>
-					<div class="date"><span><?php the_time( get_option( 'date_format' ) ); ?></span></div>
+					<div class="date"><span><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_time( get_option( 'date_format' ) ); ?></a></span></div>
 				</div>
 			</div>
 

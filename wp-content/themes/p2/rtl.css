@@ -4,16 +4,21 @@ RTL: yoav@automattic.com
 */
 
 /* The RTL Basics ---------------------------------- */
-body {direction:rtl; unicode-bidi:embed;}
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
 /* -------------------------------------------- */
 
 /* The Reset ---------------------------------- */
-caption,th { text-align: right; }
+caption,th {
+	text-align: right;
+}
 /* -------------------------------------------- */
 
 dd {
 	margin-right: 2em;
-	margin-left:0;
+	margin-left: 0;
 }
 blockquote {
 	padding-right: 8px;
@@ -24,8 +29,6 @@ blockquote {
 }
 #postbox {
 	padding: 16px 14px 16px 15px;
-	margin-left: 1px;
-	margin-right: 0;
 }
 #postbox .avatar {
 	float: right;
@@ -34,7 +37,11 @@ blockquote {
 	padding-right: 60px;
 	padding-left: 0;
 }
-
+.inputarea .add_media:after {
+	float: left;
+	margin-left: 0;
+	margin-right: 5px;
+}
 #postbox input#tags {
 	float: right;
 }
@@ -53,7 +60,18 @@ blockquote {
 #main .controls {
 	left: 0;
 	right: auto;
+	text-align: left;
 }
+#main h4 {
+	margin-left: 0;
+	margin-right: 55px;
+}
+
+#main .inlinecomments h4  {
+	margin-left: 0;
+	margin-right: 37px;
+}
+
 #main img.avatar {
 	float: right;
 	margin-left: 10px;
@@ -79,9 +97,9 @@ h2 img {
 	margin-left: 12px;
 	margin-right: 0;
 }
-	.postcontent ul, .postcontent ol, .commentcontent ul, .commentcontent ol {
-		margin: 10px 50px 10px 0 !important;
-	}
+.postcontent ul, .postcontent ol, .commentcontent ul, .commentcontent ol {
+	margin: 10px 50px 10px 0 !important;
+}
 #postpage #respond {
 	margin-right: 72px;
 	margin-left: 0;
@@ -92,7 +110,7 @@ h2 img {
 }
 .textedit {
 	margin-right: 0;
-	margin-left:auto;
+	margin-left: auto;
 }
 #main .commentlist #respond.replying {
 	margin-right: 44px;
@@ -121,29 +139,13 @@ h2 img {
 	margin-right: 47px;
 	margin-left: 0;
 }
-.rss {
-	float: left;
-	background-position: bottom right;
-	padding-right: 14px;
-	padding-left: 0;
-}
-.allrss {
-	background-position: center right;
-	padding-right: 14px;
-	padding-left: 0;
-}
-h2 .rss {
-	background-position: bottom right;
-	padding-right: 16px;
-	padding-left: 0;
-}
 .sleeve_main {
 	margin-left: 242px;
 	margin-right: 0;
 }
 #sidebar {
 	margin-right: -1px;
-	margin-left:0;
+	margin-left: 0;
 	float: left;
 }
 #sidebar ul li ul li {
@@ -174,7 +176,6 @@ h2 .rss {
 	margin-right: 18px;
 	margin-left: 0;
 }
-
 img.wp-smiley {
 	padding: 0 3px 0 0 !important;
 }
@@ -190,27 +191,38 @@ a.hidemessage {
 .ac_results li {
 	text-align: right;
 }
+#respond p.comment-form-author, #respond p.comment-form-email, #respond p.comment-form-url {
+	float: right;
+	margin-right: auto;
+	margin-left: 1.11%;
+}
+#respond p.logged-in-as, #respond p.must-log-in, #respond p.comment-notes {
+	right: auto;
+	left: 0;
+	margin-right: auto;
+	margin-left: 5%;
+}
 .progress {
 	padding-right: 20px;
 	padding-left: 0;
 	right: 37px;
-	left:auto;
+	left: auto;
 }
 #newCommentsIndicator {
 	right: 0;
-	left:auto;
+	left: auto;
 }
 #settings {
 	float: right;
 }
 #help {
 	right: 50%;
-	left:auto;
+	left: auto;
 	margin: -10% -25% 0 0;
 }
 #notify {
 	right: 50%;
-	left:0;
+	left: 0;
 	margin: -10% -10% 0 0;
 }
 #help dd, #help dt {
@@ -221,7 +233,7 @@ a.hidemessage {
 	padding-right: 0;
 	clear: right;
 }
-#userpage  ul {
+#userpage ul {
 	clear: right;
 }
 .postcontent {
@@ -229,8 +241,8 @@ a.hidemessage {
 	padding-left: 0;
 }
 .page .postcontent {
-padding-right: 0;
-padding-left: auto;
+	padding-right: 0;
+	padding-left: auto;
 }
 div.entry {
 	margin-left: 248px; /* compensate for sidebar */
@@ -238,50 +250,48 @@ div.entry {
 }
 .discussion p img {
 	margin-left: 0px !important;
-	margin-right: auto;
 }
 .p2-recent-comments .avatar {
 	margin-left: 8px;
 	margin-right: 0;
 }
 #post-types {
+	float: right;
 	margin-right: 60px;
 	margin-left: 0;
+}
+#post-types li {
+	float: right;
 }
 #post-types li a {
 	border-right-width: 1px;
 	border-left-width: 2px;
 	border-right-color: #f5f5f5;
 	border-left-color: #eee;
+	float: right;
 }
 #post-types li a:active {
 	border-right-width: 2px;
 	border-left-width: 1px;
 }
-#post-types #status {
-	padding-right: 24px;
-	padding-left: 6px;
-	background-position: 97% center;
+.post-format-button:before {
+	float: right;
+	margin-right: 0;
+	margin-left: 5px;
 }
-#post-types #quote {
-	padding-right: 24px;
-	padding-left: 6px;
-	background-position: 97% center;
-}
-#post-types #link {
-	padding-right: 24px;
-	padding-left: 6px;
-	background-position: 97% center;
-}
-#post-types #post {
-	padding-right: 24px;
-	padding-left: 6px;
-	background-position: 97% center;
-}
-
 .discussion p a img {
 	margin-left: 0px !important;
 	margin-right: auto;
+}
+.navigation p {
+	float: right;
+}
+.navigation p.nav-newer {
+	float: left;
+	text-align: left;
+}
+.attachment .navigation {
+	clear: right;
 }
 
 /*
@@ -293,13 +303,8 @@ div.entry {
 #postbox label {
 	float: right;
 }
-
 #wrapper {
-	background: url( i/sidebar_back-rtl.gif ) top left repeat-y;
-}
-#postbox {
-	margin-left: -1px;
-	margin-right: 0;
+	background: #fff url( i/sidebar_back-rtl.gif ) top left repeat-y;
 }
 
 /*
@@ -316,9 +321,11 @@ h1, h2, h3, #postbox label, #help dd {
 code, pre {
 	font-family: Monaco, Consolas, "Courier New", monospace;
 }
-.category-quote blockquote cite {
+.category-quote blockquote cite,
+.format-quote blockquote cite {
 	text-align: left;
 }
+.format-quote blockquote cite:before,
 .category-quote blockquote cite:before {
 	content: "— ";
 }
@@ -336,7 +343,6 @@ code, pre {
 	right: 0;
 	left: auto;
 }
-
 .postcontent table {
 	border-width: 0 0 1px 1px;
 }

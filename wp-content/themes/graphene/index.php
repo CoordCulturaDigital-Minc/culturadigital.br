@@ -8,20 +8,27 @@
  * E.g., it puts together the home page when no home.php file exists.
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package WordPress
- * @subpackage Graphene
+ * @package Graphene
  * @since Graphene 1.0
  */
-
+global $graphene_settings;
 get_header(); ?>
 
-	<?php
+	<div class="entries-wrapper">
+	<?php	
+	do_action('graphene_index_pre_loop');
+	
     /* Run the loop to output the posts.
-     * If you want to overload this in a child theme then include a file
-     * called loop-index.php and that will be used instead.
-     */
-     get_template_part('loop', 'index');
-    ?>
+	 * If you want to overload this in a child theme then include a file
+	 * called loop-index.php and that will be used instead.
+	*/	
+	while ( have_posts() ) {
+		the_post(); 
+		get_template_part( 'loop', 'index' );
+	}
+	?>
+    </div>
+    
+    <?php graphene_posts_nav(); ?>
             
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

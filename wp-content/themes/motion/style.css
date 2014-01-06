@@ -1,19 +1,18 @@
 /*
 Theme Name: Motion
-Theme URI: http://85ideas.com/public-releases/wordpress-theme-motion/
+Theme URI: http://www.webdesigncompany.net/motion
 Description: Dark and colorful theme with sweet transparency characteristics. Drop-down categories menu, 2-column layout and widget-ready footer and sidebar.
-Author: Sam @ 85ideas
-Author URI: http://85ideas.com/
-Version: 1.0.7
+Author: Volcanic Web Design Company
+Author URI: http://www.webdesigncompany.net/
+Version: 1.1.6
 Tags: black, blue, green, dark, two-columns, sticky-post, threaded-comments, fixed-width, right-sidebar
 
 	Adapted for WordPress.com by Automattic, January 2010
-
-	This theme was designed and built for the WordPress CMS and is copyright 85ideas.com.
+	This theme was designed and built for the WordPress CMS and is copyright Volcanic
 	Modify, adapt, and customize for your own site at will!
 
-	The CSS, XHTML and design of this theme are released under GPL:
-	http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+	License: GNU General Public License v2.0
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 
@@ -174,28 +173,28 @@ form label.subscribe-label {
 /************************************************
 * Header *
 ************************************************/
-#top #topmenu {
+#top .top_menu {
 	float: left;
 	width: 640px;
 }
-#top #topmenu li {
+#top .top_menu li {
 	float: left;
 	background: url(images/whitetrans.png);
 	padding: 0 .8em .2em .8em;
 	line-height: 1.5em;
 	margin: 0 .4em .4em 0;
 }
-#top #topmenu li:hover, #top #topmenu li.current_page_item {
+#top .top_menu li:hover, #top .top_menu li.current_page_item {
 	background: url(images/blacktrans.png);
 }
-#top #topmenu li a {
+#top .top_menu li a {
 	color: #fff;
 	font-size: .75em;
 }
-#top #topmenu li a:hover {
+#top .top_menu li a:hover {
 	color: #a8ef9d;
 }
-#top #topmenu li a.rss {
+#top .top_menu li a.rss {
 	background: url(images/rsstrans.png) left 2px no-repeat;
 	padding-left: 17px;
 }
@@ -228,7 +227,7 @@ form label.subscribe-label {
 #top .submitbutton:hover {
 	background: url(images/whitetrans.png);
 }
-#top, #header, #catnav {
+#top, #header, .primary_menu {
 	overflow: hidden;
 	width: 100%;
 }
@@ -281,60 +280,60 @@ form label.subscribe-label {
 #header #headerbanner a:hover {
 	background: url(images/blacktrans.png);
 }
-#catnav {
+.primary_menu {
 	width: 980px;
 	background: url(images/blacktrans.png);
 }
-#nav li {
+.primary_menu li {
 	float: left;
 	background: url(images/blacktrans.png);
 	line-height: 2em;
 	margin: 5px 0 5px 5px;
 }
-#nav li:hover {
+.primary_menu li:hover {
 	background: url(images/blacktrans2.png);
 }
-#nav li a {
+.primary_menu li a {
 	display: block;
 	margin: 0;
 	font-size: 0.8em;
 	color: #fff;
 	padding: 0 13px;
 }
-#nav li a:hover {
+.primary_menu li a:hover {
 	color: #afdaff;
 	text-decoration: none;
 	display: block;
 }
-#nav li ul {
+.primary_menu li ul {
 	position: absolute;
 	width: 180px;
 	left: -999em;
 	padding-top: 5px;
 	margin: 0;
 }
-#nav li:hover ul,#nav li.sfhover ul {
+.primary_menu li:hover ul,.primary_menu li.sfhover ul {
 	left: auto;
 }
-#nav li li {
+.primary_menu li li {
 	padding: 0;
 	margin: 0;
 	width: 180px;
 	line-height: 1.5em;
 }
-#nav li li a {
+.primary_menu li li a {
 	color: #fff;
 	margin: 0;
 	padding: 7px 13px;
 	background: url(images/blacktrans3.png);
 }
-#nav li li ul li {
+.primary_menu li li ul li {
 	margin-left: 13px;
 }
-#nav li li a:hover {
+.primary_menu li li a:hover {
 	color: #afdaff;
 }
-#nav li:hover,#nav li.sfhover {
+.primary_menu li:hover,.primary_menu li.sfhover {
 	position:static; /* prevents IE7 drop-down menu bug (focus on a page element prevents nested menus from disappearing) */
 }
 
@@ -356,9 +355,10 @@ h2#contentdesc {
 	font-weight: normal;
 	font-size: 1.3em;
 	padding-bottom: 15px;
+	color: #ccc;
 }
 h2#contentdesc span {
-	color: #a8ef9d;
+	color: white;
 }
 .post {
 	padding: 0 0 35px 0;
@@ -491,7 +491,7 @@ h2#contentdesc span {
 	background: url(images/more.png) left 4px no-repeat;
 	padding-left: 17px;
 }
-.postmetaauthor {
+.postmetaauthor, .bypostauthor {
 	background: url(images/blacktrans.png);
 	padding: 10px;
 	font-size: 0.8em;
@@ -599,7 +599,7 @@ h2#contentdesc span {
 	font-size: 1em;
 	font-weight: normal;
 }
-#comments ul.commentlist li {
+#comments ul.commentlist li.comment {
 	background: url(images/blacktrans.png);
 	clear: both;
 	margin: 10px 0 0 0;
@@ -651,6 +651,34 @@ h2#contentdesc span {
 	color: #eee;
 	border-bottom: 1px dashed #b9ff9d;
 }
+
+#comments .commentbody h1, 
+#comments .commentbody h2, 
+#comments .commentbody h3, 
+#comments .commentbody h4, 
+#comments .commentbody h5, 
+#comments .commentbody h6{
+  font-weight: bold;
+}
+
+#comments .commentbody h1{
+  font-size: 1.8em;
+}
+
+#comments .commentbody h2{
+  font-size: 1.4em;
+}
+
+#comments .commentbody h3, #comments .commentbody h4, #comments .commentbody h5, #comments .commentbody h6{
+  font-size: 1.2em;
+}
+
+
+#comments .commentbody li{
+  
+}
+
+
 #comments .reply a {
 	margin-top: 5px;
 	padding: 5px;
@@ -703,7 +731,7 @@ h2#contentdesc span {
 #comments #respond p {
 	padding: .5em 0 0 0;
 }
-#comments #respond p label {
+#comments #respond p label, .logged-in-as {
 	font-size: .8em;
 	font-weight: normal;
 }
@@ -714,20 +742,24 @@ h2#contentdesc span {
 	font-size: .8em;
 	border: none;
 }
-#comments #respond .submitbutton {
+#comments #respond #submit {
 	color: #fff;
 	background: url(images/blacktrans3.png);
 	padding: 6px;
 	line-height: 1.4em;
 	font-size: .8em;
 }
-#comments #respond .submitbutton:hover {
+#comments #respond #submit:hover {
 	cursor: pointer;
 	color: #a8ef9d;
 }
 #comments #respond p.subscribe-to-comments label {
 	display: inline;
 	margin-left: 4px;
+}
+
+#comments #respond .required{
+  display: none;
 }
 
 /************************************************
@@ -918,7 +950,8 @@ li#tagbox a:hover {
 	font-size: 0.7em;
 	line-height: 1.4em;
 }
-#credits a {
+
+#credits a, #credits .company {
 	color: #ddd;
 }
 #credits a:hover {
@@ -985,4 +1018,13 @@ img.aligncenter {
 	line-height: 17px;
 	padding: 0 4px 5px;
 	margin: 0;
+}
+
+.gallery-caption{
+  text-align: center;
+	background: url(images/blacktrans.png);
+}
+
+.form-allowed-tags{
+  display: none;
 }

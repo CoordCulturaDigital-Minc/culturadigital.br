@@ -1,13 +1,6 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Motion
- */
-?>
-
 <div id="sidebar">
 	<ul>
-	<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar( 'sidebar' ) ) : ?>
+	<?php if ( !dynamic_sidebar( 'sidebar' ) ) : ?>
 
 		<li class="boxed">
 			<h3>Recent entries</h3>

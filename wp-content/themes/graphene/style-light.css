@@ -1,34 +1,96 @@
 #top-bar {
-	background:url("images/sprite_h_light.png") repeat-x scroll left -196px #eee;
+	background: url("images/sprite_h_light.png") repeat-x scroll left -196px #eee;
+	border-color:#bbb;
 }
-#nav {
-	background:url("images/sprite_h_light.png") repeat-x scroll left top #eee;
+#header {
+	border-color:#999;
 }
-#menu li a, #menu li a:visited{
-	color:#000;
+
+
+/* Top level header menu, default state */
+#header-menu-wrap {
+	background: url(images/sprite_h.png) left -300px repeat-x #ddd;
+	border-bottom: 1px solid #ddd;
 }
-#menu li:hover a, #menu li:hover a:visited, #menu li.current_page_item a, #menu li.current_page_ancestor a, #menu li.current_page_parent a, #menu li.current_page_item a:visited, #menu li.current_page_ancestor a:visited, #menu li.current_page_parent a:visited{
-	color:#DFEDFF;
-	background:#000;
+#header-menu > li > a {
+	color: #000;
 }
-#menu li:hover, #menu li.sfhover, #menu li.current_page_item, #menu li.current_page_ancestor, #menu li.current_page_parent{
-	background:url("images/sprite_h_light.png") repeat-x scroll left -66px #000;
+#header-menu > li > a > span {
+	color: #484848;
 }
-#menu li:hover li a, #menu li:hover li a:visited{
-	color:#000;
-	background:#fff;
-	}
-#menu li.current_page_item > a, #menu li.current_page_ancestor > a, #menu li.current_page_parent > a, #menu li.current_page_item > a:visited, #menu li.current_page_ancestor > a:visited, #menu li.current_page_parent > a:visited{
-	color:#DFEDFF !important;
-	background:#000 !important;
+#header-menu > li.menu-item-ancestor > a {
+	background: url(images/sprite_master.png) -877px -192px no-repeat transparent;
 }
-#menu li.current_page_item a li a, a#menu li.current_page_ancestor a li a, a#menu li.current_page_parent a li a, a#menu li.current_page_item a li a:visited, #menu li.current_page_ancestor a li a:visited, #menu li.current_page_parent a li a:visited{
-	color:#000 !important;
-	background:#fff !important;
+.rtl #header-menu > li.menu-item-ancestor > a {
+	background-position: right -60px;	
 }
-#rss a {
-	background:url("images/sprite_master_light.png") no-repeat scroll left top transparent;
+
+/* Top level header menu, hover and current state */
+#header-menu > li:hover,
+#header-menu > li.current-menu-item,
+#header-menu > li.current-menu-ancestor {
+	background: url(images/sprite_h.png) left -4px repeat-x #eee;
 }
+#header-menu > li:hover > a,
+#header-menu > li.current-menu-item > a,
+#header-menu > li.current-menu-ancestor > a {
+	color: #fff;
+}
+#header-menu > li:hover > a > span,
+#header-menu > li.current-menu-item > a > span,
+#header-menu > li.current-menu-ancestor > a > span {
+	color: #aaa;
+}
+#header-menu > li.menu-item-ancestor:hover > a,
+#header-menu > li.current-menu-item > a,
+#header-menu > li.current-menu-ancestor > a {
+	background-position: -877px -236px;
+}
+.rtl #header-menu > li.menu-item-ancestor:hover > a,
+.rtl #header-menu > li.current-menu-item > a,
+.rtl #header-menu > li.current-menu-ancestor > a {
+	background-position: right -104px;
+}
+
+
+/* Secondary menu */
+/* Top level, default state */
+#secondary-menu-wrap {
+	border-top: 1px solid #fff;
+	background: url(images/sprite_h.png) left -1014px repeat-x #222;
+}
+#secondary-menu > li > a {
+	color: #000;
+}
+#secondary-menu > li.menu-item-ancestor > a {
+	background: url(images/sprite_master.png) -877px -283px no-repeat transparent;
+}
+.rtl #secondary-menu > li.menu-item-ancestor > a {
+	background-position: right -151px;
+}
+
+/* Top level, hover and current state */
+#secondary-menu > li:hover,
+#secondary-menu > li.current-menu-item,
+#secondary-menu > li.current-menu-ancestor {
+	background: url(images/sprite_h.png) left -940px repeat-x #eee;
+}
+#secondary-menu > li:hover > a,
+#secondary-menu > li.current-menu-item > a,
+#secondary-menu > li.current-menu-ancestor > a {
+	color: #fff;
+}
+#secondary-menu > li.menu-item-ancestor:hover > a,
+#secondary-menu > li.current-menu-item > a,
+#secondary-menu > li.current-menu-ancestor > a {
+	background-position: -877px -316px;
+}
+.rtl #secondary-menu > li.menu-item-ancestor:hover > a,
+.rtl #secondary-menu > li.current-menu-item > a,
+.rtl #secondary-menu > li.current-menu-ancestor > a {
+	background-position: right -184px;
+}
+
 #top_search button {
-	background:url("images/sprite_master_light.png") no-repeat scroll -38px top transparent;
+	background: url("images/sprite_master_light.png") no-repeat scroll -38px top transparent;
 }

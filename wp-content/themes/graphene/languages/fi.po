@@ -1,0 +1,3378 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Graphene theme for WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-24 12:12+0800\n"
+"PO-Revision-Date: 2013-08-28 21:39+0800\n"
+"Last-Translator: Syahir Hakim <syahir@khairul-syahir.com>\n"
+"Language-Team: \n"
+"Language: Finnish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr_e;esc_attr__;_x:2c,1;_c;"
+"_n_noop:1,2;_nc:1,2;_ngettext:1,2;_ngettext_noop:1,2;_ex:2c,1;esc_html__;"
+"esc_html_e;esc_attr_x:2c,1;esc_html_x:2c,1\n"
+"X-Poedit-Basepath: D:\\MyVault\\MyProjects\\Websites\\theme-graphene\\site"
+"\\wp-content\\themes\\graphene-trunk\\\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:23
+#, php-format
+msgid "Searching for: <span>%s</span>"
+msgstr "Etsitään: <span>%s</span>"
+
+#: 404.php:29 search-404.php:3
+msgid "Error 404 - Page Not Found"
+msgstr "Virhe 404- sivua ei löytynyt"
+
+#: 404.php:31 search-404.php:5
+msgid ""
+"Sorry, I've looked everywhere but I can't find the page you're looking for."
+msgstr ""
+"Valitettavasti, olen etsinyt jokapuolelta, mutta en löydä etsimääsi sivua."
+
+#: 404.php:32 search-404.php:6
+msgid ""
+"If you follow the link from another website, I may have removed or renamed "
+"the page some time ago. You may want to try searching for the page:"
+msgstr ""
+"Jos seurasit linkkiä toiselta sivulta, olen voinut poistaa tai uudelleen "
+"nimetä sivun. Voit yrittää uudestaan etsimällä sivua:"
+
+#: 404.php:40
+msgid "Automated search"
+msgstr "Automaattinen etsintä"
+
+#: 404.php:43
+#, php-format
+msgid "Searching for the terms <strong>%s</strong> ..."
+msgstr "Etsitään hakutermeillä <strong>%s</strong> ...."
+
+#: archive.php:24
+#, php-format
+msgid "Daily Archive: %s"
+msgstr "Päivittäinen arkisto: %s"
+
+#: archive.php:26
+#, php-format
+msgid "Monthly Archive: %s"
+msgstr "Kuukausi arkisto: %s"
+
+#. translators: F will be replaced with month, and Y will be replaced with year, so "F Y" in English would be replaced with something like "June 2008".
+#: archive.php:28
+msgid "F Y"
+msgstr "K V"
+
+#: archive.php:30
+#, php-format
+msgid "Yearly Archive: %s"
+msgstr "Vuosi arkisto:%s"
+
+#: archive.php:32
+msgid "Blog Archive"
+msgstr "Blogiarkisto"
+
+#: author.php:32
+msgid "Author's posts listings"
+msgstr "Kirjoittajan kirjoitukset listana"
+
+#: category.php:13
+#, php-format
+msgid "Category Archive: <span>%s</span>"
+msgstr "Kategoria arkisto: <span>%s</span>"
+
+#: comments.php:25
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Tämä julkaisu on salasana suojattu. Syötä salasana jotta näet kommentit."
+
+#: comments.php:50 loop-author.php:85 loop-post-formats.php:52 loop.php:164
+#, fuzzy, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "1 kommentti"
+msgstr[1] "%d kommenttia"
+
+#: comments.php:52
+#, fuzzy, php-format
+msgid "%s ping"
+msgid_plural "%s pings"
+msgstr[0] "1 ping"
+msgstr[1] "%d pingiä"
+
+#: comments.php:72
+msgid "Skip to comment form"
+msgstr "Hyppää kommentti lomakkeelle"
+
+#: comments.php:114
+msgid "Comments have been disabled."
+msgstr "Kommentit eivät ole päällä."
+
+#: comments.php:131
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+"Voit käyttää näitä <abbr title=\"HyperText Markup Language\">HTML</abbr> "
+"tageja ja attribuutteja: %s"
+
+#: comments.php:138
+msgid "Submit Comment"
+msgstr "Lähetä kommentti"
+
+#: footer.php:42
+msgid "Copyright"
+msgstr "Oikeudet"
+
+#. translators: %s will replaced by a link to the Creative Commons licence page, with "Creative Commons Licence" as the link text.
+#: footer.php:57
+#, php-format
+msgid ""
+"Except where otherwise noted, content on this site is licensed under a %s."
+msgstr "Ellei toisin mainita, tämän sivuston sisältö on %s lisenssin alaista."
+
+#: footer.php:57
+msgid "Creative Commons Licence"
+msgstr "Creative Commons Licence"
+
+#: footer.php:59
+msgid "Creative Commons Licence BY-NC-ND"
+msgstr "Creative Commons Licence BY-NC-ND"
+
+#: footer.php:80
+msgid "Return to top"
+msgstr "Palaa alkuun"
+
+#. translators: %1$s is the link to WordPress.org, %2$s is the theme's name
+#: footer.php:90
+#, php-format
+msgid "Powered by %1$s and the %2$s."
+msgstr "Tehnyt %1$s ja  %2$s."
+
+#: footer.php:90
+msgid "Graphene Theme"
+msgstr "Graphene Teema"
+
+#: header.php:69 header.php:97
+msgid "Go back to the front page"
+msgstr "Palaa takaisin etusivulle"
+
+#: loop-author.php:23
+msgid "Author's details"
+msgstr "Kirjoittajan lisätiedot"
+
+#. translators: %1$s is the first name, %2$s is the last name
+#: loop-author.php:25
+#, php-format
+msgid "<strong>Name:</strong> %1$s %2$s"
+msgstr "<strong>Nimi:</strong> %1$s %2$s"
+
+#: loop-author.php:26
+#, php-format
+msgid "<strong>Date registered:</strong> %1$s"
+msgstr "<strong>Rekisteröitynyt:</strong> %1$s"
+
+#: loop-author.php:35
+msgid "Biography"
+msgstr "Tarina"
+
+#: loop-author.php:52 admin/options-general.php:300
+msgid "Latest posts"
+msgstr "Viimeisimmät julkaisut"
+
+#: loop-author.php:55 loop-author.php:85 loop-children.php:45
+#: loop-children.php:54 loop-post-formats.php:36 loop.php:63 loop.php:128
+#: includes/theme-panes.php:79 includes/theme-panes.php:92
+#: includes/theme-panes.php:107
+#, php-format
+msgid "Permalink to %s"
+msgstr "Pysyvälinkki %s"
+
+#: loop-author.php:55 loop-author.php:85 loop-children.php:45 loop-page.php:11
+#: loop-page.php:34 loop-post-formats.php:36 loop-single.php:61 loop.php:31
+#: loop.php:64
+msgid "(No title)"
+msgstr "(ei otsikkoa)"
+
+#: loop-author.php:92
+msgid "Most commented posts"
+msgstr "Eniten kommentoidut kirjoitukset"
+
+#: loop-children.php:54
+msgid "View page &raquo;"
+msgstr "Katso sivun &raquo;"
+
+#: loop-not-found.php:3
+msgid "Not found"
+msgstr "Ei löytynyt"
+
+#: loop-not-found.php:8
+msgid ""
+"Sorry, but you are looking for something that isn't here. Wanna try a search?"
+msgstr ""
+"Valitettavasti, etsit jotakin joka ei ole täällä. Haluatko kokeilla hakua?"
+
+#: loop-not-found.php:10
+msgid ""
+"Sorry, but no results were found for that keyword. Wanna try an alternative "
+"keyword search?"
+msgstr ""
+"Valitettavasti, ei yhtään hakutulosta hakemallasi sanoilla. Haluatko "
+"kokeilla toista hakusanaa?"
+
+#: loop-page.php:44 loop-single.php:77 loop.php:83
+#, php-format
+msgid "Edit %s"
+msgstr "Muokkaa %s"
+
+#: loop-page.php:65 loop-single.php:114 loop.php:146
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: loop-page.php:89 loop-post-formats.php:123 loop-single.php:162 loop.php:182
+msgid "Permanent link to this article:"
+msgstr "Pysyvä linkki tähän artikkeliin:"
+
+#: loop-post-formats.php:14
+msgid "Status update"
+msgstr "Tilan päivitys"
+
+#: loop-post-formats.php:15
+msgid "Link"
+msgstr "Linkki"
+
+#: loop-post-formats.php:16
+msgid "Audio"
+msgstr "Audio"
+
+#: loop-post-formats.php:17
+msgid "Image"
+msgstr "Kuva"
+
+#: loop-post-formats.php:18
+msgid "Video"
+msgstr "Video"
+
+#: loop-post-formats.php:19
+msgid "Post format"
+msgstr "Julkaisun muoto"
+
+#. translators: This is the PHP date formatting string for the status post format. See http://php.net/manual/en/function.date.php for more details.
+#: loop-post-formats.php:32
+msgid "l F j, Y"
+msgstr "l F j, Y"
+
+#: loop-post-formats.php:32
+msgid "g:i A"
+msgstr "g:i A"
+
+#: loop-post-formats.php:43
+msgid "Edit post"
+msgstr "Muokkaa postia"
+
+#: loop-post-formats.php:52 loop.php:164
+msgid "Leave comment"
+msgstr "Jätä kommentti"
+
+#: loop-post-formats.php:52
+msgid "Comments off"
+msgstr "Kommentit pois"
+
+#: loop-post-formats.php:111
+#, php-format
+msgid "Posted on: %s"
+msgstr "Postitettu: %s"
+
+#: loop-post-formats.php:111
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: loop-single.php:70 loop.php:76
+msgid "Categories:"
+msgstr "Kategoriat:"
+
+#: loop-single.php:90 loop.php:96
+#, php-format
+msgid "by %s"
+msgstr "%s"
+
+#: loop-single.php:124 loop.php:156
+msgid "Tags:"
+msgstr "Tagit:"
+
+#: loop-single.php:124 loop.php:156
+msgid "This post has no tag"
+msgstr "Tällä julkaisulla ei ole tageja"
+
+#: loop-single.php:143
+msgid "About the author"
+msgstr "Kirjoittajasta"
+
+#: loop.php:121
+msgid "Read the rest of this entry &raquo;"
+msgstr "Lue lisää &raquo;"
+
+#. translators: %1$s is the number of results found, %2$s is the search term
+#: search-404.php:17 search.php:18
+#, fuzzy, php-format
+msgid "Found %1$s search result for keyword: %2$s"
+msgid_plural "Found %1$s search results for keyword: %2$s"
+msgstr[0] "Hakutulokset ovat: %s"
+msgstr[1] "Hakutulokset ovat: %s"
+
+#: search-404.php:26
+msgid "Suggested results"
+msgstr "Suositeltuja tuloksia"
+
+#. translators: %1$s is the search term, %2$s is the number of results found
+#: search-404.php:31
+#, fuzzy, php-format
+msgid ""
+"I've done a courtesy search for the term %1$s for you and found a total of "
+"%2$s result. See if you can find what you're looking for below."
+msgid_plural ""
+"I've done a courtesy search for the term %1$s for you and found a total of "
+"%2$s results. See if you can find what you're looking for below."
+msgstr[0] ""
+"Olen etsinyt termiä% s sinulle. Katso jos löydät mitä etsit alla olevasta "
+"luettelosta."
+msgstr[1] ""
+"Olen etsinyt termiä% s sinulle. Katso jos löydät mitä etsit alla olevasta "
+"luettelosta."
+
+#: search-404.php:52
+msgid ""
+"<strong>Sorry, couldn't find anything.</strong> Try searching for "
+"alternative terms using the search form above."
+msgstr ""
+"<strong>Valitettavasti, en löytänyt mitään.</strong> Yritä etsiä toisilla "
+"hakusanoilla käyttäen hakulomaketta."
+
+#: searchform.php:3 searchform.php:4
+msgid "Search"
+msgstr "Hae"
+
+#: sidebar-two.php:28 includes/theme-setup.php:305
+msgid "Front Page Sidebar Two Widget Area"
+msgstr "Etusivu sivuvalikko kaksi widget alue"
+
+#: sidebar-two.php:30 includes/theme-setup.php:270
+msgid "Sidebar Two Widget Area"
+msgstr "Sivuvalikko 2 widget alue"
+
+#: sidebar.php:28 includes/theme-setup.php:296
+msgid "Front Page Sidebar Widget Area"
+msgstr "Etusivu sivuvalikko widget alue"
+
+#: sidebar.php:30 includes/theme-setup.php:261
+msgid "Sidebar Widget Area"
+msgstr "Sivuvalikko widget alue"
+
+#: tag.php:13
+#, php-format
+msgid "Tag Archive: <span>%s</span>"
+msgstr "Tagi arkisto:<span>%s</span>"
+
+#. translators: %1$s will be replaced by the taxonomy singular name, %2$s will be replaced by the term title
+#: taxonomy.php:15
+#, php-format
+msgid "%1$s Archive: %2$s"
+msgstr "%1$s Arkisto: %2$s"
+
+#: template-onecolumn.php:10
+#, fuzzy
+msgid "One column, no sidebar"
+msgstr "Yksi sarake"
+
+#: template-threecolumnscenter.php:11
+#, fuzzy
+msgid "Three columns, sidebar left and right"
+msgstr "Kolme saraketta (sivupalkit vasemmalla ja oikealla)"
+
+#. translators: For RTL languages, translate "right" as "left"
+#: template-threecolumnsleft.php:13
+#, fuzzy
+msgid "Three columns, sidebars on the right"
+msgstr "Kolme saraketta (sivupalkit vasemmalla ja oikealla)"
+
+#. translators: For RTL languages, translate "left" as "right"
+#: template-threecolumnsright.php:13
+#, fuzzy
+msgid "Three columns, sidebars on the left"
+msgstr "Kolme saraketta (kaksi sivupalkkia vasemmalla)"
+
+#. translators: For RTL languages, translate "right" as "left"
+#: template-twocolumnsleft.php:13
+#, fuzzy
+msgid "Two columns, sidebar on the right"
+msgstr "Kaksi saraketta (sivupalkki oikealla)"
+
+#. translators: For RTL languages, translate "left" as "right"
+#: template-twocolumnsright.php:13
+#, fuzzy
+msgid "Two columns, sidebar on the left"
+msgstr "Kaksi saraketta (sivupalkki vasemmalla)"
+
+#: admin/ajax-handler.php:9 admin/ajax-handler.php:36
+msgid ""
+"Sorry, but you don't have the necessary permission to modify theme options."
+msgstr ""
+"Valitettavasi, sinulla ei ole tarvittavia oikeuksia muokata teeman "
+"ominaisuuksia."
+
+#: admin/ajax-handler.php:20
+msgid "Options saved."
+msgstr "Ominaisuus tallenettu."
+
+#: admin/ajax-handler.php:69
+#, fuzzy
+msgid "Colour preset deleted."
+msgstr "Värien esiasetukset (Colour presets)"
+
+#: admin/ajax-handler.php:69
+#, fuzzy
+msgid "Colour preset saved."
+msgstr "Värien esiasetukset (Colour presets)"
+
+#: admin/custom-fields.php:14
+msgid "Graphene post-specific options"
+msgstr "Graphene julkaisu kohtainen ominaisuus"
+
+#: admin/custom-fields.php:15
+msgid "Graphene page-specific options"
+msgstr "Graphene sivu kohtainen ominaisuus"
+
+#: admin/custom-fields.php:92
+msgid ""
+"These settings will only be applied to this particular post or page you're "
+"editing. They will override the global settings set in the Graphene Options "
+"or Graphene Display options page."
+msgstr ""
+"Nämä asetukset kuuluvat ainoastaan osaan julkaisuista ja sivuista joita "
+"muokkaat. Ne voidaan ylikirjoittavat yleiset asetukset Graphene ominaisuudet "
+"tai Graphene näyttöasetukset sivulta."
+
+#: admin/custom-fields.php:93
+msgid "Slider options"
+msgstr "Slider ominaisuudet"
+
+#: admin/custom-fields.php:97 admin/options-general.php:108
+msgid "Slider image"
+msgstr "Slider kuva"
+
+#: admin/custom-fields.php:101 admin/custom-fields.php:136
+#: admin/custom-fields.php:150
+msgid "Use global setting"
+msgstr "Käytä yleisiä asetuksia"
+
+#: admin/custom-fields.php:102 admin/options-general.php:112
+msgid "Don't show image"
+msgstr "Älä näytä kuvaa"
+
+#: admin/custom-fields.php:103 admin/options-general.php:113
+msgid "Featured Image"
+msgstr "Suosituimmat kuvat"
+
+#: admin/custom-fields.php:104 admin/options-general.php:114
+msgid "First image in post"
+msgstr "Ensimmäinen kuva julkaisuissa"
+
+#: admin/custom-fields.php:105 admin/options-general.php:115
+msgid "Custom URL"
+msgstr "Personoitu URL"
+
+#: admin/custom-fields.php:111 admin/options-general.php:121
+msgid "Custom slider image URL"
+msgstr "Personoitu slider kuva URL"
+
+#: admin/custom-fields.php:115 admin/options-general.php:125
+msgid ""
+"Make sure you select Custom URL in the slider image option above to use this "
+"custom url."
+msgstr ""
+"Varmista että olet valinnut personoidun URL:in slider kuva ominaisuuksista"
+
+#: admin/custom-fields.php:120
+msgid "Custom slider URL"
+msgstr "Personoitu slider URL"
+
+#: admin/custom-fields.php:124
+msgid "Use this to override the link that is used in the slider."
+msgstr "Käytä tätä ylikirjoittaaksesi linkin mitä käytetään sliderissa"
+
+#: admin/custom-fields.php:128
+msgid "Display options"
+msgstr "Näyttöasetukset"
+
+#: admin/custom-fields.php:132
+msgid "AddThis Social Sharing button"
+msgstr "AddThis Social Sharing namiska"
+
+#: admin/custom-fields.php:137
+msgid "Show button"
+msgstr "Näytä nappula"
+
+#: admin/custom-fields.php:138
+msgid "Hide button"
+msgstr "Piilota nappula"
+
+#: admin/custom-fields.php:146 admin/options-display.php:305
+msgid "Post date display"
+msgstr "Julkaisu päivä näyttö"
+
+#: admin/custom-fields.php:151 admin/options-display.php:309
+msgid "Hidden"
+msgstr "Piilotettu"
+
+#: admin/custom-fields.php:152 admin/options-display.php:310
+msgid "As an icon (without the year)"
+msgstr "Ikonina (Ilman vuotta)"
+
+#: admin/custom-fields.php:153 admin/options-display.php:311
+msgid "As an icon (including the year)"
+msgstr "Ikonina (vuoden kanssa)"
+
+#: admin/custom-fields.php:154 admin/options-display.php:312
+msgid "As inline text"
+msgstr "Sisennetty teksti"
+
+#: admin/custom-fields.php:162
+msgid "Navigation options"
+msgstr "Navigaatioa asetukset"
+
+#: admin/custom-fields.php:166
+msgid "Description"
+msgstr "Kuvaus"
+
+#: admin/custom-fields.php:170 admin/options-display.php:629
+msgid ""
+"Only required if you need a description in the navigation menu and you are "
+"not using a custom menu."
+msgstr ""
+"Vaaditaan vain jos sinun pitää kuvat navigaatiomenu ja et käytä personoitua "
+"menua"
+
+#: admin/db-updater.php:237
+#, php-format
+msgid "Follow %s on Twitter"
+msgstr "Seuraa %s meitä Twitterissä"
+
+#: admin/db-updater.php:248
+#, php-format
+msgid "Visit %s's Facebook page"
+msgstr "Vieraile %s Facebook sivuilla"
+
+#: admin/faq.php:11
+msgid "Graphene's Frequently Asked Questions"
+msgstr "Graphene´s usein kysyttyjä kysymyksiä"
+
+#: admin/faq.php:14
+msgid "Where should I go for the theme's support?"
+msgstr "Minne löydän teeman tuen?"
+
+#: admin/faq.php:15
+msgid ""
+"Please direct all support requests for the theme at the theme's <a href="
+"\"http://forum.khairul-syahir.com/graphene-wordpress-theme/\">Support Forum</"
+"a>."
+msgstr ""
+"Pyydämme ystävällisesti kaikkia tuki pyyntöjä suoraan teeman tukifoorumille "
+"<a href=\"http://forum.khairul-syahir.com/graphene-wordpress-theme/"
+"\">Tukiforum</a>."
+
+#: admin/faq.php:18
+msgid "The post's featured image is replacing my header image. Help!"
+msgstr "Julkaisun kuvat korvaa minun header kuvan. Apua!"
+
+#: admin/faq.php:19
+msgid ""
+"This is actually one of the theme's features, based on the feature in the "
+"default TwentyTen theme. Any featured image that has a size of greater than "
+"or equal to the theme's header image size (960 x 198 pixels) will replace "
+"the header image when the post/page that featured image is assigned to is "
+"being displayed. It enables you to have different header image for different "
+"posts and/or pages."
+msgstr ""
+"Tämä on oikeastaan yksi teeman ominaisuuksisata, perustuen oletus teemaan "
+"\"TwentyTen\". Kaikki kuvat , joiden koko on suurempi kuin tai yhtä suuri "
+"kuin teeman heade kuva(960*198 pikseliä) korvataan header kuvan,  kun "
+"julkaisussa tai sivulla on kuva joka näytetään. Tämä sallii sinulla olevan "
+"eri header kuvan eri sivuilla ja julkaisuilla."
+
+#: admin/faq.php:20
+msgid ""
+"If you want to disable this feature, simply tick the <em>Disable Featured "
+"Image replacing header image</em> option in the <a href=\"themes.php?"
+"page=graphene_options&tab=display\">Graphene Options</a> page, under Display "
+"&gt; Header Display Options."
+msgstr ""
+"Jos haluat poistaa tämän ominaisuuden, klikkaa  <em>Poista kuvan korvaaminen "
+"header kuvalla</em> ominisuutta<a href=\"themes.php?"
+"page=graphene_options&tab=display\">Graphene Ominaisuudet</a> sivu, alla "
+"Display &gt; Header näyttöasetukset."
+
+#: admin/faq.php:23
+msgid "Can I modify Graphene to my heart's content without paying anything?"
+msgstr "Voinko muokata Graphene ominaisuuksia maksamatta mitään?"
+
+#: admin/faq.php:24
+msgid ""
+"The Graphene WordPress theme, along with all the other themes in the "
+"WordPress.org Official Free Themes Directory, is released under the GNU "
+"General Public License (GPL) Version 3. The full text of that licence is "
+"included with the theme in the <code>licence.txt</code> file in the theme's "
+"folder. Releasing the theme under that licence means, among others, that you "
+"are <em>free to modify the theme in any way for any purpose (including "
+"commercial)</em>. However, if you decide to redistribute the theme, the "
+"licence dictates that you must release the theme under the same licence, "
+"GPLv3, and attributes the copyright of the original theme to the original "
+"author."
+msgstr ""
+"The Graphene WordPress teema, on Wordpress.org in virallinen ilmaisteema "
+"kategoriassa. Se on julkistettu GNU version 3 lisenssillä. Tarkan tekstin "
+"tästä lisenssistä <code>licence.txt</code>. on teeman kansiossa."
+
+#: admin/faq.php:25
+msgid ""
+"But of course, the author would always appreciate <a href=\"themes.php?"
+"page=graphene_options\">donations</a> to support ongoing and future "
+"developments of the theme."
+msgstr ""
+"But of course, the author would always appreciate <a href=\"themes.php?"
+"page=graphene_options\">donations</a> to support ongoing and future "
+"developments of the theme."
+
+#: admin/faq.php:28
+msgid ""
+"If the theme is released under GPLv3, what is this Creative Commons licence "
+"in the theme's footer?"
+msgstr ""
+"Jos teema on julkaistu GPLv3 lisenssillä, mikä on Creative Commins lisenssi "
+"teeman footerissa?"
+
+#: admin/faq.php:29
+msgid ""
+"The Creative Commons licence is a popular licence nowadays that are used by "
+"a lot of web-based content authors to licence their work such that it "
+"protects their intellectual property but in the same time allows its free "
+"distribution. It is included with the theme simply to make it easy for the "
+"theme's users to make use of the licence for the content they publish. Theme "
+"users can remove it altogether via the theme's Options page should they wish "
+"not to use it."
+msgstr ""
+"he Creative Commons licence is a popular licence nowadays that are used by a "
+"lot of web-based content authors to licence their work such that it protects "
+"their intellectual property but in the same time allows its free "
+"distribution. It is included with the theme simply to make it easy for the "
+"theme's users to make use of the licence for the content they publish. Theme "
+"users can remove it altogether via the theme's Options page should they wish "
+"not to use it."
+
+#: admin/faq.php:30
+msgid ""
+"Put simply, <em>it is not the licence that is applied for the theme itself</"
+"em>, but just for the website's content should the theme user wants to use "
+"it."
+msgstr ""
+"Yksinkertaisesti sanottuna, <em>ei ole lisenssi, jota teemalle haetaan <em>, "
+"vaan vain websivuston sisältö pitäisi olla teeman käyttäjän haluama."
+
+#: admin/faq.php:33
+msgid "Is the theme compatible with this plugin or that plugin?"
+msgstr "Onko teema yhteensopiva tämän lisäosan tai tuohon lisäosaan?"
+
+#: admin/faq.php:34
+msgid ""
+"I don't know. With so many plugins available for WordPress, there's no way "
+"that I (or anybody else for that matter) can test for compatibility for all "
+"of them. Having said that, the theme is built with all the necessary "
+"WordPress components included with it, so chances are most plugins will be "
+"compatible with the theme."
+msgstr ""
+"Minä en tiedä. Wordpressiin on olemassa monia lisäosia, ei ole mahdollista "
+"testata yhteensopivuutta kaikkien kanssa. Kuten sanottua, teema on "
+"rakennettu tarpeellisesta Wordpress komponenteista, jo useimmat lisäosat "
+"ovat yhteensopivia teemaan."
+
+#: admin/faq.php:35
+msgid ""
+"My suggestion is to just install the plugin and try it. If you stumble into "
+"problem, ask for support from the plugin author first. If the plugin author "
+"says that it's a problems with the theme, you know where to find support."
+msgstr ""
+"Ehdotukseni on vain asentaa lisäosa ja kokeilla sitä. Jos ajaudut ongelmaan, "
+"kysy tukea lisäosan tekijältä ensimäiseksi. Jos lisäosan tekijä sanoo, että "
+"ongelma on teemassa, tiedät mistä etsiä tukea."
+
+#: admin/feature-pointers.php:9
+msgid "Where are all the options?!"
+msgstr "Missä on kaikki vaihtoehdot?"
+
+#: admin/feature-pointers.php:10
+msgid "We've decided to clean things up!"
+msgstr "Olemme päättäneet siivota tästä kohtaa!"
+
+#: admin/feature-pointers.php:11
+msgid ""
+"We know how too many options can really be daunting to new users, so we've "
+"hidden them."
+msgstr ""
+"Me tiedämme liian monet vaihtoehdot ovat ärsyttäviä uusille käyttäjille, "
+"joten olemme piilottaneet ne."
+
+#: admin/feature-pointers.php:12
+msgid ""
+"But no worries! If you're a seasoned user of the Graphene theme, or whenever "
+"you feel ready to further customise your site, just click on the \"Show all "
+"options\" link, and they will magically appear to you."
+msgstr ""
+"Mutta ei mitään hätää! Jos olet tottunut Graphene teeman käyttäjä tai "
+"sinulla on isompi halu muokata sivustoasi, niin klikkaa vain \"Näytä kaikki "
+"vaihtoehdot\"-linkkiä ja vaihtoehdot tulevat esille. "
+
+#: admin/options-advanced.php:13 admin/options.php:319
+msgid "Preview"
+msgstr "Esikatselu"
+
+#: admin/options-advanced.php:20
+msgid "Enable preview of your site on the Graphene Theme Options page"
+msgstr "Valitse esikatselu sivustosi Graphene teema ominasuudet sivulta"
+
+#: admin/options-advanced.php:25 admin/options-advanced.php:55
+#: admin/options-advanced.php:92 admin/options-advanced.php:131
+#: admin/options-colours.php:78 admin/options-colours.php:195
+#: admin/options-colours.php:311 admin/options-colours.php:347
+#: admin/options-colours.php:388 admin/options-colours.php:424
+#: admin/options-colours.php:462 admin/options-colours.php:501
+#: admin/options-colours.php:537 admin/options-colours.php:589
+#: admin/options-colours.php:645 admin/options-display.php:63
+#: admin/options-display.php:200 admin/options-display.php:284
+#: admin/options-display.php:345 admin/options-display.php:387
+#: admin/options-display.php:410 admin/options-display.php:565
+#: admin/options-display.php:595 admin/options-display.php:634
+#: admin/options-display.php:693 admin/options-display.php:725
+#: admin/options-general.php:188 admin/options-general.php:231
+#: admin/options-general.php:267 admin/options-general.php:343
+#: admin/options-general.php:372 admin/options-general.php:406
+#: admin/options-general.php:448 admin/options-general.php:592
+#: admin/options-general.php:644 admin/options-general.php:680
+#: admin/options-general.php:713 admin/options-general.php:749
+#: admin/options-general.php:775
+msgid "Save All Options"
+msgstr "Tallenna kaikki ominaisuudet"
+
+#: admin/options-advanced.php:35
+msgid "Custom <head> Tags"
+msgstr "Personoitu <head> tagit"
+
+#: admin/options-advanced.php:40
+msgid "Code to insert into the <head> element"
+msgstr "Koodi lisätään <head> elementtiin"
+
+#: admin/options-advanced.php:65
+msgid "Action Hooks Widget Areas"
+msgstr "Action hooks widget alue"
+
+#: admin/options-advanced.php:68
+msgid ""
+"This option enables you to place virtually any content to every nook and "
+"cranny in the theme, by attaching widget areas to the theme's action hooks."
+msgstr ""
+"Tämä ominaisuus mahdollistaa sinulle virtuaalisen sisällön tuottamisen "
+"jokaiseen nooka ja cranny teemassa, lisätäten widgetin alueeseen acction "
+"hooksin."
+
+#: admin/options-advanced.php:69
+msgid ""
+"All action hooks available in the Graphene Theme are listed below. Click on "
+"the filename to display all the action hooks available in that file. Then, "
+"tick the checkbox next to an action hook to make a widget area available for "
+"that action hook."
+msgstr ""
+"All action hooks available in the Graphene Theme are listed below. Click on "
+"the filename to display all the action hooks available in that file. Then, "
+"tick the checkbox next to an action hook to make a widget area available for "
+"that action hook."
+
+#: admin/options-advanced.php:78
+msgid "Click to show/hide the action hooks for this file"
+msgstr "Click to show/hide the action hooks for this file"
+
+#: admin/options-advanced.php:91
+msgid "Rescan action hooks"
+msgstr "Rescan action hooks"
+
+#: admin/options-advanced.php:101
+msgid "Move generated CSS"
+msgstr "Siirrä luotu CSS"
+
+#: admin/options-advanced.php:106
+#, php-format
+msgid ""
+"If you're using a child theme, you can move the CSS codes generated by the "
+"theme into the child theme's %s file."
+msgstr ""
+"Jos käytät lapsi teema (Child Theme), voit siirtää teeman generoiman CSS "
+"koodin lapsi teeman %s tiedostoon."
+
+#: admin/options-advanced.php:107
+msgid ""
+"The CSS codes are generated from the various customisation options in the "
+"theme's options pages, including any codes you have entered in the Custom "
+"CSS option."
+msgstr ""
+"CSS koodit on generoitu erinlaisista kustomointi ominaisuuksia teeman "
+"omianisuus sivuilta, mukaanlukien koodit mitkä on syötetty Custom CSS "
+"ominaisuutena."
+
+#: admin/options-advanced.php:110
+#, php-format
+msgid "This will reduce up to %.1f KB on every page load for your site."
+msgstr "Tämä lisää %.1f KB jokaiselle sivulle lataamista."
+
+#: admin/options-advanced.php:113
+#, php-format
+msgid ""
+"You will need to update your child theme's %s file everytime you change any "
+"options that rely on CSS to be implemented, such as column widths and "
+"colours."
+msgstr ""
+"Sinun pitää päivittää alateeman %s tiedosto jokakerta kun teet jotain "
+"muutoksia ominaisuuksiin, jotka riipuvat CSS määrittelyistä, kuten sarakkeen "
+"leveydet ja värit."
+
+#: admin/options-advanced.php:118
+msgid "I have moved the generated CSS"
+msgstr "Olen siirtänyt generoidut CSS"
+
+#: admin/options-advanced.php:123
+msgid "CSS codes generated by the theme"
+msgstr "Teeman generoimat CSS koodit"
+
+#: admin/options-advanced.php:125
+msgid "Select all"
+msgstr "Valitse kaikki"
+
+#: admin/options-colours.php:8
+msgid ""
+"Changing colours for your website involves a lot more than just trial and "
+"error. Simply mixing and matching colours without regard to their "
+"compatibility may do more damage than good to your site's aesthetics."
+msgstr ""
+"Värien muuttaminen kotisivuillesi sisältää paljon muutakin kuin vain "
+"yritystä ja erehdystä. Pelkkä värien  sekoittaminen ja yhdistely ilman, että "
+"mietit miten ne sopivat yhteen voi aiheuttaa enemmän haittaa kuin hyötyä "
+"sivostollesi.(eng. Changing colours for your website involves a lot more "
+"than just trial and error. Simply mixing and matching colours without regard "
+"to their compatibility may do more damage than good to your site's "
+"aesthetics.)"
+
+#: admin/options-colours.php:9
+#, php-format
+msgid ""
+"It's generally a good idea to stick to colours from colour pallettes that "
+"are aesthetically pleasing. Try the %s website for a kickstart on some "
+"colour palettes you can use."
+msgstr ""
+"Yleisesti on hyvä idea laitaa värit väripaletista, mitkä on mielyttävät "
+"sinua. Kokeili %s sivuston aloituksesta muutamia väripaletteja."
+
+#: admin/options-colours.php:10
+#, php-format
+msgid ""
+"When you've got the perfect combination, you can even share it with fellow "
+"Graphene theme users through the %s."
+msgstr ""
+"Kun olet saanut täydellisen kombinaation, voit jakaa sen muille Graphene "
+"teeman käyttäjille tätä kautta %s."
+
+#: admin/options-colours.php:10 admin/options.php:131
+msgid "Support Forum"
+msgstr "Tukipalsta"
+
+#: admin/options-colours.php:11
+msgid ""
+"<strong>Note:</strong> The previews work best on modern Gecko- and Webkit-"
+"based browsers, such as Mozilla Firefox and Google Chrome."
+msgstr ""
+"<strong>Huom:</strong>Nämä esikatselut toimivat parhaiten modernilla Gecko- "
+"ja Webkit-phjaisilla selaimilla, kuten Mozilla Firefox ja Google Chrome."
+
+#: admin/options-colours.php:12
+msgid ""
+"<strong>Note:</strong> To reset any of the colours to their default value, "
+"just click on \"Clear\" beside the colour field and save the settings. The "
+"theme will automatically revert the value to the default colour."
+msgstr ""
+"<strong>Huom:</strong>Muuttaaksesi minkä tahansa värin oletusarvoon, "
+"klikkaan vain \"Clear\" värikentän vierestä ja tallenna asetukset. Teema "
+"kääntää värin automaattisesti oletusväriksi."
+
+#: admin/options-colours.php:14
+msgid "Colour presets"
+msgstr "Värien esiasetukset (Colour presets)"
+
+#: admin/options-colours.php:16
+msgid ""
+"These are some colour presets that you may use, either as is or tweak them "
+"further to your liking."
+msgstr "Nämä ovat joitakin värejä mitä voit käyttää."
+
+#: admin/options-colours.php:25
+#, fuzzy
+msgid "Delete preset"
+msgstr "Valitse Asetuksien Oletusarvot (Select Options Preset)"
+
+#: admin/options-colours.php:26
+msgid "Save current settings as preset"
+msgstr ""
+
+#: admin/options-colours.php:27
+#, fuzzy
+msgid "Import presets"
+msgstr "Värien esiasetukset (Colour presets)"
+
+#: admin/options-colours.php:28
+#, fuzzy
+msgid "Export presets"
+msgstr "Värien esiasetukset (Colour presets)"
+
+#: admin/options-colours.php:47 admin/options-display.php:55
+msgid "Top bar"
+msgstr "Ylävalikko"
+
+#: admin/options-colours.php:52
+msgid "Top bar preview"
+msgstr "Ylävalikon esikatselu"
+
+#: admin/options-colours.php:60 admin/options-colours.php:96
+#: admin/options-colours.php:120 admin/options-colours.php:154
+#: admin/options-colours.php:177 admin/options-colours.php:270
+#: admin/options-colours.php:293
+msgid "Top background"
+msgstr "Yläosan tausta"
+
+#: admin/options-colours.php:61 admin/options-colours.php:97
+#: admin/options-colours.php:121 admin/options-colours.php:155
+#: admin/options-colours.php:178 admin/options-colours.php:271
+#: admin/options-colours.php:294
+msgid "Bottom background"
+msgstr "Alaosan tausta"
+
+#: admin/options-colours.php:62 admin/options-colours.php:98
+msgid "Bottom border"
+msgstr "Alaosan rajat"
+
+#: admin/options-colours.php:63
+msgid "Header top border"
+msgstr "Yläosan yläraja"
+
+#: admin/options-colours.php:71 admin/options-colours.php:109
+#: admin/options-colours.php:132 admin/options-colours.php:166
+#: admin/options-colours.php:188 admin/options-colours.php:229
+#: admin/options-colours.php:250 admin/options-colours.php:282
+#: admin/options-colours.php:304 admin/options-colours.php:340
+#: admin/options-colours.php:380 admin/options-colours.php:416
+#: admin/options-colours.php:454 admin/options-colours.php:493
+#: admin/options-colours.php:530 admin/options-colours.php:555
+#: admin/options-colours.php:565 admin/options-colours.php:582
+#: admin/options-colours.php:638
+msgid "Clear"
+msgstr "Poista"
+
+#: admin/options-colours.php:85
+msgid "Primary menu"
+msgstr "Päämenu"
+
+#: admin/options-colours.php:88 admin/options-colours.php:206
+msgid "Default state"
+msgstr "Oletus asetus"
+
+#: admin/options-colours.php:91 admin/options-colours.php:142
+#: admin/options-colours.php:209 admin/options-colours.php:260
+msgid "Menu preview"
+msgstr "Menun esikatselu"
+
+#: admin/options-colours.php:92 admin/options-colours.php:146
+#: admin/options-colours.php:211 admin/options-colours.php:263
+msgid "Active menu item"
+msgstr "Aktiivinen menu kohta"
+
+#: admin/options-colours.php:92 admin/options-colours.php:100
+#: admin/options-colours.php:123
+msgid "Menu item description"
+msgstr "Menu kohdan kuvaus"
+
+#: admin/options-colours.php:92 admin/options-colours.php:99
+#: admin/options-colours.php:122 admin/options-colours.php:156
+#: admin/options-colours.php:179 admin/options-colours.php:212
+#: admin/options-colours.php:220 admin/options-colours.php:241
+#: admin/options-colours.php:262 admin/options-colours.php:264
+#: admin/options-colours.php:272 admin/options-colours.php:295
+msgid "Menu item"
+msgstr "Menu kohta"
+
+#: admin/options-colours.php:116
+msgid "Hover and active state"
+msgstr "Hover ja aktiinen tila"
+
+#: admin/options-colours.php:139 admin/options-colours.php:257
+msgid "Dropdown menu (default state)"
+msgstr "Pudotusvalikko (Oletustila)"
+
+#: admin/options-colours.php:145 admin/options-colours.php:147
+msgid "Dropdown menu item"
+msgstr "Pudotusvalikon kohta"
+
+#: admin/options-colours.php:157 admin/options-colours.php:273
+msgid "Box shadow"
+msgstr "Laatikon varjo"
+
+#: admin/options-colours.php:173 admin/options-colours.php:289
+msgid "Dropdown menu (hover and active state)"
+msgstr "Pudotusvalikon menu (hover ja aktiinen tila)"
+
+#: admin/options-colours.php:203
+msgid "Secondary menu"
+msgstr "Toinen menu"
+
+#: admin/options-colours.php:218 admin/options-colours.php:240
+#: admin/options-colours.php:625
+msgid "Background"
+msgstr "Tausta"
+
+#: admin/options-colours.php:219
+msgid "Top border"
+msgstr "Ylärajat"
+
+#: admin/options-colours.php:236
+msgid "Active and hover state"
+msgstr "Aktiivinen ja hover tila"
+
+#: admin/options-colours.php:319
+msgid "Content area"
+msgstr "Sisältöalue"
+
+#: admin/options-colours.php:325
+msgid "Main content wrapper background"
+msgstr "Pääsisältö alueen tausta"
+
+#: admin/options-colours.php:326
+msgid "Post and pages content background"
+msgstr "Julkaisuiden ja sivujen tausta"
+
+#: admin/options-colours.php:327
+msgid "Post meta and footer border"
+msgstr "Julkaisuiden meta ja alasosan raja"
+
+#: admin/options-colours.php:328
+msgid "Post and pages top border"
+msgstr "Julkaisuiden ja sivujen yläraja"
+
+#: admin/options-colours.php:329
+msgid "Post and pages bottom border"
+msgstr "Julkaisuiden ja sivun alaraja"
+
+#: admin/options-colours.php:330
+#, fuzzy
+msgid "Sticky posts content background"
+msgstr "Julkaisuiden ja sivujen tausta"
+
+#: admin/options-colours.php:331
+#, fuzzy
+msgid "Child pages content background"
+msgstr "Julkaisuiden ja sivujen tausta"
+
+#: admin/options-colours.php:354
+msgid "Widgets"
+msgstr "Widgetit"
+
+#: admin/options-colours.php:359
+msgid "Widget preview"
+msgstr "Widgettien esikatselu"
+
+#: admin/options-colours.php:360
+msgid "Widget title"
+msgstr "Widgetin otsikko"
+
+#: admin/options-colours.php:360
+msgid "List item"
+msgstr "Listakohde"
+
+#: admin/options-colours.php:364
+msgid "Widget item background"
+msgstr "Widgetin tausta"
+
+#: admin/options-colours.php:365
+msgid "Widget item list border"
+msgstr "Widgetin listakohteen tausta"
+
+#: admin/options-colours.php:366
+msgid "Widget header border"
+msgstr "Widgetin yläraja"
+
+#: admin/options-colours.php:367
+msgid "Widget title colour"
+msgstr "Widgetin otsikon väri"
+
+#: admin/options-colours.php:368
+msgid "Widget title text shadow colour"
+msgstr "Widgetin otsikon tekstin varjon väri"
+
+#: admin/options-colours.php:369
+msgid "Widget header gradient bottom colour"
+msgstr "Wigetin otsikon gradientin alaväri"
+
+#: admin/options-colours.php:370
+msgid "Widget header gradient top colour"
+msgstr "Widget header gradient top colour"
+
+#: admin/options-colours.php:371
+msgid "Widget box shadow"
+msgstr "Widget laatikon varjo (Widget box shadow)"
+
+#: admin/options-colours.php:396
+msgid "Slider"
+msgstr "Slider"
+
+#: admin/options-colours.php:401
+msgid "Slider background preview"
+msgstr "Liukuruudun taustan esikatselu (Slider background preview)"
+
+#: admin/options-colours.php:406
+msgid "Slider top left colour"
+msgstr "Liukuruudun vasemman yläkulman väri (Slider top left colour)"
+
+#: admin/options-colours.php:407
+msgid "Slider bottom right colour"
+msgstr "Liukuruudun oikea alakulman väri (Slider bottom right colour)"
+
+#: admin/options-colours.php:432
+msgid "Block buttons"
+msgstr "Estä painikkeet (Block buttons)"
+
+#: admin/options-colours.php:437
+msgid "Block button preview"
+msgstr "Estä painikkeen esikatselu (Block button preview)"
+
+#: admin/options-colours.php:438
+msgid "Button label"
+msgstr "Painikkeen etiketti (Button label)"
+
+#: admin/options-colours.php:442
+msgid "Button background colour"
+msgstr "Painikkeen taustaväri"
+
+#: admin/options-colours.php:443
+msgid "Button label colour"
+msgstr "Painikkeen etiketin väri (Button label colour)"
+
+#: admin/options-colours.php:444
+msgid "Button label text shadow"
+msgstr "Painikkeen etiketin tekstin varjo (Button label text shadow)"
+
+#: admin/options-colours.php:445
+msgid "Button box shadow"
+msgstr "Painike laatikon varjo (Button box shadow)"
+
+#: admin/options-colours.php:470 admin/options-colours.php:476
+msgid "Archive title"
+msgstr "Arkistoitu otsikko"
+
+#: admin/options-colours.php:475
+msgid "Archive title preview"
+msgstr "Arkistoitu otsikon esikatselu"
+
+#: admin/options-colours.php:476
+msgid "Sample title"
+msgstr "Näyte otsikko"
+
+#: admin/options-colours.php:480
+msgid "Archive background gradient left colour"
+msgstr "Arkistoitu tausta gradient vasen väri"
+
+#: admin/options-colours.php:481
+msgid "Archive background gradient right colour"
+msgstr "Arkistoitu tausta gradient oikea väri"
+
+#: admin/options-colours.php:482
+msgid "Archive label colour"
+msgstr "Arkisto etiketin väri (Archive label colour)"
+
+#: admin/options-colours.php:483
+msgid "Archive text colour"
+msgstr "Arkisto tekstin väri (Archive text colour)"
+
+#: admin/options-colours.php:484
+msgid "Archive label and text shadow colour"
+msgstr ""
+"Arkisto etiketin ja tekstin varjon väri (Archive label and text shadow "
+"colour)"
+
+#: admin/options-colours.php:509
+msgid "Comments area"
+msgstr "Kommentti alue"
+
+#: admin/options-colours.php:515
+msgid "Comments background"
+msgstr "Kommentien tausta"
+
+#: admin/options-colours.php:516
+msgid "Comments text"
+msgstr "Kommentti teksti"
+
+#: admin/options-colours.php:517
+msgid "Threaded comments border"
+msgstr "Viestiketjun kommenttie reunat (Threaded comments border)"
+
+#: admin/options-colours.php:518
+msgid "Author comments background"
+msgstr "Kirjoittajan kommenttien tausta (Author comments background)"
+
+#: admin/options-colours.php:519
+msgid "Author comments top border"
+msgstr "(Author comments top border)"
+
+#: admin/options-colours.php:520
+msgid "Author comments text"
+msgstr "Kirjoittajan kommentti tekstit"
+
+#: admin/options-colours.php:521
+msgid "Comment form background"
+msgstr "Kommenttilaatikon tausta"
+
+#: admin/options-colours.php:522
+msgid "Comment form text"
+msgstr "Kommenttilaatikon teksti"
+
+#: admin/options-colours.php:545 admin/options-colours.php:551
+msgid "Content text"
+msgstr "Sisällön teksti"
+
+#: admin/options-colours.php:561
+msgid "Title text"
+msgstr "Otsikon teksti"
+
+#: admin/options-colours.php:571
+msgid "Link colour (normal state)"
+msgstr "Linkin väri (normaalisti)"
+
+#: admin/options-colours.php:572
+msgid "Link colour (visited state)"
+msgstr "Linkin väri (vierailtu)"
+
+#: admin/options-colours.php:573
+msgid "Link colour (hover state)"
+msgstr "Linkin väri (hover)"
+
+#: admin/options-colours.php:596
+msgid "Footer"
+msgstr "Footer"
+
+#: admin/options-colours.php:601
+msgid "Footer preview"
+msgstr "Footer esikatselu"
+
+#: admin/options-colours.php:626
+msgid "Heading"
+msgstr "Otsikko"
+
+#: admin/options-colours.php:627
+msgid "Normal text"
+msgstr "Normaali teksti"
+
+#: admin/options-colours.php:628
+msgid "Link text"
+msgstr "Linkki teksti"
+
+#: admin/options-colours.php:629
+msgid "Submenu text"
+msgstr "Alimenu teksti"
+
+#: admin/options-colours.php:630
+msgid "Submenu border"
+msgstr "Alimenu rajat"
+
+#: admin/options-defaults.php:88
+#, php-format
+msgid "Subscribe to %s's RSS feed"
+msgstr "Tilaa %s RSS syöte"
+
+#: admin/options-defaults.php:167
+msgid "Default"
+msgstr "Oletus"
+
+#: admin/options-defaults.php:171
+msgid "Dream Magnet"
+msgstr "Unelma magneetti"
+
+#: admin/options-defaults.php:175
+msgid "Curiosity Killed"
+msgstr "Uteliaisuus tappoi"
+
+#: admin/options-defaults.php:179
+msgid "Zesty Orange"
+msgstr "Zesty Orange"
+
+#: admin/options-display.php:14
+msgid "Header Display Options"
+msgstr "Header näyttöasetukset"
+
+#: admin/options-display.php:20
+msgid "Use light-coloured header bars"
+msgstr "käytä kevyitä värillisiä header barseja"
+
+#: admin/options-display.php:26
+msgid "Link header image to front page"
+msgstr "Linkki otsikon kuvaan etusivulla"
+
+#: admin/options-display.php:29
+msgid ""
+"Check this if you disable the header texts and want the header image to be "
+"linked to the front page."
+msgstr ""
+"Tarkista tämä jos haluat poistaa otsikko tekstin ja haluat linkittää "
+"otsikkokuvan etusivulle."
+
+#: admin/options-display.php:34
+msgid "Disable Featured Image replacing header image"
+msgstr "Poista käytöstä featured kuva korvaamalla se otsikko kuvalla "
+
+#: admin/options-display.php:37
+msgid ""
+"Check this to prevent the posts Featured Image replacing the header image "
+"regardless of the featured image dimension."
+msgstr ""
+"Tarkista tämä estääksesi feature kuvan kormaaminen otsikko kuvan "
+"ominaisuuksilla."
+
+#: admin/options-display.php:42
+msgid "Header image height"
+msgstr "Otsikkokuvan korkeus"
+
+#: admin/options-display.php:51
+msgid "Search box location"
+msgstr "Etsi laatikon sijainti"
+
+#: admin/options-display.php:56
+msgid "Navigation bar"
+msgstr "Navigointi-bar"
+
+#: admin/options-display.php:57
+msgid "Disable search box"
+msgstr "Poista Etsi-laatikko käytöstä"
+
+#: admin/options-display.php:73
+msgid "Column Options"
+msgstr "Sarakkeen ominaisuudet"
+
+#: admin/options-display.php:79
+msgid "Column mode"
+msgstr "Sarakkeen moodi"
+
+#: admin/options-display.php:88 admin/options-display.php:149
+msgid "One column"
+msgstr "Yksi sarake"
+
+#: admin/options-display.php:96 admin/options-display.php:106
+#: admin/options-display.php:157 admin/options-display.php:167
+msgid "Two columns (with sidebar right)"
+msgstr "Kaksi saraketta (sivupalkki oikealla)"
+
+#: admin/options-display.php:98 admin/options-display.php:104
+#: admin/options-display.php:159 admin/options-display.php:165
+msgid "Two columns (with sidebar left)"
+msgstr "Kaksi saraketta (sivupalkki vasemmalla)"
+
+#: admin/options-display.php:115 admin/options-display.php:125
+#: admin/options-display.php:176 admin/options-display.php:186
+msgid "Three columns (with two sidebars right)"
+msgstr "Kolme saraketta (kaksi sivupalkkia oikealla)"
+
+#: admin/options-display.php:117 admin/options-display.php:123
+#: admin/options-display.php:178 admin/options-display.php:184
+msgid "Three columns (with two sidebars left)"
+msgstr "Kolme saraketta (kaksi sivupalkkia vasemmalla)"
+
+#: admin/options-display.php:130 admin/options-display.php:191
+msgid "Three columns (with sidebars left and right)"
+msgstr "Kolme saraketta (sivupalkit vasemmalla ja oikealla)"
+
+#: admin/options-display.php:140
+msgid "bbPress column mode"
+msgstr "bbPress sarake muoto"
+
+#: admin/options-display.php:210
+msgid "Column Width Options"
+msgstr "Sarakkeen leveys valinnat"
+
+#: admin/options-display.php:213
+msgid "Note: Leave values empty to reset to the default values."
+msgstr "Huom: jätä arvot tyhjäksi jos haluat palauttaa oletusarvot."
+
+#: admin/options-display.php:217
+msgid "Container width"
+msgstr "Säililön leveys"
+
+#: admin/options-display.php:234 admin/options-display.php:257
+msgid "Column width"
+msgstr "Sarakkeen leveys"
+
+#: admin/options-display.php:234
+msgid "two-column mode"
+msgstr "kaksi-sarakettaa moodi"
+
+#: admin/options-display.php:238 admin/options-display.php:265
+msgid "Content"
+msgstr "Sisältö"
+
+#: admin/options-display.php:242
+msgid "Sidebar"
+msgstr "Sivupalkki"
+
+#: admin/options-display.php:257
+msgid "three-column mode"
+msgstr "3-sarakkeen muoto"
+
+#: admin/options-display.php:261
+msgid "Left sidebar"
+msgstr "Vasen sivupalkki"
+
+#: admin/options-display.php:269
+msgid "Right sidebar"
+msgstr "Oikea sivupalkki"
+
+#: admin/options-display.php:293
+msgid "Posts Display Options"
+msgstr "Julkaisun näyttöominaisuudet"
+
+#: admin/options-display.php:299
+msgid "Hide post author"
+msgstr "Piilota julkaisun kirjoittaja"
+
+#: admin/options-display.php:318
+msgid "Hide post categories"
+msgstr "Piilota julkaisuiden kategoriat"
+
+#: admin/options-display.php:324
+msgid "Hide post tags"
+msgstr "Piilota julkaisuiden tagit"
+
+#: admin/options-display.php:330
+msgid "Hide post comment count"
+msgstr "Piilota julkaisuiden kommmenttien määrä"
+
+#: admin/options-display.php:331
+msgid ""
+"Only affects posts listing (such as the front page) and not single post view."
+msgstr ""
+"Vain voimassa julkaisuiden listauksissa (kuten etusivulla) ja ei yksittäisen "
+"julkaisun näkymässä."
+
+#: admin/options-display.php:336
+msgid "Show post author's <a href=\"http://en.gravatar.com/\">gravatar</a>"
+msgstr ""
+"Näytä julkaisun kirjoittajan <a href=\"http://en.gravatar.com/\">gravatar</a>"
+
+#: admin/options-display.php:340
+msgid "Show post author's info"
+msgstr "Näytä julkaisun kirjoittajan tiedot"
+
+#: admin/options-display.php:355
+msgid "Excerpts Display Options"
+msgstr "Näytteen näkymän ominaisuudet"
+
+#: admin/options-display.php:361
+msgid "Show excerpts in front page"
+msgstr "Näytä näyte etusivulla"
+
+#: admin/options-display.php:367
+msgid "Show full content in archive pages"
+msgstr "Näytä koko sisältö arkistosivuilla"
+
+#: admin/options-display.php:371
+msgid ""
+"Note: Archive pages include the archive for category, tags, time, and search "
+"results pages. Enabling this option will cause the full content of posts and "
+"pages listed in those archives to displayed instead of the excerpt, and "
+"truncated by the Read More tag if used."
+msgstr ""
+"Huom: Arkisto sivut sisältävät arkisto kategoriaan, tagit, aika ja etsintä "
+"tulos sivut. Jos otat tämän ominaisuuden käyttöön, niin kaikki sisältö "
+"sivuilta ja julkaisuista tulee näkyviin."
+
+#: admin/options-display.php:375
+msgid "Show More link for manual excerpts"
+msgstr "Näytä lisää linkki näytteessä"
+
+#: admin/options-display.php:379
+msgid "Retain these HTML tags in excerpts"
+msgstr "Säilytä nämä HTML tagit otteissa (excerpts)"
+
+#: admin/options-display.php:382
+msgid ""
+"Enter the HTML tags you'd like to retain in excerpts. For example, enter "
+"<code>&lt;p&gt;&lt;ul&gt;&lt;li&gt;</code> to retain <code>&lt;p&gt;</code>, "
+"<code>&lt;ul&gt;</code>, and <code>&lt;li&gt;</code> HTML tags."
+msgstr ""
+"Käytä seuraavia HTML tageja, jos haluat muokata näytettä. Esimerkiksi, enter "
+"<code>&lt;p&gt;&lt;ul&gt;&lt;li&gt;</code> to retain <code>&lt;p&gt;</code>, "
+"<code>&lt;ul&gt;</code>, and <code>&lt;li&gt;</code> HTML tagit."
+
+#: admin/options-display.php:398
+msgid "Comments Display Options"
+msgstr "Kommenttien Näkyvyys Asetukset (Comments Display Options)"
+
+#: admin/options-display.php:404
+msgid "Hide allowed tags in comment form"
+msgstr "Piilota sallitut HTML tagit kommentti lomakkeelta"
+
+#: admin/options-display.php:420
+msgid "Text Style Options"
+msgstr "Tekstin tyylin ominaisuudet"
+
+#: admin/options-display.php:423
+msgid "Google Webfonts"
+msgstr "Google webfontit"
+
+#: admin/options-display.php:426
+msgid "Font families"
+msgstr "Fonttiperheet"
+
+#: admin/options-display.php:429
+msgid ""
+"Enter the Google Webfont font family string in the format that is used in "
+"the Webfont Loader, one font family per line."
+msgstr ""
+"Syötä tähän Googlefonttiperhe string muodossa mitä käytetään webfontin "
+"lataamiseen, yksi fonttiperhe per rivi. "
+
+#: admin/options-display.php:430
+msgid "Example:"
+msgstr "Esimerkki:"
+
+#: admin/options-display.php:435
+msgid ""
+"The following options are CSS properties, so any valid CSS values for each "
+"particular property can be used."
+msgstr ""
+"Seuraavat ominaisuudet ovat CSS ominaisuuksia, joten kaikkia valideja CSS "
+"arvoja voidaan käyttää."
+
+#: admin/options-display.php:436
+msgid "Some example CSS properties values:"
+msgstr "Jotkin esimerkki CSS ominaisuuksien arvot:"
+
+#: admin/options-display.php:439
+msgid "Text font:"
+msgstr "Tekstin fontti:"
+
+#: admin/options-display.php:443
+msgid "Text size and line height:"
+msgstr "Tekstin koko ja rivin korkeus:"
+
+#: admin/options-display.php:447
+msgid "Text weight:"
+msgstr "Tekstin paino:"
+
+#: admin/options-display.php:451
+msgid "Text style:"
+msgstr "Tekstin tyyli:"
+
+#: admin/options-display.php:455
+#, fuzzy
+msgid "Text decoration:"
+msgstr "Tekstin koristelu (hover tila)"
+
+#: admin/options-display.php:460
+msgid "Header Text"
+msgstr "Header teksti"
+
+#: admin/options-display.php:464
+msgid "Title text font"
+msgstr "Otsikon fontti"
+
+#: admin/options-display.php:470
+msgid "Title text size"
+msgstr "Otsikon koko"
+
+#: admin/options-display.php:476
+msgid "Title text weight"
+msgstr "Otsikon paino"
+
+#: admin/options-display.php:482
+msgid "Title text line height"
+msgstr "Otsikon rivin korkeus"
+
+#: admin/options-display.php:488
+msgid "Title text style"
+msgstr "Otsikon tyyli"
+
+#: admin/options-display.php:497
+msgid "Description text font"
+msgstr "Kuvaustekstin fontti"
+
+#: admin/options-display.php:503
+msgid "Description text size"
+msgstr "Kuvaustekstin koko"
+
+#: admin/options-display.php:509
+msgid "Description text weight"
+msgstr "Kuvaustekstin paino"
+
+#: admin/options-display.php:515
+msgid "Description text line height"
+msgstr "Kuvaustekstin rivin korkeus"
+
+#: admin/options-display.php:521
+msgid "Description text style"
+msgstr "Kuvaustekstin tyyli"
+
+#: admin/options-display.php:527
+msgid "Content Text"
+msgstr "Sisällön teksti"
+
+#: admin/options-display.php:531
+msgid "Text font"
+msgstr "Tekstin fontti"
+
+#: admin/options-display.php:537
+msgid "Text size"
+msgstr "Tekstin koko"
+
+#: admin/options-display.php:543
+msgid "Text line height"
+msgstr "Tekstin rivin korkeus"
+
+#: admin/options-display.php:549
+msgid "Link Text"
+msgstr "Linkin teksti"
+
+#: admin/options-display.php:553
+#, fuzzy
+msgid "Text decoration (normal state)"
+msgstr "Tekstin koristelu (normaali tila)"
+
+#: admin/options-display.php:559
+#, fuzzy
+msgid "Text decoration (hover state)"
+msgstr "Tekstin koristelu (hover tila)"
+
+#: admin/options-display.php:575
+msgid "Footer Widget Display Options"
+msgstr "Footer widget näyttö ominaisuudet"
+
+#: admin/options-display.php:581
+msgid "Number of columns to display"
+msgstr "Näytettävien sarakkeiden määrä"
+
+#: admin/options-display.php:588
+msgid "Number of columns to display for front page footer widget"
+msgstr "Näytettävien sarakkeiden määrä etusivun footer widgetissä"
+
+#: admin/options-display.php:605
+msgid "Navigation Menu Display Options"
+msgstr "Navigaatio menun näytön ominaisuudet"
+
+#: admin/options-display.php:611
+msgid "Dropdown menu item width"
+msgstr "Alasvetovalikon kodan leveys"
+
+#: admin/options-display.php:617
+msgid "Disable description in Header Menu"
+msgstr "Poista käytöstä kuvau otsikko menusta"
+
+#: admin/options-display.php:625
+msgid "Description for default menu \"Home\" item"
+msgstr "Kuvaus oletus menu \"Home\" kohdalle"
+
+#: admin/options-display.php:644
+msgid "Miscellaneous Display Options"
+msgstr "Sekalaisia näyttö ominaisuuksia"
+
+#: admin/options-display.php:647
+msgid "Site title options"
+msgstr "Sivuston otsikon ominaisuudet"
+
+#: admin/options-display.php:648
+msgid ""
+"Use these tags to customise your own site title structure: <code>#site-name</"
+"code>, <code>#site-desc</code>, <code>#post-title</code>"
+msgstr ""
+"Käytä näitä tageja muokataksisesi oman sivuston otsikon muotoja: <code>#site-"
+"name</code>, <code>#site-desc</code>, <code>#post-title</code>"
+
+#: admin/options-display.php:652
+msgid "Custom front page site title"
+msgstr "Muokattu etusivun sivusto otsikko"
+
+#: admin/options-display.php:656
+msgid ""
+"Defaults to <code>#site-name &raquo; #site-desc</code>. The <code>#post-"
+"title</code> tag cannot be used here."
+msgstr ""
+"Oletus <code>#site-name &raquo; #site-desc</code>.  <code>#post-title</code> "
+"ei voida käyttää tässä."
+
+#: admin/options-display.php:661
+msgid "Custom content pages site title"
+msgstr "Kustomoitu sisältösivujen otsikko"
+
+#: admin/options-display.php:665
+msgid "Defaults to <code>#post-title &raquo; #site-name</code>."
+msgstr "Oletus <code>#post-title &raquo; #site-name</code>."
+
+#: admin/options-display.php:670
+msgid "Favicon options"
+msgstr "Favicon ominaisuudet"
+
+#: admin/options-display.php:674
+msgid "Favicon URL"
+msgstr "Faciconin URL"
+
+#: admin/options-display.php:678 admin/options-general.php:125
+msgid "Upload or select image from gallery"
+msgstr "Lataa tai valitse kuva galleriasta"
+
+#: admin/options-display.php:678
+msgid ""
+"Simply enter the full URL to your favicon file here to enable favicon. Make "
+"sure you include the <code>http://</code> in front of the URL as well. Or "
+"use the WordPress media uploader to upload an image, or select one from the "
+"media library."
+msgstr ""
+"Lisää vain koko URL Favicon tiedostostasi, jotta favicon tulee näkyviin. "
+"Varmista että URL alkaa:<code>http://</code>. Tai käytä WordPressin median "
+"lataustoimintoa ladataksesi kuva, tai valitse kuva mediakirjastostasi. "
+
+#: admin/options-display.php:683
+msgid "WordPress Editor options"
+msgstr "WordPress Editorin ominaisuudet"
+
+#: admin/options-display.php:687
+msgid "Disable custom editor styles"
+msgstr "Poistä käytöstä muokattavat editor tyylit"
+
+#: admin/options-display.php:703
+msgid "Custom CSS"
+msgstr "Muokattava CSS"
+
+#: admin/options-display.php:708
+msgid "Custom CSS styles"
+msgstr "Muokattava CSS tyyli"
+
+#: admin/options-display.php:710
+msgid ""
+"You can enter your own CSS codes below to modify any other aspects of the "
+"theme's appearance that is not included in the options."
+msgstr ""
+"Voit nyt kirjoittaa oman CSS koodisi tähän, muokataksesi mitä tahansa teeman "
+"ulkoasua mitä ei ole muokattavissa ominaisuuksissa."
+
+#: admin/options-general.php:13
+msgid "Slider Options"
+msgstr "Slider ominaisuudet"
+
+#: admin/options-general.php:19
+msgid "Disable slider"
+msgstr "Poista slider käytöstä"
+
+#: admin/options-general.php:27
+msgid "Extend slider to full width of the theme"
+msgstr "Laajenna slider koko teeman leveydelle"
+
+#: admin/options-general.php:33
+msgid "What do you want to show in the slider"
+msgstr "Mitä haluat näyttää sliderissa"
+
+#: admin/options-general.php:37
+msgid "Show latest posts"
+msgstr "Näytä viimeisimmät julkaisut"
+
+#: admin/options-general.php:40
+msgid "Show random posts"
+msgstr "Näytä satunnaisesti valittu julkaisu"
+
+#: admin/options-general.php:43
+msgid "Show specific posts/pages"
+msgstr "Näytä valitus julkaisut/sivut"
+
+#: admin/options-general.php:46
+msgid "Show posts from categories"
+msgstr "Näytä julkaisut seuraavista kategoriosta"
+
+#: admin/options-general.php:51 admin/options-general.php:331
+msgid "Posts and/or pages to display"
+msgstr "Julkaisut ja/tai sivu mikä näytetään"
+
+#: admin/options-general.php:56 admin/options-general.php:335
+msgid ""
+"Enter ID of posts and/or pages to be displayed, separated by comma. Example: "
+"<code>1,13,45,33</code>"
+msgstr ""
+"Kirjoita sivun tai julkaisun ID, erotettuna pilkulla. Example: "
+"<code>1,13,45,33</code>. Huom! näet sivun tai julkaisun ID osoiteriviltä kun "
+"avaat sen editorissa, jos olet kytkenyt päälle asetuksista muunlaisen url-"
+"näyttötavan.  "
+
+#: admin/options-general.php:57
+msgid ""
+"Applicable only if <strong>Show specific posts/pages</strong> is selected "
+"above."
+msgstr ""
+"Näytetään vain jos <strong>Näytä valitut julkaisut/sivut</strong> on valittu "
+"ylempänä."
+
+#: admin/options-general.php:63
+msgid "Categories to display"
+msgstr "Kategoriat, jotka näytetään"
+
+#: admin/options-general.php:66 admin/options-general.php:251
+#: admin/options-general.php:322
+msgid "Click to select categories or type to search"
+msgstr ""
+
+#: admin/options-general.php:75
+msgid ""
+"All posts within the categories selected here will be displayed on the "
+"slider. Usage example: create a new category \"Featured\" and assign all "
+"posts to be displayed on the slider to that category, and then select that "
+"category here."
+msgstr ""
+"Kaikki julkaisut näissä kategoriassa on valittu näytettäväksi sliderissa. "
+"Käyttöesimerkiksi: luo uusi kategoria \"Esillä\" ja ohjaa kaikki julkaisut "
+"näytettäväksi slideriin tällä kategorialla, valitse sitten tämä kategoria "
+"täällä.  "
+
+#: admin/options-general.php:80
+msgid "Exclude the categories from posts listing"
+msgstr "Sulje nämä kategoriat pois listalta"
+
+#: admin/options-general.php:84
+msgid "Disabled"
+msgstr "Poistettu käytöstä"
+
+#: admin/options-general.php:85
+msgid "Home Page"
+msgstr "Koti"
+
+#: admin/options-general.php:86
+msgid "Everywhere"
+msgstr "Kaikkialla"
+
+#: admin/options-general.php:92
+msgid "Show posts from categories in random order"
+msgstr "Näytä jukaisut kategorioista satunnaisessa järjestyksessä"
+
+#: admin/options-general.php:100
+msgid "Number of posts to display"
+msgstr "Kuinka monta julkaisua näytetään"
+
+#: admin/options-general.php:131
+msgid "Slider display style"
+msgstr "Slider näyttötyyli"
+
+#: admin/options-general.php:135
+msgid "Thumbnail and excerpt"
+msgstr "Pikkukuva ja tiivistelmäote"
+
+#: admin/options-general.php:136
+msgid "Background image and excerpt"
+msgstr "Taustakuva ja tiivistelmäote"
+
+#: admin/options-general.php:137
+msgid "Full post content"
+msgstr "Koko julkaisu"
+
+#: admin/options-general.php:143
+msgid "Slider animation"
+msgstr "Slider animaatio"
+
+#: admin/options-general.php:147
+msgid "Horizontal slide"
+msgstr "Vaakasuora slide"
+
+#: admin/options-general.php:148
+msgid "Vertical slide"
+msgstr "Pystysuora slide"
+
+#: admin/options-general.php:149
+msgid "Fade"
+msgstr "Häivytys"
+
+#: admin/options-general.php:150
+msgid "No effect"
+msgstr "Ei efektiä"
+
+#: admin/options-general.php:156
+msgid "Slider height"
+msgstr "Sliderin korkeus"
+
+#: admin/options-general.php:164
+msgid "Slider speed"
+msgstr "Sliderin nopeus"
+
+#: admin/options-general.php:167 admin/options-general.php:176
+msgid "milliseconds"
+msgstr "millisekuntia"
+
+#: admin/options-general.php:168
+msgid "This is the duration that each slider item will be shown"
+msgstr "Tämä on kunkin dian näyttöajan kesto"
+
+#: admin/options-general.php:173
+msgid "Slider transition speed"
+msgstr "Slider vaihtonopeus"
+
+#: admin/options-general.php:177
+msgid ""
+"This is the speed of the slider transition. Lower values = higher speed."
+msgstr ""
+"Tämä on sliderin dian vaihtonopeus. Mitä pienempi luku = nopeampi vaihto."
+
+#: admin/options-general.php:182
+msgid "Move slider to bottom of page"
+msgstr "Siirrä slider sivun alalaitaan"
+
+#: admin/options-general.php:198
+msgid "Infinite Scroll"
+msgstr ""
+
+#: admin/options-general.php:201
+msgid ""
+"Let the theme pull the next set of posts or comments into view when visitor "
+"approaches the bottom of the page."
+msgstr ""
+
+#: admin/options-general.php:205
+msgid "Enable Infinite Scroll"
+msgstr ""
+
+#: admin/options-general.php:214
+msgid "Click to fetch more items"
+msgstr ""
+
+#: admin/options-general.php:220
+#, fuzzy
+msgid "For comments"
+msgstr "1 kommentti"
+
+#: admin/options-general.php:225
+msgid "Enable Infinite Scroll for comments"
+msgstr ""
+
+#: admin/options-general.php:241
+msgid "Front Page Options"
+msgstr "Etusivun ominaisuudet"
+
+#: admin/options-general.php:248
+msgid "Front page posts categories"
+msgstr "Etusivn julkaisuiden kategoriat"
+
+#: admin/options-general.php:259
+#, fuzzy
+msgid ""
+"Only posts that belong to the categories selected here will be displayed on "
+"the front page."
+msgstr ""
+"Vain julkaisut jotka ovat valituissa kategoriossa näytetään etusivulla. Tämä "
+"ei toimi, jos on valittu staattinen etusivu."
+
+#: admin/options-general.php:264
+#, fuzzy
+msgid ""
+"<strong>Note:</strong> this feature is not available when using a <a href="
+"\"http://codex.wordpress.org/Creating_a_Static_Front_Page\">static front "
+"page</a>."
+msgstr ""
+"<strong>Huom:</strong> Kotisivu ikkunat näytetään vain jos käytettäessä <a "
+"href=\"http://codex.wordpress.org/Creating_a_Static_Front_Page\">Staattista "
+"etusivua</a>."
+
+#: admin/options-general.php:279
+msgid "Homepage Panes"
+msgstr "Kotisivu ikkunat"
+
+#: admin/options-general.php:286
+msgid "Disable homepage panes"
+msgstr "Poista kotisivu ikkunat"
+
+#: admin/options-general.php:296
+msgid "Type of content to show"
+msgstr "Näytettävän sisällön tyyppi"
+
+#: admin/options-general.php:303
+msgid "Latest posts by category"
+msgstr "Viimeimsimmät julkaisut kategorioittain"
+
+#: admin/options-general.php:306
+msgid "Posts and/or pages"
+msgstr "Julkaisut ja/tai sivut"
+
+#: admin/options-general.php:311
+msgid "Number of latest posts to display"
+msgstr "Kuinka monta viimeisintä julkaisua näytetään"
+
+#: admin/options-general.php:319
+#, fuzzy
+msgid "Categories to show latest posts from"
+msgstr "Kategoria, josta näytetään viimeisimmät julkaisut"
+
+#: admin/options-general.php:340
+#, fuzzy
+msgid ""
+"<strong>Note:</strong> this feature is only available when using a <a href="
+"\"http://codex.wordpress.org/Creating_a_Static_Front_Page\">static front "
+"page</a>."
+msgstr ""
+"<strong>Huom:</strong> Kotisivu ikkunat näytetään vain jos käytettäessä <a "
+"href=\"http://codex.wordpress.org/Creating_a_Static_Front_Page\">Staattista "
+"etusivua</a>."
+
+#: admin/options-general.php:353
+msgid "Comments Options"
+msgstr "Kommentoinnin ominaisuudet"
+
+#: admin/options-general.php:359
+msgid "Commenting"
+msgstr "Kommentointi"
+
+#: admin/options-general.php:363
+msgid "Use WordPress settings"
+msgstr "Käytä WordPressin asetuksia"
+
+#: admin/options-general.php:364
+msgid "Disabled for pages"
+msgstr "Poista käytöstä sivuilla"
+
+#: admin/options-general.php:365
+msgid "Disabled completely"
+msgstr "Poista käytöstä kokonaan"
+
+#: admin/options-general.php:367
+msgid ""
+"Note: this setting overrides the global WordPress Discussion Setting called "
+"\"Allow people to post comments on new articles\" and also the \"Allow "
+"comments\" option for individual posts/pages."
+msgstr ""
+"Huom: nämä asetukset ylikirjoittavat yleiset WordPressin keskustelun "
+"asetuksen \"Mahdollista ihmisten kommentoina julkaisuja \" ja myös \"Salli "
+"kommentointi\" ominaisuuden yksittäisiltä julkaisuilta/sivuilta."
+
+#: admin/options-general.php:382
+msgid "Child Page Options"
+msgstr "Alasivu ominaisuudet"
+
+#: admin/options-general.php:388
+msgid "Hide parent box if content is empty"
+msgstr "Piilota ylälaatikko jos se on tyhjä"
+
+#: admin/options-general.php:394
+msgid "Child page listings"
+msgstr "Alasivu listaus"
+
+#: admin/options-general.php:398
+msgid "Show listing"
+msgstr "Näytä listaus"
+
+#: admin/options-general.php:399
+msgid "Hide listing"
+msgstr "Piilota listaus"
+
+#: admin/options-general.php:400
+msgid "Only show listing if parent content is empty"
+msgstr "Näytä listaus vain jos isäntäsivun sisältö on tyhjä"
+
+#: admin/options-general.php:416
+msgid "Widget Area Options"
+msgstr "Widget alueen ominaisuudet"
+
+#: admin/options-general.php:419
+msgid "Header widget area"
+msgstr "Header widget alue"
+
+#: admin/options-general.php:420
+msgid ""
+"<strong>Important:</strong> This widget area is unstyled, as it is often "
+"used for advertisement banners, etc. If you enable it, make sure you style "
+"it to your needs using the Custom CSS option."
+msgstr ""
+"<strong>Tärkeää:<Strong> Tämä widget aluetta ei ole tyylitetty, koska sitä "
+"usein käytetään mainosbannereille etc. Jos otat sen käyttöön, varmista että "
+"alueen tyyli käyttäen muokattavaa CSS ominaisuuksia."
+
+#: admin/options-general.php:424
+msgid "Enable header widget area"
+msgstr "Ota header widget alue käyttöön"
+
+#: admin/options-general.php:433
+msgid "Alternate Widgets"
+msgstr "Vaihtoehtoiset widgetit"
+
+#: admin/options-general.php:434
+msgid ""
+"You can enable the theme to show different widget areas in the front page "
+"than the rest of the website. If you enable this option, additional widget "
+"areas that will only be displayed on the front page will be added to the "
+"Widget settings page."
+msgstr ""
+"Voit ottaa teeman näyttämään eri vimpaimet alueilla etusivulla kuin muualla "
+"sivustolla. Jos otat tämän vaihtoehdon, lisää vimpain alueita, jotka vasta "
+"näkyy etusivulla lisätään vimpain asetukset-sivulla."
+
+#: admin/options-general.php:437
+msgid "Enable alternate front page sidebar widget area"
+msgstr ""
+"Ota käyttöön erillinen sivu widget alue etusivulle (Enable alternate front "
+"page sidebar widget area)"
+
+#: admin/options-general.php:441
+msgid "Enable alternate front page footer widget area"
+msgstr ""
+"Ota käyttöön erillinen alatunniste widget alue etusivulle (Enable alternate "
+"front page footer widget area)"
+
+#: admin/options-general.php:442
+msgid ""
+"You can also specify different column counts for the front page footer "
+"widget and the rest-of-site footer widget if you enable this option."
+msgstr ""
+"Voit myös määrittää eri sarakkeen lukemaa etusivulla alatunnisteen widget ja "
+"loput-of-sivuston footer widget jos otat tämän vaihtoehdon."
+
+#: admin/options-general.php:458
+msgid "Top Bar Options"
+msgstr "Yläpalkin asetukset (Top Bar Options)"
+
+#: admin/options-general.php:464
+msgid "Hide the top bar"
+msgstr "Piilota yläpalkki (Hide the top bar)"
+
+#: admin/options-general.php:470
+msgid "Social Media"
+msgstr "Sosiaalinen media"
+
+#: admin/options-general.php:473
+msgid "Open social media links in new window"
+msgstr "Avaa sosiaalisen median linkit uuteen ikkunaan"
+
+#: admin/options-general.php:477
+msgid ""
+"<strong>Hint:</strong> drag and drop to rearrange the placement of the "
+"social media icons."
+msgstr ""
+"<strong>Vinkki:</Strong> vedä ja pudota järjestääksensi sosiaalisen median "
+"ikonit uudelleen."
+
+#: admin/options-general.php:503 admin/options-general.php:562
+msgid "Custom"
+msgstr "Muokattu"
+
+#: admin/options-general.php:512 admin/options-general.php:548
+#: admin/options-general.php:571
+msgid "Title attribute"
+msgstr "Otsikon attribuutit"
+
+#: admin/options-general.php:516 admin/options-general.php:549
+#: admin/options-general.php:575
+msgid "URL"
+msgstr "URL"
+
+#: admin/options-general.php:520 admin/options-general.php:577
+msgid "Leave the URL empty to use the default RSS URL."
+msgstr "Jätä URL tyhjäksi jos haluat käyttää oletus RSS URL."
+
+#: admin/options-general.php:526 admin/options-general.php:547
+#: admin/options-general.php:581
+msgid "Icon URL"
+msgstr "Ikonin URL"
+
+#: admin/options-general.php:530 admin/options-general.php:550
+#: includes/theme-comments.php:219
+msgid "Delete"
+msgstr "Poista"
+
+#: admin/options-general.php:542
+msgid "Add Social Media Profile"
+msgstr "Lisää sosiaalisen median profiili"
+
+#: admin/options-general.php:554
+msgid "Type"
+msgstr "Tyyppi"
+
+#: admin/options-general.php:556
+msgid "Choose type"
+msgstr "Valitse tyyppi"
+
+#: admin/options-general.php:585
+msgid "Add this social media profile"
+msgstr "Lisää tämä sosiaalinen media profiili"
+
+#: admin/options-general.php:602
+msgid "Social Sharing Buttons"
+msgstr "Sosiaalisen median jako nappulat"
+
+#: admin/options-general.php:607
+msgid "Show social sharing button"
+msgstr "Näytä sosiaalisen median jakamisnappulat"
+
+#: admin/options-general.php:613
+msgid "Show in Pages as well?"
+msgstr "Näytä myös sivuilla?"
+
+#: admin/options-general.php:617
+msgid "Show in home and archive pages?"
+msgstr "Näytä koti ja arkistoiduilla sivuilla?"
+
+#: admin/options-general.php:620
+#, php-format
+msgid ""
+"Enabling this will cause the social sharing buttons to appear on posts "
+"listing pages, like the home page and archive pages. Use the available tags "
+"in the code below to get the post's URL, title, and excerpt. Otherwise, all "
+"your buttons will share the same URL and title. If you're using AddThis, see "
+"the %s."
+msgstr ""
+"Tämän toiminnon käynnistämällä sosiaalisen median nappulat tulevat näkyviin "
+"julkaisuiden listaussivuilla, kuten etusivu ja arkistointi sivut. Käytä "
+"saatavilla olevia tageja, jotta saat julkaisun URL, otsikon ja näytteen. "
+"Muussa tapauksessa, kaikki nappulat jakavat saman URL ja otsikon. Jos käytät "
+"AddThis-toimintaa, katso tämä %s."
+
+#: admin/options-general.php:620
+msgid "AddThis Client API"
+msgstr "Addthis Clien API"
+
+#: admin/options-general.php:624
+msgid "Social sharing buttons location"
+msgstr "Sosiaalisen median nappuloiden sijainti"
+
+#: admin/options-general.php:627
+msgid "Bottom of posts"
+msgstr "Julkaisuiden alla"
+
+#: admin/options-general.php:628
+msgid "Top of posts"
+msgstr "Julkaisuiden yllä"
+
+#: admin/options-general.php:629
+msgid "Both top and bottom"
+msgstr "Sekä ylhäällä että alhaalla"
+
+#: admin/options-general.php:635
+msgid "Your social sharing button code"
+msgstr "Sinun sosiaalisen median nappulan koodi"
+
+#: admin/options-general.php:636
+msgid ""
+"You can use codes from any popular social sharing sites, like Facebook, "
+"Digg, AddThis, etc."
+msgstr ""
+"Voit käyttää koodia miltä tahansa suositulta sosiaalisen median "
+"julkaisusivustolta kuten Facebook, Digg, AddThis, jne."
+
+#: admin/options-general.php:639
+msgid "You may use these tags to get the post's URL, title, and excerpt:"
+msgstr ""
+"Voit käyttää näitä tagea saadaksesi julkaisun URL, otsikon ja näytetekstin:"
+
+#: admin/options-general.php:654
+msgid "Adsense Options"
+msgstr "Adsense ominaisuudet"
+
+#: admin/options-general.php:660
+msgid "Show Adsense advertising"
+msgstr "Näytä Adsense mainokset"
+
+#: admin/options-general.php:668
+msgid "Show ads on front page as well"
+msgstr "Näytä mainokset myös etusivulla"
+
+#: admin/options-general.php:674
+msgid "Your Adsense code"
+msgstr "Sinun Adsense koodisi"
+
+#: admin/options-general.php:690
+msgid "Google Analytics Options"
+msgstr "Google Analytics ominaisuudet"
+
+#: admin/options-general.php:695
+msgid "Enable Google Analytics tracking"
+msgstr "Laita Google Analytics jäljitys päälle"
+
+#: admin/options-general.php:702
+msgid ""
+"<strong>Note:</strong> the theme now places the Google Analytics script in "
+"the <code>&lt;head&gt;</code> element to better support the new asynchronous "
+"Google Analytics script. Please make sure you update your script to use the "
+"new asynchronous script from Google Analytics."
+msgstr ""
+"<strong> Huomaa: </ strong> teema nyt asettaa Google Analytics script <code> "
+"<head> </ code>-elementti paremmin tukemaan uutta asynkronista Google "
+"Analytics script. Varmista päivität script käyttää uutta asynkronista "
+"käsikirjoitus Google Analytics."
+
+#: admin/options-general.php:706
+msgid "Google Analytics tracking code"
+msgstr "Google Analytics jäljityskoodi"
+
+#: admin/options-general.php:707
+msgid ""
+"Make sure you include the full tracking code (including the <code>&lt;"
+"script&gt;</code> and <code>&lt;/script&gt;</code> tags) and not just the "
+"<code>UA-#######-#</code> code."
+msgstr ""
+"Muista mainita koko seurantakoodi (mukaan lukien <code> <script> </ code> ja "
+"<code> </ script> </ code>) eikä vain <code> UA-# # # # # # # - # </ code>-"
+"koodin."
+
+#: admin/options-general.php:723
+msgid "Footer Options"
+msgstr "Footer ominaisuudet"
+
+#: admin/options-general.php:728
+msgid "Use Creative Commons licence for content"
+msgstr "Käytä Creative Commons lisenssiä sisältöön"
+
+#: admin/options-general.php:733
+msgid "Copyright text (html allowed)"
+msgstr "Copyright teksti (html sallittu)"
+
+#: admin/options-general.php:734
+msgid ""
+"If this field is empty, the following default copyright text will be "
+"displayed:"
+msgstr "Jos tämä kenttä on tyhjä, seuraava oletus teksti näytetään:"
+
+#: admin/options-general.php:740
+msgid "Do not show copyright info"
+msgstr "Älä näytä copyright tietoja"
+
+#: admin/options-general.php:744
+msgid "Do not show the \"Return to top\" link"
+msgstr "Älä näytä \"Palaa ylös\" linkkiä"
+
+#: admin/options-general.php:759
+msgid "Print Options"
+msgstr "Tulostus ominaisuudet"
+
+#: admin/options-general.php:764
+msgid "Enable print CSS for single posts and pages?"
+msgstr "Salli tulostus CSS yksittäisille julkaisuille ja sivuille?"
+
+#: admin/options-general.php:770
+msgid "Show print button"
+msgstr "Näytä tulostus nappula"
+
+#: admin/options-import.php:30
+msgid "ERROR: You have not selected any colour presets to be exported."
+msgstr ""
+
+#: admin/options-import.php:65 admin/options-import.php:282
+#: admin/options-presets.php:25 admin/uninstall.php:32
+msgid "ERROR: You are not authorised to perform that operation"
+msgstr "VIRHE: Sinulla ei ole lupaa tehdä tätä toimenpidettä"
+
+#: admin/options-import.php:86 admin/options-import.php:122
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+"Ennenkuin lataa tärkeää tiedostoa, sinun pitää korjata seuraavat virheet: "
+
+#: admin/options-import.php:92 admin/options-import.php:196
+msgid "Import Graphene Theme Options"
+msgstr "Tuo Graphene teema ominaisuudet"
+
+#: admin/options-import.php:95
+msgid "Choose a file from your computer:"
+msgstr "Valitse tiedosto tietokoneeltasi:"
+
+#: admin/options-import.php:95 admin/options-import.php:132
+#, php-format
+msgid "Maximum size: %s"
+msgstr "Suurin sallittu koko: %s"
+
+#: admin/options-import.php:102 admin/options-import.php:139
+msgid "Upload file and import"
+msgstr "Lataa tiedosto ja tuo"
+
+#: admin/options-import.php:128 admin/options-import.php:196
+#, fuzzy
+msgid "Import Graphene Theme Colour Presets"
+msgstr "Tuo Graphene teema ominaisuudet"
+
+#: admin/options-import.php:131
+#, fuzzy
+msgid ""
+"Choose a Graphene theme's colour presets export file from your computer:"
+msgstr "Valitse tiedosto tietokoneeltasi:"
+
+#: admin/options-import.php:158
+#, fuzzy
+msgid "Export Graphene Theme Colour Presets"
+msgstr "Tuo Graphene teema ominaisuudet"
+
+#: admin/options-import.php:161
+msgid "Please select the colour presets to be exported."
+msgstr ""
+
+#: admin/options-import.php:171
+#, fuzzy
+msgid "Export colour presets"
+msgstr "Värien esiasetukset (Colour presets)"
+
+#: admin/options-import.php:172 admin/options-import.php:245
+#: admin/options-import.php:255
+#, fuzzy
+msgid "&laquo; Return to Graphene Options"
+msgstr "Mene Graphene ominaisuus sivulle"
+
+#: admin/options-import.php:244
+#, fuzzy
+msgid "Options import completed."
+msgstr "Ominaisuuksien tuonti on valmis"
+
+#: admin/options-import.php:247 admin/options-import.php:257
+#: admin/options-import.php:263 admin/options-import.php:268
+msgid "Sorry, there has been an error."
+msgstr "Valitettavasti on tapahtunut virhe."
+
+#: admin/options-import.php:248
+msgid "The uploaded file does not contain valid Graphene options."
+msgstr "Ladattu tiedosto ei sisällä validia Graphene ominaisuuksia."
+
+#: admin/options-import.php:254
+#, fuzzy
+msgid "Colour presets import completed."
+msgstr "Ominaisuuksien tuonti on valmis"
+
+#: admin/options-import.php:258
+#, fuzzy
+msgid "The uploaded file does not contain valid Graphene colour presets."
+msgstr "Ladattu tiedosto ei sisällä validia Graphene ominaisuuksia."
+
+#: admin/options-import.php:264
+msgid "The uploaded file could not be read."
+msgstr "Ladattua tiedostoa ei voida lukea."
+
+#: admin/options-import.php:269
+msgid "The uploaded file is not supported."
+msgstr "Ladattua tiedostoa ei ole tuettu."
+
+#: admin/options-import.php:277
+msgid ""
+"File is empty. Please upload something more substantial. This error could "
+"also be caused by uploads being disabled in your php.ini or by post_max_size "
+"being defined as smaller than upload_max_filesize in php.ini."
+msgstr ""
+"Tiedosto on tyhjä. Ole hyvä ja lataa usi. Tämä virhe voi johtua siitä että "
+"lataukset on poistettu käytöstä sinun php.ini tai post_max_siz koko on "
+"määritelty pieneksi kuin upload_max_filesize tiedostossa nimeltä php.ini."
+
+#: admin/options-init.php:42
+msgid "Graphene Options"
+msgstr "Graphene ominaisuudet"
+
+#: admin/options-init.php:43
+msgid "Graphene FAQs"
+msgstr "Graphene UKK"
+
+#: admin/options-init.php:134
+msgid "What should we call this preset?"
+msgstr ""
+
+#: admin/options-init.php:135
+msgid "Preset name is required to save a preset."
+msgstr ""
+
+#: admin/options-init.php:136
+msgid "You are deleting this preset:"
+msgstr ""
+
+#: admin/options-init.php:137
+msgid "Please select the exported Graphene colour presets file to import."
+msgstr ""
+
+#: admin/options-init.php:138
+msgid "Oops, nothing found."
+msgstr ""
+
+#: admin/options-init.php:140
+msgid "Please select the exported Graphene options file to import."
+msgstr ""
+
+#: admin/options-init.php:174
+msgid "Toggle all options boxes"
+msgstr "Käy lävitse kaikki ominaisuus laatikot"
+
+#: admin/options-init.php:233
+msgid "Template preview not found."
+msgstr "Templaten esikatselua ei löytynyt"
+
+#: admin/options-init.php:236
+msgid "default"
+msgstr "oletus"
+
+#: admin/options-init.php:295 admin/options-init.php:299
+msgid "Theme default"
+msgstr "Oletusteema"
+
+#: admin/options-init.php:336
+msgid "Learn more about this feature set"
+msgstr ""
+
+#: admin/options-init.php:337
+#, fuzzy
+msgid "Documentation"
+msgstr "Wiki dokumentaatio"
+
+#: admin/options-presets.php:18
+msgid "Settings have been reset."
+msgstr "Asetukset on resetoitu."
+
+#: admin/options-validator.php:27
+msgid "ERROR: Invalid category to show in slider."
+msgstr "VIRHE: Väärä kategoria näytettävässä sliderissa."
+
+#: admin/options-validator.php:30
+msgid ""
+"ERROR: You must specify the posts/pages to be displayed when you have \"Show "
+"specific posts/pages\" selected for the slider."
+msgstr ""
+"VIRHE: Sinun pitää määrittää julkaisut/sivut  näytettäväksi, kun olet "
+"valinnut \"näytä tietyt julkaisut/sivut\" ominaisuuden sliderissa."
+
+#: admin/options-validator.php:33
+msgid ""
+"ERROR: You must have selected at least one category when you have \"Show "
+"posts from categories\" selected for the slider."
+msgstr ""
+"VIRHE: Sinulla on valinnut vähintään yksi luokka kun on  \"Näytä viestit "
+"luokat \" valittu liukusäädintä."
+
+#: admin/options-validator.php:43
+msgid "ERROR: Invalid category selected for the slider categories."
+msgstr "VIRHE: Virheellinen luokka valittu liukusäädintä luokkia."
+
+#: admin/options-validator.php:47
+msgid ""
+"ERROR: Invalid option for the slider categories exclusion from posts listing "
+"is specified."
+msgstr ""
+"VIRHE: Virheellinen vaihtoehto liukusäädintä luokkien ulkopuolelle viestiä "
+"listalle määritetty"
+
+#: admin/options-validator.php:53
+msgid ""
+"ERROR: The number of posts to displayed in the slider must be a an integer "
+"value."
+msgstr "VIRHE: virkojen lukumäärä näkyy liukusäätimen on oltava kokonaisluku."
+
+#: admin/options-validator.php:56
+msgid "ERROR: Invalid option for the slider image is specified."
+msgstr "VIRHE: Virheellinen vaihtoehto liukusäädintä kuva on määritetty."
+
+#: admin/options-validator.php:58
+msgid "ERROR: Bad URL entered for the custom slider image URL."
+msgstr "VIRHE: Huono URL kirjattu mukautetun liukusäädintä kuvan URL."
+
+#: admin/options-validator.php:60
+msgid "ERROR: Invalid option for the slider display style is specified."
+msgstr ""
+"VIRHE: Virheellinen vaihtoehto liukusäädintä näytön tyyli on määritetty."
+
+#: admin/options-validator.php:62
+msgid "ERROR: The value for slider height must be an integer."
+msgstr "VIRHE:  liukusäätimen korkeuden arvo on oltava kokonaisluku."
+
+#: admin/options-validator.php:64
+msgid "ERROR: The value for slider speed must be an integer."
+msgstr "VIRHE:  liukusäätimen nopeuden arvo on oltava kokonaisluku."
+
+#: admin/options-validator.php:66
+msgid "ERROR: The value for slider transition speed must be an integer."
+msgstr "VIRHE:  liukusäätimen siirtymisen nopeusarvo on oltava kokonaisluku."
+
+#: admin/options-validator.php:68
+msgid "ERROR: Invalid slider animation."
+msgstr "VIRHE: Virheellinen liukusäädintä animaatio"
+
+#: admin/options-validator.php:87
+msgid "ERROR: Invalid category selected for the front page posts categories."
+msgstr ""
+"VIRHE: Virheellinen kategoria valittu etusivun julkaisuiden kategoriaksi."
+
+#: admin/options-validator.php:98
+msgid ""
+"ERROR: Invalid option for the type of content to show in homepage panes."
+msgstr ""
+"VIRHE: Virheellinen vaihtoehto sisältötyypistä näkyville etusivulle "
+"ikkunoihin."
+
+#: admin/options-validator.php:100
+msgid ""
+"ERROR: The value for the number of latest posts to display in homepage panes "
+"must be an integer."
+msgstr ""
+"VIRHE: uusimpien viestien määräarvo näytettäväksi etusivun ikkunoissa on "
+"oltava kokonaisluku."
+
+#: admin/options-validator.php:107
+msgid ""
+"ERROR: Invalid category selected for the latest posts to show from in the "
+"homepage panes."
+msgstr ""
+"VIRHE: Virheellinen kategoria on valittu \"Uusimmat viestit\"  etusivulle "
+"ikkunoissa."
+
+#: admin/options-validator.php:122
+msgid "ERROR: Invalid option for the comments option."
+msgstr "VIRHE: Virheellinen vaihtoehto kommenttien vaihtoehdoissa."
+
+#: admin/options-validator.php:131
+msgid "ERROR: Invalid option for the child page listings."
+msgstr "VIRHE: virheellinen vaihtoehto alasivujen listaukseen."
+
+#: admin/options-validator.php:142
+msgid "ERROR: You must supply an URL for the custom RSS Feed."
+msgstr "VIHRE: Sinun täytyy lisätä URL muokattuun RSS feediiin."
+
+#: admin/options-validator.php:144
+msgid "ERROR: Bad URL entered for the custom RSS Feed URL."
+msgstr "VIHRE: Virheellinen URL muokatussa RSS Feedin URL:na"
+
+#: admin/options-validator.php:175
+#, php-format
+msgid "ERROR: Bad URL entered for the %s URL."
+msgstr "VIRHE: Tämä %s o virheellinen URL."
+
+#: admin/options-validator.php:201
+msgid "ERROR: Invalid option for the social sharing buttons location."
+msgstr ""
+"VIRHE: Virheellinen vaihtoehto sosiaalisenmedian jakamisnappuloitten "
+"sijainiksi."
+
+#: admin/options-validator.php:260
+msgid "ERROR: The value for the header image height must be an integer."
+msgstr "VIRHE: Otsikkokuvan korkeuden arvo pitää olla kokonaisluku."
+
+#: admin/options-validator.php:261
+msgid "ERROR: Invalid option for the Search box location."
+msgstr "VIRHE: Virheellinen vaihtoehto Etsi laatikon sijainnille."
+
+#: admin/options-validator.php:265
+msgid "ERROR: Invalid option for the column mode."
+msgstr "VIRHE: Virheellinen vaihtoehto sarakkeen muodolle."
+
+#: admin/options-validator.php:266
+msgid "ERROR: Invalid option for the bbPress column mode."
+msgstr "VIRHE: Virheellinen vaihtoehto bbPress sarakkeen muodolle."
+
+#: admin/options-validator.php:272
+#, php-format
+msgid ""
+"ERROR: Invalid width for %s. Width value must be positive number without "
+"units."
+msgstr ""
+"VIRHE: Virheellinen leveys %s. Leveyden pitää olla positiivinen numero ilman "
+"tekstiä."
+
+#: admin/options-validator.php:279
+msgid "ERROR: Invalid option for the post date display."
+msgstr "VIRHE: Virheellinen vaihtoehto julkaisun päivän näyttämiseen."
+
+#: admin/options-validator.php:303
+msgid ""
+"ERROR: The number of columns to be displayed in the footer widget must be a "
+"an integer value."
+msgstr ""
+"VIRHE: Footerissa näytettävien sarakkeiden lukumääräarvo pitää olla "
+"kokonaisluku."
+
+#: admin/options-validator.php:308
+msgid "ERROR: The width of the submenu must be a an integer value."
+msgstr "VIRHE: Alamenun leveysarvo pitää olla kokonaisluku."
+
+#: admin/options-validator.php:316
+msgid "ERROR: Bad URL entered for the favicon URL."
+msgstr "VIRHE: Virheellinen URL Favico:lla "
+
+#: admin/options-validator.php:342
+msgid "ERROR: Invalid action hook selected widget action hooks."
+msgstr ""
+"VIRHE: Virhellinen toimintokoukku on valittu vimpaitten toimintokoukuista."
+
+#: admin/options.php:60 admin/uninstall.php:23
+msgid "Uninstall Graphene"
+msgstr "Poista Graphenen asennus"
+
+#: admin/options.php:61
+msgid ""
+"Please confirm that you would like to uninstall the Graphene theme. All of "
+"the theme's options in the database will be deleted."
+msgstr ""
+"Varmista että haluat poistaa Grapheen teeman asennuksen. Kaikki teeman "
+"ominaissuudet poistetaan tietokannasta."
+
+#: admin/options.php:62
+msgid "This action is not reversible."
+msgstr "Tätä toimintoa ei voida peruuttaa."
+
+#: admin/options.php:66 admin/options.php:308
+msgid "Uninstall Theme"
+msgstr "Poista teeman asennus."
+
+#: admin/options.php:80
+msgid "Graphene Theme Options"
+msgstr "Graphene teeman asetukset"
+
+#: admin/options.php:82
+msgid ""
+"These are the global settings for the theme. You may override some of the "
+"settings in individual posts and pages."
+msgstr ""
+"Nämä ovat teeman yleiset asetukset. Voit ylikirjoittaa joitakin asetuksia "
+"yksittäisiin julkaisuihin ja sivuihin."
+
+#: admin/options.php:90
+msgid "General"
+msgstr "Yleinen"
+
+#: admin/options.php:91
+msgid "Display"
+msgstr "Näyttö"
+
+#: admin/options.php:92
+msgid "Colours"
+msgstr "Värit"
+
+#: admin/options.php:93
+msgid "Advanced"
+msgstr "Edistyneet"
+
+#: admin/options.php:112
+msgid "Save Options"
+msgstr "Tallenna valinnat"
+
+#: admin/options.php:126
+msgid "Need help?"
+msgstr "Tarvitsetko apua?"
+
+#: admin/options.php:130
+msgid "Documentation Wiki"
+msgstr "Wiki dokumentaatio"
+
+#: admin/options.php:133
+#, php-format
+msgid "Also, find out how you can %s."
+msgstr "Näin voit auttaa%s."
+
+#: admin/options.php:133
+msgid "support the Graphene theme"
+msgstr "Tue Graphene teemaa"
+
+#: admin/options.php:140
+msgid "Support the developer"
+msgstr "Tue kehittäjiä"
+
+#: admin/options.php:143
+msgid ""
+"Developing this awesome theme took a lot of effort and time, months and "
+"months of continuous voluntary unpaid work. If you like this theme or if you "
+"are using it for commercial websites, please consider a donation to the "
+"developer to help support future updates and development."
+msgstr ""
+"Upean teeman kehittäminen vie aikaa ja resursseja, kuukausia ja kuukausia "
+"jatkuvaa vapaaehtoistyötä palkatta. Jos pidät teemasta tai käytät sitä "
+"kaupallisella nettisivuilla, toivomme että harkitset lahjoitusta "
+"kehittäjille. Näin autat myös tulevaisuuden päivityksiä ja kehitystyötä."
+
+#: admin/options.php:157
+msgid "Graphene Theme news"
+msgstr "Graphene teeman uutiset"
+
+#: admin/options.php:168
+msgid "No news items."
+msgstr "Ei uusia uutisia."
+
+#: admin/options.php:184
+msgid "Add-ons and plugins"
+msgstr "Lisäosat ja pluginit"
+
+#: admin/options.php:187
+msgid "Add-ons"
+msgstr "Lisäosat"
+
+#: admin/options.php:188
+msgid ""
+"Add-ons are not shipped with the theme, but can be installed separately to "
+"extend the theme's capability."
+msgstr ""
+"Lisäosat eivät tule teeman mukana, mutta ne voidaan asentaa erikseen "
+"laajentamaan teeman muokattavuutta."
+
+#: admin/options.php:192 admin/options.php:198
+msgid "Installed"
+msgstr "Asennettu"
+
+#: admin/options.php:193 admin/options.php:199 admin/options.php:245
+msgid "Not installed"
+msgstr "Ei asennettu"
+
+#: admin/options.php:194
+msgid ""
+"The new premium mobile theme that fuses elegant design with premium "
+"features. It's a match of pixel-perfection and code-devilry."
+msgstr ""
+
+#: admin/options.php:199
+msgid "Learn more"
+msgstr "Lisää tietoa"
+
+#: admin/options.php:200
+msgid ""
+"Mobile extension developed specifically for optimised display of your site "
+"on mobile devices, such as iPhone and Android devices."
+msgstr ""
+"mobiili lisäosat on kehitetty erityisesti optimoimaan sivustosi näkyvyyttä "
+"mobiililaitteilla, kuten Android ja iphone laitteet."
+
+#: admin/options.php:204
+msgid "Plugins"
+msgstr "Plugins"
+
+#: admin/options.php:205
+msgid ""
+"The plugins listed here are natively supported by the theme. All you need to "
+"do is install the plugins and activate them."
+msgstr ""
+"Nämä listatut pluginit on tuettu teemalla. Sinun tarvitsee vain asentaa "
+"plugin ja aktivoida se."
+
+#: admin/options.php:244
+msgid "Activated"
+msgstr "Aktivoitu"
+
+#: admin/options.php:257 admin/options.php:266
+#, fuzzy
+msgid "Reset settings"
+msgstr "Nollaa oletus asetuksiin"
+
+#: admin/options.php:260
+msgid ""
+"Reset all of the theme's settings to their default values. Only settings "
+"accessible via Graphene Theme Options are affected, including any custom "
+"colour presets you might have. Custom Header, Custom Menus, and other "
+"WordPress settings won't be affected."
+msgstr ""
+
+#: admin/options.php:261
+#, fuzzy
+msgid "<strong>WARNING:</strong> This action is not reversible."
+msgstr "Tätä toimintoa ei voida peruuttaa."
+
+#: admin/options.php:276
+msgid "Import/export theme options"
+msgstr "Tuo/vie teeman ominaisuuksia"
+
+#: admin/options.php:279
+msgid "Import"
+msgstr "Tuo"
+
+#: admin/options.php:282
+msgid "Import Theme options"
+msgstr "Tuo teeman ominaisuuksia"
+
+#: admin/options.php:284
+msgid "Export"
+msgstr "Vie"
+
+#: admin/options.php:288
+msgid "Export Theme options"
+msgstr "Vie teeman ominaisuuksia"
+
+#: admin/options.php:298
+msgid "Uninstall theme"
+msgstr "Poista teeman asennus"
+
+#: admin/options.php:301
+msgid ""
+"<strong>Be careful!</strong> Uninstalling the theme will remove all of the "
+"theme's options from the database. Do this only if you decide not to use the "
+"theme anymore."
+msgstr ""
+"<strong>Ole varovainen!</strong> Teeman asennuksen poistaminen poistaa "
+"kaikki teeman ominaisuudet tietokannasta. Tee vain jos olet päättänyt että "
+"et käytä teemaan enää koskaan."
+
+#: admin/options.php:302
+msgid ""
+"If you just want to try another theme, there is no need to uninstall this "
+"theme. Simply activate the other theme in the Appearance &gt; Themes admin "
+"page."
+msgstr ""
+"Jos haluat vain kokeilla toista teemaa, sinun ei tarvitse poistaa nykyistä "
+"teemaa. Yksinkertaisesti vain aktivoit toisen teeman Ulkoasun sivuilta."
+
+#: admin/options.php:303
+#, fuzzy
+msgid ""
+"Note that uninstalling this theme <strong>does not remove</strong> the "
+"theme's files. To delete the files after you have uninstalled this theme, go "
+"to Appearance &gt; Themes and delete the theme from there."
+msgstr ""
+"HUOM! Teeman asennuksen poistaminen <strong>EI POISTA</strong> teeman "
+"tiedostoja. Jos haluat poistaa tiedostot teeman asennuksen poistamisen "
+"jälkeen, mene Ulkomuoto (Appearances) Teemat ja poista teema sieltä."
+
+#: admin/options.php:320
+msgid ""
+"The preview will be updated when the \"Save Options\" button above is "
+"clicked."
+msgstr ""
+"Esikatselu päivitetään kun \"Tallenna asetukset \"-painiketta napsautetaan."
+
+#: admin/uninstall.php:24
+#, php-format
+msgid "Theme uninstalled. Redirecting to %s"
+msgstr "Teeman asennus on poistettu. Ohjataan %s"
+
+#: admin/user.php:7
+msgid "Graphene-specific User Profile Information"
+msgstr "Graphene specifit käyttäjä profiilitiedot"
+
+#: admin/user.php:8
+msgid "The settings defined here are used only with the Graphene theme."
+msgstr "Näillä asetuksilla määritellää vain Graphene teemaa"
+
+#: admin/user.php:12
+msgid "Author profile image URL"
+msgstr "Krjoittajan profiilikuvan URL"
+
+#. translators: %s will be replaced by a link to the Gravatar website (http://www.gravatar.com)
+#: admin/user.php:14
+#, php-format
+msgid ""
+"You can specify the image to be displayed as the author's profile image in "
+"the Author's page. If no URL is defined here, the author's %s will be used."
+msgstr ""
+"Voit määrittää kuvan näkymään kirjoittan profiilissa kirjoittaja sivulla. "
+"Jos URL ei ole määritelty, kirjoittajan %s käytetään."
+
+#. translators: %s will be replaced by 'http://' wrapped in <code> tags
+#: admin/user.php:19
+#, php-format
+msgid "Please enter the full URL (including %s) to your profile image."
+msgstr "Ole hyvä ja kirjoita koko URL (myös %s) profiilikuvaasi."
+
+#: admin/user.php:19
+msgid ""
+"<strong>Important: </strong>Image width must be less than or equal to "
+"<strong>150px</strong>."
+msgstr ""
+"<strong>Tärkeää:</strong>Kuvan leveys pitää olla vähemmän tai yhtä paljon "
+"kuin <strong>150px</strong>."
+
+#. translators: %1$s is the comment date, %2$s is the comment time
+#: includes/theme-comments.php:32
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: includes/theme-comments.php:35
+msgid "Edit comment"
+msgstr "Muokkaa kommenttia"
+
+#: includes/theme-comments.php:36
+msgid "Link to this comment"
+msgstr "Linkki tähän kommenttiin"
+
+#: includes/theme-comments.php:40
+msgid "Reply"
+msgstr "Vastaa"
+
+#: includes/theme-comments.php:51
+msgid "Your comment is awaiting moderation."
+msgstr "Sinun kommenttisi odottaa moderaattorin käsittelyä"
+
+#: includes/theme-comments.php:80
+msgid "Name:"
+msgstr "Nimi:"
+
+#: includes/theme-comments.php:85
+msgid "Email:"
+msgstr "Sähköposti:"
+
+#: includes/theme-comments.php:90
+msgid "Website:"
+msgstr "Sivusto:"
+
+#: includes/theme-comments.php:110
+msgid "Message:"
+msgstr "Viesti:"
+
+#: includes/theme-comments.php:219
+#, fuzzy
+msgid "Delete this comment"
+msgstr "Linkki tähän kommenttiin"
+
+#: includes/theme-comments.php:221
+#, fuzzy
+msgid "Mark this comment as spam"
+msgstr "Linkki tähän kommenttiin"
+
+#: includes/theme-comments.php:221
+msgid "Spam"
+msgstr ""
+
+#: includes/theme-comments.php:248
+#, fuzzy
+msgid "Fetch more comments"
+msgstr "Kirjoittajan kommentti tekstit"
+
+#. translators: %1$s is the website's name, %2$s is the social media name
+#: includes/theme-functions.php:138
+#, php-format
+msgid "Visit %1$s's %2$s page"
+msgstr "Vieraile %1$s %2$s sivuilla"
+
+#: includes/theme-functions.php:300
+#, php-format
+msgid ""
+"You haven't placed any widget into this widget area. Go to %1$s and place "
+"some widgets in the widget area called %2$s."
+msgstr ""
+"Et ole vielä laittanut yhtään widget alueelle. Mene %1$s ja lisää jokin "
+"widget alueelle %2$s."
+
+#: includes/theme-functions.php:300
+msgid "WP Admin > Appearance > Widgets"
+msgstr "WP Admin > Ulkoasu > vimpaimet"
+
+#: includes/theme-functions.php:301
+msgid "This notice will not be displayed to your site's visitors."
+msgstr "Tätä ilmoitusta ei näytetä sivuston vierailijoille."
+
+#: includes/theme-loop.php:85
+msgid "Continue reading &raquo;"
+msgstr "Jatka lukemista &raquo;"
+
+#: includes/theme-loop.php:152
+msgid "Older posts &laquo;"
+msgstr "Vanhemmat artikkelit &laquo;"
+
+#: includes/theme-loop.php:153
+msgid "&raquo; Newer posts"
+msgstr "&raquo; Uudet artikkelit"
+
+#: includes/theme-loop.php:155
+msgid "Next page &raquo;"
+msgstr "Seuraavan sivun &raquo;"
+
+#: includes/theme-loop.php:156
+msgid "&laquo; Previous page"
+msgstr "&laquo; edellinen sivu"
+
+#: includes/theme-loop.php:162
+msgid "Fetch more items"
+msgstr ""
+
+#: includes/theme-loop.php:474 includes/theme-loop.php:475
+#, php-format
+msgid "Print this %s"
+msgstr "Tulosta tämä %s"
+
+#: includes/theme-loop.php:515
+#, php-format
+msgid "Return to %s"
+msgstr "Palaa %s"
+
+#: includes/theme-menu.php:66
+msgid "Home"
+msgstr "Koti"
+
+#: includes/theme-panes.php:107
+msgid "Read more"
+msgstr "Lue lisää"
+
+#: includes/theme-scripts.php:118 includes/theme-scripts.php:122
+#, php-format
+msgid "Fetching %1$s more item from %2$s left ..."
+msgid_plural "Fetching %1$s more items from %2$s left ..."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/theme-scripts.php:127
+msgid "No more items to fetch"
+msgstr ""
+
+#: includes/theme-scripts.php:131 includes/theme-scripts.php:135
+#, php-format
+msgid "Fetching %1$s more top level comment from %2$s left ..."
+msgid_plural "Fetching %1$s more top level comments from %2$s left ..."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/theme-scripts.php:140
+#, fuzzy
+msgid "No more comments to fetch"
+msgstr "Kirjoittajan kommentti tekstit"
+
+#: includes/theme-setup.php:115
+msgid "Header Menu"
+msgstr "Otsikko menu"
+
+#: includes/theme-setup.php:116
+msgid "Secondary Menu"
+msgstr "Toissijainen menu"
+
+#: includes/theme-setup.php:117
+msgid "Footer Menu"
+msgstr "Footer menu"
+
+#: includes/theme-setup.php:168
+msgid "Header image by Syahir Hakim"
+msgstr "Otsikkokuva by Syahir Hakim"
+
+#: includes/theme-setup.php:172
+msgid ""
+"This is the default Graphene theme header image, cropped from image by "
+"Quantin Houyoux at sxc.hu"
+msgstr ""
+"Tämä oletus Graphene teeman otsikko kuva, muokattu kuva on Quantin Houyoux  "
+"sxc.hu:sta"
+
+#: includes/theme-setup.php:176 includes/theme-setup.php:180
+#: includes/theme-setup.php:184 includes/theme-setup.php:188
+#: includes/theme-setup.php:192
+msgid "Header image cropped from image by Ilco at sxc.hu"
+msgstr "Otsikko kuva on muokattu kuvasta  Ilco at sxc.hu"
+
+#: includes/theme-setup.php:263
+msgid ""
+"The first sidebar widget area (will always be displayed on the right hand "
+"side)."
+msgstr "Ensimmäinen sivupalkki widget alue (näytetään aina oikealla puolella)"
+
+#: includes/theme-setup.php:272
+msgid ""
+"The second sidebar widget area (will always be displayed on the left hand "
+"side)."
+msgstr "Toinen sivupalkki (näytetään aina vasemmalla puolella)."
+
+#: includes/theme-setup.php:279
+msgid "Footer Widget Area"
+msgstr "Footer widget alue"
+
+#: includes/theme-setup.php:281
+msgid ""
+"The footer widget area. Leave empty to disable. Set the number of columns to "
+"display at the theme's Display Options page."
+msgstr ""
+"Footer widget alue. Jätä tyhjäksi, jos haluat poistaa käytöstä. Laita "
+"sarakkeiden määrä näyttääksesi teeman ominaisuus sivuilla."
+
+#: includes/theme-setup.php:298
+msgid ""
+"The first sidebar widget area that will only be displayed on the front page."
+msgstr "Ensimmäisen sivupalkin widget alue, joka näytetään vain etusivulla."
+
+#: includes/theme-setup.php:307
+msgid ""
+"The second sidebar widget area that will only be displayed on the front page."
+msgstr "Toisen sivupalkin widget alue, joka näytetään vain etusivulla."
+
+#: includes/theme-setup.php:316
+msgid "Front Page Footer Widget Area"
+msgstr "Etusivun footer widget alue"
+
+#: includes/theme-setup.php:318
+msgid ""
+"The footer widget area that will only be displayed on the front page. Leave "
+"empty to disable. Set the number of columns to display at the theme's "
+"Display Options page."
+msgstr ""
+"Footer widget alue joka näytetään vain etusivulla. Jätä tyhjäksi, jos haluat "
+"poistaa käytöstä. Aseta sarakkeiden määrä teeman näyttöominaisuus sivulta."
+
+#: includes/theme-setup.php:328
+msgid "Header Widget Area"
+msgstr "Otsikko widget alue"
+
+#: includes/theme-setup.php:330
+msgid "The header widget area."
+msgstr "Otsikko widget alue."
+
+#: includes/theme-setup.php:347
+#, php-format
+msgid ""
+"Dynamically added widget area. This widget area is attached to the %s action "
+"hook."
+msgstr ""
+"Dynaamisesti lisätty widget alue. Tämä widget alue on liitetty %s "
+"toimintokoukkuun."
+
+#: includes/theme-slider.php:64 includes/theme-slider.php:93
+msgid "View full post"
+msgstr "Katso koko julkaisu"
+
+#: js/mce-l10n.php:11
+msgid "Add a warning message block"
+msgstr ""
+
+#: js/mce-l10n.php:12
+msgid "Add an error message block"
+msgstr ""
+
+#: js/mce-l10n.php:13
+msgid "Add a notice message block"
+msgstr ""
+
+#: js/mce-l10n.php:14
+msgid "Add an important message block"
+msgstr ""
+
+#: js/mce-l10n.php:15
+msgid "Add a pullquote"
+msgstr ""
+
+#~ msgid "Permalink Link to %s"
+#~ msgstr "Pysyvä linkki %s"
+
+#~ msgid "Hide date"
+#~ msgstr "Piilota päiväys"
+
+#~ msgid "Use random header image"
+#~ msgstr "Käytä satunnaista otsikko kuvaa"
+
+#~ msgid ""
+#~ "Check this to show a random header image (random image taken from the "
+#~ "available default header images)."
+#~ msgstr ""
+#~ "Valitse tämä näyttääksesi satunnainen otsikkokuva(satunnainen kuva "
+#~ "otetaan käytettävistä olevista oletus otsikkokuvista)."
+
+#~ msgid ""
+#~ "<strong>Note:</strong> only works on pages where a specific header image "
+#~ "is not defined."
+#~ msgstr ""
+#~ "<strong>Huom:</strong> toimii vain sivuilla, joissa on ei ole erikseen "
+#~ "määritelty otsikkokuvaa."
+
+#~ msgid "Text colour:"
+#~ msgstr "Tekstin väri:"
+
+#~ msgid "--Disabled--"
+#~ msgstr "--Poistettu--"
+
+#~ msgid "You may select multiple categories by holding down the CTRL key."
+#~ msgstr "Voit valita useita kategoriota pitämällä CTRL-näppäintä pohjassa."
+
+#~ msgid ""
+#~ "Applicable only if <strong>Latest posts</strong> or <strong>Latest posts "
+#~ "by category</strong> is selected above."
+#~ msgstr ""
+#~ "On voimassa vain jos <strong>Viimeisimät julkaisut</strong> tai "
+#~ "<strong>Viimeisimmät julkaisut kategorioittain</strong> on valittu "
+#~ "aiemmin."
+
+#~ msgid ""
+#~ "Applicable only if <strong>Latest posts by category</strong> is selected "
+#~ "above."
+#~ msgstr ""
+#~ "On voimassa vain jos <strong>Viimeisimmät julkaisut kategorioittain</"
+#~ "strong> on valittua aiemmin."
+
+#~ msgid ""
+#~ "Applicable only if <strong>Posts and/or pages</strong> is selected above."
+#~ msgstr ""
+#~ "On voimassa vain jos <strong>Julkaisut ja/tai sivut</strong> on valittua "
+#~ "aiemmin."
+
+#~ msgid ""
+#~ "<strong>Note:</strong> This is an experimental feature. Please report any "
+#~ "problem at the <a href=\"http://forum.khairul-syahir.com/forum/bug-report"
+#~ "\">Support Forum</a>."
+#~ msgstr ""
+#~ "<strong>Huom:</strong> Tämä on kokeellinen ominaisuus. Ole hyvä ja "
+#~ "raportoi kaikista ongelmista <a href=\"http://forum.khairul-syahir.com/"
+#~ "forum/bug-report\">Support Forum</a>."
+
+#~ msgid "The \"Normal website\" settings preset has been applied."
+#~ msgstr "\"Normaali websivusto\" asetukset on laitettu päälle."
+
+#~ msgid "Graphene Usage Survey"
+#~ msgstr "Graphene käyttäjä tutkimus"
+
+#~ msgid ""
+#~ "Help us to get to know you better. Take the Graphene theme usage survey "
+#~ "now! Every opinion counts towards making the theme better. The survey is "
+#~ "very short, and is completely anonymous."
+#~ msgstr ""
+#~ "Auta meitä tuntemaan tarpeesi paremmin. ota osaa Graphene teeman "
+#~ "käyttäjätutkimukseen nyt! Kaikki mielipiteet auttavat meitä tekemään "
+#~ "teemasta paremman. Tämä tutkimus on hyvin lyhyt, ja se voi tehdä täysin "
+#~ "anonyymisti."
+
+#~ msgid "Take the survey"
+#~ msgstr "Ota osaa tutkimukseen"
+
+#~ msgid "Options Presets"
+#~ msgstr "Oletus Asetukset"
+
+#~ msgid ""
+#~ "The default settings for the theme is preconfigured for use in blogs. If "
+#~ "you're using this theme primarily for a normal website, or if you want to "
+#~ "reset the settings to their default values, you can apply one of the "
+#~ "available options presets below."
+#~ msgstr ""
+#~ "Oletusasetukset teema on valmiiksi käytettäväksi blogeja. Jos käytät tätä "
+#~ "teemaa lähinnä normaali verkkosivuilla, tai jos haluat palauttaa "
+#~ "asetukset niiden oletusarvoihin, voit valita yhden vaihtoehdoista alla."
+
+#~ msgid ""
+#~ "Note that you can still configure the individual settings after you apply "
+#~ "any preset."
+#~ msgstr ""
+#~ "Huomaa, että voit silti määrittää yksittäiset asetukset asentamisen "
+#~ "jälkeen."
+
+#~ msgid "Normal website"
+#~ msgstr "Normaali websivusto"
+
+#~ msgid "Apply Options Preset"
+#~ msgstr "Otakäyttöön Asetuksien Oletusarvot (Apply Options Preset)"
+
+#~ msgid "Display the latest Twitter status updates."
+#~ msgstr "Näytä viimeisimmät Twitter statuksen päivitykset."
+
+#~ msgid "Loading tweets..."
+#~ msgstr "Ladataa viserryksiä..."
+
+#~ msgid "Follow %s"
+#~ msgstr "Seuraa %s"
+
+#~ msgid "Latest tweets"
+#~ msgstr "Viimeisimmät tweetit"
+
+#~ msgid "Title:"
+#~ msgstr "Otsikko:"
+
+#~ msgid "Twitter Username:"
+#~ msgstr "Twitter käyttäjänimi:"
+
+#~ msgid "Number of tweets to display:"
+#~ msgstr "Tweettien määrä joka näytetään:"
+
+#~ msgid "Show followers count"
+#~ msgstr "Näytä seuraajien määrä"
+
+#~ msgid "Open links in new window"
+#~ msgstr "Avaa linkit uudessa ikkunassa"

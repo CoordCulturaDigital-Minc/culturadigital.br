@@ -2,8 +2,7 @@
 /**
  * The author template file.
  *
- * @package WordPress
- * @subpackage Graphene
+ * @package Graphene
  * @since Graphene 1.0
  */
 
@@ -25,19 +24,27 @@ get_header(); ?>
      * If you want to overload this in a child theme then include a file
      * called loop-index.php and that will be used instead.
      */
-     get_template_part('loop', 'author');
+     get_template_part( 'loop', 'author' );
     ?>
     
-    <?php do_action('graphene_before_authorpostlist'); ?>
+    <?php do_action( 'graphene_before_authorpostlist' ); ?>
     
     <h3 class="author-post-list"><?php _e("Author's posts listings", 'graphene'); ?></h3>
+    
+    <div class="entries-wrapper">
     <?php 
-	/* Start another loop that lists all of the author's posts with excerpt */
-	query_posts(array('author' => get_the_author_meta('ID'), 'paged' => get_query_var('paged'))); 
-	get_template_part('loop', 'archive'); 
+	/* Start the loop again to list all of the author's posts with excerpt */
+	rewind_posts();
+	
+	while ( have_posts() ) {
+		the_post();
+		get_template_part( 'loop', 'archive' );
+	}
 	?>
+    </div>
+    
+    <?php graphene_posts_nav();	?>
     
     <?php do_action('graphene_after_authorpostlist'); ?>
             
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

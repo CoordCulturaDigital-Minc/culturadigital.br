@@ -1,10 +1,3 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Motion
- */
-?>
-
 <div id="footer">
 
 	<div class="foot1">
@@ -49,7 +42,7 @@
 </div><!-- /footer -->
 
 <div id="credits">
-	<div id="creditsleft">Powered by <a href="http://wordpress.org/extend/themes/" rel="generator">WordPress</a> | Theme: <a href="http://85ideas.com/public-releases/wordpress-theme-motion/">Motion</a> by <a href="http://85ideas.com/" rel="designer">85ideas</a>.</div>
+	<div id="creditsleft">Powered by <a href="http://wordpress.org/extend/themes/" rel="generator">WordPress</a> &amp; <a href="http://www.webdesigncompany.net">Web Design Company</a></div>
 	<div id="creditsright"><a href="#top">&#91; Back to top &#93;</a></div>
 </div><!-- /credits -->
 
