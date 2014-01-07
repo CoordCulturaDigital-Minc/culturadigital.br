@@ -1,258 +1,251 @@
 <?php
+/**
+ * BuddyPress Core Admin Bar
+ *
+ * Handles the core functions related to the WordPress Admin Bar
+ *
+ * @package BuddyPress
+ * @subpackage Core
+ */
 
-function bp_core_admin_bar() {
-	global $bp, $wpdb, $current_blog;
+// Exit if accessed directly
+if ( !defined( 'ABSPATH' ) ) exit;
 
-	if ( defined( 'BP_DISABLE_ADMIN_BAR' ) )
-		return false;
+if ( !bp_use_wp_admin_bar() || defined( 'DOING_AJAX' ) )
+	return;
 
-	if ( (int)get_site_option( 'hide-loggedout-adminbar' ) && !is_user_logged_in() )
-		return false;
+/**
+ * Unhook the WordPress core menus.
+ *
+ * @since BuddyPress (r4151)
+ *
+ * @uses remove_action
+ * @uses is_network_admin()
+ * @uses is_user_admin()
+ */
+function bp_admin_bar_remove_wp_menus() {
 
-	$bp->doing_admin_bar = true;
+	remove_action( 'admin_bar_menu', 'wp_admin_bar_my_account_menu', 10 );
+	remove_action( 'admin_bar_menu', 'wp_admin_bar_my_sites_menu', 20 );
+	remove_action( 'admin_bar_menu', 'wp_admin_bar_dashboard_view_site_menu', 25 );
 
-	echo '<div id="wp-admin-bar"><div class="padder">';
+	// Don't show the 'Edit Page' menu on BP pages
+	if ( !bp_is_blog_page() )
+		remove_action( 'admin_bar_menu', 'wp_admin_bar_edit_menu', 30 );
 
-	// **** Do bp-adminbar-logo Actions ********
-	do_action( 'bp_adminbar_logo' );
+	remove_action( 'admin_bar_menu', 'wp_admin_bar_shortlink_menu', 80 );
+	remove_action( 'admin_bar_menu', 'wp_admin_bar_updates_menu', 70 );
 
-	echo '<ul class="main-nav">';
-
-	// **** Do bp-adminbar-menus Actions ********
-	do_action( 'bp_adminbar_menus' );
-
-	echo '</ul>';
-	echo "</div></div><!-- #wp-admin-bar -->\n\n";
-
-	$bp->doing_admin_bar = false;
-}
-
-// **** Default BuddyPress admin bar logo ********
-function bp_adminbar_logo() {
-	global $bp;
-
-	echo '<a href="' . $bp->root_domain . '" id="admin-bar-logo">' . get_blog_option( BP_ROOT_BLOG, 'blogname') . '</a>';
-}
-
-// **** "Log In" and "Sign Up" links (Visible when not logged in) ********
-function bp_adminbar_login_menu() {
-	global $bp;
-
-	if ( is_user_logged_in() )
-		return false;
-
-	echo '<li class="bp-login no-arrow"><a href="' . $bp->root_domain . '/wp-login.php?redirect_to=' . urlencode( $bp->root_domain ) . '">' . __( 'Log In', 'buddypress' ) . '</a></li>';
-
-	// Show "Sign Up" link if user registrations are allowed
-	if ( bp_get_signup_allowed() ) {
-		echo '<li class="bp-signup no-arrow"><a href="' . bp_get_signup_page(false) . '">' . __( 'Sign Up', 'buddypress' ) . '</a></li>';
+	if ( !is_network_admin() && !is_user_admin() ) {
+		remove_action( 'admin_bar_menu', 'wp_admin_bar_comments_menu', 50 );
+		remove_action( 'admin_bar_menu', 'wp_admin_bar_appearance_menu', 60 );
 	}
+
+	remove_action( 'admin_bar_menu', 'wp_admin_bar_updates_menu', 70 );
 }
+add_action( 'bp_init', 'bp_admin_bar_remove_wp_menus', 2 );
 
+/**
+ * Add a menu for the root site of this BuddyPress network
+ *
+ * @global type $bp
+ * @global type $wp_admin_bar
+ * @return If in ajax
+ */
+function bp_admin_bar_root_site() {
+	global $bp, $wp_admin_bar;
 
-// **** "My Account" Menu ******
-function bp_adminbar_account_menu() {
-	global $bp;
+	// Create the root blog menu
+	$wp_admin_bar->add_menu( array(
+		'id'    => 'bp-root-blog',
+		'title' => get_blog_option( bp_get_root_blog_id(), 'blogname' ),
+		'href'  => bp_get_root_domain()
+	) );
 
-	if ( !$bp->bp_nav || !is_user_logged_in() )
-		return false;
+	// Logged in user
+	if ( is_user_logged_in() ) {
 
-	echo '<li id="bp-adminbar-account-menu"><a href="' . bp_loggedin_user_domain() . '">';
+		// Dashboard links
+		if ( is_super_admin() ) {
 
-	echo __( 'My Account', 'buddypress' ) . '</a>';
-	echo '<ul>';
+			// Add site admin link
+			$wp_admin_bar->add_menu( array(
+				'id' => 'dashboard',
+				'parent' => 'bp-root-blog',
+				'title' => __( 'Admin Dashboard', 'buddypress' ),
+				'href' => get_admin_url( bp_get_root_blog_id() )
+			) );
 
-	/* Loop through each navigation item */
-	$counter = 0;
-	foreach( (array)$bp->bp_nav as $nav_item ) {
-		$alt = ( 0 == $counter % 2 ) ? ' class="alt"' : '';
+			// Add network admin link
+			if ( is_multisite() ) {
 
-		echo '<li' . $alt . '>';
-		echo '<a id="bp-admin-' . $nav_item['css_id'] . '" href="' . $nav_item['link'] . '">' . $nav_item['name'] . '</a>';
-
-		if ( is_array( $bp->bp_options_nav[$nav_item['slug']] ) ) {
-			echo '<ul>';
-			$sub_counter = 0;
-
-			foreach( (array)$bp->bp_options_nav[$nav_item['slug']] as $subnav_item ) {
-				$link = str_replace( $bp->displayed_user->domain, $bp->loggedin_user->domain, $subnav_item['link'] );
-				$name = str_replace( $bp->displayed_user->userdata->user_login, $bp->loggedin_user->userdata->user_login, $subnav_item['name'] );
-				$alt = ( 0 == $sub_counter % 2 ) ? ' class="alt"' : '';
-				echo '<li' . $alt . '><a id="bp-admin-' . $subnav_item['css_id'] . '" href="' . $link . '">' . $name . '</a></li>';
-				$sub_counter++;
+				// Link to the network admin dashboard
+				$wp_admin_bar->add_menu( array(
+					'id' => 'network-dashboard',
+					'parent' => 'bp-root-blog',
+					'title' => __( 'Network Dashboard', 'buddypress' ),
+					'href' => network_admin_url()
+				) );
 			}
-			echo '</ul>';
-		}
-
-		echo '</li>';
-
-		$counter++;
-	}
-
-	$alt = ( 0 == $counter % 2 ) ? ' class="alt"' : '';
-
-	echo '<li' . $alt . '><a id="bp-admin-logout" class="logout" href="' . wp_logout_url( site_url() ) . '">' . __( 'Log Out', 'buddypress' ) . '</a></li>';
-	echo '</ul>';
-	echo '</li>';
-}
-
-// *** "My Blogs" Menu ********
-function bp_adminbar_blogs_menu() {
-	global $bp;
-
-	if ( !is_user_logged_in() || !function_exists('bp_blogs_install') )
-		return false;
-
-	if ( !$blogs = wp_cache_get( 'bp_blogs_of_user_' . $bp->loggedin_user->id . '_inc_hidden', 'bp' ) ) {
-		$blogs = bp_blogs_get_blogs_for_user( $bp->loggedin_user->id, true );
-		wp_cache_set( 'bp_blogs_of_user_' . $bp->loggedin_user->id . '_inc_hidden', $blogs, 'bp' );
-	}
-
-	echo '<li id="bp-adminbar-blogs-menu"><a href="' . $bp->loggedin_user->domain . $bp->blogs->slug . '/">';
-
-	_e( 'My Blogs', 'buddypress' );
-
-	echo '</a>';
-	echo '<ul>';
-
-	if ( is_array( $blogs['blogs'] ) && (int)$blogs['count'] ) {
-		$counter = 0;
-		foreach ( (array)$blogs['blogs'] as $blog ) {
-			$alt = ( 0 == $counter % 2 ) ? ' class="alt"' : '';
-			$site_url = esc_attr( $blog->siteurl );
-
-			echo '<li' . $alt . '>';
-			echo '<a href="' . $site_url . '">' . esc_html( $blog->name ) . '</a>';
-
-			echo '<ul>';
-			echo '<li class="alt"><a href="' . $site_url . 'wp-admin/">' . __( 'Dashboard', 'buddypress' ) . '</a></li>';
-			echo '<li><a href="' . $site_url . 'wp-admin/post-new.php">' . __( 'New Post', 'buddypress' ) . '</a></li>';
-			echo '<li class="alt"><a href="' . $site_url . 'wp-admin/edit.php">' . __( 'Manage Posts', 'buddypress' ) . '</a></li>';
-			echo '<li><a href="' . $site_url . 'wp-admin/edit-comments.php">' . __( 'Manage Comments', 'buddypress' ) . '</a></li>';
-			echo '</ul>';
-
-			echo '</li>';
-			$counter++;
 		}
 	}
-
-	$alt = ( 0 == $counter % 2 ) ? ' class="alt"' : '';
-
-	if ( bp_blog_signup_enabled() ) {
-		echo '<li' . $alt . '>';
-		echo '<a href="' . $bp->root_domain . '/' . $bp->blogs->slug . '/create/">' . __( 'Create a Blog!', 'buddypress' ) . '</a>';
-		echo '</li>';
-	}
-
-	echo '</ul>';
-	echo '</li>';
 }
+add_action( 'bp_setup_admin_bar', 'bp_admin_bar_root_site', 3 );
 
-// **** "Notifications" Menu *********
-function bp_adminbar_notifications_menu() {
-	global $bp;
+/**
+ * Add the "My Sites/[Site Name]" menu and all submenus.
+ */
+function bp_admin_bar_my_sites_menu() {
+	global $wpdb, $wp_admin_bar;
 
-	if ( !is_user_logged_in() )
-		return false;
+	/* Add the 'My Sites' menu if the user has more than one site. */
+	if ( count( $wp_admin_bar->user->blogs ) <= 1 )
+		return;
 
-	echo '<li id="bp-adminbar-notifications-menu"><a href="' . $bp->loggedin_user->domain . '">';
-	_e( 'Notifications', 'buddypress' );
+	$wp_admin_bar->add_menu( array( 'id' => 'my-blogs', 'title' => __( 'My Sites' ), 'href' => admin_url( 'my-sites.php' ) ) );
 
-	if ( $notifications = bp_core_get_notifications_for_user( $bp->loggedin_user->id ) ) { ?>
-		<span><?php echo count($notifications) ?></span>
-	<?php
-	}
+	$default = includes_url( 'images/wpmini-blue.png' );
 
-	echo '</a>';
-	echo '<ul>';
+	foreach ( (array)$wp_admin_bar->user->blogs as $blog ) {
+		// @todo Replace with some favicon lookup.
+		//$blavatar = '<img src="' . esc_url( blavatar_url( blavatar_domain( $blog->siteurl ), 'img', 16, $default ) ) . '" alt="Blavatar" width="16" height="16" />';
+		$blavatar = '<img src="' . esc_url( $default ) . '" alt="' . esc_attr__( 'Blavatar' ) . '" width="16" height="16" class="blavatar"/>';
 
-	if ( $notifications ) { ?>
-		<?php $counter = 0; ?>
-		<?php for ( $i = 0; $i < count($notifications); $i++ ) { ?>
-			<?php $alt = ( 0 == $counter % 2 ) ? ' class="alt"' : ''; ?>
-			<li<?php echo $alt ?>><?php echo $notifications[$i] ?></li>
-			<?php $counter++; ?>
-		<?php } ?>
-	<?php } else { ?>
-		<li><a href="<?php echo $bp->loggedin_user->domain ?>"><?php _e( 'No new notifications.', 'buddypress' ); ?></a></li>
-	<?php
-	}
+		$blogname = empty( $blog->blogname ) ? $blog->domain : $blog->blogname;
 
-	echo '</ul>';
-	echo '</li>';
-}
+		$wp_admin_bar->add_menu( array( 'parent' => 'my-blogs', 'id' => 'blog-' . $blog->userblog_id, 'title' => $blavatar . $blogname, 'href' => get_admin_url( $blog->userblog_id ) ) );
+		$wp_admin_bar->add_menu( array( 'parent' => 'blog-' . $blog->userblog_id, 'id' => 'blog-' . $blog->userblog_id . '-d', 'title' => __( 'Dashboard' ), 'href' => get_admin_url( $blog->userblog_id ) ) );
 
-// **** "Blog Authors" Menu (visible when not logged in) ********
-function bp_adminbar_authors_menu() {
-	global $bp, $current_blog, $wpdb;
-
-	if ( $current_blog->blog_id == BP_ROOT_BLOG || !function_exists( 'bp_blogs_install' ) )
-		return false;
-
-	$blog_prefix = $wpdb->get_blog_prefix( $current_blog->id );
-	$authors = $wpdb->get_results( "SELECT user_id, user_login, user_nicename, display_name, user_email, meta_value as caps FROM $wpdb->users u, $wpdb->usermeta um WHERE u.ID = um.user_id AND meta_key = '{$blog_prefix}capabilities' ORDER BY um.user_id" );
-
-	if ( !empty( $authors ) ) {
-		/* This is a blog, render a menu with links to all authors */
-		echo '<li id="bp-adminbar-authors-menu"><a href="/">';
-		_e('Blog Authors', 'buddypress');
-		echo '</a>';
-
-		echo '<ul class="author-list">';
-		foreach( (array)$authors as $author ) {
-			$caps = maybe_unserialize( $author->caps );
-			if ( isset( $caps['subscriber'] ) || isset( $caps['contributor'] ) ) continue;
-
-			echo '<li>';
-			echo '<a href="' . bp_core_get_user_domain( $author->user_id, $author->user_nicename, $author->user_login ) . '">';
-			echo bp_core_fetch_avatar( array( 'item_id' => $author->user_id, 'email' => $author->user_email, 'width' => 15, 'height' => 15 ) ) ;
- 			echo ' ' . $author->display_name . '</a>';
-			echo '<div class="admin-bar-clear"></div>';
-			echo '</li>';
+		if ( current_user_can_for_blog( $blog->userblog_id, 'edit_posts' ) ) {
+			$wp_admin_bar->add_menu( array( 'parent' => 'blog-' . $blog->userblog_id, 'id' => 'blog-' . $blog->userblog_id . '-n', 'title' => __( 'New Post' ), 'href' => get_admin_url( $blog->userblog_id, 'post-new.php' ) ) );
+			$wp_admin_bar->add_menu( array( 'parent' => 'blog-' . $blog->userblog_id, 'id' => 'blog-' . $blog->userblog_id . '-c', 'title' => __( 'Manage Comments' ), 'href' => get_admin_url( $blog->userblog_id, 'edit-comments.php' ) ) );
 		}
-		echo '</ul>';
-		echo '</li>';
+
+		$wp_admin_bar->add_menu( array( 'parent' => 'blog-' . $blog->userblog_id, 'id' => 'blog-' . $blog->userblog_id . '-v', 'title' => __( 'Visit Site' ), 'href' => get_home_url( $blog->userblog_id ) ) );
 	}
 }
+add_action( 'bp_setup_admin_bar', 'bp_admin_bar_my_sites_menu', 3 );
 
-// **** "Random" Menu (visible when not logged in) ********
-function bp_adminbar_random_menu() {
-	global $bp; ?>
-	<li class="align-right" id="bp-adminbar-visitrandom-menu">
-		<a href="#"><?php _e( 'Visit', 'buddypress' ) ?></a>
-		<ul class="random-list">
-			<li><a href="<?php echo $bp->root_domain . '/' . BP_MEMBERS_SLUG . '/?random-member' ?>"><?php _e( 'Random Member', 'buddypress' ) ?></a></li>
+/**
+ * Add edit comments link with awaiting moderation count bubble
+ */
+function bp_admin_bar_comments_menu( $wp_admin_bar ) {
+	global $wp_admin_bar;
 
-			<?php if ( function_exists('groups_install') ) : ?>
-			<li class="alt"><a href="<?php echo $bp->root_domain . '/' . $bp->groups->slug . '/?random-group' ?>"><?php _e( 'Random Group', 'buddypress' ) ?></a></li>
-			<?php endif; ?>
+	if ( !current_user_can( 'edit_posts' ) )
+		return;
 
-			<?php if ( function_exists('bp_blogs_install') && bp_core_is_multisite() ) : ?>
-			<li><a href="<?php echo $bp->root_domain . '/' . $bp->blogs->slug . '/?random-blog' ?>"><?php _e( 'Random Blog', 'buddypress' ) ?></a></li>
+	$awaiting_mod = wp_count_comments();
+	$awaiting_mod = $awaiting_mod->moderated;
 
-			<?php endif; ?>
-
-			<?php do_action( 'bp_adminbar_random_menu' ) ?>
-		</ul>
-	</li>
-	<?php
+	$awaiting_mod = $awaiting_mod ? "<span id='ab-awaiting-mod' class='pending-count'>" . number_format_i18n( $awaiting_mod ) . "</span>" : '';
+	$wp_admin_bar->add_menu( array( 'parent' => 'dashboard', 'id' => 'comments', 'title' => sprintf( __( 'Comments %s' ), $awaiting_mod ), 'href' => admin_url( 'edit-comments.php' ) ) );
 }
+add_action( 'bp_setup_admin_bar', 'bp_admin_bar_comments_menu', 3 );
 
-add_action( 'bp_adminbar_logo', 'bp_adminbar_logo' );
-add_action( 'bp_adminbar_menus', 'bp_adminbar_login_menu', 2 );
-add_action( 'bp_adminbar_menus', 'bp_adminbar_account_menu', 4 );
+/**
+ * Add "Appearance" menu with widget and nav menu submenu
+ */
+function bp_admin_bar_appearance_menu() {
+	global $wp_admin_bar;
 
-if ( bp_core_is_multisite() )
-	add_action( 'bp_adminbar_menus', 'bp_adminbar_blogs_menu', 6 );
+	// You can have edit_theme_options but not switch_themes.
+	if ( !current_user_can( 'switch_themes' ) && !current_user_can( 'edit_theme_options' ) )
+		return;
 
-add_action( 'bp_adminbar_menus', 'bp_adminbar_notifications_menu', 8 );
+	$wp_admin_bar->add_menu( array( 'parent' => 'dashboard', 'id' => 'appearance', 'title' => __( 'Appearance' ), 'href' => admin_url( 'themes.php' ) ) );
 
-if ( bp_core_is_multisite() )
-	add_action( 'bp_adminbar_menus', 'bp_adminbar_authors_menu', 12 );
+	if ( !current_user_can( 'edit_theme_options' ) )
+		return;
 
-add_action( 'bp_adminbar_menus', 'bp_adminbar_random_menu', 100 );
+	if ( current_user_can( 'switch_themes' ) )
+		$wp_admin_bar->add_menu( array( 'parent' => 'appearance', 'id' => 'themes', 'title' => __( 'Themes' ), 'href' => admin_url( 'themes.php' ) ) );
 
-add_action( 'wp_footer', 'bp_core_admin_bar', 8 );
-add_action( 'admin_footer', 'bp_core_admin_bar' );
+	if ( current_theme_supports( 'widgets' ) )
+		$wp_admin_bar->add_menu( array( 'parent' => 'appearance', 'id' => 'widgets', 'title' => __( 'Widgets' ), 'href' => admin_url( 'widgets.php' ) ) );
 
+	if ( current_theme_supports( 'menus' ) || current_theme_supports( 'widgets' ) )
+		$wp_admin_bar->add_menu( array( 'parent' => 'appearance', 'id' => 'menus', 'title' => __( 'Menus' ), 'href' => admin_url( 'nav-menus.php' ) ) );
+
+	if ( current_theme_supports( 'custom-background' ) )
+		$wp_admin_bar->add_menu( array( 'parent' => 'appearance', 'id' => 'background', 'title' => __( 'Background' ), 'href' => admin_url( 'themes.php?page=custom-background' ) ) );
+
+	if ( current_theme_supports( 'custom-header' ) )
+		$wp_admin_bar->add_menu( array( 'parent' => 'appearance', 'id' => 'header', 'title' => __( 'Header' ), 'href' => admin_url( 'themes.php?page=custom-header' ) ) );
+}
+add_action( 'bp_setup_admin_bar', 'bp_admin_bar_appearance_menu', 3 );
+
+/**
+ * Provide an update link if theme/plugin/core updates are available
+ */
+function bp_admin_bar_updates_menu() {
+	global $wp_admin_bar;
+
+	if ( !current_user_can( 'install_plugins' ) )
+		return;
+
+	$plugin_update_count = $theme_update_count = $wordpress_update_count = 0;
+	$update_plugins = get_site_transient( 'update_plugins' );
+	if ( !empty( $update_plugins->response ) )
+		$plugin_update_count = count( $update_plugins->response );
+	$update_themes = get_site_transient( 'update_themes' );
+	if ( !empty( $update_themes->response ) )
+		$theme_update_count = count( $update_themes->response );
+	/* @todo get_core_updates() is only available on admin page loads
+	  $update_wordpress = get_core_updates( array('dismissed' => false) );
+	  if ( !empty($update_wordpress) && !in_array( $update_wordpress[0]->response, array('development', 'latest') ) )
+	  $wordpress_update_count = 1;
+	 */
+
+	$update_count = $plugin_update_count + $theme_update_count + $wordpress_update_count;
+
+	if ( !$update_count )
+		return;
+
+	$update_title = array( );
+	if ( $wordpress_update_count )
+		$update_title[] = sprintf( __( '%d WordPress Update' ), $wordpress_update_count );
+	if ( $plugin_update_count )
+		$update_title[] = sprintf( _n( '%d Plugin Update', '%d Plugin Updates', $plugin_update_count ), $plugin_update_count );
+	if ( $theme_update_count )
+		$update_title[] = sprintf( _n( '%d Theme Update', '%d Theme Updates', $theme_update_count ), $theme_update_count );
+
+	$update_title = !empty( $update_title ) ? esc_attr( implode( ', ', $update_title ) ) : '';
+
+	$update_title = "<span title='$update_title'>";
+	$update_title .= sprintf( __( 'Updates %s' ), "<span id='ab-updates' class='update-count'>" . number_format_i18n( $update_count ) . '</span>' );
+	$update_title .= '</span>';
+
+	$wp_admin_bar->add_menu( array( 'parent' => 'dashboard', 'id' => 'updates', 'title' => $update_title, 'href' => network_admin_url( 'update-core.php' ) ) );
+}
+add_action( 'bp_setup_admin_bar', 'bp_admin_bar_updates_menu', 3 );
+
+/**
+ * Handle the Admin Bar CSS
+ */
+function bp_core_load_admin_bar_css() {
+	global $wp_version;
+
+	if ( !bp_use_wp_admin_bar() )
+		return;
+
+	// Admin bar styles
+	if ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG )
+		$stylesheet = BP_PLUGIN_URL . '/bp-core/css/admin-bar.dev.css';
+	else
+		$stylesheet = BP_PLUGIN_URL . '/bp-core/css/admin-bar.css';
+
+	wp_enqueue_style( 'bp-admin-bar', apply_filters( 'bp_core_admin_bar_css', $stylesheet ), array( 'admin-bar' ), '20110723' );
+
+	if ( !is_rtl() )
+		return;
+
+	if ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG )
+		$stylesheet = BP_PLUGIN_URL . '/bp-core/css/admin-bar-rtl.dev.css';
+	else
+		$stylesheet = BP_PLUGIN_URL . '/bp-core/css/admin-bar-rtl.css';
+
+	wp_enqueue_style( 'bp-admin-bar-rtl', apply_filters( 'bp_core_admin_bar_rtl_css', $stylesheet ), array( 'bp-admin-bar' ), '20110723' );
+}
+add_action( 'bp_init', 'bp_core_load_admin_bar_css' );
 ?>
