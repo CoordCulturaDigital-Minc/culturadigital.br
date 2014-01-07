@@ -111,8 +111,9 @@ function bp_core_set_uri_globals() {
 	$bp_uri = array_merge( array(), $bp_uri );
 
 	// If a component is set to the front page, force its name into $bp_uri
-	// so that $current_component is populated
-	if ( 'page' == get_option( 'show_on_front' ) && get_option( 'page_on_front' ) && empty( $bp_uri ) ) {
+	// so that $current_component is populated (unless a specific WP post is being requested
+	// via a URL parameter, usually signifying Preview mode)
+	if ( 'page' == get_option( 'show_on_front' ) && get_option( 'page_on_front' ) && empty( $bp_uri ) && empty( $_GET['p'] ) ) {
 		$post = get_post( get_option( 'page_on_front' ) );
 		if ( !empty( $post ) ) {
 			$bp_uri[0] = $post->post_name;
@@ -185,7 +186,7 @@ function bp_core_set_uri_globals() {
 	if ( empty( $matches ) && defined( 'BP_ENABLE_ROOT_PROFILES' ) && BP_ENABLE_ROOT_PROFILES ) {
 
 		// Make sure there's a user corresponding to $bp_uri[0]
-		if ( !empty( $bp->pages->members ) && !empty( $bp_uri[0] ) && $root_profile = get_userdatabylogin( $bp_uri[0] ) ) {
+		if ( !empty( $bp->pages->members ) && !empty( $bp_uri[0] ) && $root_profile = get_user_by( 'login', $bp_uri[0] ) ) {
 
 			// Force BP to recognize that this is a members page
 			$matches[]  = 1;
@@ -248,6 +249,17 @@ function bp_core_set_uri_globals() {
 
 					bp_do_404();
 					return;
+				}
+
+				// If the displayed user is marked as a spammer, 404 (unless logged-
+				// in user is a super admin)
+				if ( !empty( $bp->displayed_user->id ) && bp_core_is_user_spammer( $bp->displayed_user->id ) ) {
+					if ( is_super_admin() ) {
+						bp_core_add_message( __( 'This user has been marked as a spammer. Only site admins can view this profile.', 'buddypress' ), 'error' );
+					} else {
+						bp_do_404();
+						return;
+					}
 				}
 
 				// Bump the offset
@@ -367,17 +379,6 @@ function bp_core_catch_no_access() {
 	// we are redirecting to an accessible page, so skip this check.
 	if ( $bp_no_status_set )
 		return false;
-
-	// If the displayed user was marked as a spammer and the logged-in user is not a super admin, 404.
-	if ( isset( $bp->displayed_user->id ) && bp_core_is_user_spammer( $bp->displayed_user->id ) ) {
-		if ( !$bp->loggedin_user->is_super_admin ) {
-			bp_do_404();
-			return;
-
-		} else {
-			bp_core_add_message( __( 'This user has been marked as a spammer. Only site admins can view this profile.', 'buddypress' ), 'error' );
-		}
-	}
 
 	if ( !isset( $wp_query->queried_object ) && !bp_is_blog_page() ) {
 		bp_do_404();
