@@ -9,8 +9,6 @@
  * file that was distributed with this source code.
  */
 
-//namespace Stash\Exception;
-
 /**
  * Exception thrown if an error which can only be found on runtime occurs.
  *

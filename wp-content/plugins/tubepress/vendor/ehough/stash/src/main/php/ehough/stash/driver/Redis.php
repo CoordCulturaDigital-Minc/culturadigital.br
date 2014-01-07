@@ -16,7 +16,7 @@
  * @package Stash
  * @author  Robert Hafner <tedivm@tedivm.com>
  */
-class ehough_stash_driver_Redis implements \ehough_stash_driver_DriverInterface
+class ehough_stash_driver_Redis implements ehough_stash_interfaces_DriverInterface
 {
     protected $defaultOptions = array ();
     protected $redis;
@@ -32,37 +32,31 @@ class ehough_stash_driver_Redis implements \ehough_stash_driver_DriverInterface
            throw new RuntimeException('Unable to load Redis driver without PhpRedis extension.');
 
         // Normalize Server Options
-        if(isset($options['servers']))
-        {
+        if (isset($options['servers'])) {
             $servers = (is_array($options['servers']))
                 ? $options['servers']
                 : array($options['servers']);
 
             unset($options['servers']);
 
-        }else{
+        } else {
             $servers = array(array('server' => '127.0.0.1', 'port' => '6379', 'ttl' => 0.1));
         }
 
         // Merge in default values.
         $options = array_merge($this->defaultOptions, $options);
 
-
-
-
         // this will have to be revisited to support multiple servers, using
         // the RedisArray object. That object acts as a proxy object, meaning
         // most of the class will be the same even after the changes.
 
-
-        if(count($servers) == 1)
-        {
+        if (count($servers) == 1) {
             $server = $servers[0];
             $redis = new Redis();
 
-            if(isset($server['socket']) && $server['socket']) {
+            if (isset($server['socket']) && $server['socket']) {
                 $redis->connect($server['socket']);
-            }else{
+            } else {
                 $port = isset($server['port']) ? $server['port'] : 6379;
                 $ttl = isset($server['ttl']) ? $server['ttl'] : 0.1;
                 $redis->connect($server['server'], $port, $ttl);
@@ -74,12 +68,10 @@ class ehough_stash_driver_Redis implements \ehough_stash_driver_DriverInterface
 
             $this->redis = $redis;
 
-
-        }else{
+        } else {
 
             $serverArray = array();
-            foreach($servers as $server)
-            {
+            foreach ($servers as $server) {
                 $serverString = $server['server'];
                 if(isset($server['port']))
                     $serverString .= ':' . $server['port'];
@@ -90,7 +82,6 @@ class ehough_stash_driver_Redis implements \ehough_stash_driver_DriverInterface
             $redis = new RedisArray($serverArray);
         }
 
-
         // select database
         if(isset($options['database']))
             $redis->select($options['database']);
@@ -99,9 +90,17 @@ class ehough_stash_driver_Redis implements \ehough_stash_driver_DriverInterface
     }
 
     /**
+     * Properly close the connection
+     */
+    public function __destruct()
+    {
+        $this->redis->close();
+    }
+
+    /**
      *
      *
-     * @param array $key
+     * @param  array $key
      * @return array
      */
     public function getData($key)
@@ -112,23 +111,23 @@ class ehough_stash_driver_Redis implements \ehough_stash_driver_DriverInterface
     /**
      *
      *
-     * @param array $key
-     * @param array $data
-     * @param int $expiration
+     * @param  array $key
+     * @param  array $data
+     * @param  int   $expiration
      * @return bool
      */
     public function storeData($key, $data, $expiration)
     {
         $store = serialize(array('data' => $data, 'expiration' => $expiration));
-        if(is_null($expiration))
-        {
+        if (is_null($expiration)) {
             return $this->redis->setex($this->makeKeyString($key), $store);
-        }else{
+        } else {
             $ttl = $expiration - time();
 
             // Prevent us from even passing a negative ttl'd item to redis,
             // since it will just round up to zero and cache forever.
             if($ttl < 1)
+
                 return true;
 
             return $this->redis->set($this->makeKeyString($key), $store, $ttl);
@@ -139,14 +138,14 @@ class ehough_stash_driver_Redis implements \ehough_stash_driver_DriverInterface
      * Clears the cache tree using the key array provided as the key. If called with no arguments the entire cache gets
      * cleared.
      *
-     * @param null|array $key
+     * @param  null|array $key
      * @return bool
      */
     public function clear($key = null)
     {
-        if(is_null($key))
-        {
+        if (is_null($key)) {
             $this->redis->flushDB();
+
             return true;
         }
 
@@ -155,6 +154,7 @@ class ehough_stash_driver_Redis implements \ehough_stash_driver_DriverInterface
         $this->redis->incr($keyString); // increment index for children items
         $this->redis->delete($keyReal); // remove direct item.
         $this->keyCache = array();
+
         return true;
     }
 
@@ -165,7 +165,6 @@ class ehough_stash_driver_Redis implements \ehough_stash_driver_DriverInterface
     public function purge()
     {
         // @todo when the RedisArray class is used run the rehash function here
-
         return true;
     }
 
@@ -174,7 +173,7 @@ class ehough_stash_driver_Redis implements \ehough_stash_driver_DriverInterface
      *
      * @return bool
      */
-    static public function isAvailable()
+    public static function isAvailable()
     {
         return class_exists('Redis', false);
     }
@@ -212,6 +211,5 @@ class ehough_stash_driver_Redis implements \ehough_stash_driver_DriverInterface
 
         return $path ? $pathKey : md5($keyString);
     }
-
 
 }

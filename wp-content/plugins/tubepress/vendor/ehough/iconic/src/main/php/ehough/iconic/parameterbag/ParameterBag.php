@@ -18,8 +18,8 @@
  */
 class ehough_iconic_parameterbag_ParameterBag implements ehough_iconic_parameterbag_ParameterBagInterface
 {
-    protected $parameters;
-    protected $resolved;
+    protected $parameters = array();
+    protected $resolved = false;
 
     private $_resolving = array();
     private $_value = array();
@@ -33,9 +33,7 @@ class ehough_iconic_parameterbag_ParameterBag implements ehough_iconic_parameter
      */
     public function __construct(array $parameters = array())
     {
-        $this->parameters = array();
         $this->add($parameters);
-        $this->resolved = false;
     }
 
     /**

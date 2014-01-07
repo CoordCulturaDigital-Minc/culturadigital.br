@@ -16,8 +16,8 @@
  */
 abstract class ehough_finder_iterator_MultiplePcreFilterIterator extends ehough_finder_iterator_FilterIterator
 {
-    protected $matchRegexps;
-    protected $noMatchRegexps;
+    protected $matchRegexps = array();
+    protected $noMatchRegexps = array();
 
     /**
      * Constructor.
@@ -28,12 +28,10 @@ abstract class ehough_finder_iterator_MultiplePcreFilterIterator extends ehough_
      */
     public function __construct(Iterator $iterator, array $matchPatterns, array $noMatchPatterns)
     {
-        $this->matchRegexps = array();
         foreach ($matchPatterns as $pattern) {
             $this->matchRegexps[] = $this->toRegex($pattern);
         }
 
-        $this->noMatchRegexps = array();
         foreach ($noMatchPatterns as $pattern) {
             $this->noMatchRegexps[] = $this->toRegex($pattern);
         }

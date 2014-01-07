@@ -22,12 +22,12 @@ class ehough_finder_shell_Command
     /**
      * @var array
      */
-    private $bits;
+    private $bits = array();
 
     /**
      * @var array
      */
-    private $labels;
+    private $labels = array();
 
     /**
      * @var callable|null
@@ -37,13 +37,11 @@ class ehough_finder_shell_Command
     /**
      * Constructor.
      *
-     * @param ehough_finder_shell_Command $parent Parent command
+     * @param ehough_finder_shell_Command|null $parent Parent command
      */
     public function __construct(ehough_finder_shell_Command $parent = null)
     {
         $this->parent = $parent;
-        $this->bits   = array();
-        $this->labels = array();
     }
 
     /**
@@ -59,7 +57,7 @@ class ehough_finder_shell_Command
     /**
      * Creates a new ehough_finder_shell_Command instance.
      *
-     * @param ehough_finder_shell_Command $parent Parent command
+     * @param ehough_finder_shell_Command|null $parent Parent command
      *
      * @return ehough_finder_shell_Command New ehough_finder_shell_Command instance
      */
@@ -185,7 +183,7 @@ class ehough_finder_shell_Command
     public function get($label)
     {
         if (!isset($this->labels[$label])) {
-            throw new RuntimeException(sprintf('Label "%s" does not exists.', $label));
+            throw new RuntimeException(sprintf('Label "%s" does not exist.', $label));
         }
 
         return $this->bits[$this->labels[$label]];

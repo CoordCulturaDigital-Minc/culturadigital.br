@@ -16,7 +16,7 @@
  * @package Stash
  * @author  Robert Hafner <tedivm@tedivm.com>
  */
-class ehough_stash_driver_Ephemeral implements ehough_stash_driver_DriverInterface
+class ehough_stash_driver_Ephemeral implements ehough_stash_interfaces_DriverInterface
 {
 
     protected $store = array();
@@ -33,14 +33,15 @@ class ehough_stash_driver_Ephemeral implements ehough_stash_driver_DriverInterfa
 
     public function getData($key)
     {
-        return isset($this->store[$this->getKeyIndex($key)]) ? $this->store[$this->getKeyIndex($key)] : false;
+        $key = $this->getKeyIndex($key);
+        return isset($this->store[$key]) ? $this->store[$key] : false;
     }
 
     protected function getKeyIndex($key)
     {
         $index = '';
         foreach ($key as $value) {
-            $index .= str_replace('#', ':', $value) . '#';
+            $index .= str_replace('#', '#:', $value) . '#';
         }
 
         return $index;
@@ -49,6 +50,7 @@ class ehough_stash_driver_Ephemeral implements ehough_stash_driver_DriverInterfa
     public function storeData($key, $data, $expiration)
     {
         $this->store[$this->getKeyIndex($key)] = array('data' => $data, 'expiration' => $expiration);
+
         return true;
     }
 
@@ -80,7 +82,7 @@ class ehough_stash_driver_Ephemeral implements ehough_stash_driver_DriverInterfa
         return true;
     }
 
-    static public function isAvailable()
+    public static function isAvailable()
     {
         return true;
     }

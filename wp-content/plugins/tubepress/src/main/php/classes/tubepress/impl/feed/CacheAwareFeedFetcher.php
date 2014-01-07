@@ -1,8 +1,8 @@
 <?php
 /**
- * Copyright 2006 - 2013 TubePress LLC (http://tubepress.org)
+ * Copyright 2006 - 2014 TubePress LLC (http://tubepress.com)
  *
- * This file is part of TubePress (http://tubepress.org)
+ * This file is part of TubePress (http://tubepress.com)
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -82,7 +82,7 @@ class tubepress_impl_feed_CacheAwareFeedFetcher implements tubepress_spi_feed_Fe
     private function _getFromCache($url, tubepress_spi_context_ExecutionContext $context, $isDebugEnabled)
     {
         /**
-         * @var $cache ehough_stash_PoolInterface
+         * @var $cache ehough_stash_interfaces_PoolInterface
          */
         $cache = tubepress_impl_patterns_sl_ServiceLocator::getCacheService();
 
@@ -91,9 +91,10 @@ class tubepress_impl_feed_CacheAwareFeedFetcher implements tubepress_spi_feed_Fe
             $this->_logger->debug(sprintf('First asking cache for <a href="%s">URL</a>', $url));
         }
 
-        $result = $cache->getItem($url);
+        $cacheKey = $this->_urlToCacheKey($url);
+        $result   = $cache->getItem($cacheKey);
 
-        if ($result && $result->isValid()) {
+        if ($result && !$result->isMiss()) {
 
             if ($isDebugEnabled) {
 
@@ -109,9 +110,24 @@ class tubepress_impl_feed_CacheAwareFeedFetcher implements tubepress_spi_feed_Fe
 
             $data = $this->_getFromNetwork($url);
 
-            $result->set($data, $context->get(tubepress_api_const_options_names_Cache::CACHE_LIFETIME_SECONDS));
+            $storedSuccessfully = $result->set($data, $context->get(tubepress_api_const_options_names_Cache::CACHE_LIFETIME_SECONDS));
+
+            if (!$storedSuccessfully) {
+
+                if ($isDebugEnabled) {
+
+                    $this->_logger->debug('Unable to store data to cache');
+                }
+
+                return $data;
+            }
         }
 
         return $result->get();
+    }
+
+    private function _urlToCacheKey($url)
+    {
+        return str_replace('/', '~', $url);
     }
 }

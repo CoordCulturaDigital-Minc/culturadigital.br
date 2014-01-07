@@ -17,7 +17,7 @@
  * @package Stash
  * @author  Robert Hafner <tedivm@tedivm.com>
  */
-class ehough_stash_Item implements ehough_stash_ItemInterface
+class ehough_stash_Item implements ehough_stash_interfaces_ItemInterface
 {
     const SP_NONE         = 0;
     const SP_OLD          = 1;
@@ -30,7 +30,7 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
      *
      * @var int seconds
      */
-    static public $cacheTime = 432000; // five days
+    public static $cacheTime = 432000; // five days
 
     /**
      * Disables the cache system wide. It is used internally when the storage engine fails or if the cache is being
@@ -38,8 +38,7 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
      *
      * @var bool
      */
-    static $runtimeDisable = false;
-
+    public static $runtimeDisable = false;
 
     /**
      * Used internally to mark the class as disabled. Unlike the static runtimeDisable flag this is effective only for
@@ -85,9 +84,17 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
      * The cacheDriver being used by the system. While this class handles all of the higher functions, it's the cache
      * driver here that handles all of the storage/retrieval functionality. This value is set by the constructor.
      *
-     * @var ehough_stash_driver_DriverInterface
+     * @var ehough_stash_interfaces_DriverInterface
      */
     protected $driver;
+
+    /**
+     * If set various then errors and exceptions will get passed to the PSR Compliant logging library. This
+     * can be set using the setLogger() function in this class.
+     *
+     * @var Psr\Log\LoggerInterface
+     */
+    protected $logger;
 
     /**
      * This is a flag to see if a valid response is returned. It is set by the getData function and is used by the
@@ -102,9 +109,9 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
      * creating new ehough_stash_Item objects. It should not be called directly.
      *
      * @internal
-     * @param ehough_stash_driver_DriverInterface If no driver is passed the cache is set to script time only.
+     * @param ehough_stash_interfaces_DriverInterface If no driver is passed the cache is set to script time only.
      */
-    public function __construct(ehough_stash_driver_DriverInterface $driver, $key)
+    public function __construct(ehough_stash_interfaces_DriverInterface $driver, $key)
     {
         $this->driver = $driver;
         $this->setupKey($key);
@@ -119,6 +126,7 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
     public function disable()
     {
         $this->cacheEnabled = false;
+
         return true;
     }
 
@@ -149,7 +157,9 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
         try {
             return $this->executeClear();
         } catch (ehough_stash_exception_Exception $e) {
+            $this->logException('Clearing cache caused exception.', $e);
             $this->disable();
+
             return false;
         }
     }
@@ -177,7 +187,9 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
         try {
             return $this->executeGet($invalidation, $arg, $arg2);
         } catch (ehough_stash_exception_Exception $e) {
+            $this->logException('Retrieving from cache caused exception.', $e);
             $this->disable();
+
             return null;
         }
     }
@@ -259,11 +271,12 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
 
         $this->stampedeRunning = true;
 
-        $expiration = isset($ttl) && is_numeric($ttl) ? (int)$ttl : $this->defaults['stampede_ttl'];
+        $expiration = isset($ttl) && is_numeric($ttl) ? (int) $ttl : $this->defaults['stampede_ttl'];
 
 
         $spkey = $this->key;
         $spkey[0] = 'sp';
+
         return $this->driver->storeData($spkey, true, time() + $expiration);
     }
 
@@ -272,16 +285,18 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
      * including arrays and object, except resources and objects which are
      * unable to be serialized.
      *
-     * @param mixed $data bool
-     * @param int|DateTime|null $ttl Int is time (seconds), DateTime a future expiration date
-     * @return bool Returns whether the object was successfully stored or not.
+     * @param  mixed             $data bool
+     * @param  int|DateTime|null $ttl  Int is time (seconds), DateTime a future expiration date
+     * @return bool              Returns whether the object was successfully stored or not.
      */
-    public function set($data = null, $ttl = null)
+    public function set($data, $ttl = null)
     {
         try {
             return $this->executeSet($data, $ttl);
         } catch (ehough_stash_exception_Exception $e) {
+            $this->logException('Setting value in cache caused exception.', $e);
             $this->disable();
+
             return false;
         }
     }
@@ -313,7 +328,6 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
         $expiration = $store['createdOn'] + $cacheTime;
 
         if ($cacheTime > 0) {
-            $diff = $cacheTime * 0.15;
             $expirationDiff = rand(0, floor($cacheTime * .15));
             $expiration -= $expirationDiff;
         }
@@ -334,17 +348,19 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
      *
      * @return bool
      */
-    public function extendCache()
+    public function extend($ttl = null)
     {
         if ($this->isDisabled()) {
             return false;
         }
 
-        return $this->set($this->get());
+        return $this->set($this->get(), $ttl);
     }
 
     /**
      * Return true if caching is disabled
+     *
+     * @return bool True if caching is disabled.
      */
     public function isDisabled()
     {
@@ -353,6 +369,26 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
                 || (defined('STASH_DISABLE_CACHE') && STASH_DISABLE_CACHE);
     }
 
+    /**
+     * Return true if caching is disabled
+     */
+    public function setLogger($logger)
+    {
+        $this->logger = $logger;
+    }
+
+    protected function logException($message, $exception)
+    {
+        if(!isset($this->logger))
+
+            return false;
+
+        $this->logger->critical($message,
+                                array('exception' => $exception,
+                                      'key' => $this->keyString));
+
+        return true;
+    }
 
     /**
      * Returns true if another ehough_stash_Item is currently recalculating the cache.
@@ -371,12 +407,12 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
                 $sp = false;
             }
         }
+
         return $sp;
     }
 
     /**
-     * Returns the record for the current key, whether that record is pulled from memory or a driver. If there is no
-     * record than an empty array is returned.
+     * Returns the record for the current key. If there is no record than an empty array is returned.
      *
      * @return array
      */
@@ -395,8 +431,10 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
      * Decides whether the current data is fresh according to the supplied validation technique. As some techniques
      * actively change the record this function takes that in as a reference.
      *
+     * This function has the ability to change the isHit property as well as the record passed.
+     *
      * @param array $validation
-     * @param array $record
+     * @param array $&record
      */
     protected function validateRecord($validation, &$record)
     {
@@ -424,7 +462,7 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
                 // If stampede control is on it means another cache is already processing, so we return
                 // true for the hit.
                 if ($ttl < $time) {
-                    $this->isHit = (bool)$this->getStampedeFlag($this->key);
+                    $this->isHit = (bool) $this->getStampedeFlag($this->key);
                 }
             }
 
@@ -434,11 +472,13 @@ class ehough_stash_Item implements ehough_stash_ItemInterface
 
         if (!isset($invalidation) || $invalidation == self::SP_NONE) {
             $this->isHit = false;
+
             return;
         }
 
         if (!$this->getStampedeFlag($this->key)) {
             $this->isHit = false;
+
             return;
         }
 

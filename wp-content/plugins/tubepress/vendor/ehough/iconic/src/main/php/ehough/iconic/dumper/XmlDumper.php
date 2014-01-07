@@ -251,6 +251,10 @@ class ehough_iconic_dumper_XmlDumper extends ehough_iconic_dumper_Dumper
             } elseif ($value instanceof ehough_iconic_Definition) {
                 $element->setAttribute('type', 'service');
                 $this->addService($value, null, $element);
+            } elseif (is_a($value, 'Symfony\Component\ExpressionLanguage\Expression') === true) {
+                $element->setAttribute('type', 'expression');
+                $text = $this->document->createTextNode(self::phpToXml((string) $value));
+                $element->appendChild($text);
             } else {
                 if (in_array($value, array('null', 'true', 'false'), true)) {
                     $element->setAttribute('type', 'string');

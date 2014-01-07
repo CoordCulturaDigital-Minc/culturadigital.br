@@ -21,7 +21,7 @@
 class ehough_tickertape_GenericEvent extends ehough_tickertape_Event implements ArrayAccess, IteratorAggregate
 {
     /**
-     * Observer pattern subject.
+     * Event subject.
      *
      * @var mixed usually object or callable
      */

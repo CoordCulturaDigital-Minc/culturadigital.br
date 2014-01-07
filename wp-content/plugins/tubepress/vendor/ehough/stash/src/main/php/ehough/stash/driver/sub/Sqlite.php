@@ -26,7 +26,6 @@ class ehough_stash_driver_sub_Sqlite
                               );
                               CREATE INDEX keyIndex ON cacheStore (key);';
 
-
     protected $filePermissions;
     protected $dirPermissions;
     protected $busyTimeout;
@@ -72,14 +71,12 @@ class ehough_stash_driver_sub_Sqlite
 
         $data = base64_encode(serialize($value));
 
-        $resetBusy = false;
         $contentLength = strlen($data);
         if ($contentLength > 100000) {
-            $resetBusy = true;
             $this->setTimeout($this->busyTimeout * (ceil($contentLength / 100000))); // .5s per 100k
         }
 
-        $query = $driver->query("INSERT INTO cacheStore (key, expiration, data)
+        $driver->query("INSERT INTO cacheStore (key, expiration, data)
                                   VALUES ('{$key}', '{$expiration}', '{$data}')");
 
         return true;
@@ -98,8 +95,9 @@ class ehough_stash_driver_sub_Sqlite
             $this->driver = false;
             ehough_stash_Utilities::deleteRecursive($this->path);
         } else {
-            $query = $driver->query("DELETE FROM cacheStore WHERE key LIKE '{$key}%'");
+            $driver->query("DELETE FROM cacheStore WHERE key LIKE '{$key}%'");
         }
+
         return true;
     }
 
@@ -111,21 +109,22 @@ class ehough_stash_driver_sub_Sqlite
 
         $driver->query('DELETE FROM cacheStore WHERE expiration < ' . time());
         $driver->query('VACUUM');
+
         return true;
     }
 
     public function checkFileSystemPermissions()
     {
-        if(!isset($this->path)) {
+        if (!isset($this->path)) {
             throw new ehough_stash_exception_RuntimeException('No cache path is set.');
         }
 
-        if(!is_writable($this->path) && !is_writable(dirname($this->path))) {
+        if (!is_writable($this->path) && !is_writable(dirname($this->path))) {
             throw new ehough_stash_exception_InvalidArgumentException('The cache sqlite file is not writable.');
         }
     }
 
-    static public function isAvailable()
+    public static function isAvailable()
     {
         return class_exists('SQLiteDatabase', false);
     }
@@ -153,13 +152,6 @@ class ehough_stash_driver_sub_Sqlite
             $pos2 = strrpos($this->path, '\\');
 
             if ($pos1 || $pos2) {
-                if ($pos1 === false) {
-                    $pos = $pos2;
-                }
-                if ($pos2 === false) {
-                    $pos = $pos1;
-                }
-
                 $pos = $pos1 >= $pos2 ? $pos1 : $pos2;
                 $dir = substr($this->path, 0, $pos);
             }
@@ -191,6 +183,7 @@ class ehough_stash_driver_sub_Sqlite
         if (!$db = new SQLiteDatabase($this->path, $this->filePermissions, $errorMessage)) {
             throw new ehough_stash_exception_RuntimeException('Unable to open SQLite Database: ' . $errorMessage);
         }
+
         return $db;
     }
 }

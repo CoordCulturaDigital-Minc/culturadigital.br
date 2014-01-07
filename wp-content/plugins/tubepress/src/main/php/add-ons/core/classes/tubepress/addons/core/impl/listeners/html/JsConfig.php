@@ -1,8 +1,8 @@
 <?php
 /**
- * Copyright 2006 - 2013 TubePress LLC (http://tubepress.org)
+ * Copyright 2006 - 2014 TubePress LLC (http://tubepress.com)
  *
- * This file is part of TubePress (http://tubepress.org)
+ * This file is part of TubePress (http://tubepress.com)
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -14,7 +14,7 @@
  */
 class tubepress_addons_core_impl_listeners_html_JsConfig
 {
-    public function onInlineJs(tubepress_api_event_EventInterface $event)
+    public function onPreScriptsHtml(tubepress_api_event_EventInterface $event)
     {
         $eventDispatcher = tubepress_impl_patterns_sl_ServiceLocator::getEventDispatcher();
 

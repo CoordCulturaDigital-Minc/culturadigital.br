@@ -27,9 +27,9 @@ class ehough_iconic_compiler_PassConfig
     const TYPE_REMOVE = 'removing';
 
     private $mergePass;
-    private $afterRemovingPasses;
-    private $beforeOptimizationPasses;
-    private $beforeRemovingPasses;
+    private $afterRemovingPasses = array();
+    private $beforeOptimizationPasses = array();
+    private $beforeRemovingPasses = array();
     private $optimizationPasses;
     private $removingPasses;
 
@@ -39,10 +39,6 @@ class ehough_iconic_compiler_PassConfig
     public function __construct()
     {
         $this->mergePass = new ehough_iconic_compiler_MergeExtensionConfigurationPass();
-
-        $this->afterRemovingPasses = array();
-        $this->beforeOptimizationPasses = array();
-        $this->beforeRemovingPasses = array();
 
         $this->optimizationPasses = array(
             new ehough_iconic_compiler_ResolveDefinitionTemplatesPass(),

@@ -1,8 +1,8 @@
 <?php
 /**
- * Copyright 2006 - 2013 TubePress LLC (http://tubepress.org)
+ * Copyright 2006 - 2014 TubePress LLC (http://tubepress.com)
  *
- * This file is part of TubePress (http://tubepress.org)
+ * This file is part of TubePress (http://tubepress.com)
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -443,5 +443,70 @@ class tubepress_addons_wordpress_impl_DefaultWordPressFunctionWrapper implements
     {
         /** @noinspection PhpVoidFunctionResultUsedInspection */
         return register_activation_hook($file, $function);
+    }
+
+    /**
+     * Retrieves or displays the nonce hidden form field.
+     *
+     * @param string  $action   Action name. Should give the context to what is taking place. Optional but recommended.
+     * @param string  $name     Nonce name. This is the name of the nonce hidden form field to be created.
+     *                                      Once the form is submitted, you can access the generated nonce via $_POST[$name].
+     * @param boolean $referrer Whether also the referer hidden form field should be created with the wp_referer_field()
+     * @param boolean $echo     Whether to display or return the nonce hidden form field, and also the referer hidden form field if the $referer argument is set to true.
+     *
+     * @return mixed
+     */
+    public final function wp_nonce_field($action, $name, $referrer, $echo)
+    {
+        return wp_nonce_field($action, $name, $referrer, $echo);
+    }
+
+    /**
+     * Verify that a nonce is correct and unexpired with the respect to a specified action.
+     *
+     * @param string $nonce  Nonce to verify.
+     * @param string $action Action name. Should give the context to what is taking place and be the same when the nonce was created.
+     *
+     * @return boolean|integer False if the nonce is invalid. Otherwise returns an integer with the value of
+     *                         1 if the nonce has been generated in the past 12 hours or less.
+     *                         2 if the nonce was generated between 12 and 24 hours ago.
+     */
+    public function wp_verify_nonce($nonce, $action)
+    {
+        return wp_verify_nonce($nonce, $action);
+    }
+
+    /**
+     * Localizes a script, but only if script has already been added. Can also be used to include arbitrary Javascript data in a page.
+     *
+     * @param string $handle     The script handle you are attaching the data for.
+     * @param string $objectName The name for the Javascript object which will contain the data. Note that this should
+     *                           be unique to both the script and to the plugin or theme. Thus, the value here should
+     *                           be properly prefixed with the slug or another unique value, to prevent conflicts.
+     *                           However, as this is a Javascript object name, it cannot contain dashes.
+     *                           Use underscores or camelCasing.
+     * @param array $l10n        The data itself. The data can be either a single or multi (as of 3.3) dimensional array.
+     *
+     * @return void
+     */
+    public function wp_localize_script($handle, $objectName, array $l10n)
+    {
+        wp_localize_script($handle, $objectName, $l10n);
+    }
+
+    /**
+     * The admin_url template tag retrieves the url to the admin area for the current site with the appropriate
+     * protocol, 'https' if is_ssl() and 'http' otherwise. If scheme is 'http' or 'https', is_ssl() is overridden.
+     *
+     * @param string $path   Path relative to the admin url.
+     * @param string $scheme The scheme to use. Default is 'admin', which obeys force_ssl_admin() and is_ssl(). 'http'
+     *                       or 'https' can be passed to force those schemes. The function uses get_site_url(), so
+     *                       allowed values include any accepted by that function.
+     *
+     * @return string Admin url link with optional path appended.
+     */
+    public function admin_url($path = null, $scheme = 'admin')
+    {
+        return admin_url($path, $scheme);
     }
 }

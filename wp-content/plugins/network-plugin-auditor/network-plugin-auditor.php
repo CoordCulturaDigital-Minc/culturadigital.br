@@ -3,7 +3,7 @@
 Plugin Name: Network Plugin Auditor
 Plugin URI: http://wordpress.org/support/plugin/network-plugin-auditor
 Description: Adds columns to your Network Admin on the Sites, Themes and Plugins pages to show which of your sites have each plugin and theme activated.  Now you can easily determine which plugins and themes are used on your network sites and which can be safely removed.
-Version: 1.6
+Version: 1.7
 Author: Katherine Semel
 Author URI: http://bonsaibudget.com/
 Network: true
@@ -21,7 +21,7 @@ class NetworkPluginAuditor {
 
         } else {
             // Load translation files
-            load_plugin_textdomain( 'npa', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+            add_action( 'init', array( $this, 'load_languages' ), 10 );
 
             // On the network plugins page, show which blogs have this plugin active
             add_filter( 'manage_plugins-network_columns', array( $this, 'add_plugins_column' ), 10, 1 );
@@ -42,6 +42,10 @@ class NetworkPluginAuditor {
         add_action( 'switch_theme', array( $this, 'clear_theme_transient' ), 10, 2 );
     }
 
+    function load_languages() {
+        load_plugin_textdomain( 'npa', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+    }
+
     function unsupported_prefix_notice() {
         // The plugin does not support a blank database prefix at this time
         echo '<div class="error">';
@@ -57,7 +61,7 @@ class NetworkPluginAuditor {
     /* Plugins Page Functions *****************************************************/
 
     function add_plugins_column( $column_details ) {
-        $column_details['active_blogs'] = _x( 'Active Blogs', 'column name', 'npa' );
+        $column_details['active_blogs'] = __( 'Active Blogs', 'npa' );
         return $column_details;
     }
 
@@ -110,10 +114,10 @@ class NetworkPluginAuditor {
     /* Themes Page Functions ******************************************************/
 
     function add_themes_column( $column_details ) {
-        $column_details['active_blogs'] = _x( 'Active Blogs', 'column name', 'npa' );
+        $column_details['active_blogs'] = __( 'Active Blogs', 'npa' );
 
         if ( function_exists( 'wp_get_theme' ) && function_exists( 'wp_get_themes' ) ) {
-            $column_details['has_children'] = _x( 'Children', 'column name', 'npa' );
+            $column_details['has_children'] = __( 'Children', 'npa' );
         }
         return $column_details;
     }
@@ -172,9 +176,9 @@ class NetworkPluginAuditor {
     /* Sites Page Functions *******************************************************/
 
     function add_sites_column( $column_details ) {
-        $column_details['active_plugins'] = _x( 'Active Plugins', 'column name', 'npa' ) . ' <span title="' . esc_attr( __( 'Excludes network-active and must-use plugins', 'npa' ) ) . '">[?]</span>';
+        $column_details['active_plugins'] = __( 'Active Plugins', 'npa' ) . ' <span title="' . esc_attr( __( 'Excludes network-active and must-use plugins', 'npa' ) ) . '">[?]</span>';
 
-        $column_details['active_theme'] = _x( 'Active Theme', 'column name', 'npa' );
+        $column_details['active_theme'] = __( 'Active Theme', 'npa' );
 
         return $column_details;
     }

@@ -69,6 +69,21 @@ class ehough_epilog_Logger implements ehough_epilog_psr_LoggerInterface
      */
     const EMERGENCY = 600;
 
+    /**
+     * Monolog API version
+     *
+     * This is only bumped when API breaks are done and should
+     * follow the major version of the library
+     *
+     * @var int
+     */
+    const API = 1;
+
+    /**
+     * Logging levels from syslog protocol defined in RFC 5424
+     *
+     * @var array $levels Logging levels
+     */
     protected static $levels = array(
         100 => 'DEBUG',
         200 => 'INFO',
@@ -334,7 +349,7 @@ class ehough_epilog_Logger implements ehough_epilog_psr_LoggerInterface
 
     /**
      * Gets all supported logging levels.
-     * 
+     *
      * @return array Assoc array with human-readable level names => level codes.
      */
     public static function getLevels()

@@ -3,7 +3,7 @@
  Plugin Name: Network Publisher
  Plugin URI: http://wordpress.org/extend/plugins/network-publisher/
  Description: Automatically publish your blog posts to Social Networks including Twitter, Facebook, and, LinkedIn.
- Version: 5.9.1
+ Version: 6.0
  Author: linksalpha
  Author URI: http://www.linksalpha.com
  */
@@ -41,7 +41,7 @@ define('NETWORKPUB_ERROR_INVALID_KEY', 				'invalid key');
 define('NETWORKPUB_CURRENTLY_PUBLISHING', 			__('You are currently Publishing your Blog to'));
 define('NETWORKPUB_SOCIAL_NETWORKS', 				__('Social Networks'));
 define('NETWORKPUB_SOCIAL_NETWORK', 				__('Social Network'));
-define('NETWORKPUB_PLUGIN_VERSION', 				'5.9.1');
+define('NETWORKPUB_PLUGIN_VERSION', 				'6.0');
 define('NETWORKPUB_API_URL', 						'http://www.linksalpha.com/a/');
 
 $networkpub_settings['api_key'] = array('label' => 'API Key:', 'type' => 'text', 'default' => '');
@@ -81,6 +81,10 @@ add_action('admin_notices', 'networkpub_warning');
 add_action('admin_notices', 'networkpub_auth_errors');
 add_action('init', 'networkpub_remove');
 add_action('init', 'networkpub_get_posts');
+add_action('save_post', 'networkpub_post_publish_status', 4, 2);
+add_action('edit_post', 'networkpub_save_post_meta_box', 5, 2);
+add_action('save_post', 'networkpub_save_post_meta_box', 5, 2);
+add_action('publish_post', 'networkpub_save_post_meta_box', 5, 2);
 add_action('xmlrpc_publish_post', 'networkpub_ping');
 add_action('{$new_status}_{$post->post_type}', 'networkpub_ping');
 add_action('publish_post', 'networkpub_ping');
@@ -95,8 +99,6 @@ add_action('{$new_status}_{$post->post_type}', 'networkpub_convert');
 add_action('publish_post', 'networkpub_convert');
 add_action('future_to_publish', 'networkpub_convert');
 add_action('admin_menu', 'networkpub_create_post_meta_box');
-add_action('save_post', 'networkpub_post_publish_status', 4, 2);
-add_action('save_post', 'networkpub_save_post_meta_box', 5, 2);
 add_action('wp_head', 'networkpub_add_metatags');
 add_filter('language_attributes', 'networkpub_html_schema');
 
@@ -144,6 +146,9 @@ function networkpub_options() {
 	}
 	if (!array_key_exists('networkpub_install_extension_alert_show', $options)) {
 		$options['networkpub_install_extension_alert_show'] = 1;
+	}
+	if (!array_key_exists('networkpub_networks_data', $options)) {
+		$options['networkpub_networks_data'] = "";
 	}
 	update_option(NETWORKPUB_WIDGET_NAME_INTERNAL, $options);
 }
@@ -204,36 +209,67 @@ function networkpub_post_meta_box($object, $box) {
 		}
 		$html .= '<input type="hidden" name="linksalpha_browser" id="linksalpha_browser" value="'.$browser.'" autocomplete="off" />';
 	}
-	//Publish
-	$curr_val_publish = get_post_meta($object->ID, '_networkpub_meta_publish', true);
+	//Publish All
+	$curr_val_publish = get_post_meta($object->ID, 'networkpub_meta_publish', true);
 	if ($curr_val_publish == '') {
-		$curr_val_publish = 1;
+		$curr_val_publish = 'all';
 	}
 	$html .= '<div class="misc-pub-section networkpublisher_post_meta_box_first">';
-	$html_label = '&nbsp;<label for="networkpub_meta_cb_publish">' . __('Publish this') . ' <i>' . $this_post_type .'</i>'. __(' to') . ' <a href="' . NETWORKPUB_PLUGIN_ADMIN_URL . '">' . __('configured Networks') . '</a></label>';
+	$html_label = '&nbsp;<label for="networkpub_meta_cb_publish">' . __('Publish this') . ' <b>' . $this_post_type .'</b>'. __(' to') . ' <a href="' . NETWORKPUB_PLUGIN_ADMIN_URL . '">' . __('configured Networks') . '</a></label>';
 	$html_label_type_disabled = '&nbsp;<label for="networkpub_meta_cb_publish" style="background-color:yellow;">' . __('Publishing of') . ' <i>' . $this_post_type .'</i>'. ' <a href="http://codex.wordpress.org/Post_Types" target="_blank">' . __('Post Type') . '</a>' . __(' to') . ' <a href="' . NETWORKPUB_PLUGIN_ADMIN_URL . '">' . __('configured Networks') . '</a>' . ' ' . __('has been disabled. ') . '<a href="' . NETWORKPUB_PLUGIN_ADMIN_URL . '#setting_networkpub_post_types">' . __('Click Here') . '</a>' . __(' to enable again.') . '</label>';
-	if ($curr_val_publish) {
+	if ($curr_val_publish=="all") {
 		if (array_key_exists('networkpub_post_types', $options)) {
 			if (in_array($this_post_type, explode(',', $options['networkpub_post_types']))) {
-				$html .= '<input type="checkbox" name="networkpub_meta_cb_publish" id="networkpub_meta_cb_publish" checked ' . $inputs_disabled . ' />';
+				$html .= '<input type="radio" name="networkpub_meta_cb_publish" id="networkpub_meta_cb_publish" value="all" checked ' . $inputs_disabled . ' />';
 			} else {
 				$inputs_disabled = 'disabled="disabled"';
-				$html .= '<input type="checkbox" name="networkpub_meta_cb_publish" id="networkpub_meta_cb_publish" ' . $inputs_disabled . ' />';
+				$html .= '<input type="radio" name="networkpub_meta_cb_publish" id="networkpub_meta_cb_publish" value="all" ' . $inputs_disabled . ' />';
 				$html_label = $html_label_type_disabled;
 			}
 		} else {
-			$html .= '<input type="checkbox" name="networkpub_meta_cb_publish" id="networkpub_meta_cb_publish" checked ' . $inputs_disabled . ' />';
+			$html .= '<input type="radio" name="networkpub_meta_cb_publish" id="networkpub_meta_cb_publish" value="all" checked ' . $inputs_disabled . ' />';
 		}
 	} else {
 		if (in_array($this_post_type, explode(',', $options['networkpub_post_types']))) {
-			$html .= '<input type="checkbox" name="networkpub_meta_cb_publish" id="networkpub_meta_cb_publish" ' . $inputs_disabled . ' />';
+			$html .= '<input type="radio" name="networkpub_meta_cb_publish" id="networkpub_meta_cb_publish" value="all" ' . $inputs_disabled . ' />';
 		} else {
 			$inputs_disabled = 'disabled="disabled"';
-			$html .= '<input type="checkbox" name="networkpub_meta_cb_publish" id="networkpub_meta_cb_publish" ' . $inputs_disabled . ' />';
+			$html .= '<input type="radio" name="networkpub_meta_cb_publish" id="networkpub_meta_cb_publish" value="all" ' . $inputs_disabled . ' />';
 			$html_label = $html_label_type_disabled;
 		}
 	}
 	$html .= $html_label;
+	$html .= '<br />';
+	//Publish Selected
+	$html_label = '&nbsp;<label for="networkpub_meta_cb_publish_selected">' . __('Publish this') . ' <b>' . $this_post_type .'</b>'. __(' to') . ' <a id="networkpub_networks_data_link" href="' . NETWORKPUB_PLUGIN_ADMIN_URL . '">' . __('selected Networks') . '</a></label>';
+	if ($curr_val_publish=="selected") {
+		if (array_key_exists('networkpub_post_types', $options)) {
+			if (in_array($this_post_type, explode(',', $options['networkpub_post_types']))) {
+				$html .= '<input type="radio" name="networkpub_meta_cb_publish" id="networkpub_meta_cb_publish_selected" value="select" checked ' . $inputs_disabled . ' />';
+			} else {
+				$inputs_disabled = 'disabled="disabled"';
+				$html .= '<input type="radio" name="networkpub_meta_cb_publish" id="networkpub_meta_cb_publish_selected" value="select" ' . $inputs_disabled . ' />';
+				$html_label = $html_label_type_disabled;
+			}
+		} else {
+			$html .= '<input type="radio" name="networkpub_meta_cb_publish" id="networkpub_meta_cb_publish_selected" value="select" checked ' . $inputs_disabled . ' />';
+		}
+	} else {
+		if (in_array($this_post_type, explode(',', $options['networkpub_post_types']))) {
+			$html .= '<input type="radio" name="networkpub_meta_cb_publish" id="networkpub_meta_cb_publish_selected" value="select" ' . $inputs_disabled . ' />';
+		} else {
+			$inputs_disabled = 'disabled="disabled"';
+			$html .= '<input type="radio" name="networkpub_meta_cb_publish" id="networkpub_meta_cb_publish_selected" value="select" ' . $inputs_disabled . ' />';
+			$html_label = $html_label_type_disabled;
+		}
+	}
+	$html .= $html_label;
+	if (!$inputs_disabled) {
+		if (in_array($this_post_type, explode(',', $options['networkpub_post_types']))) {
+			$networkpub_networks_data = networkpub_post_meta_box_networks_list();
+			$html .= $networkpub_networks_data;
+		}
+	} 
 	$html .= '</div>';
 	//Message
 	$curr_val_message = get_post_meta($object->ID, 'networkpub_postmessage', true);
@@ -293,7 +329,7 @@ function networkpub_post_meta_box($object, $box) {
 		}
 	}
 	$html .= '<div class="misc-pub-section">';
-	$html .= '<div class="networkpublisher_post_meta_box_label_box"><label for="networkpub_post_image_video">' . __('Attach Image or Video') . '</label>&nbsp;(<a target="_blank" href="http://help.linksalpha.com/networks/publish-option-image-or-video">' .__('help') .'</a>):</div>';
+	$html .= '<div class="networkpublisher_post_meta_box_label_box"><label for="networkpub_post_image_video">' . __('Attach Image or Video') . '</label>&nbsp;(<a target="_blank" href="http://help.linksalpha.com/networks/options/publish-option-image-or-video">' .__('help') .'</a>):</div>';
 	$html .= '<div><select ' . $inputs_disabled . ' name="networkpub_post_image_video" id="networkpub_post_image_video">' . $post_image_video_options . '</select></div>';
 	$html .= '</div>';
 	//Content from Excerpt
@@ -339,9 +375,27 @@ function networkpub_post_meta_box($object, $box) {
 	echo $html;
 }
 
-function networkpub_save_post_meta_box($post_id, $post) {
-	#Options
+function networkpub_post_meta_box_networks_list() {
 	$options = get_option(NETWORKPUB_WIDGET_NAME_INTERNAL);
+	$networkpub_networks_data = $options['networkpub_networks_data'];
+	$networkpub_networks_data = json_decode($networkpub_networks_data);
+	$html = '<div style="padding-left:13px;display:none;" id="networkpub_networks_data">';
+	if(!$networkpub_networks_data) {
+		$html .= '<div>&raquo;&nbsp;<a href="' . NETWORKPUB_PLUGIN_ADMIN_URL . '">' . __('Click here') . '</a> to configure Networks.</div>';
+	} else {
+		foreach ($networkpub_networks_data as $key=>$value) {
+			$html .= '<div><input type="checkbox" value="'.$key.'" name="networkpub_api_key_selected[]" class="networkpub_api_key_selected" id="networkpub_networks_data_'.$key.'" />&nbsp;<label for="networkpub_networks_data_'.$key.'">'.substr($value->name, 0, 30).'</label>&nbsp;<a target="_blank" style="text-decoration:none;" href="'.$value->profile_url.'">&raquo;</a></div>';
+		}
+	}
+	$html .= '</div>';
+	return $html;
+}
+
+function networkpub_post_publish_status($post_id, $post) {
+	add_post_meta($post_id, '_networkpub_meta_published', 'new', true);
+}
+
+function networkpub_save_post_meta_box($post_id, $post) {
 	if (empty($_POST['networkpub_meta_nonce'])) {
 		return $post_id;
 	}
@@ -352,6 +406,20 @@ function networkpub_save_post_meta_box($post_id, $post) {
 	#User auth
 	if (!current_user_can('edit_post', $post_id)) {
 		return $post_id;
+	}
+	#Networks - All/Selected
+	$networkpub_meta_cb_publish = $_POST['networkpub_meta_cb_publish'];
+	if ($networkpub_meta_cb_publish == 'all') {
+		update_post_meta($post_id, 'networkpub_meta_publish', 'all');
+	} else {
+		update_post_meta($post_id, 'networkpub_meta_publish', 'selected');
+		$networkpub_api_keys_selected = array();
+		if(!empty($_POST['networkpub_api_key_selected'])) {
+	    	foreach($_POST['networkpub_api_key_selected'] as $networkpub_api_key_selected) {
+	    		$networkpub_api_keys_selected[] = $networkpub_api_key_selected;
+	    	}
+		}
+		update_post_meta($post_id, 'networkpub_api_keys_selected', implode(',', $networkpub_api_keys_selected));
 	}
 	#Message
 	$new_meta_value_postmessage = '';
@@ -403,7 +471,6 @@ function networkpub_save_post_meta_box($post_id, $post) {
 		}
 	}
 	update_post_meta($post_id, 'networkpub_post_image_video', $new_meta_value_post_image_video);
-	$options['networkpub_post_image_video'] = $new_meta_value_post_image_video;
 	#Content
 	$new_meta_value_content = 0;
 	if (!empty($_POST['networkpub_meta_cb_content'])) {
@@ -412,12 +479,154 @@ function networkpub_save_post_meta_box($post_id, $post) {
 		}
 	}
 	update_post_meta($post_id, '_networkpub_meta_content', $new_meta_value_content);
-	#Update Options
-	update_option(NETWORKPUB_WIDGET_NAME_INTERNAL, $options);
 }
 
-function networkpub_post_publish_status($post_id, $post) {
-	add_post_meta($post_id, '_networkpub_meta_published', 'new', true);
+function networkpub_post($post_id) {
+	$options = get_option(NETWORKPUB_WIDGET_NAME_INTERNAL);
+	if (!is_array($options)) {
+		return;
+	}
+	if (array_key_exists('networkpub_enable', $options)) {
+		$networkpub_enable_value = $options['networkpub_enable'];
+	} else {
+		$networkpub_enable_value = 1;
+	}
+	if (!$networkpub_enable_value) {
+		return;
+	}
+	if (!$options['networkpub_post_types']) {
+		return;
+	}
+	$post_types_enabled = explode(',', $options['networkpub_post_types']);
+	$post_type = get_post_type($post_id);
+	if (!in_array($post_type, $post_types_enabled)) {
+		return;
+	}
+	//Network keys
+	if (empty($options['api_key']) or empty($options['id_2'])) {
+		return;
+	}
+	$id = $options['id_2'];
+	$api_key = $options['api_key'];
+	//Post data
+	$post_data = get_post($post_id, ARRAY_A);
+	//Post Published?
+	if (!in_array($post_data['post_status'], array('future', 'publish'))) {
+		return;
+	}
+	//post too old?
+	$post_date = strtotime($post_data['post_date_gmt']);
+	$current_date = time();
+	$diff = $current_date - $post_date;
+	$days = floor($diff / (60 * 60 * 24));
+	if ($days > 3) {
+		return;
+	}
+	$post_message = get_post_meta($post_id, 'networkpub_postmessage', true);
+	$post_summary = get_post_meta($post_id, 'networkpub_postsummary', true);
+	$post_twitterhandle = get_post_meta($post_id, 'networkpub_twitterhandle', true);
+	$post_twitterhash = get_post_meta($post_id, 'networkpub_twitterhash', true);
+	$post_ogtypefacebook = get_post_meta($post_id, 'networkpub_ogtype_facebook', true);
+	$post_meta_publish = get_post_meta($post_id, 'networkpub_meta_publish', true);
+	$post_image_video = get_post_meta($post_id, 'networkpub_post_image_video', true);
+	if (!$post_meta_publish) {
+		return;
+	}
+	if ($post_meta_publish == "selected") {
+		$api_key = get_post_meta($post_id, 'networkpub_api_keys_selected', true);
+		if(!$api_key) {
+			return;
+		}
+	}
+	$networkpub_meta_published = get_post_meta($post_id, '_networkpub_meta_published', true);
+	if ($networkpub_meta_published == 'done') {
+		return;
+	}
+	//Post meta - networkpub_meta_content
+	$networkpub_meta_content = get_post_meta($post_id, '_networkpub_meta_content', true);
+	//Post data: id, content and title
+	$post_title = $post_data['post_title'];
+	if ($networkpub_meta_content) {
+		$post_content = $post_data['post_excerpt'];
+	} else {
+		$post_content = $post_data['post_content'];
+	}
+	//Post data: Permalink
+	$post_link = get_permalink($post_id);
+	//Post data: Categories
+	$post_categories_array = array();
+	$post_categories_data = get_the_category($post_id);
+	foreach ($post_categories_data as $category) {
+		$post_categories_array[] = $category -> cat_name;
+	}
+	$post_categories = implode(",", $post_categories_array);
+	$post_tags_array = array();
+	$post_tags_data = wp_get_post_tags($post_id);
+	foreach ($post_tags_data as $tag) {
+		$post_tags_array[] = $tag -> name;
+	}
+	$post_tags = implode(",", $post_tags_array);
+	if (function_exists('get_wpgeo_latitude')) {
+		if (get_wpgeo_latitude($post_id) and get_wpgeo_longitude($post_id)) {
+			$post_geotag = get_wpgeo_latitude($post_id) . ' ' . get_wpgeo_longitude($post_id);
+		}
+	}
+	if (!isset($post_geotag)) {
+		$post_geotag = '';
+	}
+	#Prepare HTTP data
+	$link = NETWORKPUB_API_URL.'networkpubpost';
+	$params = array('id' => $id,
+					'api_key' => $api_key,
+					'post_id' => $post_id,
+					'post_link' => $post_link,
+					'post_title' => $post_title,
+					'post_content' => $post_content,
+					'post_author' => get_the_author_meta('user_login', $post_data['post_author']),
+					'plugin' => NETWORKPUB_WIDGET_NAME_INTERNAL_NW,
+					'plugin_version' => networkpub_version(),
+					'post_categories' => $post_categories,
+					'post_tags' => $post_tags,
+					'post_geotag' => $post_geotag,
+					'twitterhandle' => $post_twitterhandle,
+					'hashtag' => $post_twitterhash,
+					'content_message' => $post_message,
+					'content_summary' => $post_summary,
+					'post_image_video' => $post_image_video,
+					);
+	#Image
+	$post_image = networkpub_thumbnail_link($post_id, $post_data['post_content']);
+	if ($post_image) {
+		$params['post_image'] = $post_image;
+	}
+	#Make HTTP call
+	$response_full = networkpub_http_post($link, $params);
+	$response_code = $response_full[0];
+	if ($response_code == 200) {
+		update_post_meta($post_id, '_networkpub_meta_published', 'done');
+	} else {
+		update_post_meta($post_id, '_networkpub_meta_published', 'failed');	
+	}
+	networkpub_video($post_id, $post_content);
+	return;
+}
+
+function networkpub_post_xmlrpc($post_id) {
+	networkpub_post($post_id);
+	return;
+}
+
+function networkpub_post_custom($new, $old, $post) {
+	if ($new == 'publish' && $old != 'publish') {
+		$post_types = get_post_types(array('public' => true), 'objects');
+		foreach ($post_types as $post_type) {
+			if ($post -> post_type == $post_type -> name) {
+				networkpub_post($post->ID);
+				break;
+			}
+		}
+	}
+	return;
 }
 
 function networkpub_warning() {
@@ -577,149 +786,6 @@ function networkpub_convert($id) {
 	return;
 }
 
-function networkpub_post($post_id) {
-	$options = get_option(NETWORKPUB_WIDGET_NAME_INTERNAL);
-	if (!is_array($options)) {
-		return;
-	}
-	if (array_key_exists('networkpub_enable', $options)) {
-		$networkpub_enable_value = $options['networkpub_enable'];
-	} else {
-		$networkpub_enable_value = 1;
-	}
-	if (!$networkpub_enable_value) {
-		return;
-	}
-	if (!$options['networkpub_post_types']) {
-		return;
-	}
-	$post_types_enabled = explode(',', $options['networkpub_post_types']);
-	$post_type = get_post_type($post_id);
-	if (!in_array($post_type, $post_types_enabled)) {
-		return;
-	}
-	//Network keys
-	if (empty($options['api_key']) or empty($options['id_2'])) {
-		return;
-	}
-	$id = $options['id_2'];
-	$api_key = $options['api_key'];
-	//Post data
-	$post_data = get_post($post_id, ARRAY_A);
-	//Post Published?
-	if (!in_array($post_data['post_status'], array('future', 'publish'))) {
-		return;
-	}
-	//post too old?
-	$post_date = strtotime($post_data['post_date_gmt']);
-	$current_date = time();
-	$diff = $current_date - $post_date;
-	$days = floor($diff / (60 * 60 * 24));
-	if ($days > 3) {
-		return;
-	}
-	$post_message = get_post_meta($post_id, 'networkpub_postmessage', true);
-	$post_summary = get_post_meta($post_id, 'networkpub_postsummary', true);
-	$post_twitterhandle = get_post_meta($post_id, 'networkpub_twitterhandle', true);
-	$post_twitterhash = get_post_meta($post_id, 'networkpub_twitterhash', true);
-	$post_ogtypefacebook = get_post_meta($post_id, 'networkpub_ogtype_facebook', true);
-	$networkpub_meta_publish = get_post_meta($post_id, '_networkpub_meta_publish', true);
-	$networkpub_post_image_video = get_post_meta($post_id, 'networkpub_post_image_video', true);
-	if ($networkpub_meta_publish == "") {
-	} elseif ($networkpub_meta_publish == 0) {
-		return;
-	}
-	$networkpub_meta_published = get_post_meta($post_id, '_networkpub_meta_published', true);
-	if ($networkpub_meta_published == 'done') {
-		return;
-	}
-	//Post meta - networkpub_meta_content
-	$networkpub_meta_content = get_post_meta($post_id, '_networkpub_meta_content', true);
-	//Post data: id, content and title
-	$post_title = $post_data['post_title'];
-	if ($networkpub_meta_content) {
-		$post_content = $post_data['post_excerpt'];
-	} else {
-		$post_content = $post_data['post_content'];
-	}
-	//Post data: Permalink
-	$post_link = get_permalink($post_id);
-	//Post data: Categories
-	$post_categories_array = array();
-	$post_categories_data = get_the_category($post_id);
-	foreach ($post_categories_data as $category) {
-		$post_categories_array[] = $category -> cat_name;
-	}
-	$post_categories = implode(",", $post_categories_array);
-	$post_tags_array = array();
-	$post_tags_data = wp_get_post_tags($post_id);
-	foreach ($post_tags_data as $tag) {
-		$post_tags_array[] = $tag -> name;
-	}
-	$post_tags = implode(",", $post_tags_array);
-	if (function_exists('get_wpgeo_latitude')) {
-		if (get_wpgeo_latitude($post_id) and get_wpgeo_longitude($post_id)) {
-			$post_geotag = get_wpgeo_latitude($post_id) . ' ' . get_wpgeo_longitude($post_id);
-		}
-	}
-	if (!isset($post_geotag)) {
-		$post_geotag = '';
-	}
-	#Prepare HTTP data
-	$link = NETWORKPUB_API_URL.'networkpubpost';
-	$params = array('id' => $id,
-					'api_key' => $api_key,
-					'post_id' => $post_id,
-					'post_link' => $post_link,
-					'post_title' => $post_title,
-					'post_content' => $post_content,
-					'post_author' => get_the_author_meta('user_login', $post_data['post_author']),
-					'plugin' => NETWORKPUB_WIDGET_NAME_INTERNAL_NW,
-					'plugin_version' => networkpub_version(),
-					'post_categories' => $post_categories,
-					'post_tags' => $post_tags,
-					'post_geotag' => $post_geotag,
-					'twitterhandle' => $post_twitterhandle,
-					'hashtag' => $post_twitterhash,
-					'content_message' => $post_message,
-					'content_summary' => $post_summary,
-					'post_image_video' => $networkpub_post_image_video,
-					);
-	#Image
-	$post_image = networkpub_thumbnail_link($post_id, $post_data['post_content']);
-	if ($post_image) {
-		$params['post_image'] = $post_image;
-	}
-	#Make HTTP call
-	$response_full = networkpub_http_post($link, $params);
-	$response_code = $response_full[0];
-	if ($response_code == 200) {
-		update_post_meta($post_id, '_networkpub_meta_published', 'done');
-	} else {
-		update_post_meta($post_id, '_networkpub_meta_published', 'failed');	
-	}
-	networkpub_video($post_id, $post_content);
-	return;
-}
-
-function networkpub_post_xmlrpc($post_id) {
-	networkpub_post($post_id);
-	return;
-}
-
-function networkpub_post_custom($new, $old, $post) {
-	if ($new == 'publish' && $old != 'publish') {
-		$post_types = get_post_types(array('public' => true), 'objects');
-		foreach ($post_types as $post_type) {
-			if ($post -> post_type == $post_type -> name) {
-				networkpub_post($post->ID);
-				break;
-			}
-		}
-	}
-	return;
-}
-
 function networkpub_conf() {
 	$options = get_option(NETWORKPUB_WIDGET_NAME_INTERNAL);
 	global $networkpub_settings;
@@ -824,6 +890,14 @@ function networkpub_conf() {
 					$networkpub_thumbnail_size = 'medium';
 				}
 				networkpub_update_option('networkpub_thumbnail_size', $networkpub_thumbnail_size);
+			} elseif ($_POST['networkpub_form_type'] == 'networkpub_post_image_video') {
+				if (array_key_exists('networkpub_post_image_video', $_POST)) {
+					$networkpub_post_image_video = strip_tags($_POST['networkpub_post_image_video']);
+				} 
+				if (!in_array($networkpub_post_image_video, array('image', 'video'))) {
+					$networkpub_post_image_video = 'image';
+				}
+				networkpub_update_option('networkpub_post_image_video', $networkpub_post_image_video);
 			} elseif ($_POST['networkpub_form_type'] == 'networkpub_install_extension_alert_show') {
 				if (array_key_exists('networkpub_install_extension_alert_show', $_POST)) {
 					$networkpub_install_extension_alert_show = 1;
@@ -928,6 +1002,11 @@ function networkpub_conf() {
 		} else {
 			$networkpub_thumbnail_size = 'medium';
 		}
+		if (array_key_exists('networkpub_post_image_video', $options)) {
+			$networkpub_post_image_video = $options['networkpub_post_image_video'];
+		} else {
+			$networkpub_post_image_video = 'image';
+		}
 		if (array_key_exists('networkpub_install_extension_alert_show', $options)) {
 			$networkpub_install_extension_alert_show = $options['networkpub_install_extension_alert_show'];
 			if ($networkpub_install_extension_alert_show) {
@@ -951,6 +1030,7 @@ function networkpub_conf() {
 		$networkpub_custom_field_image = '';
 		$networkpub_custom_field_image_url = '';
 		$networkpub_thumbnail_size = 'medium';
+		$networkpub_post_image_video = 'image';
 		$networkpub_install_extension_alert_show = 'checked';
 	}
 	$fb_langs = networkpub_fb_langs();
@@ -988,6 +1068,15 @@ function networkpub_conf() {
 			$thumbnail_size_options = $thumbnail_size_options . '<option value="' . htmlentities($key) . '" selected>' . htmlentities($val) . '</option>';
 		} else {
 			$thumbnail_size_options = $thumbnail_size_options . '<option value="' . htmlentities($key) . '">' . htmlentities($val) . '</option>';
+		}
+	}
+	$image_video_types = array('image'=>'Image', 'video'=>'Video');
+	$image_video_options = '';
+	foreach ($image_video_types as $key => $val) {
+		if ($networkpub_post_image_video == $key) {
+			$image_video_options .= '<option value="' . htmlentities($key) . '" selected>' . htmlentities($val) . '</option>';
+		} else {
+			$image_video_options .= '<option value="' . htmlentities($key) . '">' . htmlentities($val) . '</option>';
 		}
 	}
 	networkpub_mixed_mode();
@@ -1235,6 +1324,32 @@ function networkpub_conf() {
 						</div>
 						<div style="padding:40px 0px 0px 0px;">
 							<div class="networkpublisher_header">
+								<strong>' . __('Attach Image or Video') . '</strong>
+							</div>
+							<div class="networkpublisher_content_box">
+								<div style="padding-bottom:10px;">
+									<form action="" method="post">
+										<div style="padding-bottom:3px;">
+											<label for="networkpub_post_image_video">' . __('Select if you want to attach Image or Video to your post.') . '</label>
+										</div>
+										<div>
+			                            	<select name="networkpub_post_image_video" id="networkpub_post_image_video">
+			                                	'. $image_video_options .'
+			                            	</select>
+			                           	</div>
+										<div style="padding:3px 0px 20px 0px;color:gray;">
+			                            ' . __('For select Networks (like Facebook), you can set if you would want image or video attached to the post published onto the configured Network profile. By default, image will be attached. But if you select the Video option above, then video image and URL would be attached to the published post.') . '
+			                            </div>
+										<div>
+											<input type="hidden" name="networkpub_form_type" value="networkpub_post_image_video" />
+											<input type="submit" name="submit" class="button-primary" value="' . __('Update') . '" />
+						 				</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div style="padding:40px 0px 0px 0px;">
+							<div class="networkpublisher_header">
 								<strong>' . __('Image Size') . '</strong>
 							</div>
 							<div class="networkpublisher_content_box">
@@ -1244,7 +1359,7 @@ function networkpub_conf() {
 											<label for="networkpub_thumbnail_size">' . __('Select the Image Size to be used while posting.') . '</label>
 										</div>
 										<div>
-			                            	<select name="networkpub_thumbnail_size"' . $networkpub_thumbnail_size . ' id="networkpub_thumbnail_size">
+			                            	<select name="networkpub_thumbnail_size" id="networkpub_thumbnail_size">
 			                                	'. $thumbnail_size_options .'
 			                            	</select>
 			                           	</div>
@@ -1388,7 +1503,14 @@ function networkpub_add($api_key) {
 	}
 	$link = NETWORKPUB_API_URL.'networkpubaddone';
 	// Build Params
-	$params = array('url' => urlencode($url), 'key' => $api_key, 'plugin' => NETWORKPUB_WIDGET_NAME_INTERNAL_NW, 'version' => NETWORKPUB_PLUGIN_VERSION, 'all_keys' => $options['api_key'], 'id' => $id);
+	$params = array('url' => urlencode($url),
+					'key' => $api_key,
+					'plugin' => NETWORKPUB_WIDGET_NAME_INTERNAL_NW,
+					'version' => NETWORKPUB_PLUGIN_VERSION,
+					'id' => $id);
+	if (in_array('api_key', $options)) {
+		$params['all_keys'] = $options['api_key'];
+	}
 	$response_full = networkpub_http_post($link, $params);
 	$response_code = $response_full[0];
 	if ($response_code != 200) {
@@ -1437,7 +1559,8 @@ function networkpub_load() {
 	if ($response_code != 200) {
 		$errdeschtml = networkpub_error_msgs('misc');
 		return $errdeschtml;
-	}	$response = networkpub_json_decode($response_full[1]);
+	}
+	$response = networkpub_json_decode($response_full[1]);
 	if ($response->errorCode > 0) {
 		$html = '<div>' . __('Error occured while trying to load the API Keys. Please try again later.') . '</div>';
 		return $html;
@@ -1463,7 +1586,9 @@ function networkpub_load() {
 	}
 	$html .= '<table class="networkpublisher_added"><tr><th>' . __('Network Account') . '</th><th>' . __('Options') . '</th><th>' . __('Publish Results') . '</th><th>' . __('Remove') . '</th></tr>';
 	$i = 1;
+	$networkpub_networks_data = array();
 	foreach ($response->results as $row) {
+		$networkpub_networks_data[$row -> api_key] = array('name'=>$row -> name, 'profile_url'=>$row -> profile_url);
 		if ($row -> auth_expired) {
 			$auth_error_class = 'class="networkpublisher_auth_error"';
 			$auth_error_image = '<img alt="' . __('Authorization provided to LinksAlpha.com on this account has expired. Please Add the Account again to be able to publish content') . '" title="' . __('Authorization provided to LinksAlpha.com on this account has expired. Please Add the Account again to be able to publish content') . '" src="' . NETWORKPUB_WP_PLUGIN_URL . 'alert.png" style="vertical-align:text-bottom;" />&nbsp;';
@@ -1489,7 +1614,7 @@ function networkpub_load() {
 		} else {
 			$html .= '<td ' . $auth_error_class . ' style="text-align:center;background-color:#F7F7F7;">';
 		}
-		$html .= '<a href="https://www.linksalpha.com/a/networkpublogs?api_key=' . $row -> api_key . '&id=' . $options['id_2'] . '&version=' . networkpub_version() . '&KeepThis=true&TB_iframe=true&height=400&width=920" title="Publish Result" class="thickbox" type="button" />' . __('Publish Results') . '</a></td>';
+		$html .= '<a href="'.NETWORKPUB_API_URL.'networkpublogs?api_key=' . $row -> api_key . '&id=' . $options['id_2'] . '&version=' . networkpub_version() . '&KeepThis=true&TB_iframe=true&height=400&width=920" title="Publish Results" class="thickbox" type="button" />' . __('Publish Results') . '</a></td>';
 		if ($i % 2) {
 			$html .= '<td ' . $auth_error_class . ' style="text-align:center;">';
 		} else {
@@ -1500,6 +1625,10 @@ function networkpub_load() {
 		$i++;
 	}
 	$html .= '</table>';
+	$networkpub_networks_data = json_encode($networkpub_networks_data);
+	$options = get_option(NETWORKPUB_WIDGET_NAME_INTERNAL);
+	$options['networkpub_networks_data'] = $networkpub_networks_data;
+	update_option(NETWORKPUB_WIDGET_NAME_INTERNAL, $options);
 	return $html;
 }
 

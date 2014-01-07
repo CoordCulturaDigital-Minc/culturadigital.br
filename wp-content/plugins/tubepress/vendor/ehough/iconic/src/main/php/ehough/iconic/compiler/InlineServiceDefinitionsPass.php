@@ -110,7 +110,7 @@ class ehough_iconic_compiler_InlineServiceDefinitionsPass implements ehough_icon
             return true;
         }
 
-        if ($definition->isPublic()) {
+        if ($definition->isPublic() || $definition->isLazy()) {
             return false;
         }
 

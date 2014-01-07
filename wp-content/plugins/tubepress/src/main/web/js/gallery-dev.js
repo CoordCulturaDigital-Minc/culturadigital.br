@@ -1,16 +1,19 @@
-/**!
- * Copyright 2006 - 2013 TubePress LLC (http://tubepress.org)
- *
- * This file is part of TubePress (http://tubepress.org)
- *
+/*!
+ * Copyright 2006 - 2014 TubePress LLC (http://tubepress.com).
+ * This file is part of TubePress (http://tubepress.com).
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
- *
- * @author Eric D. Hough (eric@tubepress.org)
  */
 
-var TubePressGallery = (function (jquery, win, tubepress) {
+/**
+ * IE8 and below forces us to declare this now.
+ *
+ * http://tobyho.com/2013/03/13/window-prop-vs-global-var/
+ */
+var tubePressGalleryRegistrar;
+
+(function (jquery, win, tubepress) {
 
     /** http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/ */
     'use strict';
@@ -148,6 +151,11 @@ var TubePressGallery = (function (jquery, win, tubepress) {
                 getHttpMethod = function (galleryId) {
 
                     return internalGet(galleryId, text_jsMap, 'httpMethod');
+                },
+
+                getJsMap = function (galleryId) {
+
+                    return internalRegistry[galleryId][text_jsMap];
                 },
 
                 getNvpMap = function (galleryId) {
@@ -350,6 +358,21 @@ var TubePressGallery = (function (jquery, win, tubepress) {
 
                         internalRegistry[galleryId][text_currentVideoId] = videoId;
                     }
+                },
+
+                findAllGalleryIds = function () {
+
+                    var ids = [],
+                        id;
+
+                    //noinspection JSLint
+                    for (id in internalRegistry) {
+
+                        //noinspection JSUnfilteredForInLoop
+                        ids.push(id);
+                    }
+
+                    return ids;
                 };
 
             subscribe(text_event_galleryLoad, onGalleryLoad);
@@ -369,12 +392,14 @@ var TubePressGallery = (function (jquery, win, tubepress) {
                 isCurrentlyPlayingVideo         : isCurrentlyPlayingVideo,
                 isFluidThumbs                   : isFluidThumbs,
                 isRegistered                    : isRegistered,
+                findAllGalleryIds               : findAllGalleryIds,
                 findGalleryContainingVideoDomId : findGalleryContainingVideoDomId,
                 getCurrentPageNumber            : getCurrentPageNumber,
                 getCurrentVideoId               : getCurrentVideoId,
                 getEmbeddedHeight               : getEmbeddedHeight,
                 getEmbeddedWidth                : getEmbeddedWidth,
                 getHttpMethod                   : getHttpMethod,
+                getJsMap                        : getJsMap,
                 getNvpMap                       : getNvpMap,
                 getPlayerLocationName           : getPlayerLocationName,
                 getPlayerLocationProducesHtml   : getPlayerLocationProducesHtml,
@@ -458,14 +483,17 @@ var TubePressGallery = (function (jquery, win, tubepress) {
                 var gallerySelector = getThumbAreaSelector(galleryId),
                     columnWidth     = getThumbWidth(galleryId),
                     gallery         = jquery(gallerySelector),
-                    colWrap         = gallery.width(),
-                    colNum          = floor(colWrap / columnWidth),
-                    colFixed        = floor(colWrap / colNum),
+                    galleryWidth    = gallery.width(),
+                    colNum          = floor(galleryWidth / columnWidth),
+                    newThumbWidth   = floor(galleryWidth / colNum),
                     thumbs          = jquery(gallerySelector + ' div.' + text_tubepress + '_thumb');
 
                 gallery.css({ 'width' : '100%'});
-                gallery.css({ 'width' : colWrap });
-                thumbs.css({ 'width' : colFixed});
+                gallery.css({ 'width' : galleryWidth });
+                thumbs.css({ 'width' : newThumbWidth});
+
+                gallery.data('fluid_thumbs_applied', true);
+                beacon.publish(text_eventPrefix_gallery + 'fluidThumbs', [ galleryId, newThumbWidth ]);
             },
 
             /**
@@ -478,9 +506,25 @@ var TubePressGallery = (function (jquery, win, tubepress) {
 
                     makeThumbsFluid(galleryId);
                 }
+            },
+
+            /**
+             * On window resize.
+             */
+            onWindowResize = function (e) {
+
+                var ids    = galleryRegistry.findAllGalleryIds(),
+                    index  = 0,
+                    length = ids.length;
+
+                for (index; index < length; index += 1) {
+
+                    onNewGalleryOrThumbs(e, ids[index]);
+                }
             };
 
         subscribe(text_event_galleryNewThumbs + ' ' + text_event_galleryLoad, onNewGalleryOrThumbs);
+        subscribe(text_tubepress + '.window.resize', onWindowResize);
     }());
 
     /**
@@ -694,11 +738,9 @@ var TubePressGallery = (function (jquery, win, tubepress) {
         /**
          * A video on the page has stopped.
          */
-        var logger = tubepress.Logger,
+        var onVideoStop = function (e, video) {
 
-            onVideoStop = function (e, videoId, domId, providerName, playerImplementationName) {
-
-                var galleryId = galleryRegistry.findGalleryContainingVideoDomId(domId);
+                var galleryId = galleryRegistry.findGalleryContainingVideoDomId(video.domId);
 
                 if (!galleryId) {
 
@@ -706,11 +748,6 @@ var TubePressGallery = (function (jquery, win, tubepress) {
                 }
 
                 if (galleryRegistry.isAutoNext(galleryId) && galleryRegistry.getSequence(galleryId)) {
-
-                    if (logger.on()) {
-
-                        logger.log('Auto-starting next for gallery ' + galleryId);
-                    }
 
                     /** Go to the next one! */
                     beacon.publish(text_event_galleryNextVideo, [ galleryId ]);
@@ -724,9 +761,17 @@ var TubePressGallery = (function (jquery, win, tubepress) {
 
     tubepress.AsyncUtil.processQueueCalls('tubePressGalleryRegistrar', asyncGalleryRegistrar);
 
-    return {
+    /**
+     * Make this available via the primary TubePress object.
+     */
+    tubepress.Gallery = {
 
         Registry : galleryRegistry
     };
+
+    /**
+     * Signal that gallery.js has been loaded completely.
+     */
+    tubepress.Beacon.publish(text_tubepress + '.js.sys.gallery');
 
 }(jQuery, window, TubePress));

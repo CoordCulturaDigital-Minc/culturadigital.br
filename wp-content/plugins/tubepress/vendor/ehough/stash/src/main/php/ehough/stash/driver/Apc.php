@@ -15,7 +15,7 @@
  * @package Stash
  * @author  Robert Hafner <tedivm@tedivm.com>
  */
-class ehough_stash_driver_Apc implements ehough_stash_driver_DriverInterface
+class ehough_stash_driver_Apc implements ehough_stash_interfaces_DriverInterface
 {
     protected $ttl = 300;
     protected $apcNamespace;
@@ -31,12 +31,12 @@ class ehough_stash_driver_Apc implements ehough_stash_driver_DriverInterface
     public function __construct(array $options = array())
     {
         if (isset($options['ttl']) && is_numeric($options['ttl'])) {
-            $this->ttl = (int)$options['ttl'];
+            $this->ttl = (int) $options['ttl'];
         }
 
         $this->apcNamespace = isset($options['namespace']) ? $options['namespace'] : md5(__FILE__);
 
-        if(!self::isAvailable()) {
+        if (!self::isAvailable()) {
             throw new ehough_stash_exception_RuntimeException('Extension is not installed.');
         }
     }
@@ -55,7 +55,7 @@ class ehough_stash_driver_Apc implements ehough_stash_driver_DriverInterface
      * is not present. This array should have a value for "createdOn" and for "return", which should be the data the
      * main script is trying to store.
      *
-     * @param array $key
+     * @param  array $key
      * @return array
      */
     public function getData($key)
@@ -73,14 +73,15 @@ class ehough_stash_driver_Apc implements ehough_stash_driver_DriverInterface
      * stored. This function needs to store that data in such a way that it can be retrieved exactly as it was sent. The
      * expiration time needs to be stored with this data.
      *
-     * @param array $key
-     * @param array $data
-     * @param int $expiration
+     * @param  array $key
+     * @param  array $data
+     * @param  int   $expiration
      * @return bool
      */
     public function storeData($key, $data, $expiration)
     {
         $life = $this->getCacheTime($expiration);
+
         return apc_store($this->makeKey($key), array('data' => $data, 'expiration' => $expiration), $life);
     }
 
@@ -88,7 +89,7 @@ class ehough_stash_driver_Apc implements ehough_stash_driver_DriverInterface
      * This function should clear the cache tree using the key array provided. If called with no arguments the entire
      * cache needs to be cleared.
      *
-     * @param null|array $key
+     * @param  null|array $key
      * @return bool
      */
     public function clear($key = null)
@@ -103,6 +104,7 @@ class ehough_stash_driver_Apc implements ehough_stash_driver_DriverInterface
                 apc_delete($key);
             }
         }
+
         return true;
     }
 
@@ -134,8 +136,12 @@ class ehough_stash_driver_Apc implements ehough_stash_driver_DriverInterface
      *
      * @return bool
      */
-    static public function isAvailable()
+    public static function isAvailable()
     {
+        // HHVM has some of the APC extension, but not all of it.
+        if(!class_exists('APCIterator'))
+            return false;
+
         return (extension_loaded('apc') && ini_get('apc.enabled'))
             && ((php_sapi_name() !== 'cli') || ini_get('apc.enable_cli'));
     }
@@ -157,9 +163,9 @@ class ehough_stash_driver_Apc implements ehough_stash_driver_DriverInterface
 
     protected function getCacheTime($expiration)
     {
-        $life = $expiration - time(true);
+        $life = $expiration - time();
 
-        return $this->ttl > $life ? $this->ttl : $life;
+        return $this->ttl < $life ? $this->ttl : $life;
     }
 
 }

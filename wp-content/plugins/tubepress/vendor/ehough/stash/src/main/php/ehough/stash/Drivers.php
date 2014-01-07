@@ -33,13 +33,12 @@ class ehough_stash_Drivers
                                        'Xcache' => 'ehough_stash_driver_Xcache',
     );
 
-
     /**
      * Returns a list of build-in cache drivers that are also supported by this system.
      *
      * @return array Driver Name => Class Name
      */
-    static function getDrivers()
+    public static function getDrivers()
     {
         $availableDrivers = array();
         foreach (self::$drivers as $name => $class) {
@@ -47,14 +46,14 @@ class ehough_stash_Drivers
                 continue;
             }
 
-            if (!in_array('ehough_stash_driver_DriverInterface', class_implements($class))) {
+            if (!in_array('ehough_stash_interfaces_DriverInterface', class_implements($class))) {
                 continue;
             }
 
-            if($name == 'Composite') {
+            if ($name == 'Composite') {
                 $availableDrivers[$name] = $class;
             } else {
-                if(call_user_func(array($class, 'isAvailable'))) {
+                if (call_user_func(array($class, 'isAvailable'))) {
                     $availableDrivers[$name] = $class;
                 }
             }
@@ -63,12 +62,12 @@ class ehough_stash_Drivers
         return $availableDrivers;
     }
 
-    static function registerDriver($name, $class)
+    public static function registerDriver($name, $class)
     {
         self::$drivers[$name] = $class;
     }
 
-    static function getDriverClass($name)
+    public static function getDriverClass($name)
     {
         if (!isset(self::$drivers[$name])) {
             return false;

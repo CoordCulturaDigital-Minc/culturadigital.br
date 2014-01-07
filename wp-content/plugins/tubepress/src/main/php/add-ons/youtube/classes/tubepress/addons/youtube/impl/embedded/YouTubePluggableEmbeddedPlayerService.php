@@ -1,8 +1,8 @@
 <?php
 /**
- * Copyright 2006 - 2013 TubePress LLC (http://tubepress.org)
+ * Copyright 2006 - 2014 TubePress LLC (http://tubepress.com)
  *
- * This file is part of TubePress (http://tubepress.org)
+ * This file is part of TubePress (http://tubepress.com)
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -39,9 +39,12 @@ class tubepress_addons_youtube_impl_embedded_YouTubePluggableEmbeddedPlayerServi
      */
     public final function getDataUrlForVideo($videoId)
     {
-        $link  = new ehough_curly_Url('http://www.youtube.com/embed/' . $videoId);
-
         $context = tubepress_impl_patterns_sl_ServiceLocator::getExecutionContext();
+        $link    = new ehough_curly_Url('https://www.youtube.com/embed/' . $videoId);
+        $qss     = tubepress_impl_patterns_sl_ServiceLocator::getQueryStringService();
+        $url     = new ehough_curly_Url($qss->getFullUrl($_SERVER));
+        $origin  = $url->getScheme() . '://' . $url->getHost();
+
 
         $autoPlay        = $context->get(tubepress_api_const_options_names_Embedded::AUTOPLAY);
         $loop            = $context->get(tubepress_api_const_options_names_Embedded::LOOP);
@@ -62,6 +65,7 @@ class tubepress_addons_youtube_impl_embedded_YouTubePluggableEmbeddedPlayerServi
         $link->setQueryVariable('modestbranding', tubepress_impl_embedded_EmbeddedPlayerUtils::booleanToOneOrZero($modestBranding));
         $link->setQueryVariable('rel', tubepress_impl_embedded_EmbeddedPlayerUtils::booleanToOneOrZero($showRelated));
         $link->setQueryVariable('showinfo', tubepress_impl_embedded_EmbeddedPlayerUtils::booleanToOneOrZero($showInfo));
+        $link->setQueryVariable('origin', $origin);
 
         return $link;
     }

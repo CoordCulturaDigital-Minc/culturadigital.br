@@ -22,9 +22,9 @@
 // php versions involved.
 
 // @codeCoverageIgnoreStart
-if(version_compare(phpversion(), '5.4.0', '>=')){
+if (version_compare(phpversion(), '5.4.0', '>=')){
     interface ehough_stash_session_SessionHandlerInterface extends SessionHandlerInterface {}
-}else{
+} else {
     interface ehough_stash_session_SessionHandlerInterface {}
 }
 //@codeCoverageIgnoreStart

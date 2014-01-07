@@ -128,7 +128,7 @@ class ehough_finder_expression_Expression implements ehough_finder_expression_Va
     public function getGlob()
     {
         if (self::TYPE_GLOB !== $this->value->getType()) {
-            throw new LogicException('Regex cant be transformed to glob.');
+            throw new LogicException('Regex can\'t be transformed to glob.');
         }
 
         return $this->value;

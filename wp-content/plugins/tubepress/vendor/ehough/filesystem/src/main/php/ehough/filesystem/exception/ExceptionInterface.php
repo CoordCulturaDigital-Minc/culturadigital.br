@@ -20,5 +20,4 @@
  */
 interface ehough_filesystem_exception_ExceptionInterface
 {
-
 }

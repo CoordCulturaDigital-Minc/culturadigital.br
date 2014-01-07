@@ -19,7 +19,7 @@
 class ehough_iconic_DefinitionDecorator extends ehough_iconic_Definition
 {
     private $parent;
-    private $changes;
+    private $changes = array();
 
     /**
      * Constructor.
@@ -33,7 +33,6 @@ class ehough_iconic_DefinitionDecorator extends ehough_iconic_Definition
         parent::__construct();
 
         $this->parent = $parent;
-        $this->changes = array();
     }
 
     /**
@@ -142,6 +141,18 @@ class ehough_iconic_DefinitionDecorator extends ehough_iconic_Definition
         $this->changes['public'] = true;
 
         return parent::setPublic($boolean);
+    }
+
+    /**
+     * {@inheritDoc}
+     *
+     * @api
+     */
+    public function setLazy($boolean)
+    {
+        $this->changes['lazy'] = true;
+
+        return parent::setLazy($boolean);
     }
 
     /**

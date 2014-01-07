@@ -17,7 +17,7 @@
  * @package Stash
  * @author  Robert Hafner <tedivm@tedivm.com>
  */
-class ehough_stash_driver_Composite implements ehough_stash_driver_DriverInterface
+class ehough_stash_driver_Composite implements ehough_stash_interfaces_DriverInterface
 {
 
     protected $drivers = array();
@@ -34,7 +34,7 @@ class ehough_stash_driver_Composite implements ehough_stash_driver_DriverInterfa
         }
 
         foreach ($options['drivers'] as $driver) {
-            if (!(is_object($driver) && $driver instanceof ehough_stash_driver_DriverInterface)) {
+            if (!(is_object($driver) && $driver instanceof ehough_stash_interfaces_DriverInterface)) {
                 continue;
             }
 
@@ -109,7 +109,7 @@ class ehough_stash_driver_Composite implements ehough_stash_driver_DriverInterfa
      * This function should clear the cache tree using the key array provided. If called with no arguments the entire
      * cache needs to be cleared.
      *
-     * @param null|array $key
+     * @param  null|array $key
      * @return bool
      */
     public function clear($key = null)
@@ -147,7 +147,7 @@ class ehough_stash_driver_Composite implements ehough_stash_driver_DriverInterfa
      *
      * @return bool true
      */
-    static public function isAvailable()
+    public static function isAvailable()
     {
         return true;
     }

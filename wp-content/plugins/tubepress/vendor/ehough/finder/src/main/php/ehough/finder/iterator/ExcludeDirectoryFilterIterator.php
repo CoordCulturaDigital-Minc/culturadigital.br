@@ -16,7 +16,7 @@
  */
 class ehough_finder_iterator_ExcludeDirectoryFilterIterator extends ehough_finder_iterator_FilterIterator
 {
-    private $patterns;
+    private $patterns = array();
 
     /**
      * Constructor.
@@ -26,7 +26,6 @@ class ehough_finder_iterator_ExcludeDirectoryFilterIterator extends ehough_finde
      */
     public function __construct(Iterator $iterator, array $directories)
     {
-        $this->patterns = array();
         foreach ($directories as $directory) {
             $this->patterns[] = '#(^|/)'.preg_quote($directory, '#').'(/|$)#';
         }

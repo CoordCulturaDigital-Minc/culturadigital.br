@@ -12,64 +12,62 @@
 /**
  * This class provides a NULL caching driver, it always takes values, but never saves them
  * Can be used as an default save driver
- * 
+ *
  * @author Benjamin Zikarsky <benjamin.zikarsky@perbility.de>
  */
-class ehough_stash_driver_BlackHole implements ehough_stash_driver_DriverInterface
+class ehough_stash_driver_BlackHole implements ehough_stash_interfaces_DriverInterface
 {
-    
-	/**
-	 * NOOP constructor
-	 */
-	public function __construct(array $options = array()) 
-	{
-		// empty
-	}
+    /**
+     * NOOP constructor
+     */
+    public function __construct(array $options = array())
+    {
+        // empty
+    }
 
-    
-	/* 
-	 * (non-PHPdoc)
-     * @see ehough_stash_driver_DriverInterface::clear()
+    /*
+     * (non-PHPdoc)
+     * @see ehough_stash_interfaces_DriverInterface::clear()
      */
     public function clear($key = null)
     {
         return true;
     }
 
-	/* 
+	/*
 	 * (non-PHPdoc)
-     * @see ehough_stash_driver_DriverInterface::getData()
+     * @see ehough_stash_interfaces_DriverInterface::getData()
      */
     public function getData($key)
     {
         return false;
-	}
+    }
 
-	/* 
+	/*
 	 * (non-PHPdoc)
-     * @see ehough_stash_driver_DriverInterface::purge()
+     * @see ehough_stash_interfaces_DriverInterface::purge()
      */
     public function purge()
     {
-		return true;
-	}
+        return true;
+    }
 
-	/* 
+	/*
 	 * (non-PHPdoc)
-     * @see ehough_stash_driver_DriverInterface::storeData()
+     * @see ehough_stash_interfaces_DriverInterface::storeData()
      */
     public function storeData($key, $data, $expiration)
     {
-		return true;
+        return true;
     }
-    
-    /* 
+
+    /*
      * (non-PHPdoc)
-     * @see ehough_stash_driver_DriverInterface::isAvailable()
+     * @see ehough_stash_interfaces_DriverInterface::isAvailable()
      */
     public static function isAvailable()
     {
         return true;
     }
-   
+
 }

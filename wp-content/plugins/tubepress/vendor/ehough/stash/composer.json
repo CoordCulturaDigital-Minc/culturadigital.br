@@ -5,8 +5,6 @@
   "keywords": [
     "cache",
     "caching",
-    "performance",
-    "scalability",
     "sessions",
     "memcached",
     "redis",

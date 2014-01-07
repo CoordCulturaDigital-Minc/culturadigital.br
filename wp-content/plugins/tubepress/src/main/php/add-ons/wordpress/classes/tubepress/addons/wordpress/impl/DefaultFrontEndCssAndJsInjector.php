@@ -1,8 +1,8 @@
 <?php
 /**
- * Copyright 2006 - 2013 TubePress LLC (http://tubepress.org)
+ * Copyright 2006 - 2014 TubePress LLC (http://tubepress.com)
  *
- * This file is part of TubePress (http://tubepress.org)
+ * This file is part of TubePress (http://tubepress.com)
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -26,18 +26,11 @@ class tubepress_addons_wordpress_impl_DefaultFrontEndCssAndJsInjector implements
             return;
         }
 
-        $hh  = tubepress_impl_patterns_sl_ServiceLocator::getCssAndJsGenerator();
+        $hh = tubepress_impl_patterns_sl_ServiceLocator::getCssAndJsHtmlGenerator();
 
         /* this inline JS helps initialize TubePress */
-        $inlineJs = $hh->getInlineJs();
-
-        /* this meta stuff prevents search engines from indexing gallery pages > 1 */
-        $meta = $hh->getMetaTags();
-
-        print <<<EOT
-$inlineJs
-$meta
-EOT;
+        print $hh->getCssHtml();
+        print $hh->getJsHtml();
     }
 
     /**
