@@ -1,251 +1,511 @@
 <?php
 
-function bp_core_admin_settings() {
-	global $wpdb, $bp, $current_blog;
-?>
+/**
+ * Main BuddyPress Admin Class
+ *
+ * @package BuddyPress
+ * @subpackage CoreAdministration
+ */
 
-	<?php
-	if ( isset( $_POST['bp-admin-submit'] ) && isset( $_POST['bp-admin'] ) ) {
-		if ( !check_admin_referer('bp-admin') )
-			return false;
+// Exit if accessed directly
+if ( !defined( 'ABSPATH' ) ) exit;
 
-		// Settings form submitted, now save the settings.
-		foreach ( (array)$_POST['bp-admin'] as $key => $value ) {
+if ( !class_exists( 'BP_Admin' ) ) :
+/**
+ * Loads BuddyPress plugin admin area
+ *
+ * @package BuddyPress
+ * @subpackage CoreAdministration
+ * @since BuddyPress (1.6)
+ */
+class BP_Admin {
 
-			if ( function_exists( 'xprofile_install' ) ) {
-				if ( 'bp-xprofile-base-group-name' == $key ) {
-					$wpdb->query( $wpdb->prepare( "UPDATE {$bp->profile->table_name_groups} SET name = %s WHERE id = 1", $value ) );
-				}
+	/**
+	 * Instance of the setup wizard
+	 *
+	 * @since BuddyPress (1.6)
+	 * @var BP_Core_Setup_Wizard
+	 */
+	public $wizard;
 
-				if ( 'bp-xprofile-fullname-field-name' == $key ) {
-					$wpdb->query( $wpdb->prepare( "UPDATE {$bp->profile->table_name_fields} SET name = %s WHERE group_id = 1 AND id = 1", $value ) );
+	/** Directory *************************************************************/
+
+	/**
+	 * @var string Path to the BuddyPress admin directory
+	 */
+	public $admin_dir = '';
+
+	/** URLs ******************************************************************/
+
+	/**
+	 * @var string URL to the BuddyPress admin directory
+	 */
+	public $admin_url = '';
+
+	/**
+	 * @var string URL to the BuddyPress images directory
+	 */
+	public $images_url = '';
+
+	/**
+	 * @var string URL to the BuddyPress admin CSS directory
+	 */
+	public $css_url = '';
+
+	/**
+	 * @var string URL to the BuddyPress admin JS directory
+	 */
+	public $js_url = '';
+
+
+	/** Methods ***************************************************************/
+
+	/**
+	 * The main BuddyPress admin loader
+	 *
+	 * @since BuddyPress (1.6)
+	 *
+	 * @uses BBP_Admin::setup_globals() Setup the globals needed
+	 * @uses BBP_Admin::includes() Include the required files
+	 * @uses BBP_Admin::setup_actions() Setup the hooks and actions
+	 */
+	public function __construct() {
+		$this->setup_globals();
+		$this->includes();
+		$this->setup_actions();
+	}
+
+	/**
+	 * Admin globals
+	 *
+	 * @since BuddyPress (1.6)
+	 * @access private
+	 */
+	private function setup_globals() {
+		global $bp;
+
+		// Admin url
+		$this->admin_dir  = trailingslashit( $bp->plugin_dir . 'bp-core/admin' );
+
+		// Admin url
+		$this->admin_url  = trailingslashit( $bp->plugin_url . 'bp-core/admin' );
+
+		// Admin images URL
+		$this->images_url = trailingslashit( $this->admin_url . 'images' );
+
+		// Admin css URL
+		$this->css_url    = trailingslashit( $this->admin_url . 'css'    );
+
+		// Admin css URL
+		$this->js_url     = trailingslashit( $this->admin_url . 'js'     );
+	}
+
+	/**
+	 * Include required files
+	 *
+	 * @since BuddyPress (1.6)
+	 * @access private
+	 */
+	private function includes() {
+
+		// If in maintenance mode, only include updater and schema
+		if ( bp_get_maintenance_mode() ) {
+			require( $this->admin_dir . 'bp-core-schema.php' );
+			require( $this->admin_dir . 'bp-core-update.php' );
+
+		// No update needed so proceed with loading everything
+		} else {
+			require( $this->admin_dir . 'bp-core-settings.php'   );
+			require( $this->admin_dir . 'bp-core-functions.php'  );
+			require( $this->admin_dir . 'bp-core-components.php' );
+			require( $this->admin_dir . 'bp-core-slugs.php'      );
+		}
+	}
+
+	/**
+	 * Setup the admin hooks, actions and filters
+	 *
+	 * @since BuddyPress (1.6)
+	 * @access private
+	 *
+	 * @uses add_action() To add various actions
+	 * @uses add_filter() To add various filters
+	 */
+	private function setup_actions() {
+
+		// Start the wizard if in maintenance mode
+		if ( bp_get_maintenance_mode() ) {
+			add_action( bp_core_admin_hook(), array( $this, 'start_wizard' ), 2 );
+		}
+
+		/** General Actions ***************************************************/
+
+		// Attach the BuddyPress admin_init action to the WordPress admin_init action.
+		add_action( 'admin_init',            array( $this, 'admin_init'  ) );
+
+		// Add some page specific output to the <head>
+		add_action( 'admin_head',            array( $this, 'admin_head'  ) );
+
+		// Add menu item to settings menu
+		add_action( bp_core_admin_hook(),    array( $this, 'admin_menus' ), 5 );
+
+		// Add notice if not using a BuddyPress theme
+		add_action( 'admin_notices',         array( $this, 'admin_notices' ) );
+		add_action( 'network_admin_notices', array( $this, 'admin_notices' ) );
+
+		// Enqueue all admin JS and CSS
+		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_scripts'   ) );
+
+		/** BuddyPress Actions ************************************************/
+
+		// Add settings
+		add_action( 'bp_admin_init',      array( $this, 'register_admin_settings' ) );
+
+		/** Filters ***********************************************************/
+
+		// Add link to settings page
+		add_filter( 'plugin_action_links', array( $this, 'add_settings_link' ), 10, 2 );
+	}
+
+	public function start_wizard() {
+		$this->wizard = new BP_Core_Setup_Wizard;
+	}
+
+	/**
+	 * Add the navigational menu elements
+	 *
+	 * @since BuddyPress (1.6)
+	 *
+	 * @uses add_management_page() To add the Recount page in Tools section
+	 * @uses add_options_page() To add the Forums settings page in Settings
+	 *                           section
+	 */
+	public function admin_menus() {
+
+		// In maintenance mode
+		if ( bp_get_maintenance_mode() ) {
+
+			if ( !current_user_can( 'manage_options' ) )
+				return;
+
+			if ( bp_get_maintenance_mode() == 'install' )
+				$status = __( 'BuddyPress Setup', 'buddypress' );
+			else
+				$status = __( 'Update BuddyPress',  'buddypress' );
+
+			if ( bp_get_wizard() ) {
+				if ( ! is_multisite() || bp_is_multiblog_mode() ) {
+					$hook = add_dashboard_page( $status, $status, 'manage_options', 'bp-wizard', array( bp_get_wizard(), 'html' ) );
+				} else {
+					$hook = add_submenu_page( 'update-core.php', $status, $status, 'manage_options', 'bp-wizard', array( bp_get_wizard(), 'html' ) );
 				}
 			}
 
-			update_site_option( $key, $value );
+		// Not in maintenance mode
+		} else {
+
+			// Bail if user cannot moderate
+			if ( ! bp_current_user_can( 'manage_options' ) )
+				return;
+
+			$hooks = array();
+			$page  = bp_core_do_network_admin()  ? 'settings.php' : 'options-general.php';
+
+			// Changed in BP 1.6 . See bp_core_admin_backpat_menu()
+			$hooks[] = add_menu_page(
+				__( 'BuddyPress', 'buddypress' ),
+				__( 'BuddyPress', 'buddypress' ),
+				'manage_options',
+				'bp-general-settings',
+				'bp_core_admin_backpat_menu',
+				''
+			);
+
+			$hooks[] = add_submenu_page(
+				'bp-general-settings',
+				__( 'BuddyPress Help', 'buddypress' ),
+				__( 'Help', 'buddypress' ),
+				'manage_options',
+				'bp-general-settings',
+				'bp_core_admin_backpat_page'
+			);
+
+			// Add the option pages
+			$hooks[] = add_submenu_page(
+				$page,
+				__( 'BuddyPress Components', 'buddypress' ),
+				__( 'BuddyPress', 'buddypress' ),
+				'manage_options',
+				'bp-components',
+				'bp_core_admin_components_settings'
+			);
+
+			$hooks[] = add_submenu_page(
+				$page,
+				__( 'BuddyPress Pages', 'buddypress' ),
+				__( 'BuddyPress Pages', 'buddypress' ),
+				'manage_options',
+				'bp-page-settings',
+				'bp_core_admin_slugs_settings'
+			);
+
+			$hooks[] = add_submenu_page(
+				$page,
+				__( 'BuddyPress Settings', 'buddypress' ),
+				__( 'BuddyPress Settings', 'buddypress' ),
+				'manage_options',
+				'bp-settings',
+				'bp_core_admin_settings'
+			);
+
+			// Fudge the highlighted subnav item when on a BuddyPress admin page
+			foreach( $hooks as $hook ) {
+				add_action( "admin_head-$hook", 'bp_core_modify_admin_menu_highlight' );
+			}
 		}
 	}
-	?>
 
-	<div class="wrap">
+	/**
+	 * Register the settings
+	 *
+	 * @since BuddyPress (1.6)
+	 *
+	 * @uses add_settings_section() To add our own settings section
+	 * @uses add_settings_field() To add various settings fields
+	 * @uses register_setting() To register various settings
+	 * @uses do_action() Calls 'bp_register_admin_settings'
+	 */
+	public function register_admin_settings() {
 
-		<h2><?php _e( 'BuddyPress Settings', 'buddypress' ) ?></h2>
+		/** Main Section ******************************************************/
 
-		<?php if ( isset( $_POST['bp-admin'] ) ) : ?>
-			<div id="message" class="updated fade">
-				<p><?php _e( 'Settings Saved', 'buddypress' ) ?></p>
-			</div>
-		<?php endif; ?>
+		// Add the main section
+		add_settings_section( 'bp_main',            __( 'Main Settings',    'buddypress' ), 'bp_admin_setting_callback_main_section',     'buddypress'            );
 
-		<form action="" method="post" id="bp-admin-form">
+		// Hide toolbar for logged out users setting
+		add_settings_field( 'hide-loggedout-adminbar',        __( 'Toolbar',        'buddypress' ), 'bp_admin_setting_callback_admin_bar',        'buddypress', 'bp_main' );
+	 	register_setting  ( 'buddypress',           'hide-loggedout-adminbar',        'intval'                                                                              );
 
-			<table class="form-table">
-			<tbody>
-				<?php if ( function_exists( 'xprofile_install' ) ) :?>
-				<tr>
-					<th scope="row"><?php _e( 'Base profile group name', 'buddypress' ) ?>:</th>
-					<td>
-						<input name="bp-admin[bp-xprofile-base-group-name]" id="bp-xprofile-base-group-name" value="<?php echo get_site_option('bp-xprofile-base-group-name') ?>" />
-					</td>
-				</tr>
-				<tr>
-					<th scope="row"><?php _e( 'Full Name field name', 'buddypress' ) ?>:</th>
-					<td>
-						<input name="bp-admin[bp-xprofile-fullname-field-name]" id="bp-xprofile-fullname-field-name" value="<?php echo get_site_option('bp-xprofile-fullname-field-name') ?>" />
-					</td>
-				</tr>
-				<tr>
-					<th scope="row"><?php _e( 'Disable BuddyPress to WordPress profile syncing?', 'buddypress' ) ?>:</th>
-					<td>
-						<input type="radio" name="bp-admin[bp-disable-profile-sync]"<?php if ( (int)get_site_option( 'bp-disable-profile-sync' ) ) : ?> checked="checked"<?php endif; ?> id="bp-disable-profile-sync" value="1" /> <?php _e( 'Yes', 'buddypress' ) ?> &nbsp;
-						<input type="radio" name="bp-admin[bp-disable-profile-sync]"<?php if ( !(int)get_site_option( 'bp-disable-profile-sync' ) || '' == get_site_option( 'bp-disable-profile-sync' ) ) : ?> checked="checked"<?php endif; ?> id="bp-disable-profile-sync" value="0" /> <?php _e( 'No', 'buddypress' ) ?>
-					</td>
-				</tr>
-				<?php endif; ?>
-				<tr>
-					<th scope="row"><?php _e( 'Hide admin bar for logged out users?', 'buddypress' ) ?>:</th>
-					<td>
-						<input type="radio" name="bp-admin[hide-loggedout-adminbar]"<?php if ( (int)get_site_option( 'hide-loggedout-adminbar' ) ) : ?> checked="checked"<?php endif; ?> id="bp-admin-hide-loggedout-adminbar-yes" value="1" /> <?php _e( 'Yes', 'buddypress' ) ?> &nbsp;
-						<input type="radio" name="bp-admin[hide-loggedout-adminbar]"<?php if ( !(int)get_site_option( 'hide-loggedout-adminbar' ) ) : ?> checked="checked"<?php endif; ?> id="bp-admin-hide-loggedout-adminbar-no" value="0" /> <?php _e( 'No', 'buddypress' ) ?>
-					</td>
-				</tr>
-				<tr>
-					<th scope="row"><?php _e( 'Disable avatar uploads? (Gravatars will still work)', 'buddypress' ) ?>:</th>
-					<td>
-						<input type="radio" name="bp-admin[bp-disable-avatar-uploads]"<?php if ( (int)get_site_option( 'bp-disable-avatar-uploads' ) ) : ?> checked="checked"<?php endif; ?> id="bp-admin-disable-avatar-uploads-yes" value="1" /> <?php _e( 'Yes', 'buddypress' ) ?> &nbsp;
-						<input type="radio" name="bp-admin[bp-disable-avatar-uploads]"<?php if ( !(int)get_site_option( 'bp-disable-avatar-uploads' ) ) : ?> checked="checked"<?php endif; ?> id="bp-admin-disable-avatar-uploads-no" value="0" /> <?php _e( 'No', 'buddypress' ) ?>
-					</td>
-				</tr>
-				<tr>
-					<th scope="row"><?php _e( 'Disable user account deletion?', 'buddypress' ) ?>:</th>
-					<td>
-						<input type="radio" name="bp-admin[bp-disable-account-deletion]"<?php if ( (int)get_site_option( 'bp-disable-account-deletion' ) ) : ?> checked="checked"<?php endif; ?> id="bp-disable-account-deletion" value="1" /> <?php _e( 'Yes', 'buddypress' ) ?> &nbsp;
-						<input type="radio" name="bp-admin[bp-disable-account-deletion]"<?php if ( !(int)get_site_option( 'bp-disable-account-deletion' ) ) : ?> checked="checked"<?php endif; ?> id="bp-disable-account-deletion" value="0" /> <?php _e( 'No', 'buddypress' ) ?>
-					</td>
-				</tr>
-				<?php if ( function_exists( 'bp_forums_setup') ) : ?>
-				<tr>
-					<th scope="row"><?php _e( 'Disable global forum directory?', 'buddypress' ) ?>:</th>
-					<td>
-						<input type="radio" name="bp-admin[bp-disable-forum-directory]"<?php if ( (int)get_site_option( 'bp-disable-forum-directory' ) ) : ?> checked="checked"<?php endif; ?> id="bp-disable-forum-directory" value="1" /> <?php _e( 'Yes', 'buddypress' ) ?> &nbsp;
-						<input type="radio" name="bp-admin[bp-disable-forum-directory]"<?php if ( !(int)get_site_option( 'bp-disable-forum-directory' ) ) : ?> checked="checked"<?php endif; ?> id="bp-disable-forum-directory" value="0" /> <?php _e( 'No', 'buddypress' ) ?>
-					</td>
-				</tr>
-				<?php endif; ?>
-				<?php if ( function_exists( 'bp_activity_install') ) : ?>
-				<tr>
-					<th scope="row"><?php _e( 'Disable activity stream commenting on blog and forum posts?', 'buddypress' ) ?>:</th>
-					<td>
-						<input type="radio" name="bp-admin[bp-disable-blogforum-comments]"<?php if ( (int)get_site_option( 'bp-disable-blogforum-comments' ) || false === get_site_option( 'bp-disable-blogforum-comments' ) ) : ?> checked="checked"<?php endif; ?> id="bp-disable-blogforum-comments" value="1" /> <?php _e( 'Yes', 'buddypress' ) ?> &nbsp;
-						<input type="radio" name="bp-admin[bp-disable-blogforum-comments]"<?php if ( !(int)get_site_option( 'bp-disable-blogforum-comments' ) ) : ?> checked="checked"<?php endif; ?> id="bp-disable-blogforum-comments" value="0" /> <?php _e( 'No', 'buddypress' ) ?>
-					</td>
-				</tr>
-				<?php endif; ?>
+		// Only show 'switch to Toolbar' option if the user chose to retain the BuddyBar during the 1.6 upgrade
+		if ( (bool) bp_get_option( '_bp_force_buddybar', false ) ) {
+			add_settings_field( '_bp_force_buddybar', __( 'Toolbar', 'buddypress' ), 'bp_admin_setting_callback_force_buddybar', 'buddypress', 'bp_main' );
+		 	register_setting( 'buddypress', '_bp_force_buddybar', 'bp_admin_sanitize_callback_force_buddybar' );
+		}
 
-				<tr>
-					<th scope="row"><?php _e( 'Default User Avatar', 'buddypress' ) ?></th>
-					<td>
-						<p><?php _e( 'For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their email address', 'buddypress' ) ?></p>
+		// Allow account deletion
+		add_settings_field( 'bp-disable-account-deletion', __( 'Account Deletion', 'buddypress' ), 'bp_admin_setting_callback_account_deletion', 'buddypress', 'bp_main' );
+	 	register_setting  ( 'buddypress',           'bp-disable-account-deletion', 'intval'                                                                              );
 
-						<label><input name="bp-admin[user-avatar-default]" id="avatar_mystery" value="mystery" type="radio" <?php if ( get_site_option( 'user-avatar-default' ) == 'mystery' ) : ?> checked="checked"<?php endif; ?> /> &nbsp;<img alt="" src="http://www.gravatar.com/avatar/<?php md5( strtolower( $ud->user_email ) ) ?>&amp;?s=32&amp;d=<?php echo BP_PLUGIN_URL . '/bp-core/images/mystery-man.jpg' ?>&amp;r=PG&amp;forcedefault=1" class="avatar avatar-32" height="32" width="32"> &nbsp;<?php _e( 'Mystery Man', 'buddypress' ) ?></label><br>
-						<label><input name="bp-admin[user-avatar-default]" id="avatar_identicon" value="identicon" type="radio" <?php if ( get_site_option( 'user-avatar-default' ) == 'identicon' ) : ?> checked="checked"<?php endif; ?> /> &nbsp;<img alt="" src="http://www.gravatar.com/avatar/<?php md5( strtolower( $ud->user_email ) ) ?>?s=32&amp;d=identicon&amp;r=PG&amp;forcedefault=1" class="avatar avatar-32" height="32" width="32"> &nbsp;<?php _e( 'Identicon (Generated)', 'buddypress' ) ?></label><br>
-						<label><input name="bp-admin[user-avatar-default]" id="avatar_wavatar" value="wavatar" type="radio" <?php if ( get_site_option( 'user-avatar-default' ) == 'wavatar' ) : ?> checked="checked"<?php endif; ?> /> &nbsp;<img alt="" src="http://www.gravatar.com/avatar/<?php md5( strtolower( $ud->user_email ) ) ?>?s=32&amp;d=wavatar&amp;r=PG&amp;forcedefault=1" class="avatar avatar-32" height="32" width="32"> &nbsp;<?php _e( 'Wavatar (Generated)', 'buddypress' ) ?> </label><br>
-						<label><input name="bp-admin[user-avatar-default]" id="avatar_monsterid" value="monsterid" type="radio" <?php if ( get_site_option( 'user-avatar-default' ) == 'monsterid' ) : ?> checked="checked"<?php endif; ?> /> &nbsp;<img alt="" src="http://www.gravatar.com/avatar/<?php md5( strtolower( $ud->user_email ) ) ?>?s=32&amp;d=monsterid&amp;r=PG&amp;forcedefault=1" class="avatar avatar-32" height="32" width="32"> &nbsp;<?php _e( 'MonsterID (Generated)', 'buddypress' ) ?></label>
-					</td>
-				</tr>
+		/** XProfile Section **************************************************/
 
-				<?php do_action( 'bp_core_admin_screen_fields' ) ?>
-			</tbody>
-			</table>
+		if ( bp_is_active( 'xprofile' ) ) {
 
-			<?php do_action( 'bp_core_admin_screen' ) ?>
+			// Add the main section
+			add_settings_section( 'bp_xprofile',      __( 'Profile Settings', 'buddypress' ), 'bp_admin_setting_callback_xprofile_section', 'buddypress'                );
 
-			<p class="submit">
-				<input class="button-primary" type="submit" name="bp-admin-submit" id="bp-admin-submit" value="<?php _e( 'Save Settings', 'buddypress' ) ?>"/>
-			</p>
+			// Allow avatar uploads
+			add_settings_field( 'bp-disable-avatar-uploads', __( 'Avatar Uploads',   'buddypress' ), 'bp_admin_setting_callback_avatar_uploads',   'buddypress', 'bp_xprofile' );
+			register_setting  ( 'buddypress',         'bp-disable-avatar-uploads',   'intval'                                                                                  );
 
-			<?php wp_nonce_field( 'bp-admin' ) ?>
+			// Profile sync setting
+			add_settings_field( 'bp-disable-profile-sync',   __( 'Profile Syncing',  'buddypress' ), 'bp_admin_setting_callback_profile_sync',     'buddypress', 'bp_xprofile' );
+			register_setting  ( 'buddypress',         'bp-disable-profile-sync',     'intval'                                                                                  );
+		}
 
-		</form>
+		/** Groups Section ****************************************************/
 
-	</div>
+		if ( bp_is_active( 'groups' ) ) {
 
-<?php
+			// Add the main section
+			add_settings_section( 'bp_groups',        __( 'Groups Settings',  'buddypress' ), 'bp_admin_setting_callback_groups_section',   'buddypress'              );
+
+			// Allow subscriptions setting
+			add_settings_field( 'bp_restrict_group_creation', __( 'Group Creation',   'buddypress' ), 'bp_admin_setting_callback_group_creation',   'buddypress', 'bp_groups' );
+			register_setting  ( 'buddypress',         'bp_restrict_group_creation',   'intval'                                                                                );
+		}
+
+		/** Forums ************************************************************/
+
+		if ( bp_is_active( 'forums' ) && bp_forums_is_installed_correctly() ) {
+
+			// Add the main section
+			add_settings_section( 'bp_forums',        __( 'Forums Settings',       'buddypress' ), 'bp_admin_setting_callback_bbpress_section',       'buddypress'              );
+
+			// Allow subscriptions setting
+			add_settings_field( 'bb-config-location', __( 'bbPress Configuration', 'buddypress' ), 'bp_admin_setting_callback_bbpress_configuration', 'buddypress', 'bp_forums' );
+			register_setting  ( 'buddypress',         'bb-config-location',        ''                                                                                           );
+		}
+
+		/** Activity Section **************************************************/
+
+		if ( bp_is_active( 'activity' ) ) {
+
+			// Add the main section
+			add_settings_section( 'bp_activity',      __( 'Activity Settings', 'buddypress' ), 'bp_admin_setting_callback_activity_section', 'buddypress'                );
+
+			// Activity commenting on blog and forum posts
+			add_settings_field( 'bp-disable-blogforum-comments', __( 'Blog &amp; Forum Comments', 'buddypress' ), 'bp_admin_setting_callback_blogforum_comments', 'buddypress', 'bp_activity' );
+			register_setting( 'buddypress', 'bp-disable-blogforum-comments', 'bp_admin_sanitize_callback_blogforum_comments' );
+
+			// Allow activity akismet
+			if ( is_plugin_active( 'akismet/akismet.php' ) && defined( 'AKISMET_VERSION' ) ) {
+				add_settings_field( '_bp_enable_akismet', __( 'Akismet',          'buddypress' ), 'bp_admin_setting_callback_activity_akismet', 'buddypress', 'bp_activity' );
+				register_setting  ( 'buddypress',         '_bp_enable_akismet',   'intval'                                                                                  );
+			}
+		}
+
+		do_action( 'bp_register_admin_settings' );
+	}
+
+	/**
+	 * Add Settings link to plugins area
+	 *
+	 * @since BuddyPress (1.6)
+	 *
+	 * @param array $links Links array in which we would prepend our link
+	 * @param string $file Current plugin basename
+	 * @return array Processed links
+	 */
+	public function add_settings_link( $links, $file ) {
+		global $bp;
+
+		if ( plugin_basename( $bp->file ) == $file ) {
+			$url           = bp_core_do_network_admin() ? network_admin_url( 'settings.php' ) : admin_url( 'options-general.php' );
+			$settings_link = '<a href="' . add_query_arg( array( 'page' => 'bp-components' ), $url ) . '">' . __( 'Settings', 'buddypress' ) . '</a>';
+			array_unshift( $links, $settings_link );
+		}
+
+		return $links;
+	}
+
+	/**
+	 * BuddyPress's dedicated admin init action
+	 *
+	 * @since BuddyPress (1.6)
+	 *
+	 * @uses do_action() Calls 'bp_admin_init'
+	 */
+	public function admin_init() {
+		do_action( 'bp_admin_init' );
+	}
+
+	/**
+	 * Add some general styling to the admin area
+	 *
+	 * @since BuddyPress (1.6)
+	 */
+	public function admin_head() { }
+
+	/**
+	 * Add some general styling to the admin area
+	 *
+	 * @since BuddyPress (1.6)
+	 */
+	public function enqueue_scripts() {
+
+		$maybe_dev = '';
+		if ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG )
+			$maybe_dev = '.dev';
+
+		$file = $this->css_url . "common{$maybe_dev}.css";
+		$file = apply_filters( 'bp_core_admin_common_css', $file );
+		wp_enqueue_style( 'bp-admin-common-css', $file, array(), bp_get_version() );
+
+		// Extra bits for the installation wizard
+		if ( bp_get_maintenance_mode() ) {
+
+			// Styling
+			$file = $this->css_url . "wizard{$maybe_dev}.css";
+			$file = apply_filters( 'bp_core_admin_wizard_css', $file );
+			wp_enqueue_style( 'bp-admin-wizard-css', $file, array(), bp_get_version() );
+
+			// JS
+			$file = $this->js_url . "wizard{$maybe_dev}.js";
+			$file = apply_filters( 'bp_core_admin_wizard_js', $file );
+			wp_enqueue_script( 'bp-admin-wizard-js', $file, array(), bp_get_version() );
+
+			// We'll need the thickbox too
+			wp_enqueue_script( 'thickbox' );
+			wp_enqueue_style( 'thickbox' );
+		}
+
+		do_action( 'bp_admin_head' );
+	}
+
+	/**
+	 * Add any admin notices we might need, mostly for update or new installs
+	 *
+	 * @since BuddyPress (1.6)
+	 *
+	 * @global string $pagenow
+	 * @return If no notice is needed
+	 */
+	public function admin_notices() {
+		global $pagenow;
+
+		// Bail if not in maintenance mode
+		if ( ! bp_get_maintenance_mode() )
+			return;
+
+		// Bail if user cannot manage options
+		if ( ! current_user_can( 'manage_options' ) )
+			return;
+
+		// Are we looking at a network?
+		if ( bp_core_do_network_admin() ) {
+
+			// Bail if looking at wizard page
+			if ( ( 'admin.php' == $pagenow ) && ( !empty( $_GET['page'] ) && ( 'bp-wizard' == $_GET['page'] ) ) ) {
+				return;
+			}
+
+			// Set the url for the nag
+			$url = network_admin_url( 'admin.php?page=bp-wizard' );
+
+		// Single site
+		} else {
+
+			// Bail if looking at wizard page
+			if ( ( 'index.php' == $pagenow ) && ( !empty( $_GET['page'] ) && ( 'bp-wizard' == $_GET['page'] ) ) ) {
+				return;
+			}
+
+			// Set the url for the nag
+			$url = admin_url( 'index.php?page=bp-wizard' );
+		}
+
+		// What does the nag say?
+		switch ( bp_get_maintenance_mode() ) {
+
+			// Update text
+			case 'update' :
+				$msg = sprintf( __( 'BuddyPress has been updated! Please run the <a href="%s">update wizard</a>.', 'buddypress' ), $url );
+				break;
+
+			// First install text
+			case 'install' : default :
+				$msg = sprintf( __( 'BuddyPress was successfully activated! Please run the <a href="%s">installation wizard</a>.', 'buddypress' ), $url );
+				break;
+		} ?>
+
+		<div class="update-nag"><?php echo $msg; ?></div>
+
+		<?php
+	}
 }
+endif; // class_exists check
 
-function bp_core_admin_component_setup() {
-	global $wpdb, $bp;
-?>
+/**
+ * Setup BuddyPress Admin
+ *
+ * @since BuddyPress (1.6)
+ *
+ * @uses BP_Admin
+ */
+function bp_admin() {
+	global $bp;
 
-	<?php
-	if ( isset( $_POST['bp-admin-component-submit'] ) && isset( $_POST['bp_components'] ) ) {
-		if ( !check_admin_referer('bp-admin-component-setup') )
-			return false;
-
-		// Settings form submitted, now save the settings.
-		foreach ( (array)$_POST['bp_components'] as $key => $value ) {
-			if ( !(int) $value )
-				$disabled[$key] = 1;
-		}
-		update_site_option( 'bp-deactivated-components', $disabled );
-	}
-	?>
-
-	<div class="wrap">
-
-		<h2><?php _e( 'BuddyPress Component Setup', 'buddypress' ) ?></h2>
-
-		<?php if ( isset( $_POST['bp-admin-component-submit'] ) ) : ?>
-			<div id="message" class="updated fade">
-				<p><?php _e( 'Settings Saved', 'buddypress' ) ?></p>
-			</div>
-		<?php endif; ?>
-
-		<form action="" method="post" id="bp-admin-component-form">
-
-			<p><?php _e('By default, all BuddyPress components are enabled. You can selectively disable any of the components by using the form below. Your BuddyPress installation will continue to function, however the features of the disabled components will no longer be accessible to anyone using the site.', 'buddypress' ) ?></p>
-
-			<?php $disabled_components = get_site_option( 'bp-deactivated-components' ); ?>
-
-			<table class="form-table" style="width: 80%">
-			<tbody>
-				<?php if ( file_exists( BP_PLUGIN_DIR . '/bp-activity.php') ) : ?>
-				<tr>
-					<td><h3><?php _e( 'Activity Streams', 'buddypress' ) ?></h3><p><?php _e( 'Allow users to post activity updates and track all activity across the entire site.', 'buddypress' ) ?></p></td>
-					<td>
-						<input type="radio" name="bp_components[bp-activity.php]" value="1"<?php if ( !isset( $disabled_components['bp-activity.php'] ) ) : ?> checked="checked" <?php endif; ?>/> <?php _e( 'Enabled', 'buddypress' ) ?> &nbsp;
-						<input type="radio" name="bp_components[bp-activity.php]" value="0"<?php if ( isset( $disabled_components['bp-activity.php'] ) ) : ?> checked="checked" <?php endif; ?>/> <?php _e( 'Disabled', 'buddypress' ) ?>
-					</td>
-				</tr>
-				<?php endif; ?>
-				<?php if ( file_exists( BP_PLUGIN_DIR . '/bp-blogs.php') && bp_core_is_multisite() ) : ?>
-				<tr>
-					<td><h3><?php _e( 'Blog Tracking', 'buddypress' ) ?></h3><p><?php _e( 'Tracks blogs, blog posts and blogs comments for a user across a WPMU installation.', 'buddypress' ) ?></p></td>
-					<td>
-						<input type="radio" name="bp_components[bp-blogs.php]" value="1"<?php if ( !isset( $disabled_components['bp-blogs.php'] ) ) : ?> checked="checked" <?php endif; ?>/> <?php _e( 'Enabled', 'buddypress' ) ?>  &nbsp;
-						<input type="radio" name="bp_components[bp-blogs.php]" value="0"<?php if ( isset( $disabled_components['bp-blogs.php'] ) ) : ?> checked="checked" <?php endif; ?>/> <?php _e( 'Disabled', 'buddypress' ) ?>
-					</td>
-				</tr>
-				<?php endif; ?>
-				<?php if ( file_exists( BP_PLUGIN_DIR . '/bp-forums.php') ) : ?>
-				<tr>
-					<td><h3><?php _e( 'bbPress Forums', 'buddypress' ) ?></h3><p><?php _e( 'Activates bbPress forum support within BuddyPress groups or any other custom component.', 'buddypress' ) ?></p></td>
-					<td>
-						<input type="radio" name="bp_components[bp-forums.php]" value="1"<?php if ( !isset( $disabled_components['bp-forums.php'] ) ) : ?> checked="checked" <?php endif; ?>/> <?php _e( 'Enabled', 'buddypress' ) ?>  &nbsp;
-						<input type="radio" name="bp_components[bp-forums.php]" value="0"<?php if ( isset( $disabled_components['bp-forums.php'] ) ) : ?> checked="checked" <?php endif; ?>/> <?php _e( 'Disabled', 'buddypress' ) ?>
-					</td>
-				</tr>
-				<?php endif; ?>
-				<?php if ( file_exists( BP_PLUGIN_DIR . '/bp-friends.php') ) : ?>
-				<tr>
-					<td><h3><?php _e( 'Friends', 'buddypress' ) ?></h3><p><?php _e( 'Allows the creation of friend connections between users.', 'buddypress' ) ?></p></td>
-					<td>
-						<input type="radio" name="bp_components[bp-friends.php]" value="1"<?php if ( !isset( $disabled_components['bp-friends.php'] ) ) : ?> checked="checked" <?php endif; ?>/> <?php _e( 'Enabled', 'buddypress' ) ?>  &nbsp;
-						<input type="radio" name="bp_components[bp-friends.php]" value="0"<?php if ( isset( $disabled_components['bp-friends.php'] ) ) : ?> checked="checked" <?php endif; ?>/> <?php _e( 'Disabled', 'buddypress' ) ?>
-					</td>
-				</tr>
-				<?php endif; ?>
-				<?php if ( file_exists( BP_PLUGIN_DIR . '/bp-groups.php') ) : ?>
-				<tr>
-					<td><h3><?php _e( 'Groups', 'buddypress' ) ?></h3><p><?php _e( 'Let users create, join and participate in groups.', 'buddypress' ) ?></p></td>
-					<td>
-						<input type="radio" name="bp_components[bp-groups.php]" value="1"<?php if ( !isset( $disabled_components['bp-groups.php'] ) ) : ?> checked="checked" <?php endif; ?>/> <?php _e( 'Enabled', 'buddypress' ) ?>  &nbsp;
-						<input type="radio" name="bp_components[bp-groups.php]" value="0"<?php if ( isset( $disabled_components['bp-groups.php'] ) ) : ?> checked="checked" <?php endif; ?>/> <?php _e( 'Disabled', 'buddypress' ) ?>
-					</td>
-				</tr>
-				<?php endif; ?>
-				<?php if ( file_exists( BP_PLUGIN_DIR . '/bp-messages.php') ) : ?>
-				<tr>
-					<td><h3><?php _e( 'Private Messaging', 'buddypress' ) ?></h3><p><?php _e( 'Let users send private messages to one another. Site admins can also send site-wide notices.', 'buddypress' ) ?></p></td>
-					<td>
-						<input type="radio" name="bp_components[bp-messages.php]" value="1"<?php if ( !isset( $disabled_components['bp-messages.php'] ) ) : ?> checked="checked" <?php endif; ?>/> <?php _e( 'Enabled', 'buddypress' ) ?>  &nbsp;
-						<input type="radio" name="bp_components[bp-messages.php]" value="0"<?php if ( isset( $disabled_components['bp-messages.php'] ) ) : ?> checked="checked" <?php endif; ?>/> <?php _e( 'Disabled', 'buddypress' ) ?>
-					</td>
-				</tr>
-				<?php endif; ?>
-				<?php if ( file_exists( BP_PLUGIN_DIR . '/bp-xprofile.php') ) : ?>
-				<tr>
-					<td><h3><?php _e( 'Extended Profiles', 'buddypress' ) ?></h3><p><?php _e( 'Activates customizable profiles and avatars for site users.', 'buddypress' ) ?></p></td>
-					<td width="45%">
-						<input type="radio" name="bp_components[bp-xprofile.php]" value="1"<?php if ( !isset( $disabled_components['bp-xprofile.php'] ) ) : ?> checked="checked" <?php endif; ?>/> <?php _e( 'Enabled', 'buddypress' ) ?>  &nbsp;
-						<input type="radio" name="bp_components[bp-xprofile.php]" value="0"<?php if ( isset( $disabled_components['bp-xprofile.php'] ) ) : ?> checked="checked" <?php endif; ?>/> <?php _e( 'Disabled', 'buddypress' ) ?>
-					</td>
-				</tr>
-				<?php endif; ?>
-			</tbody>
-			</table>
-
-			<p class="submit">
-				<input class="button-primary" type="submit" name="bp-admin-component-submit" id="bp-admin-component-submit" value="<?php _e( 'Save Settings', 'buddypress' ) ?>"/>
-			</p>
-
-			<?php wp_nonce_field( 'bp-admin-component-setup' ) ?>
-
-		</form>
-
-	</div>
-
-<?php
+	$bp->admin = new BP_Admin();
 }
 
 ?>
