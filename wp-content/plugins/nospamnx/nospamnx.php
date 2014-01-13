@@ -2,14 +2,14 @@
 /*
 Plugin Name: NoSpamNX
 Plugin URI: http://wordpress.org/extend/plugins/nospamnx/
-Description: To protect your Blog from automated spambots, this plugin adds invisible formfields to your comment form.
-Version: 5.1.14
+Description: To protect your blog from automated spambots, this plugin adds invisible formfields to your comment form.
+Version: 5.1.15
 Author: Sven Kubiak
 Author URI: http://svenkubiak.de
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Copyright 2008-2013 Sven Kubiak
+Copyright 2008-2014 Sven Kubiak
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -269,7 +269,7 @@ if (!class_exists('NoSpamNX'))
 			echo "<div id='message' class='error'><p>".$message."</p></div>";
 		}
 
-		function nospamnxSettingsLinks($links, $file) {
+		static function nospamnxSettingsLinks($links, $file) {
 			if ($file == 'nospamnx/nospamnx.php' && function_exists("admin_url")) {
 				$settings_link = '<a href="' . admin_url('options-general.php?page=nospamnx' ). '">' . __('Settings') . '</a>';
 				array_push($links, $settings_link);
@@ -277,7 +277,7 @@ if (!class_exists('NoSpamNX'))
 			return $links;
 		}
 
-		function nospamnxPluginLinks($links, $file) {
+		static function nospamnxPluginLinks($links, $file) {
 			if ($file == 'nospamnx/nospamnx.php' && function_exists("admin_url")) {
 				$faq_link = '<a href="http://wordpress.org/extend/plugins/nospamnx/faq/" target="_blank">' . __('FAQ') . '</a>';
 				array_push($links, $faq_link);
