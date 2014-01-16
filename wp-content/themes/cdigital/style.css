@@ -32,3 +32,13 @@ _______________________________________*/
 .realizacaoParceiros{
 	margin:40px 0 0 18px;
 }
+
+/* correcoes */
+li.vcard {
+     display: inline-block;
+     width: 60px;
+}
+
+li.vcard div.item {
+     display: none;
+}
