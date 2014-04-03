@@ -1,7 +1,7 @@
 <?php
 
 if ( !class_exists('SimplePie') )
-	require_once (ABSPATH . WPINC . '/class-simplepie.php');
+	require_once( ABSPATH . WPINC . '/class-simplepie.php' );
 
 class WP_Feed_Cache extends SimplePie_Cache {
 	/**
@@ -23,7 +23,17 @@ class WP_Feed_Cache_Transient {
 	function __construct($location, $filename, $extension) {
 		$this->name = 'feed_' . $filename;
 		$this->mod_name = 'feed_mod_' . $filename;
-		$this->lifetime = apply_filters('wp_feed_cache_transient_lifetime', $this->lifetime, $filename);
+
+		$lifetime = $this->lifetime;
+		/**
+		 * Filter the transient lifetime of the feed cache.
+		 *
+		 * @since 2.8.0
+		 *
+		 * @param int    $lifetime Cache duration in seconds. Default is 43200 seconds (12 hours).
+		 * @param string $filename Unique identifier for the cache object.
+		 */
+		$this->lifetime = apply_filters( 'wp_feed_cache_transient_lifetime', $lifetime, $filename);
 	}
 
 	function save($data) {
@@ -66,7 +76,10 @@ class WP_SimplePie_File extends SimplePie_File {
 		$this->method = SIMPLEPIE_FILE_SOURCE_REMOTE;
 
 		if ( preg_match('/^http(s)?:\/\//i', $url) ) {
-			$args = array( 'timeout' => $this->timeout, 'redirection' => $this->redirects);
+			$args = array(
+				'timeout' => $this->timeout,
+				'redirection' => $this->redirects,
+			);
 
 			if ( !empty($this->headers) )
 				$args['headers'] = $this->headers;
@@ -74,7 +87,7 @@ class WP_SimplePie_File extends SimplePie_File {
 			if ( SIMPLEPIE_USERAGENT != $this->useragent ) //Use default WP user agent unless custom has been specified
 				$args['user-agent'] = $this->useragent;
 
-			$res = wp_remote_request($url, $args);
+			$res = wp_safe_remote_request($url, $args);
 
 			if ( is_wp_error($res) ) {
 				$this->error = 'WP HTTP Error: ' . $res->get_error_message();
@@ -85,10 +98,8 @@ class WP_SimplePie_File extends SimplePie_File {
 				$this->status_code = wp_remote_retrieve_response_code( $res );
 			}
 		} else {
-			if ( ! file_exists($url) || ( ! $this->body = file_get_contents($url) ) ) {
-				$this->error = 'file_get_contents could not read the file';
-				$this->success = false;
-			}
+			$this->error = '';
+			$this->success = false;
 		}
 	}
 }
