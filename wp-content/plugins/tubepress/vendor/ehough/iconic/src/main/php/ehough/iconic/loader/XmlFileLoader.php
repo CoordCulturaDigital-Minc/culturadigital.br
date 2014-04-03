@@ -29,7 +29,10 @@ class ehough_iconic_loader_XmlFileLoader extends ehough_iconic_loader_FileLoader
         $xml = $this->parseFile($path);
         $xml->registerXPathNamespace('container', 'http://symfony.com/schema/dic/services');
 
-        $this->container->addResource(new \Symfony\Component\Config\Resource\FileResource($path));
+        $ref          = new ReflectionClass('\Symfony\Component\Config\Resource\FileResource');
+        $fileResource = $ref->newInstanceArgs(array($path));
+
+        $this->container->addResource($fileResource);
 
         // anonymous services
         $this->processAnonymousServices($xml, $path);
@@ -195,7 +198,7 @@ class ehough_iconic_loader_XmlFileLoader extends ehough_iconic_loader_FileLoader
     protected function parseFile($file)
     {
         try {
-            $dom = \Symfony\Component\Config\Util\XmlUtils::loadFile($file, array($this, 'validateSchema'));
+            $dom = call_user_func(array('\Symfony\Component\Config\Util\XmlUtils', 'loadFile'), $file, array($this, 'validateSchema'));
         } catch (InvalidArgumentException $e) {
             throw new ehough_iconic_exception_InvalidArgumentException(sprintf('Unable to parse file "%s".', $file), $e->getCode(), $e);
         }
@@ -220,10 +223,11 @@ class ehough_iconic_loader_XmlFileLoader extends ehough_iconic_loader_FileLoader
         if (false !== $nodes = $xml->xpath('//container:argument[@type="service"][not(@id)]|//container:property[@type="service"][not(@id)]')) {
             foreach ($nodes as $node) {
                 // give it a unique name
-                $node['id'] = sprintf('%s_%d', md5($file), ++$count);
+                $id = sprintf('%s_%d', hash('sha256', $file), ++$count);
+                $node['id'] = $id;
 
-                $definitions[(string) $node['id']] = array($node->service, $file, false);
-                $node->service['id'] = (string) $node['id'];
+                $definitions[$id] = array($node->service, $file, false);
+                $node->service['id'] = $id;
             }
         }
 
@@ -231,10 +235,11 @@ class ehough_iconic_loader_XmlFileLoader extends ehough_iconic_loader_FileLoader
         if (false !== $nodes = $xml->xpath('//container:services/container:service[not(@id)]')) {
             foreach ($nodes as $node) {
                 // give it a unique name
-                $node['id'] = sprintf('%s_%d', md5($file), ++$count);
+                $id = sprintf('%s_%d', hash('sha256', $file), ++$count);
+                $node['id'] = $id;
 
-                $definitions[(string) $node['id']] = array($node, $file, true);
-                $node->service['id'] = (string) $node['id'];
+                $definitions[$id] = array($node, $file, true);
+                $node->service['id'] = $id;
             }
         }
 
@@ -248,7 +253,7 @@ class ehough_iconic_loader_XmlFileLoader extends ehough_iconic_loader_FileLoader
 
             $oNode = dom_import_simplexml($def[0]);
             if (true === $def[2]) {
-                $nNode = new \DOMElement('_services');
+                $nNode = new DOMElement('_services');
                 $oNode->parentNode->replaceChild($nNode, $oNode);
                 $nNode->setAttribute('id', $id);
             } else {
@@ -266,7 +271,7 @@ class ehough_iconic_loader_XmlFileLoader extends ehough_iconic_loader_FileLoader
      *
      * @throws ehough_iconic_exception_RuntimeException When extension references a non-existent XSD file
      */
-    public function validateSchema(\DOMDocument $dom)
+    public function validateSchema(DOMDocument $dom)
     {
         $schemaLocations = array('http://symfony.com/schema/dic/services' => str_replace('\\', '/', dirname(__FILE__).'/schema/dic/services/services-1.0.xsd'));
 
@@ -337,16 +342,16 @@ EOF
      *
      * @throws ehough_iconic_exception_InvalidArgumentException When no extension is found corresponding to a tag
      */
-    private function validateExtensions(\DOMDocument $dom, $file)
+    private function validateExtensions(DOMDocument $dom, $file)
     {
         foreach ($dom->documentElement->childNodes as $node) {
-            if (!$node instanceof \DOMElement || 'http://symfony.com/schema/dic/services' === $node->namespaceURI) {
+            if (!$node instanceof DOMElement || 'http://symfony.com/schema/dic/services' === $node->namespaceURI) {
                 continue;
             }
 
             // can it be handled by an extension?
             if (!$this->container->hasExtension($node->namespaceURI)) {
-                $extensionNamespaces = array_filter(array_map(function ($ext) { return $ext->getNamespace(); }, $this->container->getExtensions()));
+                $extensionNamespaces = array_filter(array_map(array($this, '__callbackFilterValidateExtensions'), $this->container->getExtensions()));
                 throw new ehough_iconic_exception_InvalidArgumentException(sprintf(
                     'There is no extension able to load the configuration for "%s" (in %s). Looked for namespace "%s", found %s',
                     $node->tagName,
@@ -366,11 +371,11 @@ EOF
     private function loadFromExtensions(SimpleXMLElement $xml)
     {
         foreach (dom_import_simplexml($xml)->childNodes as $node) {
-            if (!$node instanceof \DOMElement || $node->namespaceURI === 'http://symfony.com/schema/dic/services') {
+            if (!$node instanceof DOMElement || $node->namespaceURI === 'http://symfony.com/schema/dic/services') {
                 continue;
             }
 
-            $values = static::convertDomElementToArray($node);
+            $values = self::convertDomElementToArray($node);
             if (!is_array($values)) {
                 $values = array();
             }
@@ -380,7 +385,7 @@ EOF
     }
 
     /**
-     * Converts a \DomElement object to a PHP array.
+     * Converts a DomElement object to a PHP array.
      *
      * The following rules applies during the conversion:
      *
@@ -398,8 +403,13 @@ EOF
      *
      * @return array A PHP array
      */
-    public static function convertDomElementToArray(\DomElement $element)
+    public static function convertDomElementToArray(DomElement $element)
     {
-        return \Symfony\Component\Config\Util\XmlUtils::convertDomElementToArray($element);
+        return call_user_func(array('\Symfony\Component\Config\Util\XmlUtils', 'convertDomElementToArray'), $element);
+    }
+
+    public function __callbackFilterValidateExtensions($ext)
+    {
+        return $ext->getNamespace();
     }
 }

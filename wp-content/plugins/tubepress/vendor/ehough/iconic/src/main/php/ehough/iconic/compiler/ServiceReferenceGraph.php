@@ -22,15 +22,7 @@ class ehough_iconic_compiler_ServiceReferenceGraph
     /**
      * @var ehough_iconic_compiler_ServiceReferenceGraphNode[]
      */
-    private $nodes;
-
-    /**
-     * Constructor.
-     */
-    public function __construct()
-    {
-        $this->nodes = array();
-    }
+    private $nodes = array();
 
     /**
      * Checks if the graph has a specific node.

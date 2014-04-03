@@ -19,19 +19,19 @@
 /**
   * Version 1.6.2-rc2
   *
-  * ** means there is basic unit tests for this parameter. 
+  * ** means there is basic unit tests for this parameter.
   *
   * @name  Jeditable
   * @type  jQuery
   * @param String  target             (POST) URL or function to send edited content to **
-  * @param Hash    options            additional options 
+  * @param Hash    options            additional options
   * @param String  options[method]    method to use to send edited content (POST or PUT) **
   * @param Function options[callback] Function to run after submitting edited content **
   * @param String  options[name]      POST parameter name of edited content
   * @param String  options[id]        POST parameter name of edited div id
   * @param Hash    options[submitdata] Extra parameters to send when submitting edited content.
   * @param String  options[type]      text, textarea or select (or any 3rd party input type) **
-  * @param Integer options[rows]      number of rows if using textarea ** 
+  * @param Integer options[rows]      number of rows if using textarea **
   * @param Integer options[cols]      number of columns if using textarea **
   * @param Mixed   options[height]    'auto', 'none' or height in pixels **
   * @param Mixed   options[width]     'auto', 'none' or width in pixels **
@@ -50,17 +50,17 @@
   * @param String  options[select]    true or false, when true text is highlighted ??
   * @param String  options[placeholder] Placeholder text or html to insert when element is empty. **
   * @param String  options[onblur]    'cancel', 'submit', 'ignore' or function ??
-  *             
+  *
   * TODO @param Function options[onsubmit]
   * TODO @param Function options[onreset]
   * TODO @param Function options[onerror]
-  *             
+  *
   */
 
 (function($) {
 
     $.fn.editable = function(target, options) {
-    
+
         var settings = {
             target     : target,
             name       : 'value',
@@ -76,54 +76,54 @@
             loaddata   : {},
             submitdata : {}
         };
-        
+
         if(options) {
             $.extend(settings, options);
         }
-    
+
         /* setup some functions */
         var plugin   = $.editable.types[settings.type].plugin || function() { };
         var submit   = $.editable.types[settings.type].submit || function() { };
-        var buttons  = $.editable.types[settings.type].buttons 
+        var buttons  = $.editable.types[settings.type].buttons
                     || $.editable.types['defaults'].buttons;
-        var content  = $.editable.types[settings.type].content 
+        var content  = $.editable.types[settings.type].content
                     || $.editable.types['defaults'].content;
-        var element  = $.editable.types[settings.type].element 
+        var element  = $.editable.types[settings.type].element
                     || $.editable.types['defaults'].element;
-        var reset    = $.editable.types[settings.type].reset 
+        var reset    = $.editable.types[settings.type].reset
                     || $.editable.types['defaults'].reset;
         var callback = settings.callback || function() { };
         var onsubmit = settings.onsubmit || function() { };
         var onreset  = settings.onreset  || function() { };
-        
+
         /* add custom event if it does not exist */
         if  (!$.isFunction($(this)[settings.event])) {
             $.fn[settings.event] = function(fn){
           		return fn ? this.bind(settings.event, fn) : this.trigger(settings.event);
           	}
         }
-          
+
         /* show tooltip */
         $(this).attr('title', settings.tooltip);
-        
+
         settings.autowidth  = 'auto' == settings.width;
         settings.autoheight = 'auto' == settings.height;
 
         return this.each(function() {
 
             /* save this to self because this changes when scope changes */
-            var self = this;  
-                   
+            var self = this;
+
             /* inlined block elements lose their width and height after first edit */
             /* save them for later use as workaround */
             var savedwidth  = $(self).width();
             var savedheight = $(self).height();
-            
+
             /* if element is empty add something clickable (if requested) */
             if (!$.trim($(this).html())) {
                 $(this).html(settings.placeholder);
             }
-            
+
             $(this)[settings.event](function(e) {
 
                 /* prevent throwing an exeption if edit field is clicked again */
@@ -133,7 +133,7 @@
 
                 /* remove tooltip */
                 $(self).removeAttr('title');
-                
+
                 /* figure out how wide and tall we are, saved width and height */
                 /* are workaround for http://dev.jquery.com/ticket/2190 */
                 if (0 == $(self).width()) {
@@ -142,29 +142,29 @@
                     settings.height = savedheight;
                 } else {
                     if (settings.width != 'none') {
-                        settings.width = 
+                        settings.width =
                             settings.autowidth ? $(self).width()  : settings.width;
                     }
                     if (settings.height != 'none') {
-                        settings.height = 
+                        settings.height =
                             settings.autoheight ? $(self).height() : settings.height;
                     }
                 }
                 //$(this).css('visibility', '');
-                
+
                 /* remove placeholder text, replace is here because of IE */
-                if ($(this).html().toLowerCase().replace(/;/, '') == 
+                if ($(this).html().toLowerCase().replace(/;/, '') ==
                     settings.placeholder.toLowerCase().replace(/;/, '')) {
                         $(this).html('');
                 }
-                                
+
                 self.editing    = true;
                 self.revert     = $(self).html();
                 $(self).html('');
 
                 /* create the form object */
                 var form = $('<form/>');
-                
+
                 /* apply css or style or both */
                 if (settings.cssclass) {
                     if ('inherit' == settings.cssclass) {
@@ -178,7 +178,7 @@
                     if ('inherit' == settings.style) {
                         form.attr('style', $(self).attr('style'));
                         /* IE needs the second line or display wont be inherited */
-                        form.css('display', $(self).css('display'));                
+                        form.css('display', $(self).css('display'));
                     } else {
                         form.attr('style', settings.style);
                     }
@@ -189,26 +189,26 @@
 
                 /* set input content via POST, GET, given data or existing value */
                 var input_content;
-                
+
                 if (settings.loadurl) {
                     var t = setTimeout(function() {
                         input.disabled = true;
                         content.apply(form, [settings.loadtext, settings, self]);
                     }, 100);
 
-                
+
                 input.attr('name', settings.name);
-        
+
                 /* add buttons to the form */
                 buttons.apply(form, [settings, self]);
-         
+
                 /* add created form to self */
                 $(self).append(form);
-         
+
                 /* attach 3rd party plugin if requested */
                 plugin.apply(form, [settings, self]);
 
-				
+
 				    var loaddata = {};
                     loaddata[settings.id] = self.id;
                     if ($.isFunction(settings.loaddata)) {
@@ -233,10 +233,10 @@
                         input_content = settings.data.apply(self, [self.revert, settings]);
                     }
                 } else {
-                    input_content = self.revert; 
+                    input_content = self.revert;
                 }
                 content.apply(form, [input_content, settings, self]);
-				
+
                 /* focus to first visible form element */
                 $(':input:visible:enabled:first', form).focus();
 
@@ -244,7 +244,7 @@
                 if (settings.select) {
                     input.select();
                 }
-        
+
                 /* discard changes if pressing esc */
                 input.keydown(function(e) {
                     if (e.keyCode == 27) {
@@ -283,19 +283,19 @@
 
                 form.submit(function(e) {
 
-                    if (t) { 
+                    if (t) {
                         clearTimeout(t);
                     }
 
                     /* do no submit */
-                    e.preventDefault(); 
-            
+                    e.preventDefault();
+
                     /* call before submit hook. */
-                    /* if it returns false abort submitting */                    
-                    if (false !== onsubmit.apply(form, [settings, self])) { 
+                    /* if it returns false abort submitting */
+                    if (false !== onsubmit.apply(form, [settings, self])) {
                         /* custom inputs call before submit hook. */
                         /* if it returns false abort submitting */
-                        if (false !== submit.apply(form, [settings, self])) { 
+                        if (false !== submit.apply(form, [settings, self])) {
 
                           /* check if given target is function */
                           if ($.isFunction(settings.target)) {
@@ -303,7 +303,7 @@
                               $(self).html(str);
                               self.editing = false;
                               callback.apply(self, [self.innerHTML, settings]);
-                              /* TODO: this is not dry */                              
+                              /* TODO: this is not dry */
                               if (!$.trim($(self).html())) {
                                   $(self).html(settings.placeholder);
                               }
@@ -330,7 +330,7 @@
                                   $(self).html(str);
                                   self.editing = false;
                                   callback.apply(self, [self.innerHTML, settings]);
-                                  /* TODO: this is not dry */                              
+                                  /* TODO: this is not dry */
                                   if (!$.trim($(self).html())) {
                                       $(self).html(settings.placeholder);
                                   }
@@ -339,30 +339,30 @@
 
                         }
                     }
-                    
+
                     /* show tooltip again */
                     $(self).attr('title', settings.tooltip);
-                    
+
                     return false;
                 });
             });
-            
+
             /* privileged methods */
             this.reset = function(form) {
                 /* prevent calling reset twice when blurring */
                 if (this.editing) {
                     /* before reset hook, if it returns false abort reseting */
-                    if (false !== onreset.apply(form, [settings, self])) { 
+                    if (false !== onreset.apply(form, [settings, self])) {
                         $(self).html(self.revert);
                         self.editing   = false;
                         if (!$.trim($(self).html())) {
                             $(self).html(settings.placeholder);
                         }
                         /* show tooltip again */
-                        $(self).attr('title', settings.tooltip);                
-                    }                    
+                        $(self).attr('title', settings.tooltip);
+                    }
                 }
-            }            
+            }
         });
 
     };
@@ -372,7 +372,7 @@
         types: {
             defaults: {
                 element : function(settings, original) {
-                    var input = $('<input type="hidden"></input>');                
+                    var input = $('<input type="hidden"></input>');
                     $(this).append(input);
                     return(input);
                 },
@@ -395,7 +395,7 @@
                         /* otherwise use button with given string as text */
                         } else {
                             var submit = $('<button type="submit" />');
-                            submit.html(settings.submit);                            
+                            submit.html(settings.submit);
                         }
                         $(this).append(submit);
                     }
@@ -413,9 +413,9 @@
                         $(cancel).click(function(event) {
                             //original.reset();
                             if ($.isFunction($.editable.types[settings.type].reset)) {
-                                var reset = $.editable.types[settings.type].reset;                                                                
+                                var reset = $.editable.types[settings.type].reset;
                             } else {
-                                var reset = $.editable.types['defaults'].reset;                                
+                                var reset = $.editable.types['defaults'].reset;
                             }
                             reset.apply(form, [settings, original]);
                             return false;
@@ -459,7 +459,7 @@
                     return(select);
                 },
                 content : function(string, settings, original) {
-                    if (String == string.constructor) { 	 
+                    if (String == string.constructor) {
                         eval ('var json = ' + string);
                         for (var key in json) {
                             if (!json.hasOwnProperty(key)) {
@@ -467,14 +467,14 @@
                             }
                             if ('selected' == key) {
                                 continue;
-                            } 
+                            }
                             var option = $('<option />').val(key).append(json[key]);
-                            $('select', this).append(option); 	 
+                            $('select', this).append(option);
                         }
                     }
-                    /* Loop option again to set selected. IE needed this... */ 
+                    /* Loop option again to set selected. IE needed this... */
                     $('select', this).children().each(function() {
-                        if ($(this).val() == json['selected'] || 
+                        if ($(this).val() == json['selected'] ||
                             $(this).text() == original.revert) {
                                 $(this).attr('selected', 'selected');
                         };

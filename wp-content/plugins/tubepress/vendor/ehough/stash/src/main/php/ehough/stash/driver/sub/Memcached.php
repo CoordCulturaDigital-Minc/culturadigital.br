@@ -113,7 +113,7 @@ class ehough_stash_driver_sub_Memcached
                     break;
             }
 
-            if(!@$memcached->setOption(constant('Memcached::OPT_' . $name), $value)) {
+            if (!@$memcached->setOption(constant('Memcached::OPT_' . $name), $value)) {
                 throw new ehough_stash_exception_RuntimeException('Memcached option Memcached::OPT_' . $name . ' not accepted by memcached extension.');
             }
         }
@@ -123,9 +123,10 @@ class ehough_stash_driver_sub_Memcached
 
     public function set($key, $value, $expire = null)
     {
-        if(isset($expire) && $expire < time()) {
+        if (isset($expire) && $expire < time()) {
             return true;
         }
+
         return $this->memcached->set($key, array('data' => $value, 'expiration' => $expire), $expire);
     }
 
@@ -150,12 +151,14 @@ class ehough_stash_driver_sub_Memcached
         } else {
             $this->memcached->cas($token, $key, $value);
         }
+
         return $value;
     }
 
     public function inc($key)
     {
         $this->cas($key, 0);
+
         return $this->memcached->increment($key);
     }
 
@@ -164,7 +167,7 @@ class ehough_stash_driver_sub_Memcached
         $this->memcached->flush();
     }
 
-    static public function isAvailable()
+    public static function isAvailable()
     {
         return class_exists('Memcached', false);
     }

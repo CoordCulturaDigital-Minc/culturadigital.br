@@ -1,8 +1,5 @@
 <?php
-/**
- * @package WordPress
- * @subpackage Motion
- */
+
 get_header(); ?>
 
 <div id="main">

@@ -19,7 +19,7 @@
 class ehough_iconic_compiler_Compiler
 {
     private $passConfig;
-    private $log;
+    private $log = array();
     private $loggingFormatter;
     private $serviceReferenceGraph;
 
@@ -31,7 +31,6 @@ class ehough_iconic_compiler_Compiler
         $this->passConfig = new ehough_iconic_compiler_PassConfig();
         $this->serviceReferenceGraph = new ehough_iconic_compiler_ServiceReferenceGraph();
         $this->loggingFormatter = new ehough_iconic_compiler_LoggingFormatter();
-        $this->log = array();
     }
 
     /**

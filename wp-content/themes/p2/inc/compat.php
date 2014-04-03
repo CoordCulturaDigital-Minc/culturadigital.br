@@ -1,8 +1,13 @@
 <?php
-// PHP 4 compatiblity
-if ( !function_exists('str_split')):
+/**
+ * Enable P2 to be compatible with prior versions of WordPress and PHP.
+ *
+ * @package P2
+ */
+
+if ( !function_exists( 'str_split' )):
 function str_split($string,$string_length=1) {
-	if(strlen($string)>$string_length || !$string_length) {
+	if (strlen($string)>$string_length || !$string_length) {
 		do {
 			$c = strlen($string);
 			$parts[] = substr($string,0,$string_length);
@@ -15,36 +20,10 @@ function str_split($string,$string_length=1) {
 }
 endif;
 
-if( !function_exists('str_ireplace') ) {
+if ( !function_exists( 'str_ireplace' ) ) {
 	function str_ireplace($name, $values, $replacement) {
 		return str_replace($name, $values, $replacement);
 	}
 }
 
-// WordPress <2.8 compatibility
-if ( !function_exists( 'get_the_author_meta' ) ):
-function get_the_author_meta($field = '', $user_id = false) {
-	if ( ! $user_id )
-		global $authordata;
-	else
-		$authordata = get_userdata( $user_id );
-
-	$field = strtolower($field);
-	$user_field = "user_$field";
-
-	if ( 'id' == $field )
-		$value = isset($authordata->ID) ? (int)$authordata->ID : 0;
-	elseif ( isset($authordata->$user_field) )
-		$value = $authordata->$user_field;
-	else
-		$value = isset($authordata->$field) ? $authordata->$field : '';
-
-	return apply_filters('get_the_author_' . $field, $value);
-}
-endif;
-
-if ( !function_exists( 'the_author_meta' ) ):
-function the_author_meta($field = '', $user_id = false) {
-	echo apply_filters('the_author_' . $field, get_the_author_meta($field, $user_id));
-}
-endif;
+?>

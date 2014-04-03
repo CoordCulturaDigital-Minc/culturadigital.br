@@ -1,0 +1,26 @@
+{
+    "name": "ehough/coauthor",
+    "description": "OAuth client backed by ehough/shortstop",
+    "homepage": "https://github.com/ehough/coauthor",
+    "license": "MPL-2.0",
+    "authors": [
+        {
+            "name": "Eric Hough",
+            "email": "eric@ehough.com",
+            "homepage": "http://ehough.com"
+        }
+    ],
+    "require": {
+        "php"              : ">=5.2.0",
+        "ehough/shortstop" : "~2.0.0"
+    },
+    "require-dev": {
+        "ehough/mockery" : "~0.8",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ehough_coauthor" : "src/main/php"
+        }
+    }
+}

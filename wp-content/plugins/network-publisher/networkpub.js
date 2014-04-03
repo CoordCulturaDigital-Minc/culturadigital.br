@@ -63,4 +63,30 @@ jQuery(document).ready(function($){
 		},
 		'http://www.linksalpha.com'
 	);
+	$("#networkpub_networks_data_link").bind("click", function(){
+		$("#networkpub_networks_data").toggle();
+		return false;
+	});
+	$(".networkpub_api_key_selected").bind("change", function(){
+		if($(".networkpub_api_key_selected").length) {
+			$("#networkpub_meta_cb_publish_selected").attr('checked', 'checked');
+			$("#networkpub_meta_cb_publish").attr('checked', false);
+		} else {
+			$("#networkpub_meta_cb_publish_selected").attr('checked', false);
+			$("#networkpub_meta_cb_publish").attr('checked', 'checked');
+		}
+		return false;
+	});
+	$("#networkpub_meta_cb_publish").bind("change", function(){
+		if($(this).is(':checked')) {
+			$(".networkpub_api_key_selected").attr('checked', false);
+		}
+		return false;
+	});
+	$("#networkpub_meta_cb_publish_selected").bind("change", function(){
+		if($(this).is(':checked')) {
+			$("#networkpub_networks_data").show();
+		}
+		return false;
+	});
 });

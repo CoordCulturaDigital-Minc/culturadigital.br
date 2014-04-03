@@ -1,9 +1,4 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Motion
- */
-get_header(); ?>
+<?php get_header(); ?>
 
 <div id="main">
 	<div id="content" class="full">
@@ -12,31 +7,24 @@ get_header(); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-		<?php if ( function_exists( 'wp_list_comments' ) ) : ?>
 		<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-		<?php else : ?>
-		<div class="post" id="post-<?php the_ID(); ?>">
-		<?php endif; ?>
-
-			<div class="posttop">
-				<h2 class="posttitle"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-			</div>
+      
+      <?php if (!(the_title() == "")){ ?>
+        <div class="posttop">
+  				<h2 class="posttitle"><?php the_title(); ?></h2>
+  			</div>
+      <?php } ?>
 
 			<div class="postcontent">
 				<?php the_content( 'Read more &raquo;' ); ?>
 				<div class="linkpages"><?php wp_link_pages( 'link_before=<span>&link_after=</span>' ); ?></div>
 			</div>
-			<small><?php edit_post_link( 'Admin: Edit this entry' , '' , '' ); ?></small>
+			<small><?php edit_post_link( 'Edit Page' , '' , ' : ' ); ?></small>
+			<small class="permalink"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Permanent Link</a></small>
 		</div><!-- /post -->
 
 		<div id="comments">
-		<?php if ( function_exists( 'wp_list_comments' ) ) : ?>
-		<!-- WP 2.7 and above -->
 		<?php comments_template( '', true ); ?>
-		<?php else : ?>
-		<!-- WP 2.6 and below -->
-		<?php comments_template(); ?>
-		<?php endif; ?>
 		</div><!-- /comments -->
 
 		<?php endwhile; ?>

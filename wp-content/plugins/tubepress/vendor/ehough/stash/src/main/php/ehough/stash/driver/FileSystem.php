@@ -17,7 +17,7 @@
  * @package Stash
  * @author  Robert Hafner <tedivm@tedivm.com>
  */
-class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterface
+class ehough_stash_driver_FileSystem implements ehough_stash_interfaces_DriverInterface
 {
     /**
      * This is the path to the file which will be used to store the cached item. It is based off of the key.
@@ -70,7 +70,7 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
         $options = array_merge($this->defaultOptions, $options);
 
         $this->cachePath = isset($options['path']) ? $options['path'] : ehough_stash_Utilities::getBaseDirectory($this);
-        $this->cachePath = rtrim($this->cachePath, '\\/') . '/';
+        $this->cachePath = rtrim($this->cachePath, '\\/') . DIRECTORY_SEPARATOR;
 
         $this->filePermissions = $options['filePermissions'];
         $this->dirPermissions = $options['dirPermissions'];
@@ -79,7 +79,7 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
             $options['dirSplit'] = 1;
         }
 
-        $this->directorySplit = (int)$options['dirSplit'];
+        $this->directorySplit = (int) $options['dirSplit'];
 
         if (!is_numeric($options['memKeyLimit']) || $options['memKeyLimit'] < 1) {
             $options['memKeyLimit'] = 0;
@@ -87,12 +87,11 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
 
         if (function_exists($options['keyHashFunction'])) {
             $this->keyHashFunction = $options['keyHashFunction'];
-        }
-        else {
+        } else {
             throw new ehough_stash_exception_RuntimeException('Key Hash Function does not exist');
         }
 
-        $this->memStoreLimit = (int)$options['memKeyLimit'];
+        $this->memStoreLimit = (int) $options['memKeyLimit'];
 
         $this->checkFileSystemPermissions();
     }
@@ -111,6 +110,7 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
         foreach ($key as $group) {
             $keyString .= $group . '/';
         }
+
         return $keyString;
     }
 
@@ -126,7 +126,7 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
         return self::getDataFromFile($this->makePath($key));
     }
 
-    static protected function getDataFromFile($path)
+    protected static function getDataFromFile($path)
     {
         if (!file_exists($path)) {
             return false;
@@ -142,13 +142,12 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
 
         // ehough_stash_Item exists
         // isset + is_null = true + false = true
-        if(isset($data))
-        {
+        if (isset($data)) {
             return array('data' => $data, 'expiration' => $expiration);
 
         // ehough_stash_Item is null
         // isset + is_null = false + true = true
-        }elseif(@is_null($data)){
+        } elseif (@is_null($data)) {
             return array('data' => null, 'expiration' => $expiration);
         }
 
@@ -162,22 +161,30 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
      * This function takes the data and stores it to the path specified. If the directory leading up to the path does
      * not exist, it creates it.
      *
-     * @param array $key
-     * @param array $data
-     * @param int $expiration
+     * @param  array $key
+     * @param  array $data
+     * @param  int   $expiration
      * @return bool
      */
     public function storeData($key, $data, $expiration)
     {
-        $success = false;
-
         $path = $this->makePath($key);
 
         if (!file_exists($path)) {
             if (!is_dir(dirname($path))) {
+                // MAX_PATH is 260 - http://msdn.microsoft.com/en-us/library/aa365247(VS.85).aspx
+                if (strlen(dirname($path)) > 259 && stristr(PHP_OS,'WIN')) {
+                    throw new ehough_stash_exception_WindowsPathMaxLengthException();
+                }
+
                 if (!mkdir(dirname($path), $this->dirPermissions, true)) {
                     return false;
                 }
+            }
+
+            // MAX_PATH is 260 - http://msdn.microsoft.com/en-us/library/aa365247(VS.85).aspx
+            if (strlen($path) > 259 &&  stristr(PHP_OS,'WIN')) {
+                throw new ehough_stash_exception_WindowsPathMaxLengthException();
             }
 
             if (!(touch($path) && chmod($path, $this->filePermissions))) {
@@ -185,7 +192,7 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
             }
         }
 
-        $storeString = '<?php ' . PHP_EOL . '/* Cachekey: ' . $this->makeKeyString($key) . ' */' . PHP_EOL . '/* Type: ' . gettype($data) . ' */' . PHP_EOL . '$expiration = ' . $expiration . ';' . PHP_EOL;
+        $storeString = '<?php ' . PHP_EOL . '/* Cachekey: ' . str_replace('*/', '', $this->makeKeyString($key)) . ' */' . PHP_EOL . '/* Type: ' . gettype($data) . ' */' . PHP_EOL . '$expiration = ' . $expiration . ';' . PHP_EOL;
 
         if (is_array($data)) {
             $storeString .= "\$data = array();" . PHP_EOL;
@@ -210,7 +217,7 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
     {
         switch (ehough_stash_Utilities::encoding($data)) {
             case 'bool':
-                $dataString = (bool)$data ? 'true' : 'false';
+                $dataString = (bool) $data ? 'true' : 'false';
                 break;
 
             case 'serialize':
@@ -224,12 +231,13 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
             case 'none':
             default :
                 if (is_numeric($data)) {
-                    $dataString = (string)$data;
+                    $dataString = (string) $data;
                 } else {
                     $dataString = 'base64_decode(\'' . base64_encode($data) . '\')';
                 }
                 break;
         }
+
         return $dataString;
     }
 
@@ -239,7 +247,7 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
      * of the array as a directory (after putting the element through md5(), which was the most efficient way to make
      * sure it was filesystem safe). The last element of the array gets a php extension attached to it.
      *
-     * @param array $key Null arguments return the base directory.
+     * @param  array  $key Null arguments return the base directory.
      * @return string
      */
     protected function makePath($key = null)
@@ -267,14 +275,13 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
         if (isset($this->memStore['keys'][$memkey])) {
             return $this->memStore['keys'][$memkey];
         } else {
-            $pathPieces = array();
             $path = $basePath;
             $len = floor(32 / $this->directorySplit);
             $key = ehough_stash_Utilities::normalizeKeys($key, $this->keyHashFunction);
 
-            foreach ($key as $index => $value) {
+            foreach ($key as $value) {
                 if (strpos($value, '@') === 0) {
-                    $path .= substr($value, 1) . '/';
+                    $path .= substr($value, 1) . DIRECTORY_SEPARATOR;
                     continue;
                 }
 
@@ -285,11 +292,11 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
                     if ($i == $this->directorySplit) {
                         $len = $sLen - $start;
                     }
-                    $path .= substr($value, $start, $len) . '/';
+                    $path .= substr($value, $start, $len) . DIRECTORY_SEPARATOR;
                 }
             }
 
-            $path = rtrim($path, '/') . '.php';
+            $path = rtrim($path, DIRECTORY_SEPARATOR) . '.php';
             $this->memStore['keys'][$memkey] = $path;
 
             // in most cases the key will be used almost immediately or not at all, so it doesn't need to grow too large
@@ -307,7 +314,7 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
      * This function clears the data from a key. If a key points to both a directory and a file, both are erased. If
      * passed null, the entire cache directory is removed.
      *
-     * @param null|array $key
+     * @param  null|array $key
      * @return bool
      */
     public function clear($key = null)
@@ -364,6 +371,7 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
 
         }
         unset($directoryIt);
+
         return true;
     }
 
@@ -373,19 +381,19 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
      */
     protected function checkFileSystemPermissions()
     {
-        if(!isset($this->cachePath)) {
+        if (!isset($this->cachePath)) {
             throw new ehough_stash_exception_RuntimeException('Cache path was not set correctly.');
         }
 
-        if(file_exists($this->cachePath) && !is_dir($this->cachePath)) {
+        if (file_exists($this->cachePath) && !is_dir($this->cachePath)) {
             throw new InvalidArgumentException('Cache path is not a directory.');
         }
 
-        if(!is_dir($this->cachePath) && !@mkdir( $this->cachePath, $this->dirPermissions, true )) {
+        if (!is_dir($this->cachePath) && !@mkdir( $this->cachePath, $this->dirPermissions, true )) {
             throw new ehough_stash_exception_InvalidArgumentException('Failed to create cache path.');
         }
 
-        if(!is_writable($this->cachePath)) {
+        if (!is_writable($this->cachePath)) {
             throw new ehough_stash_exception_InvalidArgumentException('Cache path is not writable.');
         }
     }
@@ -396,7 +404,7 @@ class ehough_stash_driver_FileSystem implements ehough_stash_driver_DriverInterf
      *
      * @return bool true
      */
-    static public function isAvailable()
+    public static function isAvailable()
     {
         return true;
     }

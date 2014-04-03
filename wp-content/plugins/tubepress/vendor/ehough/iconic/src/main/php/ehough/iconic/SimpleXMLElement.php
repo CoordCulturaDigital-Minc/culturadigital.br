@@ -73,6 +73,10 @@ class ehough_iconic_SimpleXMLElement extends SimpleXMLElement
 
                     $arguments[$key] = new ehough_iconic_Reference((string) $arg['id'], $invalidBehavior, $strict);
                     break;
+                case 'expression':
+                    $ref             = new ReflectionClass('Symfony\Component\ExpressionLanguage\Expression');
+                    $arguments[$key] = $ref->newInstance((string) $arg);
+                    break;
                 case 'collection':
                     $arguments[$key] = $arg->getArgumentsAsPhp($name, false);
                     break;

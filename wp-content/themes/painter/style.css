@@ -1,35 +1,67 @@
-/*
-  Theme Name: Painter
-  Theme URI: http://www.marcelomesquita.com/tema-painter/
-  Description: A simple theme, with solid colors and a few pictures... but highly customizable. The highlight of this theme is the possibility of customization through the administrative area, allowing the choice of colors for each item of the site and upload the header image. Valid XHTML, Valid CSS.
-  Version: 1.1
-  Author: Marcelo Mesquita
-  Author URI: http://www.marcelomesquita.com/
-  Tags: custom-colors, custom-header, fixed-width, two-columns
-  
-  Copyright (C) 2009 Marcelo Mesquita
-  
-  This program is free software: you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation, either version 3 of the License, or
-  (at your option) any later version.
-  
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
-*/
+/**
+ * Painter WordPress Theme, Copyright (C) 2013 Marcelo Mesquita
+ * Painter WordPress Theme is licensed under the GPL.
+ *
+ * Written by
+ * Marcelo Mesquita <contato@marcelomesquita.com>
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *
+ * Public License can be found at http://www.gnu.org/copyleft/gpl.html
+ *
+ * Theme Name:  Painter
+ * Theme URI:   http://marcelomesquita.com/painter
+ * Description: A simple theme, with solid colors and a few images... but highly customizable. The highlight of this theme is the possibility of customization through the administrative area, allowing the choice of colors for each item of the site and upload images to header and background.
+ * Version:     2.5
+ * Author:      Marcelo Mesquita
+ * Author URI:  http://marcelomesquita.com/
+ * License:     Distributed under the terms of the GNU General Public License v2
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags:        dark, light, white, black, gray, one-column, two-columns, right-sidebar, fixed-width, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, sticky-post, theme-options, translation-ready
+ * Text Domain: painter
+ */
 
-.aligncenter {
-  display:block;
-  margin:auto;
-}
+/**
+ * jQuery FlexSlider v2.1
+ * Copyright 2012 WooThemes
+ * FlexSlider is no longer licensed under the MIT license. FlexSlider now shares the common licensed used for all WooThemes themes, GPLv2.
+ * Contributing Author: Tyler Smith
+ */
 
-.alignleft {
-  float:left;
-}
-
-.alignright {
-  float:right;
-}
-
+/**
+ *  Font Awesome 4.0.0
+ *  the iconic font designed for Bootstrap
+ *  ------------------------------------------------------------------------------
+ *  The full suite of pictographic icons, examples, and documentation can be
+ *  found at http://fontawesome.io.  Stay up to date on Twitter at
+ *  http://twitter.com/fontawesome.
+ *
+ *  License
+ *  ------------------------------------------------------------------------------
+ *  - The Font Awesome font is licensed under SIL OFL 1.1 -
+ *    http://scripts.sil.org/OFL
+ *  - Font Awesome CSS, LESS, and SASS files are licensed under MIT License -
+ *    http://opensource.org/licenses/mit-license.html
+ *  - Font Awesome documentation licensed under CC BY 3.0 -
+ *    http://creativecommons.org/licenses/by/3.0/
+ *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
+ *    "Font Awesome by Dave Gandy - http://fontawesome.io"
+ *
+ *  Author - Dave Gandy
+ *  ------------------------------------------------------------------------------
+ *  Email: dave@fontawesome.io
+ *  Twitter: http://twitter.com/davegandy
+ *  Work: Lead Product Designer @ Kyruus - http://kyruus.com
+ */

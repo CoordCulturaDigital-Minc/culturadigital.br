@@ -1,21 +1,12 @@
 <?php
-/**
- * @package WordPress
- * @subpackage Motion
- */
+
 get_header(); ?>
 
 <div id="main">
 
 	<div id="content">
 
-		<?php
-		    if ( isset( $_GET['author_name'] ) ) :
-		        $curauth = get_userdatabylogin( $author_name );
-		    else :
-		        $curauth = get_userdata( intval( $author ) );
-		    endif;
-		?>
+		<?php the_author_meta( 'display_name', get_query_var( 'author' ) ); ?>
 
 		<h2 id="contentdesc">Entries by <span><?php echo $curauth->nickname; ?></span> &raquo;</h2>
 

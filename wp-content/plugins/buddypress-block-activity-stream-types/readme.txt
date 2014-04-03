@@ -1,18 +1,19 @@
 === Plugin Name ===
-Contributors: nuprn1
-Donate link: http://buddypress.org/community/groups/buddypress-block-activity-stream-types/donate/
+Contributors: nuprn1, etivite
+Donate link: http://etivite.com/wordpress-plugins/donate/
 Tags: buddypress, activity stream, activity, block activity
-Requires at least: PHP 5.2, WordPress 3.0.1, BuddyPress 1.2.5.2
-Tested up to: PHP 5.3.x, WordPress 3.0.1, BuddyPress 1.2.6
-Stable tag: 0.3.0
+Requires at least: PHP 5.2, WordPress 3.2.1, BuddyPress 1.5.1
+Tested up to: PHP 5.3.x, WordPress 3.2.1, BuddyPress 1.5.1
+Stable tag: 0.5.2
 
 This plugin will "block" an activity record from being saved to the stream/database. Such as new member registration, joining groups, friendships created.
 
 == Description ==
 
-This plugin will "block" an activity record from being saved to the stream/database. Such as new member registration, joining groups, friendships created.
+** IMPORTANT **
+This plugin has been updated for BuddyPress 1.5.1
 
-* BuddyPress 1.2.4.1 and higher ONLY!!! * (due to bug in earlier versions of BuddyPress)
+This plugin will "block" an activity record from being saved to the stream/database. Such as new member registration, joining groups, friendships created.
 
 Please note, this will not allow an activity record to be saved into the database at all. You will need to know the "type" of activity record. It is advised NOT to block activity_comment and activity_update activities (will cause errors in buddypress)
 
@@ -20,9 +21,10 @@ What are activity types? BP Core includes several and plugins may register their
 
 = Related Links: = 
 
-* <a href="http://blog.etiviti.com/2010/05/buddypress-block-activity-stream-types-plugin/" title="BuddyPress Block Activity Stream - Blog About Page">About Page</a>
-* <a href="http://etivite.com" title="Plugin Demo Site">Author's BuddyPress Demo Site</a>
-
+* <a href="http://etivite.com" title="Plugin Demo Site">Author's Site</a>
+* <a href="http://etivite.com/wordpress-plugins/buddypress-block-activity-stream-types/">BuddyPress Block Activity Stream Types - About Page</a>
+* <a href="http://etivite.com/api-hooks/">BuddyPress and bbPress Developer Hook and Filter API Reference</a>
+* <a href="http://twitter.com/etivite">@etivite</a> <a href="https://plus.google.com/114440793706284941584?rel=author">etivite+</a>
 
 == Installation ==
 
@@ -63,13 +65,23 @@ Sorry, since you blocked certain types from the database - nothing was ever save
 
 = My question isn't answered here =
 
-Please contact me on
-
-* <a href="http://blog.etiviti.com/2010/05/buddypress-block-activity-stream-types-plugin/" title="BuddyPress Block Activity Stream - Blog About Page">About Page</a>
-* <a href="http://twitter.com/etiviti" title="Twitter">Twitter</a>
+Please contact me on http://etivite.com
 
 
 == Changelog ==
+
+= 0.5.2 =
+
+* BUG: php notice on secondary_item_id in filter
+
+= 0.5.1 =
+
+* BUG: fix network admin settings page on multisite
+* FEATURE: support for locale mo files
+
+= 0.5.0 =
+
+* BUG: updated for BuddyPress 1.5.1
 
 = 0.3.0 =
 
@@ -86,7 +98,8 @@ Please contact me on
 
 == Upgrade Notice ==
 
-
+= 0.5.0 =
+* BuddyPress 1.5.1 and higher - required.
 
 == Extra Configuration ==
 

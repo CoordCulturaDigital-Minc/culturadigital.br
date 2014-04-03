@@ -2,8 +2,8 @@
 Contributors: linksalpha
 Tags: twitter, page, widgets, widget, linkedin, linkedin groups, linkedin company page, linkedin page, Post, facebook, facebook page, facebook profile, facebook wall, facebook event, facebook group, yammer, google, sidebar, rss, plugin, posts, publish, distribute, status, update, status update, twitter oauth, oauth, admin, links, auto posts, auto, automatic posting, Blogger, Delicious, Diigo, Plurk, Sonico, Tumblr, Typepad, Status.net, socialcast, p2, tumblr, appnet
 Requires at least: 1.0.0
-Tested up to: 3.6.1
-Stable tag: 5.9.1
+Tested up to: 3.8
+Stable tag: 6.0
 
 == Description ==
 
@@ -85,6 +85,10 @@ We are excited to announce launch of [LinksAlpha.com](http://www.linksalpha.com)
 6. Network Publisher widget in the WordPress Post Editor window
 
 == Changelog ==
+
+= 6.0 =
+* Users can now select networks to which the post can get published from the Post/Page editor.
+* Users can now set if image or video attachement will be added for the all future posts from the plugin settings page.
 
 = 5.9.1 =
 * Added support for Author filter. [Click here](http://help.linksalpha.com/networks/options/publishing-author-match-filter) to learn more.

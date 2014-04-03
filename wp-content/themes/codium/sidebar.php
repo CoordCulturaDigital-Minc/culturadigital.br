@@ -15,11 +15,11 @@
 	<li id="search" class="widget widget_search">
 	<div class="widgetblock">		
 	<div class="widgettitleb"><h3 class="widgettitle">Search</h3></div> 
-	<form id="searchform" method="get" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+	<form id="searchform" method="get" action="<?php echo home_url( '/' ); ?>">
 			<div class="searchform">
 				<p>
 				<input type="text" name="s" id="s" style="width:190px;border:1px solid #DDD;background:#fff;font-size:1em" value="" onfocus="this.value='';" />
-				<input type="submit" style="border:1px solid #DDD;background:#F5F5F5;width:40px;font-size:1em" value="<?php _e('ok'); ?>" />
+				<input type="submit" style="border:1px solid #DDD;background:#F5F5F5;width:40px;font-size:1em" value="<?php _e('ok','codium'); ?>" />
 				</p>
 			</div>
 	</form>

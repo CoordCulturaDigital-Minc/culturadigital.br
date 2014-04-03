@@ -1,9 +1,4 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Motion
- */
-get_header(); ?>
+<?php get_header(); ?>
 
 <div id="main">
 
@@ -45,13 +40,7 @@ get_header(); ?>
 		</div><!-- /post -->
 
 		<div id="comments">
-		<?php if ( function_exists( 'wp_list_comments' ) ) : ?>
-		<!-- WP 2.7 and above -->
 		<?php comments_template( '', true ); ?>
-		<?php else : ?>
-		<!-- WP 2.6 and below -->
-		<?php comments_template(); ?>
-		<?php endif; ?>
 		</div><!-- /comments -->
 
 		<?php endwhile; ?>

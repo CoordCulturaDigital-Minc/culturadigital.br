@@ -76,6 +76,8 @@ class ehough_tickertape_Event
      *
      * @param ehough_tickertape_EventDispatcherInterface $dispatcher
      *
+     * @deprecated Deprecated in 2.4, to be removed in 3.0. The event dispatcher is passed to the listener call.
+     *
      * @api
      */
     public function setDispatcher(ehough_tickertape_EventDispatcherInterface $dispatcher)
@@ -87,6 +89,8 @@ class ehough_tickertape_Event
      * Returns the EventDispatcher that dispatches this Event
      *
      * @return ehough_tickertape_EventDispatcherInterface
+     *
+     * @deprecated Deprecated in 2.4, to be removed in 3.0. The event dispatcher is passed to the listener call.
      *
      * @api
      */
@@ -100,6 +104,8 @@ class ehough_tickertape_Event
      *
      * @return string
      *
+     * @deprecated Deprecated in 2.4, to be removed in 3.0. The event name is passed to the listener call.
+     *
      * @api
      */
     public function getName()
@@ -111,6 +117,8 @@ class ehough_tickertape_Event
      * Sets the event's name property.
      *
      * @param string $name The event name.
+     *
+     * @deprecated Deprecated in 2.4, to be removed in 3.0. The event name is passed to the listener call.
      *
      * @api
      */

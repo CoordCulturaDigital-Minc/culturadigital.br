@@ -1,34 +1,36 @@
 <?php get_header(); ?>
 
-<?php get_sidebar(); ?>
+<div class="row">
+	<div class="col_8 col_full_mobile">
+		<div id="content">
+			<?php the_post(); ?>
+			<div class="section section_single">
+				<div class="head">
+					<h1><?php the_title(); ?></h1>
+				</div>
+				<div class="body">
+					<ul class="posts">
+						<?php get_template_part( 'loop', 'single' ); ?>
+					</ul>
+				</div>
+				<div class="foot">
+					<div class="pagination">
+						<?php previous_post_link( '<div class="alignleft">&laquo; %link</div>' ); ?>
+						<?php next_post_link( '<div class="alignright">%link &raquo;</div>' ); ?>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
 
-<?php $painter_options = get_option('painter_options'); ?>
-<?php if(is_array($painter_options)) extract($painter_options); ?>
+			<?php comments_template(); ?>
+		</div>
+	</div>
 
-<!-- Content -->
-<div id="content">
-  
-  <!-- Posts -->
-  <?php if(have_posts()) : ?>
-    
-    <?php while(have_posts()) : the_post(); ?>
-      <div class="post">
-        <div class="options">
-          <?php edit_post_link(__("Edit", "painter")); ?>
-          <span class="post-print"><a href="javascript:print()" title="<?php _e('Print', 'painter'); ?>"><?php _e('Print', 'painter'); ?></a></span>
-        </div>
-    		<h2 class="post-title"><?php the_title(); ?></h2>
-        <div class="entry"><?php the_content(); ?></div>
-        <hr class="clear" />
-        <div class="info">
-          <?php if($show_date == 1) : ?><p class="post-date"><strong><?php _e('Date', 'painter'); ?>:</strong> <?php the_time(get_option('date_format')); ?></p><?php endif; ?>
-          <?php if($show_author == 1) : ?><p class="post-author"><strong><?php _e('Author', 'painter'); ?>:</strong> <?php the_author_posts_link(); ?></p><?php endif; ?>
-        </div>
-    	</div>
-    <?php endwhile; ?>
-	<?php endif; ?>
-	
-	<?php comments_template(); ?>
+	<div class="col_4 col_full_mobile">
+		<?php get_sidebar(); ?>
+	</div>
+
+	<div class="clear"></div>
 </div>
 
 <?php get_footer(); ?>

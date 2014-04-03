@@ -1,22 +1,21 @@
-<!-- Sidebar -->
 <div id="sidebar">
-
-  <?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar()) : ?>
-    <!-- Categories -->
-    <div id="widget_categories" class="widget">
-      <h2 class="widget-title"><?php _e("Categories", "painter") ?></h2>
-      <ul>
-        <?php wp_list_categories('title_li=&use_desc_for_title=0'); ?>
-      </ul>
-    </div>
-    
-    <!-- Links -->
-    <div id="widget_links" class="widget links">
-      <h2 class="widget-title"><?php _e("Links", "painter") ?></h2>
-      <ul>
-        <?php wp_list_bookmarks('title_li=&categorize=0&before=<li>&after=</li>'); ?>
-      </ul>
-    </div>
-  <?php endif; ?>
-
+	<?php
+		// load specific sidebar
+		if( is_home() )
+		{
+			if( !dynamic_sidebar( 'home' ) ) dynamic_sidebar( 'index' );
+		}
+		elseif( is_single() )
+		{
+			if( !dynamic_sidebar( 'single' ) ) dynamic_sidebar( 'index' );
+		}
+		elseif( is_page() )
+		{
+			if( !dynamic_sidebar( 'page' ) ) dynamic_sidebar( 'index' );
+		}
+		else
+		{
+			dynamic_sidebar( 'index' );
+		}
+	?>
 </div>

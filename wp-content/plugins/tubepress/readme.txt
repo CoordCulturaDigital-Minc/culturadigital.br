@@ -1,41 +1,87 @@
 === TubePress ===
 Contributors: k2eric
-Donate link: http://tubepress.org
+Donate link: http://tubepress.com
 Tags: video, youtube, gallery, videos, vimeo
 Requires at least: 2.2
-Stable tag: trunk
+Tested up to: 3.8
+License: Mozilla Public License v2.0
+Stable tag: 3.1.5
 
-Displays gorgeous YouTube and Vimeo videos and galleries in your site. Please visit tubepress.org for more info!
+Modern video galleries for the web. Visit us at tubepress.com for more!
 
 == Description ==
 
+Rather not host your own copy of TubePress? [TubePress Express](http://express.tubepress.com) is now available!
+TubePress Express is a cloud-hosted version of TubePress with zero installation, maximum performance, and full
+compatability with *any* website or device. Enjoy a risk free 30-day trial and flexible pricing plans.
+
+For a limited time, use coupon code `WELCOME2EXPRESS` to lock in **50% off any TubePress Express plan!**
+
 **Demos**
 
-* [Simple gallery](http://tubepress.org/demo/)
-* [Feature showcase](http://tubepress.org/showcase/)
-* [Standalone PHP](http://tubepress.org/standalone_php_demo/)
+* [Simple gallery](http://tubepress.com/demo/)
+* [Feature showcase](http://tubepress.com/showcase/)
+* [Standalone PHP](http://tubepress.com/standalone_php_demo/)
 
 **Support**
 
-* [Documentation](http://tubepress.org/documentation/)
-* [Support forum](http://community.tubepress.org)
-* [Bugs / Feature Requests](http://code.google.com/p/tubepress/issues/list)
-* [Source code](http://github.com/ehough/tubepress)
+* [Documentation](http://tubepress.com/documentation/)
+* [Support forum](http://community.tubepress.com/)
+* [GitHub page](http://github.com/tubepress/tubepress)
 
 == Installation ==
 
 1. Unzip into your plugins directory at `(wp-content/plugins)`
-1. Activate TubePress from Site Admin > Plugins
-1. Configure from Site Admin > Settings > TubePress
+1. Activate TubePress from `Site Admin > Plugins`
+1. Configure from `Site Admin > Settings > TubePress`
 1. Type `[tubepress]` in a post or a page where you'd like to insert your first gallery
 
 == Changelog ==
-= 3.1.1 =
-**PHP 5.2 or higher is required for this version of TubePress!**
+= 3.1.5 =
+* Bug Fixes
+    * Fixed bug in static and solo player locations.
+    * Fixed possible fatal error in some PHP 5.2.x installations. Fixes issue #583.
+* Changed
+    * Updated underlying library: stash
 
+= 3.1.4 =
+* Bug Fixes
+    * Fixed JavaScript bug that could lead to unresponsive thumbails in certain situations.
+
+= 3.1.3 =
+* Bug Fixes
+    * Fixed regression bug with auto-next playback.
+    * Now able to use HQ thumbnails over HTTPS.
+* Changed
+    * YouTube iframe's are now loaded via HTTPS.
+    * YouTube iframe's are now loaded with "origin" parameter.
+    * Vimeo doesn't support HTTPS thumbnails, so that capability has been removed.
+    * Minor improvements to JavaScript capabilities and performance.
+    * Updated underlying libraries: epilog, finder, iconic, pulsar, stash, and tickertape.
+
+= 3.1.2 =
+* New Features
+    * Refreshed design of WordPress settings page
+    * Added Chinese, Greek, Hindi, Japanese, Korean, and Persian translations
+    * Added "default" option to "orderBy". Applies most logical sort order based on the video source.
+* Bug Fixes
+    * Now allowing hyphens in YouTube user/channel values
+    * Fixed missing classes that could cause a fatal error when using boot cache
+    * Fixed broken galleries in IE 8 and below
+    * Fixed incorrect handling of API cache failures
+* Changed
+    * Removed deprecated YouTube "standard feeds" (see YouTube API changelog)
+    * Options GUI now saves all valid options, even if invalid options were submitted alongside
+    * Vimeo API OAuth requests now use the Authentication HTTP header instead of GET parameters
+    * Updated Arabic, Finnish, French, German, Hebrew, Italian, Polish, Portuguese, Russian, Spanish, and Swedish translations
+    * tubepress.org is now tubepress.com
+
+= 3.1.1 =
 * Bug Fixes
     * Fixed bug with PHP 5.2.x: unexpected T_PAAMAYIM_NEKUDOTAYIM
+
 = 3.1.0 =
+**PHP 5.2 or higher is required for this version of TubePress!**
 * New Features
     * Major speed boost (up to 4x faster) via optional boot cache
     * New Norwegian translation thanks to Andreas Lorentsen

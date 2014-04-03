@@ -1,8 +1,5 @@
 <?php
-/**
- * @package WordPress
- * @subpackage Motion
- */
+
 get_header(); ?>
 
 <div id="main">
@@ -13,14 +10,13 @@ get_header(); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-		<?php if ( function_exists( 'wp_list_comments' ) ) : ?>
-		<div <?php post_class('post'); ?> id="post-<?php the_ID(); ?>">
-		<?php else : ?>
-		<div class="post" id="post-<?php the_ID(); ?>">
-		<?php endif; ?>
+		<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+		
 
 			<div class="posttop">
-				<h2 class="posttitle"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+			  <?php if (!(the_title() == "")){ ?>
+				  <h2 class="posttitle"><?php the_title(); ?></h2>
+				<?php } ?>
 				<div class="postmetatop">
 					<div class="categs">Filed Under: <?php the_category( ', ' ); ?> by <?php the_author() ?> &mdash; <?php comments_popup_link( __( 'Leave a comment' ), __( '1 Comment' ), __( '% Comments' ) ) ?></div>
 					<div class="date"><span><?php the_time( get_option( 'date_format' ) ); ?></span></div>
@@ -36,7 +32,8 @@ get_header(); ?>
 				</p>
 				<div class="clear"></div>
 			</div>
-			<small><?php edit_post_link( 'Admin: Edit this entry' , '' , '' ); ?></small>
+			<small><?php edit_post_link( 'Edit Page' , '' , ' : ' ); ?></small>
+			<small class="permalink"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Permanent Link</a></small>
 
 			<div class="postmetabottom">
 				<div class="tags"><?php the_tags( 'Tags: ', ', ', '' ); ?></div>
@@ -46,13 +43,7 @@ get_header(); ?>
 		</div><!-- /post -->
 
 		<div id="comments">
-		<?php if ( function_exists( 'wp_list_comments' ) ) : ?>
-		<!-- WP 2.7 and above -->
 		<?php comments_template( '', true ); ?>
-		<?php else : ?>
-		<!-- WP 2.6 and below -->
-		<?php comments_template(); ?>
-		<?php endif; ?>
 		</div><!-- /comments -->
 
 		<?php endwhile; ?>

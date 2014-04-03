@@ -64,6 +64,11 @@ class ehough_iconic_ContainerBuilder extends ehough_iconic_Container implements 
     private $proxyInstantiator;
 
     /**
+     * @var ehough_iconic_ExpressionLanguage|null
+     */
+    private $expressionLanguage;
+
+    /**
      * Sets the track resources flag.
      *
      * If you are not using the loaders and therefore don't want
@@ -291,11 +296,7 @@ class ehough_iconic_ContainerBuilder extends ehough_iconic_Container implements 
      */
     public function addCompilerPass(ehough_iconic_compiler_CompilerPassInterface $pass, $type = ehough_iconic_compiler_PassConfig::TYPE_BEFORE_OPTIMIZATION)
     {
-        if (null === $this->compiler) {
-            $this->compiler = new ehough_iconic_compiler_Compiler();
-        }
-
-        $this->compiler->addPass($pass, $type);
+        $this->getCompiler()->addPass($pass, $type);
 
         if (class_exists('\Symfony\Component\Config\Resource\FileResource')) {
 
@@ -314,11 +315,7 @@ class ehough_iconic_ContainerBuilder extends ehough_iconic_Container implements 
      */
     public function getCompilerPassConfig()
     {
-        if (null === $this->compiler) {
-            $this->compiler = new ehough_iconic_compiler_Compiler();
-        }
-
-        return $this->compiler->getPassConfig();
+        return $this->getCompiler()->getPassConfig();
     }
 
     /**
@@ -599,23 +596,23 @@ class ehough_iconic_ContainerBuilder extends ehough_iconic_Container implements 
      */
     public function compile()
     {
-        if (null === $this->compiler) {
-            $this->compiler = new ehough_iconic_compiler_Compiler();
-        }
+        $compiler = $this->getCompiler();
 
         if ($this->trackResources && class_exists('\Symfony\Component\Config\Resource\FileResource')) {
-            foreach ($this->compiler->getPassConfig()->getPasses() as $pass) {
+            foreach ($compiler->getPassConfig()->getPasses() as $pass) {
                 $this->addObjectResource($pass);
             }
+        }
 
+        $compiler->compile($this);
+
+        if ($this->trackResources) {
             foreach ($this->definitions as $definition) {
                 if ($definition->isLazy() && ($class = $definition->getClass()) && class_exists($class)) {
                     $this->addClassResource(new ReflectionClass($class));
                 }
             }
         }
-
-        $this->compiler->compile($this);
 
         $this->extensionConfigs = array();
 
@@ -982,11 +979,12 @@ class ehough_iconic_ContainerBuilder extends ehough_iconic_Container implements 
     }
 
     /**
-     * Replaces service references by the real service instance.
+     * Replaces service references by the real service instance and evaluates expressions.
      *
      * @param mixed $value A value
      *
-     * @return mixed The same value with all service references replaced by the real service instances
+     * @return mixed The same value with all service references replaced by
+     *               the real service instances and all expressions evaluated
      */
     public function resolveServices($value)
     {
@@ -998,6 +996,8 @@ class ehough_iconic_ContainerBuilder extends ehough_iconic_Container implements 
             $value = $this->get((string) $value, $value->getInvalidBehavior());
         } elseif ($value instanceof ehough_iconic_Definition) {
             $value = $this->createService($value, null);
+        } elseif (is_a($value, 'Symfony\Component\ExpressionLanguage\Expression') === true) {
+            $value = $this->getExpressionLanguage()->evaluate($value, array('container' => $this));
         }
 
         return $value;
@@ -1147,5 +1147,17 @@ class ehough_iconic_ContainerBuilder extends ehough_iconic_Container implements 
                 $this->scopedServices[$scope][$lowerId] = $service;
             }
         }
+    }
+
+    private function getExpressionLanguage()
+    {
+        if (null === $this->expressionLanguage) {
+            if (!class_exists('Symfony\Component\ExpressionLanguage\ExpressionLanguage')) {
+                throw new ehough_iconic_exception_RuntimeException('Unable to use expressions as the Symfony ExpressionLanguage component is not installed.');
+            }
+            $this->expressionLanguage = new ehough_iconic_ExpressionLanguage();
+        }
+
+        return $this->expressionLanguage;
     }
 }

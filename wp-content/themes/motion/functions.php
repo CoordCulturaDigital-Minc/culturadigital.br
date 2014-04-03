@@ -1,7 +1,7 @@
 <?php
 
 // Load admin options page
-require_once( get_template_directory() . '/functions/options-page.php' );
+// require_once( get_template_directory() . '/functions/options-page.php' );
 
 $themecolors = array(
 	'bg' => '002728',
@@ -140,3 +140,14 @@ function motion_hide_categories() {
 function motion_hide_homelink() {
 	return get_option( 'motion_hide_homelink' );
 }
+
+register_nav_menus(array(
+    'primary' => __('Primary', 'nix'),
+));
+
+register_nav_menus(array(
+    'top' => __('Top', 'nix'),
+));
+
+add_theme_support('automatic-feed-links');
+add_custom_background();

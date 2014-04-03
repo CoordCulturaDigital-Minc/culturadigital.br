@@ -16,7 +16,7 @@
  * @package Stash
  * @author  Robert Hafner <tedivm@tedivm.com>
  */
-class ehough_stash_driver_Memcache implements ehough_stash_driver_DriverInterface
+class ehough_stash_driver_Memcache implements ehough_stash_interfaces_DriverInterface
 {
     /**
      * Memcache subdriver used by this class.
@@ -24,8 +24,7 @@ class ehough_stash_driver_Memcache implements ehough_stash_driver_DriverInterfac
      * @var ehough_stash_driver_sub_Memcache|ehough_stash_driver_sub_Memcached
      */
     protected $memcache;
-
-    protected $disabled = false;
+    protected $keyCache = array();
 
     /**
      *
@@ -90,9 +89,9 @@ class ehough_stash_driver_Memcache implements ehough_stash_driver_DriverInterfac
 
     /**
      *
-     * @param array $key
-     * @param array $data
-     * @param int $expiration
+     * @param  array $key
+     * @param  array $data
+     * @param  int   $expiration
      * @return bool
      */
     public function storeData($key, $data, $expiration)
@@ -102,7 +101,7 @@ class ehough_stash_driver_Memcache implements ehough_stash_driver_DriverInterfac
 
     /**
      *
-     * @param null|array $key
+     * @param  null|array $key
      * @return bool
      */
     public function clear($key = null)
@@ -117,6 +116,7 @@ class ehough_stash_driver_Memcache implements ehough_stash_driver_DriverInterfac
             $this->makeKeyString($key);
         }
         $this->keyCache = array();
+
         return true;
     }
 
@@ -162,7 +162,7 @@ class ehough_stash_driver_Memcache implements ehough_stash_driver_DriverInterfac
         return $path ? $pathKey : md5($keyString);
     }
 
-    static public function isAvailable()
+    public static function isAvailable()
     {
         return (ehough_stash_driver_sub_Memcache::isAvailable() || ehough_stash_driver_sub_Memcached::isAvailable());
     }

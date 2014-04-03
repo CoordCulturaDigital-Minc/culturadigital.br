@@ -25,9 +25,9 @@ $apiConfig = array(
     'application_name' => '',
 
     // OAuth2 Settings, you can get these keys at https://code.google.com/apis/console
-    //'oauth2_client_id' => '',
-    //'oauth2_client_secret' => '',
-    //'oauth2_redirect_uri' => '',
+    'oauth2_client_id' => '',
+    'oauth2_client_secret' => '',
+    'oauth2_redirect_uri' => '',
 
     // The developer key, you get this at https://code.google.com/apis/console
     'developer_key' => '',
@@ -73,7 +73,7 @@ $apiConfig = array(
               'https://www.googleapis.com/auth/userinfo.email',
           )
       ),
-      'plus' => array('scope' => 'https://www.googleapis.com/auth/plus.me'),
+      'plus' => array('scope' => 'https://www.googleapis.com/auth/plus.login'),
       'siteVerification' => array('scope' => 'https://www.googleapis.com/auth/siteverification'),
       'tasks' => array('scope' => 'https://www.googleapis.com/auth/tasks'),
       'urlshortener' => array('scope' => 'https://www.googleapis.com/auth/urlshortener')

@@ -6,9 +6,70 @@ Codium is free software: you can redistribute it and/or modify it under the term
 
 */
 
-
 // This theme allows users to set a custom background
-	add_custom_background();
+	
+	if ( function_exists( 'get_custom_header' ) ) {
+		add_theme_support( 'custom-background' );
+	} else {
+		// Compat: Versions of WordPress prior to 3.4.
+		add_custom_background();
+	}
+
+// This theme allows users to set a custom header image
+//custom header for 3.4 and compatability for prior version
+
+	$args = array(
+		'width'               => 980,
+		'height'              => 250,
+		'default-image'       => '',
+		'default-text-color'  => 'FFFFFF',
+		'wp-head-callback'    => 'codium_header_style',
+		'admin-head-callback' => 'codium_admin_header_style',
+	);
+
+	$args = apply_filters( 'codium_custom_header', $args );
+
+	if ( function_exists( 'get_custom_header' ) ) {
+		add_theme_support( 'custom-header', $args );
+	} else {
+		// Compat: Versions of WordPress prior to 3.4.
+		define('HEADER_TEXTCOLOR', 'FFFFFF');
+		define('HEADER_IMAGE_WIDTH', 980); // use width and height appropriate for your theme
+		define('HEADER_IMAGE_HEIGHT', 250);
+		add_custom_image_header( $args['wp-head-callback'], $args['admin-head-callback'] );
+	}
+
+
+// gets included in the site header
+function codium_header_style() {
+    if (get_header_image() != ''){
+    ?><style type="text/css">
+        div#header {
+            background: url(<?php header_image(); ?>); height :230px; -moz-border-radius-topleft:6px;border-top-left-radius:6px;-moz-border-radius-topright:6px;border-top-right-radius:6px;
+        }
+        #access{background:#f1f2f4;display:block;float:left;width:980px;margin:0 auto;text-transform: uppercase;-moz-border-radius-topleft:0px;border-top-left-radius:0px;-moz-border-radius-topright:0px;border-top-right-radius:0px;}
+
+        <?php if ( 'blank' == get_header_textcolor() ) { ?>
+		h1.blogtitle,.description { display: none; }
+		<?php } else { ?>
+		h1.blogtitle a,.description { color:#<?php header_textcolor() ?>; }
+    <?php
+		} ?>
+		</style><?php
+		}
+	}
+
+
+// gets included in the admin header
+function codium_admin_header_style() {
+    ?><style type="text/css">
+        #headimg {
+            width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
+            height: <?php echo HEADER_IMAGE_HEIGHT; ?>px;
+        }
+    </style><?php
+}
+	
 
 // Post thumbnails support for post
 	if ( function_exists( 'add_theme_support' ) ) { // Added in 2.9
@@ -19,7 +80,10 @@ Codium is free software: you can redistribute it and/or modify it under the term
 // Set the content width based on the theme's design and stylesheet.
 	if ( ! isset( $content_width ) )
 	$content_width = 620;
-	
+
+//feed 
+ 	add_theme_support('automatic-feed-links'); 
+ 		
 // Make theme available for translation
 // Translations can be filed in the /languages/ directory
 	load_theme_textdomain( 'codium', TEMPLATEPATH . '/languages' );
@@ -30,245 +94,33 @@ Codium is free software: you can redistribute it and/or modify it under the term
 		require_once( $locale_file );
 	
 
-// Generates semantic classes for BODY element
-function codium_body_class( $print = true ) {
-	global $wp_query, $current_user;
-
-	// It's surely a WordPress blog, right?
-	$c = array('wordpress');
-
-	// Applies the time- and date-based classes (below) to BODY element
-	codium_date_classes( time(), $c );
-
-	// Generic semantic classes for what type of content is displayed
-	is_front_page()  ? $c[] = 'home'       : null; // For the front page, if set
-	is_home()        ? $c[] = 'blog'       : null; // For the blog posts page, if set
-	is_archive()     ? $c[] = 'archive'    : null;
-	is_date()        ? $c[] = 'date'       : null;
-	is_search()      ? $c[] = 'search'     : null;
-	is_paged()       ? $c[] = 'paged'      : null;
-	is_attachment()  ? $c[] = 'attachment' : null;
-	is_404()         ? $c[] = 'four04'     : null; // CSS does not allow a digit as first character
-	is_tax() 		 ? $c[] = 'taxonomy'   : null;
-	is_sticky() 	 ? $c[] = 'sticky'     : null;
-
-	// Special classes for BODY element when a single post
-	if ( is_single() ) {
-		$postID = $wp_query->post->ID;
-		the_post();
-
-		// Adds 'single' class and class with the post ID
-		$c[] = 'single postid-' . $postID;
-
-		// Adds classes for the month, day, and hour when the post was published
-		if ( isset( $wp_query->post->post_date ) )
-			codium_date_classes( mysql2date( 'U', $wp_query->post->post_date ), $c, 's-' );
-
-		// Adds category classes for each category on single posts
-		if ( $cats = get_the_category() )
-			foreach ( $cats as $cat )
-				$c[] = 's-category-' . $cat->slug;
-
-		// Adds tag classes for each tags on single posts
-		if ( $tags = get_the_tags() )
-			foreach ( $tags as $tag )
-				$c[] = 's-tag-' . $tag->slug;
-
-		// Adds MIME-specific classes for attachments
-		if ( is_attachment() ) {
-			$mime_type = get_post_mime_type();
-			$mime_prefix = array( 'application/', 'image/', 'text/', 'audio/', 'video/', 'music/' );
-				$c[] = 'attachmentid-' . $postID . ' attachment-' . str_replace( $mime_prefix, "", "$mime_type" );
-		}
-
-		// Adds author class for the post author
-		$c[] = 's-author-' . sanitize_title_with_dashes(strtolower(get_the_author_meta('login')));
-		rewind_posts();
-	}
-
-	// Author name classes for BODY on author archives
-	elseif ( is_author() ) {
-		$author = $wp_query->get_queried_object();
-		$c[] = 'author';
-		$c[] = 'author-' . $author->user_nicename;
-	}
-	
-	// Category name classes for BODY on category archvies
-	elseif ( is_category() ) {
-		$cat = $wp_query->get_queried_object();
-		$c[] = 'category';
-		$c[] = 'category-' . $cat->slug;
-	}
-
-	// Tag name classes for BODY on tag archives
-	elseif ( is_tag() ) {
-		$tags = $wp_query->get_queried_object();
-		$c[] = 'tag';
-		$c[] = 'tag-' . $tags->slug;
-	}
-
-	// Page author for BODY on 'pages'
-	elseif ( is_page() ) {
-		$pageID = $wp_query->post->ID;
-		$page_children = wp_list_pages("child_of=$pageID&echo=0");
-		the_post();
-		$c[] = 'page pageid-' . $pageID;
-		$c[] = 'page-author-' . sanitize_title_with_dashes(strtolower(get_the_author()));
-		// Checks to see if the page has children and/or is a child page; props to Adam
-		if ( $page_children )
-			$c[] = 'page-parent';
-		if ( $wp_query->post->post_parent )
-			$c[] = 'page-child parent-pageid-' . $wp_query->post->post_parent;
-		if ( is_page_template() ) // Hat tip to Ian, themeshaper.com
-			$c[] = 'page-template page-template-' . str_replace( '.php', '-php', get_post_meta( $pageID, '_wp_page_template', true ) );
-		rewind_posts();
-	}
-
-	// Search classes for results or no results
-	elseif ( is_search() ) {
-		the_post();
-		if ( have_posts() ) {
-			$c[] = 'search-results';
-		} else {
-			$c[] = 'search-no-results';
-		}
-		rewind_posts();
-	}
-
-	// For when a visitor is logged in while browsing
-	if ( $current_user->ID )
-		$c[] = 'loggedin';
-
-	// Paged classes; for 'page X' classes of index, single, etc.
-	if ( ( ( $page = $wp_query->get('paged') ) || ( $page = $wp_query->get('page') ) ) && $page > 1 ) {
-		// Thanks to Prentiss Riddle, twitter.com/pzriddle, for the security fix below.
-		$page = intval($page); // Ensures that an integer (not some dangerous script) is passed for the variable
-		$c[] = 'paged-' . $page;
-		if ( is_single() ) {
-			$c[] = 'single-paged-' . $page;
-		} elseif ( is_page() ) {
-			$c[] = 'page-paged-' . $page;
-		} elseif ( is_category() ) {
-			$c[] = 'category-paged-' . $page;
-		} elseif ( is_tag() ) {
-			$c[] = 'tag-paged-' . $page;
-		} elseif ( is_date() ) {
-			$c[] = 'date-paged-' . $page;
-		} elseif ( is_author() ) {
-			$c[] = 'author-paged-' . $page;
-		} elseif ( is_search() ) {
-			$c[] = 'search-paged-' . $page;
-		}
-	}
-
-	// Separates classes with a single space, collates classes for BODY
-	$c = join( ' ', apply_filters( 'body_class',  $c ) ); // Available filter: body_class
-
-	// And tada!
-	return $print ? print($c) : $c;
+// Generates semantic classes for BODY and POST element
+function codium_category_id_class($classes) {
+	global $post;
+	if (!is_404() && isset($post))
+	foreach((get_the_category($post->ID)) as $category)
+		$classes[] = $category->category_nicename;
+	return $classes;
 }
+add_filter('body_class', 'codium_category_id_class');
 
-// Generates semantic classes for each post DIV element
-function codium_post_class( $print = true ) {
-	global $post, $codium_post_alt;
-
-	// hentry for hAtom compliace, gets 'alt' for every other post DIV, describes the post type and p[n]
-	$c = array( 'hentry', "p$codium_post_alt", $post->post_type, $post->post_status );
-
-	// Author for the post queried
-	$c[] = 'author-' . sanitize_title_with_dashes(strtolower(get_the_author()));
-
-	//If post is a sticky post
-	if (is_sticky())
-		$c[] = 'sticky';
-
-	// Category for the post queried
-	foreach ( (array) get_the_category() as $cat )
-		$c[] = 'category-' . $cat->slug;
-
-	// Tags for the post queried; if not tagged, use .untagged
-	if ( get_the_tags() == null ) {
-		$c[] = 'untagged';
-	} else {
-		foreach ( (array) get_the_tags() as $tag )
-			$c[] = 'tag-' . $tag->slug;
-	}
-
-	// For password-protected posts
-	if ( $post->post_password )
-		$c[] = 'protected';
-
-	// Applies the time- and date-based classes (below) to post DIV
-	codium_date_classes( mysql2date( 'U', $post->post_date ), $c );
-
-	// If it's the other to the every, then add 'alt' class
-	if ( ++$codium_post_alt % 2 )
-		$c[] = 'alt';
-
-	// Separates classes with a single space, collates classes for post DIV
-	$c = join( ' ', apply_filters( 'post_class', $c ) ); // Available filter: post_class
-
-	// And tada!
-	return $print ? print($c) : $c;
+function codium_tag_id_class($classes) {
+	global $post;
+	if (!is_404() && isset($post))
+	if ( $tags = get_the_tags() )
+		foreach ( $tags as $tag )
+			$classes[] = 'tag-' . $tag->slug;
+	return $classes;
 }
+add_filter('body_class', 'codium_tag_id_class');
 
-// Define the num val for 'alt' classes (in post DIV and comment LI)
-$codium_post_alt = 1;
-//$codium_comment_alt = 1;
-
-// Generates semantic classes for each comment LI element
-function codium_comment_class( $print = true ) {
-	global $comment, $post, $codium_comment_alt;
-
-	// Collects the comment type (comment, trackback),
-	$c = array( get_comment_type() );
-
-	// Counts trackbacks (t[n]) or comments (c[n])
-	if ( $comment->comment_type == 'comment' ) {
-		$c[] = "c$codium_comment_alt";
-	} else {
-		$c[] = "t$codium_comment_alt";
-	}
-
-	// If the comment author has an id (registered), then print the log in name
-	if ( $comment->user_id > 0 ) {
-		$user = get_userdata($comment->user_id);
-		// For all registered users, 'byuser'; to specificy the registered user, 'commentauthor+[log in name]'
-		$c[] = 'byuser comment-author-' . sanitize_title_with_dashes(strtolower( $user->user_login ));
-		// For comment authors who are the author of the post
-		if ( $comment->user_id === $post->post_author )
-			$c[] = 'bypostauthor';
-	}
-
-	// If it's the other to the every, then add 'alt' class; collects time- and date-based classes
-	codium_date_classes( mysql2date( 'U', $comment->comment_date ), $c, 'c-' );
-	if ( ++$codium_comment_alt % 2 )
-		$c[] = 'alt';
-
-	// Separates classes with a single space, collates classes for comment LI
-	$c = join( ' ', apply_filters( 'comment_class', $c ) ); // Available filter: comment_class
-	
-	// Tada again!
-	return $print ? print($c) : $c;
+function codium_author_id_class($classes) {
+	global $post;
+	if (!is_404() && isset($post))
+		$classes[] = 'author-' . sanitize_title_with_dashes(strtolower(get_the_author_meta('login')));
+	return $classes;
 }
-
-// count comment
-function codium_comment_count( $print = true ) {
-	global $comment, $post, $codium_comment_alt;
-
-	// Counts trackbacks and comments
-	if ( $comment->comment_type == 'comment' ) {
-		$count[] = "$codium_comment_alt";
-	} else {
-		$count[] = "$codium_comment_alt";
-	}
-
-	$count = join( ' ', $count ); // Available filter: comment_class
-
-	// Tada again!
-	echo $count;
-	//return $print ? print($count) : $count;
-}
+add_filter('post_class', 'codium_author_id_class');
 
 
 // Generates time- and date-based classes for BODY, post DIVs, and comment LIs; relative to GMT (UTC)
@@ -314,20 +166,6 @@ function codium_tag_ur_it($glue) {
 	return trim(join( $glue, $tags ));
 }
 
-// Produces an avatar image with the hCard-compliant photo class
-function codium_commenter_link() {
-	$commenter = get_comment_author_link();
-	if ( ereg( '<a[^>]* class=[^>]+>', $commenter ) ) {
-		$commenter = ereg_replace( '(<a[^>]* class=[\'"]?)', '\\1url ' , $commenter );
-	} else {
-		$commenter = ereg_replace( '(<a )/', '\\1class="url "' , $commenter );
-	}
-	$avatar_email = get_comment_author_email();
-	$avatar_size = apply_filters( 'avatar_size', '60' ); // Available filter: avatar_size
-	$avatar = str_replace( "class='avatar", "class='photo avatar", get_avatar( $avatar_email, $avatar_size ) );
-	echo $avatar . ' <span class="fn n">' . $commenter . '</span>';
-}
-
 if ( ! function_exists( 'codium_posted_on' ) ) :
 // data before post
 function codium_posted_on() {
@@ -338,7 +176,7 @@ function codium_posted_on() {
 			esc_attr( get_the_time() ),
 			get_the_date()
 		),
-		sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s">%3$s</a></span>',
+		sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s" rel="author">%3$s</a></span>',
 			get_author_posts_url( get_the_author_meta( 'ID' ) ),
 			sprintf( esc_attr__( 'View all posts by %s', 'codium' ), get_the_author() ),
 			get_the_author()
@@ -397,12 +235,12 @@ function codium_widgets_init() {
 
 
 // Changes default [...] in excerpt to a real link
-function new_excerpt_more($more) {
+function codium_excerpt_more($more) {
        global $post;
        $readmore = __(' read more <span class="meta-nav">&raquo;</span>', 'codium' );
 	return ' <a href="'. get_permalink($post->ID) . '">' . $readmore . '</a>';
 }
-add_filter('excerpt_more', 'new_excerpt_more');
+add_filter('excerpt_more', 'codium_excerpt_more');
 
 
 // Runs our code at the end to check that everything needed has loaded
@@ -421,16 +259,20 @@ add_filter( 'archive_meta', 'wpautop' );
 add_action('wp_footer', 'footer_link');
 
 function footer_link() {	
-	//$weburl = $_SERVER["SERVER_NAME"];
-	//$weburlcount = strlen($weburl);
-	$anchorthemeowner='<a href="http://www.code-2-reduction.fr/codium/" title="code reduction" target="blank">code reduction</a>';
+if ( is_front_page() && !is_paged()) {
+	$anchorthemeowner='<a href="http://codium.code-2-reduction.fr/" title="code reduction" target="blank">code reduction</a>';
   	$textfooter = __('A nice revamping of Sandbox theme for <a href="http://www.wordpress.org">Wordpress</a> by ', 'codium' );
-  	$content = '<div id="footer"><div class="center"><p>' .$textfooter. $anchorthemeowner.'</p></div><div class="clear"></div></div></div>';
+  	$content = '<div id="footerlink"><div class="center"><p>' .$textfooter. $anchorthemeowner.'</p></div><div class="clear"></div></div></div>';
   	echo $content;
+} else {
+	$textfooter = __('A nice revamping of Sandbox theme for <a href="http://www.wordpress.org">Wordpress</a>', 'codium' );
+  	$content = '<div id="footerlink"><div class="center"><p>' .$textfooter.'</p></div><div class="clear"></div></div></div>';
+  	echo $content;
+}
 }
 
 //Remove <p> in excerpt
-function strip_para_tags ($content) {
+function codium_strip_para_tags ($content) {
 if ( is_home() && ($paged < 2 )) {
   $content = str_replace( '<p>', '', $content );
   $content = str_replace( '</p>', '', $content );
@@ -438,19 +280,21 @@ if ( is_home() && ($paged < 2 )) {
 }
 } 
 
+if ( ! function_exists( 'codium_comment' ) ) :
 //Comment function
-function mytheme_comment($comment, $args, $depth) {
-   $GLOBALS['comment'] = $comment; ?>
-   
-   <li id="comment-<?php comment_ID() ?>" class="<?php codium_comment_class() ?>">
-      <span class="count"><?php echo codium_comment_count();?></span>
+function codium_comment($comment, $args, $depth) {
+   $GLOBALS['comment'] = $comment;
+	switch ( $comment->comment_type ) :
+		case '' :
+	?>
+   <li id="comment-<?php comment_ID() ?>" <?php comment_class(); ?>>
       <div class="comment-author vcard">
-        <?php echo get_avatar($comment,$size='48',$default='<path_to_url>' ); ?>
+        <?php echo get_avatar( $comment, 48 ); ?>
 		<?php printf(__('<div class="fn">%s</div> '), get_comment_author_link()) ?>
       </div>
         
       <?php if ($comment->comment_approved == '0') : ?>
-         <em><?php _e('Your comment is in moderation.') ?></em>
+         <em><?php _e('Your comment is in moderation.', 'codium') ?></em>
          <br />
       <?php endif; ?>
 
@@ -461,20 +305,37 @@ function mytheme_comment($comment, $args, $depth) {
 										edit_comment_link(__('Edit', 'codium'), ' <span class="meta-sep">|</span> <span class="edit-link">', '</span>'); ?></div>
 	  <div class="clear"></div>	
 			
-      <?php comment_text() ?>
-
+      <div class="comment-body"><?php comment_text(); ?></div>
       <div class="reply">
          <?php comment_reply_link(array_merge( $args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
       </div>
-<?php
-        }
-        
+      <?php
+			break;
+		case 'pingback'  :
+		case 'trackback' :
+	?>
+	<li class="post pingback">
+		<p><?php _e( 'Pingback:', 'codium' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( 'Edit', 'codium' ), ' ' ); ?></p>
+	<?php
+			break;
+	endswitch;
+}
+endif;
+       
 //custom menu support
-add_action( 'init', 'register_my_menu' );
+add_action( 'init', 'codium_register_my_menu' );
 
-function register_my_menu() {
-	register_nav_menu( 'primary-menu', __( 'Primary Menu' ) );
+function codium_register_my_menu() {
+	register_nav_menu( 'primary-menu', __( 'Primary Menu', 'codium' ) );
 }        
 
+//font for the Title
+function codium_google_font() {
+?>
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
+<?php
+}
+
+add_action('wp_head', 'codium_google_font');
 
 ?>

@@ -1,13 +1,9 @@
-/**!
- * Copyright 2006 - 2013 TubePress LLC (http://tubepress.org)
- *
- * This file is part of TubePress (http://tubepress.org)
- *
+/*!
+ * Copyright 2006 - 2014 TubePress LLC (http://tubepress.com).
+ * This file is part of TubePress (http://tubepress.com).
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
- *
- * @author Eric D. Hough (eric@tubepress.org)
  */
 
 /*global jQuery, console */
@@ -21,7 +17,15 @@
  *  3. Functions to asychronously load other TubePress scripts as needed.
  */
 
-var TubePress = (function (jquery, win) {
+/**
+ * IE8 and below forces us to declare these now.
+ *
+ * http://tobyho.com/2013/03/13/window-prop-vs-global-var/
+ */
+var tubePressDomInjector,
+    tubePressBeacon,
+
+    TubePress = (function (jquery, win) {
 
     /** http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/ */
     'use strict';
@@ -40,6 +44,8 @@ var TubePress = (function (jquery, win) {
         coreJsPrefix      = 'src/main/web/js',
         jquery_isFunction = jquery.isFunction,
         tubePressJsConfig = win.TubePressJsConfig,
+        nulll             = null,
+        fawlse            = false,
 
         /**
          * Random language utilities.
@@ -59,7 +65,7 @@ var TubePress = (function (jquery, win) {
                         regex   = new RegExp(regexS),
                         results = regex.exec(windowLocation.search);
 
-                    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+                    return results === nulll ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
                 },
 
                 parseIntOrZero = function (candidate) {
@@ -97,7 +103,7 @@ var TubePress = (function (jquery, win) {
 
                     if (!o) {
 
-                        return false;
+                        return fawlse;
                     }
 
                     var args = Array.prototype.slice.call(arguments),
@@ -108,7 +114,7 @@ var TubePress = (function (jquery, win) {
 
                         if (!obj.hasOwnProperty(args[i])) {
 
-                            return false;
+                            return fawlse;
                         }
 
                         obj = obj[args[i]];
@@ -163,7 +169,7 @@ var TubePress = (function (jquery, win) {
                  */
                 log = function (msg) {
 
-                    windowConsole.log(msg);
+                    windowConsole.log(text_tubepress + ': ' + msg);
                 },
 
                 dir = function (obj) {
@@ -184,7 +190,8 @@ var TubePress = (function (jquery, win) {
          */
         environment = (function () {
 
-            var alreadyCalculatedBaseUrl = false,
+            var alreadyCalculatedBaseUrl = fawlse,
+                text_usr                 = 'usr',
                 cachedBaseUrl,
 
                 getBaseUrl = function () {
@@ -193,7 +200,7 @@ var TubePress = (function (jquery, win) {
 
                         if (langUtils.hasOwnNestedProperty(tubePressJsConfig, text_urls, text_base)) {
 
-                            cachedBaseUrl = langUtils.trimSlashes(tubePressJsConfig[text_urls][text_base], false);
+                            cachedBaseUrl = langUtils.trimSlashes(tubePressJsConfig[text_urls][text_base], fawlse);
 
                         } else {
 
@@ -208,7 +215,7 @@ var TubePress = (function (jquery, win) {
 
                                 if (scriptSrc.indexOf('/' + text_tubepress + '.js') !== -1) {
 
-                                    cachedBaseUrl = langUtils.trimSlashes(scriptSrc.substr(0, scriptSrc.lastIndexOf('/')).split('?')[0].replace(coreJsPrefix, ''), false);
+                                    cachedBaseUrl = langUtils.trimSlashes(scriptSrc.substr(0, scriptSrc.lastIndexOf('/')).split('?')[0].replace(coreJsPrefix, ''), fawlse);
                                     break;
                                 }
                             }
@@ -230,12 +237,23 @@ var TubePress = (function (jquery, win) {
                     }
 
                     return getBaseUrl() + '/src/main/web/php/' + text_ajaxEndpoint + '.php';
+                },
+
+                getUserContentUrl = function () {
+
+                    if (langUtils.hasOwnNestedProperty(tubePressJsConfig, text_urls, text_usr)) {
+
+                        return tubePressJsConfig[text_urls][text_usr];
+                    }
+
+                    return getBaseUrl() + '/' + text_tubepress + '-content';
                 };
 
             return {
 
                 getBaseUrl         : getBaseUrl,
-                getAjaxEndpointUrl : getAjaxEndpointUrl
+                getAjaxEndpointUrl : getAjaxEndpointUrl,
+                getUserContentUrl  : getUserContentUrl
             };
         }()),
 
@@ -271,8 +289,12 @@ var TubePress = (function (jquery, win) {
 
                         var args = arguments;
 
-                        logger.log('Firing "' + args[0]);
-                        logger.dir(args[1]);
+                        logger.log('firing event ' + args[0]);
+
+                        if (args.length > 1) {
+
+                            logger.dir(args[1]);
+                        }
                     }
 
                     bus.trigger.apply(bus, arguments);
@@ -298,7 +320,7 @@ var TubePress = (function (jquery, win) {
                     return filesAlreadyLoaded[path] === troo;
                 },
 
-                convertToAbsoluteUrl = function (url) {
+                convertToAbsoluteUrl = function (url, isSystem) {
 
                     if (url.indexOf('http') === 0) {
 
@@ -306,7 +328,18 @@ var TubePress = (function (jquery, win) {
                         return url;
                     }
 
-                    return environment.getBaseUrl() + '/' + langUtils.trimSlashes(url, true);
+                    var prefix;
+
+                    if (isSystem) {
+
+                        prefix = environment.getBaseUrl();
+
+                    } else {
+
+                        prefix = environment.getUserContentUrl();
+                    }
+
+                    return prefix + '/' + langUtils.trimSlashes(url, true);
                 },
 
                 doLog = function (path, type) {
@@ -322,9 +355,11 @@ var TubePress = (function (jquery, win) {
                     dokument.getElementsByTagName('head')[0].appendChild(element);
                 },
 
-                loadCss = function (path) {
+                loadCss = function (path, isSystem) {
 
-                    path = convertToAbsoluteUrl(path);
+                    isSystem = langUtils.isDefined(isSystem) ? isSystem : true;
+
+                    path = convertToAbsoluteUrl(path, isSystem);
 
                     if (alreadyLoaded(path)) {
 
@@ -344,9 +379,11 @@ var TubePress = (function (jquery, win) {
                     appendToHead(fileref);
                 },
 
-                loadJs = function (path) {
+                loadJs = function (path, isSystem) {
 
-                    path = convertToAbsoluteUrl(path);
+                    isSystem = langUtils.isDefined(isSystem) ? isSystem : true;
+
+                    path = convertToAbsoluteUrl(path, isSystem);
 
                     if (alreadyLoaded(path)) {
 
@@ -468,7 +505,7 @@ var TubePress = (function (jquery, win) {
         jsonParser = (function () {
 
             var version      = jquery.fn.jquery,
-                modernJquery = /1\.6|7|8|9\.[0-9]+/.test(version) !== false,
+                modernJquery = /1\.6|7|8|9\.[0-9]+/.test(version) !== fawlse,
                 parser,
                 parse = function (msg) {
 
@@ -488,7 +525,7 @@ var TubePress = (function (jquery, win) {
 
                     if (typeof data !== 'string' || !data) {
 
-                        return null;
+                        return nulll;
                     }
 
                     data = jquery.trim(data);
@@ -639,6 +676,34 @@ var TubePress = (function (jquery, win) {
                 get          : get
             };
         }());
+
+    /**
+     * Handle window resize events.
+     */
+    (function () {
+
+        var timeout,
+
+            publishResizeEvent = function () {
+
+                beacon.publish(text_tubepress + '.window.resize');
+            },
+
+            onBrowserResize = function () {
+
+                clearTimeout(timeout);
+
+                timeout = setTimeout(publishResizeEvent, 150);
+            },
+
+            init = function () {
+
+                jquery(win).resize(onBrowserResize);
+            };
+
+        jquery(init);
+
+    }());
 
     /**
      * Convert any queued calls to their real counterparts.

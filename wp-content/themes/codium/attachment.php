@@ -5,15 +5,15 @@
 
 <?php the_post() ?>
 
-			<h2 class="page-title"><a href="<?php echo get_permalink($post->post_parent) ?>" rev="attachment"><?php printf(__('Attachment : ')) ?><?php echo get_the_title($post->post_parent) ?></a></h2>
-			<div id="post-<?php the_ID(); ?>" class="<?php codium_post_class() ?>">
+			<h2 class="page-title"><a href="<?php echo get_permalink($post->post_parent) ?>" rev="attachment"><?php printf(__('Attachment : ', 'codium' )) ?><?php echo get_the_title($post->post_parent) ?></a></h2>
+			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<h3 class="entry-title"><?php the_title() ?></h3>
 				<div class="entry-content">
 <p style="text-align: center;"><a href="<?php echo wp_get_attachment_url($post->ID); ?>"><?php echo wp_get_attachment_image( $post->ID, 'medium' ); ?></a></p>
 <?php the_content(''.__('Read More <span class="meta-nav">&raquo;</span>', 'codium').''); ?>
 
 <?php wp_link_pages("\t\t\t\t\t<div class='page-link'>".__('Pages: ', 'codium'), "</div>\n", 'number'); ?>
-<?php printf(__('Back to post : ')) ?><a href="<?php echo get_permalink($post->post_parent) ?>" rev="attachment"><?php echo get_the_title($post->post_parent) ?></a>	
+<?php printf(__('Back to post : ', 'codium')) ?><a href="<?php echo get_permalink($post->post_parent) ?>" rev="attachment"><?php echo get_the_title($post->post_parent) ?></a>	
 				</div>
 <div class="dp100">
 <div class="dp50">

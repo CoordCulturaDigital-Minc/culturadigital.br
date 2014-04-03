@@ -19,8 +19,8 @@
 class ehough_iconic_compiler_ServiceReferenceGraphNode
 {
     private $id;
-    private $inEdges;
-    private $outEdges;
+    private $inEdges = array();
+    private $outEdges = array();
     private $value;
 
     /**
@@ -33,8 +33,6 @@ class ehough_iconic_compiler_ServiceReferenceGraphNode
     {
         $this->id = $id;
         $this->value = $value;
-        $this->inEdges = array();
-        $this->outEdges = array();
     }
 
     /**

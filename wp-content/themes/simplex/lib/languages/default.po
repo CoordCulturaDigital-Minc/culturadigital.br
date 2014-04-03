@@ -1,0 +1,311 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: simplex\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-25 07:55+0530\n"
+"PO-Revision-Date: 2011-12-25 07:57+0530\n"
+"Last-Translator: Chandra <maharzan@gmail.com>\n"
+"Language-Team: wpshoppe <queries@nhuja.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex\n"
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/404.php:17
+msgid "Well this is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/404.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/404.php:28
+msgid "Most Used Categories"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/404.php:36
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/archive.php:26
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/archive.php:28
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/archive.php:30
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/archive.php:32
+msgid "Archives"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/archive.php:61
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/author.php:60
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/category.php:51
+msgid "Nothing Found"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/archive.php:65
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/author.php:64
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/category.php:55
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/author.php:28
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/category.php:19
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/comments.php:18
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/comments.php:41
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/comments.php:42
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/comments.php:62
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/comments.php:43
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/comments.php:63
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/comments.php:73
+msgid "Comments are closed."
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-aside.php:29
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-gallery.php:33
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-image.php:25
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-quote.php:30
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content.php:34
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/functions.php:254
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-aside.php:30
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-gallery.php:55
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-image.php:26
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-page.php:28
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-quote.php:31
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-single.php:22
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content.php:35
+msgid "Pages:"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-aside.php:40
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-gallery.php:88
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-image.php:33
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-quote.php:41
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content.php:67
+msgid "Leave a comment"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-aside.php:40
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-gallery.php:88
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-image.php:33
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-quote.php:41
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content.php:67
+msgid "1 Comment"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-aside.php:40
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-gallery.php:88
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-image.php:33
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-quote.php:41
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content.php:67
+msgid "% Comments"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-aside.php:42
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-gallery.php:92
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-image.php:35
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-page.php:29
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-quote.php:43
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-single.php:52
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content.php:71
+msgid "Edit"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-gallery.php:66
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-gallery.php:77
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-single.php:30
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content.php:45
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content.php:56
+msgid ", "
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-gallery.php:70
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content.php:49
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-gallery.php:81
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content.php:60
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-single.php:37
+#, php-format
+msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/content-single.php:39
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/footer.php:22
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/footer.php:22
+#, php-format
+msgid "Powered by %s."
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/footer.php:23
+msgid "http://wpshoppe.com/"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/footer.php:23
+#, php-format
+msgid "Themed by %s."
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/functions.php:77
+msgid "Primary Menu"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/functions.php:343
+msgid "Home"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/header.php:45
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/header.php:93
+msgid "Main menu"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/header.php:94
+msgid "Skip to content"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/image.php:25
+#, php-format
+msgid "<span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/image.php:39
+msgid "&larr; Previous"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/image.php:39
+msgid "Next &rarr;"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/image.php:96
+#, php-format
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/image.php:98
+#, php-format
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/image.php:100
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/image.php:102
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/search.php:40
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/sidebar.php:26
+msgid "Meta"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/lib/inc/comments.php:31
+msgid "Pingback:"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/lib/inc/comments.php:48
+#, php-format
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/lib/inc/comments.php:54
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/lib/inc/comments.php:63
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/lib/inc/comments.php:72
+msgid "Reply <span>&darr;</span>"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/lib/inc/meta.php:18
+#, php-format
+msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/lib/inc/postnav.php:17
+msgid "Post navigation"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/lib/inc/postnav.php:35
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/lib/inc/postnav.php:39
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/lib/inc/posts.php:18
+#, php-format
+msgid "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\" class=\"entry-date\"><time datetime=\"%3$s\" pubdate>%4$s</time></a>"
+msgstr ""
+
+#: /Users/maharzan/Documents/Sites/wordpress/wp-content/themes/simplex/lib/inc/widgets.php:11
+msgid "Main Sidebar"
+msgstr ""
+

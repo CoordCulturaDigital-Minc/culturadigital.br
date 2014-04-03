@@ -1,8 +1,5 @@
 <?php
-/**
- * @package WordPress
- * @subpackage Motion
- */
+
 get_header(); ?>
 
 <div id="main">
@@ -31,17 +28,14 @@ get_header(); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-		<?php if ( function_exists( 'wp_list_comments' ) ) : ?>
+
 		<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-		<?php else : ?>
-		<div class="post" id="post-<?php the_ID(); ?>">
-		<?php endif; ?>
 
 			<div class="posttop">
 				<h2 class="posttitle"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 				<div class="postmetatop">
-					<div class="categs">Filed Under: <?php the_category( ', ' ); ?> by <?php the_author() ?> &mdash; <?php comments_popup_link( __( 'Leave a comment' ), __( '1 Comment' ), __( '% Comments' ) ) ?></div>
-					<div class="date"><span><?php the_time( get_option( 'date_format' ) ); ?></span></div>
+					<div class="categs">Filed Under: <?php the_category( ', ' ); ?> by <?php the_author() ?> &mdash; <?php comments_popup_link( __( 'Leave a comment', 'motion_theme' ), __( '1 Comment', 'motion_theme' ), __( '% Comments', 'motion_theme' ) ) ?></div>
+					<div class="date"><span><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_time( get_option( 'date_format' ) ); ?></a></span></div>
 				</div>
 			</div>
 
@@ -69,14 +63,14 @@ get_header(); ?>
 								$next = '#more-'.$id;
 						}
 
-						if( $full == true && $post->comment_status == 'open' ) { ?>
-							<a href="<?php the_permalink() ?>#comments" title="<?php printf(__('Comment on %s'), the_title_attribute()); ?>"><?php _e('Comment'); ?> </a>
-						<?php } elseif(!$full && $post->comment_status == 'open') { ?>
-							<a href="<?php the_permalink(); echo $next; ?>" title="<?php printf(__('Continue reading %s and comment'), the_title_attribute()); ?>"><?php _e('Read&nbsp;More&nbsp;&amp;&nbsp;Comment'); ?></a>
-						<?php } elseif(!$full && $post->comment_status == 'closed') { ?>
-							<a href="<?php the_permalink(); echo $next; ?>" title="<?php _e('Continue reading'); the_title_attribute(); ?>"><?php _e('Read&nbsp;More'); ?></a>
+						if( $full == true && comments_open($post->ID)) { ?>
+							<a href="<?php the_permalink() ?>#comments" title="<?php printf(__('Comment on %s'), the_title_attribute()); ?>"><?php _e('Comment', 'motion_theme'); ?> </a>
+						<?php } elseif(!$full && comments_open($post->ID)) { ?>
+							<a href="<?php the_permalink(); echo $next; ?>" title="<?php printf(__('Continue reading %s and comment'), the_title_attribute()); ?>"><?php _e('Read&nbsp;More&nbsp;&amp;&nbsp;Comment' , 'motion_theme' ); ?></a>
+						<?php } elseif(!$full && (!(comments_open($post->ID)))) { ?>
+							<a href="<?php the_permalink(); echo $next; ?>" title="<?php _e('Continue reading' , 'motion_theme'); the_title_attribute(); ?>"><?php _e('Read&nbsp;More' , 'motion_theme'); ?></a>
 						<?php } else { ?>
-							<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s'), the_title_attribute()); ?>"><?php _e('Permalink'); ?> </a>
+							<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s'), the_title_attribute()); ?>"><?php _e('Permalink', 'motion_theme'); ?> </a>
 						<?php } ?>
 					</span>
 				</div>

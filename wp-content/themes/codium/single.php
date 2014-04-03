@@ -8,7 +8,7 @@
 				<div class="nav-next"><?php next_post_link('%link', '%title <span class="meta-nav">&raquo;</span>') ?></div>
 			</div>
 
-			<div id="post-<?php the_ID(); ?>" class="<?php codium_post_class(); ?>">
+			 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>> 
 				
 				<h2 class="single-entry-title"><?php the_title(); ?></h2>
 					
@@ -16,9 +16,9 @@
 				<div class="entry-content">
 					<?php the_content(''.__('', 'codium').''); ?>
 					
-					<?php wp_link_pages("\t\t\t\t\t<div class='page-link'>".__('Pages: ', 'codium'), "</div>\n", 'number'); ?>  
 					
 					<div class="clear"></div>
+					 <?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'codium' ), 'after' => '</div>' ) ); ?>
 					<?php if (is_single() && function_exists('wp23_related_posts') ) { ?>
 						<?php wp23_related_posts(); ?>
 					<?php } ?>
@@ -29,6 +29,7 @@
 					<?php codium_posted_in(); ?>	
 					<?php edit_post_link(__('Edit', 'codium'), "\n\t\t\t\t\t<span class=\"edit-link\">", "</span>"); ?>
 				</div>
+				<div class="clear"></div> 
 			</div><!-- .post -->
 
 
@@ -37,7 +38,7 @@
 				<div class="nav-next"><?php next_post_link('%link', '%title <span class="meta-nav">&raquo;</span>') ?></div>
 			</div>
 			
-<?php comments_template(); ?>
+			<?php comments_template( '', true ); ?>
 
 
 		</div><!-- #content -->

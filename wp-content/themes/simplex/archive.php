@@ -1,55 +1,76 @@
-<?php get_header(); ?>
-<div id="main">
-	<div id="content" class="narrowcolumn">
+<?php
+/**
+ * The template for displaying Archive pages.
+ *
+ * Used to display archive-type pages if nothing more specific matches a query.
+ * For example, puts together date-based pages if no date.php file exists.
+ *
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package WordPress
+ * @subpackage simpleX
+ * @since simpleX 2.0
+ */
 
-		<?php if (have_posts()) : ?>
+get_header(); ?>
 
- 	  <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
- 	  <?php /* If this is a category archive */ if (is_category()) { ?>
-		<h2 class="pagetitle"><?php single_cat_title(); ?></h2>
- 	  <?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
-		<h2 class="pagetitle">Posts Tagged &#8216;<?php single_tag_title(); ?>&#8217;</h2>
- 	  <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
-		<h2 class="pagetitle">Archive for <?php the_time('F jS, Y'); ?></h2>
- 	  <?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
-		<h2 class="pagetitle">Archive for <?php the_time('F, Y'); ?></h2>
- 	  <?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
-		<h2 class="pagetitle">Archive for <?php the_time('Y'); ?></h2>
-	  <?php /* If this is an author archive */ } elseif (is_author()) { ?>
-		<h2 class="pagetitle">Author Archive</h2>
- 	  <?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
-		<h2 class="pagetitle">Archives</h2>
- 	  <?php } ?>
+		<section id="primary">
+			<div id="content" role="main">
 
-		<?php while (have_posts()) : the_post(); ?>
-		<div class="post">
-				<h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-				<small>Posted in <?php the_category(', ') ?> on <?php the_time('F jS, Y') ?>  by <?php the_author() ?> &ndash; <?php comments_popup_link('Be the first to comment', '1 Comment', '% Comments'); ?> <?php edit_post_link('Edit', ' | ', ''); ?> </small>
+			<?php if ( have_posts() ) : ?>
 
-				<div class="entry">
-					<?php the_content('<span class="more">read more &raquo;</span>') ?>
-				</div>
-				
-				<?php if(is_single()) {?><p class="postmetadata"><?php the_tags('Tags: ', ', ', '<br />'); ?></p><?php } ?>
-				
-			</div>
+				<header class="page-header">
+					<h2 class="page-title">
+						<?php
+							if ( is_day() ) :
+								printf( __( 'Daily Archives: %s', 'simplex' ), '<span>' . get_the_date() . '</span>' );
+							elseif ( is_month() ) :
+								printf( __( 'Monthly Archives: %s', 'simplex' ), '<span>' . get_the_date( 'F Y' ) . '</span>' );
+							elseif ( is_year() ) :
+								printf( __( 'Yearly Archives: %s', 'simplex' ), '<span>' . get_the_date( 'Y' ) . '</span>' );
+							else :
+								_e( 'Archives', 'simplex' );
+							endif;
+						?>
+					</h2>
+				</header>
 
-		<?php endwhile; ?>
+				<?php rewind_posts(); ?>
 
-		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
-			<div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
-		</div>
+				<?php simplex_content_nav( 'nav-above' ); ?>
 
-	<?php else : ?>
+				<?php /* Start the Loop */ ?>
+				<?php while ( have_posts() ) : the_post(); ?>
 
-		<h2 class="center">Not Found</h2>
-		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
+					<?php
+						/* Include the Post-Format-specific template for the content.
+						 * If you want to overload this in a child theme then include a file
+						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+						 */
+						get_template_part( 'content', get_post_format() );
+					?>
 
-	<?php endif; ?>
+				<?php endwhile; ?>
 
-	</div>
+				<?php simplex_content_nav( 'nav-below' ); ?>
+
+			<?php else : ?>
+
+				<article id="post-0" class="post no-results not-found">
+					<header class="entry-header">
+						<h2 class="entry-title"><?php _e( 'Nothing Found', 'simplex' ); ?></h2>
+					</header><!-- .entry-header -->
+
+					<div class="entry-content">
+						<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'simplex' ); ?></p>
+						<?php get_search_form(); ?>
+					</div><!-- .entry-content -->
+				</article><!-- #post-0 -->
+
+			<?php endif; ?>
+
+			</div><!-- #content -->
+		</section><!-- #primary -->
 
 <?php get_sidebar(); ?>
-</div>
 <?php get_footer(); ?>

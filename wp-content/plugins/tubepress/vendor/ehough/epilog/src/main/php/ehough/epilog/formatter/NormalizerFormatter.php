@@ -57,7 +57,12 @@ class ehough_epilog_formatter_NormalizerFormatter implements ehough_epilog_forma
         if (is_array($data) || $data instanceof Traversable) {
             $normalized = array();
 
+            $count = 1;
             foreach ($data as $key => $value) {
+                if ($count++ >= 1000) {
+                    $normalized['...'] = 'Over 1000 items, aborting normalization';
+                    break;
+                }
                 $normalized[$key] = $this->normalize($value);
             }
 
@@ -69,6 +74,10 @@ class ehough_epilog_formatter_NormalizerFormatter implements ehough_epilog_forma
         }
 
         if (is_object($data)) {
+            if ($data instanceof Exception) {
+                return $this->normalizeException($data);
+            }
+
             return sprintf("[object] (%s: %s)", get_class($data), $this->toJson($data, true));
         }
 
@@ -77,6 +86,31 @@ class ehough_epilog_formatter_NormalizerFormatter implements ehough_epilog_forma
         }
 
         return '[unknown('.gettype($data).')]';
+    }
+
+    protected function normalizeException(Exception $e)
+    {
+        $data = array(
+            'class' => get_class($e),
+            'message' => $e->getMessage(),
+            'file' => $e->getFile().':'.$e->getLine(),
+        );
+
+        $trace = $e->getTrace();
+        array_shift($trace);
+        foreach ($trace as $frame) {
+            if (isset($frame['file'])) {
+                $data['trace'][] = $frame['file'].':'.$frame['line'];
+            } else {
+                $data['trace'][] = json_encode($frame);
+            }
+        }
+
+        if (version_compare(PHP_VERSION, '5.3') >= 0 && $previous = $e->getPrevious()) {
+            $data['previous'] = $this->normalizeException($previous);
+        }
+
+        return $data;
     }
 
     protected function toJson($data, $ignoreErrors = false)

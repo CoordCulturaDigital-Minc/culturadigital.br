@@ -36,6 +36,7 @@ class ehough_iconic_dumper_PhpDumper extends ehough_iconic_dumper_Dumper
     private $referenceVariables;
     private $variableCount;
     private $reservedVariables = array('instance', 'class');
+    private $expressionLanguage;
 
     /**
      * @var ehough_iconic_lazyproxy_phpdumper_DumperInterface
@@ -175,7 +176,7 @@ class ehough_iconic_dumper_PhpDumper extends ehough_iconic_dumper_Dumper
      */
     private function addProxyClasses()
     {
-        /* @var $proxyDefinitions ehough_iconic_Definition[] */
+        /* @var $definitions ehough_iconic_Definition[] */
         $definitions = array_filter(
             $this->container->getDefinitions(),
             array($this->getProxyDumper(), 'isProxyCandidate')
@@ -427,6 +428,12 @@ class ehough_iconic_dumper_PhpDumper extends ehough_iconic_dumper_Dumper
                 continue;
             }
 
+            // if the instance is simple, the return statement has already been generated
+            // so, the only possible way to get there is because of a circular reference
+            if ($this->isSimpleInstance($id, $definition)) {
+                throw new ehough_iconic_exception_ServiceCircularReferenceException($id, array($id));
+            }
+
             $name = (string) $this->_splGetData($this->definitionVariables, $iDefinition, $iDefinition->getClass());
             $code .= $this->addServiceMethodCalls(null, $iDefinition, $name);
             $code .= $this->addServiceProperties(null, $iDefinition, $name);
@@ -476,7 +483,6 @@ class ehough_iconic_dumper_PhpDumper extends ehough_iconic_dumper_Dumper
      */
     private function addService($id, $definition)
     {
-        $name = ehough_iconic_Container::camelize($id);
         $this->definitionVariables = array();
         $this->referenceVariables = array();
         $this->variableCount = 0;
@@ -541,7 +547,7 @@ EOF;
      *$lazyInitializationDoc
      * $return
      */
-    {$visibility} function get{$name}Service($lazyInitialization)
+    {$visibility} function get{$this->camelize($id)}Service($lazyInitialization)
     {
 
 EOF;
@@ -642,14 +648,12 @@ EOF;
             return;
         }
 
-        $name = ehough_iconic_Container::camelize($id);
-
         return <<<EOF
 
     /**
      * Updates the '$id' service.
      */
-    protected function synchronize{$name}Service()
+    protected function synchronize{$this->camelize($id)}Service()
     {
 $code    }
 
@@ -812,7 +816,7 @@ EOF;
         $code = "        \$this->methodMap = array(\n";
         ksort($definitions);
         foreach ($definitions as $id => $definition) {
-            $code .= '            '.var_export($id, true).' => '.var_export('get'.ehough_iconic_Container::camelize($id).'Service', true).",\n";
+            $code .= '            '.var_export($id, true).' => '.var_export('get'.$this->camelize($id).'Service', true).",\n";
         }
 
         return $code . "        );\n";
@@ -1090,7 +1094,7 @@ EOF;
      *
      * @return Boolean
      */
-    private function hasReference($id, array $arguments, $deep = false, $visited = array())
+    private function hasReference($id, array $arguments, $deep = false, array $visited = array())
     {
         foreach ($arguments as $argument) {
             if (is_array($argument)) {
@@ -1098,14 +1102,15 @@ EOF;
                     return true;
                 }
             } elseif ($argument instanceof ehough_iconic_Reference) {
-                if ($id === (string) $argument) {
+                $argumentId = (string) $argument;
+                if ($id === $argumentId) {
                     return true;
                 }
 
-                if ($deep && !isset($visited[(string) $argument])) {
-                    $visited[(string) $argument] = true;
+                if ($deep && !isset($visited[$argumentId])) {
+                    $visited[$argumentId] = true;
 
-                    $service = $this->container->getDefinition((string) $argument);
+                    $service = $this->container->getDefinition($argumentId);
                     $arguments = array_merge($service->getMethodCalls(), $service->getArguments(), $service->getProperties());
 
                     if ($this->hasReference($id, $arguments, $deep, $visited)) {
@@ -1177,6 +1182,8 @@ EOF;
             }
 
             return $this->getServiceCall((string) $value, $value);
+        } elseif (is_a($value, 'Symfony\Component\ExpressionLanguage\Expression') === true) {
+            return $this->getExpressionLanguage()->compile((string) $value, array('container'));
         } elseif ($value instanceof ehough_iconic_Parameter) {
             return $this->dumpParameter($value);
         } elseif (true === $interpolate && is_string($value)) {
@@ -1246,6 +1253,26 @@ EOF;
     }
 
     /**
+     * Convert a service id to a valid PHP method name.
+     *
+     * @param string $id
+     *
+     * @return string
+     *
+     * @throws ehough_iconic_exception_InvalidArgumentException
+     */
+    private function camelize($id)
+    {
+        $name = ehough_iconic_Container::camelize($id);
+
+        if (!preg_match('/^[a-zA-Z0-9_\x7f-\xff]+$/', $name)) {
+            throw new ehough_iconic_exception_InvalidArgumentException(sprintf('Service id "%s" cannot be converted to a valid PHP method name.', $id));
+        }
+
+        return $name;
+    }
+
+    /**
      * Returns the next name to use
      *
      * @return string
@@ -1283,8 +1310,7 @@ EOF;
         }
     }
 
-
-    private function _splGetData($array, $object, $default)
+   private function _splGetData($array, $object, $default)
     {
         $hash = spl_object_hash($object);
 
@@ -1321,5 +1347,17 @@ EOF;
         $hash = spl_object_hash($object);
 
         return array_key_exists($hash, $array);
+    }
+
+    private function getExpressionLanguage()
+    {
+        if (null === $this->expressionLanguage) {
+            if (!class_exists('Symfony\Component\ExpressionLanguage\ExpressionLanguage')) {
+                throw new ehough_iconic_exception_RuntimeException('Unable to use expressions as the Symfony ExpressionLanguage component is not installed.');
+            }
+            $this->expressionLanguage = new ehough_iconic_ExpressionLanguage();
+        }
+
+        return $this->expressionLanguage;
     }
 }

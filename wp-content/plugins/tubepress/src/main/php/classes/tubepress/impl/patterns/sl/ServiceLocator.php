@@ -1,8 +1,8 @@
 <?php
 /**
- * Copyright 2006 - 2013 TubePress LLC (http://tubepress.org)
+ * Copyright 2006 - 2014 TubePress LLC (http://tubepress.com)
  *
- * This file is part of TubePress (http://tubepress.org)
+ * This file is part of TubePress (http://tubepress.com)
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -69,11 +69,19 @@ class tubepress_impl_patterns_sl_ServiceLocator
     }
 
     /**
-     * @return ehough_stash_PoolInterface The cache service.
+     * @return ehough_stash_interfaces_PoolInterface The cache service.
      */
     public static function getCacheService()
     {
-        return self::getService('ehough_stash_PoolInterface');
+        return self::getService('ehough_stash_interfaces_PoolInterface');
+    }
+
+    /**
+     * @return tubepress_spi_html_CssAndJsRegistryInterface The CSS registry.
+     */
+    public static function getCssAndJsRegistry()
+    {
+        return self::getService(tubepress_spi_html_CssAndJsRegistryInterface::_);
     }
 
     /**
@@ -133,11 +141,11 @@ class tubepress_impl_patterns_sl_ServiceLocator
     }
 
     /**
-     * @return tubepress_spi_html_CssAndJsGenerator The head HTML generator.
+     * @return tubepress_spi_html_CssAndJsHtmlGeneratorInterface The head HTML generator.
      */
-    public static function getCssAndJsGenerator()
+    public static function getCssAndJsHtmlGenerator()
     {
-        return self::getService(tubepress_spi_html_CssAndJsGenerator::_);
+        return self::getService(tubepress_spi_html_CssAndJsHtmlGeneratorInterface::_);
     }
 
     /**
@@ -173,19 +181,11 @@ class tubepress_impl_patterns_sl_ServiceLocator
     }
 
     /**
-     * @return tubepress_spi_options_ui_FieldBuilder The options UI field builder.
+     * @return tubepress_spi_options_ui_OptionsPageInterface The UI form handler.
      */
-    public static function getOptionsUiFieldBuilder()
+    public static function getOptionsPage()
     {
-        return self::getService(tubepress_spi_options_ui_FieldBuilder::_);
-    }
-
-    /**
-     * @return tubepress_spi_options_ui_FormHandler The UI form handler.
-     */
-    public static function getOptionsUiFormHandler()
-    {
-        return self::getService(tubepress_spi_options_ui_FormHandler::_);
+        return self::getService('tubepress_spi_options_ui_OptionsPageInterface');
     }
 
     /**

@@ -1,40 +1,59 @@
-<?php get_header(); ?>
-	<div id="main">
-	<div id="content" class="narrowcolumn">
+<?php
+/**
+ * The main template file.
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package WordPress
+ * @subpackage simpleX
+ * @since simpleX 2.0
+ */
 
-	<?php if (have_posts()) : ?>
+get_header(); ?>
 
-		<?php while (have_posts()) : the_post(); ?>
+		<div id="primary">
+			<div id="content" role="main">
 
-			<div class="post" id="post-<?php the_ID(); ?>">
-				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-				<small>Posted in <?php the_category(', ') ?> on <?php the_time('F jS, Y') ?>  by <?php the_author() ?> &ndash; <?php comments_popup_link('Be the first to comment', '1 Comment', '% Comments'); ?> <?php edit_post_link('Edit', ' | ', ''); ?> </small>
+			<?php if ( have_posts() ) : ?>
 
-				<div class="entry">
-					<?php the_content('<span class="more">read more &raquo;</span>') ?>
-				</div>
+				<?php simplex_content_nav( 'nav-above' ); ?>
 
-				<?php if(is_single()) {?><p class="postmetadata"><?php the_tags('Tags: ', ', ', '<br />'); ?></p><?php } ?>
-			</div>
+				<?php /* Start the Loop */ ?>
+				<?php while ( have_posts() ) : the_post(); ?>
 
-		<?php endwhile; ?>
+					<?php
+						/* Include the Post-Format-specific template for the content.
+						 * If you want to overload this in a child theme then include a file
+						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+						 */
+						get_template_part( 'content', get_post_format() );
+					?>
 
-		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
-			<div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
-		</div>
+				<?php endwhile; ?>
 
-	<?php else : ?>
+				<?php simplex_content_nav( 'nav-below' ); ?>
 
-		<h2 class="center">Not Found</h2>
-		<p class="center">Sorry, but you are looking for something that isn't here.</p>
-		<?php include (TEMPLATEPATH . "/searchform.php"); ?>
+			<?php else : ?>
 
-	<?php endif; ?>
+				<article id="post-0" class="post no-results not-found">
+					<header class="entry-header">
+						<h2 class="entry-title"><?php _e( 'Nothing Found', 'simplex' ); ?></h2>
+					</header><!-- .entry-header -->
 
-	</div>
+					<div class="entry-content">
+						<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'simplex' ); ?></p>
+						<?php get_search_form(); ?>
+					</div><!-- .entry-content -->
+				</article><!-- #post-0 -->
+
+			<?php endif; ?>
+
+			</div><!-- #content -->
+		</div><!-- #primary -->
 
 <?php get_sidebar(); ?>
-</div>
-
 <?php get_footer(); ?>

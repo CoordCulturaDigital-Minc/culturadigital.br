@@ -1,20 +1,20 @@
 /**
- * Copyright 2006 - 2013 TubePress LLC (http://tubepress.org)
+ * Copyright 2006 - 2014 TubePress LLC (http://tubepress.com)
  *
- * This file is part of TubePress (http://tubepress.org)
+ * This file is part of TubePress (http://tubepress.com)
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
-(function (jquery, tubePress, tubePressGallery) {
+(function (jquery, tubePress) {
 
     /** http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/ */
     'use strict';
 
     /* this stuff helps compression */
     var tubePressLangUtils = tubePress.Lang.Utils,
-        galleryRegistry    = tubePressGallery.Registry,
+        galleryRegistry    = tubePress.Gallery.Registry,
 
         isJqueryQueryAvailable = function () {
 
@@ -64,10 +64,10 @@
 
             scanAndModifyThumbs,
             isJqueryQueryAvailable,
-            300
+            100
         );
     }
 
     tubePress.Beacon.subscribe('tubepress.gallery.newthumbs', scanAndModifyThumbs);
 
-}(jQuery, TubePress, TubePressGallery));
+}(jQuery, TubePress));

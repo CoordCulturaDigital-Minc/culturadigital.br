@@ -1,37 +1,51 @@
-<?php get_header(); ?>
-	<div id="main">
-	<div id="content" class="narrowcolumn">
+<?php
+/**
+ * The template for displaying Search Results pages.
+ *
+ * @package WordPress
+ * @subpackage simpleX
+ * @since simpleX 2.0
+ */
 
-	<?php if (have_posts()) : ?>
+get_header(); ?>
 
-		<h2 class="pagetitle">Search Results</h2>
+		<section id="primary">
+			<div id="content" role="main">
 
+			<?php if ( have_posts() ) : ?>
 
-		<?php while (have_posts()) : the_post(); ?>
+				<header class="page-header">
+					<h2 class="page-title"><?php printf( __( 'Search Results for: %s', 'simplex' ), '<span>' . get_search_query() . '</span>' ); ?></h2>
+				</header>
 
-			<div class="post">
-				<h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-				<small>Posted in <?php the_category(', ') ?> on <?php the_time('F jS, Y') ?>  by <?php the_author() ?> &ndash; <?php comments_popup_link('Be the first to comment', '1 Comment', '% Comments'); ?> <?php edit_post_link('Edit', ' | ', ''); ?> </small>
+				<?php simplex_content_nav( 'nav-above' ); ?>
 
-				<?php if(is_single()) {?><p class="postmetadata"><?php the_tags('Tags: ', ', ', '<br />'); ?></p><?php } ?>
-			</div>
+				<?php /* Start the Loop */ ?>
+				<?php while ( have_posts() ) : the_post(); ?>
 
-		<?php endwhile; ?>
+					<?php get_template_part( 'content', 'search' ); ?>
 
-		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
-			<div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
-		</div>
+				<?php endwhile; ?>
 
-	<?php else : ?>
+				<?php simplex_content_nav( 'nav-below' ); ?>
 
-		<h2 class="center">No posts found. Try a different search?</h2>
-		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
+			<?php else : ?>
 
-	<?php endif; ?>
+				<article id="post-0" class="post no-results not-found">
+					<header class="entry-header">
+						<h2 class="entry-title"><?php _e( 'Nothing Found', 'simplex' ); ?></h2>
+					</header><!-- .entry-header -->
 
-	</div>
+					<div class="entry-content">
+						<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'simplex' ); ?></p>
+						<?php get_search_form(); ?>
+					</div><!-- .entry-content -->
+				</article><!-- #post-0 -->
+
+			<?php endif; ?>
+
+			</div><!-- #content -->
+		</section><!-- #primary -->
 
 <?php get_sidebar(); ?>
-	</div>
 <?php get_footer(); ?>

@@ -3,7 +3,7 @@
  * Ultimate Tag Cloud Widget
  *
  * @author     Rickard Andersson <rickard@0x539.se>
- * @version    2.5
+ * @version    2.6.1
  * @license    GPLv2
  * @package    utcw
  * @subpackage language
@@ -176,17 +176,36 @@ class UTCW_QueryBuilder
     /**
      * Add post status constraint
      *
-     * @param bool $authenticated
+     * @param bool  $authenticated
+     * @param array $post_types
      *
      * @since 2.2
      */
-    public function addPostStatusConstraint($authenticated)
+    public function addPostStatusConstraint($authenticated, array $post_types)
     {
+        $statuses           = array('publish');
+        $containsAttachment = in_array('attachment', $post_types);
+        $singlePostType     = count($post_types) === 1;
+        $multiPostType      = count($post_types) > 1;
+
         // Authenticated users are allowed to view tags for private posts
         if ($authenticated) {
-            $this->query[] = "AND p.post_status IN ('publish','private')";
+            $statuses[] = 'private';
+        }
+
+        // If attachment is the only post type its safe to include inherit in the IN clause
+        if ($containsAttachment && $singlePostType) {
+            $statuses[] = 'inherit';
+        }
+
+        $condition = "p.post_status IN ('" . join("','", $statuses) . "')";
+
+        // If attachment is one of the post types in a multi post type cloud
+        // check that only attachments are allowed the post status inherit
+        if ($containsAttachment && $multiPostType) {
+            $this->query[] = "AND (" . $condition . " OR (post_type = 'attachment' AND post_status = 'inherit'))";
         } else {
-            $this->query[] = "AND p.post_status = 'publish'";
+            $this->query[] = "AND " . $condition;
         }
     }
 
@@ -235,24 +254,21 @@ class UTCW_QueryBuilder
      */
     public function addTagsListConstraint($type, array $list, array $taxonomy)
     {
-        if ($list) {
-            $tags_list_parameters = array();
+        $parameters = array();
 
-            foreach ($list as $tag_id) {
-                if ($this->plugin->checkTermTaxonomy($tag_id, $taxonomy)) {
-                    $tags_list_parameters[] = '%d';
-                    $this->parameters[]     = $tag_id;
-                }
-            }
-
-            if ($tags_list_parameters) {
-                $tags_list_operator = $type == 'include' ? 'IN' : 'NOT IN';
-                $this->query[]      = 'AND t.term_id ' . $tags_list_operator . ' (' . join(
-                        ',',
-                        $tags_list_parameters
-                    ) . ')';
+        foreach ($list as $tag_id) {
+            if ($this->plugin->checkTermTaxonomy($tag_id, $taxonomy)) {
+                $parameters[]       = '%d';
+                $this->parameters[] = $tag_id;
             }
         }
+
+        if (!$parameters) {
+            return;
+        }
+
+        $operator      = $type == 'include' ? 'IN' : 'NOT IN';
+        $this->query[] = 'AND t.term_id ' . $operator . ' (' . join(',', $parameters) . ')';
     }
 
     /**
@@ -304,44 +320,28 @@ class UTCW_QueryBuilder
      */
     public function addSort($order, $reverse, $case_sensitive)
     {
+        // No subquery is needed if the order should be by count desc (it's already sorted that way)
+        // No subquery is needed if the order should be by color since the sorting is done in PHP afterwards
+        if ($order == 'color' || $reverse && $order == 'count') {
+            return;
+        }
+
         // If the result should be ordered in another way, try to create a sub-query to sort the result
         // directly in the database query
-        $subquery_required = true;
+        array_unshift($this->query, 'SELECT * FROM (');
+        $this->query[] = ') AS subQuery';
 
-        // No subquery is needed if the order should be by count desc (it's already sorted that way)
-        if ($reverse && $order == 'count') {
-            $subquery_required = false;
-        }
+        $way    = $reverse ? 'DESC' : 'ASC';
+        $binary = $case_sensitive ? 'BINARY ' : '';
 
-        // No subquery is needed if the order should be by color since the sorting is done in PHP afterwards
-        if ($order == 'color') {
-            $subquery_required = false;
-        }
+        $orderStatementMap = array(
+            'random' => 'ORDER BY RAND() ' . $way,
+            'name'   => 'ORDER BY ' . $binary . 'name ' . $way,
+            'slug'   => 'ORDER BY ' . $binary . 'slug ' . $way,
+            'id'     => 'ORDER BY term_id ' . $way,
+            'count'  => 'ORDER BY count ' . $way,
+        );
 
-        if ($subquery_required) {
-            array_unshift($this->query, 'SELECT * FROM (');
-            $this->query[] = ') AS subQuery';
-
-            $way    = $reverse ? 'DESC' : 'ASC';
-            $binary = $case_sensitive ? 'BINARY ' : '';
-
-            switch ($order) {
-                case 'random':
-                    $this->query[] = 'ORDER BY RAND() ' . $way;
-                    break;
-                case 'name':
-                    $this->query[] = 'ORDER BY ' . $binary . 'name ' . $way;
-                    break;
-                case 'slug':
-                    $this->query[] = 'ORDER BY ' . $binary . 'slug ' . $way;
-                    break;
-                case 'id':
-                    $this->query[] = 'ORDER BY term_id ' . $way;
-                    break;
-                case 'count':
-                    $this->query[] = 'ORDER BY count ' . $way;
-                    break;
-            }
-        }
+        $this->query[] = $orderStatementMap[$order];
     }
 }

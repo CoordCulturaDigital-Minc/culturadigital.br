@@ -17,7 +17,7 @@
  * @package Stash
  * @author  Robert Hafner <tedivm@tedivm.com>
  */
-class ehough_stash_driver_Sqlite implements ehough_stash_driver_DriverInterface
+class ehough_stash_driver_Sqlite implements ehough_stash_interfaces_DriverInterface
 {
     protected $defaultOptions = array('filePermissions' => 0660,
                                       'dirPermissions' => 0770,
@@ -53,23 +53,23 @@ class ehough_stash_driver_Sqlite implements ehough_stash_driver_DriverInterface
         $version = isset($options['version']) ? $options['version'] : 'any';
 
         $subdrivers = array();
-        if(ehough_stash_driver_sub_SqlitePdo::isAvailable()) {
+        if (ehough_stash_driver_sub_SqlitePdo::isAvailable()) {
             $subdrivers['pdo'] = 'ehough_stash_driver_sub_SqlitePdo';
         }
-        if(ehough_stash_driver_sub_Sqlite::isAvailable()) {
+        if (ehough_stash_driver_sub_Sqlite::isAvailable()) {
             $subdrivers['sqlite'] = 'ehough_stash_driver_sub_Sqlite';
         }
-        if(ehough_stash_driver_sub_SqlitePdo2::isAvailable()) {
+        if (ehough_stash_driver_sub_SqlitePdo2::isAvailable()) {
             $subdrivers['pdo2'] = 'ehough_stash_driver_sub_SqlitePdo2';
         }
 
-        if($extension == 'pdo' && $version != '2' && isset($subdrivers['pdo'])) {
+        if ($extension == 'pdo' && $version != '2' && isset($subdrivers['pdo'])) {
             $driver = $subdrivers['pdo'];
-        } elseif($extension == 'sqlite' && isset($subdrivers['sqlite'])) {
+        } elseif ($extension == 'sqlite' && isset($subdrivers['sqlite'])) {
             $driver = $subdrivers['sqlite'];
-        } elseif($extension == 'pdo' && $version != '3' && isset($subdrivers['pdo2'])) {
+        } elseif ($extension == 'pdo' && $version != '3' && isset($subdrivers['pdo2'])) {
             $driver = $subdrivers['pdo2'];
-        } elseif(count($subdrivers) > 0 && $extension == 'any') {
+        } elseif (count($subdrivers) > 0 && $extension == 'any') {
             $driver = reset($subdrivers);
         } else {
             throw new ehough_stash_exception_RuntimeException('No sqlite extension available.');
@@ -85,7 +85,7 @@ class ehough_stash_driver_Sqlite implements ehough_stash_driver_DriverInterface
     }
 
     /**
-     * @param array $key
+     * @param  array $key
      * @return array
      */
     public function getData($key)
@@ -106,9 +106,9 @@ class ehough_stash_driver_Sqlite implements ehough_stash_driver_DriverInterface
     }
 
     /**
-     * @param array $key
-     * @param array $data
-     * @param int $expiration
+     * @param  array $key
+     * @param  array $data
+     * @param  int   $expiration
      * @return bool
      */
     public function storeData($key, $data, $expiration)
@@ -127,7 +127,7 @@ class ehough_stash_driver_Sqlite implements ehough_stash_driver_DriverInterface
 
     /**
      *
-     * @param null|array $key
+     * @param  null|array $key
      * @return bool
      */
     public function clear($key = null)
@@ -164,19 +164,19 @@ class ehough_stash_driver_Sqlite implements ehough_stash_driver_DriverInterface
             return true;
         }
 
-        $expiration = time();
         foreach ($databases as $database) {
             if ($driver = $this->getSqliteDriver($database, true)) {
                 $driver->purge();
             }
         }
+
         return true;
     }
 
     /**
      *
-     * @param null|array $key
-     * @param bool $name = false
+     * @param  null|array                     $key
+     * @param  bool                           $name = false
      * @return ehough_stash_driver_sub_Sqlite
      */
     protected function getSqliteDriver($key, $name = false)
@@ -211,11 +211,13 @@ class ehough_stash_driver_Sqlite implements ehough_stash_driver_DriverInterface
         $driverClass = $this->driverClass;
 
         if(is_null($driverClass))
+
             return false;
 
         $driver = new $driverClass($file, $this->dirPerms, $this->filePerms, $this->busyTimeout);
 
         $this->subDrivers[$file] = $driver;
+
         return $driver;
     }
 
@@ -255,19 +257,19 @@ class ehough_stash_driver_Sqlite implements ehough_stash_driver_DriverInterface
      */
     protected function checkFileSystemPermissions()
     {
-        if(!isset($this->cachePath)) {
+        if (!isset($this->cachePath)) {
             throw new ehough_stash_exception_RuntimeException('Cache path was not set correctly.');
         }
 
-        if(file_exists($this->cachePath) && !is_dir($this->cachePath)) {
+        if (file_exists($this->cachePath) && !is_dir($this->cachePath)) {
             throw new ehough_stash_exception_InvalidArgumentException('Cache path is not a directory.');
         }
 
-        if(!is_dir($this->cachePath) && !@mkdir( $this->cachePath, $this->dirPermissions, true )) {
+        if (!is_dir($this->cachePath) && !@mkdir( $this->cachePath, $this->dirPermissions, true )) {
             throw new ehough_stash_exception_InvalidArgumentException('Failed to create cache path.');
         }
 
-        if(!is_writable($this->cachePath)) {
+        if (!is_writable($this->cachePath)) {
             throw new ehough_stash_exception_InvalidArgumentException('Cache path is not writable.');
         }
     }
@@ -279,13 +281,13 @@ class ehough_stash_driver_Sqlite implements ehough_stash_driver_DriverInterface
      */
     protected function checkStatus()
     {
-        if(!self::isAvailable()) {
+        if (!self::isAvailable()) {
             throw new ehough_stash_exception_RuntimeException('No Sqlite extension is available.');
         }
 
         $driver = $this->getSqliteDriver(array('_none'));
 
-        if(!$driver) {
+        if (!$driver) {
             throw new ehough_stash_exception_RuntimeException('No Sqlite driver could be loaded.');
         }
 
@@ -298,7 +300,7 @@ class ehough_stash_driver_Sqlite implements ehough_stash_driver_DriverInterface
      *
      * @return bool
      */
-    static public function isAvailable()
+    public static function isAvailable()
     {
         return (ehough_stash_driver_sub_SqlitePdo::isAvailable()) || (ehough_stash_driver_sub_Sqlite::isAvailable()) || (ehough_stash_driver_sub_SqlitePdo2::isAvailable());
     }
@@ -308,10 +310,10 @@ class ehough_stash_driver_Sqlite implements ehough_stash_driver_DriverInterface
      * array, running the string through sqlite_escape_string() and then combining that string to the keystring with a
      * delimiter.
      *
-     * @param array $key
+     * @param  array  $key
      * @return string
      */
-    static function makeSqlKey($key)
+    public static function makeSqlKey($key)
     {
         $key = ehough_stash_Utilities::normalizeKeys($key, 'base64_encode');
         $path = '';

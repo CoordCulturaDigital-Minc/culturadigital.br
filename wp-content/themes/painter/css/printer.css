@@ -1,0 +1,615 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font: normal 75% Helvetica;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 2.0em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.8em;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 1.6em;
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 1.4em;
+	font-weight: normal;
+}
+
+h5 {
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+h6 {
+	font-size: 1.0em;
+	font-weight: normal;
+}
+
+input[type=text],
+input[type=password],
+select,
+textarea {
+	font: normal 1.0em Helvetica;
+	margin: 5px 0px 10px 0px;
+	padding: 5px 5px 5px 5px;
+	color: rgb( 0, 0, 0 );
+	background: rgb( 255, 255, 255 );
+	border: 1px solid rgba( 123, 123, 123, 0.3 );
+	border-radius: 5px;
+}
+
+input[type=reset],
+input[type=submit],
+button {
+	font: normal 1.0em Helvetica;
+	margin: 5px 0px 10px 0px;
+	padding: 5px 15px 5px 15px;
+	color: rgb( 0, 0, 0 );
+	text-shadow: 1px 1px 1px rgb( 255, 255, 255 );
+	background: rgb( 245, 245, 245 );
+	border: 1px solid rgba( 123, 123, 123, 0.3 );
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/***************************************************************************************************
+	classes
+***************************************************************************************************/
+.hide {
+	display: none;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	visibility: hidden;
+	line-height: 0px;
+	height: 0px;
+}
+
+/***************************************************************************************************
+	WP classes
+***************************************************************************************************/
+.more-link {
+}
+
+.alignleft {
+	float: left;
+	margin: 0px 5px 5px 0px;
+}
+
+.alignright {
+	float: right;
+	margin: 0px 0px 5px 5px;
+}
+
+.aligncenter {
+	margin: auto;
+	display: block;
+}
+
+.sticky {
+}
+
+.wp-caption {
+}
+
+.wp-caption-text {
+}
+
+.gallery-caption {
+}
+
+.comment-wait {
+}
+
+.bypostauthor {
+}
+
+/***************************************************************************************************
+	WP entry
+***************************************************************************************************/
+.entry {
+}
+
+.entry h1 {
+	padding: 10px 0px 5px 0px;
+}
+
+.entry h2 {
+	padding: 10px 0px 5px 0px;
+}
+
+.entry h3 {
+	padding: 10px 0px 5px 0px;
+}
+
+.entry h4 {
+	padding: 10px 0px 5px 0px;
+}
+
+.entry h5 {
+	padding: 10px 0px 5px 0px;
+}
+
+.entry h6 {
+	padding: 10px 0px 5px 0px;
+}
+
+.entry a {
+	text-decoration: none;
+}
+
+.entry a:hover,
+.entry a:focus,
+.entry a:active {
+	text-decoration: underline;
+}
+
+.entry p {
+	line-height: 1.6em;
+	padding: 10px 0px 10px 0px;
+}
+
+.entry ul {
+	list-style-type: square;
+	padding: 10px 10px 10px 40px;
+}
+
+.entry ol {
+	list-style-type: decimal;
+	padding: 10px 10px 10px 40px;
+}
+
+.entry li {
+	line-height: 1.6em;
+}
+
+.entry strong {
+}
+
+.entry em {
+}
+
+.entry del {
+}
+
+.entry img {
+}
+
+.entry pre {
+	display: block;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	overflow: auto;
+}
+
+.entry code {
+	display: block;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	overflow: auto;
+}
+
+.entry blockquote {
+	display: block;
+	padding: 10px 10px 10px 40px;
+	font-style: italic;
+	background: url( ../img/bg/quote-open.png ) no-repeat top left;
+}
+
+/***************************************************************************************************
+	head
+***************************************************************************************************/
+#head {
+}
+
+#head a {
+	text-decoration: none;
+}
+
+/***************************************************************************************************
+	brand
+***************************************************************************************************/
+#brand {
+}
+
+#brand h1 {
+	font-size: 2.0em;
+	font-weight: bold;
+}
+
+#brand h2 {
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+/***************************************************************************************************
+	body
+***************************************************************************************************/
+#body {
+}
+
+/***************************************************************************************************
+	navigator
+***************************************************************************************************/
+#navigator {
+	display: none;
+}
+
+/***************************************************************************************************
+	breadcrumb
+***************************************************************************************************/
+#breadcrumb {
+}
+
+#breadcrumb p {
+	font-size: 0.9em;
+}
+
+/***************************************************************************************************
+	content
+***************************************************************************************************/
+#content {
+}
+
+#content a {
+	text-decoration: none;
+}
+
+#content a:focus,
+#content a:hover,
+#content a:active {
+	text-decoration: underline;
+}
+
+#content .section {
+	padding: 0px 0px 10px 0px;
+}
+
+#content .section .head {
+  padding: 10px 0px 10px 0px;
+}
+
+#content .section .head h1 {
+	line-height: 1.4em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+#content .section .body {
+  padding: 10px 0px 10px 0px;
+}
+
+#content .section .foot {
+  padding: 10px 0px 10px 0px;
+}
+
+/***************************************************************************************************
+	section: slideshow
+***************************************************************************************************/
+#content .section_slideshow {
+	display: none;
+}
+
+/***************************************************************************************************
+	section: index
+***************************************************************************************************/
+#content .section_index {
+}
+
+#content .section_index .head {
+}
+
+#content .section_index .body {
+}
+
+#content .section_index .post {
+  list-style: none;
+  padding: 0px 0px 40px 0px;
+}
+
+#content .section_index .post_thumb {
+	float: left;
+	padding: 20px 20px 20px 0px;
+}
+
+#content .section_index .post_title {
+	font-size: 2.0em;
+  font-weight: normal;
+  padding: 5px 0px 5px 0px;
+}
+
+#content .section_index .post_date {
+	font-size: 0.9em;
+	font-style: italic;
+	padding: 5px 0px 5px 20px;
+	background: url( ../img/icon/gentleface/calendar.png ) no-repeat left center;
+}
+
+#content .section_index .post_modified_date {
+	font-size: 0.9em;
+	font-style: italic;
+	padding: 5px 0px 5px 20px;
+	background: url( ../img/icon/gentleface/updated.png ) no-repeat left center;
+}
+
+#content .section_index .post_author {
+	font-size: 0.9em;
+	font-style: italic;
+	padding: 5px 0px 5px 20px;
+	background: url( ../img/icon/gentleface/user.png ) no-repeat left center;
+}
+
+#content .section_index .post_category {
+	font-size: 0.9em;
+	font-style: italic;
+	padding: 5px 0px 5px 20px;
+	background: url( ../img/icon/gentleface/category.png ) no-repeat left center;
+}
+
+#content .section_index .post_tag {
+	font-size: 0.9em;
+	font-style: italic;
+	padding: 5px 0px 5px 20px;
+	background: url( ../img/icon/gentleface/tag.png ) no-repeat left center;
+}
+
+#content .section_index .post_comment {
+	font-size: 0.9em;
+	font-style: italic;
+	padding: 5px 0px 5px 20px;
+	background: url( ../img/icon/gentleface/comment.png ) no-repeat left center;
+}
+
+#content .section_index .post_entry {
+	padding: 10px 0px 10px 0px;
+}
+
+#content .section_index .post_entry p {
+  line-height: 1.6em;
+}
+
+#content .section_index .foot {
+}
+
+#content .section_index .pagination {
+	text-align: center;
+	display: block;
+}
+
+#content .section_index .pagination a {
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+}
+
+#content .section_index .pagination a:focus,
+#content .section_index .pagination a:hover,
+#content .section_index .pagination a:active {
+	text-decoration: underline;
+}
+
+#content .section_index .pagination span {
+	padding: 0px 10px 0px 10px;
+}
+
+/***************************************************************************************************
+	section: single
+***************************************************************************************************/
+#content .section_single {
+}
+
+#content .section_single .head {
+}
+
+#content .section_single .body {
+}
+
+#content .section_single .post {
+  list-style: none;
+  padding: 0px 0px 40px 0px;
+}
+
+#content .section_single .post_date {
+	font-style: italic;
+	padding: 5px 0px 5px 20px;
+	background: url( ../img/icon/gentleface/calendar.png ) no-repeat left center;
+}
+
+#content .section_single .post_modified_date {
+	font-style: italic;
+	padding: 5px 0px 5px 20px;
+	background: url( ../img/icon/gentleface/updated.png ) no-repeat left center;
+}
+
+#content .section_single .post_author {
+	font-style: italic;
+	padding: 5px 0px 5px 20px;
+	background: url( ../img/icon/gentleface/user.png ) no-repeat left center;
+}
+
+#content .section_single .post_category {
+	font-style: italic;
+	padding: 5px 0px 5px 20px;
+	background: url( ../img/icon/gentleface/category.png ) no-repeat left center;
+}
+
+#content .section_single .post_tag {
+	font-style: italic;
+	padding: 5px 0px 5px 20px;
+	background: url( ../img/icon/gentleface/tag.png ) no-repeat left center;
+}
+
+#content .section_single .post_comment {
+	font-style: italic;
+	padding: 5px 0px 5px 20px;
+	background: url( ../img/icon/gentleface/comment.png ) no-repeat left center;
+}
+
+#content .section_single .post_edit {
+	font-style: italic;
+	padding: 5px 0px 5px 20px;
+	background: url( ../img/icon/gentleface/edit.png ) no-repeat left center;
+}
+
+#content .section_single .post_entry {
+}
+
+#content .section_single .post_entry p {
+  line-height: 1.6em;
+}
+
+#content .section_single .foot {
+}
+
+/***************************************************************************************************
+	section: comments
+***************************************************************************************************/
+#content .section_comments {
+}
+
+#content .section_comments form {
+	padding: 10px 0px 10px 0px;
+}
+
+#content .section_comments label {
+	width: 80px;
+	display: inline-block;
+}
+
+#content .section_comments textarea {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#content .section_comments .avatar {
+	float: left;
+	padding: 0px 10px 0px 0px;
+}
+
+#content .section_comments .comment-reply-link {
+	float: right;
+	width: 30px;
+	height: 30px;
+	display: block;
+	text-indent: -9999px;
+	background: url( ../img/icon/gentleface/comment-reply.png ) no-repeat center;
+}
+
+#content .section_comments #cancel-comment-reply-link {
+	font-size: 1.0em;
+	text-transform: lowercase;
+}
+
+#content .section_comments .comment-notes {
+	padding: 10px 0px 10px 0px;
+}
+
+#content .section_comments .logged-in-as {
+	padding: 10px 0px 10px 0px;
+}
+
+#content .section_comments .comment {
+  list-style: none;
+  padding: 20px 0px 20px 0px;
+}
+
+#content .section_comments .comment_author {
+	font-size: 1.2em;
+}
+
+#content .section_comments .comment_date {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+#content .section_comments .comment_entry {
+}
+
+#content .section_comments .comment_entry p {
+  line-height: 1.6em;
+}
+
+#content .section_comments .children {
+  list-style: none;
+  padding: 0px 0px 0px 40px;
+}
+
+#content .section_comments .comments #respond {
+	padding: 0px 0px 0px 40px;
+}
+
+#content .section_comments .pagination {
+	text-align: center;
+	display: block;
+}
+
+#content .section_comments .pagination a {
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+}
+
+#content .section_comments .pagination a:focus,
+#content .section_comments .pagination a:hover,
+#content .section_comments .pagination a:active {
+	text-decoration: underline;
+}
+
+#content .section_comments .pagination span {
+	padding: 0px 10px 0px 10px;
+}
+
+/***************************************************************************************************
+	sidebar
+***************************************************************************************************/
+#sidebar {
+	display: none;
+}
+
+/***************************************************************************************************
+	extras
+***************************************************************************************************/
+#extras {
+	display: none;
+}
+
+/***************************************************************************************************
+	foot
+***************************************************************************************************/
+#foot {
+}
+
+/***************************************************************************************************
+	institutional
+***************************************************************************************************/
+#institutional {
+	display: none;
+}
+
+/***************************************************************************************************
+	copyright
+***************************************************************************************************/
+#copyright {
+}
